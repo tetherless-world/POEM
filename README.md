@@ -1,2 +1,2 @@
 # POEM
-Psychometrics Ontology of Entities and Measures
+Psychometrics Ontology of Experiences and Measures
