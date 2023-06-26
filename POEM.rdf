@@ -1,0 +1,1054 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.org/ontology/SIR#"
+     xml:base="http://purl.org/ontology/SIR"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:POEM="http://purl.org/ontology/POEM#"
+     xmlns:cito="http://purl.org/spar/cito/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:void="http://rdfs.org/ns/void#"
+     xmlns:hasco="http://hadatac.org/ont/hasco/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="http://schema.org/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:elements="http://purl.org/ontology/SIR.org/dc/elements/1.1/"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:elements1="http://purl.org/ontology/POEM.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://purl.org/ontology/POEM">
+        <owl:imports rdf:resource="http://www.semanticweb.org/kelsey/ontologies/2023/2/hasco"/>
+        <dc:creator>Kelsey Rook</dc:creator>
+        <terms:description>The Psychometric Ontology of Experience and Measures provides an ontology of domain concepts for the measurement of symptoms and syndromes related to psychiatric conditions.</terms:description>
+        <terms:modified>2023-06-15</terms:modified>
+        <terms:title>Psychometric Ontology of Experience and Measures</terms:title>
+        <rdfs:isDefinedBy>http://purl.org/ontology/POEM</rdfs:isDefinedBy>
+        <rdfs:label>Psychometric Ontology of Experience and Measures (POEM)</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/ontology/POEM.org/dc/elements/1.1/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/POEM.org/dc/elements/1.1/identifier"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#notation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+        <elements1:identifier>core#notation</elements1:identifier>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/ontology/POEM#canBeExperiencedAs -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#canBeExperiencedAs">
+        <owl:inverseOf rdf:resource="http://purl.org/ontology/POEM#isExperienceOf"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/POEM#SymptomExperience"/>
+        <rdfs:label>can be experienced as</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#detects -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#detects">
+        <owl:inverseOf rdf:resource="http://purl.org/ontology/POEM#isDetectedBy"/>
+        <rdfs:domain rdf:resource="http://hadatac.org/ont/vstoi#Detector"/>
+        <rdfs:label>detects</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#estimatesCondition -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#estimatesCondition">
+        <rdfs:domain rdf:resource="http://purl.org/ontology/POEM#SyndromeScale"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+        <rdfs:label>estimates condition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#hasScale -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#hasScale">
+        <rdfs:range rdf:resource="http://purl.org/ontology/POEM#SyndromeScale"/>
+        <rdfs:label>has scale</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#hasSubscale -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#hasSubscale">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000028"/>
+        <owl:inverseOf rdf:resource="http://purl.org/ontology/POEM#isSubscaleOf"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/POEM#CompositeScale"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/POEM#SyndromeScale"/>
+        <rdfs:label>has subscale</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#hasSymptom -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#hasSymptom">
+        <owl:inverseOf rdf:resource="http://purl.org/ontology/POEM#isSymptomOf"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+        <rdfs:label>has symptom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#indicatesExperience -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#indicatesExperience">
+        <owl:inverseOf rdf:resource="http://purl.org/ontology/POEM#isIndicatedBy"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/POEM#SymptomExperience"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#isAboutCondition -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#isAboutCondition">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000332"/>
+        <owl:inverseOf rdf:resource="http://purl.org/ontology/POEM#isSubjectOfScale"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/POEM#SyndromeScale"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+        <rdfs:label>is about condition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#isDetectedBy -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#isDetectedBy">
+        <rdfs:range rdf:resource="http://hadatac.org/ont/vstoi#Detector"/>
+        <rdfs:label>is detected by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#isExperienceOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#isExperienceOf">
+        <rdfs:domain rdf:resource="http://purl.org/ontology/POEM#SymptomExperience"/>
+        <rdfs:label>is experience of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#isIndicatedBy -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#isIndicatedBy">
+        <rdfs:range rdf:resource="http://purl.org/ontology/POEM#SymptomExperience"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#isSubjectOfScale -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#isSubjectOfScale">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000629"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/POEM#SyndromeScale"/>
+        <rdfs:label>is subject of scale</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#isSubscaleOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#isSubscaleOf">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000068"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/POEM#SyndromeScale"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/POEM#CompositeScale"/>
+        <rdfs:label>is subscale of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#isSymptomOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#isSymptomOf">
+        <rdfs:domain rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+        <rdfs:label>is symptom of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000028 -->
+
+    <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000028"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000068 -->
+
+    <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000068"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000291 -->
+
+    <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000291"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://hadatac.org/ont/hasco/Attribute -->
+
+    <owl:Class rdf:about="http://hadatac.org/ont/hasco/Attribute"/>
+    
+
+
+    <!-- http://hadatac.org/ont/vstoi#Detector -->
+
+    <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Detector"/>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/102912007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/102912007">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/1144814003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/1144814003">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/1217332007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/1217332007">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/12479006 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/12479006">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/126943008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/126943008">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/191736004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/191736004">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/197480006 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/197480006">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/21897009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/21897009">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/225445003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/225445003">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/225629005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/225629005">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/247799003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247799003">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/247825008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247825008">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/247826009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247826009">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/247835002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247835002">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/247892001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247892001">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/249473004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/249473004">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/25501002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/25501002">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/28669007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/28669007">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/35489007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/35489007">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/370143000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/370143000">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/371631005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/371631005">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/43364001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/43364001">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/47295007 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/47295007">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/53888004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/53888004">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/64336009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/64336009">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/79015004 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/79015004">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/79823003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/79823003">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/84229001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/84229001">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#CompositeScale -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/POEM#CompositeScale">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#QuestionnaireScale"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/POEM#hasSubscale"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.org/ontology/POEM#SyndromeScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>composite scale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#Condition -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/POEM#Condition">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/POEM#hasSymptom"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#PsychometricQuestionnaire -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/POEM#PsychometricQuestionnaire">
+        <rdfs:subClassOf rdf:resource="http://hadatac.org/ont/vstoi#Questionnaire"/>
+        <rdfs:label>psychometric questionnaire</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#QuestionnaireScale -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/POEM#QuestionnaireScale">
+        <rdfs:label>questionnaire scale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#Symptom -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/POEM#Symptom">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000614"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/POEM#canBeExperiencedAs"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.org/ontology/POEM#SymptomExperience"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#SymptomExperience -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/POEM#SymptomExperience">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000614"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/POEM#isExperienceOf"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>symptom experience</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#SyndromeScale -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/POEM#SyndromeScale">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#QuestionnaireScale"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/ontology/POEM#isAboutCondition"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>syndrome scale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000485 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000485"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000614 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000614"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000912 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000912"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_001017 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_001017"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/102912007 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/102912007">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/1144814003 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/1144814003">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/1217332007 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/1217332007">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/12479006 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/12479006">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/126943008 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/126943008">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225629005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/191736004 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/191736004">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/12479006"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225445003"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/197480006 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/197480006">
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/102912007"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/12479006"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225445003"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225629005"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247825008"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247826009"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247835002"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/43364001"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79015004"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79823003"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/21897009 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/21897009">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/102912007"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79015004"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/225445003 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/225445003">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/225629005 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/225629005">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/247799003 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247799003">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/247825008 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247825008">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/247826009 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247826009">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/247835002 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247835002">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/247892001 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247892001">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/249473004 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/249473004">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/25501002 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/25501002">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247825008"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247826009"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247835002"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/28669007 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/28669007">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/35489007 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/35489007">
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/1144814003"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/1217332007"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247892001"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/249473004"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/28669007"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/47295007"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/53888004"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/64336009"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/84229001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/370143000 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/370143000">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/1144814003"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/1217332007"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247892001"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/249473004"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/28669007"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/47295007"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/53888004"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/64336009"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/84229001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/371631005 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/371631005">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/43364001"/>
+        <POEM:hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79823003"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/43364001 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/43364001">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/47295007 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/47295007">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/53888004 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/53888004">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/64336009 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/64336009">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/79015004 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/79015004">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/79823003 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/79823003">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/84229001 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/84229001">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#RCADS25AnxietyScale -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM#RCADS25AnxietyScale">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#CompositeScale"/>
+        <POEM:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/197480006"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#RCADS25DepressionScale -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM#RCADS25DepressionScale">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#CompositeScale"/>
+        <POEM:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/35489007"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#RCADS47GeneralizedAnxietyDisorderScale -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM#RCADS47GeneralizedAnxietyDisorderScale">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#SyndromeScale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#RCADS47MajorDepressiveDisorderScale -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM#RCADS47MajorDepressiveDisorderScale">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#SyndromeScale"/>
+        <POEM:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/370143000"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#RCADS47ObsessiveCompulsiveDisorderScale -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM#RCADS47ObsessiveCompulsiveDisorderScale">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#SyndromeScale"/>
+        <POEM:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/191736004"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#RCADS47PanicDisorderScale -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM#RCADS47PanicDisorderScale">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#SyndromeScale"/>
+        <POEM:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/371631005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#RCADS47SeparationAnxietyDisorderScale -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM#RCADS47SeparationAnxietyDisorderScale">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#SyndromeScale"/>
+        <POEM:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/126943008"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#RCADS47SocialAnxietyDisorderScale -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM#RCADS47SocialAnxietyDisorderScale">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#SyndromeScale"/>
+        <POEM:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/25501002"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#RCADS47TotalAnxietyScale -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM#RCADS47TotalAnxietyScale">
+        <rdf:type rdf:resource="http://purl.org/ontology/POEM#CompositeScale"/>
+        <POEM:hasSubscale rdf:resource="http://purl.org/ontology/POEM#RCADS47GeneralizedAnxietyDisorderScale"/>
+        <POEM:hasSubscale rdf:resource="http://purl.org/ontology/POEM#RCADS47ObsessiveCompulsiveDisorderScale"/>
+        <POEM:hasSubscale rdf:resource="http://purl.org/ontology/POEM#RCADS47PanicDisorderScale"/>
+        <POEM:hasSubscale rdf:resource="http://purl.org/ontology/POEM#RCADS47SeparationAnxietyDisorderScale"/>
+        <POEM:hasSubscale rdf:resource="http://purl.org/ontology/POEM#RCADS47SocialAnxietyDisorderScale"/>
+        <POEM:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/197480006"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/102912007">
+        <rdfs:label>fear of death</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/1144814003">
+        <rdfs:label>psychomotor retardation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/1217332007">
+        <rdfs:label>persistent sadness</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/12479006">
+        <rdfs:label>compulsive behavior</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/126943008">
+        <rdfs:label>separation anxiety</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/191736004">
+        <rdfs:label>obsessive compulsive disorder</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/197480006">
+        <rdfs:label>anxiety disorder</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/21897009">
+        <rdfs:label>generalized anxiety disorder</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/225445003">
+        <rdfs:label>intrusive thoughts</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/225629005">
+        <rdfs:label>fear of being left alone</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247799003">
+        <rdfs:comment>No more specific mapping in SNOMED exists to symptom &quot;worry about future&quot;</rdfs:comment>
+        <rdfs:label>pessimistic</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247825008">
+        <rdfs:label>anxiety about behaviour or performance</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247826009">
+        <rdfs:label>fear of appearing ridiculous</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247835002">
+        <rdfs:label>fear of public speaking</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247892001">
+        <rdfs:label>self-depreciation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/249473004">
+        <rdfs:label>altered appetite</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/25501002">
+        <rdfs:label>social phobia</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/28669007">
+        <rdfs:label>anhedonia</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/35489007">
+        <rdfs:label>depressive disorder</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/370143000">
+        <rdfs:label>major depressive disorder</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/371631005">
+        <rdfs:label>panic disorder</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/43364001">
+        <rdfs:comment>More appropriate SNOMED mapping does not exist to cover abdominal discomfort/nausea as caused by anxiety</rdfs:comment>
+        <rdfs:label>abdominal discomfort</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/47295007">
+        <rdfs:label>psychomotor agitation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/53888004">
+        <rdfs:label>disturbance in sleep behavior</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/64336009">
+        <rdfs:label>incoherent thinking</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/79015004">
+        <rdfs:comment>No more specific mapping to symptom &quot;worry about future panic attacks&quot; in SNOMED</rdfs:comment>
+        <rdfs:comment>No more specific mapping to symptom &quot;worry about sleep/reluctance to sleep&quot; in SNOMED</rdfs:comment>
+        <rdfs:label>worry</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/79823003">
+        <rdfs:label>panic</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/84229001">
+        <rdfs:label>fatigue</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
