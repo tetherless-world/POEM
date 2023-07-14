@@ -4,7 +4,7 @@ title: Ontology
 
 ### Conceptual Diagram
 
-![POEM Conceptual Diagram](images/POEM_UML.png)
+![POEM Conceptual Diagram](images/POEM_uml.PNG)
 
 This diagram gives an overview of important concepts included in the POEM ontology.
 
