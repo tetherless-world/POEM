@@ -18,6 +18,6 @@ Henrique Santos, oliveh@rpi.edu
 
 - [Demo](demo.md)
 
-- [Presentations](presentations.md)
+- [Documents](documents.md)
 
 - [Future Work](future.md)
