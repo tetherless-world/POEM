@@ -27,9 +27,9 @@ Each Response Option to an Item indicates some Symptom Experience; e.g. in Quest
 
 | Ontology                                | Prefix | Resource                                                                                     |
 |-----------------------------------------|--------|----------------------------------------------------------------------------------------------|
-| Human-Aware Science Ontology            | hasco  | [https://hadatac.org/description/ont/hasco][https://hadatac.org/description/ont/hasco]       |
-| Virtual Solar Terrestrial Observatory   | vsto   | [https://hadatac.org/description/ont/vstoi][https://hadatac.org/description/ont/vstoi]       |
-| Semanticscience Integrated Ontology     | sio    | [https://semanticscience.org/ontology/sio.owl][https://semanticscience.org/ontology/sio.owl] |
+| Human-Aware Science Ontology            | hasco  | [https://hadatac.org/description/ont/hasco](https://hadatac.org/description/ont/hasco)       |
+| Virtual Solar Terrestrial Observatory   | vsto   | [https://hadatac.org/description/ont/vstoi](https://hadatac.org/description/ont/vstoi)       |
+| Semanticscience Integrated Ontology     | sio    | [https://semanticscience.org/ontology/sio.owl](https://semanticscience.org/ontology/sio.owl) |
 
 [poem-current]: https://raw.githubusercontent.com/tetherless-world/POEM/main/POEM.rdf?token=GHSAT0AAAAAACFDP63DLXPW45SZMFHELD2MZFRZDSQ
 [poem-rcads-current]: https://raw.githubusercontent.com/tetherless-world/POEM/main/POEM-RCADS.rdf?token=GHSAT0AAAAAACFDP63DRO54JNYJXFSIXKGUZFRZMIQ
