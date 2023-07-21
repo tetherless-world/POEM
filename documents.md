@@ -1,3 +1,9 @@
+---
+layout: single
+sidebar:
+        nav: "docs"
+---
+
 ### Publications
 
 Santos, H., Rook, K., Pinheiro, P., Gruen, D. M., Chorpita, B. F., & McGuinness, D. L. (2023, May). Facilitating Reuse of Mental Health Questionnaires via Knowledge Graphs. The Healthcare and Life Sciences Symposium. [Abstract](https://dspace.rpi.edu/handle/20.500.13015/6626), [Presentation](santos2023facilitation)

@@ -1,0 +1,13 @@
+docs:
+  - title: "Ontology"
+    url: /ontology
+  - title: "Use Case"
+    url: /usecase
+  - title: "Terminology"
+    url: /terms
+  - title: "Demo"
+    url: /demo
+  - title: "Documents"
+    url: /documents
+  - title: "Future Work"
+    url: /future

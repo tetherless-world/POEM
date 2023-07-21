@@ -1,5 +1,8 @@
 ---
 title: Ontology
+layout: single
+sidebar:
+        nav: "docs"
 ---
 
 ### Conceptual Diagram
