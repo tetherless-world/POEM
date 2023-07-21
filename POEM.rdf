@@ -79,6 +79,17 @@
     
 
 
+    <!-- http://purl.org/ontology/POEM#canRespondTo -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#canRespondTo">
+        <owl:inverseOf rdf:resource="http://purl.org/ontology/POEM#hasPossibleRespondant"/>
+        <rdfs:domain rdf:resource="http://semanticscience.org/resource/SIO_000485"/>
+        <rdfs:range rdf:resource="http://hadatac.org/ont/vstoi#Questionnaire"/>
+        <rdfs:label>can respond to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.org/ontology/POEM#detects -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#detects">
@@ -99,10 +110,23 @@
     
 
 
+    <!-- http://purl.org/ontology/POEM#hasPossibleRespondant -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#hasPossibleRespondant">
+        <rdfs:domain rdf:resource="http://hadatac.org/ont/vstoi#Questionnaire"/>
+        <rdfs:range rdf:resource="http://semanticscience.org/resource/SIO_000485"/>
+        <rdfs:label>has possible respondant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.org/ontology/POEM#hasScale -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#hasScale">
-        <rdfs:range rdf:resource="http://purl.org/ontology/POEM#SyndromeScale"/>
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000028"/>
+        <owl:inverseOf rdf:resource="http://purl.org/ontology/POEM#isScaleIn"/>
+        <rdfs:domain rdf:resource="http://purl.org/ontology/POEM#PsychometricQuestionnaire"/>
+        <rdfs:range rdf:resource="http://purl.org/ontology/POEM#QuestionnaireScale"/>
         <rdfs:label>has scale</rdfs:label>
     </owl:ObjectProperty>
     
@@ -126,6 +150,16 @@
         <owl:inverseOf rdf:resource="http://purl.org/ontology/POEM#isSymptomOf"/>
         <rdfs:range rdf:resource="http://purl.org/ontology/POEM#Symptom"/>
         <rdfs:label>has symptom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#hasTarget -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#hasTarget">
+        <rdfs:domain rdf:resource="http://purl.org/ontology/POEM#PsychometricQuestionnaire"/>
+        <rdfs:range rdf:resource="http://semanticscience.org/resource/SIO_000485"/>
+        <rdfs:label>has target</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -173,6 +207,15 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#isIndicatedBy">
         <rdfs:range rdf:resource="http://purl.org/ontology/POEM#SymptomExperience"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#isScaleIn -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ontology/POEM#isScaleIn">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000068"/>
+        <rdfs:label>is scale in</rdfs:label>
     </owl:ObjectProperty>
     
 

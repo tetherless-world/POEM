@@ -337,8 +337,11 @@
         <vstoi:hasItem rdf:resource="http://purl.org/ontology/POEM-RCADS#763f921a-7500-4a84-b779-29f55adb0e96"/>
         <vstoi:hasItem rdf:resource="http://purl.org/ontology/POEM-RCADS#7890eeef-3025-4d9a-9626-af396a53af6d"/>
         <vstoi:hasItem rdf:resource="http://purl.org/ontology/POEM-RCADS#8f5e8e01-ce54-4472-9773-4a8788503bff"/>
+        <poem:hasPossibleRespondant rdf:resource="http://purl.org/ontology/POEM-RCADS#Caregiver"/>
+        <poem:hasPossibleRespondant rdf:resource="http://purl.org/ontology/POEM-RCADS#youth"/>
         <poem:hasScale rdf:resource="http://purl.org/ontology/POEM#RCADS25AnxietyScale"/>
         <poem:hasScale rdf:resource="http://purl.org/ontology/POEM#RCADS25DepressionScale"/>
+        <poem:hasTarget rdf:resource="http://purl.org/ontology/POEM-RCADS#youth"/>
     </owl:NamedIndividual>
     
 
@@ -1904,6 +1907,7 @@
         <poem:hasScale rdf:resource="http://purl.org/ontology/POEM#RCADS47SeparationAnxietyDisorderScale"/>
         <poem:hasScale rdf:resource="http://purl.org/ontology/POEM#RCADS47SocialAnxietyDisorderScale"/>
         <poem:hasScale rdf:resource="http://purl.org/ontology/POEM#RCADS47TotalAnxietyScale"/>
+        <poem:hasTarget rdf:resource="http://purl.org/ontology/POEM-RCADS#youth"/>
     </owl:NamedIndividual>
     
 
