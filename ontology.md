@@ -22,9 +22,15 @@ Each Response Option to an Item indicates some Symptom Experience; e.g. in Quest
 ### Ontology
 
 - [POEM][poem-current]
+
+### Example Usage
+
 - [POEM-RCADS][poem-rcads-current]
   - An example usage of the POEM ontology, showing how it is able to model questionnaires using the Revised Children's Anxiety and Depression Scale (RCADS)- full 47-item version and shorter 25-item version included.
   - [Revised Children's Anxiety and Depression Scale](https://www.childfirst.ucla.edu/resources/) created by Dr. Bruce Chorpita (UCLA)
+- RCADS Item Bank with primary RCADS classes as each column (Note: medical terms are mapped to [SNOMED-CT](https://browser.ihtsdotools.org/?) and DSM 4/5 when possible). Information in green columns are available by viewing an RCADS questionnaire document, blue columns show information available in RCADS documentation, and red columns show semantic information provided by the team behind the creation and maintenance of the RCADS.
+
+<iframe height="600" width="100%" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT2HBqddB5CrCGWq3awaNIMcpHjOE_ugQcsE0Jfj2U3g2EXSv6XSIB5FbID59RwbeGEapQ-d-GOw6jl/pubhtml?gid=1495634589&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 ### Ontologies Reused
 
