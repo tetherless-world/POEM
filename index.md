@@ -22,4 +22,4 @@ Henrique Santos, oliveh@rpi.edu
 
 - [Documents](documents.md)
 
-- [Future Work](future.md)
+- [About](about.md)
