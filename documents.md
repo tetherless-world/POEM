@@ -2,6 +2,7 @@
 layout: single
 sidebar:
         nav: "docs"
+title: "Documents"
 ---
 
 ### Publications
