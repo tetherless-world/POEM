@@ -5,8 +5,8 @@ minimal_mistakes_skin   : "default"
 title                   : "POEM"
 title_separator         : " "
 subtitle                : "Psychometric Ontology of Experiences and Measures"
-url                     : "https://tetherless-world.github.io/POEM/"
-baseurl                 : ""
+url                     : "https://tetherless-world.github.io"
+baseurl                 : "/POEM"
 repository              : "tetherless-world/POEM"
 logo                    :
 masthead_title          :
