@@ -5,6 +5,21 @@ sidebar:
         nav: "docs"
 ---
 
+## Contributors
+
+Developers:
+- [Tetherless World Constellation at RPI](https://tw.rpi.edu/)
+  - Rook, Kelsey (rookk@rpi.edu)
+  - Santos, Henrique (oliveh@rpi.edu)
+
+Subject Matter Experts & Co-Developers:
+- [Child FIRST at UCLA](https://www.childfirst.ucla.edu/)
+  - Bruce F. Chorpita
+  - Manuel S. Sprung
+  - Hyun Seon Park
+  - Ben Isenberg
+
+
 ## Maintenance Policy
 
 Our maintenance policy aims to ensure that our data remains available for use as long as possible. 
@@ -19,5 +34,5 @@ Our maintenance policy aims to ensure that our data remains available for use as
 
 If you are interested in contributing to POEM or have other ideas or suggestions, please contact us at the emails below:
 
-- Rook, Kelsey (rookk@rpi.edu)
-- Santos, Henrique (oliveh@rpi.edu)
+- Kelsey Rook (rookk@rpi.edu)
+- Henrique Santos (oliveh@rpi.edu)
