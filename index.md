@@ -22,6 +22,6 @@ Henrique Santos, oliveh@rpi.edu
 
 - [Demo](demo.md)
 
-- [Documents](documents.md)
+- [Publications](publications.md)
 
 - [About](about.md)
