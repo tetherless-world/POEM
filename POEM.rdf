@@ -22,6 +22,7 @@
      xmlns:resource="http://semanticscience.org/resource/"
      xmlns:elements1="http://purl.org/ontology/POEM.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.org/ontology/POEM">
+        <owl:imports rdf:resource="http://hadatac.org/ont/vstoi/0.4"/>
         <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <owl:imports rdf:resource="http://www.semanticweb.org/kelsey/ontologies/2023/2/hasco"/>
         <dc:creator>Kelsey Rook</dc:creator>
@@ -48,6 +49,12 @@
     <!-- http://purl.org/ontology/POEM.org/dc/elements/1.1/identifier -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/ontology/POEM.org/dc/elements/1.1/identifier"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
     
 
 
@@ -184,7 +191,7 @@
         <rdfs:range rdf:resource="http://purl.org/ontology/POEM#Condition"/>
         <rdfs:label>is about condition</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.org/ontology/POEM#isDetectedBy -->
@@ -330,7 +337,7 @@
     <!-- http://purl.bioontology.org/ontology/SNOMEDCT/126943008 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/126943008">
-        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Disorder"/>
     </owl:Class>
     
 
@@ -338,7 +345,7 @@
     <!-- http://purl.bioontology.org/ontology/SNOMEDCT/191736004 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/191736004">
-        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Disorder"/>
     </owl:Class>
     
 
@@ -346,7 +353,7 @@
     <!-- http://purl.bioontology.org/ontology/SNOMEDCT/197480006 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/197480006">
-        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Disorder"/>
     </owl:Class>
     
 
@@ -354,7 +361,7 @@
     <!-- http://purl.bioontology.org/ontology/SNOMEDCT/21897009 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/21897009">
-        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Disorder"/>
     </owl:Class>
     
 
@@ -426,7 +433,7 @@
     <!-- http://purl.bioontology.org/ontology/SNOMEDCT/25501002 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/25501002">
-        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Disorder"/>
     </owl:Class>
     
 
@@ -442,7 +449,7 @@
     <!-- http://purl.bioontology.org/ontology/SNOMEDCT/35489007 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/35489007">
-        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Disorder"/>
     </owl:Class>
     
 
@@ -450,7 +457,7 @@
     <!-- http://purl.bioontology.org/ontology/SNOMEDCT/370143000 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/370143000">
-        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Disorder"/>
     </owl:Class>
     
 
@@ -458,7 +465,7 @@
     <!-- http://purl.bioontology.org/ontology/SNOMEDCT/371631005 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/371631005">
-        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Disorder"/>
     </owl:Class>
     
 
@@ -547,6 +554,17 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>condition</rdfs:label>
+        <skos:definition>an entity typically representing an elevation on a syndrome</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#Disorder -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/POEM#Disorder">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/POEM#Condition"/>
+        <rdfs:label>disorder</rdfs:label>
+        <skos:definition>a disease entity typically representing a non-normative elevation on a syndrome in conjuction with marked distress or impairment</skos:definition>
     </owl:Class>
     
 
@@ -564,6 +582,7 @@
 
     <owl:Class rdf:about="http://purl.org/ontology/POEM#QuestionnaireScale">
         <rdfs:label>questionnaire scale</rdfs:label>
+        <skos:definition>a collection of indicators designed to be related to a shared construct</skos:definition>
     </owl:Class>
     
 
@@ -580,6 +599,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>symptom</rdfs:label>
+        <skos:definition>a type of behavior, emotion, or thought that is indicative of a syndrome (or a disorder, indirectly)</skos:definition>
     </owl:Class>
     
 
@@ -636,7 +656,9 @@
 
     <!-- http://semanticscience.org/resource/SIO_001017 -->
 
-    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_001017"/>
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_001017">
+        <skos:definition>a sufficient set of co-occuring symptoms believed to represent an underlying phenomenon with dimensional properties</skos:definition>
+    </owl:Class>
     
 
 
