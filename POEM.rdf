@@ -22,7 +22,7 @@
      xmlns:resource="http://semanticscience.org/resource/"
      xmlns:elements1="http://purl.org/ontology/POEM.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.org/ontology/POEM">
-        <owl:imports rdf:resource="http://hadatac.org/ont/vstoi/0.4"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/HADatAc/ontologies/main/vstoi.owl"/>
         <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <owl:imports rdf:resource="http://hadatac.org/ont/hasco"/>
         <dc:creator>Kelsey Rook</dc:creator>
