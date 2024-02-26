@@ -5,28 +5,36 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:sir="http://purl.org/ontology/SIR#"
+     xmlns:swa="http://topbraid.org/swa#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:cito="http://purl.org/spar/cito/"
+     xmlns:dash="http://datashapes.org/dash#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:poem="http://purl.org/ontology/POEM#"
      xmlns:prov="http://www.w3.org/ns/prov#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:tosh="http://topbraid.org/tosh#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:void="http://rdfs.org/ns/void#"
      xmlns:hasco="http://hadatac.org/ont/hasco/"
+     xmlns:model="http://edg.topbraid.solutions/model/"
+     xmlns:shacl="http://www.w3.org/ns/shacl#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:vstoi="http://hadatac.org/ont/vstoi#"
      xmlns:hasco1="http://www.semanticweb.org/kelsey/ontologies/2023/2/hasco#"
      xmlns:schema="http://schema.org/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:elements="http://purl.org/ontology/SIR.org/dc/elements/1.1/"
+     xmlns:metadata="http://topbraid.org/metadata#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:resource="http://semanticscience.org/resource/"
      xmlns:elements1="http://purl.org/ontology/POEM.org/dc/elements/1.1/"
+     xmlns:elements2="http://purl.org/twc/poem.org/dc/elements/1.1/"
      xmlns:ontodebug="http://ainf.aau.at/ontodebug#">
     <owl:Ontology rdf:about="http://purl.org/ontology/POEM-RCADS">
-        <owl:imports rdf:resource="http://purl.org/ontology/POEM"/>
+        <owl:imports rdf:resource="http://purl.org/twc/poem"/>
     </owl:Ontology>
     
 
@@ -64,9 +72,51 @@
     
 
 
+    <!-- http://hadatac.org/ont/vstoi#hasItem -->
+
+    <owl:AnnotationProperty rdf:about="http://hadatac.org/ont/vstoi#hasItem"/>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#detects -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/POEM#detects"/>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#hasPossibleRespondant -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/POEM#hasPossibleRespondant"/>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#hasScale -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/POEM#hasScale"/>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#hasTarget -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/POEM#hasTarget"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kelsey/ontologies/2023/2/hasco#hasLanguage -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/kelsey/ontologies/2023/2/hasco#hasLanguage"/>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#notation -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasDerivedFrom -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/prov#wasDerivedFrom"/>
     
 
 
@@ -119,6 +169,12 @@
     <!-- http://hadatac.org/ont/vstoi#ResponseOption -->
 
     <owl:Class rdf:about="http://hadatac.org/ont/vstoi#ResponseOption"/>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#PsychometricQuestionnaire -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/POEM#PsychometricQuestionnaire"/>
     
 
 
@@ -299,11 +355,93 @@
     
 
 
+    <!-- http://purl.org/ontology/POEM#RCADS25AnxietyScale -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM#RCADS25AnxietyScale"/>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#RCADS47SocialAnxietyDisorderScale -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM#RCADS47SocialAnxietyDisorderScale"/>
+    
+
+
+    <!-- http://purl.org/ontology/POEM#RCADS47TotalAnxietyScale -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM#RCADS47TotalAnxietyScale"/>
+    
+
+
     <!-- http://purl.org/ontology/POEM-RCADS#Caregiver -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#Caregiver">
         <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_000485"/>
         <rdfs:label>caregiver</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/POEM-RCADS#Cohort-Chorpita2000-Full-Study1 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#Cohort-Chorpita2000-Full-Study1">
+        <rdf:type rdf:resource="http://hadatac.org/ont/hasco/Cohort"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/POEM-RCADS#Cohort-Chorpita2000-Full-Study2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#Cohort-Chorpita2000-Full-Study2">
+        <rdf:type rdf:resource="http://hadatac.org/ont/hasco/Study"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/POEM-RCADS#Cohort-Chorpita2000-Study2-Retest6-12 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#Cohort-Chorpita2000-Study2-Retest6-12">
+        <rdf:type rdf:resource="http://hadatac.org/ont/hasco/Cohort"/>
+        <resource:SIO_000008 rdf:resource="http://purl.org/ontology/POEM-RCADS#Cohort-Chorpita2000-Study2-Retest6-12-Count"/>
+        <resource:SIO_000008 rdf:resource="http://purl.org/ontology/POEM-RCADS#Cohort-Chorpita2000-Study2-Retest6-12-MaxAge"/>
+        <resource:SIO_000008 rdf:resource="http://purl.org/ontology/POEM-RCADS#Cohort-Chorpita2000-Study2-Retest6-12-MinAge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/POEM-RCADS#Cohort-Chorpita2000-Study2-Retest6-12-Count -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#Cohort-Chorpita2000-Study2-Retest6-12-Count">
+        <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_000794"/>
+        <resource:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">68</resource:SIO_000300>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/POEM-RCADS#Cohort-Chorpita2000-Study2-Retest6-12-MaxAge -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#Cohort-Chorpita2000-Study2-Retest6-12-MaxAge">
+        <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_001013"/>
+        <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_001114"/>
+        <resource:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</resource:SIO_000300>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/POEM-RCADS#Cohort-Chorpita2000-Study2-Retest6-12-MinAge -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#Cohort-Chorpita2000-Study2-Retest6-12-MinAge">
+        <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_001013"/>
+        <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_001113"/>
+        <resource:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</resource:SIO_000300>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/POEM-RCADS#Cohort-Chorpita2000-Study2-RetestGirls -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#Cohort-Chorpita2000-Study2-RetestGirls">
+        <rdf:type rdf:resource="http://hadatac.org/ont/hasco/Cohort"/>
     </owl:NamedIndividual>
     
 
@@ -1912,14 +2050,30 @@
     
 
 
+    <!-- http://purl.org/ontology/POEM-RCADS#Study-Chorpita-2000-Original-Study1 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#Study-Chorpita-2000-Original-Study1">
+        <rdf:type rdf:resource="http://hadatac.org/ont/hasco/Study"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/ontology/POEM-RCADS#Study-Chorpita-2000-Original-Study2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#Study-Chorpita-2000-Original-Study2">
+        <rdf:type rdf:resource="http://hadatac.org/ont/hasco/Study"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/ontology/POEM-RCADS#a1c974a1-7b7c-402b-9aa5-45f4ce998b96 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#a1c974a1-7b7c-402b-9aa5-45f4ce998b96">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#234ff3ed-fe84-4384-9a11-3235678591e4"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me da miedo cuando tengo un examen.</rdfs:label>
         <skos:notation>RCADS47Item7_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#234ff3ed-fe84-4384-9a11-3235678591e4"/>
     </owl:NamedIndividual>
     
 
@@ -1943,10 +2097,10 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#a8353a81-1fd5-4b90-85e5-fa38365962a9">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#3b96f08f-bf0c-47eb-a4e6-7eb6a1fda486"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Tengo problemas con mi apetito.</rdfs:label>
         <skos:notation>RCADS47Item15_25Item10_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#3b96f08f-bf0c-47eb-a4e6-7eb6a1fda486"/>
     </owl:NamedIndividual>
     
 
@@ -1970,11 +2124,11 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#b02c76ce-1656-455d-a471-e611347b0d86">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#31e88c71-907a-4bdb-ab9b-aabdfccf5781"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me preocupa que vaya a salir mal en mi trabajo de la
 escuela.</rdfs:label>
         <skos:notation>RCADS47Item12_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#31e88c71-907a-4bdb-ab9b-aabdfccf5781"/>
     </owl:NamedIndividual>
     
 
@@ -2028,10 +2182,10 @@ escuela.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#b5b8d22b-b903-4491-9566-43f65ca2ea1b">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#f758cf97-733c-4e50-8d51-1fbc5410cfae"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me preocupo sobre las cosas.</rdfs:label>
         <skos:notation>RCADS47Item1_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#f758cf97-733c-4e50-8d51-1fbc5410cfae"/>
     </owl:NamedIndividual>
     
 
@@ -2040,11 +2194,11 @@ escuela.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#ba8d4b60-70c5-4d3f-ad6c-94abd3473321">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#d06521d0-23e4-485e-a3cf-1ebf1db6d4ce"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Comienzo a temblar o a estremecerme aun cuando no hay
 razón alguna para sentirme así.</rdfs:label>
         <skos:notation>RCADS47Item26_25Item14_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#d06521d0-23e4-485e-a3cf-1ebf1db6d4ce"/>
     </owl:NamedIndividual>
     
 
@@ -2053,10 +2207,10 @@ razón alguna para sentirme así.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#bca3905c-02f8-4616-bd68-e80bac295795">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#580ddf63-8552-4455-a1e9-b410a8c8f7ec"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me preocupa hacer el ridículo.</rdfs:label>
         <skos:notation>RCADS47Item20_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#580ddf63-8552-4455-a1e9-b410a8c8f7ec"/>
     </owl:NamedIndividual>
     
 
@@ -2065,10 +2219,10 @@ razón alguna para sentirme así.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#bdb172e3-208d-4bf6-bd86-aec62c414b6e">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#f1026e43-178a-4c52-8048-cc9548fb5776"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me da miedo el dormir solo/a.</rdfs:label>
         <skos:notation>RCADS47Item17_25Item9_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#f1026e43-178a-4c52-8048-cc9548fb5776"/>
     </owl:NamedIndividual>
     
 
@@ -2077,11 +2231,11 @@ razón alguna para sentirme así.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#beddcf69-8c88-44d0-bbc7-b7f55b83867d">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#8f5e8e01-ce54-4472-9773-4a8788503bff"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Tengo que pensar en pensamientos especiales (como
 números o palabras) para evitar que sucedan cosas malas.</rdfs:label>
         <skos:notation>RCADS47Item31_25Item17_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#8f5e8e01-ce54-4472-9773-4a8788503bff"/>
     </owl:NamedIndividual>
     
 
@@ -2090,11 +2244,11 @@ números o palabras) para evitar que sucedan cosas malas.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#bee6fd83-e7a7-4932-878e-5449edcfcc88">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#c14878a5-d09a-418a-9772-394739160280"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>De repente siento como si no pudiera respirar aun sin haber
 alguna razón para sentirme así.</rdfs:label>
         <skos:notation>RCADS47Item14_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#c14878a5-d09a-418a-9772-394739160280"/>
     </owl:NamedIndividual>
     
 
@@ -2179,10 +2333,10 @@ alguna razón para sentirme así.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#c23388a9-e3b3-4cbc-aa37-1ddf039ce587">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#a1f0a1ca-a60c-464d-980e-58e8878013c4"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>No tengo energía para hacer las cosas.</rdfs:label>
         <skos:notation>RCADS47Item19_25Item13_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#a1f0a1ca-a60c-464d-980e-58e8878013c4"/>
     </owl:NamedIndividual>
     
 
@@ -2221,10 +2375,10 @@ alguna razón para sentirme así.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#c7c2553a-f370-43df-9d4e-f0bdd48e8906">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#763f921a-7500-4a84-b779-29f55adb0e96"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Estoy cansado/a con mucha frecuencia.</rdfs:label>
         <skos:notation>RCADS47Item21_25Item21_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#763f921a-7500-4a84-b779-29f55adb0e96"/>
     </owl:NamedIndividual>
     
 
@@ -2263,10 +2417,10 @@ alguna razón para sentirme así.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#cce93c9f-5a76-46de-90e2-9a4135086271">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#aab41a6e-4008-4f8b-9b62-bcde4c239a54"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Pienso acerca de la muerte.</rdfs:label>
         <skos:notation>RCADS47Item37_25Item18_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#aab41a6e-4008-4f8b-9b62-bcde4c239a54"/>
     </owl:NamedIndividual>
     
 
@@ -2290,10 +2444,10 @@ alguna razón para sentirme así.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#d0b0e767-e142-46a0-b19a-c605791a94bf">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#73d2a5b8-0c6d-417c-93a8-c9507c4b2717"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me preocupa de que algo malo me vaya a suceder.</rdfs:label>
         <skos:notation>RCADS47Item27_25Item25_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#73d2a5b8-0c6d-417c-93a8-c9507c4b2717"/>
     </owl:NamedIndividual>
     
 
@@ -2302,10 +2456,10 @@ alguna razón para sentirme así.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#d0ff5017-a79a-48d3-845a-5d07016bb2ba">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#bf257105-0c71-4f7c-afa8-b46fde79b6a3"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Cuando tengo algún problema, me siento tembloroso/a.</rdfs:label>
         <skos:notation>RCADS47Item28_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#bf257105-0c71-4f7c-afa8-b46fde79b6a3"/>
     </owl:NamedIndividual>
     
 
@@ -2314,10 +2468,10 @@ alguna razón para sentirme así.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#d33bd533-cf81-48d9-a91a-f6494222bd91">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#c05bccdd-9ac4-464e-a13f-dbf7c07922a8"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me preocupa el estar alejado/a de mis padres.</rdfs:label>
         <skos:notation>RCADS47Item9_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#c05bccdd-9ac4-464e-a13f-dbf7c07922a8"/>
     </owl:NamedIndividual>
     
 
@@ -2326,11 +2480,11 @@ alguna razón para sentirme así.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#dc557507-6c11-470f-a06a-841583e24f51">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#b3345c7b-2e43-413c-adff-47be3c2147bf"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>No parece que pueda quitarme los pensamientos malos o
 ridículos de la mente.</rdfs:label>
         <skos:notation>RCADS47Item23_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#b3345c7b-2e43-413c-adff-47be3c2147bf"/>
     </owl:NamedIndividual>
     
 
@@ -2370,10 +2524,10 @@ ridículos de la mente.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#e5b5efaa-7a3a-478f-9a50-44a35afdfece">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#13fbba78-3edc-46a6-8233-5e48a504c419"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me preocupa cometer errores.</rdfs:label>
         <skos:notation>RCADS47Item30_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#13fbba78-3edc-46a6-8233-5e48a504c419"/>
     </owl:NamedIndividual>
     
 
@@ -2382,11 +2536,11 @@ ridículos de la mente.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#e7fc8e2f-5721-47d6-aaac-097f1c41c9e1">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#36840cea-e304-49f2-ac42-4a60e999a487"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me siento de repente con mucho miedo sin haber alguna
 razón.</rdfs:label>
         <skos:notation>RCADS47Item34_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#36840cea-e304-49f2-ac42-4a60e999a487"/>
     </owl:NamedIndividual>
     
 
@@ -2440,12 +2594,12 @@ razón.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#f93c8980-75e8-4d42-a472-6f0780c96310">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#75e0831e-e69f-46c5-86c7-a5b9cf4c9c28"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me da miedo estar en lugares concurridos (con mucha gente
 como en los centros comerciales, las películas, los
 autobuses, sitios de recreo llenos).</rdfs:label>
         <skos:notation>RCADS47Item33_25Item6_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#75e0831e-e69f-46c5-86c7-a5b9cf4c9c28"/>
     </owl:NamedIndividual>
     
 
@@ -2458,10 +2612,10 @@ autobuses, sitios de recreo llenos).</rdfs:label>
         <vstoi:hasResponseOption rdf:resource="http://purl.org/ontology/POEM-RCADS#RCADS47Item32Never"/>
         <vstoi:hasResponseOption rdf:resource="http://purl.org/ontology/POEM-RCADS#RCADS47Item32Often"/>
         <vstoi:hasResponseOption rdf:resource="http://purl.org/ontology/POEM-RCADS#RCADS47Item32Sometimes"/>
-        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247825008"/>
         <resource:SIO_000068 rdf:resource="http://purl.org/ontology/POEM#RCADS25AnxietyScale"/>
         <resource:SIO_000068 rdf:resource="http://purl.org/ontology/POEM#RCADS47SocialAnxietyDisorderScale"/>
         <resource:SIO_000068 rdf:resource="http://purl.org/ontology/POEM#RCADS47TotalAnxietyScale"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247825008"/>
         <hasco1:hasLanguage>en</hasco1:hasLanguage>
         <rdfs:label>I worry what other people think of me.</rdfs:label>
         <skos:notation>RCADS47Item32_25Item7</skos:notation>
@@ -2481,10 +2635,10 @@ autobuses, sitios de recreo llenos).</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#0fb29a48-f68d-490d-a623-fc2a7c2f495b">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#7b6b48d2-cc40-4b4a-b792-4343ec9b803d"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Cuando tengo algún problema, mi corazón late muy rápido.</rdfs:label>
         <skos:notation>RCADS47Item24_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#7b6b48d2-cc40-4b4a-b792-4343ec9b803d"/>
     </owl:NamedIndividual>
     
 
@@ -2509,11 +2663,11 @@ autobuses, sitios de recreo llenos).</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#1c6c5c3e-5767-4d41-90b8-d23c8abe1957">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#5a45c1e6-b98b-40f2-8b01-70e155fcbc0f"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me siento con miedo si tengo que hablar en frente de la
 clase.</rdfs:label>
         <skos:notation>RCADS47Item38_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#5a45c1e6-b98b-40f2-8b01-70e155fcbc0f"/>
     </owl:NamedIndividual>
     
 
@@ -2538,10 +2692,10 @@ clase.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#15e3e4d5-ff86-46e4-8a8a-a2ad84824f9b">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#323144fb-4174-44bd-b40c-23674a4c45ff"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me preocupo cuando estoy en la cama en la noche.</rdfs:label>
         <skos:notation>RCADS47Item45_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#323144fb-4174-44bd-b40c-23674a4c45ff"/>
     </owl:NamedIndividual>
     
 
@@ -2565,11 +2719,11 @@ clase.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#2f6f024d-a1e8-4928-8799-f2d588d17a85">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#e410d09c-4e69-490d-8f8a-f37035d38bcc"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me preocupa que algo terrible le vaya a pasar a alguien de
 mi familia.</rdfs:label>
         <skos:notation>RCADS47Item13_25Item5_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#e410d09c-4e69-490d-8f8a-f37035d38bcc"/>
     </owl:NamedIndividual>
     
 
@@ -2639,10 +2793,10 @@ mi familia.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#28b2065b-b1f4-4808-a2eb-1b98662f425a">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#fd88558c-a9bc-434f-91dc-8a3a9e6982f3"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me preocupa lo que los demás piensen de mi .</rdfs:label>
         <skos:notation>RCADS47Item32_25Item7_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#fd88558c-a9bc-434f-91dc-8a3a9e6982f3"/>
     </owl:NamedIndividual>
     
 
@@ -2651,10 +2805,10 @@ mi familia.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#29d41e63-de15-4b8a-9405-862adf0005c7">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#c73850b0-77c4-4068-90f5-baf54a29770f"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me siento como que no quiero moverme.</rdfs:label>
         <skos:notation>RCADS47Item40_25Item19_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#c73850b0-77c4-4068-90f5-baf54a29770f"/>
     </owl:NamedIndividual>
     
 
@@ -2755,10 +2909,10 @@ mi familia.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#4bf0c836-23d2-47d8-9d69-667e2a15d93d">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#9db20e6c-9ae2-4724-8531-b9801194b30b"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me preocupa que me vayan a ocurrir cosas malas.</rdfs:label>
         <skos:notation>RCADS47Item22_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#9db20e6c-9ae2-4724-8531-b9801194b30b"/>
     </owl:NamedIndividual>
     
 
@@ -2812,10 +2966,10 @@ mi familia.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#5cc0bfaa-140a-4919-bcba-1b59394dc636">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#3290f3d7-b168-4906-a347-28a79166500f"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me preocupa de lo que vaya a pasar.</rdfs:label>
         <skos:notation>RCADS47Item35_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#3290f3d7-b168-4906-a347-28a79166500f"/>
     </owl:NamedIndividual>
     
 
@@ -2824,10 +2978,10 @@ mi familia.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#5601d0cc-e565-44a7-b553-60d8923ccf1f">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#2375b0bd-3f7b-494e-aa07-126439e11b56"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me da miedo tener que estar solo/a en casa.</rdfs:label>
         <skos:notation>RCADS47Item5_25Item3_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#2375b0bd-3f7b-494e-aa07-126439e11b56"/>
     </owl:NamedIndividual>
     
 
@@ -2836,10 +2990,10 @@ mi familia.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#58b3edc0-bec3-45d5-945e-d7cc6eff15e0">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#0712cfff-386e-4e0d-805e-c7d0f09d2cf8"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me preocupo cuando pienso que no hice algo bien.</rdfs:label>
         <skos:notation>RCADS47Item4_25Item2_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#0712cfff-386e-4e0d-805e-c7d0f09d2cf8"/>
     </owl:NamedIndividual>
     
 
@@ -2864,10 +3018,10 @@ mi familia.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#6c0016aa-265b-41c8-8560-eb8d6b33b147">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#ca54007d-a907-4c26-8cbe-975093242feb"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me daría miedo si tuviera que pasar la noche fuera de casa.</rdfs:label>
         <skos:notation>RCADS47Item46_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#ca54007d-a907-4c26-8cbe-975093242feb"/>
     </owl:NamedIndividual>
     
 
@@ -2876,11 +3030,11 @@ mi familia.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#6ccf2a3c-5efc-4413-99f1-f2ec1d3c91b2">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#c0c9ccd4-860a-4f6c-b0e7-237e2c3382fe"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me molestan pensamientos malos o ridículos o imágenes en
 mi mente.</rdfs:label>
         <skos:notation>RCADS47Item10_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#c0c9ccd4-860a-4f6c-b0e7-237e2c3382fe"/>
     </owl:NamedIndividual>
     
 
@@ -2889,10 +3043,10 @@ mi mente.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#6dba4596-ebf9-415d-bd61-9c4c76b9069c">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#275b9e8e-0f7b-440b-97ff-891d1f224aa8"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Ya nada me divierte mucho.</rdfs:label>
         <skos:notation>RCADS47Item6_25Item4_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#275b9e8e-0f7b-440b-97ff-891d1f224aa8"/>
     </owl:NamedIndividual>
     
 
@@ -2931,10 +3085,10 @@ mi mente.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#7fb1de79-c8e2-4600-9a40-f23386fca2c5">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#c2f62534-40bb-4730-ac55-3fa4aafa387e"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Cuando tengo un problema, siento un malestar en el estómago.</rdfs:label>
         <skos:notation>RCADS47Item3_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#c2f62534-40bb-4730-ac55-3fa4aafa387e"/>
     </owl:NamedIndividual>
     
 
@@ -2943,10 +3097,10 @@ mi mente.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#72cd47e4-4782-4fa2-85a7-1dec5c0672fb">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#6e817638-24f2-432c-86af-f1e5aa4edf05"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>No puedo pensar con claridad.</rdfs:label>
         <skos:notation>RCADS47Item25_25Item15_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#6e817638-24f2-432c-86af-f1e5aa4edf05"/>
     </owl:NamedIndividual>
     
 
@@ -3000,10 +3154,10 @@ mi mente.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#78164a59-1e02-4bd5-a63e-3f00a72a24a0">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#ca89f4a7-d4d7-495f-822a-9179642f9a54"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me siento inquieto/a.</rdfs:label>
         <skos:notation>RCADS47Item47_25Item24_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#ca89f4a7-d4d7-495f-822a-9179642f9a54"/>
     </owl:NamedIndividual>
     
 
@@ -3027,11 +3181,11 @@ mi mente.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#7981403c-ad25-48ff-bdca-8eff1deca39b">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#2a232767-c29c-4273-90a4-1811c9576f2e"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me preocupo cuando pienso que alguien está enojado/a
 conmigo.</rdfs:label>
         <skos:notation>RCADS47Item8_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#2a232767-c29c-4273-90a4-1811c9576f2e"/>
     </owl:NamedIndividual>
     
 
@@ -3040,12 +3194,12 @@ conmigo.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#8a51835f-44b6-4cd1-8709-f9c2c85fb0cd">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#819caf60-bb05-4e12-b657-44161e517ad8"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Tengo que verificar constantemente que haya hecho las
 cosas bien (como el apagar la luz, o que la puerta este
 cerrada con llave).</rdfs:label>
         <skos:notation>RCADS47Item16_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#819caf60-bb05-4e12-b657-44161e517ad8"/>
     </owl:NamedIndividual>
     
 
@@ -3054,11 +3208,11 @@ cerrada con llave).</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#8a814d1d-cc3e-407b-8a7a-2f08bbbdd20f">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#3edd1718-b161-4b01-8add-db47c8d63b93"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Tengo que hacer ciertas cosas una y otra vez (como lavarme
 las manos, limpiar, o poner las cosas en cierto orden).</rdfs:label>
         <skos:notation>RCADS47Item42_25Item12_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#3edd1718-b161-4b01-8add-db47c8d63b93"/>
     </owl:NamedIndividual>
     
 
@@ -3082,11 +3236,11 @@ las manos, limpiar, o poner las cosas en cierto orden).</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#8faeb619-0090-48fb-96fb-7b278c601ffa">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#b1166244-c6fd-4205-9eef-42bb01ea7ed0"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me late el corazón muy rápido aun cuando no hay razón
 para sentirme así.</rdfs:label>
         <skos:notation>RCADS47Item39_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#b1166244-c6fd-4205-9eef-42bb01ea7ed0"/>
     </owl:NamedIndividual>
     
 
@@ -3095,11 +3249,11 @@ para sentirme así.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#8fc00861-0167-4e68-8b97-7d481029edb7">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#bfa8dd84-0378-47a2-b7d5-b90ae0d100af"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me preocupo de que de repente vaya a sentir miedo aun
 cuando no hay razón para sentirme así.</rdfs:label>
         <skos:notation>RCADS47Item41_25Item20_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#bfa8dd84-0378-47a2-b7d5-b90ae0d100af"/>
     </owl:NamedIndividual>
     
 
@@ -3123,11 +3277,11 @@ cuando no hay razón para sentirme así.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#8454bffc-4355-47ab-afb8-5543b23788f8">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#25b054c4-ea87-4271-9058-e54fc82819d1"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me cuesta trabajo ir a la escuela por las mañanas porque me
 siento nervioso/a o con miedo.</rdfs:label>
         <skos:notation>RCADS47Item18_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#25b054c4-ea87-4271-9058-e54fc82819d1"/>
     </owl:NamedIndividual>
     
 
@@ -3136,10 +3290,10 @@ siento nervioso/a o con miedo.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#89146db8-fe50-4ae2-91cc-eeebb61b044e">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#7890eeef-3025-4d9a-9626-af396a53af6d"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Tengo dificultades para dormir bien.</rdfs:label>
         <skos:notation>RCADS47Item11_25Item8_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#7890eeef-3025-4d9a-9626-af396a53af6d"/>
     </owl:NamedIndividual>
     
 
@@ -3148,11 +3302,11 @@ siento nervioso/a o con miedo.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#9bef8f46-e6f5-4a08-8627-e5472ce956f0">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#b4f7cbfc-536d-43d9-93b4-c21d7670abec"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me da miedo que vaya a hacer el ridículo en frente de las
 personas.</rdfs:label>
         <skos:notation>RCADS47Item43_25Item22_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#b4f7cbfc-536d-43d9-93b4-c21d7670abec"/>
     </owl:NamedIndividual>
     
 
@@ -3176,10 +3330,10 @@ personas.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#9ed949ed-95d9-489c-936d-d7af1936468c">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#5c608a18-511a-493d-8974-4c0802bc31e0"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me siento que no valgo nada.</rdfs:label>
         <skos:notation>RCADS47Item29_25Item16_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#5c608a18-511a-493d-8974-4c0802bc31e0"/>
     </owl:NamedIndividual>
     
 
@@ -3188,11 +3342,11 @@ personas.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#96205393-e07a-4326-99dc-06799044835a">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#4031d925-a69c-431d-b009-d5333f9be62a"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Tengo que hacer algunas cosas exactamente de la manera
 correcta para evitar que cosas malas sucedan.</rdfs:label>
         <skos:notation>RCADS47Item44_25Item23_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#4031d925-a69c-431d-b009-d5333f9be62a"/>
     </owl:NamedIndividual>
     
 
@@ -3201,11 +3355,11 @@ correcta para evitar que cosas malas sucedan.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#972c19d8-554d-416f-adde-6ddda4d7aae4">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#ebf09ac5-1adf-4fae-8afa-bfd7021d82f4"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me siento de repente mareado/a o débil aun cuando no
 haya razón para sentirme así.</rdfs:label>
         <skos:notation>RCADS47Item36_25Item11_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#ebf09ac5-1adf-4fae-8afa-bfd7021d82f4"/>
     </owl:NamedIndividual>
     
 
@@ -3214,10 +3368,10 @@ haya razón para sentirme así.</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/ontology/POEM-RCADS#9787f68c-9e08-42cf-bc74-ca4cce18387a">
         <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#e1882b43-982b-4668-9d14-05abbaae775f"/>
         <hasco1:hasLanguage>es</hasco1:hasLanguage>
         <rdfs:label>Me siento triste o vacío/a.</rdfs:label>
         <skos:notation>RCADS47Item2_25Item1_es</skos:notation>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/ontology/POEM-RCADS#e1882b43-982b-4668-9d14-05abbaae775f"/>
     </owl:NamedIndividual>
     <rdf:Description>
         <ontodebug:axiom>QuestionnaireItem SubClassOf Instrument</ontodebug:axiom>
@@ -3227,5 +3381,5 @@ haya razón para sentirme así.</rdfs:label>
 
 
 
-<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
 
