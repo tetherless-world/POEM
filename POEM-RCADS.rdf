@@ -25,10 +25,10 @@
      xmlns:hasco1="http://www.semanticweb.org/kelsey/ontologies/2023/2/hasco#"
      xmlns:schema="http://schema.org/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:elements="http://purl.org/twc/poem.org/dc/elements/1.1/"
      xmlns:metadata="http://topbraid.org/metadata#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:resource="http://semanticscience.org/resource/"
-     xmlns:elements="http://purl.org/twc/poem.org/dc/elements/1.1/"
      xmlns:ontodebug="http://ainf.aau.at/ontodebug#">
     <owl:Ontology rdf:about="http://purl.org/twc/poem-rcads">
         <owl:imports rdf:resource="http://purl.org/twc/poem"/>
@@ -99,6 +99,12 @@
     
 
 
+    <!-- http://semanticscience.org/resource/SIO_000008 -->
+
+    <owl:AnnotationProperty rdf:about="http://semanticscience.org/resource/SIO_000008"/>
+    
+
+
     <!-- http://www.semanticweb.org/kelsey/ontologies/2023/2/hasco#hasLanguage -->
 
     <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/kelsey/ontologies/2023/2/hasco#hasLanguage"/>
@@ -140,6 +146,14 @@
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#hasFinding -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem-rcads#hasFinding">
+        <rdfs:label>has finding</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://semanticscience.org/resource/SIO_000068 -->
 
     <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000068"/>
@@ -169,9 +183,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/STATO_0000280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000280"/>
+    
+
+
     <!-- http://purl.org/twc/poem#PsychometricQuestionnaire -->
 
     <owl:Class rdf:about="http://purl.org/twc/poem#PsychometricQuestionnaire"/>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#Finding -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem-rcads#Finding">
+        <rdfs:label>finding</rdfs:label>
+    </owl:Class>
     
 
 
@@ -352,6 +380,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/STATO_0000280 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/STATO_0000280"/>
+    
+
+
     <!-- http://purl.org/twc/poem#RCADS25AnxietyScale -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS25AnxietyScale"/>
@@ -395,13 +429,26 @@
     
 
 
-    <!-- http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12 -->
+    <!-- http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12">
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2">
+        <rdf:type rdf:resource="http://hadatac.org/ont/hasco/Study"/>
+        <resource:SIO_000008 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Count"/>
+        <resource:SIO_000008 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-MaxAge"/>
+        <resource:SIO_000008 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-MinAge"/>
+        <resource:SIO_000332 rdf:resource="http://purl.org/twc/poem-rcads#RCADS47Questionnaire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Cohort -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Cohort">
         <rdf:type rdf:resource="http://hadatac.org/ont/hasco/Cohort"/>
         <resource:SIO_000008 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Count"/>
         <resource:SIO_000008 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-MaxAge"/>
         <resource:SIO_000008 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-MinAge"/>
+        <resource:SIO_000332 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2"/>
     </owl:NamedIndividual>
     
 
@@ -435,6 +482,124 @@
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale1-Finding -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale1-Finding">
+        <rdf:type rdf:resource="http://purl.org/twc/poem-rcads#Finding"/>
+        <resource:SIO_000068 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Cohort"/>
+        <resource:SIO_000332 rdf:resource="http://purl.org/twc/poem#RCADS47SocialAnxietyDisorderScale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale1-r -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale1-r">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/STATO_0000280"/>
+        <resource:SIO_000332 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale1-Finding"/>
+        <resource:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.77</resource:SIO_000300>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale2-Finding -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale2-Finding">
+        <rdf:type rdf:resource="http://purl.org/twc/poem-rcads#Finding"/>
+        <resource:SIO_000068 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Cohort"/>
+        <resource:SIO_000332 rdf:resource="http://purl.org/twc/poem#RCADS47PanicDisorderScale"/>
+    </owl:NamedIndividual>
+
+
+
+        <!-- http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale2-r -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale2-r">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/STATO_0000280"/>
+        <resource:SIO_000332 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale2-Finding"/>
+        <resource:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.81</resource:SIO_000300>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale3-Finding -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale3-Finding">
+        <rdf:type rdf:resource="http://purl.org/twc/poem-rcads#Finding"/>
+        <resource:SIO_000068 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Cohort"/>
+        <resource:SIO_000332 rdf:resource="http://purl.org/twc/poem#RCADS47GeneralizedAnxietyDisorderScale"/>
+    </owl:NamedIndividual>
+    
+
+
+        <!-- http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale3-r -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale3-r">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/STATO_0000280"/>
+        <resource:SIO_000332 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale3-Finding"/>
+        <resource:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.84</resource:SIO_000300>
+    </owl:NamedIndividual>
+
+
+    <!-- http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale4-Finding -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale4-Finding">
+        <rdf:type rdf:resource="http://purl.org/twc/poem-rcads#Finding"/>
+        <resource:SIO_000068 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Cohort"/>
+        <resource:SIO_000332 rdf:resource="http://purl.org/twc/poem#RCADS47MajorDepressiveDisorderScale"/>
+    </owl:NamedIndividual>
+
+
+
+        <!-- http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale4-r -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale4-r">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/STATO_0000280"/>
+        <resource:SIO_000332 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale4-Finding"/>
+        <resource:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.71</resource:SIO_000300>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale5-Finding -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale5-Finding">
+        <rdf:type rdf:resource="http://purl.org/twc/poem-rcads#Finding"/>
+        <resource:SIO_000068 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Cohort"/>
+        <resource:SIO_000332 rdf:resource="http://purl.org/twc/poem#RCADS47SeparationAnxietyDisorderScale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale5-r -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale5-r">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/STATO_0000280"/>
+        <resource:SIO_000332 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale5-Finding"/>
+        <resource:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.76</resource:SIO_000300>
+    </owl:NamedIndividual>
+
+
+    <!-- http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale6-Finding -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale6-Finding">
+        <rdf:type rdf:resource="http://purl.org/twc/poem-rcads#Finding"/>
+        <resource:SIO_000068 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Cohort"/>
+        <resource:SIO_000332 rdf:resource="http://purl.org/twc/poem#RCADS47ObsessiveCompulsiveDisorderScale"/>
+    </owl:NamedIndividual>
+
+
+
+        <!-- http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale6-r -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale6-r">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/STATO_0000280"/>
+        <resource:SIO_000332 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale6-Finding"/>
+        <resource:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.66</resource:SIO_000300>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-RetestGirls -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-RetestGirls">
@@ -447,6 +612,9 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#RCADS25Questionnaire">
         <rdf:type rdf:resource="http://purl.org/twc/poem#PsychometricQuestionnaire"/>
+        <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS25AnxietyScale"/>
+        <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS25DepressionScale"/>
+        <poem:hasTarget rdf:resource="http://purl.org/twc/poem-rcads#youth"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#a1f0a1ca-a60c-464d-980e-58e8878013c4"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#aab41a6e-4008-4f8b-9b62-bcde4c239a54"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#b4f7cbfc-536d-43d9-93b4-c21d7670abec"/>
@@ -474,9 +642,6 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#8f5e8e01-ce54-4472-9773-4a8788503bff"/>
         <poem:hasPossibleRespondant rdf:resource="http://purl.org/twc/poem-rcads#Caregiver"/>
         <poem:hasPossibleRespondant rdf:resource="http://purl.org/twc/poem-rcads#youth"/>
-        <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS25AnxietyScale"/>
-        <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS25DepressionScale"/>
-        <poem:hasTarget rdf:resource="http://purl.org/twc/poem-rcads#youth"/>
     </owl:NamedIndividual>
     
 
@@ -1989,6 +2154,13 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#RCADS47Questionnaire">
         <rdf:type rdf:resource="http://purl.org/twc/poem#PsychometricQuestionnaire"/>
+        <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47MajorDepressiveDisorderScale"/>
+        <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47ObsessiveCompulsiveDisorderScale"/>
+        <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47PanicDisorderScale"/>
+        <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47SeparationAnxietyDisorderScale"/>
+        <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47SocialAnxietyDisorderScale"/>
+        <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47TotalAnxietyScale"/>
+        <poem:hasTarget rdf:resource="http://purl.org/twc/poem-rcads#youth"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#a1f0a1ca-a60c-464d-980e-58e8878013c4"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#aab41a6e-4008-4f8b-9b62-bcde4c239a54"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#b1166244-c6fd-4205-9eef-42bb01ea7ed0"/>
@@ -2036,13 +2208,6 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#8f5e8e01-ce54-4472-9773-4a8788503bff"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#819caf60-bb05-4e12-b657-44161e517ad8"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#9db20e6c-9ae2-4724-8531-b9801194b30b"/>
-        <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47MajorDepressiveDisorderScale"/>
-        <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47ObsessiveCompulsiveDisorderScale"/>
-        <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47PanicDisorderScale"/>
-        <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47SeparationAnxietyDisorderScale"/>
-        <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47SocialAnxietyDisorderScale"/>
-        <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47TotalAnxietyScale"/>
-        <poem:hasTarget rdf:resource="http://purl.org/twc/poem-rcads#youth"/>
     </owl:NamedIndividual>
     
 
@@ -2609,10 +2774,10 @@ autobuses, sitios de recreo llenos).</rdfs:label>
         <vstoi:hasResponseOption rdf:resource="http://purl.org/twc/poem-rcads#RCADS47Item32Never"/>
         <vstoi:hasResponseOption rdf:resource="http://purl.org/twc/poem-rcads#RCADS47Item32Often"/>
         <vstoi:hasResponseOption rdf:resource="http://purl.org/twc/poem-rcads#RCADS47Item32Sometimes"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247825008"/>
         <resource:SIO_000068 rdf:resource="http://purl.org/twc/poem#RCADS25AnxietyScale"/>
         <resource:SIO_000068 rdf:resource="http://purl.org/twc/poem#RCADS47SocialAnxietyDisorderScale"/>
         <resource:SIO_000068 rdf:resource="http://purl.org/twc/poem#RCADS47TotalAnxietyScale"/>
-        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247825008"/>
         <hasco1:hasLanguage>en</hasco1:hasLanguage>
         <rdfs:label>I worry what other people think of me.</rdfs:label>
         <skos:notation>RCADS47Item32_25Item7</skos:notation>
@@ -3374,9 +3539,23 @@ haya razón para sentirme así.</rdfs:label>
         <ontodebug:axiom>QuestionnaireItem SubClassOf Instrument</ontodebug:axiom>
         <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontodebug:type>
     </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/STATO_0000280">
+        <rdfs:label>Pearson&apos;s correlation coefficient</rdfs:label>
+    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
 
