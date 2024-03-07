@@ -112,12 +112,6 @@
     
 
 
-    <!-- http://semanticscience.org/resource/SIO_000332 -->
-
-    <owl:AnnotationProperty rdf:about="http://semanticscience.org/resource/SIO_000332"/>
-    
-
-
     <!-- http://www.semanticweb.org/kelsey/ontologies/2023/2/hasco#hasLanguage -->
 
     <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/kelsey/ontologies/2023/2/hasco#hasLanguage"/>
@@ -194,11 +188,40 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#isSignificant -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/twc/poem-rcads#isSignificant">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>is significant</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://hadatac.org/ont/vstoi#Item -->
+
+    <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Item">
+        <rdfs:subClassOf rdf:resource="http://hadatac.org/ont/vstoi#Detector"/>
+        <rdfs:label>item</rdfs:label>
+    </owl:Class>
     
 
 
@@ -214,9 +237,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
+        <rdfs:label>data item</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000175 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <rdfs:label>p-value</rdfs:label>
     </owl:Class>
     
@@ -224,7 +256,9 @@
 
     <!-- http://purl.obolibrary.org/obo/STATO_0000280 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000280"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    </owl:Class>
     
 
 
@@ -237,6 +271,33 @@
     <!-- http://purl.org/twc/poem-rcads#Finding -->
 
     <owl:Class rdf:about="http://purl.org/twc/poem-rcads#Finding">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/twc/poem-rcads#hasStatistic"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000332"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://hadatac.org/ont/vstoi#Item"/>
+                            <rdf:Description rdf:about="http://purl.org/twc/poem#QuestionnaireScale"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:onClass>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/twc/poem-rcads#isSignificant"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>finding</rdfs:label>
     </owl:Class>
     
@@ -2355,6 +2416,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#Study-Chorpita-2000-Original-Study1">
         <rdf:type rdf:resource="http://hadatac.org/ont/hasco/Study"/>
+        <rdfs:label>Chorpita Original Study 1</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2363,6 +2425,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#Study-Chorpita-2000-Original-Study2">
         <rdf:type rdf:resource="http://hadatac.org/ont/hasco/Study"/>
+        <rdfs:label>Chorpita Original Study 2</rdfs:label>
     </owl:NamedIndividual>
     
 
