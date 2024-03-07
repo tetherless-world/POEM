@@ -596,6 +596,7 @@
         <poem-rcads:hasStatistic rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale1-p"/>
         <poem-rcads:hasStatistic rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale1-r"/>
         <resource:SIO_000068 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Cohort"/>
+        <poem-rcads:isSignificant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</poem-rcads:isSignificant>
         <resource:SIO_000332 rdf:resource="http://purl.org/twc/poem#RCADS47SocialAnxietyDisorderScale"/>
         <rdfs:label>Chorpita Full Study 2 Age 6-12 SP Finding</rdfs:label>
     </owl:NamedIndividual>
@@ -631,6 +632,7 @@
         <poem-rcads:hasStatistic rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale2-p"/>
         <poem-rcads:hasStatistic rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale2-r"/>
         <resource:SIO_000068 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Cohort"/>
+        <poem-rcads:isSignificant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</poem-rcads:isSignificant>
         <resource:SIO_000332 rdf:resource="http://purl.org/twc/poem#RCADS47PanicDisorderScale"/>
         <rdfs:label>Chorpita Full Study 2 Age 6-12 PD Finding</rdfs:label>
     </owl:NamedIndividual>
@@ -666,6 +668,7 @@
         <poem-rcads:hasStatistic rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale3-p"/>
         <poem-rcads:hasStatistic rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale3-r"/>
         <resource:SIO_000068 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Cohort"/>
+        <poem-rcads:isSignificant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</poem-rcads:isSignificant>
         <resource:SIO_000332 rdf:resource="http://purl.org/twc/poem#RCADS47GeneralizedAnxietyDisorderScale"/>
         <rdfs:label>Chorpita Full Study 2 Age 6-12 GAD Finding</rdfs:label>
     </owl:NamedIndividual>
@@ -701,6 +704,7 @@
         <poem-rcads:hasStatistic rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale4-p"/>
         <poem-rcads:hasStatistic rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale4-r"/>
         <resource:SIO_000068 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Cohort"/>
+        <poem-rcads:isSignificant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</poem-rcads:isSignificant>
         <resource:SIO_000332 rdf:resource="http://purl.org/twc/poem#RCADS47MajorDepressiveDisorderScale"/>
         <rdfs:label>Chorpita Full Study 2 Age 6-12 MDD Finding</rdfs:label>
     </owl:NamedIndividual>
@@ -736,6 +740,7 @@
         <poem-rcads:hasStatistic rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale5-p"/>
         <poem-rcads:hasStatistic rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale5-r"/>
         <resource:SIO_000068 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Cohort"/>
+        <poem-rcads:isSignificant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</poem-rcads:isSignificant>
         <resource:SIO_000332 rdf:resource="http://purl.org/twc/poem#RCADS47SeparationAnxietyDisorderScale"/>
         <rdfs:label>Chorpita Full Study 2 Age 6-12 SAD Finding</rdfs:label>
     </owl:NamedIndividual>
@@ -771,6 +776,7 @@
         <poem-rcads:hasStatistic rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale6-p"/>
         <poem-rcads:hasStatistic rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Scale6-r"/>
         <resource:SIO_000068 rdf:resource="http://purl.org/twc/poem-rcads#Cohort-Chorpita2000-Study2-Retest6-12-Cohort"/>
+        <poem-rcads:isSignificant rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</poem-rcads:isSignificant>
         <resource:SIO_000332 rdf:resource="http://purl.org/twc/poem#RCADS47ObsessiveCompulsiveDisorderScale"/>
         <rdfs:label>Chorpita Full Study 2 Age 6-12 OCD Finding</rdfs:label>
     </owl:NamedIndividual>
