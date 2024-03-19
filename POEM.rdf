@@ -358,7 +358,7 @@
 
     <!-- http://hadatac.org/ont/vstoi#QuestionnaireItem -->
 
-    <owl:Class rdf:about="http://hadatac.org/ont/vstoi#QuestionnaireItem"
+    <owl:Class rdf:about="http://hadatac.org/ont/vstoi#QuestionnaireItem">
         <rdfs:label>questionnaire item</rdfs:label>
     </owl:Class>
 
