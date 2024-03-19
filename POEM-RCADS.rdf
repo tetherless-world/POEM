@@ -3567,10 +3567,6 @@ haya razón para sentirme así.</rdfs:label>
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/STATO_0000280">
-        <rdfs:label>Pearson&apos;s correlation coefficient</rdfs:label>
-    </rdf:Description>
 </rdf:RDF>
 
 
