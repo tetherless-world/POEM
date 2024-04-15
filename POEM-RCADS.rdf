@@ -29,7 +29,6 @@
      xmlns:metadata="http://topbraid.org/metadata#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:resource="http://semanticscience.org/resource/"
-     xmlns:ontodebug="http://ainf.aau.at/ontodebug#"
      xmlns:poem-rcads="http://purl.org/twc/poem-rcads#">
     <owl:Ontology rdf:about="http://purl.org/twc/poem-rcads">
         <owl:imports rdf:resource="http://purl.org/twc/poem"/>
@@ -46,29 +45,6 @@
      -->
 
     
-
-
-    <!-- http://ainf.aau.at/ontodebug#axiom -->
-
-    <owl:AnnotationProperty rdf:about="http://ainf.aau.at/ontodebug#axiom">
-        <rdfs:subPropertyOf rdf:resource="http://ainf.aau.at/ontodebug#testCase"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://ainf.aau.at/ontodebug#testCase -->
-
-    <owl:AnnotationProperty rdf:about="http://ainf.aau.at/ontodebug#testCase"/>
-    
-
-
-    <!-- http://ainf.aau.at/ontodebug#type -->
-
-    <owl:AnnotationProperty rdf:about="http://ainf.aau.at/ontodebug#type">
-        <rdfs:subPropertyOf rdf:resource="http://ainf.aau.at/ontodebug#testCase"/>
-    </owl:AnnotationProperty>
-    
-
 
     <!-- http://hadatac.org/ont/vstoi#hasItem -->
 
@@ -3553,10 +3529,6 @@ haya razón para sentirme así.</rdfs:label>
         <skos:notation>RCADS47Item2_25Item1_es</skos:notation>
         <prov:wasDerivedFrom rdf:resource="http://purl.org/twc/poem-rcads#e1882b43-982b-4668-9d14-05abbaae775f"/>
     </owl:NamedIndividual>
-    <rdf:Description>
-        <ontodebug:axiom>QuestionnaireItem SubClassOf Instrument</ontodebug:axiom>
-        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontodebug:type>
-    </rdf:Description>
     
 
 
