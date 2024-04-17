@@ -314,7 +314,13 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
+     <!-- http://hadatac.org/ont/hasco/hasLanguage -->
+
+    <owl:DatatypeProperty rdf:about="http://hadatac.org/ont/hasco/hasLanguage">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#String"/>
+        <rdfs:label>has language</rdfs:label>
+    </owl:DatatypeProperty>
 
 
     <!-- http://purl.org/twc/poem-rcads#isSignificant -->
