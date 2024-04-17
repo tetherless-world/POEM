@@ -33,7 +33,6 @@
     <owl:Ontology rdf:about="http://purl.org/twc/poem">
         <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/HADatAc/ontologies/main/ontology/hasco.ttl"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/HADatAc/ontologies/main/ontology/vstoi.ttl"/>
         <dc:creator>Kelsey Rook</dc:creator>
         <terms:description>The Psychometric Ontology of Experience and Measures provides an ontology of domain concepts for the measurement of symptoms and syndromes related to psychiatric conditions.</terms:description>
         <terms:modified>2023-11-20</terms:modified>
@@ -84,6 +83,33 @@
      -->
 
     
+        <!-- http://hadatac.org/ont/vstoi#hasItem -->
+
+    <owl:ObjectProperty rdf:about="http://hadatac.org/ont/vstoi#hasItem"/>
+    
+
+
+    <!-- http://purl.org/twc/poem#detects -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#detects"/>
+    
+
+
+    <!-- http://purl.org/twc/poem#hasPossibleRespondant -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#hasPossibleRespondant"/>
+    
+
+
+    <!-- http://purl.org/twc/poem#hasScale -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#hasScale"/>
+    
+
+
+    <!-- http://purl.org/twc/poem#hasTarget -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#hasTarget"/>
 
 
     <!-- http://purl.org/twc/poem#canBeExperiencedAs -->
@@ -340,20 +366,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://hadatac.org/ont/hasco/Attribute -->
-
-    <owl:Class rdf:about="http://hadatac.org/ont/hasco/Attribute"/>
-    
-
-
-    <!-- http://hadatac.org/ont/vstoi#Detector -->
-
-    <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Detector"/>
-    
-
+ 
 
     <!-- http://hadatac.org/ont/vstoi#Item -->
 
