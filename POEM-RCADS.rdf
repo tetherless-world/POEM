@@ -42,6 +42,19 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
+
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#isAboutSource -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/twc/poem-rcads#isAboutSource"/>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#isAboutTarget -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/twc/poem-rcads#isAboutTarget"/>
     
 
 
@@ -54,7 +67,6 @@
     <!-- http://semanticscience.org/resource/SIO_000300 -->
 
     <owl:AnnotationProperty rdf:about="http://semanticscience.org/resource/SIO_000300"/>
-    
     
 
 
@@ -91,35 +103,11 @@
 
     <owl:ObjectProperty rdf:about="http://hadatac.org/ont/vstoi#isItemOf"/>
     
-    
 
 
     <!-- http://semanticscience.org/resource/SIO_000068 -->
 
     <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000068"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Data properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
     
 
 
@@ -306,9 +294,93 @@
     
 
 
+    <!-- http://purl.org/twc/poem#RCADS47GeneralizedAnxietyDisorderScale -->
+
+    <rdf:Description rdf:about="http://purl.org/twc/poem#RCADS47GeneralizedAnxietyDisorderScale">
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#aab41a6e-4008-4f8b-9b62-bcde4c239a54"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#e410d09c-4e69-490d-8f8a-f37035d38bcc"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#f758cf97-733c-4e50-8d51-1fbc5410cfae"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#3290f3d7-b168-4906-a347-28a79166500f"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#73d2a5b8-0c6d-417c-93a8-c9507c4b2717"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#9db20e6c-9ae2-4724-8531-b9801194b30b"/>
+        <poem:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/21897009"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/twc/poem#RCADS47MajorDepressiveDisorderScale -->
+
+    <rdf:Description rdf:about="http://purl.org/twc/poem#RCADS47MajorDepressiveDisorderScale">
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#a1f0a1ca-a60c-464d-980e-58e8878013c4"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#c73850b0-77c4-4068-90f5-baf54a29770f"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#ca89f4a7-d4d7-495f-822a-9179642f9a54"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#e1882b43-982b-4668-9d14-05abbaae775f"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#275b9e8e-0f7b-440b-97ff-891d1f224aa8"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#3b96f08f-bf0c-47eb-a4e6-7eb6a1fda486"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#5c608a18-511a-493d-8974-4c0802bc31e0"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#6e817638-24f2-432c-86af-f1e5aa4edf05"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#763f921a-7500-4a84-b779-29f55adb0e96"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#7890eeef-3025-4d9a-9626-af396a53af6d"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/twc/poem#RCADS47ObsessiveCompulsiveDisorderScale -->
+
+    <rdf:Description rdf:about="http://purl.org/twc/poem#RCADS47ObsessiveCompulsiveDisorderScale">
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#b3345c7b-2e43-413c-adff-47be3c2147bf"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#c0c9ccd4-860a-4f6c-b0e7-237e2c3382fe"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#3edd1718-b161-4b01-8add-db47c8d63b93"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#4031d925-a69c-431d-b009-d5333f9be62a"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#8f5e8e01-ce54-4472-9773-4a8788503bff"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#819caf60-bb05-4e12-b657-44161e517ad8"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/twc/poem#RCADS47PanicDisorderScale -->
+
+    <rdf:Description rdf:about="http://purl.org/twc/poem#RCADS47PanicDisorderScale">
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#b1166244-c6fd-4205-9eef-42bb01ea7ed0"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#bf257105-0c71-4f7c-afa8-b46fde79b6a3"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#bfa8dd84-0378-47a2-b7d5-b90ae0d100af"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#c14878a5-d09a-418a-9772-394739160280"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#c2f62534-40bb-4730-ac55-3fa4aafa387e"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#d06521d0-23e4-485e-a3cf-1ebf1db6d4ce"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#ebf09ac5-1adf-4fae-8afa-bfd7021d82f4"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#36840cea-e304-49f2-ac42-4a60e999a487"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#7b6b48d2-cc40-4b4a-b792-4343ec9b803d"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/twc/poem#RCADS47SeparationAnxietyDisorderScale -->
+
+    <rdf:Description rdf:about="http://purl.org/twc/poem#RCADS47SeparationAnxietyDisorderScale">
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#c05bccdd-9ac4-464e-a13f-dbf7c07922a8"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#ca54007d-a907-4c26-8cbe-975093242feb"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#f1026e43-178a-4c52-8048-cc9548fb5776"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#2375b0bd-3f7b-494e-aa07-126439e11b56"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#25b054c4-ea87-4271-9058-e54fc82819d1"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#323144fb-4174-44bd-b40c-23674a4c45ff"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#75e0831e-e69f-46c5-86c7-a5b9cf4c9c28"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.org/twc/poem#RCADS47SocialAnxietyDisorderScale -->
 
-    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47SocialAnxietyDisorderScale"/>
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47SocialAnxietyDisorderScale">
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#b4f7cbfc-536d-43d9-93b4-c21d7670abec"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#fd88558c-a9bc-434f-91dc-8a3a9e6982f3"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#0712cfff-386e-4e0d-805e-c7d0f09d2cf8"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#13fbba78-3edc-46a6-8233-5e48a504c419"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#2a232767-c29c-4273-90a4-1811c9576f2e"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#234ff3ed-fe84-4384-9a11-3235678591e4"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#31e88c71-907a-4bdb-ab9b-aabdfccf5781"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#5a45c1e6-b98b-40f2-8b01-70e155fcbc0f"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#580ddf63-8552-4455-a1e9-b410a8c8f7ec"/>
+    </owl:NamedIndividual>
     
 
 
@@ -568,9 +640,6 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#RCADS25Questionnaire">
         <rdf:type rdf:resource="http://purl.org/twc/poem#PsychometricQuestionnaire"/>
-        <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS25AnxietyScale"/>
-        <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS25DepressionScale"/>
-        <poem:hasTarget rdf:resource="http://purl.org/twc/poem-rcads#youth"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#a1f0a1ca-a60c-464d-980e-58e8878013c4"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#aab41a6e-4008-4f8b-9b62-bcde4c239a54"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#b4f7cbfc-536d-43d9-93b4-c21d7670abec"/>
@@ -598,6 +667,9 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#8f5e8e01-ce54-4472-9773-4a8788503bff"/>
         <poem:hasPossibleRespondant rdf:resource="http://purl.org/twc/poem-rcads#Caregiver"/>
         <poem:hasPossibleRespondant rdf:resource="http://purl.org/twc/poem-rcads#youth"/>
+        <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS25AnxietyScale"/>
+        <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS25DepressionScale"/>
+        <poem:hasTarget rdf:resource="http://purl.org/twc/poem-rcads#youth"/>
     </owl:NamedIndividual>
     
 
@@ -2117,53 +2189,6 @@
         <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47SocialAnxietyDisorderScale"/>
         <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47TotalAnxietyScale"/>
         <poem:hasTarget rdf:resource="http://purl.org/twc/poem-rcads#youth"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#a1f0a1ca-a60c-464d-980e-58e8878013c4"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#aab41a6e-4008-4f8b-9b62-bcde4c239a54"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#b1166244-c6fd-4205-9eef-42bb01ea7ed0"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#b3345c7b-2e43-413c-adff-47be3c2147bf"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#b4f7cbfc-536d-43d9-93b4-c21d7670abec"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#bf257105-0c71-4f7c-afa8-b46fde79b6a3"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#bfa8dd84-0378-47a2-b7d5-b90ae0d100af"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#c05bccdd-9ac4-464e-a13f-dbf7c07922a8"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#c0c9ccd4-860a-4f6c-b0e7-237e2c3382fe"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#c14878a5-d09a-418a-9772-394739160280"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#c2f62534-40bb-4730-ac55-3fa4aafa387e"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#c73850b0-77c4-4068-90f5-baf54a29770f"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#ca54007d-a907-4c26-8cbe-975093242feb"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#ca89f4a7-d4d7-495f-822a-9179642f9a54"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#d06521d0-23e4-485e-a3cf-1ebf1db6d4ce"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#e1882b43-982b-4668-9d14-05abbaae775f"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#e410d09c-4e69-490d-8f8a-f37035d38bcc"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#ebf09ac5-1adf-4fae-8afa-bfd7021d82f4"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#f1026e43-178a-4c52-8048-cc9548fb5776"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#f758cf97-733c-4e50-8d51-1fbc5410cfae"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#fd88558c-a9bc-434f-91dc-8a3a9e6982f3"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#0712cfff-386e-4e0d-805e-c7d0f09d2cf8"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#13fbba78-3edc-46a6-8233-5e48a504c419"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#2a232767-c29c-4273-90a4-1811c9576f2e"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#234ff3ed-fe84-4384-9a11-3235678591e4"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#2375b0bd-3f7b-494e-aa07-126439e11b56"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#25b054c4-ea87-4271-9058-e54fc82819d1"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#275b9e8e-0f7b-440b-97ff-891d1f224aa8"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#3b96f08f-bf0c-47eb-a4e6-7eb6a1fda486"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#3edd1718-b161-4b01-8add-db47c8d63b93"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#31e88c71-907a-4bdb-ab9b-aabdfccf5781"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#323144fb-4174-44bd-b40c-23674a4c45ff"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#3290f3d7-b168-4906-a347-28a79166500f"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#36840cea-e304-49f2-ac42-4a60e999a487"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#4031d925-a69c-431d-b009-d5333f9be62a"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#5a45c1e6-b98b-40f2-8b01-70e155fcbc0f"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#5c608a18-511a-493d-8974-4c0802bc31e0"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#580ddf63-8552-4455-a1e9-b410a8c8f7ec"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#6e817638-24f2-432c-86af-f1e5aa4edf05"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#7b6b48d2-cc40-4b4a-b792-4343ec9b803d"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#73d2a5b8-0c6d-417c-93a8-c9507c4b2717"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#75e0831e-e69f-46c5-86c7-a5b9cf4c9c28"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#763f921a-7500-4a84-b779-29f55adb0e96"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#7890eeef-3025-4d9a-9626-af396a53af6d"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#8f5e8e01-ce54-4472-9773-4a8788503bff"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#819caf60-bb05-4e12-b657-44161e517ad8"/>
-        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#9db20e6c-9ae2-4724-8531-b9801194b30b"/>
     </owl:NamedIndividual>
     
 
@@ -3496,16 +3521,6 @@ haya razón para sentirme así.</rdfs:label>
         <skos:notation>RCADS47Item2_25Item1_es</skos:notation>
         <prov:wasDerivedFrom rdf:resource="http://purl.org/twc/poem-rcads#e1882b43-982b-4668-9d14-05abbaae775f"/>
     </owl:NamedIndividual>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
 </rdf:RDF>
 
 
