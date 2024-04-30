@@ -13,6 +13,8 @@ Kelsey Rook, rookk@rpi.edu
 
 Henrique Santos, oliveh@rpi.edu
 
+Deborah L. McGuinness, dlm@rpi.edu
+
 ### Resources
 - [Ontology](ontology.md)
 
