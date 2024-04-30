@@ -9,8 +9,8 @@ sidebar:
 
 Developers:
 - [Tetherless World Constellation at RPI](https://tw.rpi.edu/)
-  - Rook, Kelsey (rookk@rpi.edu)
-  - Santos, Henrique (oliveh@rpi.edu)
+  - Kelsey Rook (rookk@rpi.edu)
+  - Henrique Santos (oliveh@rpi.edu)
 
 Subject Matter Experts & Co-Developers:
 - [Child FIRST at UCLA](https://www.childfirst.ucla.edu/)
@@ -18,6 +18,10 @@ Subject Matter Experts & Co-Developers:
   - Manuel S. Sprung
   - Hyun Seon Park
   - Ben Isenberg
+ 
+Research Leadership:
+- [Tetherless World Constellation at RPI](https://tw.rpi.edu/)
+  - Deborah L. McGuinness (dlm@rpi.edu)
 
 
 ## Maintenance Policy
