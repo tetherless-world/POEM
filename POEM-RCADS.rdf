@@ -674,6 +674,14 @@
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#RCADS47GeneralizedAnxietyDisorderScale-P -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#RCADS47GeneralizedAnxietyDisorderScale-P">
+        <poem:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/21897009"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#RCADS47Item10Always -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#RCADS47Item10Always">
@@ -2178,6 +2186,55 @@
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#RCADS47MajorDepressiveDisorderScale-P -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#RCADS47MajorDepressiveDisorderScale-P">
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#ae49f456-4a33-4b6e-83a1-f78045b99099"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#b83850c9-6247-4bf9-8b7b-3ee7eacb9b23"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#ce4f903f-37f5-4bdb-936a-143454b4348e"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#d0b35e7d-9b90-4983-8716-46e1a112fefd"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#d5fb4165-bf6f-4cd0-b2ab-cd349259fe24"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#72b8ca32-fee6-4e52-b755-1e4568824dfc"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#730556bc-3571-4c96-8f07-e0994b715f7a"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#8023b2c9-bb7b-42a4-a16b-2852ccaaf2ba"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#9c6d2369-6a5d-411c-b3e8-f48773170ae4"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#94276c2e-5ce1-447a-8dba-79ce77f3efc3"/>
+        <poem:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/370143000"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#RCADS47ObsessiveCompulsiveDisorderScale-P -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#RCADS47ObsessiveCompulsiveDisorderScale-P">
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#aca0e853-af77-415d-9d9b-f9fb1581f5e4"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#dcf017a5-1aa1-4ce6-9081-d4e0d3e42969"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#ebf88f74-f0fc-4a9f-b7c1-7948bd87528d"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#16af7a48-5f61-4639-b798-ec9914baf75f"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#4dce59dd-0f00-4800-8ce3-15743afb5a93"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#7e9a35f3-b55d-46c1-b540-1829e4b43c46"/>
+        <poem:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/191736004"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#RCADS47PanicDisorderScale-P -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#RCADS47PanicDisorderScale-P">
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#bbc03865-b9da-4900-97c3-ddcbb722413b"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#df8073b0-03e9-40e1-9a68-406469806840"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#1c3205dc-6d0a-48af-96f0-22c0a8307875"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#315c8a43-fa4d-4572-9253-e55b9d5d1e89"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#4317d652-5bef-43fe-ae91-805bbfe5a647"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#5b0c44f4-1e2d-48e9-9b80-70e963e5a9a7"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#6400165f-edd3-4d44-96d6-e1c6dbe083cb"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#806c3d31-5b93-44c2-bb01-1c8da38f2504"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#943b37f3-0f06-4266-bcd3-5e7f4eb01e7d"/>
+        <poem:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/371631005"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#RCADS47Questionnaire -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#RCADS47Questionnaire">
@@ -2189,6 +2246,64 @@
         <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47SocialAnxietyDisorderScale"/>
         <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47TotalAnxietyScale"/>
         <poem:hasTarget rdf:resource="http://purl.org/twc/poem-rcads#youth"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#RCADS47Questionnaire-P -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#RCADS47Questionnaire-P">
+        <poem:hasScale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47GeneralizedAnxietyDisorderScale-P"/>
+        <poem:hasScale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47MajorDepressiveDisorderScale-P"/>
+        <poem:hasScale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47ObsessiveCompulsiveDisorderScale-P"/>
+        <poem:hasScale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47PanicDisorderScale-P"/>
+        <poem:hasScale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47SeparationAnxietyDisorderScale-P"/>
+        <poem:hasScale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47SocialAnxietyDisorderScale-P"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#RCADS47SeparationAnxietyDisorderScale-P -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#RCADS47SeparationAnxietyDisorderScale-P">
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#be248178-b02f-4946-a537-bbd25172fc89"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#d71c9a42-8138-4b86-ae71-64442d018d58"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#e422b649-2aef-4a8f-96dc-214c3ca82959"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#fcdbc3b3-dcbd-479c-ac9c-30139a388443"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#4caec94c-6e0e-43a7-a4b9-22f3cfcc32cd"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#439ad11d-c5d3-492e-9cc4-1ba088cbe303"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#9ed0fc52-886b-404a-aac3-33610e2b9953"/>
+        <poem:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/126943008"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#RCADS47SocialAnxietyDisorderScale-P -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#RCADS47SocialAnxietyDisorderScale-P">
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#be74dc9c-f61a-44c3-97f8-2b4867e2f7c2"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#ca3ba905-49b6-4d91-b317-2e019cd229e2"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#dcca5259-96e2-4853-822f-bddb805d6ac8"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#fbebaf9b-7522-4254-bd8c-a3f0026f97cf"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#0f39233e-ba5d-40fb-9a58-8e947df29c22"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#04c4da1f-1e7c-444b-ad3a-03376c5df5e8"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#179add40-583a-416f-ad19-0c21194060b3"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#53b2c8d7-013b-4bba-b2a3-e6432d269ee5"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#7a1a3ff6-c383-49d0-83ef-7d0352c5be85"/>
+        <poem:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/25501002"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#RCADS47TotalAnxietyScale-P -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#RCADS47TotalAnxietyScale-P">
+        <poem:hasSubscale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47GeneralizedAnxietyDisorderScale-P"/>
+        <poem:hasSubscale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47ObsessiveCompulsiveDisorderScale-P"/>
+        <poem:hasSubscale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47PanicDisorderScale-P"/>
+        <poem:hasSubscale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47SeparationAnxietyDisorderScale-P"/>
+        <poem:hasSubscale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47SocialAnxietyDisorderScale-P"/>
+        <poem:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225445003"/>
     </owl:NamedIndividual>
     
 
@@ -2265,6 +2380,26 @@
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#aca0e853-af77-415d-9d9b-f9fb1581f5e4 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#aca0e853-af77-415d-9d9b-f9fb1581f5e4">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/12479006"/>
+        <rdfs:label>My child has to do some things in just the right way to stop bad things from happening</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#ae49f456-4a33-4b6e-83a1-f78045b99099 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#ae49f456-4a33-4b6e-83a1-f78045b99099">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/47295007"/>
+        <rdfs:label>My child feels restless</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#b02c76ce-1656-455d-a471-e611347b0d86 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#b02c76ce-1656-455d-a471-e611347b0d86">
@@ -2335,6 +2470,26 @@ escuela.</rdfs:label>
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#b83850c9-6247-4bf9-8b7b-3ee7eacb9b23 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#b83850c9-6247-4bf9-8b7b-3ee7eacb9b23">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/64336009"/>
+        <rdfs:label>My child cannot think clearly</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#b861a150-2470-486e-8fc4-0adc16cb5763 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#b861a150-2470-486e-8fc4-0adc16cb5763">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79015004"/>
+        <rdfs:label>My child worries about things</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#ba8d4b60-70c5-4d3f-ad6c-94abd3473321 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#ba8d4b60-70c5-4d3f-ad6c-94abd3473321">
@@ -2344,6 +2499,16 @@ escuela.</rdfs:label>
 razón alguna para sentirme así.</rdfs:label>
         <skos:notation>RCADS47Item26_25Item14_es</skos:notation>
         <prov:wasDerivedFrom rdf:resource="http://purl.org/twc/poem-rcads#d06521d0-23e4-485e-a3cf-1ebf1db6d4ce"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#bbc03865-b9da-4900-97c3-ddcbb722413b -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#bbc03865-b9da-4900-97c3-ddcbb722413b">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79823003"/>
+        <rdfs:label>My child’s heart suddenly starts to beat too quickly for no reason</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2368,6 +2533,26 @@ razón alguna para sentirme así.</rdfs:label>
         <rdfs:label>Me da miedo el dormir solo/a.</rdfs:label>
         <skos:notation>RCADS47Item17_25Item9_es</skos:notation>
         <prov:wasDerivedFrom rdf:resource="http://purl.org/twc/poem-rcads#f1026e43-178a-4c52-8048-cc9548fb5776"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#be248178-b02f-4946-a537-bbd25172fc89 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#be248178-b02f-4946-a537-bbd25172fc89">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225629005"/>
+        <rdfs:label>My child would feel scared if he/she had to stay away from home overnight</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#be74dc9c-f61a-44c3-97f8-2b4867e2f7c2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#be74dc9c-f61a-44c3-97f8-2b4867e2f7c2">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247826009"/>
+        <rdfs:label>My child feels afraid that he/she will make a fool of him/herself in front of people</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2528,6 +2713,16 @@ alguna razón para sentirme así.</rdfs:label>
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#ca3ba905-49b6-4d91-b317-2e019cd229e2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#ca3ba905-49b6-4d91-b317-2e019cd229e2">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247825008"/>
+        <rdfs:label>My child worries about making mistakes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#ca54007d-a907-4c26-8cbe-975093242feb -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#ca54007d-a907-4c26-8cbe-975093242feb">
@@ -2570,6 +2765,16 @@ alguna razón para sentirme así.</rdfs:label>
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#ce4f903f-37f5-4bdb-936a-143454b4348e -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#ce4f903f-37f5-4bdb-936a-143454b4348e">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/1217332007"/>
+        <rdfs:label>My child feels sad or empty</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#d06521d0-23e4-485e-a3cf-1ebf1db6d4ce -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#d06521d0-23e4-485e-a3cf-1ebf1db6d4ce">
@@ -2593,6 +2798,16 @@ alguna razón para sentirme así.</rdfs:label>
         <rdfs:label>Me preocupa de que algo malo me vaya a suceder.</rdfs:label>
         <skos:notation>RCADS47Item27_25Item25_es</skos:notation>
         <prov:wasDerivedFrom rdf:resource="http://purl.org/twc/poem-rcads#73d2a5b8-0c6d-417c-93a8-c9507c4b2717"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#d0b35e7d-9b90-4983-8716-46e1a112fefd -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#d0b35e7d-9b90-4983-8716-46e1a112fefd">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/249473004"/>
+        <rdfs:label>My child has problems with his/her appetite</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2621,6 +2836,26 @@ alguna razón para sentirme así.</rdfs:label>
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#d5fb4165-bf6f-4cd0-b2ab-cd349259fe24 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#d5fb4165-bf6f-4cd0-b2ab-cd349259fe24">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/28669007"/>
+        <rdfs:label>Nothing is much fun for my child anymore</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#d71c9a42-8138-4b86-ae71-64442d018d58 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#d71c9a42-8138-4b86-ae71-64442d018d58">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225629005"/>
+        <rdfs:label>My child worries about being away from me</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#dc557507-6c11-470f-a06a-841583e24f51 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#dc557507-6c11-470f-a06a-841583e24f51">
@@ -2630,6 +2865,36 @@ alguna razón para sentirme así.</rdfs:label>
 ridículos de la mente.</rdfs:label>
         <skos:notation>RCADS47Item23_es</skos:notation>
         <prov:wasDerivedFrom rdf:resource="http://purl.org/twc/poem-rcads#b3345c7b-2e43-413c-adff-47be3c2147bf"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#dcca5259-96e2-4853-822f-bddb805d6ac8 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#dcca5259-96e2-4853-822f-bddb805d6ac8">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247825008"/>
+        <rdfs:label>My child worries when he/she thinks someone is angry with him/her</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#dcf017a5-1aa1-4ce6-9081-d4e0d3e42969 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#dcf017a5-1aa1-4ce6-9081-d4e0d3e42969">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/12479006"/>
+        <rdfs:label>My child has to keep checking that he/she has done things right (like the switch is off, or the door is locked)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#df8073b0-03e9-40e1-9a68-406469806840 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#df8073b0-03e9-40e1-9a68-406469806840">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79823003"/>
+        <rdfs:label>When my child has a problem, he/she feels shaky</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2665,6 +2930,16 @@ ridículos de la mente.</rdfs:label>
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#e422b649-2aef-4a8f-96dc-214c3ca82959 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#e422b649-2aef-4a8f-96dc-214c3ca82959">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225629005"/>
+        <rdfs:label>My child is afraid of being in crowded places (like shopping centers, the movies, buses, busy playgrounds)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#e5b5efaa-7a3a-478f-9a50-44a35afdfece -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#e5b5efaa-7a3a-478f-9a50-44a35afdfece">
@@ -2690,6 +2965,16 @@ razón.</rdfs:label>
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#ea5e6eed-8e1d-4d42-9cd6-207257dc08b4 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#ea5e6eed-8e1d-4d42-9cd6-207257dc08b4">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79015004"/>
+        <rdfs:label>My child worries that something bad will happen to him/her</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#ebf09ac5-1adf-4fae-8afa-bfd7021d82f4 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#ebf09ac5-1adf-4fae-8afa-bfd7021d82f4">
@@ -2701,6 +2986,16 @@ razón.</rdfs:label>
         <hasco:hasLanguage>en</hasco:hasLanguage>
         <rdfs:label>I suddenly become dizzy or faint when there is no reason for this.</rdfs:label>
         <skos:notation>RCADS47Item36_25Item11</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#ebf88f74-f0fc-4a9f-b7c1-7948bd87528d -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#ebf88f74-f0fc-4a9f-b7c1-7948bd87528d">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/12479006"/>
+        <rdfs:label>My child has to do some things over and over again (like washing hands, cleaning, or putting things in a certain order)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2749,6 +3044,26 @@ autobuses, sitios de recreo llenos).</rdfs:label>
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#fbebaf9b-7522-4254-bd8c-a3f0026f97cf -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#fbebaf9b-7522-4254-bd8c-a3f0026f97cf">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247825008"/>
+        <rdfs:label>My child worries what other people think of him/her</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#fcdbc3b3-dcbd-479c-ac9c-30139a388443 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#fcdbc3b3-dcbd-479c-ac9c-30139a388443">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225629005"/>
+        <rdfs:label>My child feels afraid of being alone at home</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#fd88558c-a9bc-434f-91dc-8a3a9e6982f3 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#fd88558c-a9bc-434f-91dc-8a3a9e6982f3">
@@ -2768,10 +3083,30 @@ autobuses, sitios de recreo llenos).</rdfs:label>
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#ff65fba2-6e7e-4218-b686-6363b71591a8 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#ff65fba2-6e7e-4218-b686-6363b71591a8">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/102912007"/>
+        <rdfs:label>My child thinks about death</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#youth -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#youth">
         <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_000485"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#0f39233e-ba5d-40fb-9a58-8e947df29c22 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#0f39233e-ba5d-40fb-9a58-8e947df29c22">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247825008"/>
+        <rdfs:label>My child worries about looking foolish</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2788,6 +3123,16 @@ autobuses, sitios de recreo llenos).</rdfs:label>
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#04c4da1f-1e7c-444b-ad3a-03376c5df5e8 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#04c4da1f-1e7c-444b-ad3a-03376c5df5e8">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247825008"/>
+        <rdfs:label>My child feels scared when taking a test</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#0712cfff-386e-4e0d-805e-c7d0f09d2cf8 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#0712cfff-386e-4e0d-805e-c7d0f09d2cf8">
@@ -2800,6 +3145,16 @@ autobuses, sitios de recreo llenos).</rdfs:label>
         <hasco:hasLanguage>en</hasco:hasLanguage>
         <rdfs:label>I worry when I think I have done poorly at something.</rdfs:label>
         <skos:notation>RCADS47Item4_25Item2</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#1c3205dc-6d0a-48af-96f0-22c0a8307875 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#1c3205dc-6d0a-48af-96f0-22c0a8307875">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79015004"/>
+        <rdfs:label>My child worries that he/she will suddenly get a scared feeling when there is nothing to be afraid of</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2841,6 +3196,36 @@ clase.</rdfs:label>
         <rdfs:label>Me preocupo cuando estoy en la cama en la noche.</rdfs:label>
         <skos:notation>RCADS47Item45_es</skos:notation>
         <prov:wasDerivedFrom rdf:resource="http://purl.org/twc/poem-rcads#323144fb-4174-44bd-b40c-23674a4c45ff"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#16af7a48-5f61-4639-b798-ec9914baf75f -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#16af7a48-5f61-4639-b798-ec9914baf75f">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225445003"/>
+        <rdfs:label>My child can&apos;t seem to get bad or silly thoughts out of his/her head</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#164f84c3-95a7-4484-b679-3cf0c6c6e823 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#164f84c3-95a7-4484-b679-3cf0c6c6e823">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79015004"/>
+        <rdfs:label>My child worries about what is going to happen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#179add40-583a-416f-ad19-0c21194060b3 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#179add40-583a-416f-ad19-0c21194060b3">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247825008"/>
+        <rdfs:label>My child worries when he/she thinks he/she has done poorly at something</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3007,6 +3392,16 @@ mi familia.</rdfs:label>
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#315c8a43-fa4d-4572-9253-e55b9d5d1e89 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#315c8a43-fa4d-4572-9253-e55b9d5d1e89">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79823003"/>
+        <rdfs:label>When my child has a problem, his/her heart beats really fast</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#323144fb-4174-44bd-b40c-23674a4c45ff -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#323144fb-4174-44bd-b40c-23674a4c45ff">
@@ -3065,6 +3460,26 @@ mi familia.</rdfs:label>
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#4caec94c-6e0e-43a7-a4b9-22f3cfcc32cd -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#4caec94c-6e0e-43a7-a4b9-22f3cfcc32cd">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225629005"/>
+        <rdfs:label>My child has trouble going to school in the mornings because of feeling nervous or afraid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#4dce59dd-0f00-4800-8ce3-15743afb5a93 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#4dce59dd-0f00-4800-8ce3-15743afb5a93">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/12479006"/>
+        <rdfs:label>My child has to think of special thoughts (like numbers or words) to stop bad things from happening</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#4031d925-a69c-431d-b009-d5333f9be62a -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#4031d925-a69c-431d-b009-d5333f9be62a">
@@ -3080,6 +3495,26 @@ mi familia.</rdfs:label>
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#4317d652-5bef-43fe-ae91-805bbfe5a647 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#4317d652-5bef-43fe-ae91-805bbfe5a647">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79823003"/>
+        <rdfs:label>My child suddenly starts to tremble or shake when there is no reason for this</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#439ad11d-c5d3-492e-9cc4-1ba088cbe303 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#439ad11d-c5d3-492e-9cc4-1ba088cbe303">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225629005"/>
+        <rdfs:label>My child feels scared to sleep on his/her own</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#5a45c1e6-b98b-40f2-8b01-70e155fcbc0f -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#5a45c1e6-b98b-40f2-8b01-70e155fcbc0f">
@@ -3091,6 +3526,16 @@ mi familia.</rdfs:label>
         <hasco:hasLanguage>en</hasco:hasLanguage>
         <rdfs:label>I feel afraid if I have to talk in front of my class.</rdfs:label>
         <skos:notation>RCADS47Item38</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#5b0c44f4-1e2d-48e9-9b80-70e963e5a9a7 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#5b0c44f4-1e2d-48e9-9b80-70e963e5a9a7">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79823003"/>
+        <rdfs:label>My child suddenly becomes dizzy or faint when there is no reason for this</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3118,6 +3563,16 @@ mi familia.</rdfs:label>
         <rdfs:label>Me preocupa de lo que vaya a pasar.</rdfs:label>
         <skos:notation>RCADS47Item35_es</skos:notation>
         <prov:wasDerivedFrom rdf:resource="http://purl.org/twc/poem-rcads#3290f3d7-b168-4906-a347-28a79166500f"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#53b2c8d7-013b-4bba-b2a3-e6432d269ee5 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#53b2c8d7-013b-4bba-b2a3-e6432d269ee5">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247825008"/>
+        <rdfs:label>My child worries about doing badly at school work</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3214,6 +3669,26 @@ mi mente.</rdfs:label>
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#6400165f-edd3-4d44-96d6-e1c6dbe083cb -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#6400165f-edd3-4d44-96d6-e1c6dbe083cb">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79823003"/>
+        <rdfs:label>My child suddenly feels as if he/she can&apos;t breathe when there is no reason for this</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#7a1a3ff6-c383-49d0-83ef-7d0352c5be85 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#7a1a3ff6-c383-49d0-83ef-7d0352c5be85">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247835002"/>
+        <rdfs:label>My child feels afraid if he/she has to talk in front of the class</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#7b6b48d2-cc40-4b4a-b792-4343ec9b803d -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#7b6b48d2-cc40-4b4a-b792-4343ec9b803d">
@@ -3229,6 +3704,16 @@ mi mente.</rdfs:label>
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#7e9a35f3-b55d-46c1-b540-1829e4b43c46 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#7e9a35f3-b55d-46c1-b540-1829e4b43c46">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225445003"/>
+        <rdfs:label>My child is bothered by bad or silly thoughts or pictures in his/her mind</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#7fb1de79-c8e2-4600-9a40-f23386fca2c5 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#7fb1de79-c8e2-4600-9a40-f23386fca2c5">
@@ -3237,6 +3722,16 @@ mi mente.</rdfs:label>
         <rdfs:label>Cuando tengo un problema, siento un malestar en el estómago.</rdfs:label>
         <skos:notation>RCADS47Item3_es</skos:notation>
         <prov:wasDerivedFrom rdf:resource="http://purl.org/twc/poem-rcads#c2f62534-40bb-4730-ac55-3fa4aafa387e"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#72b8ca32-fee6-4e52-b755-1e4568824dfc -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#72b8ca32-fee6-4e52-b755-1e4568824dfc">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/53888004"/>
+        <rdfs:label>My child has trouble sleeping</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3264,6 +3759,16 @@ mi mente.</rdfs:label>
         <hasco:hasLanguage>en</hasco:hasLanguage>
         <rdfs:label>I worry that something bad will happen to me.</rdfs:label>
         <skos:notation>RCADS47Item27_25Item25</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#730556bc-3571-4c96-8f07-e0994b715f7a -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#730556bc-3571-4c96-8f07-e0994b715f7a">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247892001"/>
+        <rdfs:label>My child feels worthless</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3406,6 +3911,26 @@ cuando no hay razón para sentirme así.</rdfs:label>
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#8023b2c9-bb7b-42a4-a16b-2852ccaaf2ba -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#8023b2c9-bb7b-42a4-a16b-2852ccaaf2ba">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/1144814003"/>
+        <rdfs:label>My child feels like he/she doesn’t want to move</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#806c3d31-5b93-44c2-bb01-1c8da38f2504 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#806c3d31-5b93-44c2-bb01-1c8da38f2504">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79823003"/>
+        <rdfs:label>All of a sudden my child will feel really scared for no reason at all</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#819caf60-bb05-4e12-b657-44161e517ad8 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#819caf60-bb05-4e12-b657-44161e517ad8">
@@ -3417,6 +3942,16 @@ cuando no hay razón para sentirme así.</rdfs:label>
         <hasco:hasLanguage>en</hasco:hasLanguage>
         <rdfs:label>I have to keep checking that I have done things right (like the switch is off, or the door is locked).</rdfs:label>
         <skos:notation>RCADS47Item16</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#819d2963-b66b-4e61-95ab-0e085e7ef844 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#819d2963-b66b-4e61-95ab-0e085e7ef844">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79015004"/>
+        <rdfs:label>My child worries that something bad will happen to him/her</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3446,6 +3981,16 @@ siento nervioso/a o con miedo.</rdfs:label>
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#9afe259e-2511-47bf-9a27-3c9a5144b964 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#9afe259e-2511-47bf-9a27-3c9a5144b964">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247799003"/>
+        <rdfs:label>My child worries that something awful will happen to someone in the family</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#9bef8f46-e6f5-4a08-8627-e5472ce956f0 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#9bef8f46-e6f5-4a08-8627-e5472ce956f0">
@@ -3455,6 +4000,16 @@ siento nervioso/a o con miedo.</rdfs:label>
 personas.</rdfs:label>
         <skos:notation>RCADS47Item43_25Item22_es</skos:notation>
         <prov:wasDerivedFrom rdf:resource="http://purl.org/twc/poem-rcads#b4f7cbfc-536d-43d9-93b4-c21d7670abec"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#9c6d2369-6a5d-411c-b3e8-f48773170ae4 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#9c6d2369-6a5d-411c-b3e8-f48773170ae4">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/84229001"/>
+        <rdfs:label>My child has no energy for things</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3474,6 +4029,16 @@ personas.</rdfs:label>
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#9ed0fc52-886b-404a-aac3-33610e2b9953 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#9ed0fc52-886b-404a-aac3-33610e2b9953">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225629005"/>
+        <rdfs:label>My child worries when in bed at night</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#9ed949ed-95d9-489c-936d-d7af1936468c -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#9ed949ed-95d9-489c-936d-d7af1936468c">
@@ -3482,6 +4047,26 @@ personas.</rdfs:label>
         <rdfs:label>Me siento que no valgo nada.</rdfs:label>
         <skos:notation>RCADS47Item29_25Item16_es</skos:notation>
         <prov:wasDerivedFrom rdf:resource="http://purl.org/twc/poem-rcads#5c608a18-511a-493d-8974-4c0802bc31e0"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#94276c2e-5ce1-447a-8dba-79ce77f3efc3 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#94276c2e-5ce1-447a-8dba-79ce77f3efc3">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/84229001"/>
+        <rdfs:label>My child is tired a lot</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#943b37f3-0f06-4266-bcd3-5e7f4eb01e7d -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#943b37f3-0f06-4266-bcd3-5e7f4eb01e7d">
+        <rdf:type rdf:resource="http://hadatac.org/ont/vstoi#QuestionnaireItem"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/43364001"/>
+        <rdfs:label>When my child has a problem, he/she gets a funny feeling in his/her stomach</rdfs:label>
     </owl:NamedIndividual>
     
 
