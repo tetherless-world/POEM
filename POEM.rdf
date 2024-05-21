@@ -3,6 +3,7 @@
      xml:base="http://purl.org/twc/poem"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:eco="http://purl.obolibrary.org/obo/eco.owl#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:swa="http://topbraid.org/swa#"
@@ -32,7 +33,6 @@
      xmlns:elements1="http://purl.org/twc/poem.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.org/twc/poem">
         <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/HADatAc/ontologies/main/ontology/hasco.ttl"/>
         <dc:creator>Kelsey Rook</dc:creator>
         <terms:description>The Psychometric Ontology of Experience and Measures provides an ontology of domain concepts for the measurement of symptoms and syndromes related to psychiatric conditions.</terms:description>
         <terms:modified>2023-11-20</terms:modified>
@@ -51,6 +51,16 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000115>The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -83,33 +93,65 @@
      -->
 
     
-        <!-- http://hadatac.org/ont/vstoi#hasItem -->
+
+
+    <!-- http://hadatac.org/ont/hasco/hasLanguage -->
+
+    <owl:ObjectProperty rdf:about="http://hadatac.org/ont/hasco/hasLanguage">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#String"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://hadatac.org/ont/vstoi#hasCodebook -->
+
+    <owl:ObjectProperty rdf:about="http://hadatac.org/ont/vstoi#hasCodebook">
+        <rdfs:domain rdf:resource="http://hadatac.org/ont/vstoi#Detector"/>
+        <rdfs:range rdf:resource="http://hadatac.org/ont/vstoi#Codebook"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://hadatac.org/ont/vstoi#hasDetector -->
+
+    <owl:ObjectProperty rdf:about="http://hadatac.org/ont/vstoi#hasDetector">
+        <rdfs:domain rdf:resource="http://hadatac.org/ont/vstoi#Deployment"/>
+        <rdfs:range rdf:resource="http://hadatac.org/ont/vstoi#Detector"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://hadatac.org/ont/vstoi#hasInformant -->
+
+    <owl:ObjectProperty rdf:about="http://hadatac.org/ont/vstoi#hasInformant">
+        <rdfs:domain rdf:resource="http://hadatac.org/ont/vstoi#Questionnaire"/>
+        <rdfs:range rdf:resource="http://hadatac.org/ont/vstoi#Informant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://hadatac.org/ont/vstoi#hasInstrument -->
+
+    <owl:ObjectProperty rdf:about="http://hadatac.org/ont/vstoi#hasInstrument">
+        <rdfs:domain rdf:resource="http://hadatac.org/ont/vstoi#Deployment"/>
+        <rdfs:range rdf:resource="http://hadatac.org/ont/vstoi#Instrument"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://hadatac.org/ont/vstoi#hasItem -->
 
     <owl:ObjectProperty rdf:about="http://hadatac.org/ont/vstoi#hasItem"/>
     
 
 
-    <!-- http://purl.org/twc/poem#detects -->
+    <!-- http://hadatac.org/ont/vstoi#hasResponseOption -->
 
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#detects"/>
+    <owl:ObjectProperty rdf:about="http://hadatac.org/ont/vstoi#hasResponseOption">
+        <rdfs:domain rdf:resource="http://hadatac.org/ont/vstoi#Codebook"/>
+        <rdfs:range rdf:resource="http://hadatac.org/ont/vstoi#ResponseOption"/>
+    </owl:ObjectProperty>
     
-
-
-    <!-- http://purl.org/twc/poem#hasPossibleRespondant -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#hasPossibleRespondant"/>
-    
-
-
-    <!-- http://purl.org/twc/poem#hasScale -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#hasScale"/>
-    
-
-
-    <!-- http://purl.org/twc/poem#hasTarget -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#hasTarget"/>
 
 
     <!-- http://purl.org/twc/poem#canBeExperiencedAs -->
@@ -146,7 +188,7 @@
     <!-- http://purl.org/twc/poem#estimatesCondition -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#estimatesCondition">
-        <rdfs:domain rdf:resource="http://purl.org/twc/poem#SyndromeScale"/>
+        <rdfs:domain rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <rdfs:range rdf:resource="http://purl.org/twc/poem#Condition"/>
         <rdfs:label>estimates condition</rdfs:label>
     </owl:ObjectProperty>
@@ -181,7 +223,7 @@
         <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000028"/>
         <owl:inverseOf rdf:resource="http://purl.org/twc/poem#isSubscaleOf"/>
         <rdfs:domain rdf:resource="http://purl.org/twc/poem#CompositeScale"/>
-        <rdfs:range rdf:resource="http://purl.org/twc/poem#SyndromeScale"/>
+        <rdfs:range rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <rdfs:label>has subscale</rdfs:label>
     </owl:ObjectProperty>
     
@@ -222,7 +264,7 @@
     <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#isAboutCondition">
         <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000332"/>
         <owl:inverseOf rdf:resource="http://purl.org/twc/poem#isSubjectOfScale"/>
-        <rdfs:domain rdf:resource="http://purl.org/twc/poem#SyndromeScale"/>
+        <rdfs:domain rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <rdfs:range rdf:resource="http://purl.org/twc/poem#Condition"/>
         <rdfs:label>is about condition</rdfs:label>
     </owl:ObjectProperty>
@@ -288,7 +330,7 @@
     <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#isSubjectOfScale">
         <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000629"/>
         <rdfs:domain rdf:resource="http://purl.org/twc/poem#Condition"/>
-        <rdfs:range rdf:resource="http://purl.org/twc/poem#SyndromeScale"/>
+        <rdfs:range rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <rdfs:label>is subject of scale</rdfs:label>
     </owl:ObjectProperty>
     
@@ -298,7 +340,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#isSubscaleOf">
         <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000068"/>
-        <rdfs:domain rdf:resource="http://purl.org/twc/poem#SyndromeScale"/>
+        <rdfs:domain rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <rdfs:range rdf:resource="http://purl.org/twc/poem#CompositeScale"/>
         <rdfs:label>is subscale of</rdfs:label>
     </owl:ObjectProperty>
@@ -340,13 +382,13 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
 
-     <!-- http://hadatac.org/ont/hasco/hasLanguage -->
 
-    <owl:DatatypeProperty rdf:about="http://hadatac.org/ont/hasco/hasLanguage">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#String"/>
-        <rdfs:label>has language</rdfs:label>
-    </owl:DatatypeProperty>
+    <!-- http://hadatac.org/ont/hasco/hasLanguage -->
+
+    <owl:DatatypeProperty rdf:about="http://hadatac.org/ont/hasco/hasLanguage"/>
+    
 
 
     <!-- http://purl.org/twc/poem-rcads#isSignificant -->
@@ -366,7 +408,52 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
- 
+    
+
+
+    <!-- http://hadatac.org/ont/vstoi#Codebook -->
+
+    <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Codebook">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://hadatac.org/ont/vstoi#Deployment -->
+
+    <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Deployment"/>
+    
+
+
+    <!-- http://hadatac.org/ont/vstoi#Detector -->
+
+    <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Detector">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000956"/>
+        <rdfs:comment>A device which detects measurements, such as temperature or wind velocity</rdfs:comment>
+        <rdfs:label>Detector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://hadatac.org/ont/vstoi#Informant -->
+
+    <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Informant">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000498"/>
+        <rdfs:comment>(Respondent)</rdfs:comment>
+        <rdfs:label>Informant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://hadatac.org/ont/vstoi#Instrument -->
+
+    <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Instrument">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000956"/>
+        <rdfs:comment>A device or mechanism that is used to achire attribute values of entities of interest.  An instrument does not necessarily require a way to store its measured quantity (e.g, a hard disk).</rdfs:comment>
+        <rdfs:label>Instrument</rdfs:label>
+    </owl:Class>
+    
+
 
     <!-- http://hadatac.org/ont/vstoi#Item -->
 
@@ -377,16 +464,19 @@
     
 
 
-    <!-- http://hadatac.org/ont/vstoi#QuestionnaireItem -->
+    <!-- http://hadatac.org/ont/vstoi#Questionnaire -->
 
-    <owl:Class rdf:about="http://hadatac.org/ont/vstoi#QuestionnaireItem">
-        <rdfs:label>questionnaire item</rdfs:label>
+    <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Questionnaire">
+        <rdfs:subClassOf rdf:resource="http://hadatac.org/ont/vstoi#Instrument"/>
+        <rdfs:label>Questionnaire</rdfs:label>
     </owl:Class>
+    
 
 
     <!-- http://hadatac.org/ont/vstoi#ResponseOption -->
 
     <owl:Class rdf:about="http://hadatac.org/ont/vstoi#ResponseOption">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
         <rdfs:label>response option</rdfs:label>
     </owl:Class>
     
@@ -619,6 +709,7 @@
     <!-- http://purl.obolibrary.org/obo/ECO_0000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECO_0000000">
+        <rdfs:comment>A type of information that is used to support an assertion.</rdfs:comment>
         <rdfs:label>evidence</rdfs:label>
     </owl:Class>
     
@@ -658,7 +749,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/twc/poem#hasSubscale"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.org/twc/poem#SyndromeScale"/>
+                <owl:onClass rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>composite scale</rdfs:label>
@@ -705,6 +796,13 @@
     <!-- http://purl.org/twc/poem#QuestionnaireScale -->
 
     <owl:Class rdf:about="http://purl.org/twc/poem#QuestionnaireScale">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/twc/poem#isAboutCondition"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem#Condition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>questionnaire scale</rdfs:label>
         <skos:definition>a collection of indicators designed to be related to a shared construct</skos:definition>
     </owl:Class>
@@ -731,7 +829,7 @@
     <!-- http://purl.org/twc/poem#SymptomExperience -->
 
     <owl:Class rdf:about="http://purl.org/twc/poem#SymptomExperience">
-        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000614"/>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/twc/poem#isExperienceOf"/>
@@ -740,22 +838,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>symptom experience</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/twc/poem#SyndromeScale -->
-
-    <owl:Class rdf:about="http://purl.org/twc/poem#SyndromeScale">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/twc/poem#isAboutCondition"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.org/twc/poem#Condition"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>syndrome scale</rdfs:label>
     </owl:Class>
     
 
@@ -783,6 +865,12 @@
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_001017">
         <skos:definition>a sufficient set of co-occuring symptoms believed to represent an underlying phenomenon with dimensional properties</skos:definition>
     </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#String -->
+
+    <owl:Class rdf:about="http://www.w3.org/2001/XMLSchema#String"/>
     
 
 
@@ -1078,7 +1166,7 @@
     <!-- http://purl.org/twc/poem#RCADS47GeneralizedAnxietyDisorderScale -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47GeneralizedAnxietyDisorderScale">
-        <rdf:type rdf:resource="http://purl.org/twc/poem#SyndromeScale"/>
+        <rdf:type rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
     </owl:NamedIndividual>
     
 
@@ -1086,7 +1174,7 @@
     <!-- http://purl.org/twc/poem#RCADS47MajorDepressiveDisorderScale -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47MajorDepressiveDisorderScale">
-        <rdf:type rdf:resource="http://purl.org/twc/poem#SyndromeScale"/>
+        <rdf:type rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/370143000"/>
     </owl:NamedIndividual>
     
@@ -1095,7 +1183,7 @@
     <!-- http://purl.org/twc/poem#RCADS47ObsessiveCompulsiveDisorderScale -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47ObsessiveCompulsiveDisorderScale">
-        <rdf:type rdf:resource="http://purl.org/twc/poem#SyndromeScale"/>
+        <rdf:type rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/191736004"/>
     </owl:NamedIndividual>
     
@@ -1104,7 +1192,7 @@
     <!-- http://purl.org/twc/poem#RCADS47PanicDisorderScale -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47PanicDisorderScale">
-        <rdf:type rdf:resource="http://purl.org/twc/poem#SyndromeScale"/>
+        <rdf:type rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/371631005"/>
     </owl:NamedIndividual>
     
@@ -1113,7 +1201,7 @@
     <!-- http://purl.org/twc/poem#RCADS47SeparationAnxietyDisorderScale -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47SeparationAnxietyDisorderScale">
-        <rdf:type rdf:resource="http://purl.org/twc/poem#SyndromeScale"/>
+        <rdf:type rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/126943008"/>
     </owl:NamedIndividual>
     
@@ -1122,7 +1210,7 @@
     <!-- http://purl.org/twc/poem#RCADS47SocialAnxietyDisorderScale -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47SocialAnxietyDisorderScale">
-        <rdf:type rdf:resource="http://purl.org/twc/poem#SyndromeScale"/>
+        <rdf:type rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/25501002"/>
     </owl:NamedIndividual>
     
@@ -1150,6 +1238,9 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://hadatac.org/ont/hasco/hasLanguage">
+        <rdfs:label>has language</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/102912007">
         <rdfs:label>fear of death</rdfs:label>
     </rdf:Description>
