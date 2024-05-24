@@ -54,6 +54,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
@@ -61,6 +67,30 @@
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label>definition</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000032 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/STATO_0000032"/>
     
 
 
@@ -112,29 +142,11 @@
     
 
 
-    <!-- http://hadatac.org/ont/vstoi#hasDetector -->
-
-    <owl:ObjectProperty rdf:about="http://hadatac.org/ont/vstoi#hasDetector">
-        <rdfs:domain rdf:resource="http://hadatac.org/ont/vstoi#Deployment"/>
-        <rdfs:range rdf:resource="http://hadatac.org/ont/vstoi#Detector"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://hadatac.org/ont/vstoi#hasInformant -->
 
     <owl:ObjectProperty rdf:about="http://hadatac.org/ont/vstoi#hasInformant">
         <rdfs:domain rdf:resource="http://hadatac.org/ont/vstoi#Questionnaire"/>
         <rdfs:range rdf:resource="http://hadatac.org/ont/vstoi#Informant"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://hadatac.org/ont/vstoi#hasInstrument -->
-
-    <owl:ObjectProperty rdf:about="http://hadatac.org/ont/vstoi#hasInstrument">
-        <rdfs:domain rdf:resource="http://hadatac.org/ont/vstoi#Deployment"/>
-        <rdfs:range rdf:resource="http://hadatac.org/ont/vstoi#Instrument"/>
     </owl:ObjectProperty>
     
 
@@ -416,12 +428,6 @@
     <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Codebook">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000000"/>
     </owl:Class>
-    
-
-
-    <!-- http://hadatac.org/ont/vstoi#Deployment -->
-
-    <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Deployment"/>
     
 
 
@@ -728,6 +734,31 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000175">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <rdfs:label>p-value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000193">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115>is a population whose individual members realize (may be expressed as) a combination of  inclusion rule values specifications or resulting from a sampling process (e.g. recruitment followed by randomization to group) on which a number of measurements will be carried out, which may be used as input to statistical tests and statistical inference.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117>Orlaith Burke</obo:IAO_0000117>
+        <obo:IAO_0000117>Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">STATO</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/stato.owl"/>
+        <obo:STATO_0000032 xml:lang="en">statistical sample</obo:STATO_0000032>
+        <rdfs:label>study group population</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000193"/>
+        <rdfs:label>cohort</rdfs:label>
     </owl:Class>
     
 
