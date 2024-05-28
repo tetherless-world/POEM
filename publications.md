@@ -16,7 +16,7 @@ Rook, K., Santos, H., Chorpita, B. F., Sprung, M., Pinheiro, P., & McGuinness, D
 <details>
         <summary>Slides:</summary>
         <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTXPK2uQrA7soo-lq2TC21Ov4TP4cJG3xevUCyO5CmakDj1ngbETkfeB7DtJkUZBptY7SCP-la4w02K/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-</details>details>
+</details>
 
 
 
