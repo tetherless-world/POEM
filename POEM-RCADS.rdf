@@ -42,32 +42,7 @@
     // Annotation properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-    
-
-
-    <!-- http://semanticscience.org/resource/SIO_000008 -->
-
-    <owl:AnnotationProperty rdf:about="http://semanticscience.org/resource/SIO_000008"/>
-    
-
-
-    <!-- http://semanticscience.org/resource/SIO_000011 -->
-
-    <owl:AnnotationProperty rdf:about="http://semanticscience.org/resource/SIO_000011"/>
-    
-
-
-    <!-- http://semanticscience.org/resource/SIO_000300 -->
-
-    <owl:AnnotationProperty rdf:about="http://semanticscience.org/resource/SIO_000300"/>
-    
-
-
-    <!-- http://semanticscience.org/resource/SIO_000332 -->
-
-    <owl:AnnotationProperty rdf:about="http://semanticscience.org/resource/SIO_000332"/>
-    
+     -->    
 
 
     <!-- http://www.w3.org/2004/02/skos/core#notation -->
