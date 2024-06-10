@@ -43,31 +43,6 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-
-    
-
-
-    <!-- http://purl.org/twc/poem#hasPossibleRespondant -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/twc/poem#hasPossibleRespondant"/>
-    
-
-
-    <!-- http://purl.org/twc/poem#isAboutCondition -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/twc/poem#isAboutCondition"/>
-    
-
-
-    <!-- http://purl.org/twc/poem-rcads#isAboutSource -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/twc/poem-rcads#isAboutSource"/>
-    
-
-
-    <!-- http://purl.org/twc/poem-rcads#isAboutTarget -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/twc/poem-rcads#isAboutTarget"/>
     
 
 
@@ -360,7 +335,7 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#3290f3d7-b168-4906-a347-28a79166500f"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#73d2a5b8-0c6d-417c-93a8-c9507c4b2717"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#9db20e6c-9ae2-4724-8531-b9801194b30b"/>
-        <poem:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/21897009"/>
+        <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/21897009"/>
     </rdf:Description>
     
 
@@ -888,11 +863,11 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#763f921a-7500-4a84-b779-29f55adb0e96"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#7890eeef-3025-4d9a-9626-af396a53af6d"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#8f5e8e01-ce54-4472-9773-4a8788503bff"/>
+        <poem:hasPossibleRespondent rdf:resource="http://purl.org/twc/poem-rcads#Caregiver"/>
+        <poem:hasPossibleRespondent rdf:resource="http://purl.org/twc/poem-rcads#youth"/>
         <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS25AnxietyScale"/>
         <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS25DepressionScale"/>
         <poem:hasTarget rdf:resource="http://purl.org/twc/poem-rcads#youth"/>
-        <poem:hasPossibleRespondant rdf:resource="http://purl.org/twc/poem-rcads#Caregiver"/>
-        <poem:hasPossibleRespondant rdf:resource="http://purl.org/twc/poem-rcads#youth"/>
     </owl:NamedIndividual>
     
 
@@ -900,7 +875,7 @@
     <!-- http://purl.org/twc/poem-rcads#RCADS47GeneralizedAnxietyDisorderScale-P -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#RCADS47GeneralizedAnxietyDisorderScale-P">
-        <poem:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/21897009"/>
+        <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/21897009"/>
     </owl:NamedIndividual>
     
 
@@ -2422,7 +2397,7 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#8023b2c9-bb7b-42a4-a16b-2852ccaaf2ba"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#9c6d2369-6a5d-411c-b3e8-f48773170ae4"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#94276c2e-5ce1-447a-8dba-79ce77f3efc3"/>
-        <poem:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/370143000"/>
+        <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/370143000"/>
     </owl:NamedIndividual>
     
 
@@ -2436,7 +2411,7 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#16af7a48-5f61-4639-b798-ec9914baf75f"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#4dce59dd-0f00-4800-8ce3-15743afb5a93"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#7e9a35f3-b55d-46c1-b540-1829e4b43c46"/>
-        <poem:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/191736004"/>
+        <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/191736004"/>
     </owl:NamedIndividual>
     
 
@@ -2453,7 +2428,7 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#6400165f-edd3-4d44-96d6-e1c6dbe083cb"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#806c3d31-5b93-44c2-bb01-1c8da38f2504"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#943b37f3-0f06-4266-bcd3-5e7f4eb01e7d"/>
-        <poem:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/371631005"/>
+        <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/371631005"/>
     </owl:NamedIndividual>
     
 
@@ -2496,7 +2471,7 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#4caec94c-6e0e-43a7-a4b9-22f3cfcc32cd"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#439ad11d-c5d3-492e-9cc4-1ba088cbe303"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#9ed0fc52-886b-404a-aac3-33610e2b9953"/>
-        <poem:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/126943008"/>
+        <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/126943008"/>
     </owl:NamedIndividual>
     
 
@@ -2513,7 +2488,7 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#179add40-583a-416f-ad19-0c21194060b3"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#53b2c8d7-013b-4bba-b2a3-e6432d269ee5"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#7a1a3ff6-c383-49d0-83ef-7d0352c5be85"/>
-        <poem:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/25501002"/>
+        <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/25501002"/>
     </owl:NamedIndividual>
     
 
@@ -2526,7 +2501,7 @@
         <poem:hasSubscale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47PanicDisorderScale-P"/>
         <poem:hasSubscale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47SeparationAnxietyDisorderScale-P"/>
         <poem:hasSubscale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47SocialAnxietyDisorderScale-P"/>
-        <poem:isAboutCondition rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225445003"/>
+        <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225445003"/>
     </owl:NamedIndividual>
     
 
