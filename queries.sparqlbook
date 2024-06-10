@@ -1,0 +1,20 @@
+[
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "Is this measure reliable and valid enough to use in my study about children aged 6-12 with Major Depressive Disorder?",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "PREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX hasco: <http://hadatac.org/ont/hasco#>\nPREFIX vstoi: <http://hadatac.org/ont/vstoi#>\nPREFIX poem: <http://purl.org/twc/poem#>\nPREFIX poem-rcads: <http://purl.org/twc/poem-rcads#>\nPREFIX sio: <http://semanticscience.org/resource/>\nPREFIX snomed: <http://purl.bioontology.org/ontology/SNOMEDCT/>\nPREFIX eco: <http://purl.obolibrary.org/obo/>\n\nSELECT ?evidence (STR(?lab) AS ?label) WHERE {\n\t?evidence sio:SIO_000332 poem:RCADS47MajorDepressiveDisorderScale .\n    ?evidence rdf:type eco:ECO_0000000 .\n}",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "PREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX hasco: <http://hadatac.org/ont/hasco#>\nPREFIX vstoi: <http://hadatac.org/ont/vstoi#>\nPREFIX poem: <http://purl.org/twc/POEM#>\nPREFIX poem-rcads: <http://purl.org/twc/POEM-RCADS#>\nPREFIX sio: <http://semanticscience.org/resource/>\nPREFIX snomed: <http://purl.bioontology.org/ontology/SNOMEDCT/>\nPREFIX eco: <http://purl.obolibrary.org/obo/>\n\nSELECT ?evidence (STR(?lab) AS ?label) WHERE {\n    ?evidence rdf:type eco:ECO_0000000 .\n}",
+    "metadata": {}
+  }
+]
