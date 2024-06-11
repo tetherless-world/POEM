@@ -42,7 +42,15 @@
     // Annotation properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
-     -->    
+     -->
+
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads/isAboutDisorder -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/twc/poem-rcads/isAboutDisorder"/>
+    
 
 
     <!-- http://www.w3.org/2004/02/skos/core#notation -->
@@ -317,7 +325,8 @@
 
     <!-- http://purl.org/twc/poem#RCADS47MajorDepressiveDisorderScale -->
 
-    <rdf:Description rdf:about="http://purl.org/twc/poem#RCADS47MajorDepressiveDisorderScale">
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47MajorDepressiveDisorderScale">
+        <rdf:type rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#a1f0a1ca-a60c-464d-980e-58e8878013c4"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#c73850b0-77c4-4068-90f5-baf54a29770f"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#ca89f4a7-d4d7-495f-822a-9179642f9a54"/>
@@ -328,7 +337,8 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#6e817638-24f2-432c-86af-f1e5aa4edf05"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#763f921a-7500-4a84-b779-29f55adb0e96"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#7890eeef-3025-4d9a-9626-af396a53af6d"/>
-    </rdf:Description>
+        <isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/370143000"/>
+    </owl:NamedIndividual>
     
 
 
@@ -2412,6 +2422,8 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#RCADS47Questionnaire">
         <rdf:type rdf:resource="http://purl.org/twc/poem#PsychometricQuestionnaire"/>
+        <poem:hasPossibleRespondent rdf:resource="http://purl.org/twc/poem-rcads#Caregiver"/>
+        <poem:hasPossibleRespondent rdf:resource="http://purl.org/twc/poem-rcads#youth"/>
         <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47MajorDepressiveDisorderScale"/>
         <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47ObsessiveCompulsiveDisorderScale"/>
         <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47PanicDisorderScale"/>
@@ -2419,6 +2431,7 @@
         <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47SocialAnxietyDisorderScale"/>
         <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47TotalAnxietyScale"/>
         <poem:hasTarget rdf:resource="http://purl.org/twc/poem-rcads#youth"/>
+        <hasco:hasLanguage>en</hasco:hasLanguage>
     </owl:NamedIndividual>
     
 
@@ -2432,6 +2445,16 @@
         <poem:hasScale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47PanicDisorderScale-P"/>
         <poem:hasScale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47SeparationAnxietyDisorderScale-P"/>
         <poem:hasScale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47SocialAnxietyDisorderScale-P"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#RCADS47Questionnaire-es -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#RCADS47Questionnaire-es">
+        <rdf:type rdf:resource="http://purl.org/twc/poem#PsychometricQuestionnaire"/>
+        <hasco:hasLanguage>es</hasco:hasLanguage>
+        <prov:wasDerivedFrom rdf:resource="http://purl.org/twc/poem-rcads#RCADS47Questionnaire"/>
     </owl:NamedIndividual>
     
 
@@ -3252,6 +3275,26 @@ autobuses, sitios de recreo llenos).</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#youth">
         <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_000485"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#youthMaximumAge -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#youthMaximumAge">
+        <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_001013"/>
+        <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_001114"/>
+        <resource:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18</resource:SIO_000300>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem-rcads#youthMinimumAge -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#youthMinimumAge">
+        <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_001013"/>
+        <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_001113"/>
+        <resource:SIO_000300 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</resource:SIO_000300>
     </owl:NamedIndividual>
     
 
