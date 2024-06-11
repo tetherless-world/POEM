@@ -407,15 +407,6 @@
     
 
 
-    <!-- http://purl.org/twc/poem-rcads#Caregiver -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#Caregiver">
-        <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_000485"/>
-        <rdfs:label>caregiver</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://purl.org/twc/poem-rcads#Chorpita2000-FullStudy1 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#Chorpita2000-FullStudy1">
@@ -848,11 +839,12 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#763f921a-7500-4a84-b779-29f55adb0e96"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#7890eeef-3025-4d9a-9626-af396a53af6d"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#8f5e8e01-ce54-4472-9773-4a8788503bff"/>
-        <poem:hasPossibleRespondent rdf:resource="http://purl.org/twc/poem-rcads#Caregiver"/>
+        <poem:hasPossibleRespondent rdf:resource="http://purl.org/twc/poem-rcads#caregiver"/>
         <poem:hasPossibleRespondent rdf:resource="http://purl.org/twc/poem-rcads#youth"/>
         <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS25AnxietyScale"/>
         <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS25DepressionScale"/>
         <poem:hasTarget rdf:resource="http://purl.org/twc/poem-rcads#youth"/>
+        <resource:SIO_000244 rdf:resource="http://purl.org/twc/poem-rcads#RCADS47Questionnaire"/>
     </owl:NamedIndividual>
     
 
@@ -2422,7 +2414,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#RCADS47Questionnaire">
         <rdf:type rdf:resource="http://purl.org/twc/poem#PsychometricQuestionnaire"/>
-        <poem:hasPossibleRespondent rdf:resource="http://purl.org/twc/poem-rcads#Caregiver"/>
+        <poem:hasPossibleRespondent rdf:resource="http://purl.org/twc/poem-rcads#caregiver"/>
         <poem:hasPossibleRespondent rdf:resource="http://purl.org/twc/poem-rcads#youth"/>
         <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47MajorDepressiveDisorderScale"/>
         <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47ObsessiveCompulsiveDisorderScale"/>
@@ -2931,6 +2923,15 @@ alguna razón para sentirme así.</rdfs:label>
     
 
 
+    <!-- http://purl.org/twc/poem-rcads#caregiver -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#caregiver">
+        <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_000485"/>
+        <rdfs:label>caregiver</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#cce93c9f-5a76-46de-90e2-9a4135086271 -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#cce93c9f-5a76-46de-90e2-9a4135086271">
@@ -3275,6 +3276,8 @@ autobuses, sitios de recreo llenos).</rdfs:label>
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#youth">
         <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_000485"/>
+        <resource:SIO_000008 rdf:resource="http://purl.org/twc/poem-rcads#youthMaximumAge"/>
+        <resource:SIO_000008 rdf:resource="http://purl.org/twc/poem-rcads#youthMinimumAge"/>
     </owl:NamedIndividual>
     
 
