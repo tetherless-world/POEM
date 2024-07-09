@@ -1160,6 +1160,7 @@
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS25AnxietyScale">
         <rdf:type rdf:resource="http://purl.org/twc/poem#CompositeScale"/>
         <isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/197480006"/>
+        <rdfs:label>RCADS-25 Anxiety Scale</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1169,6 +1170,7 @@
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS25DepressionScale">
         <rdf:type rdf:resource="http://purl.org/twc/poem#CompositeScale"/>
         <isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/35489007"/>
+        <rdfs:label>RCADS-25 Depression Scale</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1177,6 +1179,8 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47GeneralizedAnxietyDisorderScale">
         <rdf:type rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
+        <isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/21897009"/>
+        <rdfs:label>RCADS-47 Generalized Anxiety Scale</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1184,6 +1188,7 @@
     <!-- http://purl.org/twc/poem#RCADS47MajorDepressiveDisorderScale -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47MajorDepressiveDisorderScale">
+        <rdfs:label>RCADS-47 Major Depressive Disorder Scale</rdfs:label>
         <rdf:type rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/370143000"/>
     </owl:NamedIndividual>
@@ -1193,6 +1198,7 @@
     <!-- http://purl.org/twc/poem#RCADS47ObsessiveCompulsiveDisorderScale -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47ObsessiveCompulsiveDisorderScale">
+        <rdfs:label>RCADS-47 Obsessive Compulsive Disorder Scale</rdfs:label>
         <rdf:type rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/191736004"/>
     </owl:NamedIndividual>
@@ -1202,6 +1208,7 @@
     <!-- http://purl.org/twc/poem#RCADS47PanicDisorderScale -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47PanicDisorderScale">
+        <rdfs:label>RCADS-47 Panic Disorder Scale</rdfs:label>
         <rdf:type rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/371631005"/>
     </owl:NamedIndividual>
@@ -1211,6 +1218,7 @@
     <!-- http://purl.org/twc/poem#RCADS47SeparationAnxietyDisorderScale -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47SeparationAnxietyDisorderScale">
+        <rdfs:label>RCADS-47 Separation Anxiety Disorder Scale</rdfs:label>
         <rdf:type rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/126943008"/>
     </owl:NamedIndividual>
@@ -1220,6 +1228,7 @@
     <!-- http://purl.org/twc/poem#RCADS47SocialAnxietyDisorderScale -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47SocialAnxietyDisorderScale">
+        <rdfs:label>RCADS-47 Social Anxiety Disorder Scale</rdfs:label>
         <rdf:type rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/25501002"/>
     </owl:NamedIndividual>
@@ -1229,6 +1238,7 @@
     <!-- http://purl.org/twc/poem#RCADS47TotalAnxietyScale -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47TotalAnxietyScale">
+        <rdfs:label>RCADS-47 Total Anxiety Scale</rdfs:label>
         <rdf:type rdf:resource="http://purl.org/twc/poem#CompositeScale"/>
         <hasSubscale rdf:resource="http://purl.org/twc/poem#RCADS47GeneralizedAnxietyDisorderScale"/>
         <hasSubscale rdf:resource="http://purl.org/twc/poem#RCADS47ObsessiveCompulsiveDisorderScale"/>
