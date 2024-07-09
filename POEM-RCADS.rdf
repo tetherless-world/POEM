@@ -76,6 +76,12 @@
     
 
 
+    <!-- http://hadatac.org/ont/vstoi#hasItem -->
+
+    <owl:ObjectProperty rdf:about="http://hadatac.org/ont/vstoi#hasItem"/>
+    
+
+
     <!-- http://hadatac.org/ont/vstoi#hasResponseOption -->
 
     <owl:ObjectProperty rdf:about="http://hadatac.org/ont/vstoi#hasResponseOption"/>
@@ -88,9 +94,104 @@
     
 
 
+    <!-- http://purl.org/twc/poem#detects -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#detects"/>
+    
+
+
+    <!-- http://purl.org/twc/poem#hasPossibleRespondent -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#hasPossibleRespondent"/>
+    
+
+
+    <!-- http://purl.org/twc/poem#hasScale -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#hasScale"/>
+    
+
+
+    <!-- http://purl.org/twc/poem#hasSubscale -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#hasSubscale"/>
+    
+
+
+    <!-- http://purl.org/twc/poem#hasTarget -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#hasTarget"/>
+    
+
+
+    <!-- http://purl.org/twc/poem#isAboutDisorder -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#isAboutDisorder"/>
+    
+
+
+    <!-- http://purl.org/twc/poem#isAboutSource -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#isAboutSource"/>
+    
+
+
+    <!-- http://purl.org/twc/poem#isAboutTarget -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#isAboutTarget"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000008 -->
+
+    <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000008"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000011 -->
+
+    <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000011"/>
+    
+
+
     <!-- http://semanticscience.org/resource/SIO_000068 -->
 
     <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000068"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000244 -->
+
+    <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000244"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000332 -->
+
+    <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000332"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://hadatac.org/ont/hasco/hasLanguage -->
+
+    <owl:DatatypeProperty rdf:about="http://hadatac.org/ont/hasco/hasLanguage"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000300 -->
+
+    <owl:DatatypeProperty rdf:about="http://semanticscience.org/resource/SIO_000300"/>
     
 
 
@@ -117,12 +218,96 @@
     
 
 
+    <!-- http://hadatac.org/ont/vstoi#Item -->
+
+    <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Item"/>
+    
+
+
+    <!-- http://hadatac.org/ont/vstoi#ResponseOption -->
+
+    <owl:Class rdf:about="http://hadatac.org/ont/vstoi#ResponseOption"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECO_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECO_0000000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000175"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000280"/>
+    
+
+
+    <!-- http://purl.org/twc/poem#CompositeScale -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem#CompositeScale"/>
+    
+
+
+    <!-- http://purl.org/twc/poem#PsychometricQuestionnaire -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem#PsychometricQuestionnaire"/>
+    
+
+
+    <!-- http://purl.org/twc/poem#QuestionnaireScale -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem#QuestionnaireScale"/>
+    
+
+
     <!-- http://purl.org/twc/poem-rcads#alpha -->
 
     <owl:Class rdf:about="http://purl.org/twc/poem-rcads#alpha">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <rdfs:label>Cronbach&apos;s Alpha</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000485 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000485"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000794 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000794"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_001013 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_001013"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_001113 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_001113"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_001114 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_001114"/>
     
 
 
@@ -169,11 +354,33 @@
     
 
 
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/126943008 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/126943008"/>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/191736004 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/191736004"/>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/197480006 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/197480006"/>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/21897009 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/21897009"/>
+    
+
+
     <!-- http://purl.bioontology.org/ontology/SNOMEDCT/225445003 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/225445003">
-        <rdfs:label>anxiety disorder</rdfs:label>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/225445003"/>
     
 
 
@@ -233,11 +440,35 @@
     
 
 
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/25501002 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/25501002"/>
+    
+
+
     <!-- http://purl.bioontology.org/ontology/SNOMEDCT/28669007 -->
 
     <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/28669007">
         <rdfs:label>anhedonia</rdfs:label>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/35489007 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/35489007"/>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/370143000 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/370143000"/>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/371631005 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/371631005"/>
     
 
 
@@ -305,13 +536,53 @@
 
     <!-- http://purl.org/twc/poem#RCADS25AnxietyScale -->
 
-    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS25AnxietyScale"/>
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS25AnxietyScale">
+        <rdf:type rdf:resource="http://purl.org/twc/poem#CompositeScale"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#aab41a6e-4008-4f8b-9b62-bcde4c239a54"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#b4f7cbfc-536d-43d9-93b4-c21d7670abec"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#bfa8dd84-0378-47a2-b7d5-b90ae0d100af"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#d06521d0-23e4-485e-a3cf-1ebf1db6d4ce"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#e410d09c-4e69-490d-8f8a-f37035d38bcc"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#ebf09ac5-1adf-4fae-8afa-bfd7021d82f4"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#f1026e43-178a-4c52-8048-cc9548fb5776"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#fd88558c-a9bc-434f-91dc-8a3a9e6982f3"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#0712cfff-386e-4e0d-805e-c7d0f09d2cf8"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#2375b0bd-3f7b-494e-aa07-126439e11b56"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#3edd1718-b161-4b01-8add-db47c8d63b93"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#4031d925-a69c-431d-b009-d5333f9be62a"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#73d2a5b8-0c6d-417c-93a8-c9507c4b2717"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#75e0831e-e69f-46c5-86c7-a5b9cf4c9c28"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#8f5e8e01-ce54-4472-9773-4a8788503bff"/>
+        <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/197480006"/>
+        <rdfs:label>RCADS-25 Anxiety Scale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/twc/poem#RCADS25DepressionScale -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS25DepressionScale">
+        <rdf:type rdf:resource="http://purl.org/twc/poem#CompositeScale"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#a1f0a1ca-a60c-464d-980e-58e8878013c4"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#c73850b0-77c4-4068-90f5-baf54a29770f"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#ca89f4a7-d4d7-495f-822a-9179642f9a54"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#e1882b43-982b-4668-9d14-05abbaae775f"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#275b9e8e-0f7b-440b-97ff-891d1f224aa8"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#3b96f08f-bf0c-47eb-a4e6-7eb6a1fda486"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#5c608a18-511a-493d-8974-4c0802bc31e0"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#6e817638-24f2-432c-86af-f1e5aa4edf05"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#763f921a-7500-4a84-b779-29f55adb0e96"/>
+        <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#7890eeef-3025-4d9a-9626-af396a53af6d"/>
+        <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/35489007"/>
+        <rdfs:label>RCADS-25 Depression Scale</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/twc/poem#RCADS47GeneralizedAnxietyDisorderScale -->
 
-    <rdf:Description rdf:about="http://purl.org/twc/poem#RCADS47GeneralizedAnxietyDisorderScale">
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47GeneralizedAnxietyDisorderScale">
+        <rdf:type rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#aab41a6e-4008-4f8b-9b62-bcde4c239a54"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#e410d09c-4e69-490d-8f8a-f37035d38bcc"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#f758cf97-733c-4e50-8d51-1fbc5410cfae"/>
@@ -319,7 +590,8 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#73d2a5b8-0c6d-417c-93a8-c9507c4b2717"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#9db20e6c-9ae2-4724-8531-b9801194b30b"/>
         <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/21897009"/>
-    </rdf:Description>
+        <rdfs:label>RCADS-47 Generalized Anxiety Scale</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
@@ -337,27 +609,33 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#6e817638-24f2-432c-86af-f1e5aa4edf05"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#763f921a-7500-4a84-b779-29f55adb0e96"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#7890eeef-3025-4d9a-9626-af396a53af6d"/>
+        <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/370143000"/>
         <isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/370143000"/>
+        <rdfs:label>RCADS-47 Major Depressive Disorder Scale</rdfs:label>
     </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/twc/poem#RCADS47ObsessiveCompulsiveDisorderScale -->
 
-    <rdf:Description rdf:about="http://purl.org/twc/poem#RCADS47ObsessiveCompulsiveDisorderScale">
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47ObsessiveCompulsiveDisorderScale">
+        <rdf:type rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#b3345c7b-2e43-413c-adff-47be3c2147bf"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#c0c9ccd4-860a-4f6c-b0e7-237e2c3382fe"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#3edd1718-b161-4b01-8add-db47c8d63b93"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#4031d925-a69c-431d-b009-d5333f9be62a"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#8f5e8e01-ce54-4472-9773-4a8788503bff"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#819caf60-bb05-4e12-b657-44161e517ad8"/>
-    </rdf:Description>
+        <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/191736004"/>
+        <rdfs:label>RCADS-47 Obsessive Compulsive Disorder Scale</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/twc/poem#RCADS47PanicDisorderScale -->
 
-    <rdf:Description rdf:about="http://purl.org/twc/poem#RCADS47PanicDisorderScale">
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47PanicDisorderScale">
+        <rdf:type rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#b1166244-c6fd-4205-9eef-42bb01ea7ed0"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#bf257105-0c71-4f7c-afa8-b46fde79b6a3"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#bfa8dd84-0378-47a2-b7d5-b90ae0d100af"/>
@@ -367,13 +645,16 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#ebf09ac5-1adf-4fae-8afa-bfd7021d82f4"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#36840cea-e304-49f2-ac42-4a60e999a487"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#7b6b48d2-cc40-4b4a-b792-4343ec9b803d"/>
-    </rdf:Description>
+        <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/371631005"/>
+        <rdfs:label>RCADS-47 Panic Disorder Scale</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/twc/poem#RCADS47SeparationAnxietyDisorderScale -->
 
-    <rdf:Description rdf:about="http://purl.org/twc/poem#RCADS47SeparationAnxietyDisorderScale">
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47SeparationAnxietyDisorderScale">
+        <rdf:type rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#c05bccdd-9ac4-464e-a13f-dbf7c07922a8"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#ca54007d-a907-4c26-8cbe-975093242feb"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#f1026e43-178a-4c52-8048-cc9548fb5776"/>
@@ -381,13 +662,16 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#25b054c4-ea87-4271-9058-e54fc82819d1"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#323144fb-4174-44bd-b40c-23674a4c45ff"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#75e0831e-e69f-46c5-86c7-a5b9cf4c9c28"/>
-    </rdf:Description>
+        <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/126943008"/>
+        <rdfs:label>RCADS-47 Separation Anxiety Disorder Scale</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/twc/poem#RCADS47SocialAnxietyDisorderScale -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47SocialAnxietyDisorderScale">
+        <rdf:type rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#b4f7cbfc-536d-43d9-93b4-c21d7670abec"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#fd88558c-a9bc-434f-91dc-8a3a9e6982f3"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#0712cfff-386e-4e0d-805e-c7d0f09d2cf8"/>
@@ -397,13 +681,24 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#31e88c71-907a-4bdb-ab9b-aabdfccf5781"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#5a45c1e6-b98b-40f2-8b01-70e155fcbc0f"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#580ddf63-8552-4455-a1e9-b410a8c8f7ec"/>
+        <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/25501002"/>
+        <rdfs:label>RCADS-47 Social Anxiety Disorder Scale</rdfs:label>
     </owl:NamedIndividual>
     
 
 
     <!-- http://purl.org/twc/poem#RCADS47TotalAnxietyScale -->
 
-    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47TotalAnxietyScale"/>
+    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem#RCADS47TotalAnxietyScale">
+        <rdf:type rdf:resource="http://purl.org/twc/poem#CompositeScale"/>
+        <poem:hasSubscale rdf:resource="http://purl.org/twc/poem#RCADS47GeneralizedAnxietyDisorderScale"/>
+        <poem:hasSubscale rdf:resource="http://purl.org/twc/poem#RCADS47ObsessiveCompulsiveDisorderScale"/>
+        <poem:hasSubscale rdf:resource="http://purl.org/twc/poem#RCADS47PanicDisorderScale"/>
+        <poem:hasSubscale rdf:resource="http://purl.org/twc/poem#RCADS47SeparationAnxietyDisorderScale"/>
+        <poem:hasSubscale rdf:resource="http://purl.org/twc/poem#RCADS47SocialAnxietyDisorderScale"/>
+        <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/197480006"/>
+        <rdfs:label>RCADS-47 Total Anxiety Scale</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
@@ -845,6 +1140,7 @@
         <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS25DepressionScale"/>
         <poem:hasTarget rdf:resource="http://purl.org/twc/poem-rcads#youth"/>
         <resource:SIO_000244 rdf:resource="http://purl.org/twc/poem-rcads#RCADS47Questionnaire"/>
+        <rdfs:label>RCADS-25 Questionnaire</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -853,6 +1149,7 @@
 
     <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#RCADS47GeneralizedAnxietyDisorderScale-P">
         <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/21897009"/>
+        <rdfs:label>RCADS-47 Generalized Anxiety Disorder Scale (Parent Version)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2375,6 +2672,7 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#9c6d2369-6a5d-411c-b3e8-f48773170ae4"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#94276c2e-5ce1-447a-8dba-79ce77f3efc3"/>
         <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/370143000"/>
+        <rdfs:label>RCADS-47 Major Depressive Disorder Scale (Parent Version)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2389,6 +2687,7 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#4dce59dd-0f00-4800-8ce3-15743afb5a93"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#7e9a35f3-b55d-46c1-b540-1829e4b43c46"/>
         <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/191736004"/>
+        <rdfs:label>RCADS-47 Obsessive Compulsive Disorder Scale (Parent Version)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2406,6 +2705,7 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#806c3d31-5b93-44c2-bb01-1c8da38f2504"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#943b37f3-0f06-4266-bcd3-5e7f4eb01e7d"/>
         <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/371631005"/>
+        <rdfs:label>RCADS-47 Panic Disorder Scale (Parent Version)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2424,6 +2724,7 @@
         <poem:hasScale rdf:resource="http://purl.org/twc/poem#RCADS47TotalAnxietyScale"/>
         <poem:hasTarget rdf:resource="http://purl.org/twc/poem-rcads#youth"/>
         <hasco:hasLanguage>en</hasco:hasLanguage>
+        <rdfs:label>RCADS-47 Questionnaire</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2437,16 +2738,7 @@
         <poem:hasScale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47PanicDisorderScale-P"/>
         <poem:hasScale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47SeparationAnxietyDisorderScale-P"/>
         <poem:hasScale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47SocialAnxietyDisorderScale-P"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.org/twc/poem-rcads#RCADS47Questionnaire-es -->
-
-    <owl:NamedIndividual rdf:about="http://purl.org/twc/poem-rcads#RCADS47Questionnaire-es">
-        <rdf:type rdf:resource="http://purl.org/twc/poem#PsychometricQuestionnaire"/>
-        <hasco:hasLanguage>es</hasco:hasLanguage>
-        <prov:wasDerivedFrom rdf:resource="http://purl.org/twc/poem-rcads#RCADS47Questionnaire"/>
+        <rdfs:label>RCADS-47 Questionnaire (Parent Version)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2462,6 +2754,7 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#439ad11d-c5d3-492e-9cc4-1ba088cbe303"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#9ed0fc52-886b-404a-aac3-33610e2b9953"/>
         <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/126943008"/>
+        <rdfs:label>RCADS-47 Separation Anxiety Disorder Scale (Parent Version)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2479,6 +2772,7 @@
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#53b2c8d7-013b-4bba-b2a3-e6432d269ee5"/>
         <vstoi:hasItem rdf:resource="http://purl.org/twc/poem-rcads#7a1a3ff6-c383-49d0-83ef-7d0352c5be85"/>
         <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/25501002"/>
+        <rdfs:label>RCADS-47 Social Anxiety Disorder Scale (Parent Version)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2492,6 +2786,7 @@
         <poem:hasSubscale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47SeparationAnxietyDisorderScale-P"/>
         <poem:hasSubscale rdf:resource="http://purl.org/twc/poem-rcads#RCADS47SocialAnxietyDisorderScale-P"/>
         <poem:isAboutDisorder rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225445003"/>
+        <rdfs:label>RCADS-47 Total Anxiety Disorder Scale (Parent Version)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3202,6 +3497,7 @@ razón.</rdfs:label>
         <vstoi:hasResponseOption rdf:resource="http://purl.org/twc/poem-rcads#RCADS47Item1Never"/>
         <vstoi:hasResponseOption rdf:resource="http://purl.org/twc/poem-rcads#RCADS47Item1Often"/>
         <vstoi:hasResponseOption rdf:resource="http://purl.org/twc/poem-rcads#RCADS47Item1Sometimes"/>
+        <poem:detects rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79015004"/>
         <hasco:hasLanguage>en</hasco:hasLanguage>
         <rdfs:label>I worry about things.</rdfs:label>
         <skos:notation>RCADS47Item1</skos:notation>
