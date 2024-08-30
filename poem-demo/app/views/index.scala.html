@@ -46,36 +46,84 @@
       <div class="col-sm-4">
         <div class="panel panel-success">
           <div class="panel-heading">
-            <h3 class="panel-title">Panel title</h3>
+            <h3 class="panel-title">What languages are the following instrument available in?</h3>
           </div>
           <div class="panel-body">
-            Panel content
+            <div class="form-group" hidden>
+              <input type="hidden" class="form-control" id="query" placeholder="query0">
+            </div>
+            <div class="form-group">
+              <select class="form-control">
+                <option>RCADS-25 Youth</option>
+                <option>RCADS-25 Caregiver</option>
+                <option>RCADS-47 Youth</option>
+                <option>RCADS-47 Caregiver</option>
+              </select>
+            </div>
+            <form>
+              <button type="submit" class="btn btn-primary">Ask POEM</button>
+            </form>
           </div>
         </div>
         <div class="panel panel-info">
+          <!--  Could make the questionnaire option static if this makes your job too hard    -->
           <div class="panel-heading">
-            <h3 class="panel-title">Panel title</h3>
+            <h3 class="panel-title">What construct is a particular item of the following questionnaire about?</h3>
           </div>
           <div class="panel-body">
-            Panel content
+            <div class="form-group" hidden>
+              <input type="hidden" class="form-control" id="query" placeholder="query0">
+            </div>
+            <div class="form-group">
+              <select class="form-control">
+                <option>RCADS-25 Youth</option>
+                <option>RCADS-25 Caregiver</option>
+                <option>RCADS-47 Youth</option>
+                <option>RCADS-47 Caregiver</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <select class="form-control">
+                <option>I worry about things</option>
+                <option>I feel sad or empty</option>
+                <option>When I have a problem, I get a funny feeling in my stomach</option>
+                <option>etc</option>
+              </select>
+            </div>
+            <form>
+              <button type="submit" class="btn btn-primary">Ask POEM</button>
+            </form>
           </div>
         </div>
       </div><!-- /.col-sm-4 -->
       <div class="col-sm-4">
         <div class="panel panel-warning">
           <div class="panel-heading">
-            <h3 class="panel-title">Panel title</h3>
+            <h3 class="panel-title">Are there any shorter official derivations of the following questionnaire?</h3>
           </div>
           <div class="panel-body">
-            Panel content
+            <div class="form-group">
+              <select class="form-control">
+                <option>RCADS-25 Youth</option>
+                <option>RCADS-25 Caregiver</option>
+                <option>RCADS-47 Youth</option>
+                <option>RCADS-47 Caregiver</option>
+              </select>
+            </div>
           </div>
         </div>
         <div class="panel panel-danger">
           <div class="panel-heading">
-            <h3 class="panel-title">Panel title</h3>
+            <!-- Inverse of first example -->
+            <h3 class="panel-title">Which currently available questionnaires have scales to assess the following construct?</h3>
           </div>
           <div class="panel-body">
-            Panel content
+            <div class="form-group">
+              <select class="form-control">
+                <option>Major Depressive Disorder</option>
+                <option>Generalized Anxiety Disorder</option>
+              </select>
+            </div>
           </div>
         </div>
       </div><!-- /.col-sm-4 -->
