@@ -1,0 +1,105 @@
+﻿OptionID,OptionConcept,OptionText,OptionLanguage
+1,never,never,1
+2,sometimes,sometimes,1
+3,often,often,1
+4,always,always,1
+5,never,أبدا,2
+6,sometimes,في بعض الأوقات,2
+7,often,غالبا,2
+8,always,دائما,2
+9,never,从来没有,3
+10,sometimes,有时会,3
+11,often,大多数时候是,3
+12,always,总是,3
+13,never,Slet ikke,4
+14,sometimes,Nogle gange,4
+15,often,Ofte,4
+16,always,Meget ofte,4
+17,never,Noms,5
+18,sometimes,Soms,5
+19,often,Vaak,5
+20,always,Altijd,5
+21,never,Mitte kunagi,6
+22,sometimes,Mõnikord,6
+23,often,Sageli,6
+24,always,Alati,6
+25,never,Ei koskaan,7
+26,sometimes,Joskus,7
+27,often,Usein,7
+28,always,Aina,7
+29,never,Jamais,8
+30,sometimes,Quelque fois,8
+31,often,Souvent,8
+32,always,Toujours,8
+33,never,nie,9
+34,sometimes,manchmal,9
+35,often,häufig,9
+36,always,immer,9
+37,never,Ποτέ,10
+38,sometimes,Μερικές φορές,10
+39,often,Συχνά,10
+40,always,Συνέχεια,10
+41,never,Soha,11
+42,sometimes,Néha,11
+43,often,Gyakran,11
+44,always,Mindig,11
+45,never,Aldrei,12
+46,sometimes,Stundum,12
+47,often,Oft,12
+48,always,Alltaf,12
+49,never,まったくない,13
+50,sometimes,ときどきある,13
+51,often,よくある,13
+52,always,いつもある,13
+53,never,전혀 없음,14
+54,sometimes,가끔,14
+55,often,자주,14
+56,always,항상,14
+57,never,Niekada,15
+58,sometimes,Kartais,15
+59,often,Dažnai,15
+60,always,Visada,15
+61,never,Aldri,16
+62,sometimes,Noen ganger,16
+63,often,Ofte,16
+64,always,Veldig ofte,16
+65,never,هرگز,17
+66,sometimes,گاهی,17
+67,often,اغلب,17
+68,always,همیشه,17
+69,never,Nigdy,18
+70,sometimes,Czasami,18
+71,often,Często,18
+72,always,Zawsze,18
+73,never,Nunca,19
+74,sometimes,Às vezes,19
+75,often,Frequentemente,19
+76,always,Sempre,19
+77,never,Nikoli.,20
+78,sometimes,Včasih.,20
+79,often,Pogosto.,20
+80,always,Vedno.,20
+81,never,Nunca,21
+82,sometimes,Algunas Veces,21
+83,often,Con Frecuencia,21
+84,always,Siempre,21
+85,never,Aldrig,22
+86,sometimes,Ibland,22
+87,often,Ofta,22
+88,always,Alltid,22
+89,never,Asla,23
+90,sometimes,Bazen,23
+91,often,Sik sik,23
+92,always,Her zaman,23
+93,never,کبھی نہیں,24
+94,sometimes,کبھی کبھی,24
+95,often,اکثر,24
+96,always,ہمیشہ,24
+97,strongly disagree,Strongly Disagree,1
+98,disagree,Disagree,1
+99,agree,Agree,1
+100,strongly agree,Strongly Agree,1
+101,strongly disagree,Muy en Desacuerdo,21
+102,disagree,Desacuerdo,21
+103,agree,De Acuerdo,21
+104,strongly agree,Muy de Acuerdo,21
