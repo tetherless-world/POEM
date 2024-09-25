@@ -1,0 +1,50 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <http://example.org/rules/> .
+@prefix schema: <http://schema.org/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix poem: <http://purl.org/twc/poem/> .
+@prefix vstoi: <http://purl.org/twc/vstoi/> .
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+
+:TriplesMap a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "data/41_ScaleItemConceptMap.csv";
+      csvw:dialect [
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMap rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/scale/{ScaleID}"
+].
+
+# :TriplesMap rr:predicateObjectMap [
+#   rr:predicate rdf:type;
+#   rr:objectMap [ rr:constant poem:SyndromeScale ];
+# ].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:hasMember;
+  rr:objectMap [
+    rr:template "http://purl.org/twc/poem/individual/itemStemConcept/{ItemConceptID}"
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000059;
+  rr:objectMap [
+    rr:template "http://purl.org/twc/poem/individual/itemStemConcept/{ItemConceptID}"
+  ]
+].

@@ -1,0 +1,86 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix : <http://example.org/rules/> .
+@prefix schema: <http://schema.org/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix poem: <http://purl.org/twc/poem/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+
+:TriplesMap a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "data/23_InstrumentItemMap.csv";
+      csvw:dialect [
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMap2 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "data/items.csv";
+      csvw:dialect [
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMap3 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "data/10_Instruments.csv";
+      csvw:dialect [
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMap rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/instrumentItemMap/{InstrumentItemID}"
+].
+
+:TriplesMap2 rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/item/{ItemID}"
+].
+
+:TriplesMap3 rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/instrument/{InstrumentID}"
+].
+
+# :TriplesMap3 rr:predicateObjectMap [
+#   rr:predicate sio:SIO_000059;
+#   rr:objectMap [
+#     rr:template "http://purl.org/twc/poem/individual/item/{ItemID}"
+#   ]
+# ].
+
+# :TriplesMap3 rr:predicateObjectMap [
+#   rr:predicate sio:hasMember;
+#   rr:objectMap [
+#     rr:template "http://purl.org/twc/poem/individual/item/{ItemID}"
+#   ]
+# ].
+
+# :TriplesMap2 rr:predicateObjectMap [
+#   rr:predicate sio:hasAttribute;
+#   rr:objectMap [ rr:constant [
+#       a sio:OrdinalPosition;
+#       sio:hasValue rr:reference "ItemPosition";
+#       sio:inRelationTo rr:template "http://purl.org/twc/poem/individual/instrument/{InstrumentID}"
+#   ] ]
+# ].
