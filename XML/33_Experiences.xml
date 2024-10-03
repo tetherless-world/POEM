@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="33_Experiences.xsd" generated="2024-10-03T14:55:15">
+<_x0033_3_Experiences>
+<ExperienceID>1</ExperienceID>
+<Experience>Frequency</Experience>
+</_x0033_3_Experiences>
+<_x0033_3_Experiences>
+<ExperienceID>2</ExperienceID>
+<Experience>Intensity</Experience>
+</_x0033_3_Experiences>
+<_x0033_3_Experiences>
+<ExperienceID>3</ExperienceID>
+<Experience>Duration</Experience>
+</_x0033_3_Experiences>
+<_x0033_3_Experiences>
+<ExperienceID>4</ExperienceID>
+<Experience>Relevance</Experience>
+</_x0033_3_Experiences>
+<_x0033_3_Experiences>
+<ExperienceID>5</ExperienceID>
+<Experience>Agreement</Experience>
+</_x0033_3_Experiences>
+</dataroot>

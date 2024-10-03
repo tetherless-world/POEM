@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="92_RespondentTypes.xsd" generated="2024-10-03T14:58:29">
+<_x0039_2_RespondentTypes>
+<RespondentTypeID>1</RespondentTypeID>
+<RespondentType>Self</RespondentType>
+</_x0039_2_RespondentTypes>
+<_x0039_2_RespondentTypes>
+<RespondentTypeID>2</RespondentTypeID>
+<RespondentType>Observer</RespondentType>
+</_x0039_2_RespondentTypes>
+</dataroot>

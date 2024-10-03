@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:od="urn:schemas-microsoft-com:officedata">
+<xsd:element name="dataroot">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element ref="_x0032_3_InstrumentItemMap" minOccurs="0" maxOccurs="unbounded"/>
+</xsd:sequence>
+<xsd:attribute name="generated" type="xsd:dateTime"/>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="_x0032_3_InstrumentItemMap">
+<xsd:annotation>
+<xsd:appinfo>
+<od:index index-name="InstrumentItemID" index-key="InstrumentItemID " primary="no" unique="no" clustered="no" order="asc"/>
+<od:tableProperty name="Orientation" type="2" value="0"/>
+<od:tableProperty name="OrderByOn" type="1" value="0"/>
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAAPL5KySsMtQL5GTsVxkPvzAAAAAGzlhw7NM+ZAAAAAAAAAAAAyADMA
+XwBJAG4AcwB0AHIAdQBtAGUAbgB0AEkAdABlAG0ATQBhAHAAAAAAAAAAF9UV/Zwa
+L0OUweDjRvjawwcAAAAPL5KySsMtQL5GTsVxkPvzSQBuAHMAdAByAHUAbQBlAG4A
+dABJAHQAZQBtAEkARAAAAAAAAAC/p/jnjz66S79UVJrfxTFkAAAAAHbXxHWUNeZA
+AAAAAAAAAAAxADAAXwBJAG4AcwB0AHIAdQBtAGUAbgB0AHMAAAAAAAAAG2+0b+/g
+oUCCNlrpk6Lk5gcAAAC/p/jnjz66S79UVJrfxTFkSQBuAHMAdAByAHUAbQBlAG4A
+dABJAEQAAAAAAAAALUK6McrzYEmhoedrOXAnGgcAAAC/p/jnjz66S79UVJrfxTFk
+SQBuAHMAdAByAHUAbQBlAG4AdABOAGEAbQBlAAAAAAAAAJ4hDpo0wEhArQhf398U
+FFUHAAAADy+SskrDLUC+Rk7FcZD780kAbgBzAHQAcgB1AG0AZQBuAHQASQBEAAAA
+AAAAALtaUIdyzBpBrEmimAwkRncAAAAAJ24p57My5kAAAAAAAAAAADMAMABfAEMA
+bwBkAGUAYgBvAG8AawBzAAAAAAAAAIU2UGG9oshJlAY8kWEgo1gAAAAAfn6jbvMy
+5kAAAAAAAAAAADIAMQBfAEkAdABlAG0AUwB0AGUAbQBzAAAAAAAAANi9RnbwVBBC
+jlWPzhgQ7DgAAAAAMt8j77My5kAAAAAAAAAAADIAMABfAEkAdABlAG0AcwAAAAAA
+AAC3zztPn6pQS5kl+mU4zIHuBwAAANi9RnbwVBBCjlWPzhgQ7DhJAHQAZQBtAEkA
+RAAAAAAAAADE7jpCriLJSaLXMGlxsvMzBwAAANi9RnbwVBBCjlWPzhgQ7DhJAHQA
+ZQBtAFMAdABlAG0ASQBEAAAAAAAAAFkKSe7o2B1Ah+LODvM3UVIHAAAAhTZQYb2i
+yEmUBjyRYSCjWEkAdABlAG0AUwB0AGUAbQBGAHUAbABsAFQAZQB4AHQAAAAAAAAA
+hLfGYopVyESwdFTT/3j3qQcAAAC7WlCHcswaQaxJopgMJEZ3QwBvAGQAZQBiAG8A
+bwBrAE4AYQBtAGUAAAAAAAAAxz3vEwv6xkCw9OiQaDX4QwcAAACFNlBhvaLISZQG
+PJFhIKNYSQB0AGUAbQBTAHQAZQBtAEkARAAAAAAAAADuWeMTXz0aTZ10PoU/j78l
+BwAAALtaUIdyzBpBrEmimAwkRndDAG8AZABlAGIAbwBvAGsASQBEAAAAAAAAAM41
+Q/3gxOFOu2OmYSxLGMIHAAAA2L1GdvBUEEKOVY/OGBDsOEMAbwBkAGUAYgBvAG8A
+awBJAEQAAAAAAAAAgOUezLGEtUWrsX/sC3X1CwcAAAAPL5KySsMtQL5GTsVxkPvz
+SQB0AGUAbQBJAEQAAAAAAAAAOEsbF3utukGn0HUAg0xVcgcAAAAPL5KySsMtQL5G
+TsVxkPvzSQB0AGUAbQBQAG8AcwBpAHQAaQBvAG4AAAAAAAAAhTV55o5iqkWj4l22
+dTU6dwcAAAAPL5KySsMtQL5GTsVxkPvzSQB0AGUAbQBEAGkAcwBwAGwAYQB5AE4A
+dQBtAGIAZQByAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAA
+AAAAAAAA
+"/>
+<od:tableProperty name="DefaultView" type="2" value="2"/>
+<od:tableProperty name="DisplayViewsOnSharePointSite" type="2" value="1"/>
+<od:tableProperty name="TotalsRow" type="1" value="0"/>
+<od:tableProperty name="FilterOnLoad" type="1" value="0"/>
+<od:tableProperty name="OrderByOnLoad" type="1" value="1"/>
+<od:tableProperty name="HideNewField" type="1" value="0"/>
+<od:tableProperty name="BackTint" type="6" value="100"/>
+<od:tableProperty name="BackShade" type="6" value="100"/>
+<od:tableProperty name="ThemeFontIndex" type="4" value="-1"/>
+<od:tableProperty name="AlternateBackThemeColorIndex" type="4" value="-1"/>
+<od:tableProperty name="AlternateBackTint" type="6" value="100"/>
+<od:tableProperty name="AlternateBackShade" type="6" value="100"/>
+<od:tableProperty name="ReadOnlyWhenDisconnected" type="1" value="0"/>
+<od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="-1"/>
+<od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="-1"/>
+<od:tableProperty name="PublishToWeb" type="2" value="1"/>
+<od:tableProperty name="GUID" type="9" value="Dy+SskrDLUC+Rk7FcZD78w==
+"/>
+<od:tableProperty name="Filter" type="12" value="([Lookup_InstrumentID].[InstrumentName]=&quot;MTT-35-CG-EN-3&quot;)"/>
+</xsd:appinfo>
+</xsd:annotation>
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="InstrumentItemID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="F9UV/ZwaL0OUweDjRvjaww==
+"/>
+</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element name="InstrumentID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="ColumnWidth" type="3" value="2145"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+<od:fieldProperty name="Required" type="1" value="0"/>
+<od:fieldProperty name="DisplayControl" type="3" value="111"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="RowSourceType" type="10" value="Table/Query"/>
+<od:fieldProperty name="RowSource" type="12" value="SELECT [10_Instruments].InstrumentID, [10_Instruments].InstrumentName FROM 10_Instruments ORDER BY [InstrumentName]; "/>
+<od:fieldProperty name="BoundColumn" type="3" value="1"/>
+<od:fieldProperty name="ColumnCount" type="3" value="2"/>
+<od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+<od:fieldProperty name="ColumnWidths" type="10" value="0;3120"/>
+<od:fieldProperty name="ListRows" type="3" value="16"/>
+<od:fieldProperty name="ListWidth" type="10" value="3120twip"/>
+<od:fieldProperty name="LimitToList" type="1" value="1"/>
+<od:fieldProperty name="AllowMultipleValues" type="1" value="0"/>
+<od:fieldProperty name="AllowValueListEdits" type="1" value="0"/>
+<od:fieldProperty name="ShowOnlyRowSourceValues" type="1" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="niEOmjTASECtCF/f3xQUVQ==
+"/>
+</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element name="ItemID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="GUID" type="9" value="gOUezLGEtUWrsX/sC3X1Cw==
+"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="9615"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+<od:fieldProperty name="Required" type="1" value="0"/>
+<od:fieldProperty name="DisplayControl" type="3" value="111"/>
+<od:fieldProperty name="TextAlign" type="2" value="1"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="RowSourceType" type="10" value="Table/Query"/>
+<od:fieldProperty name="RowSource" type="12" value="SELECT [20_Items].ItemID, [20_Items].ItemStemID, [21_ItemStems].ItemStemFullText, [30_Codebooks].CodebookName FROM 30_Codebooks RIGHT JOIN (21_ItemStems RIGHT JOIN 20_Items ON [21_ItemStems].ItemStemID=[20_Items].ItemStemID) ON [30_Codebooks].CodebookID=[20_Items].CodebookID ORDER BY [21_ItemStems].ItemStemFullText; "/>
+<od:fieldProperty name="BoundColumn" type="3" value="1"/>
+<od:fieldProperty name="ColumnCount" type="3" value="4"/>
+<od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+<od:fieldProperty name="ColumnWidths" type="10" value="0;0;4320;2880"/>
+<od:fieldProperty name="ListRows" type="3" value="16"/>
+<od:fieldProperty name="ListWidth" type="10" value="7200twip"/>
+<od:fieldProperty name="LimitToList" type="1" value="1"/>
+<od:fieldProperty name="AllowMultipleValues" type="1" value="0"/>
+<od:fieldProperty name="AllowValueListEdits" type="1" value="0"/>
+<od:fieldProperty name="ShowOnlyRowSourceValues" type="1" value="0"/>
+</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element name="ItemPosition" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+<od:fieldProperty name="Required" type="1" value="0"/>
+<od:fieldProperty name="DisplayControl" type="3" value="109"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="OEsbF3utukGn0HUAg0xVcg==
+"/>
+</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element name="ItemDisplayNumber" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="GUID" type="9" value="hTV55o5iqkWj4l22dTU6dw==
+"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+<od:fieldProperty name="Required" type="1" value="0"/>
+<od:fieldProperty name="DisplayControl" type="3" value="109"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
