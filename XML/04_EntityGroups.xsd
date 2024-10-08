@@ -14,13 +14,13 @@
 <od:index index-name="EntityMappingID" index-key="EntityMappingID " primary="no" unique="no" clustered="no" order="asc"/>
 <od:index index-name="PrimaryKey" index-key="EntityMappingID " primary="yes" unique="yes" clustered="no" order="asc"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
-<od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAABYfwX/ttBTR6LYhQacp+kvAAAAAA3sqLv1PuZAAAAAAAAAAAAwADQA
-XwBFAG4AdABpAHQAeQBHAHIAbwB1AHAAcwAAAAAAAADvdXtW10dNRLRdgntgI8Vu
-AAAAAI1c6Nj1PuZAAAAAAAAAAAAwADMAXwBBAGMAdABpAHYAaQB0AGkAZQBzAAAA
-AAAAAFxoB7xADDdEuHs/CWslmQYHAAAAWH8F/7bQU0ei2IUGnKfpL0UAbgB0AGkA
-dAB5AE0AYQBwAHAAaQBuAGcASQBEAAAAAAAAAO38JgDf3ohPikY8lbRXyLoHAAAA
-WH8F/7bQU0ei2IUGnKfpL0UAbgB0AGkAdAB5AEwAaQBzAHQATgBhAG0AZQAAAAAA
+<od:tableProperty name="OrderByOn" type="1" value="1"/>
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAABYfwX/ttBTR6LYhQacp+kvAAAAAFFGSL0PP+ZAAAAAAAAAAAAwADQA
+XwBFAG4AdABpAHQAeQBHAHIAbwB1AHAAcwAAAAAAAADt/CYA396IT4pGPJW0V8i6
+BwAAAFh/Bf+20FNHotiFBpyn6S9FAG4AdABpAHQAeQBMAGkAcwB0AE4AYQBtAGUA
+AAAAAAAA73V7VtdHTUS0XYJ7YCPFbgAAAACxE0ovjUDmQAAAAAAAAAAAMAAzAF8A
+QQBjAHQAaQB2AGkAdABpAGUAcwAAAAAAAABcaAe8QAw3RLh7PwlrJZkGBwAAAFh/
+Bf+20FNHotiFBpyn6S9FAG4AdABpAHQAeQBNAGEAcABwAGkAbgBnAEkARAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 "/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
@@ -41,6 +41,7 @@ AAAAAAAAAAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
 <od:tableProperty name="GUID" type="9" value="WH8F/7bQU0ei2IUGnKfpLw==
 "/>
+<od:tableProperty name="OrderBy" type="12" value="[04_EntityGroups].[EntityListName]"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>

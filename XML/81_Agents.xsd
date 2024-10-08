@@ -17,7 +17,7 @@
 "/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAACTen0N26p0Qr6gZgjlzWRrAAAAAA2hmBlyP+ZAAAAAAAAAAAA4ADEA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAACTen0N26p0Qr6gZgjlzWRrAAAAAGOTmRlyP+ZAAAAAAAAAAAA4ADEA
 XwBBAGcAZQBuAHQAcwAAAAAAAAC/hNFItTK2R4/+4yO8UhmrBwAAAJN6fQ3bqnRC
 vqBmCOXNZGtBAGcAZQBuAHQASQBEAAAAAAAAANt/28ZAKcBCvNoFNr8m5fgHAAAA
 k3p9DduqdEK+oGYI5c1ka0EAZwBlAG4AdABOAGEAbQBlAAAAAAAAAMY76XADQj5H
@@ -50,7 +50,7 @@ AAAAAA==
 <od:fieldProperty name="GUID" type="9" value="v4TRSLUytkeP/uMjvFIZqw==
 "/>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="1"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="TextAlign" type="2" value="0"/>
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
@@ -89,7 +89,7 @@ AAAAAA==
 <xsd:element name="Associated_x0020_DOI" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="3870"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>

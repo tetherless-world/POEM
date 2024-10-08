@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="11_InstrumentComponents.xsd" generated="2024-10-03T14:52:55">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="11_InstrumentComponents.xsd" generated="2024-10-08T11:25:52">
 <_x0031_1_InstrumentComponents>
 <ElementID>3</ElementID>
 <InstrumentID>1</InstrumentID>
@@ -2614,5 +2614,194 @@ Her Zaman doğru ise </ComponentValue>
 <InstrumentID>96</InstrumentID>
 <ComponentAttribute>6</ComponentAttribute>
 <ComponentValue>بچے سے رشتہ: </ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>431</ElementID>
+<InstrumentID>97</InstrumentID>
+<ComponentAttribute>4</ComponentAttribute>
+<ComponentValue>Directions. This form is about your thoughts and experiences with therapy. Please complete only the sections that have a checkmark at the top. Circle the answer that best tells how true each sentence is about how you usually feel. There are no right or wrong answers. Just circle what you think describes you best.</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>460</ElementID>
+<InstrumentID>106</InstrumentID>
+<ComponentAttribute>4</ComponentAttribute>
+<ComponentValue>Over the last 2 weeks, how often have you been bothered by any of the following problems?</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>461</ElementID>
+<InstrumentID>106</InstrumentID>
+<ComponentAttribute>1</ComponentAttribute>
+<ComponentValue>ID#:</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>462</ElementID>
+<InstrumentID>106</InstrumentID>
+<ComponentAttribute>2</ComponentAttribute>
+<ComponentValue>DATE:</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>463</ElementID>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>432</ElementID>
+<InstrumentID>97</InstrumentID>
+<ComponentAttribute>1</ComponentAttribute>
+<ComponentValue>Name:</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>433</ElementID>
+<InstrumentID>97</InstrumentID>
+<ComponentAttribute>2</ComponentAttribute>
+<ComponentValue>Date:</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>435</ElementID>
+<InstrumentID>97</InstrumentID>
+<ComponentAttribute>3</ComponentAttribute>
+<ComponentValue>Page</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>436</ElementID>
+<InstrumentID>101</InstrumentID>
+<ComponentAttribute>4</ComponentAttribute>
+<ComponentValue>Directions. This form is about your thoughts and experiences with counseling. Please complete only the sections that have a checkmark at the top. Circle the answer that best tells how true each sentence is about how you usually feel. There are no right or wrong answers. Just circle what you think describes you best.</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>437</ElementID>
+<InstrumentID>101</InstrumentID>
+<ComponentAttribute>1</ComponentAttribute>
+<ComponentValue>Name:</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>438</ElementID>
+<InstrumentID>101</InstrumentID>
+<ComponentAttribute>2</ComponentAttribute>
+<ComponentValue>Date:</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>439</ElementID>
+<InstrumentID>101</InstrumentID>
+<ComponentAttribute>3</ComponentAttribute>
+<ComponentValue>Page</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>440</ElementID>
+<InstrumentID>98</InstrumentID>
+<ComponentAttribute>4</ComponentAttribute>
+<ComponentValue>Directions. This form is about your thoughts and experiences with your child’s therapy. Please complete only the sections that have a checkmark at the top. Circle the answer that best tells how true each sentence is about how you usually feel. There are no right or wrong answers. Just circle what you think describes you best.</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>441</ElementID>
+<InstrumentID>98</InstrumentID>
+<ComponentAttribute>1</ComponentAttribute>
+<ComponentValue>Name:</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>442</ElementID>
+<InstrumentID>98</InstrumentID>
+<ComponentAttribute>2</ComponentAttribute>
+<ComponentValue>Date:</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>443</ElementID>
+<InstrumentID>98</InstrumentID>
+<ComponentAttribute>3</ComponentAttribute>
+<ComponentValue>Page</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>444</ElementID>
+<InstrumentID>98</InstrumentID>
+<ComponentAttribute>6</ComponentAttribute>
+<ComponentValue>Relationship to Child:</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>445</ElementID>
+<InstrumentID>102</InstrumentID>
+<ComponentAttribute>4</ComponentAttribute>
+<ComponentValue>Directions. This form is about your thoughts and experiences with your child’s counseling. Please complete only the sections that have a checkmark at the top. Circle the answer that best tells how true each sentence is about how you usually feel. There are no right or wrong answers. Just circle what you think describes you best.</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>446</ElementID>
+<InstrumentID>102</InstrumentID>
+<ComponentAttribute>1</ComponentAttribute>
+<ComponentValue>Name:</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>447</ElementID>
+<InstrumentID>102</InstrumentID>
+<ComponentAttribute>2</ComponentAttribute>
+<ComponentValue>Date:</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>448</ElementID>
+<InstrumentID>102</InstrumentID>
+<ComponentAttribute>3</ComponentAttribute>
+<ComponentValue>Page</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>449</ElementID>
+<InstrumentID>102</InstrumentID>
+<ComponentAttribute>6</ComponentAttribute>
+<ComponentValue>Relationship to Child:</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>450</ElementID>
+<InstrumentID>105</InstrumentID>
+<ComponentAttribute>4</ComponentAttribute>
+<ComponentValue>Directions. This form is about your thoughts and experiences with your child’s services. Please complete only the sections that have a checkmark at the top. Circle the answer that best tells how true each sentence is about how you usually feel. There are no right or wrong answers. Just circle what you think describes you best.</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>451</ElementID>
+<InstrumentID>105</InstrumentID>
+<ComponentAttribute>1</ComponentAttribute>
+<ComponentValue>Name:</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>452</ElementID>
+<InstrumentID>105</InstrumentID>
+<ComponentAttribute>2</ComponentAttribute>
+<ComponentValue>Date:</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>453</ElementID>
+<InstrumentID>105</InstrumentID>
+<ComponentAttribute>3</ComponentAttribute>
+<ComponentValue>Page</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>454</ElementID>
+<InstrumentID>105</InstrumentID>
+<ComponentAttribute>6</ComponentAttribute>
+<ComponentValue>Relationship to Child:</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>455</ElementID>
+<InstrumentID>97</InstrumentID>
+<ComponentAttribute>7</ComponentAttribute>
+<ComponentValue>Please complete the next 7 items below.</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>456</ElementID>
+<InstrumentID>101</InstrumentID>
+<ComponentAttribute>7</ComponentAttribute>
+<ComponentValue>Please complete the next 7 items below.</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>457</ElementID>
+<InstrumentID>98</InstrumentID>
+<ComponentAttribute>7</ComponentAttribute>
+<ComponentValue>Please complete the next 7 items below.</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>458</ElementID>
+<InstrumentID>102</InstrumentID>
+<ComponentAttribute>7</ComponentAttribute>
+<ComponentValue>Please complete the next 7 items below.</ComponentValue>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<ElementID>459</ElementID>
+<InstrumentID>105</InstrumentID>
+<ComponentAttribute>7</ComponentAttribute>
+<ComponentValue>Please complete the next 7 items below.</ComponentValue>
 </_x0031_1_InstrumentComponents>
 </dataroot>

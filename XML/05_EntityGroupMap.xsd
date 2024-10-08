@@ -18,17 +18,17 @@
 <od:tableProperty name="GUID" type="9" value="1EfA4AIB50C3rqEgMk+oxw==
 "/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
-<od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAADUR8DgAgHnQLeuoSAyT6jHAAAAAMesooBzP+ZAAAAAAAAAAAAwADUA
+<od:tableProperty name="OrderByOn" type="1" value="1"/>
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAADUR8DgAgHnQLeuoSAyT6jHAAAAADC/NjyNQOZAAAAAAAAAAAAwADUA
 XwBFAG4AdABpAHQAeQBHAHIAbwB1AHAATQBhAHAAAAAAAAAAQ7kgJNlKnECsxZQk
 e329+wcAAADUR8DgAgHnQLeuoSAyT6jHRQBuAHQAaQB0AHkARwByAG8AdQBwAE0A
-YQBwAEkARAAAAAAAAABYfwX/ttBTR6LYhQacp+kvAAAAAFFGSL0PP+ZAAAAAAAAA
+YQBwAEkARAAAAAAAAABYfwX/ttBTR6LYhQacp+kvAAAAAF0SBEaNQOZAAAAAAAAA
 AAAwADQAXwBFAG4AdABpAHQAeQBHAHIAbwB1AHAAcwAAAAAAAABcaAe8QAw3RLh7
 PwlrJZkGBwAAAFh/Bf+20FNHotiFBpyn6S9FAG4AdABpAHQAeQBNAGEAcABwAGkA
 bgBnAEkARAAAAAAAAADt/CYA396IT4pGPJW0V8i6BwAAAFh/Bf+20FNHotiFBpyn
 6S9FAG4AdABpAHQAeQBMAGkAcwB0AE4AYQBtAGUAAAAAAAAA8yssSPzLpU+oTYoW
 cl8CjQcAAADUR8DgAgHnQLeuoSAyT6jHRQBuAHQAaQB0AHkARwByAG8AdQBwAEkA
-RAAAAAAAAAC/p/jnjz66S79UVJrfxTFkAAAAALQNBDj1PuZAAAAAAAAAAAAxADAA
+RAAAAAAAAAC/p/jnjz66S79UVJrfxTFkAAAAAG3KFTYWQOZAAAAAAAAAAAAxADAA
 XwBJAG4AcwB0AHIAdQBtAGUAbgB0AHMAAAAAAAAAG2+0b+/goUCCNlrpk6Lk5gcA
 AAC/p/jnjz66S79UVJrfxTFkSQBuAHMAdAByAHUAbQBlAG4AdABJAEQAAAAAAAAA
 LUK6McrzYEmhoedrOXAnGgcAAAC/p/jnjz66S79UVJrfxTFkSQBuAHMAdAByAHUA
@@ -52,6 +52,7 @@ DAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="3"/>
 <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="0"/>
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
+<od:tableProperty name="OrderBy" type="12" value="[Lookup_EntityGroupID].[EntityListName], [Lookup_EntityID].[InstrumentName]"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
@@ -62,7 +63,7 @@ DAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:fieldProperty name="GUID" type="9" value="Q7kgJNlKnECsxZQke329+w==
 "/>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="1"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="TextAlign" type="2" value="0"/>
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>

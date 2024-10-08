@@ -17,10 +17,10 @@
 "/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAAn3iQOhAl8SaKOBlgH+c9fAAAAAG6Oh960MuZAAAAAAAAAAAAxADEA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAAn3iQOhAl8SaKOBlgH+c9fAAAAAAhc9exQQOZAAAAAAAAAAAAxADEA
 XwBJAG4AcwB0AHIAdQBtAGUAbgB0AEMAbwBtAHAAbwBuAGUAbgB0AHMAAAAAAAAA
 wDU0J13HUUarqDpJ3LflxAcAAAAn3iQOhAl8SaKOBlgH+c9fRQBsAGUAbQBlAG4A
-dABJAEQAAAAAAAAAv6f4548+uku/VFSa38UxZAAAAAAHzYbtGCvmQAAAAAAAAAAA
+dABJAEQAAAAAAAAAv6f4548+uku/VFSa38UxZAAAAABtyhU2FkDmQAAAAAAAAAAA
 MQAwAF8ASQBuAHMAdAByAHUAbQBlAG4AdABzAAAAAAAAABtvtG/v4KFAgjZa6ZOi
 5OYHAAAAv6f4548+uku/VFSa38UxZEkAbgBzAHQAcgB1AG0AZQBuAHQASQBEAAAA
 AAAAAC1CujHK82BJoaHnazlwJxoHAAAAv6f4548+uku/VFSa38UxZEkAbgBzAHQA
@@ -32,9 +32,9 @@ eREHAAAAFpRlTqsKW0++yQnt0XSuSEUAbABlAG0AZQBuAHQAQQB0AHQAcgBpAGIA
 dQB0AGUASQBEAAAAAAAAABWyoePVnBNCiuNNVqwICeAHAAAAFpRlTqsKW0++yQnt
 0XSuSEEAdAB0AHIAaQBiAHUAdABlAFQAeQBwAGUAAAAAAAAAuOypdNRxG0mIHkhX
 jAxKHQcAAAAn3iQOhAl8SaKOBlgH+c9fQwBvAG0AcABvAG4AZQBuAHQAQQB0AHQA
-cgBpAGIAdQB0AGUAAAAAAAAA0F5efE2ajUKz+zEHwQx6NQcAAAAn3iQOhAl8SaKO
-BlgH+c9fQwBvAG0AcABvAG4AZQBuAHQAVgBhAGwAdQBlAAAAAAAAAD6XSPiq1mxC
-rWhUkqNKb8EHAAAAJ94kDoQJfEmijgZYB/nPX0MAbwBtAHAAbwBuAGUAbgB0AFAA
+cgBpAGIAdQB0AGUAAAAAAAAArzAZa7xVRUCOcWDfyBwmAAcAAAAn3iQOhAl8SaKO
+BlgH+c9fQwBvAG0AcABvAG4AZQBuAHQAVgBhAGwAdQBlAAAAAAAAANn4Zy+FkLFF
+isiVH0SNUNIHAAAAJ94kDoQJfEmijgZYB/nPX0MAbwBtAHAAbwBuAGUAbgB0AFAA
 bwBzAGkAdABpAG8AbgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAUAAAAAAAAA
 AAAAAAAAAAAAAA==
 "/>
@@ -54,6 +54,7 @@ AAAAAAAAAAAAAA==
 <od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="3"/>
 <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="0"/>
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
+<od:tableProperty name="Filter" type="12" value="([Lookup_InstrumentID].[InstrumentName] In (&quot;MTT-35-CG-EN-1&quot;,&quot;MTT-35-CG-EN-2&quot;,&quot;MTT-35-Y-EN-1&quot;,&quot;MTT-35-Y-EN-2&quot;))"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
@@ -64,7 +65,7 @@ AAAAAAAAAAAAAA==
 <od:fieldProperty name="GUID" type="9" value="wDU0J13HUUarqDpJ3LflxA==
 "/>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="1"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="TextAlign" type="2" value="0"/>
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
@@ -78,7 +79,7 @@ AAAAAAAAAAAAAA==
 <xsd:appinfo>
 <od:fieldProperty name="GUID" type="9" value="cjen2WMGk0yWiqZjAbeQDA==
 "/>
-<od:fieldProperty name="ColumnWidth" type="3" value="1650"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="1995"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
@@ -133,21 +134,22 @@ AAAAAAAAAAAAAA==
 </xsd:appinfo>
 </xsd:annotation>
 </xsd:element>
-<xsd:element name="ComponentValue" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:element name="ComponentValue" minOccurs="0" od:jetType="memo" od:sqlSType="ntext">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="GUID" type="9" value="0F5efE2ajUKz+zEHwQx6NQ==
+<od:fieldProperty name="GUID" type="9" value="rzAZa7xVRUCOcWDfyBwmAA==
 "/>
 <od:fieldProperty name="ColumnWidth" type="3" value="12360"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
 <od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
-<od:fieldProperty name="DisplayControl" type="3" value="109"/>
 <od:fieldProperty name="IMEMode" type="2" value="0"/>
 <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
 <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+<od:fieldProperty name="TextFormat" type="2" value="0"/>
 <od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AppendOnly" type="1" value="0"/>
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
@@ -155,36 +157,29 @@ AAAAAAAAAAAAAA==
 </xsd:annotation>
 <xsd:simpleType>
 <xsd:restriction base="xsd:string">
-<xsd:maxLength value="255"/>
+<xsd:maxLength value="536870910"/>
 </xsd:restriction>
 </xsd:simpleType>
 </xsd:element>
-<xsd:element name="ComponentPosition" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:element name="ComponentPosition" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="GUID" type="9" value="PpdI+KrWbEKtaFSSo0pvwQ==
+<od:fieldProperty name="GUID" type="9" value="2fhnL4WQsUWKyJUfRI1Q0g==
 "/>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
-<od:fieldProperty name="Description" type="10" value="Where it appears on the page of the instrument"/>
+<od:fieldProperty name="Description" type="10" value="Where it appears on the page of the instrument (must be a code so it can merge with item positions in other queries)"/>
+<od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+<od:fieldProperty name="DefaultValue" type="12" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
-<od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
 <od:fieldProperty name="DisplayControl" type="3" value="109"/>
-<od:fieldProperty name="IMEMode" type="2" value="0"/>
-<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
-<od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
 <od:fieldProperty name="TextAlign" type="2" value="0"/>
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
 </xsd:appinfo>
 </xsd:annotation>
-<xsd:simpleType>
-<xsd:restriction base="xsd:string">
-<xsd:maxLength value="255"/>
-</xsd:restriction>
-</xsd:simpleType>
 </xsd:element>
 </xsd:sequence>
 </xsd:complexType>

@@ -19,7 +19,7 @@
 "/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAADvdXtW10dNRLRdgntgI8VuAAAAAKoD+KdyP+ZAAAAAAAAAAAAwADMA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAADvdXtW10dNRLRdgntgI8VuAAAAABS++KdyP+ZAAAAAAAAAAAAwADMA
 XwBBAGMAdABpAHYAaQB0AGkAZQBzAAAAAAAAAF7iLRuSoRdHk00fhC+03WUHAAAA
 73V7VtdHTUS0XYJ7YCPFbkEAYwB0AGkAdgBpAHQAeQBJAEQAAAAAAAAAPtxGbqU1
 EESYy1lk9uQENwcAAADvdXtW10dNRLRdgntgI8VuQQBjAHQAaQB2AGkAdAB5AE4A
@@ -90,7 +90,7 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <od:fieldProperty name="ColumnWidth" type="3" value="5880"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
-<od:fieldProperty name="Description" type="10" value="Human readable field"/>
+<od:fieldProperty name="Description" type="10" value="Human readable descripitive field"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
 <od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
 <od:fieldProperty name="DisplayControl" type="3" value="109"/>
@@ -117,7 +117,7 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <od:fieldProperty name="ColumnWidth" type="3" value="2325"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
-<od:fieldProperty name="Description" type="10" value="Agent (group of people or actors) who is associated with the activity"/>
+<od:fieldProperty name="Description" type="10" value="Agent (group of people or actors) who is associated with the activity; group can be a single actor"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
 <od:fieldProperty name="DisplayControl" type="3" value="111"/>
@@ -148,7 +148,7 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <od:fieldProperty name="ColumnWidth" type="3" value="1560"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
-<od:fieldProperty name="Description" type="10" value="Date that a new entity was generated from 0 or more existing entities"/>
+<od:fieldProperty name="Description" type="10" value="Date that 1 new entity was generated from 0 or more existing entities"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
 <od:fieldProperty name="IMEMode" type="2" value="0"/>
 <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
@@ -225,7 +225,7 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <od:fieldProperty name="ColumnWidth" type="3" value="3645"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
-<od:fieldProperty name="Description" type="10" value="What is the ID of the entity used?"/>
+<od:fieldProperty name="Description" type="10" value="What is the ID of the entity used? (this ID can represent a list of instruments)"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
 <od:fieldProperty name="DisplayControl" type="3" value="111"/>
@@ -256,7 +256,7 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <od:fieldProperty name="ColumnWidth" type="3" value="2370"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
-<od:fieldProperty name="Description" type="10" value="What is the ID of the entity produced? (must be one ID)"/>
+<od:fieldProperty name="Description" type="10" value="What is the ID of the entity produced? (also represents a &quot;list&quot; of elements, but can only have one item in list)"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
 <od:fieldProperty name="DisplayControl" type="3" value="111"/>
