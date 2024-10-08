@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="00_InstrumentCollections.xsd" generated="2024-10-08T11:25:32">
+<_x0030_0_InstrumentCollections>
+<CollectionID>1</CollectionID>
+<InstrumentCollection>RCADS</InstrumentCollection>
+</_x0030_0_InstrumentCollections>
+<_x0030_0_InstrumentCollections>
+<CollectionID>2</CollectionID>
+<InstrumentCollection>PSWQ-C</InstrumentCollection>
+</_x0030_0_InstrumentCollections>
+<_x0030_0_InstrumentCollections>
+<CollectionID>3</CollectionID>
+<InstrumentCollection>MTT</InstrumentCollection>
+</_x0030_0_InstrumentCollections>
+<_x0030_0_InstrumentCollections>
+<CollectionID>4</CollectionID>
+<InstrumentCollection>PHQ</InstrumentCollection>
+</_x0030_0_InstrumentCollections>
+</dataroot>
