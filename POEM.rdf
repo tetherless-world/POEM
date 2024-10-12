@@ -419,6 +419,19 @@
 
     <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Codebook">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000011"/>
+                <owl:someValuesFrom rdf:resource="http://hadatac.org/ont/vstoi#Item"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000059"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://hadatac.org/ont/vstoi#ResponseOption"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -488,6 +501,13 @@
                 <owl:onClass rdf:resource="http://hadatac.org/ont/vstoi#ItemStem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://hadatac.org/ont/vstoi#Codebook"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>item</rdfs:label>
     </owl:Class>
     
@@ -541,6 +561,19 @@
 
     <owl:Class rdf:about="http://hadatac.org/ont/vstoi#ResponseOption">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem#SymptomExperience"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000095"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://hadatac.org/ont/vstoi#Codebook"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>response option</rdfs:label>
     </owl:Class>
     
@@ -928,7 +961,13 @@
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/twc/poem#isExperienceOf"/>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000011"/>
+                <owl:someValuesFrom rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000332"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://purl.org/twc/poem#Symptom"/>
             </owl:Restriction>
