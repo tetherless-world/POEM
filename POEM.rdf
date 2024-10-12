@@ -253,6 +253,15 @@
     
 
 
+    <!-- http://purl.org/twc/poem#hasVariable -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#hasVariable">
+        <owl:inverseOf rdf:resource="http://purl.org/twc/poem#isVariableOf"/>
+        <rdfs:label>has variable</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.org/twc/poem#indicatesExperience -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#indicatesExperience">
@@ -360,6 +369,14 @@
     
 
 
+    <!-- http://purl.org/twc/poem#isVariableOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#isVariableOf">
+        <rdfs:label>is variable of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://semanticscience.org/resource/SIO_000028 -->
 
     <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000028"/>
@@ -412,6 +429,27 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://hadatac.org/ont/hasco/SemanticVariable -->
+
+    <owl:Class rdf:about="http://hadatac.org/ont/hasco/SemanticVariable">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://semanticscience.org/resource/SIO_000614"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000332"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -516,6 +554,20 @@
     <!-- http://hadatac.org/ont/vstoi#ItemStem -->
 
     <owl:Class rdf:about="http://hadatac.org/ont/vstoi#ItemStem">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/twc/poem#hasVariable"/>
+                <owl:someValuesFrom rdf:resource="http://hadatac.org/ont/hasco/SemanticVariable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000219"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://hadatac.org/ont/vstoi#Item"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>item stem</rdfs:label>
     </owl:Class>
     
