@@ -125,15 +125,6 @@
     
 
 
-    <!-- http://hadatac.org/ont/vstoi#hasCodebook -->
-
-    <owl:ObjectProperty rdf:about="http://hadatac.org/ont/vstoi#hasCodebook">
-        <rdfs:domain rdf:resource="http://hadatac.org/ont/vstoi#Detector"/>
-        <rdfs:range rdf:resource="http://hadatac.org/ont/vstoi#Codebook"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://hadatac.org/ont/vstoi#hasInformant -->
 
     <owl:ObjectProperty rdf:about="http://hadatac.org/ont/vstoi#hasInformant">
@@ -149,29 +140,9 @@
     
 
 
-    <!-- http://hadatac.org/ont/vstoi#hasResponseOption -->
-
-    <owl:ObjectProperty rdf:about="http://hadatac.org/ont/vstoi#hasResponseOption">
-        <rdfs:domain rdf:resource="http://hadatac.org/ont/vstoi#Codebook"/>
-        <rdfs:range rdf:resource="http://hadatac.org/ont/vstoi#ResponseOption"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/twc/poem#canBeExperiencedAs -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#canBeExperiencedAs">
-        <owl:inverseOf rdf:resource="http://purl.org/twc/poem#isExperienceOf"/>
-        <rdfs:range rdf:resource="http://purl.org/twc/poem#SymptomExperience"/>
-        <rdfs:label>can be experienced as</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.org/twc/poem#canRespondTo -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#canRespondTo">
-        <owl:inverseOf rdf:resource="http://purl.org/twc/poem#hasPossibleRespondent"/>
         <rdfs:domain rdf:resource="http://semanticscience.org/resource/SIO_000485"/>
         <rdfs:range rdf:resource="http://hadatac.org/ont/vstoi#Questionnaire"/>
         <rdfs:label>can respond to</rdfs:label>
@@ -189,26 +160,6 @@
     
 
 
-    <!-- http://purl.org/twc/poem#estimatesConstruct -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#estimatesConstruct">
-        <rdfs:domain rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
-        <rdfs:range rdf:resource="http://purl.org/twc/poem#Construct"/>
-        <rdfs:label>estimates construct</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/twc/poem#hasPossibleRespondent -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#hasPossibleRespondent">
-        <rdfs:domain rdf:resource="http://hadatac.org/ont/vstoi#Questionnaire"/>
-        <rdfs:range rdf:resource="http://semanticscience.org/resource/SIO_000485"/>
-        <rdfs:label>has possible respondent</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.org/twc/poem#hasScale -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#hasScale">
@@ -217,6 +168,16 @@
         <rdfs:domain rdf:resource="http://purl.org/twc/poem#PsychometricQuestionnaire"/>
         <rdfs:range rdf:resource="http://purl.org/twc/poem#QuestionnaireScale"/>
         <rdfs:label>has scale</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/twc/poem#hasSubject -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#hasSubject">
+        <owl:inverseOf rdf:resource="http://purl.org/twc/poem#isSubjectOf"/>
+        <rdfs:domain rdf:resource="http://purl.org/twc/poem#PsychometricQuestionnaire"/>
+        <rdfs:label>has subject</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -236,19 +197,10 @@
     <!-- http://purl.org/twc/poem#hasSymptom -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#hasSymptom">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
         <owl:inverseOf rdf:resource="http://purl.org/twc/poem#isSymptomOf"/>
         <rdfs:range rdf:resource="http://purl.org/twc/poem#Symptom"/>
         <rdfs:label>has symptom</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/twc/poem#hasTarget -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#hasTarget">
-        <rdfs:domain rdf:resource="http://purl.org/twc/poem#PsychometricQuestionnaire"/>
-        <rdfs:range rdf:resource="http://semanticscience.org/resource/SIO_000485"/>
-        <rdfs:label>has target</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -258,16 +210,6 @@
     <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#hasVariable">
         <owl:inverseOf rdf:resource="http://purl.org/twc/poem#isVariableOf"/>
         <rdfs:label>has variable</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/twc/poem#indicatesExperience -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#indicatesExperience">
-        <owl:inverseOf rdf:resource="http://purl.org/twc/poem#isIndicatedBy"/>
-        <rdfs:domain rdf:resource="http://purl.org/twc/poem#SymptomExperience"/>
-        <rdfs:label>indicates experience</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -311,29 +253,20 @@
     
 
 
-    <!-- http://purl.org/twc/poem#isExperienceOf -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#isExperienceOf">
-        <rdfs:domain rdf:resource="http://purl.org/twc/poem#SymptomExperience"/>
-        <rdfs:label>is experience of</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/twc/poem#isIndicatedBy -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#isIndicatedBy">
-        <rdfs:range rdf:resource="http://purl.org/twc/poem#SymptomExperience"/>
-        <rdfs:label>is indicated by</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.org/twc/poem#isScaleIn -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#isScaleIn">
         <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000068"/>
         <rdfs:label>is scale in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/twc/poem#isSubjectOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#isSubjectOf">
+        <rdfs:range rdf:resource="http://purl.org/twc/poem#PsychometricQuestionnaire"/>
+        <rdfs:label>is subject of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -363,6 +296,7 @@
     <!-- http://purl.org/twc/poem#isSymptomOf -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/twc/poem#isSymptomOf">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000011"/>
         <rdfs:domain rdf:resource="http://purl.org/twc/poem#Symptom"/>
         <rdfs:label>is symptom of</rdfs:label>
     </owl:ObjectProperty>
@@ -1000,13 +934,6 @@
 
     <owl:Class rdf:about="http://purl.org/twc/poem#Symptom">
         <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem#Construct"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/twc/poem#canBeExperiencedAs"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.org/twc/poem#SymptomExperience"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label>symptom</rdfs:label>
         <skos:definition>a type of behavior, emotion, or thought that is indicative of a syndrome (or a disorder, indirectly)</skos:definition>
     </owl:Class>
