@@ -1,7 +1,7 @@
 
-FROM eclipse-temurin:21-jre-alpine
+FROM eclipse-temurin:21-jre-noble
 
-RUN apk add --no-cache --upgrade bash
+#RUN apk add --no-cache --upgrade bash
 
 COPY . /POEM
 WORKDIR /POEM/rcads
