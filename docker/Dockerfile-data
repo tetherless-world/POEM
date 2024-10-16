@@ -4,9 +4,9 @@ FROM eclipse-temurin:21-jre-alpine
 COPY . /POEM
 WORKDIR /POEM
 
-RUN wget https://github.com/RMLio/rmlmapper-java/releases/download/v7.1.2/rmlmapper-7.1.2-r374-all.jar
+RUN wget https://github.com/RMLio/rmlmapper-java/releases/download/v7.1.2/rmlmapper-7.1.2-r374-all.jar -o rmlmapper.jar
 
 RUN java --version
-RUN java -jar rmlmapper-7.1.2-r374-all.jar -m rml-instruments.ttl -o poem-demo/public/data/instruments.ttl -s turtle
+RUN java -jar rmlmapper.jar -m rcads/rml-instruments.ttl -o poem-demo/public/data/instruments.ttl -s turtle
 RUN chmod +x rcads/generate-docker.sh
 RUN rcads/generate-docker.sh
