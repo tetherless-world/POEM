@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "Generating RDF files from RML mappings..."
 echo "Instruments..."
