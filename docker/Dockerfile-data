@@ -1,5 +1,5 @@
 
-FROM eclipse-temurin:21-jre-alpine
+FROM eclipse-temurin:21-jre-noble
 
 COPY . /POEM
 WORKDIR /POEM
