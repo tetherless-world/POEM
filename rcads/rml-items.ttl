@@ -14,28 +14,16 @@
 
 :TriplesMap a rr:TriplesMap;
   rml:logicalSource [
-    rml:source [
-      a csvw:Table;
-      csvw:url "data/items.csv";
-      csvw:dialect [
-        a csvw:Dialect;
-        csvw:delimiter ","
-      ]
-    ];
-    rml:referenceFormulation ql:CSV
+    rml:source "data/xml/20_Items.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0032_0_Items"
   ].
 
 :TriplesMap2 a rr:TriplesMap;
   rml:logicalSource [
-    rml:source [
-      a csvw:Table;
-      csvw:url "data/23_InstrumentItemMap.csv";
-      csvw:dialect [
-        a csvw:Dialect;
-        csvw:delimiter ","
-      ]
-    ];
-    rml:referenceFormulation ql:CSV
+    rml:source "data/xml/23_InstrumentItemMap.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0032_3_InstrumentItemMap"
   ].
 
 :TriplesMap rr:subjectMap [
@@ -103,5 +91,30 @@
       rr:child "ItemID";
       rr:parent "ItemID";
     ];
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000008;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMap2;
+    rr:joinCondition [
+      rr:child "ItemID";
+      rr:parent "ItemID";
+    ];
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:hasAttribute;
+  rr:objectMap [
+    rr:template "http://purl.org/twc/poem/individual/codebook/{CodebookID}"
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000008;
+  rr:objectMap [
+    rr:template "http://purl.org/twc/poem/individual/codebook/{CodebookID}"
   ]
 ].

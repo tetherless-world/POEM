@@ -14,23 +14,23 @@
 
 :TriplesMap a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "data/xml/22_ItemStemConcepts.xml";
+    rml:source "data/xml/33_Experiences.xml";
     rml:referenceFormulation ql:XPath;
-    rml:iterator "/dataroot/_x0032_2_ItemStemConcepts"
+    rml:iterator "/dataroot/_x0033_3_Experiences"
   ].
 
 :TriplesMap rr:subjectMap [
-  rr:template "http://purl.org/twc/poem/individual/itemStemConcept/{ItemStemConceptID}"
+  rr:template "http://purl.org/twc/poem/individual/experience/{ExperienceID}"
 ].
 
 :TriplesMap rr:predicateObjectMap [
-  rr:predicate rdf:type;
-  rr:objectMap [ rr:constant poem:ItemStemConcept ];
+  rr:predicate rdfs:subClassOf;
+  rr:objectMap [ rr:constant poem:Experience ];
 ].
 
 :TriplesMap rr:predicateObjectMap [
   rr:predicate rdfs:label;
   rr:objectMap [
-    rml:reference "ItemStemConcept"
+    rml:reference "Experience"
   ]
 ].

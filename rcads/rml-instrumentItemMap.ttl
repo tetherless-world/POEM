@@ -13,41 +13,23 @@
 
 :TriplesMap a rr:TriplesMap;
   rml:logicalSource [
-    rml:source [
-      a csvw:Table;
-      csvw:url "data/23_InstrumentItemMap.csv";
-      csvw:dialect [
-        a csvw:Dialect;
-        csvw:delimiter ","
-      ]
-    ];
-    rml:referenceFormulation ql:CSV
+    rml:source "data/xml/23_InstrumentItemMap.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0032_3_InstrumentItemMap"
   ].
 
 :TriplesMap2 a rr:TriplesMap;
   rml:logicalSource [
-    rml:source [
-      a csvw:Table;
-      csvw:url "data/items.csv";
-      csvw:dialect [
-        a csvw:Dialect;
-        csvw:delimiter ","
-      ]
-    ];
-    rml:referenceFormulation ql:CSV
+    rml:source "data/xml/20_Items.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0032_0_Items"
   ].
 
 :TriplesMap3 a rr:TriplesMap;
   rml:logicalSource [
-    rml:source [
-      a csvw:Table;
-      csvw:url "data/10_Instruments.csv";
-      csvw:dialect [
-        a csvw:Dialect;
-        csvw:delimiter ","
-      ]
-    ];
-    rml:referenceFormulation ql:CSV
+    rml:source "data/xml/10_Instruments.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0031_0_Instruments"
   ].
 
 :TriplesMap rr:subjectMap [

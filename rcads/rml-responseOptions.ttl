@@ -11,18 +11,20 @@
 @prefix poem: <http://purl.org/twc/poem/> .
 @prefix vstoi: <http://purl.org/twc/vstoi/> .
 @prefix fhir: <http://hl7.org/fhir/> .
+@prefix sio: <http://semanticscience.org/resource/> .
 
 :TriplesMap a rr:TriplesMap;
   rml:logicalSource [
-    rml:source [
-      a csvw:Table;
-      csvw:url "data/31_ResponseOptions.csv";
-      csvw:dialect [
-        a csvw:Dialect;
-        csvw:delimiter ","
-      ]
-    ];
-    rml:referenceFormulation ql:CSV
+    rml:source "data/xml/31_ResponseOptions.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0033_1_ResponseOptions"
+  ].
+
+:TriplesMap2 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/32_CodebookOptionMap.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0033_2_CodebookOptionMap"
   ].
 
 :TriplesMap rr:subjectMap [
@@ -37,7 +39,51 @@
 :TriplesMap rr:predicateObjectMap [
   rr:predicate rdfs:label;
   rr:objectMap [
-    rml:reference "OptionText";
-    rr:language "en"
+    rml:reference "OptionText"
+  ]
+].
+
+:TriplesMap2 rr:subjectMap [
+  rr:termType rr:BlankNode;
+].
+
+:TriplesMap2 rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant sio:OrdinalPosition ];
+].
+
+:TriplesMap2 rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant sio:SIO_000613 ];
+].
+
+:TriplesMap2 rr:predicateObjectMap [
+  rr:predicate sio:hasValue;
+  rr:objectMap [ rml:reference "OptionPosition" ];
+].
+
+:TriplesMap2 rr:predicateObjectMap [
+  rr:predicate sio:SIO_000300;
+  rr:objectMap [ rml:reference "OptionPosition" ];
+].
+
+:TriplesMap2 rr:predicateObjectMap [
+  rr:predicate sio:inRelationTo;
+  rr:objectMap [ rr:template "http://purl.org/twc/poem/individual/codebook/{CodebookID}" ];
+].
+
+:TriplesMap2 rr:predicateObjectMap [
+  rr:predicate sio:SIO_000668;
+  rr:objectMap [ rr:template "http://purl.org/twc/poem/individual/codebook/{CodebookID}" ];
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:hasAttribute;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMap2;
+    rr:joinCondition [
+      rr:child "OptionID";
+      rr:parent "OptionID";
+    ];
   ]
 ].
