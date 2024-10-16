@@ -1,8 +1,8 @@
 
 FROM eclipse-temurin:21-jre-alpine
 
-WORKDIR /POEM
 COPY . /POEM
+WORKDIR /POEM
 
 RUN wget https://github.com/RMLio/rmlmapper-java/releases/download/v7.1.2/rmlmapper-7.1.2-r374-all.jar
 
