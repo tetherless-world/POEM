@@ -6,5 +6,6 @@ WORKDIR /POEM
 
 RUN wget https://github.com/RMLio/rmlmapper-java/releases/download/v7.1.2/rmlmapper-7.1.2-r374-all.jar
 
+RUN java -jar rmlmapper-7.1.2-r374-all.jar -m rml-instruments.ttl -o poem-demo/public/data/instruments.ttl -s turtle
 RUN chmod +x rcads/generate-docker.sh
 RUN rcads/generate-docker.sh
