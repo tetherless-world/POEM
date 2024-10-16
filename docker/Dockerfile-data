@@ -1,10 +1,10 @@
 
-FROM eclipse-temurin:21-jre-noble
+FROM eclipse-temurin:21-jre-alpine
 
 COPY . /POEM
 WORKDIR /POEM/rcads
 
-RUN java --version
+RUN ls -l
 RUN java -jar rmlmapper-7.1.2-r374-all.jar -m rml-instruments.ttl -o ../poem-demo/public/data/instruments.ttl -s turtle
 RUN chmod +x rcads/generate-docker.sh
 RUN rcads/generate-docker.sh
