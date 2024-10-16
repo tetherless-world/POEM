@@ -1,11 +1,10 @@
 
-FROM eclipse-temurin:21-jre-noble
+FROM eclipse-temurin:21-jre-alpine
 
-#RUN apk add --no-cache --upgrade bash
+RUN apk add --no-cache --upgrade bash
 
 COPY . /POEM
 WORKDIR /POEM/rcads
 
-RUN ls -l
 RUN chmod +x generate.sh
-RUN generate.sh
+RUN ./generate.sh
