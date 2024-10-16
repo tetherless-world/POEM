@@ -6,5 +6,6 @@ FROM eclipse-temurin:21-jre-noble
 COPY . /POEM
 WORKDIR /POEM/rcads
 
+RUN ls -l
 RUN chmod +x generate.sh
 RUN generate.sh
