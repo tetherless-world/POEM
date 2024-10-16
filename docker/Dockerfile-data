@@ -6,5 +6,5 @@ WORKDIR /POEM
 
 RUN wget https://github.com/RMLio/rmlmapper-java/releases/download/v7.1.2/rmlmapper-7.1.2-r374-all.jar
 
-RUN chmod +x rcads/generate.sh
+RUN chmod +x rcads/generate-docker.sh
 RUN rcads/generate.sh
