@@ -550,7 +550,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem#SymptomExperience"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem#Experience"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -940,9 +940,9 @@
     
 
 
-    <!-- http://purl.org/twc/poem#SymptomExperience -->
+    <!-- http://purl.org/twc/poem#Experience -->
 
-    <owl:Class rdf:about="http://purl.org/twc/poem#SymptomExperience">
+    <owl:Class rdf:about="http://purl.org/twc/poem#Experience">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
