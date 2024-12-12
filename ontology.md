@@ -7,7 +7,7 @@ sidebar:
 
 ### Conceptual Diagram
 
-![POEM Conceptual Diagram](images/POEM_uml.PNG)
+![POEM Conceptual Diagram](images/POEM_uml2.0.PNG)
 
 This diagram gives an overview of important concepts included in the POEM ontology.
 
