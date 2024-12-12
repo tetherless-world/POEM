@@ -27,7 +27,7 @@ Each Response Option to an Item indicates some Symptom Experience; e.g. in Quest
 
 - [POEM-RCADS][poem-rcads-current]
   - An example usage of the POEM ontology, showing how it is able to model questionnaires using the Revised Children's Anxiety and Depression Scale (RCADS)- full 47-item version and shorter 25-item version included.
-  - [Revised Children's Anxiety and Depression Scale](https://www.childfirst.ucla.edu/resources/) created by Dr. Bruce Chorpita (UCLA)
+  - [Revised Children's Anxiety and Depression Scale](https://rcads.ucla.edu/) created by Dr. Bruce Chorpita (UCLA)
 - RCADS Item Bank with primary RCADS classes as each column (Note: medical terms are mapped to [SNOMED-CT](https://browser.ihtsdotools.org/?) and DSM 4/5 when possible). Information in green columns are available by viewing an RCADS questionnaire document, blue columns show information available in RCADS documentation, and red columns show semantic information provided by the team behind the creation and maintenance of the RCADS.
 
 <iframe height="600" width="100%" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT2HBqddB5CrCGWq3awaNIMcpHjOE_ugQcsE0Jfj2U3g2EXSv6XSIB5FbID59RwbeGEapQ-d-GOw6jl/pubhtml?gid=1495634589&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
@@ -36,9 +36,9 @@ Each Response Option to an Item indicates some Symptom Experience; e.g. in Quest
 
 | Ontology                                | Prefix | Resource                                                                                     |
 |-----------------------------------------|--------|----------------------------------------------------------------------------------------------|
-| Human-Aware Science Ontology            | hasco  | [https://hadatac.org/description/ont/hasco](https://hadatac.org/description/ont/hasco)       |
-| Virtual Solar Terrestrial Observatory   | vsto   | [https://hadatac.org/description/ont/vstoi](https://hadatac.org/description/ont/vstoi)       |
+| Human-Aware Science Ontology            | hasco  | [https://hadatac.org/ont/hasco/hasco-V1.2.ttl](https://hadatac.org/ont/hasco/hasco-V1.2.ttl)       |
+| Virtual Solar Terrestrial Observatory   | vsto   | [https://hadatac.org/ont/vstoi/0.6/](https://hadatac.org/ont/vstoi/0.6)       |
 | Semanticscience Integrated Ontology     | sio    | [https://semanticscience.org/ontology/sio.owl](https://semanticscience.org/ontology/sio.owl) |
 
-[poem-current]: https://raw.githubusercontent.com/tetherless-world/POEM/main/POEM.rdf?token=GHSAT0AAAAAACFDP63DLXPW45SZMFHELD2MZFRZDSQ
-[poem-rcads-current]: https://raw.githubusercontent.com/tetherless-world/POEM/main/POEM-RCADS.rdf?token=GHSAT0AAAAAACFDP63DRO54JNYJXFSIXKGUZFRZMIQ
+[poem-current]: https://raw.githubusercontent.com/tetherless-world/POEM/main/POEM.rdf
+[poem-rcads-current]: https://raw.githubusercontent.com/tetherless-world/POEM/main/POEM-RCADS.rdf
