@@ -1,4 +1,5 @@
 from rdflib import Graph
+import os
 
 def query2():
     query = """
@@ -13,17 +14,14 @@ def query2():
 
 def main():
     g = Graph()
-    g.parse("./activities.ttl")
-    g.parse("./codebooks.ttl")
-    g.parse("./experiences.ttl")
-    g.parse("./informants.ttl")
-    g.parse("./instruments.ttl")
-    g.parse("./items.ttl")
-    g.parse("./itemStemConcepts.ttl")
-    g.parse("./itemStems.ttl")
-    g.parse("./responseOptions.ttl")
-    g.parse("./scaleItemConceptMap.ttl")
-    g.parse("./scales.ttl")
+
+    files = os.listdir('./')
+    for file in files:
+        if file.endswith('.ttl') and file != 'individuals_full.ttl':
+            print("parsing {}".format(file))
+            g.parse(file)
+            print("parsed {}".format(file))
+
 
     query1_nope = """
     SELECT ?person ?attribute? ?attributevalue WHERE {
