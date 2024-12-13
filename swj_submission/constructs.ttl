@@ -1,613 +1,347 @@
-@prefix : <http://www.semanticweb.org/kmroo/ontologies/2024/11/untitled-ontology-212/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix : <http://example.org/rules/> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix poem: <http://purl.org/twc/poem/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/kmroo/ontologies/2024/11/untitled-ontology-212/> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix schema: <http://schema.org/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vstoi: <http://purl.org/twc/vstoi/> .
+@prefix snomed: <http://purl.bioontology.org/ontology/SNOMEDCT/> .
+
+snomed:SIO_102912007 rdf:type owl:NamedIndividual ,
+  poem:Symptom ;
+  rdfs:label "fear of death" .
+
+snomed:SIO_1144814003 rdf:type owl:NamedIndividual ,
+  poem:Symptom ;
+  rdfs:label "psychomotor retardation" .
+
+snomed:SIO_1217332007 rdf:type owl:NamedIndividual ,
+  poem:Symptom ;
+  rdfs:label "persistent sadness" .
+
+snomed:SIO_12479006 rdf:type owl:NamedIndividual ,
+  poem:Symptom ;
+  rdfs:label "compulsive behavior" .
+
+snomed:SIO_126943008 rdf:type owl:NamedIndividual ,
+  poem:Disorder ;
+  poem:hasSymptom snomed:SIO_225629005 ;
+  rdfs:label "separation anxiety" .
+
+snomed:SIO_191736004 rdf:type owl:NamedIndividual ,
+  poem:Disorder ;
+  poem:hasSymptom snomed:SIO_12479006 ,
+  snomed:SIO_225445003 ;
+  rdfs:label "obsessive compulsive disorder" .
+
+snomed:SIO_197480006 rdf:type owl:NamedIndividual ;
+  poem:hasSymptom snomed:SIO_102912007 ,
+  snomed:SIO_12479006 ,
+  snomed:SIO_225445003 ,
+  snomed:SIO_225629005 ,
+  snomed:SIO_247825008 ,
+  snomed:SIO_247826009 ,
+  snomed:SIO_247835002 ,
+  snomed:SIO_43364001 ,
+  snomed:SIO_79015004 ,
+  snomed:SIO_79823003 ;
+  rdfs:label "anxiety disorder" .
+
+snomed:SIO_21897009 rdf:type owl:NamedIndividual ,
+  poem:Disorder ;
+  poem:hasSymptom snomed:SIO_102912007 ,
+  snomed:SIO_79015004 ;
+  rdfs:label "generalized anxiety disorder" .
+
+snomed:SIO_225445003 rdf:type owl:NamedIndividual ,
+  poem:Symptom ;
+  rdfs:label "intrusive thoughts" .
+
+snomed:SIO_225629005 rdf:type owl:NamedIndividual ,
+  poem:Symptom ;
+  rdfs:label "fear of being left alone" .
+
+snomed:SIO_247799003 rdf:type owl:NamedIndividual ,
+  poem:Symptom ;
+  rdfs:comment "No more specific mapping in SNOMED exists to symptom \"worry about future\"" ;
+  rdfs:label "pessimistic" .
+
+snomed:SIO_247825008 rdf:type owl:NamedIndividual ,
+  poem:Symptom ;
+  rdfs:label "anxiety about behavior or performance" ,
+  "anxiety about behaviour or performance" .
+
+snomed:SIO_247826009 rdf:type owl:NamedIndividual ,
+  poem:Symptom ;
+  rdfs:label "fear of appearing ridiculous" .
+
+snomed:SIO_247835002 rdf:type owl:NamedIndividual ,
+  poem:Symptom ;
+  rdfs:label "fear of public speaking" .
+
+snomed:SIO_247892001 rdf:type owl:NamedIndividual ,
+  poem:Symptom ;
+  rdfs:label "self-depreciation" .
+
+snomed:SIO_249473004 rdf:type owl:NamedIndividual ,
+  poem:Symptom ;
+  rdfs:label "altered appetite" .
+
+snomed:SIO_25501002 rdf:type owl:NamedIndividual ,
+  poem:Disorder ;
+  poem:hasSymptom snomed:SIO_247825008 ,
+  snomed:SIO_247826009 ,
+  snomed:SIO_247835002 ;
+  rdfs:label "social phobia" .
+
+snomed:SIO_28669007 rdf:type owl:NamedIndividual ,
+  poem:Symptom ;
+  rdfs:label "anhedonia" .
+
+snomed:SIO_35489007 rdf:type owl:NamedIndividual ;
+  poem:hasSymptom snomed:SIO_1144814003 ,
+  snomed:SIO_1217332007 ,
+  snomed:SIO_247892001 ,
+  snomed:SIO_249473004 ,
+  snomed:SIO_28669007 ,
+  snomed:SIO_47295007 ,
+  snomed:SIO_53888004 ,
+  snomed:SIO_64336009 ,
+  snomed:SIO_84229001 ;
+  rdfs:label "depressive disorder" .
+
+snomed:SIO_370143000 rdf:type owl:NamedIndividual ,
+  poem:Disorder ;
+  poem:hasSymptom snomed:SIO_1144814003 ,
+  snomed:SIO_1217332007 ,
+  snomed:SIO_247892001 ,
+  snomed:SIO_249473004 ,
+  snomed:SIO_28669007 ,
+  snomed:SIO_47295007 ,
+  snomed:SIO_53888004 ,
+  snomed:SIO_64336009 ,
+  snomed:SIO_84229001 ;
+  rdfs:label "major depressive disorder" .
+
+snomed:SIO_371631005 rdf:type owl:NamedIndividual ,
+  poem:Disorder ;
+  poem:hasSymptom snomed:SIO_43364001 ,
+  snomed:SIO_79823003 ;
+  rdfs:label "panic disorder" .
+
+snomed:SIO_43364001 rdf:type owl:NamedIndividual ,
+  poem:Symptom ;
+  rdfs:comment "More appropriate SNOMED mapping does not exist to cover abdominal discomfort/nausea as caused by anxiety" ;
+  rdfs:label "abdominal discomfort" .
+
+snomed:SIO_47295007 rdf:type owl:NamedIndividual ,
+  poem:Symptom ;
+  rdfs:label "psychomotor agitation" .
+
+snomed:SIO_53888004 rdf:type owl:NamedIndividual ,
+  poem:Symptom ;
+  rdfs:label "disturbance in sleep behavior" .
+
+snomed:SIO_64336009 rdf:type owl:NamedIndividual ,
+  poem:Symptom ;
+  rdfs:label "incoherent thinking" .
+
+snomed:SIO_79015004 rdf:type owl:NamedIndividual ,
+  poem:Symptom ;
+  rdfs:comment "No more specific mapping to symptom \"worry about future panic attacks\" in SNOMED" ,
+  "No more specific mapping to symptom \"worry about sleep/reluctance to sleep\" in SNOMED" ;
+  rdfs:label "worried" ,
+  "worry" .
+
+snomed:SIO_79823003 rdf:type owl:NamedIndividual ,
+  poem:Symptom ;
+  rdfs:label "panic" .
+
+snomed:SIO_84229001 rdf:type owl:NamedIndividual ,
+  poem:Symptom ;
+  rdfs:label "fatigue" .
+
+<http://purl.org/twc/poem/individual/scale/12> rdf:type owl:NamedIndividual ;
+  sio:SIO_000332 snomed:SIO_197480006 ;
+  sio:isAbout snomed:SIO_197480006 .
+
+<http://purl.org/twc/poem/individual/scale/11> rdf:type owl:NamedIndividual ;
+  sio:SIO_000332 snomed:SIO_35489007 ;
+  sio:isAbout snomed:SIO_35489007 .
+
+<http://purl.org/twc/poem/individual/scale/3> rdf:type owl:NamedIndividual ;
+  sio:SIO_000332 snomed:SIO_21897009 ;
+  sio:isAbout snomed:SIO_21897009 .
 
-<http://www.semanticweb.org/kmroo/ontologies/2024/11/untitled-ontology-212> rdf:type owl:Ontology .
+<http://purl.org/twc/poem/individual/scale/4> rdf:type owl:NamedIndividual ;
+  sio:SIO_000332 snomed:SIO_370143000 ;
+  sio:isAbout snomed:SIO_370143000 .
 
-#################################################################
-#    Object Properties
-#################################################################
+<http://purl.org/twc/poem/individual/scale/6> rdf:type owl:NamedIndividual ;
+  sio:SIO_000332 snomed:SIO_191736004 ;
+  sio:isAbout snomed:SIO_191736004 .
 
-###  http://purl.org/twc/poem#detects
-<http://purl.org/twc/poem#detects> rdf:type owl:ObjectProperty .
+<http://purl.org/twc/poem/individual/scale/2> rdf:type owl:NamedIndividual ;
+  sio:SIO_000332 snomed:SIO_371631005 ;
+  sio:isAbout snomed:SIO_371631005 .
 
+<http://purl.org/twc/poem/individual/scale/5> rdf:type owl:NamedIndividual ;
+  sio:SIO_000332 snomed:SIO_126943008 ;
+  sio:isAbout snomed:SIO_126943008 .
 
-###  http://purl.org/twc/poem#hasSymptom
-<http://purl.org/twc/poem#hasSymptom> rdf:type owl:ObjectProperty .
+<http://purl.org/twc/poem/individual/scale/1> rdf:type owl:NamedIndividual ;
+  sio:SIO_000332 snomed:SIO_25501002 ;
+  sio:isAbout snomed:SIO_25501002 .
 
+<http://purl.org/twc/poem/individual/scale/7> rdf:type owl:NamedIndividual ;
+  sio:SIO_000332 snomed:SIO_197480006 ;
+  sio:isAbout snomed:SIO_197480006 .
 
-###  http://purl.org/twc/poem#isAboutDisorder
-<http://purl.org/twc/poem#isAboutDisorder> rdf:type owl:ObjectProperty .
+<http://purl.org/twc/poem/individual/itemStemConcept/1> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_225629005 .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/10> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_28669007 .
 
-#################################################################
-#    Classes
-#################################################################
+<http://purl.org/twc/poem/individual/itemStemConcept/11> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_47295007 .
 
-###  http://purl.org/twc/poem#Disorder
-<http://purl.org/twc/poem#Disorder> rdf:type owl:Class .
+<http://purl.org/twc/poem/individual/itemStemConcept/12> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_420038007 .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/13> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_84229001 .
 
-###  http://purl.org/twc/poem#Symptom
-<http://purl.org/twc/poem#Symptom> rdf:type owl:Class .
+<http://purl.org/twc/poem/individual/itemStemConcept/14> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_247825008 .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/15> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_247892001  .
 
-#################################################################
-#    Individuals
-#################################################################
+<http://purl.org/twc/poem/individual/itemStemConcept/16> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_84229001 .
 
-###  http://purl.bioontology.org/ontology/SNOMEDCT/102912007
-<http://purl.bioontology.org/ontology/SNOMEDCT/102912007> rdf:type owl:NamedIndividual ,
-                                                                   <http://purl.org/twc/poem#Symptom> ;
-                                                          rdfs:label "fear of death" .
+<http://purl.org/twc/poem/individual/itemStemConcept/17> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_249473004 .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/18> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_12479006 .
 
-###  http://purl.bioontology.org/ontology/SNOMEDCT/1144814003
-<http://purl.bioontology.org/ontology/SNOMEDCT/1144814003> rdf:type owl:NamedIndividual ,
-                                                                    <http://purl.org/twc/poem#Symptom> ;
-                                                           rdfs:label "psychomotor retardation" .
+<http://purl.org/twc/poem/individual/itemStemConcept/19> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_12479006 .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/2> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_247826009 .
 
-###  http://purl.bioontology.org/ontology/SNOMEDCT/1217332007
-<http://purl.bioontology.org/ontology/SNOMEDCT/1217332007> rdf:type owl:NamedIndividual ,
-                                                                    <http://purl.org/twc/poem#Symptom> ;
-                                                           rdfs:label "persistent sadness" .
+<http://purl.org/twc/poem/individual/itemStemConcept/20> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_12479006  .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/21> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_53888004 .
 
-###  http://purl.bioontology.org/ontology/SNOMEDCT/12479006
-<http://purl.bioontology.org/ontology/SNOMEDCT/12479006> rdf:type owl:NamedIndividual ,
-                                                                  <http://purl.org/twc/poem#Symptom> ;
-                                                         rdfs:label "compulsive behavior" .
+<http://purl.org/twc/poem/individual/itemStemConcept/22> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_79823003 .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/23> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_12479006 .
 
-###  http://purl.bioontology.org/ontology/SNOMEDCT/126943008
-<http://purl.bioontology.org/ontology/SNOMEDCT/126943008> rdf:type owl:NamedIndividual ,
-                                                                   <http://purl.org/twc/poem#Disorder> ;
-                                                          <http://purl.org/twc/poem#hasSymptom> <http://purl.bioontology.org/ontology/SNOMEDCT/225629005> ;
-                                                          rdfs:label "separation anxiety" .
+<http://purl.org/twc/poem/individual/itemStemConcept/24> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_225629005 .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/25> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_225629005 .
 
-###  http://purl.bioontology.org/ontology/SNOMEDCT/191736004
-<http://purl.bioontology.org/ontology/SNOMEDCT/191736004> rdf:type owl:NamedIndividual ,
-                                                                   <http://purl.org/twc/poem#Disorder> ;
-                                                          <http://purl.org/twc/poem#hasSymptom> <http://purl.bioontology.org/ontology/SNOMEDCT/12479006> ,
-                                                                                                <http://purl.bioontology.org/ontology/SNOMEDCT/225445003> ;
-                                                          rdfs:label "obsessive compulsive disorder" .
+<http://purl.org/twc/poem/individual/itemStemConcept/26> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_247825008 .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/27> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_79823003 .
 
-###  http://purl.bioontology.org/ontology/SNOMEDCT/197480006
-<http://purl.bioontology.org/ontology/SNOMEDCT/197480006> rdf:type owl:NamedIndividual ;
-                                                          <http://purl.org/twc/poem#hasSymptom> <http://purl.bioontology.org/ontology/SNOMEDCT/102912007> ,
-                                                                                                <http://purl.bioontology.org/ontology/SNOMEDCT/12479006> ,
-                                                                                                <http://purl.bioontology.org/ontology/SNOMEDCT/225445003> ,
-                                                                                                <http://purl.bioontology.org/ontology/SNOMEDCT/225629005> ,
-                                                                                                <http://purl.bioontology.org/ontology/SNOMEDCT/247825008> ,
-                                                                                                <http://purl.bioontology.org/ontology/SNOMEDCT/247826009> ,
-                                                                                                <http://purl.bioontology.org/ontology/SNOMEDCT/247835002> ,
-                                                                                                <http://purl.bioontology.org/ontology/SNOMEDCT/43364001> ,
-                                                                                                <http://purl.bioontology.org/ontology/SNOMEDCT/79015004> ,
-                                                                                                <http://purl.bioontology.org/ontology/SNOMEDCT/79823003> ;
-                                                          rdfs:label "anxiety disorder" .
+<http://purl.org/twc/poem/individual/itemStemConcept/28> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_79823003 .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/29> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_79823003 .
 
-###  http://purl.bioontology.org/ontology/SNOMEDCT/21897009
-<http://purl.bioontology.org/ontology/SNOMEDCT/21897009> rdf:type owl:NamedIndividual ,
-                                                                  <http://purl.org/twc/poem#Disorder> ;
-                                                         <http://purl.org/twc/poem#hasSymptom> <http://purl.bioontology.org/ontology/SNOMEDCT/102912007> ,
-                                                                                               <http://purl.bioontology.org/ontology/SNOMEDCT/79015004> ;
-                                                         rdfs:label "generalized anxiety disorder" .
+<http://purl.org/twc/poem/individual/itemStemConcept/3> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_247835002 .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/30> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_79823003 .
 
-###  http://purl.bioontology.org/ontology/SNOMEDCT/225445003
-<http://purl.bioontology.org/ontology/SNOMEDCT/225445003> rdf:type owl:NamedIndividual ,
-                                                                   <http://purl.org/twc/poem#Symptom> ;
-                                                          rdfs:label "intrusive thoughts" .
+<http://purl.org/twc/poem/individual/itemStemConcept/31> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_102912007 .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/32> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_225629005 .
 
-###  http://purl.bioontology.org/ontology/SNOMEDCT/225629005
-<http://purl.bioontology.org/ontology/SNOMEDCT/225629005> rdf:type owl:NamedIndividual ,
-                                                                   <http://purl.org/twc/poem#Symptom> ;
-                                                          rdfs:label "fear of being left alone" .
+<http://purl.org/twc/poem/individual/itemStemConcept/33> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_79823003 .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/34> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_79823003 .
 
-###  http://purl.bioontology.org/ontology/SNOMEDCT/247799003
-<http://purl.bioontology.org/ontology/SNOMEDCT/247799003> rdf:type owl:NamedIndividual ,
-                                                                   <http://purl.org/twc/poem#Symptom> ;
-                                                          rdfs:comment "No more specific mapping in SNOMED exists to symptom \"worry about future\"" ;
-                                                          rdfs:label "pessimistic" .
+<http://purl.org/twc/poem/individual/itemStemConcept/35> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_43364001 .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/36> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_247825008 .
 
-###  http://purl.bioontology.org/ontology/SNOMEDCT/247825008
-<http://purl.bioontology.org/ontology/SNOMEDCT/247825008> rdf:type owl:NamedIndividual ,
-                                                                   <http://purl.org/twc/poem#Symptom> ;
-                                                          rdfs:label "anxiety about behavior or performance" ,
-                                                                     "anxiety about behaviour or performance" .
+<http://purl.org/twc/poem/individual/itemStemConcept/37> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_79015004 .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/38> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_79015004 .
 
-###  http://purl.bioontology.org/ontology/SNOMEDCT/247826009
-<http://purl.bioontology.org/ontology/SNOMEDCT/247826009> rdf:type owl:NamedIndividual ,
-                                                                   <http://purl.org/twc/poem#Symptom> ;
-                                                          rdfs:label "fear of appearing ridiculous" .
+<http://purl.org/twc/poem/individual/itemStemConcept/39> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_79015004 .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/4> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_21897009 .
 
-###  http://purl.bioontology.org/ontology/SNOMEDCT/247835002
-<http://purl.bioontology.org/ontology/SNOMEDCT/247835002> rdf:type owl:NamedIndividual ,
-                                                                   <http://purl.org/twc/poem#Symptom> ;
-                                                          rdfs:label "fear of public speaking" .
+<http://purl.org/twc/poem/individual/itemStemConcept/40> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_225629005 .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/41> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_247825008 .
 
-###  http://purl.bioontology.org/ontology/SNOMEDCT/247892001
-<http://purl.bioontology.org/ontology/SNOMEDCT/247892001> rdf:type owl:NamedIndividual ,
-                                                                   <http://purl.org/twc/poem#Symptom> ;
-                                                          rdfs:label "self-depreciation" .
+<http://purl.org/twc/poem/individual/itemStemConcept/42> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_247799003 .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/43> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_79015004  .
 
-###  http://purl.bioontology.org/ontology/SNOMEDCT/249473004
-<http://purl.bioontology.org/ontology/SNOMEDCT/249473004> rdf:type owl:NamedIndividual ,
-                                                                   <http://purl.org/twc/poem#Symptom> ;
-                                                          rdfs:label "altered appetite" .
+<http://purl.org/twc/poem/individual/itemStemConcept/44> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_247825008  .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/45> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_247825008 .
 
-###  http://purl.bioontology.org/ontology/SNOMEDCT/25501002
-<http://purl.bioontology.org/ontology/SNOMEDCT/25501002> rdf:type owl:NamedIndividual ,
-                                                                  <http://purl.org/twc/poem#Disorder> ;
-                                                         <http://purl.org/twc/poem#hasSymptom> <http://purl.bioontology.org/ontology/SNOMEDCT/247825008> ,
-                                                                                               <http://purl.bioontology.org/ontology/SNOMEDCT/247826009> ,
-                                                                                               <http://purl.bioontology.org/ontology/SNOMEDCT/247835002> ;
-                                                         rdfs:label "social phobia" .
+<http://purl.org/twc/poem/individual/itemStemConcept/46> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_247825008 .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/47> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_312016001 .
 
-###  http://purl.bioontology.org/ontology/SNOMEDCT/28669007
-<http://purl.bioontology.org/ontology/SNOMEDCT/28669007> rdf:type owl:NamedIndividual ,
-                                                                  <http://purl.org/twc/poem#Symptom> ;
-                                                         rdfs:label "anhedonia" .
+<http://purl.org/twc/poem/individual/itemStemConcept/5> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_64336009 .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/6> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_21897009 .
 
-###  http://purl.bioontology.org/ontology/SNOMEDCT/35489007
-<http://purl.bioontology.org/ontology/SNOMEDCT/35489007> rdf:type owl:NamedIndividual ;
-                                                         <http://purl.org/twc/poem#hasSymptom> <http://purl.bioontology.org/ontology/SNOMEDCT/1144814003> ,
-                                                                                               <http://purl.bioontology.org/ontology/SNOMEDCT/1217332007> ,
-                                                                                               <http://purl.bioontology.org/ontology/SNOMEDCT/247892001> ,
-                                                                                               <http://purl.bioontology.org/ontology/SNOMEDCT/249473004> ,
-                                                                                               <http://purl.bioontology.org/ontology/SNOMEDCT/28669007> ,
-                                                                                               <http://purl.bioontology.org/ontology/SNOMEDCT/47295007> ,
-                                                                                               <http://purl.bioontology.org/ontology/SNOMEDCT/53888004> ,
-                                                                                               <http://purl.bioontology.org/ontology/SNOMEDCT/64336009> ,
-                                                                                               <http://purl.bioontology.org/ontology/SNOMEDCT/84229001> ;
-                                                         rdfs:label "depressive disorder" .
+<http://purl.org/twc/poem/individual/itemStemConcept/7> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_225629005 .
 
+<http://purl.org/twc/poem/individual/itemStemConcept/8> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_225629005 .
 
-###  http://purl.bioontology.org/ontology/SNOMEDCT/370143000
-<http://purl.bioontology.org/ontology/SNOMEDCT/370143000> rdf:type owl:NamedIndividual ,
-                                                                   <http://purl.org/twc/poem#Disorder> ;
-                                                          <http://purl.org/twc/poem#hasSymptom> <http://purl.bioontology.org/ontology/SNOMEDCT/1144814003> ,
-                                                                                                <http://purl.bioontology.org/ontology/SNOMEDCT/1217332007> ,
-                                                                                                <http://purl.bioontology.org/ontology/SNOMEDCT/247892001> ,
-                                                                                                <http://purl.bioontology.org/ontology/SNOMEDCT/249473004> ,
-                                                                                                <http://purl.bioontology.org/ontology/SNOMEDCT/28669007> ,
-                                                                                                <http://purl.bioontology.org/ontology/SNOMEDCT/47295007> ,
-                                                                                                <http://purl.bioontology.org/ontology/SNOMEDCT/53888004> ,
-                                                                                                <http://purl.bioontology.org/ontology/SNOMEDCT/64336009> ,
-                                                                                                <http://purl.bioontology.org/ontology/SNOMEDCT/84229001> ;
-                                                          rdfs:label "major depressive disorder" .
-
-
-###  http://purl.bioontology.org/ontology/SNOMEDCT/371631005
-<http://purl.bioontology.org/ontology/SNOMEDCT/371631005> rdf:type owl:NamedIndividual ,
-                                                                   <http://purl.org/twc/poem#Disorder> ;
-                                                          <http://purl.org/twc/poem#hasSymptom> <http://purl.bioontology.org/ontology/SNOMEDCT/43364001> ,
-                                                                                                <http://purl.bioontology.org/ontology/SNOMEDCT/79823003> ;
-                                                          rdfs:label "panic disorder" .
-
-
-###  http://purl.bioontology.org/ontology/SNOMEDCT/43364001
-<http://purl.bioontology.org/ontology/SNOMEDCT/43364001> rdf:type owl:NamedIndividual ,
-                                                                  <http://purl.org/twc/poem#Symptom> ;
-                                                         rdfs:comment "More appropriate SNOMED mapping does not exist to cover abdominal discomfort/nausea as caused by anxiety" ;
-                                                         rdfs:label "abdominal discomfort" .
-
-
-###  http://purl.bioontology.org/ontology/SNOMEDCT/47295007
-<http://purl.bioontology.org/ontology/SNOMEDCT/47295007> rdf:type owl:NamedIndividual ,
-                                                                  <http://purl.org/twc/poem#Symptom> ;
-                                                         rdfs:label "psychomotor agitation" .
-
-
-###  http://purl.bioontology.org/ontology/SNOMEDCT/53888004
-<http://purl.bioontology.org/ontology/SNOMEDCT/53888004> rdf:type owl:NamedIndividual ,
-                                                                  <http://purl.org/twc/poem#Symptom> ;
-                                                         rdfs:label "disturbance in sleep behavior" .
-
-
-###  http://purl.bioontology.org/ontology/SNOMEDCT/64336009
-<http://purl.bioontology.org/ontology/SNOMEDCT/64336009> rdf:type owl:NamedIndividual ,
-                                                                  <http://purl.org/twc/poem#Symptom> ;
-                                                         rdfs:label "incoherent thinking" .
-
-
-###  http://purl.bioontology.org/ontology/SNOMEDCT/79015004
-<http://purl.bioontology.org/ontology/SNOMEDCT/79015004> rdf:type owl:NamedIndividual ,
-                                                                  <http://purl.org/twc/poem#Symptom> ;
-                                                         rdfs:comment "No more specific mapping to symptom \"worry about future panic attacks\" in SNOMED" ,
-                                                                      "No more specific mapping to symptom \"worry about sleep/reluctance to sleep\" in SNOMED" ;
-                                                         rdfs:label "worried" ,
-                                                                    "worry" .
-
-
-###  http://purl.bioontology.org/ontology/SNOMEDCT/79823003
-<http://purl.bioontology.org/ontology/SNOMEDCT/79823003> rdf:type owl:NamedIndividual ,
-                                                                  <http://purl.org/twc/poem#Symptom> ;
-                                                         rdfs:label "panic" .
-
-
-###  http://purl.bioontology.org/ontology/SNOMEDCT/84229001
-<http://purl.bioontology.org/ontology/SNOMEDCT/84229001> rdf:type owl:NamedIndividual ,
-                                                                  <http://purl.org/twc/poem#Symptom> ;
-                                                         rdfs:label "fatigue" .
-
-
-###  http://purl.obolibrary.org/obo/STATO_0000280
-<http://purl.obolibrary.org/obo/STATO_0000280> rdf:type owl:NamedIndividual ;
-                                               rdfs:label "Pearson's correlation coefficient" .
-
-
-###  http://purl.org/twc/poem#RCADS25AnxietyScale
-<http://purl.org/twc/poem#RCADS25AnxietyScale> rdf:type owl:NamedIndividual ;
-                                               <http://purl.org/twc/poem#isAboutDisorder> <http://purl.bioontology.org/ontology/SNOMEDCT/197480006> .
-
-
-###  http://purl.org/twc/poem#RCADS25DepressionScale
-<http://purl.org/twc/poem#RCADS25DepressionScale> rdf:type owl:NamedIndividual ;
-                                                  <http://purl.org/twc/poem#isAboutDisorder> <http://purl.bioontology.org/ontology/SNOMEDCT/35489007> .
-
-
-###  http://purl.org/twc/poem#RCADS47GeneralizedAnxietyDisorderScale
-<http://purl.org/twc/poem#RCADS47GeneralizedAnxietyDisorderScale> rdf:type owl:NamedIndividual ;
-                                                                  <http://purl.org/twc/poem#isAboutDisorder> <http://purl.bioontology.org/ontology/SNOMEDCT/21897009> .
-
-
-###  http://purl.org/twc/poem#RCADS47MajorDepressiveDisorderScale
-<http://purl.org/twc/poem#RCADS47MajorDepressiveDisorderScale> rdf:type owl:NamedIndividual ;
-                                                               <http://purl.org/twc/poem#isAboutDisorder> <http://purl.bioontology.org/ontology/SNOMEDCT/370143000> .
-
-
-###  http://purl.org/twc/poem#RCADS47ObsessiveCompulsiveDisorderScale
-<http://purl.org/twc/poem#RCADS47ObsessiveCompulsiveDisorderScale> rdf:type owl:NamedIndividual ;
-                                                                   <http://purl.org/twc/poem#isAboutDisorder> <http://purl.bioontology.org/ontology/SNOMEDCT/191736004> .
-
-
-###  http://purl.org/twc/poem#RCADS47PanicDisorderScale
-<http://purl.org/twc/poem#RCADS47PanicDisorderScale> rdf:type owl:NamedIndividual ;
-                                                     <http://purl.org/twc/poem#isAboutDisorder> <http://purl.bioontology.org/ontology/SNOMEDCT/371631005> .
-
-
-###  http://purl.org/twc/poem#RCADS47SeparationAnxietyDisorderScale
-<http://purl.org/twc/poem#RCADS47SeparationAnxietyDisorderScale> rdf:type owl:NamedIndividual ;
-                                                                 <http://purl.org/twc/poem#isAboutDisorder> <http://purl.bioontology.org/ontology/SNOMEDCT/126943008> .
-
-
-###  http://purl.org/twc/poem#RCADS47SocialAnxietyDisorderScale
-<http://purl.org/twc/poem#RCADS47SocialAnxietyDisorderScale> rdf:type owl:NamedIndividual ;
-                                                             <http://purl.org/twc/poem#isAboutDisorder> <http://purl.bioontology.org/ontology/SNOMEDCT/25501002> .
-
-
-###  http://purl.org/twc/poem#RCADS47TotalAnxietyScale
-<http://purl.org/twc/poem#RCADS47TotalAnxietyScale> rdf:type owl:NamedIndividual ;
-                                                    <http://purl.org/twc/poem#isAboutDisorder> <http://purl.bioontology.org/ontology/SNOMEDCT/197480006> .
-
-
-###  http://purl.org/twc/poem-rcads#RCADS47GeneralizedAnxietyDisorderScale-P
-<http://purl.org/twc/poem-rcads#RCADS47GeneralizedAnxietyDisorderScale-P> rdf:type owl:NamedIndividual ;
-                                                                          <http://purl.org/twc/poem#isAboutDisorder> <http://purl.bioontology.org/ontology/SNOMEDCT/21897009> .
-
-
-###  http://purl.org/twc/poem-rcads#RCADS47MajorDepressiveDisorderScale-P
-<http://purl.org/twc/poem-rcads#RCADS47MajorDepressiveDisorderScale-P> rdf:type owl:NamedIndividual ;
-                                                                       <http://purl.org/twc/poem#isAboutDisorder> <http://purl.bioontology.org/ontology/SNOMEDCT/370143000> .
-
-
-###  http://purl.org/twc/poem-rcads#RCADS47ObsessiveCompulsiveDisorderScale-P
-<http://purl.org/twc/poem-rcads#RCADS47ObsessiveCompulsiveDisorderScale-P> rdf:type owl:NamedIndividual ;
-                                                                           <http://purl.org/twc/poem#isAboutDisorder> <http://purl.bioontology.org/ontology/SNOMEDCT/191736004> .
-
-
-###  http://purl.org/twc/poem-rcads#RCADS47PanicDisorderScale-P
-<http://purl.org/twc/poem-rcads#RCADS47PanicDisorderScale-P> rdf:type owl:NamedIndividual ;
-                                                             <http://purl.org/twc/poem#isAboutDisorder> <http://purl.bioontology.org/ontology/SNOMEDCT/371631005> .
-
-
-###  http://purl.org/twc/poem-rcads#RCADS47SeparationAnxietyDisorderScale-P
-<http://purl.org/twc/poem-rcads#RCADS47SeparationAnxietyDisorderScale-P> rdf:type owl:NamedIndividual ;
-                                                                         <http://purl.org/twc/poem#isAboutDisorder> <http://purl.bioontology.org/ontology/SNOMEDCT/126943008> .
-
-
-###  http://purl.org/twc/poem-rcads#RCADS47SocialAnxietyDisorderScale-P
-<http://purl.org/twc/poem-rcads#RCADS47SocialAnxietyDisorderScale-P> rdf:type owl:NamedIndividual ;
-                                                                     <http://purl.org/twc/poem#isAboutDisorder> <http://purl.bioontology.org/ontology/SNOMEDCT/25501002> .
-
-
-###  http://purl.org/twc/poem-rcads#RCADS47TotalAnxietyScale-P
-<http://purl.org/twc/poem-rcads#RCADS47TotalAnxietyScale-P> rdf:type owl:NamedIndividual ;
-                                                            <http://purl.org/twc/poem#isAboutDisorder> <http://purl.bioontology.org/ontology/SNOMEDCT/225445003> .
-
-
-###  http://purl.org/twc/poem-rcads#aca0e853-af77-415d-9d9b-f9fb1581f5e4
-<http://purl.org/twc/poem-rcads#aca0e853-af77-415d-9d9b-f9fb1581f5e4> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/12479006> .
-
-
-###  http://purl.org/twc/poem-rcads#ae49f456-4a33-4b6e-83a1-f78045b99099
-<http://purl.org/twc/poem-rcads#ae49f456-4a33-4b6e-83a1-f78045b99099> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/47295007> .
-
-
-###  http://purl.org/twc/poem-rcads#b83850c9-6247-4bf9-8b7b-3ee7eacb9b23
-<http://purl.org/twc/poem-rcads#b83850c9-6247-4bf9-8b7b-3ee7eacb9b23> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/64336009> .
-
-
-###  http://purl.org/twc/poem-rcads#b861a150-2470-486e-8fc4-0adc16cb5763
-<http://purl.org/twc/poem-rcads#b861a150-2470-486e-8fc4-0adc16cb5763> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/79015004> .
-
-
-###  http://purl.org/twc/poem-rcads#bbc03865-b9da-4900-97c3-ddcbb722413b
-<http://purl.org/twc/poem-rcads#bbc03865-b9da-4900-97c3-ddcbb722413b> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/79823003> .
-
-
-###  http://purl.org/twc/poem-rcads#be248178-b02f-4946-a537-bbd25172fc89
-<http://purl.org/twc/poem-rcads#be248178-b02f-4946-a537-bbd25172fc89> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/225629005> .
-
-
-###  http://purl.org/twc/poem-rcads#be74dc9c-f61a-44c3-97f8-2b4867e2f7c2
-<http://purl.org/twc/poem-rcads#be74dc9c-f61a-44c3-97f8-2b4867e2f7c2> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/247826009> .
-
-
-###  http://purl.org/twc/poem-rcads#ca3ba905-49b6-4d91-b317-2e019cd229e2
-<http://purl.org/twc/poem-rcads#ca3ba905-49b6-4d91-b317-2e019cd229e2> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/247825008> .
-
-
-###  http://purl.org/twc/poem-rcads#ce4f903f-37f5-4bdb-936a-143454b4348e
-<http://purl.org/twc/poem-rcads#ce4f903f-37f5-4bdb-936a-143454b4348e> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/1217332007> .
-
-
-###  http://purl.org/twc/poem-rcads#d0b35e7d-9b90-4983-8716-46e1a112fefd
-<http://purl.org/twc/poem-rcads#d0b35e7d-9b90-4983-8716-46e1a112fefd> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/249473004> .
-
-
-###  http://purl.org/twc/poem-rcads#d5fb4165-bf6f-4cd0-b2ab-cd349259fe24
-<http://purl.org/twc/poem-rcads#d5fb4165-bf6f-4cd0-b2ab-cd349259fe24> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/28669007> .
-
-
-###  http://purl.org/twc/poem-rcads#d71c9a42-8138-4b86-ae71-64442d018d58
-<http://purl.org/twc/poem-rcads#d71c9a42-8138-4b86-ae71-64442d018d58> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/225629005> .
-
-
-###  http://purl.org/twc/poem-rcads#dcca5259-96e2-4853-822f-bddb805d6ac8
-<http://purl.org/twc/poem-rcads#dcca5259-96e2-4853-822f-bddb805d6ac8> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/247825008> .
-
-
-###  http://purl.org/twc/poem-rcads#dcf017a5-1aa1-4ce6-9081-d4e0d3e42969
-<http://purl.org/twc/poem-rcads#dcf017a5-1aa1-4ce6-9081-d4e0d3e42969> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/12479006> .
-
-
-###  http://purl.org/twc/poem-rcads#df8073b0-03e9-40e1-9a68-406469806840
-<http://purl.org/twc/poem-rcads#df8073b0-03e9-40e1-9a68-406469806840> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/79823003> .
-
-
-###  http://purl.org/twc/poem-rcads#e422b649-2aef-4a8f-96dc-214c3ca82959
-<http://purl.org/twc/poem-rcads#e422b649-2aef-4a8f-96dc-214c3ca82959> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/225629005> .
-
-
-###  http://purl.org/twc/poem-rcads#ea5e6eed-8e1d-4d42-9cd6-207257dc08b4
-<http://purl.org/twc/poem-rcads#ea5e6eed-8e1d-4d42-9cd6-207257dc08b4> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/79015004> .
-
-
-###  http://purl.org/twc/poem-rcads#ebf88f74-f0fc-4a9f-b7c1-7948bd87528d
-<http://purl.org/twc/poem-rcads#ebf88f74-f0fc-4a9f-b7c1-7948bd87528d> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/12479006> .
-
-
-###  http://purl.org/twc/poem-rcads#f758cf97-733c-4e50-8d51-1fbc5410cfae
-<http://purl.org/twc/poem-rcads#f758cf97-733c-4e50-8d51-1fbc5410cfae> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/79015004> .
-
-
-###  http://purl.org/twc/poem-rcads#fbebaf9b-7522-4254-bd8c-a3f0026f97cf
-<http://purl.org/twc/poem-rcads#fbebaf9b-7522-4254-bd8c-a3f0026f97cf> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/247825008> .
-
-
-###  http://purl.org/twc/poem-rcads#fcdbc3b3-dcbd-479c-ac9c-30139a388443
-<http://purl.org/twc/poem-rcads#fcdbc3b3-dcbd-479c-ac9c-30139a388443> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/225629005> .
-
-
-###  http://purl.org/twc/poem-rcads#fd88558c-a9bc-434f-91dc-8a3a9e6982f3
-<http://purl.org/twc/poem-rcads#fd88558c-a9bc-434f-91dc-8a3a9e6982f3> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/247825008> .
-
-
-###  http://purl.org/twc/poem-rcads#ff65fba2-6e7e-4218-b686-6363b71591a8
-<http://purl.org/twc/poem-rcads#ff65fba2-6e7e-4218-b686-6363b71591a8> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/102912007> .
-
-
-###  http://purl.org/twc/poem-rcads#0f39233e-ba5d-40fb-9a58-8e947df29c22
-<http://purl.org/twc/poem-rcads#0f39233e-ba5d-40fb-9a58-8e947df29c22> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/247825008> .
-
-
-###  http://purl.org/twc/poem-rcads#04c4da1f-1e7c-444b-ad3a-03376c5df5e8
-<http://purl.org/twc/poem-rcads#04c4da1f-1e7c-444b-ad3a-03376c5df5e8> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/247825008> .
-
-
-###  http://purl.org/twc/poem-rcads#0712cfff-386e-4e0d-805e-c7d0f09d2cf8
-<http://purl.org/twc/poem-rcads#0712cfff-386e-4e0d-805e-c7d0f09d2cf8> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/247825008> .
-
-
-###  http://purl.org/twc/poem-rcads#1c3205dc-6d0a-48af-96f0-22c0a8307875
-<http://purl.org/twc/poem-rcads#1c3205dc-6d0a-48af-96f0-22c0a8307875> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/79015004> .
-
-
-###  http://purl.org/twc/poem-rcads#13fbba78-3edc-46a6-8233-5e48a504c419
-<http://purl.org/twc/poem-rcads#13fbba78-3edc-46a6-8233-5e48a504c419> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/247825008> .
-
-
-###  http://purl.org/twc/poem-rcads#16af7a48-5f61-4639-b798-ec9914baf75f
-<http://purl.org/twc/poem-rcads#16af7a48-5f61-4639-b798-ec9914baf75f> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/225445003> .
-
-
-###  http://purl.org/twc/poem-rcads#164f84c3-95a7-4484-b679-3cf0c6c6e823
-<http://purl.org/twc/poem-rcads#164f84c3-95a7-4484-b679-3cf0c6c6e823> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/79015004> .
-
-
-###  http://purl.org/twc/poem-rcads#179add40-583a-416f-ad19-0c21194060b3
-<http://purl.org/twc/poem-rcads#179add40-583a-416f-ad19-0c21194060b3> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/247825008> .
-
-
-###  http://purl.org/twc/poem-rcads#234ff3ed-fe84-4384-9a11-3235678591e4
-<http://purl.org/twc/poem-rcads#234ff3ed-fe84-4384-9a11-3235678591e4> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/247825008> .
-
-
-###  http://purl.org/twc/poem-rcads#275b9e8e-0f7b-440b-97ff-891d1f224aa8
-<http://purl.org/twc/poem-rcads#275b9e8e-0f7b-440b-97ff-891d1f224aa8> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/28669007> .
-
-
-###  http://purl.org/twc/poem-rcads#31e88c71-907a-4bdb-ab9b-aabdfccf5781
-<http://purl.org/twc/poem-rcads#31e88c71-907a-4bdb-ab9b-aabdfccf5781> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/247825008> .
-
-
-###  http://purl.org/twc/poem-rcads#315c8a43-fa4d-4572-9253-e55b9d5d1e89
-<http://purl.org/twc/poem-rcads#315c8a43-fa4d-4572-9253-e55b9d5d1e89> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/79823003> .
-
-
-###  http://purl.org/twc/poem-rcads#4caec94c-6e0e-43a7-a4b9-22f3cfcc32cd
-<http://purl.org/twc/poem-rcads#4caec94c-6e0e-43a7-a4b9-22f3cfcc32cd> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/225629005> .
-
-
-###  http://purl.org/twc/poem-rcads#4dce59dd-0f00-4800-8ce3-15743afb5a93
-<http://purl.org/twc/poem-rcads#4dce59dd-0f00-4800-8ce3-15743afb5a93> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/12479006> .
-
-
-###  http://purl.org/twc/poem-rcads#4317d652-5bef-43fe-ae91-805bbfe5a647
-<http://purl.org/twc/poem-rcads#4317d652-5bef-43fe-ae91-805bbfe5a647> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/79823003> .
-
-
-###  http://purl.org/twc/poem-rcads#439ad11d-c5d3-492e-9cc4-1ba088cbe303
-<http://purl.org/twc/poem-rcads#439ad11d-c5d3-492e-9cc4-1ba088cbe303> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/225629005> .
-
-
-###  http://purl.org/twc/poem-rcads#5b0c44f4-1e2d-48e9-9b80-70e963e5a9a7
-<http://purl.org/twc/poem-rcads#5b0c44f4-1e2d-48e9-9b80-70e963e5a9a7> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/79823003> .
-
-
-###  http://purl.org/twc/poem-rcads#53b2c8d7-013b-4bba-b2a3-e6432d269ee5
-<http://purl.org/twc/poem-rcads#53b2c8d7-013b-4bba-b2a3-e6432d269ee5> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/247825008> .
-
-
-###  http://purl.org/twc/poem-rcads#580ddf63-8552-4455-a1e9-b410a8c8f7ec
-<http://purl.org/twc/poem-rcads#580ddf63-8552-4455-a1e9-b410a8c8f7ec> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/247825008> .
-
-
-###  http://purl.org/twc/poem-rcads#6400165f-edd3-4d44-96d6-e1c6dbe083cb
-<http://purl.org/twc/poem-rcads#6400165f-edd3-4d44-96d6-e1c6dbe083cb> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/79823003> .
-
-
-###  http://purl.org/twc/poem-rcads#7a1a3ff6-c383-49d0-83ef-7d0352c5be85
-<http://purl.org/twc/poem-rcads#7a1a3ff6-c383-49d0-83ef-7d0352c5be85> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/247835002> .
-
-
-###  http://purl.org/twc/poem-rcads#7e9a35f3-b55d-46c1-b540-1829e4b43c46
-<http://purl.org/twc/poem-rcads#7e9a35f3-b55d-46c1-b540-1829e4b43c46> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/225445003> .
-
-
-###  http://purl.org/twc/poem-rcads#72b8ca32-fee6-4e52-b755-1e4568824dfc
-<http://purl.org/twc/poem-rcads#72b8ca32-fee6-4e52-b755-1e4568824dfc> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/53888004> .
-
-
-###  http://purl.org/twc/poem-rcads#730556bc-3571-4c96-8f07-e0994b715f7a
-<http://purl.org/twc/poem-rcads#730556bc-3571-4c96-8f07-e0994b715f7a> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/247892001> .
-
-
-###  http://purl.org/twc/poem-rcads#8023b2c9-bb7b-42a4-a16b-2852ccaaf2ba
-<http://purl.org/twc/poem-rcads#8023b2c9-bb7b-42a4-a16b-2852ccaaf2ba> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/1144814003> .
-
-
-###  http://purl.org/twc/poem-rcads#806c3d31-5b93-44c2-bb01-1c8da38f2504
-<http://purl.org/twc/poem-rcads#806c3d31-5b93-44c2-bb01-1c8da38f2504> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/79823003> .
-
-
-###  http://purl.org/twc/poem-rcads#819d2963-b66b-4e61-95ab-0e085e7ef844
-<http://purl.org/twc/poem-rcads#819d2963-b66b-4e61-95ab-0e085e7ef844> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/79015004> .
-
-
-###  http://purl.org/twc/poem-rcads#9afe259e-2511-47bf-9a27-3c9a5144b964
-<http://purl.org/twc/poem-rcads#9afe259e-2511-47bf-9a27-3c9a5144b964> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/247799003> .
-
-
-###  http://purl.org/twc/poem-rcads#9c6d2369-6a5d-411c-b3e8-f48773170ae4
-<http://purl.org/twc/poem-rcads#9c6d2369-6a5d-411c-b3e8-f48773170ae4> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/84229001> .
-
-
-###  http://purl.org/twc/poem-rcads#9ed0fc52-886b-404a-aac3-33610e2b9953
-<http://purl.org/twc/poem-rcads#9ed0fc52-886b-404a-aac3-33610e2b9953> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/225629005> .
-
-
-###  http://purl.org/twc/poem-rcads#94276c2e-5ce1-447a-8dba-79ce77f3efc3
-<http://purl.org/twc/poem-rcads#94276c2e-5ce1-447a-8dba-79ce77f3efc3> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/84229001> .
-
-
-###  http://purl.org/twc/poem-rcads#943b37f3-0f06-4266-bcd3-5e7f4eb01e7d
-<http://purl.org/twc/poem-rcads#943b37f3-0f06-4266-bcd3-5e7f4eb01e7d> rdf:type owl:NamedIndividual ;
-                                                                      <http://purl.org/twc/poem#detects> <http://purl.bioontology.org/ontology/SNOMEDCT/43364001> .
-
-
-###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
+<http://purl.org/twc/poem/individual/itemStemConcept/9> a poem:ItemStemConcept;
+  sio:isAbout snomed:SIO_1144814003 .
