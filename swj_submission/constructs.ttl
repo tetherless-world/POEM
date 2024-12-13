@@ -15,333 +15,346 @@
 @prefix vstoi: <http://purl.org/twc/vstoi/> .
 @prefix snomed: <http://purl.bioontology.org/ontology/SNOMEDCT/> .
 
-snomed:SIO_102912007 rdf:type owl:NamedIndividual ,
+snomed:102912007 rdf:type owl:NamedIndividual ,
   poem:Symptom ;
   rdfs:label "fear of death" .
 
-snomed:SIO_1144814003 rdf:type owl:NamedIndividual ,
+snomed:1144814003 rdf:type owl:NamedIndividual ,
   poem:Symptom ;
   rdfs:label "psychomotor retardation" .
 
-snomed:SIO_1217332007 rdf:type owl:NamedIndividual ,
+snomed:1217332007 rdf:type owl:NamedIndividual ,
   poem:Symptom ;
   rdfs:label "persistent sadness" .
 
-snomed:SIO_12479006 rdf:type owl:NamedIndividual ,
+snomed:12479006 rdf:type owl:NamedIndividual ,
   poem:Symptom ;
   rdfs:label "compulsive behavior" .
 
-snomed:SIO_126943008 rdf:type owl:NamedIndividual ,
+snomed:126943008 rdf:type owl:NamedIndividual ,
   poem:Disorder ;
-  poem:hasSymptom snomed:SIO_225629005 ;
+  poem:hasSymptom snomed:225629005 ;
   rdfs:label "separation anxiety" .
 
-snomed:SIO_191736004 rdf:type owl:NamedIndividual ,
+snomed:191736004 rdf:type owl:NamedIndividual ,
   poem:Disorder ;
-  poem:hasSymptom snomed:SIO_12479006 ,
-  snomed:SIO_225445003 ;
+  poem:hasSymptom snomed:12479006 ,
+  snomed:225445003 ;
   rdfs:label "obsessive compulsive disorder" .
 
-snomed:SIO_197480006 rdf:type owl:NamedIndividual ;
-  poem:hasSymptom snomed:SIO_102912007 ,
-  snomed:SIO_12479006 ,
-  snomed:SIO_225445003 ,
-  snomed:SIO_225629005 ,
-  snomed:SIO_247825008 ,
-  snomed:SIO_247826009 ,
-  snomed:SIO_247835002 ,
-  snomed:SIO_43364001 ,
-  snomed:SIO_79015004 ,
-  snomed:SIO_79823003 ;
+snomed:197480006 rdf:type owl:NamedIndividual ;
+  poem:hasSymptom snomed:102912007 ,
+  snomed:12479006 ,
+  snomed:225445003 ,
+  snomed:225629005 ,
+  snomed:247825008 ,
+  snomed:247826009 ,
+  snomed:247835002 ,
+  snomed:43364001 ,
+  snomed:79015004 ,
+  snomed:79823003 ;
   rdfs:label "anxiety disorder" .
 
-snomed:SIO_21897009 rdf:type owl:NamedIndividual ,
+snomed:21897009 rdf:type owl:NamedIndividual ,
   poem:Disorder ;
-  poem:hasSymptom snomed:SIO_102912007 ,
-  snomed:SIO_79015004 ;
+  poem:hasSymptom snomed:102912007 ,
+  snomed:79015004 ;
   rdfs:label "generalized anxiety disorder" .
 
-snomed:SIO_225445003 rdf:type owl:NamedIndividual ,
+snomed:225445003 rdf:type owl:NamedIndividual ,
   poem:Symptom ;
   rdfs:label "intrusive thoughts" .
 
-snomed:SIO_225629005 rdf:type owl:NamedIndividual ,
+snomed:225629005 rdf:type owl:NamedIndividual ,
   poem:Symptom ;
   rdfs:label "fear of being left alone" .
 
-snomed:SIO_247799003 rdf:type owl:NamedIndividual ,
+snomed:247799003 rdf:type owl:NamedIndividual ,
   poem:Symptom ;
   rdfs:comment "No more specific mapping in SNOMED exists to symptom \"worry about future\"" ;
   rdfs:label "pessimistic" .
 
-snomed:SIO_247825008 rdf:type owl:NamedIndividual ,
+snomed:247825008 rdf:type owl:NamedIndividual ,
   poem:Symptom ;
   rdfs:label "anxiety about behavior or performance" ,
   "anxiety about behaviour or performance" .
 
-snomed:SIO_247826009 rdf:type owl:NamedIndividual ,
+snomed:247826009 rdf:type owl:NamedIndividual ,
   poem:Symptom ;
   rdfs:label "fear of appearing ridiculous" .
 
-snomed:SIO_247835002 rdf:type owl:NamedIndividual ,
+snomed:247835002 rdf:type owl:NamedIndividual ,
   poem:Symptom ;
   rdfs:label "fear of public speaking" .
 
-snomed:SIO_247892001 rdf:type owl:NamedIndividual ,
+snomed:247892001 rdf:type owl:NamedIndividual ,
   poem:Symptom ;
   rdfs:label "self-depreciation" .
 
-snomed:SIO_249473004 rdf:type owl:NamedIndividual ,
+snomed:249473004 rdf:type owl:NamedIndividual ,
   poem:Symptom ;
   rdfs:label "altered appetite" .
 
-snomed:SIO_25501002 rdf:type owl:NamedIndividual ,
+snomed:25501002 rdf:type owl:NamedIndividual ,
   poem:Disorder ;
-  poem:hasSymptom snomed:SIO_247825008 ,
-  snomed:SIO_247826009 ,
-  snomed:SIO_247835002 ;
+  poem:hasSymptom snomed:247825008 ,
+  snomed:247826009 ,
+  snomed:247835002 ;
   rdfs:label "social phobia" .
 
-snomed:SIO_28669007 rdf:type owl:NamedIndividual ,
+snomed:28669007 rdf:type owl:NamedIndividual ,
   poem:Symptom ;
   rdfs:label "anhedonia" .
 
-snomed:SIO_35489007 rdf:type owl:NamedIndividual ;
-  poem:hasSymptom snomed:SIO_1144814003 ,
-  snomed:SIO_1217332007 ,
-  snomed:SIO_247892001 ,
-  snomed:SIO_249473004 ,
-  snomed:SIO_28669007 ,
-  snomed:SIO_47295007 ,
-  snomed:SIO_53888004 ,
-  snomed:SIO_64336009 ,
-  snomed:SIO_84229001 ;
+snomed:35489007 rdf:type owl:NamedIndividual ;
+  poem:hasSymptom snomed:1144814003 ,
+  snomed:1217332007 ,
+  snomed:247892001 ,
+  snomed:249473004 ,
+  snomed:28669007 ,
+  snomed:47295007 ,
+  snomed:53888004 ,
+  snomed:64336009 ,
+  snomed:84229001 ;
   rdfs:label "depressive disorder" .
 
-snomed:SIO_370143000 rdf:type owl:NamedIndividual ,
+snomed:370143000 rdf:type owl:NamedIndividual ,
   poem:Disorder ;
-  poem:hasSymptom snomed:SIO_1144814003 ,
-  snomed:SIO_1217332007 ,
-  snomed:SIO_247892001 ,
-  snomed:SIO_249473004 ,
-  snomed:SIO_28669007 ,
-  snomed:SIO_47295007 ,
-  snomed:SIO_53888004 ,
-  snomed:SIO_64336009 ,
-  snomed:SIO_84229001 ;
+  poem:hasSymptom snomed:1144814003 ,
+  snomed:1217332007 ,
+  snomed:247892001 ,
+  snomed:249473004 ,
+  snomed:28669007 ,
+  snomed:47295007 ,
+  snomed:53888004 ,
+  snomed:64336009 ,
+  snomed:84229001 ;
   rdfs:label "major depressive disorder" .
 
-snomed:SIO_371631005 rdf:type owl:NamedIndividual ,
+snomed:371631005 rdf:type owl:NamedIndividual ,
   poem:Disorder ;
-  poem:hasSymptom snomed:SIO_43364001 ,
-  snomed:SIO_79823003 ;
+  poem:hasSymptom snomed:43364001 ,
+  snomed:79823003 ;
   rdfs:label "panic disorder" .
 
-snomed:SIO_43364001 rdf:type owl:NamedIndividual ,
+snomed:43364001 rdf:type owl:NamedIndividual ,
   poem:Symptom ;
   rdfs:comment "More appropriate SNOMED mapping does not exist to cover abdominal discomfort/nausea as caused by anxiety" ;
   rdfs:label "abdominal discomfort" .
 
-snomed:SIO_47295007 rdf:type owl:NamedIndividual ,
+snomed:47295007 rdf:type owl:NamedIndividual ,
   poem:Symptom ;
   rdfs:label "psychomotor agitation" .
 
-snomed:SIO_53888004 rdf:type owl:NamedIndividual ,
+snomed:53888004 rdf:type owl:NamedIndividual ,
   poem:Symptom ;
   rdfs:label "disturbance in sleep behavior" .
 
-snomed:SIO_64336009 rdf:type owl:NamedIndividual ,
+snomed:64336009 rdf:type owl:NamedIndividual ,
   poem:Symptom ;
   rdfs:label "incoherent thinking" .
 
-snomed:SIO_79015004 rdf:type owl:NamedIndividual ,
+snomed:79015004 rdf:type owl:NamedIndividual ,
   poem:Symptom ;
   rdfs:comment "No more specific mapping to symptom \"worry about future panic attacks\" in SNOMED" ,
   "No more specific mapping to symptom \"worry about sleep/reluctance to sleep\" in SNOMED" ;
   rdfs:label "worried" ,
   "worry" .
 
-snomed:SIO_79823003 rdf:type owl:NamedIndividual ,
+snomed:79823003 rdf:type owl:NamedIndividual ,
   poem:Symptom ;
   rdfs:label "panic" .
 
-snomed:SIO_84229001 rdf:type owl:NamedIndividual ,
+snomed:84229001 rdf:type owl:NamedIndividual ,
   poem:Symptom ;
   rdfs:label "fatigue" .
 
 <http://purl.org/twc/poem/individual/scale/12> rdf:type owl:NamedIndividual ;
-  sio:SIO_000332 snomed:SIO_197480006 ;
-  sio:isAbout snomed:SIO_197480006 .
+  sio:SIO_000332 snomed:197480006 ;
+  sio:isAbout snomed:197480006 .
 
 <http://purl.org/twc/poem/individual/scale/11> rdf:type owl:NamedIndividual ;
-  sio:SIO_000332 snomed:SIO_35489007 ;
-  sio:isAbout snomed:SIO_35489007 .
+  sio:SIO_000332 snomed:35489007 ;
+  sio:isAbout snomed:35489007 .
 
 <http://purl.org/twc/poem/individual/scale/3> rdf:type owl:NamedIndividual ;
-  sio:SIO_000332 snomed:SIO_21897009 ;
-  sio:isAbout snomed:SIO_21897009 .
+  sio:SIO_000332 snomed:21897009 ;
+  sio:isAbout snomed:21897009 .
 
 <http://purl.org/twc/poem/individual/scale/4> rdf:type owl:NamedIndividual ;
-  sio:SIO_000332 snomed:SIO_370143000 ;
-  sio:isAbout snomed:SIO_370143000 .
+  sio:SIO_000332 snomed:370143000 ;
+  sio:isAbout snomed:370143000 .
 
 <http://purl.org/twc/poem/individual/scale/6> rdf:type owl:NamedIndividual ;
-  sio:SIO_000332 snomed:SIO_191736004 ;
-  sio:isAbout snomed:SIO_191736004 .
+  sio:SIO_000332 snomed:191736004 ;
+  sio:isAbout snomed:191736004 .
 
 <http://purl.org/twc/poem/individual/scale/2> rdf:type owl:NamedIndividual ;
-  sio:SIO_000332 snomed:SIO_371631005 ;
-  sio:isAbout snomed:SIO_371631005 .
+  sio:SIO_000332 snomed:371631005 ;
+  sio:isAbout snomed:371631005 .
 
 <http://purl.org/twc/poem/individual/scale/5> rdf:type owl:NamedIndividual ;
-  sio:SIO_000332 snomed:SIO_126943008 ;
-  sio:isAbout snomed:SIO_126943008 .
+  sio:SIO_000332 snomed:126943008 ;
+  sio:isAbout snomed:126943008 .
 
 <http://purl.org/twc/poem/individual/scale/1> rdf:type owl:NamedIndividual ;
-  sio:SIO_000332 snomed:SIO_25501002 ;
-  sio:isAbout snomed:SIO_25501002 .
+  sio:SIO_000332 snomed:25501002 ;
+  sio:isAbout snomed:25501002 .
 
 <http://purl.org/twc/poem/individual/scale/7> rdf:type owl:NamedIndividual ;
-  sio:SIO_000332 snomed:SIO_197480006 ;
-  sio:isAbout snomed:SIO_197480006 .
+  sio:SIO_000332 snomed:197480006 ;
+  sio:isAbout snomed:197480006 .
+
+<http://purl.org/twc/poem/individual/scale/10> 
+    poem:hasSubscale <http://purl.org/twc/poem/individual/scale/11>, <http://purl.org/twc/poem/individual/scale/12> .
+
+<http://purl.org/twc/poem/individual/scale/7>
+    poem:hasSubscale <http://purl.org/twc/poem/individual/scale/1>, 
+        <http://purl.org/twc/poem/individual/scale/2>, <http://purl.org/twc/poem/individual/scale/3>, 
+        <http://purl.org/twc/poem/individual/scale/5>, <http://purl.org/twc/poem/individual/scale/6> .
+
+<http://purl.org/twc/poem/individual/scale/8>
+    poem:hasSubscale <http://purl.org/twc/poem/individual/scale/7>,
+    <http://purl.org/twc/poem/individual/scale/4> .
+
 
 <http://purl.org/twc/poem/individual/itemStemConcept/1> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_225629005 .
+  sio:isAbout snomed:225629005 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/10> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_28669007 .
+  sio:isAbout snomed:28669007 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/11> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_47295007 .
+  sio:isAbout snomed:47295007 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/12> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_420038007 .
+  sio:isAbout snomed:420038007 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/13> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_84229001 .
+  sio:isAbout snomed:84229001 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/14> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_247825008 .
+  sio:isAbout snomed:247825008 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/15> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_247892001  .
+  sio:isAbout snomed:247892001  .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/16> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_84229001 .
+  sio:isAbout snomed:84229001 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/17> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_249473004 .
+  sio:isAbout snomed:249473004 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/18> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_12479006 .
+  sio:isAbout snomed:12479006 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/19> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_12479006 .
+  sio:isAbout snomed:12479006 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/2> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_247826009 .
+  sio:isAbout snomed:247826009 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/20> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_12479006  .
+  sio:isAbout snomed:12479006  .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/21> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_53888004 .
+  sio:isAbout snomed:53888004 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/22> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_79823003 .
+  sio:isAbout snomed:79823003 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/23> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_12479006 .
+  sio:isAbout snomed:12479006 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/24> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_225629005 .
+  sio:isAbout snomed:225629005 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/25> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_225629005 .
+  sio:isAbout snomed:225629005 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/26> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_247825008 .
+  sio:isAbout snomed:247825008 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/27> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_79823003 .
+  sio:isAbout snomed:79823003 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/28> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_79823003 .
+  sio:isAbout snomed:79823003 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/29> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_79823003 .
+  sio:isAbout snomed:79823003 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/3> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_247835002 .
+  sio:isAbout snomed:247835002 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/30> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_79823003 .
+  sio:isAbout snomed:79823003 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/31> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_102912007 .
+  sio:isAbout snomed:102912007 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/32> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_225629005 .
+  sio:isAbout snomed:225629005 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/33> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_79823003 .
+  sio:isAbout snomed:79823003 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/34> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_79823003 .
+  sio:isAbout snomed:79823003 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/35> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_43364001 .
+  sio:isAbout snomed:43364001 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/36> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_247825008 .
+  sio:isAbout snomed:247825008 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/37> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_79015004 .
+  sio:isAbout snomed:79015004 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/38> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_79015004 .
+  sio:isAbout snomed:79015004 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/39> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_79015004 .
+  sio:isAbout snomed:79015004 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/4> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_21897009 .
+  sio:isAbout snomed:21897009 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/40> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_225629005 .
+  sio:isAbout snomed:225629005 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/41> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_247825008 .
+  sio:isAbout snomed:247825008 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/42> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_247799003 .
+  sio:isAbout snomed:247799003 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/43> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_79015004  .
+  sio:isAbout snomed:79015004  .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/44> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_247825008  .
+  sio:isAbout snomed:247825008  .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/45> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_247825008 .
+  sio:isAbout snomed:247825008 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/46> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_247825008 .
+  sio:isAbout snomed:247825008 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/47> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_312016001 .
+  sio:isAbout snomed:312016001 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/5> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_64336009 .
+  sio:isAbout snomed:64336009 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/6> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_21897009 .
+  sio:isAbout snomed:21897009 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/7> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_225629005 .
+  sio:isAbout snomed:225629005 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/8> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_225629005 .
+  sio:isAbout snomed:225629005 .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/9> a poem:ItemStemConcept;
-  sio:isAbout snomed:SIO_1144814003 .
+  sio:isAbout snomed:1144814003 .
