@@ -885,6 +885,15 @@
     
 
 
+    <!-- http://purl.org/twc/poem#InstrumentFamily -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem#InstrumentFamily">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
+        <rdfs:label>instrument family</rdfs:label>
+    </owl:Class>
+
+
+
     <!-- http://purl.org/twc/poem#PsychometricQuestionnaire -->
 
     <owl:Class rdf:about="http://purl.org/twc/poem#PsychometricQuestionnaire">
