@@ -1,4 +1,5 @@
-from rdflib import Graph
+from rdflib import Graph, Literal, Namespace
+from rdflib.namespace import RDF, XSD
 import os
 
 def main():
@@ -10,6 +11,10 @@ def main():
             print("parsing {}".format(file))
             g.parse(file)
             print("parsed {}".format(file))
+
+    OWL = Namespace("http://www.w3.org/2002/07/owl#")
+    g.bind("owl", OWL)
+    g.add((OWL.Ontology, OWL.imports, Literal("https://raw.githubusercontent.com/tetherless-world/POEM/evidence-modeling/POEM.rdf", datatype=XSD.string)))
 
     g.serialize(destination='./individuals_full.ttl')
 
