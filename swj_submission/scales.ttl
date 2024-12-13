@@ -1,0 +1,85 @@
+@prefix : <http://example.org/rules/> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix poem: <http://purl.org/twc/poem/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vstoi: <http://purl.org/twc/vstoi/> .
+
+<http://purl.org/twc/poem/individual/scale/1> a poem:QuestionnaireScale;
+  rdfs:label "Social Phobia (9.1)";
+  skos:notation "SP" .
+
+<http://purl.org/twc/poem/individual/scale/10> a poem:QuestionnaireScale;
+  rdfs:label "Total Anxiety and Depression (25.1)";
+  skos:notation "AnxDep25" .
+
+<http://purl.org/twc/poem/individual/scale/11> a poem:QuestionnaireScale;
+  rdfs:label "Total Depression (5.1)";
+  skos:notation "Dep5" .
+
+<http://purl.org/twc/poem/individual/scale/12> a poem:QuestionnaireScale;
+  rdfs:label "Total Anxiety (20.1)";
+  skos:notation "Anx20" .
+
+<http://purl.org/twc/poem/individual/scale/13> a poem:QuestionnaireScale;
+  rdfs:label "Relationship (7.1)";
+  skos:notation "R" .
+
+<http://purl.org/twc/poem/individual/scale/14> a poem:QuestionnaireScale;
+  rdfs:label "Expectancy (7.1)";
+  skos:notation "E" .
+
+<http://purl.org/twc/poem/individual/scale/15> a poem:QuestionnaireScale;
+  rdfs:label "Attendance (7.1)";
+  skos:notation "A" .
+
+<http://purl.org/twc/poem/individual/scale/16> a poem:QuestionnaireScale;
+  rdfs:label "Clarity (7.1)";
+  skos:notation "C" .
+
+<http://purl.org/twc/poem/individual/scale/17> a poem:QuestionnaireScale;
+  rdfs:label "Homework (7.1)";
+  skos:notation "H" .
+
+<http://purl.org/twc/poem/individual/scale/18> a poem:QuestionnaireScale;
+  rdfs:label "Depression (9.1)";
+  skos:notation "PHQ-9-Dep" .
+
+<http://purl.org/twc/poem/individual/scale/2> a poem:QuestionnaireScale;
+  rdfs:label "Panic Disorder (9.1)";
+  skos:notation "PD" .
+
+<http://purl.org/twc/poem/individual/scale/3> a poem:QuestionnaireScale;
+  rdfs:label "Generalized Anxiety Disorder (6.1)";
+  skos:notation "GAD" .
+
+<http://purl.org/twc/poem/individual/scale/4> a poem:QuestionnaireScale;
+  rdfs:label "Major Depressive Disorder (10.1)";
+  skos:notation "MDD" .
+
+<http://purl.org/twc/poem/individual/scale/5> a poem:QuestionnaireScale;
+  rdfs:label "Separation Anxiety Disorder (7.1)";
+  skos:notation "SAD" .
+
+<http://purl.org/twc/poem/individual/scale/6> a poem:QuestionnaireScale;
+  rdfs:label "Obsessive Compulsive Disorder (6.1)";
+  skos:notation "OCD" .
+
+<http://purl.org/twc/poem/individual/scale/7> a poem:QuestionnaireScale;
+  rdfs:label "Total Anxiety (37.1)";
+  skos:notation "ANX" .
+
+<http://purl.org/twc/poem/individual/scale/8> a poem:QuestionnaireScale;
+  rdfs:label "Total Anxiety and Depression (47.1)";
+  skos:notation "ANXDEP" .
+
+<http://purl.org/twc/poem/individual/scale/9> a poem:QuestionnaireScale;
+  rdfs:label "Total Anxiety (15.1)";
+  skos:notation "Anx15" .
