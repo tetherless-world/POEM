@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.org/twc/poem#"
      xml:base="http://purl.org/twc/poem"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dc="http://purl.org/dc/terms/"
      xmlns:eco="http://purl.obolibrary.org/obo/eco.owl#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
