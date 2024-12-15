@@ -15,23 +15,23 @@
 @prefix vstoi: <http://purl.org/twc/vstoi/> .
 @prefix snomed: <http://purl.bioontology.org/ontology/SNOMEDCT/> .
 
-snomed:102912007 rdf:type poem:Symptom ;
+snomed:102912007 a poem:Symptom ;
   rdfs:label "fear of death" .
 
-snomed:1144814003 rdf:type poem:Symptom ;
+snomed:1144814003 a poem:Symptom ;
   rdfs:label "psychomotor retardation" .
 
-snomed:1217332007 rdf:type poem:Symptom ;
+snomed:1217332007 a poem:Symptom ;
   rdfs:label "persistent sadness" .
 
-snomed:12479006 rdf:type poem:Symptom ;
+snomed:12479006 a poem:Symptom ;
   rdfs:label "compulsive behavior" .
 
-snomed:126943008 rdf:type poem:Disorder ;
+snomed:126943008 a poem:Disorder ;
   poem:hasSymptom snomed:225629005 ;
   rdfs:label "separation anxiety" .
 
-snomed:191736004 rdf:type poem:Disorder ;
+snomed:191736004 a poem:Disorder ;
   poem:hasSymptom snomed:12479006 ,
   snomed:225445003 ;
   rdfs:label "obsessive compulsive disorder" .
@@ -49,44 +49,44 @@ snomed:197480006
   snomed:79823003 ;
   rdfs:label "anxiety disorder" .
 
-snomed:21897009 rdf:type poem:Disorder ;
+snomed:21897009 a poem:Disorder ;
   poem:hasSymptom snomed:102912007 ,
   snomed:79015004 ;
   rdfs:label "generalized anxiety disorder" .
 
-snomed:225445003 rdf:type poem:Symptom ;
+snomed:225445003 a poem:Symptom ;
   rdfs:label "intrusive thoughts" .
 
-snomed:225629005 rdf:type poem:Symptom ;
+snomed:225629005 a poem:Symptom ;
   rdfs:label "fear of being left alone" .
 
-snomed:247799003 rdf:type poem:Symptom ;
+snomed:247799003 a poem:Symptom ;
   rdfs:comment "No more specific mapping in SNOMED exists to symptom \"worry about future\"" ;
   rdfs:label "pessimistic" .
 
-snomed:247825008 rdf:type poem:Symptom ;
+snomed:247825008 a poem:Symptom ;
   rdfs:label "anxiety about behavior or performance" ,
   "anxiety about behaviour or performance" .
 
-snomed:247826009 rdf:type poem:Symptom ;
+snomed:247826009 a poem:Symptom ;
   rdfs:label "fear of appearing ridiculous" .
 
-snomed:247835002 rdf:type poem:Symptom ;
+snomed:247835002 a poem:Symptom ;
   rdfs:label "fear of public speaking" .
 
-snomed:247892001 rdf:type poem:Symptom ;
+snomed:247892001 a poem:Symptom ;
   rdfs:label "self-depreciation" .
 
-snomed:249473004 rdf:type poem:Symptom ;
+snomed:249473004 a poem:Symptom ;
   rdfs:label "altered appetite" .
 
-snomed:25501002 rdf:type poem:Disorder ;
+snomed:25501002 a poem:Disorder ;
   poem:hasSymptom snomed:247825008 ,
   snomed:247826009 ,
   snomed:247835002 ;
   rdfs:label "social phobia" .
 
-snomed:28669007 rdf:type poem:Symptom ;
+snomed:28669007 a poem:Symptom ;
   rdfs:label "anhedonia" .
 
 snomed:35489007 
@@ -101,7 +101,7 @@ snomed:35489007
   snomed:84229001 ;
   rdfs:label "depressive disorder" .
 
-snomed:370143000 rdf:type poem:Disorder ;
+snomed:370143000 a poem:Disorder ;
   poem:hasSymptom snomed:1144814003 ,
   snomed:1217332007 ,
   snomed:247892001 ,
@@ -113,34 +113,34 @@ snomed:370143000 rdf:type poem:Disorder ;
   snomed:84229001 ;
   rdfs:label "major depressive disorder" .
 
-snomed:371631005 rdf:type poem:Disorder ;
+snomed:371631005 a poem:Disorder ;
   poem:hasSymptom snomed:43364001 ,
   snomed:79823003 ;
   rdfs:label "panic disorder" .
 
-snomed:43364001 rdf:type poem:Symptom ;
+snomed:43364001 a poem:Symptom ;
   rdfs:comment "More appropriate SNOMED mapping does not exist to cover abdominal discomfort/nausea as caused by anxiety" ;
   rdfs:label "abdominal discomfort" .
 
-snomed:47295007 rdf:type poem:Symptom ;
+snomed:47295007 a poem:Symptom ;
   rdfs:label "psychomotor agitation" .
 
-snomed:53888004 rdf:type poem:Symptom ;
+snomed:53888004 a poem:Symptom ;
   rdfs:label "disturbance in sleep behavior" .
 
-snomed:64336009 rdf:type poem:Symptom ;
+snomed:64336009 a poem:Symptom ;
   rdfs:label "incoherent thinking" .
 
-snomed:79015004 rdf:type poem:Symptom ;
+snomed:79015004 a poem:Symptom ;
   rdfs:comment "No more specific mapping to symptom \"worry about future panic attacks\" in SNOMED" ,
   "No more specific mapping to symptom \"worry about sleep/reluctance to sleep\" in SNOMED" ;
   rdfs:label "worried" ,
   "worry" .
 
-snomed:79823003 rdf:type poem:Symptom ;
+snomed:79823003 a poem:Symptom ;
   rdfs:label "panic" .
 
-snomed:84229001 rdf:type poem:Symptom ;
+snomed:84229001 a poem:Symptom ;
   rdfs:label "fatigue" .
 
 <http://purl.org/twc/poem/individual/scale/12> 

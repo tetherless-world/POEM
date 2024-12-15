@@ -1,16 +1,43 @@
 from rdflib import Graph
 import os
 
-def query2():
-    query = """
-    SELECT ?scale ?disorder ?label WHERE {
-        poem-rcads:RCADS47Questionnaire poem:hasScale ?scale .
-        ?disorder rdf:type poem:Disorder .
-        ?disorder rdfs:label ?label .
-        ?scale rdf:type poem:QuestionnaireScale .
-        ?scale poem:isAboutDisorder ?disorder .
+
+# What conditions does the RCADS-47 measure?
+def query1(g):
+    query_ = """
+    SELECT ?scale ?conditionLabel WHERE {
+        ?condition a poem:Disorder .
+        ?condition rdfs:label ?conditionLabel .
+        ?questionnaire fhir:code "RCADS-47-Y-EN" .
+        ?questionnaire sio:hasMember ?scale .
+        ?scale sio:isAbout ?condition .
     }
     """
+
+    query = """
+    SELECT ?scale WHERE {
+        <http://purl.org/twc/poem/individual/instrument/1> sio:hasMember ?scale .
+    }
+    """
+
+    qres = g.query(query)
+    for row in qres:
+        print(f"{row.scale}")
+
+
+def query4(g):
+    query = """
+    SELECT ?informantlabel WHERE {
+        ?informant rdf:type vstoi:Informant .
+        ?informant rdfs:label ?informantlabel .
+        ?questionnaire fhir:code "RCADS-47-Y-EN" .
+        ?questionnaire sio:hasAttribute ?informant .
+    }
+    """
+    qres = g.query(query)
+    for row in qres:
+        print(f"{row.informantlabel}")
+
 
 def main():
     g = Graph()
@@ -32,18 +59,8 @@ def main():
     }
     """
 
-    query2 = """
-    SELECT ?informantlabel WHERE {
-        ?informant rdf:type vstoi:Informant .
-        ?informant rdfs:label ?informantlabel .
-        ?questionnaire fhir:code "RCADS-47-Y-EN" .
-        ?questionnaire sio:hasAttribute ?informant .
-    }
-    """
+    query1(g)
 
-    qres = g.query(query2)
-    for row in qres:
-        print(f"{row.informantlabel}")
 
 if __name__ == "__main__":
     main()
