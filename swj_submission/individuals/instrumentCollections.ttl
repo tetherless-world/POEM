@@ -1,7 +1,7 @@
 @prefix poem: <http://purl.org/twc/poem/> .
 @prefix resource: <http://semanticscience.org/resource/> .
 
-<http://purl.org/twc/poem/individual/instrumentFamily/1> a poem:instrumentCollection ;
+<http://purl.org/twc/poem/individual/instrumentCollection/1> a poem:instrumentCollection ;
     resource:SIO_000059 <http://purl.org/twc/poem/individual/instrument/1>,
         <http://purl.org/twc/poem/individual/instrument/10>,
         <http://purl.org/twc/poem/individual/instrument/11>,
@@ -195,9 +195,9 @@
         <http://purl.org/twc/poem/individual/instrument/95>,
         <http://purl.org/twc/poem/individual/instrument/96> .
 
-<http://purl.org/twc/poem/individual/instrumentFamily/2> a poem:instrumentCollection .
+<http://purl.org/twc/poem/individual/instrumentCollection/2> a poem:instrumentCollection .
 
-<http://purl.org/twc/poem/individual/instrumentFamily/3> a poem:instrumentCollection ;
+<http://purl.org/twc/poem/individual/instrumentCollection/3> a poem:instrumentCollection ;
     resource:SIO_000059 <http://purl.org/twc/poem/individual/instrument/100>,
         <http://purl.org/twc/poem/individual/instrument/101>,
         <http://purl.org/twc/poem/individual/instrument/102>,
@@ -217,7 +217,7 @@
         <http://purl.org/twc/poem/individual/instrument/98>,
         <http://purl.org/twc/poem/individual/instrument/99> .
 
-<http://purl.org/twc/poem/individual/instrumentFamily/4> a poem:instrumentCollection ;
+<http://purl.org/twc/poem/individual/instrumentCollection/4> a poem:instrumentCollection ;
     resource:SIO_000059 <http://purl.org/twc/poem/individual/instrument/106> ;
     resource:hasMember <http://purl.org/twc/poem/individual/instrument/106> .
 
