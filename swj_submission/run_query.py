@@ -37,29 +37,31 @@ def query3(g):
 # CQ4: What languages are available for the RCADS-47?
 def query4(g):
     query = """
-    SELECT ?itemStem WHERE {
+    SELECT DISTINCT ?language WHERE {
         <http://purl.org/twc/poem/individual/instrumentFamily/1> sio:hasMember ?instrument .
         ?instrument sio:hasMember ?item .
         ?item sio:hasSource ?itemStem .
+        ?itemStem dc:language ?language .
     }
     """
     qres = g.query(query)
     for row in qres:
-        print(f"{row.itemStem}")
+        print(f"{row.language}")
 
 
 # CQ9: Who can fill out the RCADS on behalf of a subject?
 def query9(g):
     query = """
-    SELECT ?informant WHERE {
+    SELECT DISTINCT ?informantLabel WHERE {
         <http://purl.org/twc/poem/individual/instrumentFamily/1> sio:hasMember ?questionnaire .
         ?questionnaire sio:hasAttribute ?informant .
+        ?informant rdfs:label ?informantLabel .
     }
     """
 
     qres = g.query(query)
     for row in qres:
-        print(f"{row.informant}")
+        print(f"{row.informantLabel}")
 
 
 def main():
@@ -82,7 +84,7 @@ def main():
     #    print(namespace)
     g.serialize(destination='./individuals_full2.ttl')
 
-    query9(g)
+    query4(g)
 
 
 if __name__ == "__main__":
