@@ -1,10 +1,10 @@
-from rdflib import Graph
+from rdflib import Graph, Namespace
 import os
 
 
-# What conditions does the RCADS-47 measure?
+# CQ1: What conditions does the RCADS-47 measure?
 def query1(g):
-    query_ = """
+    query = """
     SELECT ?scale ?conditionLabel WHERE {
         ?condition a poem:Disorder .
         ?condition rdfs:label ?conditionLabel .
@@ -14,41 +14,63 @@ def query1(g):
     }
     """
 
-    query = """
-    SELECT ?scale WHERE {
-        <http://purl.org/twc/poem/individual/instrument/1> sio:hasMember ?scale .
-    }
-    """
-
     qres = g.query(query)
     for row in qres:
-        print(f"{row.scale}")
+        print(f"{row.scale}, {row.conditionLabel}")
 
 
-def query4(g):
+# CQ3: What scales does the RCADS-47 have?
+def query3(g):
     query = """
-    SELECT ?informantlabel WHERE {
-        ?informant rdf:type vstoi:Informant .
-        ?informant rdfs:label ?informantlabel .
+    SELECT ?scale ?scaleLabel WHERE {
         ?questionnaire fhir:code "RCADS-47-Y-EN" .
-        ?questionnaire sio:hasAttribute ?informant .
+        ?questionnaire sio:hasMember ?scale .
+        ?scale rdfs:label ?scaleLabel .
     }
     """
+
     qres = g.query(query)
     for row in qres:
-        print(f"{row.informantlabel}")
+        print(f"{row.scale}, {row.scaleLabel}")
+
+
+# CQ4: What languages are available for the RCADS-47?
+def query4(g):
+    query_ = """
+    SELECT ?item ?source ?language WHERE {
+        ?questionnaire fhir:code "RCADS-47-Y-EN" .
+        ?questionnaire sio:hasMember ?item .
+        ?item sio:hasSource ?source .
+        ?source dc:language ?language .
+    }
+    """
+    '''qres = g.query(query)
+    for row in qres:
+        print(f"{row.item}, {row.source}, {row.language}")'''
+    
+    query = """
+    SELECT ?lang WHERE {
+    <http://purl.org/twc/poem/individual/itemStem/1>
+    }
+    """
 
 
 def main():
     g = Graph()
 
-    files = os.listdir('./')
-    for file in files:
-        if file.endswith('.ttl') and file != 'individuals_full.ttl':
-            print("parsing {}".format(file))
-            g.parse(file)
-            print("parsed {}".format(file))
+    #DC = Namespace("http://purl.org/dc/terms/")
+    #g.bind("dc", DC)
 
+    files = os.listdir('./individuals')#('./swj_submission/individuals')
+    for file in files:
+        print(file)
+        if file.endswith('.ttl'):
+            #print("parsing {}".format(file))
+            g.parse(f"./individuals/{file}")
+            #print("parsed {}".format(file))
+
+    for namespace in g.namespaces():
+        print(namespace)
 
     query1_nope = """
     SELECT ?person ?attribute? ?attributevalue WHERE {
@@ -59,7 +81,7 @@ def main():
     }
     """
 
-    query1(g)
+    query4(g)
 
 
 if __name__ == "__main__":

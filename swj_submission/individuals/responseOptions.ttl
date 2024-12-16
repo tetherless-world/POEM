@@ -11,7 +11,7 @@
 @prefix schema: <http://schema.org/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix vstoi: <http://purl.org/twc/vstoi/> .
+@prefix vstoi: <http://hadatac.org/ont/vstoi#> .
 
 _:0 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "1";

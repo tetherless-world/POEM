@@ -10,10 +10,21 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix vstoi: <http://purl.org/twc/vstoi/> .
-@prefix sio: <http://semanticscience.org/ontology/sio.owl> .
+@prefix vstoi: <http://hadatac.org/ont/vstoi#> .
+@prefix sio: <http://semanticscience.org/resource/> .
 
-<http://purl.org/twc/poem/individual/instrument/1> sio:hasMember
+
+<http://purl.org/twc/poem/individual/instrument/1> 
+sio:hasMember
+    <http://purl.org/twc/poem/individual/scale/1> ,
+    <http://purl.org/twc/poem/individual/scale/2> ,
+    <http://purl.org/twc/poem/individual/scale/3> ,
+    <http://purl.org/twc/poem/individual/scale/4> ,
+    <http://purl.org/twc/poem/individual/scale/5> ,
+    <http://purl.org/twc/poem/individual/scale/6> ,
+    <http://purl.org/twc/poem/individual/scale/7> ,
+    <http://purl.org/twc/poem/individual/scale/8> ;
+sio:SIO_000059
     <http://purl.org/twc/poem/individual/scale/1> ,
     <http://purl.org/twc/poem/individual/scale/2> ,
     <http://purl.org/twc/poem/individual/scale/3> ,
@@ -22,4 +33,5 @@
     <http://purl.org/twc/poem/individual/scale/6> ,
     <http://purl.org/twc/poem/individual/scale/7> ,
     <http://purl.org/twc/poem/individual/scale/8> .
+
 

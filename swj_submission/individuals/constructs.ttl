@@ -12,7 +12,7 @@
 @prefix schema: <http://schema.org/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix vstoi: <http://purl.org/twc/vstoi/> .
+@prefix vstoi: <http://hadatac.org/ont/vstoi#> .
 @prefix snomed: <http://purl.bioontology.org/ontology/SNOMEDCT/> .
 
 snomed:102912007 a poem:Symptom ;

@@ -5,11 +5,11 @@ import os
 def main():
     g = Graph()
 
-    files = os.listdir('./')
+    files = os.listdir('./individuals')#('./swj_submission/individuals')
     for file in files:
         if file.endswith('.ttl') and file != 'individuals_full.ttl':
             print("parsing {}".format(file))
-            g.parse(file)
+            g.parse(f"./individuals/{file}")
             print("parsed {}".format(file))
 
     ont = BNode()
