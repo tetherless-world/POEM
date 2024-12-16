@@ -5,6 +5,12 @@ import os
 def main():
     g = Graph()
 
+    DC = Namespace("http://purl.org/dc/terms/")
+    g.bind("dc", DC, replace=True)
+
+    #SIO = Namespace("http://semanticscience.org/ontology/sio.owl")
+    #g.bind("sio", SIO, replace=True)
+
     files = os.listdir('./individuals')#('./swj_submission/individuals')
     for file in files:
         if file.endswith('.ttl') and file != 'individuals_full.ttl':

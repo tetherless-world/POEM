@@ -11,6 +11,7 @@
 @prefix schema: <http://schema.org/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix vstoi: <http://hadatac.org/ont/vstoi#> .
+@prefix dcterms: 
 
 <http://purl.org/twc/poem/individual/itemStem/1> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
