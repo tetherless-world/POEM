@@ -3,6 +3,9 @@
 ## Individual files
 The files provided include an example of POEM's usage on currently available data about the [Revised Child Anxietry and Depression Scale (RCADS)](https://rcads.ucla.edu/), [My Thoughts about Therapy (MTT)](https://www.childfirst.ucla.edu/resources/), and the [nine-item Patient Health Questionnaire (PHQ-9)](https://www.apa.org/depression-guideline/patient-health-questionnaire.pdf). The individual files are divided as described below for ease of compilation and browsing. The included data is not intended to reflect the complete or final state of the RCADS, MTT, or PHQ-9, and is only intended to show how existing questionnaires might align with POEM. Additionally, our current modeling is subject to change.
 
+### [individualsFull.ttl](individualsFull.ttl)
+- includes all entities and relations in the following .ttl files
+
 ### [activities.ttl](individuals/activities.ttl) 
 - includes descriptions of creation, translation, testing, and modification of questionnaires
 
