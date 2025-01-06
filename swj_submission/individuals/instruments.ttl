@@ -12,7 +12,7 @@
 @prefix schema: <http://schema.org/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix vstoi: <http://hadatac.org/ont/vstoi#> .
+@prefix vstoi: <http://purl.org/twc/vstoi/> .
 
 <http://purl.org/twc/poem/individual/instrument/1> a fhir:Questionnaire, poem:PsychometricQuestionnaire;
   fhir:code "RCADS-47-Y-EN";

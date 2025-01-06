@@ -10,7 +10,7 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix vstoi: <http://hadatac.org/ont/vstoi#> .
+@prefix vstoi: <http://purl.org/twc/vstoi/> .
 
 <http://purl.org/twc/poem/individual/experience/1> rdfs:label "Frequency";
   rdfs:subClassOf poem:Experience .
