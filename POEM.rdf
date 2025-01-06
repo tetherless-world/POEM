@@ -889,7 +889,7 @@
 
     <owl:Class rdf:about="http://purl.org/twc/poem/InstrumentCollection">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
-        <rdfs:label>instrument family</rdfs:label>
+        <rdfs:label>instrument collection</rdfs:label>
     </owl:Class>
 
 
