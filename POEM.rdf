@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.org/twc/poem/"
-     xml:base="http://purl.org/twc/poem"
-     xmlns:dc="http://purl.org/dc/terms/"
+     xml:base="http://purl.org/twc/poem/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:eco="http://purl.obolibrary.org/obo/eco.owl#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -33,7 +33,7 @@
      xmlns:elements1="http://purl.org/twc/poem.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.org/twc/poem">
         <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
-        <dc:creator>Kelsey Rook</dc:creator>
+        <terms:creator>Kelsey Rook</terms:creator>
         <terms:description>The Psychometric Ontology of Experience and Measures provides an ontology of domain concepts for the measurement of symptoms and syndromes related to psychiatric conditions.</terms:description>
         <terms:modified>2023-11-20</terms:modified>
         <terms:title>Psychometric Ontology of Experience and Measures</terms:title>
@@ -122,21 +122,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://purl.org/twc/vstoi/hasInformant -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/vstoi/hasInformant">
-        <rdfs:domain rdf:resource="http://purl.org/twc/vstoi/Questionnaire"/>
-        <rdfs:range rdf:resource="http://purl.org/twc/vstoi/Informant"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/twc/vstoi/hasItem -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/vstoi/hasItem"/>
     
 
 
@@ -311,6 +296,21 @@
     
 
 
+    <!-- http://purl.org/twc/vstoi/hasInformant -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/twc/vstoi/hasInformant">
+        <rdfs:domain rdf:resource="http://purl.org/twc/vstoi/Questionnaire"/>
+        <rdfs:range rdf:resource="http://purl.org/twc/vstoi/Informant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/twc/vstoi/hasItem -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/twc/vstoi/hasItem"/>
+    
+
+
     <!-- http://semanticscience.org/resource/SIO_000028 -->
 
     <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000028"/>
@@ -383,184 +383,6 @@
                 <owl:onClass rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/twc/vstoi/Codebook -->
-
-    <owl:Class rdf:about="http://purl.org/twc/vstoi/Codebook">
-        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/twc/vstoi/Item"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000059"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.org/twc/vstoi/ResponseOption"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/twc/vstoi/Detector -->
-
-    <owl:Class rdf:about="http://purl.org/twc/vstoi/Detector">
-        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000956"/>
-        <rdfs:label>Detector</rdfs:label>
-        <skos:definition>A device which detects measurements, such as temperature or wind velocity</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/twc/vstoi/Informant -->
-
-    <owl:Class rdf:about="http://purl.org/twc/vstoi/Informant">
-        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000498"/>
-        <rdfs:label>Informant</rdfs:label>
-        <skos:definition>(Respondent)</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/twc/vstoi/Instrument -->
-
-    <owl:Class rdf:about="http://purl.org/twc/vstoi/Instrument">
-        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000956"/>
-        <rdfs:label>Instrument</rdfs:label>
-        <skos:definition>A device or mechanism that is used to achire attribute values of entities of interest.  An instrument does not necessarily require a way to store its measured quantity (e.g, a hard disk).</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/twc/vstoi/Item -->
-
-    <owl:Class rdf:about="http://purl.org/twc/vstoi/Item">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/vstoi/Detector"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/twc/poem/detects"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem/Symptom"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
-                <owl:someValuesFrom rdf:resource="http://semanticscience.org/resource/SIO_000613"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000095"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/twc/vstoi/Questionnaire"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000095"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem/QuestionnaireScale"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000253"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.org/twc/vstoi/ItemStem"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.org/twc/vstoi/Codebook"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>item</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/twc/vstoi/ItemStem -->
-
-    <owl:Class rdf:about="http://purl.org/twc/vstoi/ItemStem">
-        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/twc/poem/hasVariable"/>
-                <owl:someValuesFrom rdf:resource="http://hadatac.org/ont/hasco/SemanticVariable"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000219"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.org/twc/vstoi/Item"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>item stem</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/twc/vstoi/Questionnaire -->
-
-    <owl:Class rdf:about="http://purl.org/twc/vstoi/Questionnaire">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/vstoi/Instrument"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/twc/vstoi/Informant"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000059"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.org/twc/vstoi/Item"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000059"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.org/twc/poem/QuestionnaireScale"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000668"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://semanticscience.org/resource/SIO_000613"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>Questionnaire</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/twc/vstoi/ResponseOption -->
-
-    <owl:Class rdf:about="http://purl.org/twc/vstoi/ResponseOption">
-        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem/Experience"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000095"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.org/twc/vstoi/Codebook"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>response option</rdfs:label>
     </owl:Class>
     
 
@@ -850,6 +672,28 @@
     
 
 
+    <!-- http://purl.org/twc/poem#ItemStemConcept -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem#ItemStemConcept">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/twc/poem/hasVariable"/>
+                <owl:someValuesFrom rdf:resource="http://hadatac.org/ont/hasco/SemanticVariable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000219"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.org/twc/vstoi/ItemStem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>item stem concept</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/twc/poem/CompositeScale -->
 
     <owl:Class rdf:about="http://purl.org/twc/poem/CompositeScale">
@@ -885,13 +729,35 @@
     
 
 
+    <!-- http://purl.org/twc/poem/Experience -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem/Experience">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000011"/>
+                <owl:someValuesFrom rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000332"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.org/twc/poem/Symptom"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>symptom experience</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/twc/poem/InstrumentCollection -->
 
     <owl:Class rdf:about="http://purl.org/twc/poem/InstrumentCollection">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
         <rdfs:label>instrument collection</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.org/twc/poem/PsychometricQuestionnaire -->
@@ -923,7 +789,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000059"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.org/twc/vstoi/Item"/>
+                <owl:onClass rdf:resource="http://purl.org/twc/poem#ItemStemConcept"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -949,24 +815,181 @@
     
 
 
-    <!-- http://purl.org/twc/poem/Experience -->
+    <!-- http://purl.org/twc/vstoi/Codebook -->
 
-    <owl:Class rdf:about="http://purl.org/twc/poem/Experience">
-        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000005"/>
+    <owl:Class rdf:about="http://purl.org/twc/vstoi/Codebook">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000011"/>
-                <owl:someValuesFrom rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/twc/vstoi/Item"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000332"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.org/twc/poem/Symptom"/>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000059"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.org/twc/vstoi/ResponseOption"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>symptom experience</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/twc/vstoi/Detector -->
+
+    <owl:Class rdf:about="http://purl.org/twc/vstoi/Detector">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000956"/>
+        <rdfs:label>Detector</rdfs:label>
+        <skos:definition>A device which detects measurements, such as temperature or wind velocity</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/twc/vstoi/Informant -->
+
+    <owl:Class rdf:about="http://purl.org/twc/vstoi/Informant">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000498"/>
+        <rdfs:label>Informant</rdfs:label>
+        <skos:definition>(Respondent)</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/twc/vstoi/Instrument -->
+
+    <owl:Class rdf:about="http://purl.org/twc/vstoi/Instrument">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000956"/>
+        <rdfs:label>Instrument</rdfs:label>
+        <skos:definition>A device or mechanism that is used to achire attribute values of entities of interest.  An instrument does not necessarily require a way to store its measured quantity (e.g, a hard disk).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/twc/vstoi/Item -->
+
+    <owl:Class rdf:about="http://purl.org/twc/vstoi/Item">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/vstoi/Detector"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/twc/poem/detects"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem/Symptom"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
+                <owl:someValuesFrom rdf:resource="http://semanticscience.org/resource/SIO_000613"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000095"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem/QuestionnaireScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000095"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/twc/vstoi/Questionnaire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000253"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.org/twc/vstoi/ItemStem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.org/twc/vstoi/Codebook"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>item</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/twc/vstoi/ItemStem -->
+
+    <owl:Class rdf:about="http://purl.org/twc/vstoi/ItemStem">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000219"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.org/twc/vstoi/Item"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000253"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.org/twc/poem#ItemStemConcept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>item stem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/twc/vstoi/Questionnaire -->
+
+    <owl:Class rdf:about="http://purl.org/twc/vstoi/Questionnaire">
+        <rdfs:subClassOf rdf:resource="http://purl.org/twc/vstoi/Instrument"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/twc/vstoi/Informant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000059"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.org/twc/poem/QuestionnaireScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000059"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.org/twc/vstoi/Item"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000668"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://semanticscience.org/resource/SIO_000613"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Questionnaire</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/twc/vstoi/ResponseOption -->
+
+    <owl:Class rdf:about="http://purl.org/twc/vstoi/ResponseOption">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem/Experience"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000095"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.org/twc/vstoi/Codebook"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>response option</rdfs:label>
     </owl:Class>
     
 
