@@ -19,6 +19,8 @@ FROM eclipse-temurin:21-jre
 
 COPY --from=build-java /poem-demo/target/universal/poem-demo-1.0-SNAPSHOT /poem-demo
 
+WORKDIR /poem-demo
+
 EXPOSE 9000
 
 ENTRYPOINT [ "bin/poem-demo" ]
