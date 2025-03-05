@@ -12,6 +12,8 @@ RUN sbt playUpdateSecret && sbt dist
 
 RUN cd /poem-demo/target/universal/ && unzip poem-demo-1.0-SNAPSHOT.zip
 
+FROM eclipse-temurin:21-jre
+
 COPY --from=build-java /poem-demo/target/universal/poem-demo-1.0-SNAPSHOT /poem-demo
 
 EXPOSE 9000
