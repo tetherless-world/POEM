@@ -11,18 +11,13 @@
 @prefix poem: <http://purl.org/twc/poem/> .
 @prefix vstoi: <http://purl.org/twc/vstoi/> .
 @prefix fhir: <http://hl7.org/fhir/> .
+@prefix sio: <http://semanticscience.org/resource/> .
 
 :TriplesMap a rr:TriplesMap;
   rml:logicalSource [
-    rml:source [
-      a csvw:Table;
-      csvw:url "data/30_Codebooks.csv";
-      csvw:dialect [
-        a csvw:Dialect;
-        csvw:delimiter ","
-      ]
-    ];
-    rml:referenceFormulation ql:CSV
+    rml:source "data/xml/30_Codebooks.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0033_0_Codebooks"
   ].
 
 :TriplesMap rr:subjectMap [
@@ -38,5 +33,19 @@
   rr:predicate rdfs:label;
   rr:objectMap [
     rml:reference "CodebookName"
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:hasAttribute;
+  rr:objectMap [
+    rr:template "http://purl.org/twc/poem/individual/experience/{CodebookExperience}"
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000008;
+  rr:objectMap [
+    rr:template "http://purl.org/twc/poem/individual/experience/{CodebookExperience}"
   ]
 ].

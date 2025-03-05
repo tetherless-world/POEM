@@ -10,31 +10,27 @@
 @prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix vstoi: <http://hadatac.org/ont/vstoi#> .
 @prefix poem: <http://purl.org/twc/poem/> .
+@prefix sio: <http://semanticscience.org/resource/> .
 
 :TriplesMap a rr:TriplesMap;
   rml:logicalSource [
-    rml:source [
-      a csvw:Table;
-      csvw:url "data/itemStems.csv";
-      csvw:dialect [
-        a csvw:Dialect;
-        csvw:delimiter ","
-      ]
-    ];
-    rml:referenceFormulation ql:CSV
+    rml:source "data/xml/21_ItemStems.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0032_1_ItemStems"
   ].
 
 :TriplesMap2 a rr:TriplesMap;
   rml:logicalSource [
-    rml:source [
-      a csvw:Table;
-      csvw:url "data/90_Languages.csv";
-      csvw:dialect [
-        a csvw:Dialect;
-        csvw:delimiter ","
-      ]
-    ];
-    rml:referenceFormulation ql:CSV
+    rml:source "data/xml/90_Languages.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0039_0_Languages"
+  ].
+
+:TriplesMap3 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/22_ItemStemConcepts.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0032_2_ItemStemConcepts"
   ].
 
 :TriplesMap rr:subjectMap [
@@ -43,6 +39,10 @@
 
 :TriplesMap2 rr:subjectMap [
   rr:template "http://www.fao.org/aims/aos/languagecode.owl#{ISO639-2}"
+].
+
+:TriplesMap3 rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/itemStemConcept/{ItemStemConceptID}"
 ].
 
 :TriplesMap rr:predicateObjectMap [
@@ -64,6 +64,28 @@
     rr:joinCondition [
       rr:child "ItemStemLanguage";
       rr:parent "LangaugeID";
+    ];
+  ];
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:hasSource;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMap3;
+    rr:joinCondition [
+      rr:child "ItemStemConceptID";
+      rr:parent "ItemStemConceptID";
+    ];
+  ];
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000253;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMap3;
+    rr:joinCondition [
+      rr:child "ItemStemConceptID";
+      rr:parent "ItemStemConceptID";
     ];
   ];
 ].

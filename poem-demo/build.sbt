@@ -11,12 +11,21 @@ Assets / LessKeys.less / excludeFilter := "_*.less"
 
 Assets / LessKeys.compress := true
 
-scalaVersion := "2.13.14"
+scalaVersion := "3.3.5"
 
 libraryDependencies += guice
 
 // https://mvnrepository.com/artifact/org.apache.jena/jena-arq
-libraryDependencies += "org.apache.jena" % "jena-arq" % "5.0.0"
+libraryDependencies += "org.apache.jena" % "jena-arq" % "5.3.0"
 
 // https://mvnrepository.com/artifact/org.webjars/bootstrap
-libraryDependencies += "org.webjars" % "bootstrap" % "3.4.1"
+libraryDependencies += "org.webjars" % "bootstrap" % "5.3.3"
+
+// https://mvnrepository.com/artifact/org.webjars/jquery
+libraryDependencies += "org.webjars" % "jquery" % "3.7.1"
+
+// https://mvnrepository.com/artifact/org.webjars/jquery-form
+libraryDependencies += "org.webjars" % "jquery-form" % "4.2.2"
+
+// https://mvnrepository.com/artifact/com.google.code.gson/gson
+libraryDependencies += "com.google.code.gson" % "gson" % "2.12.1"

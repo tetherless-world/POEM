@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="03_Activities.xsd" generated="2024-10-08T11:25:35">
+<_x0030_3_Activities>
+<ActivityID>1</ActivityID>
+<ActivityName>Created the RCADS-47-Y</ActivityName>
+<AssociatedAgent>1</AssociatedAgent>
+<ActivityDate>1999-05-26T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<GenEntityID>1</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>2</ActivityID>
+<ActivityName>Generated the RCADS-47-CG-EN using RCADS-47-Y-EN</ActivityName>
+<AssociatedAgent>6</AssociatedAgent>
+<ActivityDate>2010-02-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>1</UsedEntityID>
+<GenEntityID>2</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>3</ActivityID>
+<ActivityName>Generated the RCADS-25-Y-EN using RCADS-47-Y-EN</ActivityName>
+<AssociatedAgent>5</AssociatedAgent>
+<ActivityDate>2012-02-13T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>1</UsedEntityID>
+<GenEntityID>3</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>4</ActivityID>
+<ActivityName>Generated the RCADS-47-Y-ES using RCADS-47-Y-EN</ActivityName>
+<AssociatedAgent>8</AssociatedAgent>
+<ActivityDate>2016-06-01T00:00:00</ActivityDate>
+<ActivityMethod>Following the translation procedures recommended by Brislin (1970), the two Spanish translations of the RCADS-P were then compared with each other and to the original English version of the RCADS-P, and inspected for differences.</ActivityMethod>
+<EntityType>1</EntityType>
+<UsedEntityID>1</UsedEntityID>
+<GenEntityID>4</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>5</ActivityID>
+<ActivityName>Generated MTT-35-CG-EN-3 (provider) using MTT-35-CG-EN-1</ActivityName>
+<AssociatedAgent>3</AssociatedAgent>
+<ActivityDate>2024-07-11T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>5</UsedEntityID>
+<GenEntityID>6</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>6</ActivityID>
+<ActivityName>Generated German RCADS-Y-25 from German Y-47 (items) and RCADS-EN-25 (order)</ActivityName>
+<AssociatedAgent>7</AssociatedAgent>
+<ActivityDate>2024-09-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>9</UsedEntityID>
+<GenEntityID>7</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>7</ActivityID>
+<ActivityName>Generated MTT-35-CG-EN-2 (counselor) using MTT-35-CG-EN-1</ActivityName>
+<AssociatedAgent>2</AssociatedAgent>
+<ActivityDate>2017-12-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>5</UsedEntityID>
+<GenEntityID>10</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>8</ActivityID>
+<ActivityName>Test to compare anything to anything</ActivityName>
+<AssociatedAgent>2</AssociatedAgent>
+<ActivityDate>1967-02-25T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>3</UsedEntityID>
+<GenEntityID>12</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>9</ActivityID>
+<ActivityName>Created the MTT-35-Y-EN-1</ActivityName>
+<AssociatedAgent>2</AssociatedAgent>
+<ActivityDate>2017-08-14T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<GenEntityID>13</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>10</ActivityID>
+<ActivityName>Created the MTT-35-CG-EN-1</ActivityName>
+<AssociatedAgent>2</AssociatedAgent>
+<ActivityDate>2017-08-14T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>13</UsedEntityID>
+<GenEntityID>5</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>11</ActivityID>
+<ActivityName>Translated the MTT-35-Y-EN-1 to Spanish</ActivityName>
+<AssociatedAgent>2</AssociatedAgent>
+<ActivityDate>2017-09-07T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>13</UsedEntityID>
+<GenEntityID>15</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>12</ActivityID>
+<ActivityName>Translated the MTT-35-CG-EN-1 to Spanish</ActivityName>
+<AssociatedAgent>2</AssociatedAgent>
+<ActivityDate>2017-09-07T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>5</UsedEntityID>
+<GenEntityID>16</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>13</ActivityID>
+<ActivityName>Generated MTT-35-Y-EN-2 (counselor) using MTT-35-Y-EN-1</ActivityName>
+<AssociatedAgent>2</AssociatedAgent>
+<ActivityDate>2017-12-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>13</UsedEntityID>
+<GenEntityID>14</GenEntityID>
+</_x0030_3_Activities>
+</dataroot>

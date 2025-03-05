@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="34_ResponseOptionConcepts.xsd" generated="2024-10-08T11:26:30">
+<_x0033_4_ResponseOptionConcepts>
+<OptionConceptID>1</OptionConceptID>
+<OptionConcept>[never]</OptionConcept>
+<AssociatedExperience>1</AssociatedExperience>
+</_x0033_4_ResponseOptionConcepts>
+<_x0033_4_ResponseOptionConcepts>
+<OptionConceptID>2</OptionConceptID>
+<OptionConcept>[sometimes]</OptionConcept>
+<AssociatedExperience>1</AssociatedExperience>
+</_x0033_4_ResponseOptionConcepts>
+<_x0033_4_ResponseOptionConcepts>
+<OptionConceptID>3</OptionConceptID>
+<OptionConcept>[often]</OptionConcept>
+<AssociatedExperience>1</AssociatedExperience>
+</_x0033_4_ResponseOptionConcepts>
+<_x0033_4_ResponseOptionConcepts>
+<OptionConceptID>4</OptionConceptID>
+<OptionConcept>[always]</OptionConcept>
+<AssociatedExperience>1</AssociatedExperience>
+</_x0033_4_ResponseOptionConcepts>
+<_x0033_4_ResponseOptionConcepts>
+<OptionConceptID>5</OptionConceptID>
+<OptionConcept>[strongly disagree]</OptionConcept>
+<AssociatedExperience>5</AssociatedExperience>
+</_x0033_4_ResponseOptionConcepts>
+<_x0033_4_ResponseOptionConcepts>
+<OptionConceptID>6</OptionConceptID>
+<OptionConcept>[disagree]</OptionConcept>
+<AssociatedExperience>5</AssociatedExperience>
+</_x0033_4_ResponseOptionConcepts>
+<_x0033_4_ResponseOptionConcepts>
+<OptionConceptID>7</OptionConceptID>
+<OptionConcept>[agree]</OptionConcept>
+<AssociatedExperience>5</AssociatedExperience>
+</_x0033_4_ResponseOptionConcepts>
+<_x0033_4_ResponseOptionConcepts>
+<OptionConceptID>8</OptionConceptID>
+<OptionConcept>[strongly agree]</OptionConcept>
+<AssociatedExperience>5</AssociatedExperience>
+</_x0033_4_ResponseOptionConcepts>
+<_x0033_4_ResponseOptionConcepts>
+<OptionConceptID>9</OptionConceptID>
+<OptionConcept>[not at all]</OptionConcept>
+<AssociatedExperience>1</AssociatedExperience>
+</_x0033_4_ResponseOptionConcepts>
+<_x0033_4_ResponseOptionConcepts>
+<OptionConceptID>10</OptionConceptID>
+<OptionConcept>[several days]</OptionConcept>
+<AssociatedExperience>1</AssociatedExperience>
+</_x0033_4_ResponseOptionConcepts>
+<_x0033_4_ResponseOptionConcepts>
+<OptionConceptID>11</OptionConceptID>
+<OptionConcept>[more than half the days]</OptionConcept>
+<AssociatedExperience>1</AssociatedExperience>
+</_x0033_4_ResponseOptionConcepts>
+<_x0033_4_ResponseOptionConcepts>
+<OptionConceptID>12</OptionConceptID>
+<OptionConcept>[nearly every day]</OptionConcept>
+<AssociatedExperience>1</AssociatedExperience>
+</_x0033_4_ResponseOptionConcepts>
+</dataroot>
