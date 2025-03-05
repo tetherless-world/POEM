@@ -14,7 +14,7 @@ RUN cd /poem-demo/target/universal/ && unzip poem-demo-1.0-SNAPSHOT.zip
 
 WORKDIR /poem-demo
 
-COPY --from=build-java /poem-demo/target/universal/hascoapi-1.0-SNAPSHOT /poem-demo
+COPY --from=build-java /poem-demo/target/universal/poem-demo-1.0-SNAPSHOT /poem-demo
 
 EXPOSE 9000
 
