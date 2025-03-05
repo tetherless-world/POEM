@@ -1,0 +1,208 @@
+@(instruments: Seq[Instrument])(scales: Seq[QuestionnaireScale])(implicit request: play.mvc.Http.Request)
+
+@main2("POEM Demo") {
+<script src="@routes.Assets.versioned("lib/bootstrap/js/bootstrap.bundle.min.js")" type="text/javascript"></script>
+<script src="@routes.Assets.versioned("lib/jquery/jquery.min.js")" type="text/javascript"></script>
+<script src="@routes.Assets.versioned("lib/jquery-form/jquery.form.min.js")" type="text/javascript"></script>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+            </div>
+            <div class="modal-body">
+                <div class="container py-2">
+                    <div class="row">
+                        <div class="col">
+                            <div class="list-group" id="listgroup">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <!-- <button type="button" class="btn btn-primary">Send message</button> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="@routes.Assets.versioned("javascripts/main.js")" type="text/javascript"></script>
+
+<div class="container px-4 px-lg-5">
+    <!-- Heading Row-->
+    <div class="row gx-4 gx-lg-5 align-items-center my-5">
+        <!-- <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0"
+                src="https://dummyimage.com/900x400/dee2e6/6c757d.jpg" alt="..." /></div> -->
+        <div class="col-lg-5">
+            <h1 class="font-weight-light">Pyschometrics Ontology of Experience and Measures</h1>
+            <p>This is a demonstration of the POEM Ontology.</p>
+            <a class="btn btn-primary" href="https://github.com/tetherless-world/POEM/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                </svg> Github
+            </a>
+            <a class="btn btn-primary" href="https://tetherless-world.github.io/POEM/">Website</a>
+        </div>
+    </div>
+    <!-- Call to Action-->
+    <!-- <div class="card text-white bg-secondary my-5 py-4 text-center">
+        <div class="card-body">
+            <p class="text-white m-0">This call to action card is a great place to showcase some important information
+                or display a clever tagline!</p>
+        </div>
+    </div> -->
+    <!-- Content Row-->
+    <div class="row gx-4 gx-lg-5">
+        <div class="col-md-4 mb-5">
+            <div class="card h-100">
+                <form id="queryForm0">
+                    <div class="card-body">
+                        <div class="form-group" hidden>
+                            <input type="hidden" class="form-control" name="query" value="query0">
+                        </div>
+                        <div class="form-group">
+                            <h2 class="card-title">Scales by Instrument</h2>
+                            <p class="card-text">Which scales does the following instrument measure?</p>
+                            <select class="form-select" aria-label="Default select example" name="parameter">
+                                @for(instrument <- instruments) {
+                                    <option value="@instrument.getUri()">@instrument.getLabel()</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Results">Ask POEM</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4 mb-5">
+            <div class="card h-100">
+                <form id="queryForm1">
+                    <div class="card-body">
+                        <div class="form-group" hidden>
+                            <input type="hidden" class="form-control" name="query" value="query1">
+                        </div>
+                        <div class="form-group">
+                            <h2 class="card-title">Items in Scale</h2>
+                            <p class="card-text">Which item concepts compose this scale?</p>
+                            <select class="form-select" aria-label="Default select example" name="parameter">
+                                @for(scale <- scales) {
+                                    <option value="@scale.getUri()">@scale.getLabel()</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Results">Ask POEM</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4 mb-5">
+            <div class="card h-100">
+                <form id="queryForm2">
+                    <div class="card-body">
+                        <div class="form-group" hidden>
+                            <input type="hidden" class="form-control" name="query" value="query2">
+                        </div>
+                        <div class="form-group">
+                            <h2 class="card-title">Instrument sources</h2>
+                            <p class="card-text">Which instruments were used to generate the following instrument?</p>
+                            <select class="form-select" aria-label="Default select example" name="parameter">
+                                @for(instrument <- instruments) {
+                                    <option value="@instrument.getUri()">@instrument.getLabel()</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Results">Ask POEM</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Content Row-->
+    <div class="row gx-4 gx-lg-5">
+        <div class="col-md-4 mb-5">
+            <div class="card h-100">
+                <form id="queryForm3">
+                    <div class="card-body">
+                        <div class="form-group" hidden>
+                            <input type="hidden" class="form-control" name="query" value="query3">
+                        </div>
+                        <div class="form-group">
+                            <h2 class="card-title">Instrument targets</h2>
+                            <p class="card-text">Which instruments were based on the following instrument?</p>
+                            <select class="form-select" aria-label="Default select example" name="parameter">
+                                @for(instrument <- instruments) {
+                                    <option value="@instrument.getUri()">@instrument.getLabel()</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Results">Ask POEM</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4 mb-5">
+            <div class="card h-100">
+                <form id="queryForm4">
+                    <div class="card-body">
+                        <div class="form-group" hidden>
+                            <input type="hidden" class="form-control" name="query" value="query4">
+                        </div>
+                        <div class="form-group">
+                            <h2 class="card-title">Item stems in common</h2>
+                            <p class="card-text">How these two instruments are similar?</p>
+                            <select class="form-select" aria-label="Default select example" name="parameter">
+                                @for(instrument <- instruments) {
+                                    <option value="@instrument.getUri()">@instrument.getLabel()</option>
+                                }
+                            </select>
+                            <select class="form-select" aria-label="Default select example" name="parameter1">
+                                @for(instrument <- instruments) {
+                                    <option value="@instrument.getUri()">@instrument.getLabel()</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Results">Ask POEM</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4 mb-5">
+            <div class="card h-100">
+                <form id="queryForm5">
+                    <div class="card-body">
+                        <div class="form-group" hidden>
+                            <input type="hidden" class="form-control" name="query" value="query5">
+                        </div>
+                        <div class="form-group">
+                            <h2 class="card-title">Query 6</h2>
+                            <p class="card-text">Which instruments were used to generate the following instrument?</p>
+                            <select class="form-select" aria-label="Default select example" name="parameter">
+                                @for(instrument <- instruments) {
+                                    <option value="@instrument.getUri()">@instrument.getLabel()</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Results">Ask POEM</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+}
