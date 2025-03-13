@@ -52,7 +52,11 @@ public class HomeController extends Controller {
         Query query = queryForm.bindFromRequest(request).get();
         System.out.println(query.getQuery());
         System.out.println(query.getParameter());
-        if (query.getQuery().equals("query1")) {
+        if (query.getQuery().equals("query0")) {
+            Instrument instrument = Instrument.getByUri(query.getParameter());
+            List<QuestionnaireScale> scales = QuestionnaireScale.getByInstrument(instrument);
+            return ok(new Gson().toJson(scales));
+        } else if (query.getQuery().equals("query1")) {
             QuestionnaireScale scale = QuestionnaireScale.getByUri(query.getParameter());
             List<ItemConcept> itemConcepts = ItemConcept.getByScale(scale);
             return ok(new Gson().toJson(itemConcepts));
