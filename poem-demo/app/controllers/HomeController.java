@@ -32,8 +32,7 @@ public class HomeController extends Controller {
     public Result index(Http.Request request) {
         List<Instrument> instruments = Instrument.getAll();
         List<QuestionnaireScale> scales = QuestionnaireScale.getAll();
-        //return ok(views.html.index.render());
-        return ok(views.html.index3.render(asScala(instruments), asScala(scales), request));
+        return ok(views.html.index.render(asScala(instruments), asScala(scales), request));
     }
 
     public Result query(Http.Request request) {
