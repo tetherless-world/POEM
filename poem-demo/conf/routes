@@ -4,8 +4,6 @@
 
 # An example controller showing a sample home page
 GET     /               controllers.HomeController.index(request: Request)
-GET     /index2         controllers.HomeController.index2(request: Request)
-GET     /index3         controllers.HomeController.index3(request: Request)
 
 GET     /query          controllers.HomeController.query(request: Request)
 POST    /query          controllers.HomeController.query(request: Request)
