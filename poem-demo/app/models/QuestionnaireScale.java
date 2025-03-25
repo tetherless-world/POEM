@@ -54,9 +54,8 @@ public class QuestionnaireScale extends models.Resource {
             PREFIX sio: <http://semanticscience.org/resource/>
             SELECT DISTINCT ?uri ?label
             WHERE {
-                ?instrument sio:SIO_000059 ?item .
-                ?item sio:SIO_000253/sio:SIO_000253 ?itemStemConcept .
-                ?uri sio:SIO_000059 ?itemStemConcept .
+                ?instrument sio:SIO_000008 ?uri .
+                ?uri rdf:type poem:QuestionnaireScale .
                 ?uri rdfs:label ?label .
             }
         """);
