@@ -21,6 +21,7 @@ public class POEMModel {
             model.read("./data/responseOptions.ttl");
             model.read("./data/scaleItemConceptMap.ttl");
             model.read("./data/scales.ttl");
+            model.read("./data/scalesInstrument.ttl");
         } catch (RiotNotFoundException e) {
             try {
                 model.read("./dist/data/activities.ttl");
@@ -35,6 +36,7 @@ public class POEMModel {
                 model.read("./dist/data/responseOptions.ttl");
                 model.read("./dist/data/scaleItemConceptMap.ttl");
                 model.read("./dist/data/scales.ttl");
+                model.read("./dist/data/scalesInstrument.ttl");
             } catch (Exception e2) {
                 e2.printStackTrace();
             }
