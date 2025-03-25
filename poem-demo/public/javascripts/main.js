@@ -191,5 +191,17 @@
         var listgroup = $('#listgroup');
         listgroup.empty();
     }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      var queries = document.querySelectorAll('[data-trigger]');
+      for (var i = 0; i < queries.length; ++i) {
+        var element = queries[i];
+        new Choices(element, {
+          allowHTML: true,
+          placeholderValue: 'Select...',
+          searchPlaceholderValue: 'Type to search',
+        });
+      }
+    });
   })()
   

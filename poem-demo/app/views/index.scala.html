@@ -1,10 +1,6 @@
 @(instruments: Seq[Instrument])(scales: Seq[QuestionnaireScale])(implicit request: play.mvc.Http.Request)
 
 @main("POEM Demo") {
-<script src="@routes.Assets.versioned("lib/bootstrap/js/bootstrap.bundle.min.js")" type="text/javascript"></script>
-<script src="@routes.Assets.versioned("lib/jquery/jquery.min.js")" type="text/javascript"></script>
-<script src="@routes.Assets.versioned("lib/jquery-form/jquery.form.min.js")" type="text/javascript"></script>
-
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -67,7 +63,7 @@
                         <div class="form-group">
                             <h2 class="card-title">Scales by Instrument</h2>
                             <p class="card-text">Which scales does the following instrument measure?</p>
-                            <select class="form-select" aria-label="Default select example" name="parameter">
+                            <select class="form-control" data-trigger name="parameter">
                                 @for(instrument <- instruments) {
                                     <option value="@instrument.getUri()">@instrument.getLabel()</option>
                                 }
@@ -90,7 +86,7 @@
                         <div class="form-group">
                             <h2 class="card-title">Items in Scale</h2>
                             <p class="card-text">Which item concepts compose this scale?</p>
-                            <select class="form-select" aria-label="Default select example" name="parameter">
+                            <select class="form-control" data-trigger name="parameter">
                                 @for(scale <- scales) {
                                     <option value="@scale.getUri()">@scale.getLabel()</option>
                                 }
@@ -113,7 +109,7 @@
                         <div class="form-group">
                             <h2 class="card-title">Instrument sources</h2>
                             <p class="card-text">Which instruments were used to generate the following instrument?</p>
-                            <select class="form-select" aria-label="Default select example" name="parameter">
+                            <select class="form-control" data-trigger name="parameter">
                                 @for(instrument <- instruments) {
                                     <option value="@instrument.getUri()">@instrument.getLabel()</option>
                                 }
@@ -139,7 +135,7 @@
                         <div class="form-group">
                             <h2 class="card-title">Instrument targets</h2>
                             <p class="card-text">Which instruments were based on the following instrument?</p>
-                            <select class="form-select" aria-label="Default select example" name="parameter">
+                            <select class="form-control" data-trigger name="parameter">
                                 @for(instrument <- instruments) {
                                     <option value="@instrument.getUri()">@instrument.getLabel()</option>
                                 }
@@ -162,12 +158,12 @@
                         <div class="form-group">
                             <h2 class="card-title">Item stems in common</h2>
                             <p class="card-text">How these two instruments are similar?</p>
-                            <select class="form-select" aria-label="Default select example" name="parameter">
+                            <select class="form-control" data-trigger name="parameter">
                                 @for(instrument <- instruments) {
                                     <option value="@instrument.getUri()">@instrument.getLabel()</option>
                                 }
                             </select>
-                            <select class="form-select" aria-label="Default select example" name="parameter1">
+                            <select class="form-control" data-trigger name="parameter1">
                                 @for(instrument <- instruments) {
                                     <option value="@instrument.getUri()">@instrument.getLabel()</option>
                                 }
@@ -190,7 +186,7 @@
                         <div class="form-group">
                             <h2 class="card-title">Query 6</h2>
                             <p class="card-text">Which instruments were used to generate the following instrument?</p>
-                            <select class="form-select" aria-label="Default select example" name="parameter">
+                            <select class="form-control" data-trigger name="parameter">
                                 @for(instrument <- instruments) {
                                     <option value="@instrument.getUri()">@instrument.getLabel()</option>
                                 }
