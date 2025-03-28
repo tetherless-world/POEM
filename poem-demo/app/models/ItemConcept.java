@@ -42,12 +42,11 @@ public class ItemConcept extends models.Resource {
             PREFIX sio: <http://semanticscience.org/resource/>
             SELECT ?itemConcept
             WHERE {
-                <%s> sio:hasMember/sio:hasSource ?itemConcept .
-                <%s> sio:hasMember/sio:hasSource ?itemConcept .
+                <%s> sio:SIO_000059/sio:SIO_000253/sio:SIO_000253 ?itemConcept .
+                <%s> sio:SIO_000059/sio:SIO_000253/sio:SIO_000253 ?itemConcept .
             }
         """, instrument0.getUri(), instrument1.getUri());
         
-        System.out.println(queryString);
         Query query = QueryFactory.create(queryString);
 
         try (QueryExecution qexec = QueryExecutionFactory.create(query, model)) {
