@@ -5,11 +5,12 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix : <http://example.org/rules/> .
 @prefix schema: <http://schema.org/> .
 @prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix poem: <http://purl.org/twc/poem/> .
-@prefix vstoi: <http://hadatac.org/ont/vstoi#> .
+@prefix vstoi: <http://purl.org/twc/vstoi/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 
 :TriplesMap a rr:TriplesMap;
@@ -46,12 +47,18 @@
 
 :TriplesMap2 rr:predicateObjectMap [
   rr:predicate sio:hasValue;
-  rr:objectMap [ rml:reference "ItemPosition" ];
+  rr:objectMap [
+    rml:reference "ItemPosition";
+    rr:datatype xsd:positiveInteger
+  ];
 ].
 
 :TriplesMap2 rr:predicateObjectMap [
   rr:predicate sio:SIO_000300;
-  rr:objectMap [ rml:reference "ItemPosition" ];
+  rr:objectMap [
+    rml:reference "ItemPosition";
+    rr:datatype xsd:positiveInteger
+  ];
 ].
 
 :TriplesMap2 rr:predicateObjectMap [
