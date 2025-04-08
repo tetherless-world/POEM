@@ -19,6 +19,22 @@ import org.apache.jena.vocabulary.RDFS;
 import utils.POEMModel;
 
 public class Instrument extends models.Resource {
+
+    private List<Item> items;
+
+    public List<Item> getItems() {
+        return items;
+    }
+
+    public void setItems(List<Item> items) {
+        this.items = items;
+    }
+
+    public Instrument() {
+        super();
+        this.items = new ArrayList<Item>();
+    }
+
     public static List<Instrument> getAll() {
         List<Instrument> instruments = new ArrayList<Instrument>();
         Model model = POEMModel.getModel();
@@ -36,11 +52,13 @@ public class Instrument extends models.Resource {
     }
 
     public static Instrument getByUri(String uri) {
+        System.out.println("Instrument.getByUri: " + uri);
         Instrument instrument = new Instrument();
         Model model = POEMModel.getModel();
         Resource resource = model.getResource(uri);
         instrument.setUri(resource.getURI());
         instrument.setLabel(resource.getProperty(RDFS.label).getString());
+        instrument.setItems(Item.getByInstrument(resource.getURI()));
         return instrument;
     }
 

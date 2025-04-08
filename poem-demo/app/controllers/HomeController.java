@@ -7,10 +7,13 @@ import java.util.List;
 import com.google.gson.Gson;
 import com.google.inject.Inject;
 
+import ca.uhn.fhir.context.FhirContext;
+import ca.uhn.fhir.parser.IParser;
 import forms.Query;
 import models.Instrument;
 import models.ItemConcept;
 import models.QuestionnaireScale;
+import models.fhir.Questionnaire;
 import play.data.Form;
 import play.mvc.*;
 
@@ -64,5 +67,43 @@ public class HomeController extends Controller {
         }
         List<String> places = Arrays.asList("Buenos Aires", "Córdoba", "La Plata");
         return ok(new Gson().toJson(places));
+    }
+
+    public Result fhir(String uri, String format, String version) {
+        Instrument instrument = Instrument.getByUri(uri);
+        if (instrument == null) {
+            return notFound("Instrument not found");
+        }
+        Questionnaire questionnaire = new Questionnaire(instrument);
+
+        if (format.equals("json")) {
+            if (version.equals("r5")) {
+                FhirContext fhirContext = FhirContext.forR5();
+                IParser parser = fhirContext.newJsonParser();
+                String serialized = parser.encodeResourceToString(questionnaire.toFhirR5());
+                return ok(serialized).as("application/json");
+            } else if (version.equals("r4b")) {
+                FhirContext fhirContext = FhirContext.forR4B();
+                IParser parser = fhirContext.newJsonParser();
+                String serialized = parser.encodeResourceToString(questionnaire.toFhirR4B());
+                return ok(serialized).as("application/json");
+            } else if (version.equals("r4")) {
+                FhirContext fhirContext = FhirContext.forR4();
+                IParser parser = fhirContext.newJsonParser();
+                String serialized = parser.encodeResourceToString(questionnaire.toFhirR4());
+                return ok(serialized).as("application/json");
+            } else if (version.equals("r3")) {
+                FhirContext fhirContext = FhirContext.forDstu3();
+                IParser parser = fhirContext.newJsonParser();
+                String serialized = parser.encodeResourceToString(questionnaire.toFhirR3());
+                return ok(serialized).as("application/json");
+            } else if (version.equals("r2")) {
+                FhirContext fhirContext = FhirContext.forDstu2();
+                IParser parser = fhirContext.newJsonParser();
+                String serialized = parser.encodeResourceToString(questionnaire.toFhirR2());
+                return ok(serialized).as("application/json");
+            }
+        }
+        return ok("FHIR endpoint is not implemented yet.");
     }
 }
