@@ -174,7 +174,7 @@
         $("#queryForm2").ajaxForm({url: '/query', type: 'get', success: onSuccess, error: onError});
         $("#queryForm3").ajaxForm({url: '/query', type: 'get', success: onSuccess, error: onError});
         $("#queryForm4").ajaxForm({url: '/query', type: 'get', success: onSuccess, error: onError});
-        $("#queryForm5").ajaxForm({url: '/query', type: 'get', success: onSuccess, error: onError});
+        //$("#queryForm5").ajaxForm({url: '/fhir', type: 'get', success: onSuccess, error: onError});
     });
 
     var onSuccess = function(data) {
