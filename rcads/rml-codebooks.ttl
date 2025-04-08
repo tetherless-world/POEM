@@ -20,8 +20,19 @@
     rml:iterator "/dataroot/_x0033_0_Codebooks"
   ].
 
+:TriplesMap2 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/32_CodebookOptionMap.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0033_2_CodebookOptionMap"
+  ].
+
 :TriplesMap rr:subjectMap [
   rr:template "http://purl.org/twc/poem/individual/codebook/{CodebookID}"
+].
+
+:TriplesMap2 rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/responseOption/{OptionID}"
 ].
 
 :TriplesMap rr:predicateObjectMap [
@@ -47,5 +58,27 @@
   rr:predicate sio:SIO_000008;
   rr:objectMap [
     rr:template "http://purl.org/twc/poem/individual/experience/{CodebookExperience}"
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:hasMember;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMap2;
+    rr:joinCondition [
+      rr:child "CodebookID";
+      rr:parent "CodebookID";
+    ];
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000059;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMap2;
+    rr:joinCondition [
+      rr:child "CodebookID";
+      rr:parent "CodebookID";
+    ];
   ]
 ].
