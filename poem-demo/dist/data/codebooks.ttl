@@ -15,135 +15,243 @@
 
 <http://purl.org/twc/poem/individual/codebook/1> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/1>, <http://purl.org/twc/poem/individual/responseOption/2>,
+    <http://purl.org/twc/poem/individual/responseOption/3>, <http://purl.org/twc/poem/individual/responseOption/4>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/1>, <http://purl.org/twc/poem/individual/responseOption/2>,
+    <http://purl.org/twc/poem/individual/responseOption/3>, <http://purl.org/twc/poem/individual/responseOption/4>;
   rdfs:label "4.0-item-Freqency-English" .
 
 <http://purl.org/twc/poem/individual/codebook/10> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/37>, <http://purl.org/twc/poem/individual/responseOption/38>,
+    <http://purl.org/twc/poem/individual/responseOption/39>, <http://purl.org/twc/poem/individual/responseOption/40>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/37>, <http://purl.org/twc/poem/individual/responseOption/38>,
+    <http://purl.org/twc/poem/individual/responseOption/39>, <http://purl.org/twc/poem/individual/responseOption/40>;
   rdfs:label "4.0-item-Freqency-Greek" .
 
 <http://purl.org/twc/poem/individual/codebook/11> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/41>, <http://purl.org/twc/poem/individual/responseOption/42>,
+    <http://purl.org/twc/poem/individual/responseOption/43>, <http://purl.org/twc/poem/individual/responseOption/44>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/41>, <http://purl.org/twc/poem/individual/responseOption/42>,
+    <http://purl.org/twc/poem/individual/responseOption/43>, <http://purl.org/twc/poem/individual/responseOption/44>;
   rdfs:label "4.0-item-Freqency-Hungarian" .
 
 <http://purl.org/twc/poem/individual/codebook/12> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/45>, <http://purl.org/twc/poem/individual/responseOption/46>,
+    <http://purl.org/twc/poem/individual/responseOption/47>, <http://purl.org/twc/poem/individual/responseOption/48>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/45>, <http://purl.org/twc/poem/individual/responseOption/46>,
+    <http://purl.org/twc/poem/individual/responseOption/47>, <http://purl.org/twc/poem/individual/responseOption/48>;
   rdfs:label "4.0-item-Freqency-Icelandic" .
 
 <http://purl.org/twc/poem/individual/codebook/13> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/49>, <http://purl.org/twc/poem/individual/responseOption/50>,
+    <http://purl.org/twc/poem/individual/responseOption/51>, <http://purl.org/twc/poem/individual/responseOption/52>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/49>, <http://purl.org/twc/poem/individual/responseOption/50>,
+    <http://purl.org/twc/poem/individual/responseOption/51>, <http://purl.org/twc/poem/individual/responseOption/52>;
   rdfs:label "4.0-item-Freqency-Japanese" .
 
 <http://purl.org/twc/poem/individual/codebook/14> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/53>, <http://purl.org/twc/poem/individual/responseOption/54>,
+    <http://purl.org/twc/poem/individual/responseOption/55>, <http://purl.org/twc/poem/individual/responseOption/56>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/53>, <http://purl.org/twc/poem/individual/responseOption/54>,
+    <http://purl.org/twc/poem/individual/responseOption/55>, <http://purl.org/twc/poem/individual/responseOption/56>;
   rdfs:label "4.0-item-Freqency-Korean" .
 
 <http://purl.org/twc/poem/individual/codebook/15> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/57>, <http://purl.org/twc/poem/individual/responseOption/58>,
+    <http://purl.org/twc/poem/individual/responseOption/59>, <http://purl.org/twc/poem/individual/responseOption/60>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/57>, <http://purl.org/twc/poem/individual/responseOption/58>,
+    <http://purl.org/twc/poem/individual/responseOption/59>, <http://purl.org/twc/poem/individual/responseOption/60>;
   rdfs:label "4.0-item-Freqency-Lithuanian" .
 
 <http://purl.org/twc/poem/individual/codebook/16> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/61>, <http://purl.org/twc/poem/individual/responseOption/62>,
+    <http://purl.org/twc/poem/individual/responseOption/63>, <http://purl.org/twc/poem/individual/responseOption/64>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/61>, <http://purl.org/twc/poem/individual/responseOption/62>,
+    <http://purl.org/twc/poem/individual/responseOption/63>, <http://purl.org/twc/poem/individual/responseOption/64>;
   rdfs:label "4.0-item-Freqency-Norweigan" .
 
 <http://purl.org/twc/poem/individual/codebook/17> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/65>, <http://purl.org/twc/poem/individual/responseOption/66>,
+    <http://purl.org/twc/poem/individual/responseOption/67>, <http://purl.org/twc/poem/individual/responseOption/68>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/65>, <http://purl.org/twc/poem/individual/responseOption/66>,
+    <http://purl.org/twc/poem/individual/responseOption/67>, <http://purl.org/twc/poem/individual/responseOption/68>;
   rdfs:label "4.0-item-Freqency-Persian" .
 
 <http://purl.org/twc/poem/individual/codebook/18> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/69>, <http://purl.org/twc/poem/individual/responseOption/70>,
+    <http://purl.org/twc/poem/individual/responseOption/71>, <http://purl.org/twc/poem/individual/responseOption/72>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/69>, <http://purl.org/twc/poem/individual/responseOption/70>,
+    <http://purl.org/twc/poem/individual/responseOption/71>, <http://purl.org/twc/poem/individual/responseOption/72>;
   rdfs:label "4.0-item-Freqency-Polish" .
 
 <http://purl.org/twc/poem/individual/codebook/19> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/73>, <http://purl.org/twc/poem/individual/responseOption/74>,
+    <http://purl.org/twc/poem/individual/responseOption/75>, <http://purl.org/twc/poem/individual/responseOption/76>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/73>, <http://purl.org/twc/poem/individual/responseOption/74>,
+    <http://purl.org/twc/poem/individual/responseOption/75>, <http://purl.org/twc/poem/individual/responseOption/76>;
   rdfs:label "4.0-item-Freqency-Portuguese" .
 
 <http://purl.org/twc/poem/individual/codebook/2> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/5>, <http://purl.org/twc/poem/individual/responseOption/6>,
+    <http://purl.org/twc/poem/individual/responseOption/7>, <http://purl.org/twc/poem/individual/responseOption/8>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/5>, <http://purl.org/twc/poem/individual/responseOption/6>,
+    <http://purl.org/twc/poem/individual/responseOption/7>, <http://purl.org/twc/poem/individual/responseOption/8>;
   rdfs:label "4.0-item-Freqency-Arabic" .
 
 <http://purl.org/twc/poem/individual/codebook/20> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/77>, <http://purl.org/twc/poem/individual/responseOption/78>,
+    <http://purl.org/twc/poem/individual/responseOption/79>, <http://purl.org/twc/poem/individual/responseOption/80>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/77>, <http://purl.org/twc/poem/individual/responseOption/78>,
+    <http://purl.org/twc/poem/individual/responseOption/79>, <http://purl.org/twc/poem/individual/responseOption/80>;
   rdfs:label "4.0-item-Freqency-Slovene" .
 
 <http://purl.org/twc/poem/individual/codebook/21> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/81>, <http://purl.org/twc/poem/individual/responseOption/82>,
+    <http://purl.org/twc/poem/individual/responseOption/83>, <http://purl.org/twc/poem/individual/responseOption/84>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/81>, <http://purl.org/twc/poem/individual/responseOption/82>,
+    <http://purl.org/twc/poem/individual/responseOption/83>, <http://purl.org/twc/poem/individual/responseOption/84>;
   rdfs:label "4.0-item-Freqency-Spanish" .
 
 <http://purl.org/twc/poem/individual/codebook/22> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/85>, <http://purl.org/twc/poem/individual/responseOption/86>,
+    <http://purl.org/twc/poem/individual/responseOption/87>, <http://purl.org/twc/poem/individual/responseOption/88>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/85>, <http://purl.org/twc/poem/individual/responseOption/86>,
+    <http://purl.org/twc/poem/individual/responseOption/87>, <http://purl.org/twc/poem/individual/responseOption/88>;
   rdfs:label "4.0-item-Freqency-Swedish" .
 
 <http://purl.org/twc/poem/individual/codebook/23> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/89>, <http://purl.org/twc/poem/individual/responseOption/90>,
+    <http://purl.org/twc/poem/individual/responseOption/91>, <http://purl.org/twc/poem/individual/responseOption/92>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/89>, <http://purl.org/twc/poem/individual/responseOption/90>,
+    <http://purl.org/twc/poem/individual/responseOption/91>, <http://purl.org/twc/poem/individual/responseOption/92>;
   rdfs:label "4.0-item-Freqency-Turkish" .
 
 <http://purl.org/twc/poem/individual/codebook/24> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/93>, <http://purl.org/twc/poem/individual/responseOption/94>,
+    <http://purl.org/twc/poem/individual/responseOption/95>, <http://purl.org/twc/poem/individual/responseOption/96>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/93>, <http://purl.org/twc/poem/individual/responseOption/94>,
+    <http://purl.org/twc/poem/individual/responseOption/95>, <http://purl.org/twc/poem/individual/responseOption/96>;
   rdfs:label "4.0-item-Freqency-Urdu" .
 
 <http://purl.org/twc/poem/individual/codebook/25> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/5>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/100>, <http://purl.org/twc/poem/individual/responseOption/97>,
+    <http://purl.org/twc/poem/individual/responseOption/98>, <http://purl.org/twc/poem/individual/responseOption/99>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/5>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/100>, <http://purl.org/twc/poem/individual/responseOption/97>,
+    <http://purl.org/twc/poem/individual/responseOption/98>, <http://purl.org/twc/poem/individual/responseOption/99>;
   rdfs:label "4.0-item-Agreement-English" .
 
 <http://purl.org/twc/poem/individual/codebook/26> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/5>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/101>, <http://purl.org/twc/poem/individual/responseOption/102>,
+    <http://purl.org/twc/poem/individual/responseOption/103>, <http://purl.org/twc/poem/individual/responseOption/104>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/5>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/101>, <http://purl.org/twc/poem/individual/responseOption/102>,
+    <http://purl.org/twc/poem/individual/responseOption/103>, <http://purl.org/twc/poem/individual/responseOption/104>;
   rdfs:label "4.0-item-Agreement-Spanish" .
 
 <http://purl.org/twc/poem/individual/codebook/27> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/106>, <http://purl.org/twc/poem/individual/responseOption/107>,
+    <http://purl.org/twc/poem/individual/responseOption/108>, <http://purl.org/twc/poem/individual/responseOption/109>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/106>, <http://purl.org/twc/poem/individual/responseOption/107>,
+    <http://purl.org/twc/poem/individual/responseOption/108>, <http://purl.org/twc/poem/individual/responseOption/109>;
   rdfs:label "4.1-item-Frequency-English" .
 
 <http://purl.org/twc/poem/individual/codebook/3> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/10>, <http://purl.org/twc/poem/individual/responseOption/11>,
+    <http://purl.org/twc/poem/individual/responseOption/12>, <http://purl.org/twc/poem/individual/responseOption/9>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/10>, <http://purl.org/twc/poem/individual/responseOption/11>,
+    <http://purl.org/twc/poem/individual/responseOption/12>, <http://purl.org/twc/poem/individual/responseOption/9>;
   rdfs:label "4.0-item-Freqency-Chinese (Simplified)" .
 
 <http://purl.org/twc/poem/individual/codebook/4> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/13>, <http://purl.org/twc/poem/individual/responseOption/14>,
+    <http://purl.org/twc/poem/individual/responseOption/15>, <http://purl.org/twc/poem/individual/responseOption/16>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/13>, <http://purl.org/twc/poem/individual/responseOption/14>,
+    <http://purl.org/twc/poem/individual/responseOption/15>, <http://purl.org/twc/poem/individual/responseOption/16>;
   rdfs:label "4.0-item-Freqency-Danish" .
 
 <http://purl.org/twc/poem/individual/codebook/5> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/17>, <http://purl.org/twc/poem/individual/responseOption/18>,
+    <http://purl.org/twc/poem/individual/responseOption/19>, <http://purl.org/twc/poem/individual/responseOption/20>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/17>, <http://purl.org/twc/poem/individual/responseOption/18>,
+    <http://purl.org/twc/poem/individual/responseOption/19>, <http://purl.org/twc/poem/individual/responseOption/20>;
   rdfs:label "4.0-item-Freqency-Dutch" .
 
 <http://purl.org/twc/poem/individual/codebook/6> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/21>, <http://purl.org/twc/poem/individual/responseOption/22>,
+    <http://purl.org/twc/poem/individual/responseOption/23>, <http://purl.org/twc/poem/individual/responseOption/24>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/21>, <http://purl.org/twc/poem/individual/responseOption/22>,
+    <http://purl.org/twc/poem/individual/responseOption/23>, <http://purl.org/twc/poem/individual/responseOption/24>;
   rdfs:label "4.0-item-Freqency-Estonian" .
 
 <http://purl.org/twc/poem/individual/codebook/7> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/25>, <http://purl.org/twc/poem/individual/responseOption/26>,
+    <http://purl.org/twc/poem/individual/responseOption/27>, <http://purl.org/twc/poem/individual/responseOption/28>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/25>, <http://purl.org/twc/poem/individual/responseOption/26>,
+    <http://purl.org/twc/poem/individual/responseOption/27>, <http://purl.org/twc/poem/individual/responseOption/28>;
   rdfs:label "4.0-item-Freqency-Finnish" .
 
 <http://purl.org/twc/poem/individual/codebook/8> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/29>, <http://purl.org/twc/poem/individual/responseOption/30>,
+    <http://purl.org/twc/poem/individual/responseOption/31>, <http://purl.org/twc/poem/individual/responseOption/32>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/29>, <http://purl.org/twc/poem/individual/responseOption/30>,
+    <http://purl.org/twc/poem/individual/responseOption/31>, <http://purl.org/twc/poem/individual/responseOption/32>;
   rdfs:label "4.0-item-Freqency-French" .
 
 <http://purl.org/twc/poem/individual/codebook/9> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/33>, <http://purl.org/twc/poem/individual/responseOption/34>,
+    <http://purl.org/twc/poem/individual/responseOption/35>, <http://purl.org/twc/poem/individual/responseOption/36>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/33>, <http://purl.org/twc/poem/individual/responseOption/34>,
+    <http://purl.org/twc/poem/individual/responseOption/35>, <http://purl.org/twc/poem/individual/responseOption/36>;
   rdfs:label "4.0-item-Freqency-German" .
