@@ -78,6 +78,17 @@
 ].
 
 :TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000008;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMap2;
+    rr:joinCondition [
+      rr:child "OptionID";
+      rr:parent "OptionID";
+    ];
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
   rr:predicate sio:hasAttribute;
   rr:objectMap [
     rr:parentTriplesMap :TriplesMap2;
