@@ -8,7 +8,7 @@
 @prefix : <http://example.org/rules/> .
 @prefix schema: <http://schema.org/> .
 @prefix dbo: <http://dbpedia.org/ontology/> .
-@prefix vstoi: <http://hadatac.org/ont/vstoi#> .
+@prefix vstoi: <http://purl.org/twc/vstoi/> .
 @prefix poem: <http://purl.org/twc/poem/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 
