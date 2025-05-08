@@ -1,0 +1,14 @@
+[
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "Is this measure reliable and valid enough to use in my study about children aged 6-12 with Major Depressive Disorder?",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "PREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX hasco: <http://hadatac.org/ont/hasco/>\nPREFIX vstoi: <http://hadatac.org/ont/vstoi#>\nPREFIX poem: <http://purl.org/twc/poem#>\nPREFIX poem-rcads: <http://purl.org/twc/poem-rcads#>\nPREFIX sio: <http://semanticscience.org/resource/>\nPREFIX snomed: <http://purl.bioontology.org/ontology/SNOMEDCT/>\nPREFIX eco: <http://purl.obolibrary.org/obo/>\n\nSELECT ?evidence ?evidencevalue ?significance ?significancevalue (STR(?lab) AS ?label) WHERE {\n\t?evidence sio:SIO_000332 poem:RCADS47MajorDepressiveDisorderScale .\n    ?evidence rdf:type eco:ECO_0000000 .\n    ?evidence poem:isAboutSource ?cohort .\n    ?cohort rdf:type hasco:Cohort .\n    ?cohort sio:SIO_000008 ?maxage .\n    ?cohort sio:SIO_000008 ?minage .\n    ?maxage rdf:type sio:SIO_001013 . # is type: age\n    ?maxage rdf:type sio:SIO_001114 . # is type: maximal value\n    ?maxage sio:SIO_000300 ?maxagevalue .\n    FILTER (?maxagevalue = 12) .\n    ?minage rdf:type sio:SIO_001013 . # is type: age\n    ?minage rdf:type sio:SIO_001113 . # is type: minimal value\n    ?minage sio:SIO_000300 ?minagevalue .\n    FILTER (?minagevalue = 6) .\n    ?significance sio:SIO_000332 ?evidence .\n    ?significance rdf:type eco:ECO_0000000 .\n    ?evidence sio:SIO_000300 ?evidencevalue .\n    ?significance sio:SIO_000300 ?significancevalue .\n}",
+    "metadata": {}
+  }
+]
