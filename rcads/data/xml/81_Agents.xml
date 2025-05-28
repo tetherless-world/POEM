@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="81_Agents.xsd" generated="2024-10-08T11:26:44">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="81_Agents.xsd" generated="2025-05-15T17:32:08">
+<_x0038_1_Agents>
+<AgentID>32</AgentID>
+<AgentName>Aronen 2017</AgentName>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>33</AgentID>
+<AgentName>Shuang Lu</AgentName>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>34</AgentID>
+<AgentName>Skoczen 2017</AgentName>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>35</AgentID>
+<AgentName>Ovenstad 2025</AgentName>
+</_x0038_1_Agents>
 <_x0038_1_Agents>
 <AgentID>1</AgentID>
 <AgentName>Chorpita &amp; Spence</AgentName>
@@ -24,11 +40,114 @@
 </_x0038_1_Agents>
 <_x0038_1_Agents>
 <AgentID>7</AgentID>
-<AgentName>RCADS Team</AgentName>
+<AgentName>Chorpita and Sprung</AgentName>
 </_x0038_1_Agents>
 <_x0038_1_Agents>
 <AgentID>8</AgentID>
 <AgentName>Park et al. 2016</AgentName>
 <Associated_x0020_DOI>10.1007/s10862-015-9517-7</Associated_x0020_DOI>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>9</AgentID>
+<AgentName>Kumar MMA Team</AgentName>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>10</AgentID>
+<AgentName>Giannopoulou et al. 2021</AgentName>
+<Associated_x0020_DOI>https://doi.org/10.1177/13591045211056502</Associated_x0020_DOI>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>11</AgentID>
+<AgentName>Esbjorn et al. 2012</AgentName>
+<Associated_x0020_DOI>https://doi.org/10.1371/journal.pone.0037339</Associated_x0020_DOI>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>12</AgentID>
+<AgentName>Reinholdt-Dunne et al. 2012</AgentName>
+<Associated_x0020_DOI>10.5127/jep.019611</Associated_x0020_DOI>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>13</AgentID>
+<AgentName>Nasr et al.</AgentName>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>14</AgentID>
+<AgentName>Ebesutani et al. 2017</AgentName>
+<Associated_x0020_DOI>https://doi.org/10.1177/1073191115627012</Associated_x0020_DOI>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>15</AgentID>
+<AgentName>Grothus et al. 2023</AgentName>
+<Associated_x0020_DOI>https://doi.org/10.1002/mpr.1965</Associated_x0020_DOI>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>16</AgentID>
+<AgentName>Grothus et al. 2023 and Sprung</AgentName>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>17</AgentID>
+<AgentName>Grothus et al. 2023 and Chorpita and Sprung</AgentName>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>18</AgentID>
+<AgentName>Young et al. 2020</AgentName>
+<Associated_x0020_DOI>https://doi.org/10.1007/s10862-020-09843-2</Associated_x0020_DOI>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>19</AgentID>
+<AgentName>Rodriguez &amp; Polo</AgentName>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>20</AgentID>
+<AgentName>Bouvard et al. 2015</AgentName>
+<Associated_x0020_DOI>https://doi.org/10.1024/1421-0185/a000158</Associated_x0020_DOI>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>21</AgentID>
+<AgentName>Boustani 2024</AgentName>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>22</AgentID>
+<AgentName>Elias et al. 2023</AgentName>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>23</AgentID>
+<AgentName>Adler &amp; Mikučionytė 2023</AgentName>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>24</AgentID>
+<AgentName>Stevanovic et al. 2016</AgentName>
+<Associated_x0020_DOI>10.1017/S204579601600038X</Associated_x0020_DOI>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>25</AgentID>
+<AgentName>Fontana et al. 2019</AgentName>
+<Associated_x0020_DOI>http://dx.doi.org/10.18401/2019.9.2.1</Associated_x0020_DOI>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>26</AgentID>
+<AgentName>Aalberg et al.</AgentName>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>27</AgentID>
+<AgentName>Furman-Zwiefka (Typos in Norwegian versions)</AgentName>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>28</AgentID>
+<AgentName>Gormez et al. 2017</AgentName>
+<Associated_x0020_DOI>https://doi.org/10.1080/24750573.2017.1297494</Associated_x0020_DOI>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>29</AgentID>
+<AgentName>Fujisato et al. (Youth versions)</AgentName>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>30</AgentID>
+<AgentName>Fujisato et al. (Caregiver versions)</AgentName>
+</_x0038_1_Agents>
+<_x0038_1_Agents>
+<AgentID>31</AgentID>
+<AgentName>Petrič et al., 2024</AgentName>
+<Associated_x0020_DOI>https://doi.org/10.2478/sjph-2024-0022</Associated_x0020_DOI>
 </_x0038_1_Agents>
 </dataroot>

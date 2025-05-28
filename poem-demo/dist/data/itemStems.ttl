@@ -3,11 +3,9 @@
 @prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix poem: <http://purl.org/twc/poem/> .
-@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
-@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://w3id.org/rml/> .
 @prefix schema: <http://schema.org/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix vstoi: <http://purl.org/twc/vstoi/> .
@@ -7894,11 +7892,101 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/90>;
   rdfs:label "Thoughts that you would be better off dead, or of hurting yourself" .
 
+<http://purl.org/twc/poem/individual/itemStem/2185> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  rdfs:label "I FEEL SAD …" .
+
+<http://purl.org/twc/poem/individual/itemStem/2186> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  rdfs:label "I WORRY WHEN I THINK I HAVE DONE SOMETHING POORLY…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2187> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  rdfs:label "I WOULD FEEL AFRAID OF BEING ALONE AT HOME…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2188> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  rdfs:label "NOTHING IS MUCH FUN ANYMORE…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2189> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  rdfs:label "I FEEL SCARED WHEN I HAVE TO TAKE AN EXAM…" .
+
 <http://purl.org/twc/poem/individual/itemStem/219> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#CHI>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/20>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/20>;
   rdfs:label "我孩子必须通过脑袋里默想特殊的东西（比如数字、词语）来阻止不好的事情发生" .
+
+<http://purl.org/twc/poem/individual/itemStem/2190> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  rdfs:label "I FEEL WORRIED WHEN I THINK SOMEONE IS ANGRY WITH ME…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2191> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  rdfs:label "I WORRY ABOUT BEING AWAY FROM MY PARENTS…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2192> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  rdfs:label "I HAVE TROUBLE IN SLEEPING…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2193> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  rdfs:label "I WORRY THAT I WILL NOT DO WELL IN MY SCHOOL WORK…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2194> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  rdfs:label "I WORRY THAT SOMETHING BAD WILL HAPPEN TO SOMEONE IN MY FAMILY…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2195> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  rdfs:label "I FEEL AS IF I CAN’T BREATHE WITHOUT A REASON…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2196> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  rdfs:label "I HAVE PROBLEMS WITH MY APPETITE FOR FOOD…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2197> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  rdfs:label "I FEEL SCARED IF I HAVE TO SLEEP ALONE…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2198> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  rdfs:label "I HAVE NO ENERGY FOR ANYTHING…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2199> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  rdfs:label "I WORRY I MIGHT LOOK FOOLISH…" .
 
 <http://purl.org/twc/poem/individual/itemStem/22> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
@@ -7912,11 +8000,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
   rdfs:label "我孩子担心别人怎么看他/她" .
 
+<http://purl.org/twc/poem/individual/itemStem/2200> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  rdfs:label "I AM TIRED A LOT…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2201> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  rdfs:label "I WORRY THAT BAD THINGS WILL HAPPEN TO ME…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2202> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  rdfs:label "I CANNOT THINK VERY WELL…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2203> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  rdfs:label "I START TO TREMBLE OR SHAKE WITHOUT A REASON…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2204> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  rdfs:label "I WORRY THAT SOMETHING BAD WILL HAPPEN TO ME…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2205> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  rdfs:label "WHEN I HAVE A PROBLEM, I FEEL SHAKY OR TREMBLE…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2206> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  rdfs:label "I FEEL I HAVE NO MEANING…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2207> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  rdfs:label "I WORRY ABOUT MAKING MISTAKES…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2208> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  rdfs:label "I WORRY WHAT OTHER PEOPLE THINK OF ME…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2209> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  rdfs:label "I AM AFRAID OF BEING IN CROWDED PLACES (LIKE SHOPPING CENTERS, BUSY PLAYGROUNDS, BUS STATIONS, BUSY STREETS, MARKET PLACES)……" .
+
 <http://purl.org/twc/poem/individual/itemStem/221> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#CHI>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/1>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
   rdfs:label "我孩子害怕呆在拥挤的地方（比如商场、电影院、公共汽车、人多的操场）" .
+
+<http://purl.org/twc/poem/individual/itemStem/2210> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  rdfs:label "I FEEL REALLY SCARED WITHOUT A REASON…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2211> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  rdfs:label "I WORRY ABOUT WHAT IS GOING TO HAPPEN…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2212> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  rdfs:label "I BECOME DIZZY OR FAINT WITHOUT A REASON…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2213> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  rdfs:label "I THINK ABOUT DEATH…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2214> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  rdfs:label "MY HEART STARTS TO BEAT TOO QUICKLY WITHOUT A REASON…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2215> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  rdfs:label "I FEEL LIKE I DON’T WANT TO MOVE…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2216> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  rdfs:label "I WORRY THAT I WILL GET A SCARED FEELING WHEN THERE IS NOTHING TO BE AFRAID OF…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2217> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  rdfs:label "I FEEL AFRAID THAT I WILL SHAME MYSELF IN FRONT OF PEOPLE…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2218> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  rdfs:label "I WOULD FEEL SCARED IF I HAD TO STAY AWAY FROM HOME THE WHOLE NIGHT…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2219> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  rdfs:label "I FEEL RESTLESS OR NOT AT PEACE…" .
 
 <http://purl.org/twc/poem/individual/itemStem/222> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#CHI>;
@@ -7924,11 +8132,111 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
   rdfs:label "无缘无故的，我孩子会突然觉得很害怕" .
 
+<http://purl.org/twc/poem/individual/itemStem/2220> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  rdfs:label "NASIKIA HUZUNI …" .
+
+<http://purl.org/twc/poem/individual/itemStem/2221> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  rdfs:label "NINA WASIWASI NINAPOFIKIRI NIMEFANYA KITU VIBAYA…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2222> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  rdfs:label "NINGESIKIA UWOGA KUBAKI NYUMBANI PEKE YANGU…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2223> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  rdfs:label "HAKUNA KITU KINACHOFURAHISHA TENA…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2224> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  rdfs:label "MIMI NAOGOPA WAKATI WA MTIHANI…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2225> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  rdfs:label "NASIKIA WASIWASI WAKATI NINAPOFIKIRIA MTU AMENIKASIRIKIA…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2226> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  rdfs:label "NAPATA WASIWASI WA KUWA MBALI NA WAZAZI WANGU…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2227> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  rdfs:label "NINAPATA SHIDA YA KULALA…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2228> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  rdfs:label "NINA WASIWASI KUWA SITAFANYA VIZURI KATIKA MASOMO YANGU YA SHULE…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2229> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  rdfs:label "NINA WASIWASI KUWA KITU KIBAYA KITAMFANYIKIA MTU WA FAMILIA YANGU…" .
+
 <http://purl.org/twc/poem/individual/itemStem/223> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#CHI>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/38>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
   rdfs:label "我孩子担心将要发生的事情" .
+
+<http://purl.org/twc/poem/individual/itemStem/2230> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  rdfs:label "NASIKIA KAMA SIWEZI PUMUA BILA SABABU…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2231> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  rdfs:label "NINA SHIDA YA HAMU YA KULA CHAKULA…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2232> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  rdfs:label "NASIKIA UWOGA NINAPOLAZIMIKA KULALA PEKE YANGU…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2233> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  rdfs:label "SINA NGUVU ZA KUFANYA CHOCHOTE…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2234> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  rdfs:label "NINA WASIWASI NINAWEZA ONEKANA MJINGA…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2235> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  rdfs:label "MIMI HUCHOKA SANA…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2236> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  rdfs:label "NINA WASIWASI WA KUFANYIKIWA NA MAMBO MABAYA…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2237> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  rdfs:label "SIWEZI FIKIRIA VIZURI…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2238> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  rdfs:label "MIMI HUANZA KUTETEMEKA BILA SABABU…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2239> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  rdfs:label "NINA WASIWASI KITU KIBAYA KITANIFANYIKIA…" .
 
 <http://purl.org/twc/poem/individual/itemStem/224> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#CHI>;
@@ -7936,11 +8244,116 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
   rdfs:label "无缘无故的，我孩子会突然觉得晕" .
 
+<http://purl.org/twc/poem/individual/itemStem/2240> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  rdfs:label "NINAPOKUWA NA SHIDA, NASIKIA KUTETEMEKA…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2241> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  rdfs:label "NASIKIA SINA MAANA…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2242> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  rdfs:label "NINA WASIWASI WA KUFANYA MAKOSA…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2243> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  rdfs:label "NINA WASIWASI KUHUSU VILE WATU WANAVYONIFIKIRIA…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2244> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  rdfs:label "NAOGOPA KUWA MAHALI PENYE WATU WENGI (KAMA KWENYE MADUKA MAKUU, UWANJA WA MICHEZO WENYE SHUGHULI NYINGI, KITUO CHA BASI, BARABARA ZENYE SHUGHULI NYINGI, SOKONI)…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2245> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  rdfs:label "MIMI HUSIKIA KUOGOPA SANA BILA SABABU …" .
+
+<http://purl.org/twc/poem/individual/itemStem/2246> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  rdfs:label "NINA WASIWASI KUHUSU KITAKACHOFANYIKA…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2247> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  rdfs:label "NINAKUWA NA KIZUNGUZUNGU AU KUZIMIA BILA SABABU…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2248> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  rdfs:label "NINAFIKIRIA KUHUSU KIFO…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2249> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  rdfs:label "ROHO YANGU HUANZA KUPIGA KWA HARAKA BILA SABABU…" .
+
 <http://purl.org/twc/poem/individual/itemStem/225> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#CHI>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
   rdfs:label "我孩子会想关于死亡的事情" .
+
+<http://purl.org/twc/poem/individual/itemStem/2250> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  rdfs:label "NASIKIA  KAMA SITAKI KUSONGA …" .
+
+<http://purl.org/twc/poem/individual/itemStem/2251> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  rdfs:label "NINA WASIWASI WA KUPATA FIKIRA YA UWOGA BILA SABABU YA KUOGOPA…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2252> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  rdfs:label "NASIKIA UWOGA KUWA NITAJIAIBISHA MBELE ZA WATU…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2253> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  rdfs:label "NINGESIKIA UWOGA IKIWA ITABIDI NIKAE MBALI NA NYUMBANI USIKU WOTE…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2254> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  rdfs:label "NASIKIA SINA UTULIVU/AMANI…" .
+
+<http://purl.org/twc/poem/individual/itemStem/2255> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/48>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/48>;
+  rdfs:label "Jeg liker å møte terapeuten min." .
+
+<http://purl.org/twc/poem/individual/itemStem/2256> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/49>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/49>;
+  rdfs:label "Jeg føler at jeg kan fortelle terapeuten min hva som helst." .
+
+<http://purl.org/twc/poem/individual/itemStem/2257> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/50>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/50>;
+  rdfs:label "Terapeuten min forstår kulturen min og verdiene mine." .
+
+<http://purl.org/twc/poem/individual/itemStem/2258> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/51>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/51>;
+  rdfs:label "Jeg føler meg som en del av et team med terapeuten min." .
+
+<http://purl.org/twc/poem/individual/itemStem/2259> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/52>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/52>;
+  rdfs:label "Jeg føler meg komfortabel med å stille terapeuten min spørsmål, eller ta opp bekymringer rundt terapi." .
 
 <http://purl.org/twc/poem/individual/itemStem/226> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#CHI>;
@@ -7948,11 +8361,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/3>;
   rdfs:label "我孩子害怕在课堂上发言" .
 
+<http://purl.org/twc/poem/individual/itemStem/2260> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/53>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/53>;
+  rdfs:label "Terapeuten min respekterer mine meninger." .
+
+<http://purl.org/twc/poem/individual/itemStem/2261> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/54>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/54>;
+  rdfs:label "Jeg er med på å bestemme hva vi sammen jobber med." .
+
+<http://purl.org/twc/poem/individual/itemStem/2262> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/55>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/55>;
+  rdfs:label "Den innsatsen jeg legger i terapi vil lønne seg for meg." .
+
+<http://purl.org/twc/poem/individual/itemStem/2263> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/56>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/56>;
+  rdfs:label "Jeg tror terapeuten min vet hvordan man kan hjelpe andre som meg. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2264> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/57>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/57>;
+  rdfs:label "Jeg har ingen dårlige erfaringer med terapi fra tidligere. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2265> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/58>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/58>;
+  rdfs:label "Det er greit om familie eller venner vet at jeg møter en terapeut. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2266> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/59>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/59>;
+  rdfs:label "Jeg tror terapi er nødvendig for å løse problemene mine. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2267> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/60>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/60>;
+  rdfs:label "Jeg tror det arbeidet jeg gjør med terapeuten min vil hjelpe meg. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2268> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/61>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/61>;
+  rdfs:label "Jeg mener terapeuten min kan hjelpe meg." .
+
+<http://purl.org/twc/poem/individual/itemStem/2269> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/62>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/62>;
+  rdfs:label "Hvis jeg dropper en terapitime, kan jeg komme på etterskudd.  " .
+
 <http://purl.org/twc/poem/individual/itemStem/227> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#CHI>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/22>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/22>;
   rdfs:label "我孩子会无缘无故地突然心跳地非常快" .
+
+<http://purl.org/twc/poem/individual/itemStem/2270> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/63>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/63>;
+  rdfs:label "Jeg kommer presis til timene med terapeuten min." .
+
+<http://purl.org/twc/poem/individual/itemStem/2271> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/64>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/64>;
+  rdfs:label "Jeg sørger for å komme til timene med terapeuten min. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2272> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/65>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/65>;
+  rdfs:label "Terapien er lett tilgjengelig for meg. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2273> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/66>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/66>;
+  rdfs:label "Jeg forteller terapeuten min om ting som hindrer meg i å komme til avtaler. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2274> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/67>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/67>;
+  rdfs:label "Jeg klarer å komme til avtaler selv når det skjer andre viktige ting i livet mitt. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2275> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/68>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/68>;
+  rdfs:label "Ting hindrer meg ikke i å komme til avtaler. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2276> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/69>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/69>;
+  rdfs:label "Jeg vet hva vi jobber med i terapien. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2277> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/70>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/70>;
+  rdfs:label "Det vi jobber med i terapien gir mening for meg. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2278> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/71>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/71>;
+  rdfs:label "Det er et klart formål med hver terapitime. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2279> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/72>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/72>;
+  rdfs:label "Arbeidet jeg gjør med terapeuten min, passer med målene mine. " .
 
 <http://purl.org/twc/poem/individual/itemStem/228> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#CHI>;
@@ -7960,11 +8493,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
   rdfs:label "我孩子感觉不想动" .
 
+<http://purl.org/twc/poem/individual/itemStem/2280> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/73>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/73>;
+  rdfs:label "Terapeuten min måler om jeg blir bedre. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2281> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/74>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/74>;
+  rdfs:label "Jeg forstår hva jeg skal gjøre i terapien. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2282> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/75>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/75>;
+  rdfs:label "Terapien jeg får er riktig for meg. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2283> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/76>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/76>;
+  rdfs:label "Jeg deltar aktivt i timene med terapeuten min. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2284> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/77>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/77>;
+  rdfs:label "Jeg liker å øve på nye ting sammen med terapeuten min. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2285> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/78>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/78>;
+  rdfs:label "Terapien krever en overkommelig mengde arbeid. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2286> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/79>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/79>;
+  rdfs:label "Når jeg har lært noe nytt i terapien, prøver jeg det med en gang ut hjemme eller på skolen. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2287> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/80>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/80>;
+  rdfs:label "Terapeuten min viser meg hvordan jeg kan gjøre en ferdighet, og hjelper meg så å prøve den ut. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2288> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/81>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/81>;
+  rdfs:label "Hvis jeg prøver ny ferdighet og det ikke går bra, sørger jeg for å prøve igjen. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2289> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/82>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/82>;
+  rdfs:label "Jeg følger forslagene fra terapeuten min.  " .
+
 <http://purl.org/twc/poem/individual/itemStem/229> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#CHI>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
   rdfs:label "我孩子担心他/她自己会突然无缘无故地感觉恐慌" .
+
+<http://purl.org/twc/poem/individual/itemStem/2290> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/48>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/48>;
+  rdfs:label "Jeg liker å møte terapeuten til barnet mitt.  " .
+
+<http://purl.org/twc/poem/individual/itemStem/2291> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/49>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/49>;
+  rdfs:label "Jeg føler at jeg kan fortelle terapeuten til barnet mitt hva som helst.  " .
+
+<http://purl.org/twc/poem/individual/itemStem/2292> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/50>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/50>;
+  rdfs:label "Terapeuten til barnet mitt er sensitiv til min kultur og mine verdier. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2293> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/51>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/51>;
+  rdfs:label "Jeg føler meg som del av et team med terapeuten til barnet mitt. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2294> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/52>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/52>;
+  rdfs:label "Jeg føler meg komfortabel med å stille terapeuten til barnet mitt spørsmål, eller ta opp bekymringer rundt terapi. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2295> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/53>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/53>;
+  rdfs:label "Terapeuten til barnet mitt respekterer mine meninger.  " .
+
+<http://purl.org/twc/poem/individual/itemStem/2296> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/54>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/54>;
+  rdfs:label "Jeg hjelper til å velge behandlingsmålene til barnet mitt. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2297> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/55>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/55>;
+  rdfs:label "Den innsatsen jeg legger i terapi vil lønne seg for meg og barnet mitt." .
+
+<http://purl.org/twc/poem/individual/itemStem/2298> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/56>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/56>;
+  rdfs:label "Jeg tror terapeuten til barnet mitt vet hvordan man kan hjelpe andre barn og familier som min. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2299> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/57>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/57>;
+  rdfs:label "Jeg har ingen dårlige erfaringer med terapi for barnet mitt fra tidligere" .
 
 <http://purl.org/twc/poem/individual/itemStem/23> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
@@ -7978,17 +8631,169 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/19>;
   rdfs:label "我孩子必须一再重复地做某些动作（比如洗手、打扫卫生、把东西放整齐）" .
 
+<http://purl.org/twc/poem/individual/itemStem/2300> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/58>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/58>;
+  rdfs:label "Det er greit om familie eller venner vet at vi møter en terapeut. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2301> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/59>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/59>;
+  rdfs:label "Jeg tror terapi er nødvendig for å løse problemene til barnet mitt.  " .
+
+<http://purl.org/twc/poem/individual/itemStem/2302> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/60>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/60>;
+  rdfs:label "Jeg tror arbeidet jeg gjør med terapeuten til barnet mitt vil hjelpe barnet mitt.  " .
+
+<http://purl.org/twc/poem/individual/itemStem/2303> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/61>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/61>;
+  rdfs:label "Jeg mener terapeuten til barnet mitt kan hjelpe barnet mitt." .
+
+<http://purl.org/twc/poem/individual/itemStem/2304> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/62>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/62>;
+  rdfs:label "Hvis jeg dropper en avtale med terapeuten til barnet mitt, kan jeg komme på etterskudd.    " .
+
+<http://purl.org/twc/poem/individual/itemStem/2305> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/63>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/63>;
+  rdfs:label "Jeg kommer presis til avtaler med terapeuten til barnet mitt." .
+
+<http://purl.org/twc/poem/individual/itemStem/2306> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/64>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/64>;
+  rdfs:label "Jeg møter opp til avtaler med terapeuten til barnet mitt, eller avlyser dem minst en dag i forveien. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2307> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/65>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/65>;
+  rdfs:label "Terapien til barnet mitt er lett tilgjengelig for meg. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2308> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/66>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/66>;
+  rdfs:label "Jeg forteller terapeuten til barnet mitt om ting som hindrer meg i å komme til avtaler.  " .
+
+<http://purl.org/twc/poem/individual/itemStem/2309> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/67>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/67>;
+  rdfs:label "Jeg klarer å komme til avtaler selv når det skjer andre viktige ting i livet mitt. " .
+
 <http://purl.org/twc/poem/individual/itemStem/231> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#CHI>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
   rdfs:label "我孩子担心他/她会在别人面前出丑" .
 
+<http://purl.org/twc/poem/individual/itemStem/2310> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/68>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/68>;
+  rdfs:label "Ting hindrer meg ikke i å komme til avtaler med terapeuten til barnet mitt.    " .
+
+<http://purl.org/twc/poem/individual/itemStem/2311> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/69>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/69>;
+  rdfs:label "Målene for terapien til barnet mitt er tydelige. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2312> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/70>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/70>;
+  rdfs:label "Det vi gjør i terapien til barnet mitt gir mening for meg. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2313> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/71>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/71>;
+  rdfs:label "Det er et klart formål med hver terapitime. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2314> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/72>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/72>;
+  rdfs:label "Arbeidet jeg gjør med terapeuten til barnet mitt, passer med målene våre." .
+
+<http://purl.org/twc/poem/individual/itemStem/2315> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/73>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/73>;
+  rdfs:label "Terapeuten til barnet mitt måler om barnet mitt blir bedre. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2316> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/74>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/74>;
+  rdfs:label "Jeg forstår min rolle i mitt barns terapi.  " .
+
+<http://purl.org/twc/poem/individual/itemStem/2317> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/75>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/75>;
+  rdfs:label "Terapien vi får er riktig for oss." .
+
+<http://purl.org/twc/poem/individual/itemStem/2318> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/76>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/76>;
+  rdfs:label "Jeg deltar aktivt i timene med terapeuten til barnet mitt. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2319> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/77>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/77>;
+  rdfs:label "Jeg liker å øve på nye ting med terapeuten til barnet mitt. " .
+
 <http://purl.org/twc/poem/individual/itemStem/232> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#CHI>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/18>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/18>;
   rdfs:label "我孩子必须用特定的方法做一些事情，来阻止不好的事情发生" .
+
+<http://purl.org/twc/poem/individual/itemStem/2320> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/78>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/78>;
+  rdfs:label "Terapien krever en overkommelig mengde arbeid." .
+
+<http://purl.org/twc/poem/individual/itemStem/2321> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/79>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/79>;
+  rdfs:label "Når jeg lærer noe nytt fra terapien til barnet mitt, prøver jeg det med en gang ut hjemme. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2322> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/80>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/80>;
+  rdfs:label "Terapeuten til barnet mitt viser oss hvordan vi kan gjøre en ferdighet, og hjelper oss deretter å prøve den. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2323> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/81>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/81>;
+  rdfs:label "Hvis jeg prøver ny ferdighet og det ikke går bra, passer jeg på å prøve igjen. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2324> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NOR>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/82>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/82>;
+  rdfs:label "Jeg følger anbefalingene fra terapeuten til barnet mitt. " .
+
+<http://purl.org/twc/poem/individual/itemStem/2325> a vstoi:ItemStem .
 
 <http://purl.org/twc/poem/individual/itemStem/233> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#CHI>;

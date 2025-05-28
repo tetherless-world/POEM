@@ -1,5 +1,6 @@
 package models;
 
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -62,7 +63,7 @@ public class Instrument extends models.Resource {
         return instrument;
     }
 
-    public static List<Instrument> getSource(Instrument instrument) {
+    public static List<Instrument> getSource(String uri) {
         List<Instrument> instruments = new ArrayList<Instrument>();
         Model model = POEMModel.getModel();
         String queryString = String.format("""
@@ -70,10 +71,10 @@ public class Instrument extends models.Resource {
             PREFIX prov: <http://www.w3.org/ns/prov#>
             SELECT ?source
             WHERE {
-                <%s> prov:wasGeneratedBy ?activity .
+                ?activity prov:generated <%s> .
                 ?activity prov:used ?source .
             }
-        """, instrument.getUri());
+        """, uri);
         System.out.println(queryString);
         Query query = QueryFactory.create(queryString);
 
@@ -93,7 +94,11 @@ public class Instrument extends models.Resource {
         return instruments;
     }
 
-    public static List<Instrument> getTarget(Instrument instrument) {
+    public static List<Instrument> getSource(Instrument instrument) {
+        return getSource(instrument.getUri());
+    }
+
+    public static List<Instrument> getTarget(String uri) {
         List<Instrument> instruments = new ArrayList<Instrument>();
         Model model = POEMModel.getModel();
         String queryString = String.format("""
@@ -102,9 +107,9 @@ public class Instrument extends models.Resource {
             SELECT ?target
             WHERE {
                 ?activity prov:used <%s> .
-                ?target prov:wasGeneratedBy ?activity .
+                ?activity prov:generated ?target .
             }
-        """, instrument.getUri());
+        """, uri);
         System.out.println(queryString);
         Query query = QueryFactory.create(queryString);
 
@@ -122,5 +127,9 @@ public class Instrument extends models.Resource {
         }
 
         return instruments;
+    }
+
+    public static List<Instrument> getTarget(Instrument instrument) {
+        return getTarget(instrument.getUri());
     }
 }

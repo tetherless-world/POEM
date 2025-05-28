@@ -208,5 +208,106 @@
         </div>
         <hr>
     </div>
+    <!-- Content Row-->
+    <div class="row gx-4 gx-lg-5">
+        <div class="col-md-4 mb-5">
+            <div class="card h-100">
+                <form id="queryForm6">
+                    <div class="card-body">
+                        <div class="form-group" hidden>
+                            <input type="hidden" class="form-control" name="query" value="query6">
+                        </div>
+                        <div class="form-group">
+                            <h2 class="card-title">Instrument translation</h2>
+                            <p class="card-text">How was this instrument translated?</p>
+                            <select class="form-control" data-trigger name="parameter">
+                                @for(instrument <- instruments) {
+                                    <option value="@instrument.getUri()">@instrument.getLabel()</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Results">Ask POEM</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4 mb-5">
+            <div class="card h-100">
+                <form id="queryForm7">
+                    <div class="card-body">
+                        <div class="form-group" hidden>
+                            <input type="hidden" class="form-control" name="query" value="query7">
+                        </div>
+                        <div class="form-group">
+                            <h2 class="card-title">Instrument translators</h2>
+                            <p class="card-text">Who translated this instrument?</p>
+                            <select class="form-control" data-trigger name="parameter">
+                                @for(instrument <- instruments) {
+                                    <option value="@instrument.getUri()">@instrument.getLabel()</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Results">Ask POEM</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4 mb-5">
+            <div class="card h-100">
+                <form id="queryForm8">
+                    <div class="card-body">
+                        <div class="form-group" hidden>
+                            <input type="hidden" class="form-control" name="query" value="query8">
+                        </div>
+                        <div class="form-group">
+                            <h2 class="card-title">Instrument translators' roles</h2>
+                            <p class="card-text">What are the qualifications of the person(s) who translated this instrument?</p>
+                            <select class="form-control" data-trigger name="parameter">
+                                @for(instrument <- instruments) {
+                                    <option value="@instrument.getUri()">@instrument.getLabel()</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Results">Ask POEM</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <!-- Content Row-->
+    <div class="row gx-4 gx-lg-5">
+        <div class="col-md-4 mb-5">
+            <div class="card h-100">
+                <form id="queryForm9">
+                    <div class="card-body">
+                        <div class="form-group" hidden>
+                            <input type="hidden" class="form-control" name="query" value="query9">
+                        </div>
+                        <div class="form-group">
+                            <h2 class="card-title">Instrument creation</h2>
+                            <p class="card-text">When was this instrument created?</p>
+                            <select class="form-control" data-trigger name="parameter">
+                                @for(instrument <- instruments) {
+                                    <option value="@instrument.getUri()">@instrument.getLabel()</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Results">Ask POEM</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <hr>
+    </div>
 </div>
 }

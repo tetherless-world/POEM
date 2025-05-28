@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="93_MethodTypes.xsd" generated="2025-05-16T12:26:19">
+<_x0039_3_MethodTypes>
+<MethodTypeID>1</MethodTypeID>
+<MethodName>Forward Translation</MethodName>
+<MethodClass>Translation</MethodClass>
+<MethodDefinition>Process of transforming (translating) the source language (i.e., the language of the used  instrument) into a target language (i.e., the language in which generated instrument is to be administered)</MethodDefinition>
+</_x0039_3_MethodTypes>
+<_x0039_3_MethodTypes>
+<MethodTypeID>2</MethodTypeID>
+<MethodName>Backward Translation</MethodName>
+<MethodClass>Translation</MethodClass>
+<MethodDefinition>Process of transforming (translating) the generated instrument in the target langauge (i.e., a draft of the translated instrument), back into the language of the used instrument</MethodDefinition>
+</_x0039_3_MethodTypes>
+<_x0039_3_MethodTypes>
+<MethodTypeID>3</MethodTypeID>
+<MethodName>Double-Translation and Reconciliation</MethodName>
+<MethodClass>Translation</MethodClass>
+<MethodDefinition>Process that includes an independent translator or an expert panel to identify and resolve any discrepancies between multiple forward translations, reconciling them into a single instrument. Requires forward translation to have occurred.</MethodDefinition>
+</_x0039_3_MethodTypes>
+<_x0039_3_MethodTypes>
+<MethodTypeID>4</MethodTypeID>
+<MethodName>Interview</MethodName>
+<MethodClass>Translation</MethodClass>
+<MethodDefinition>Process that includes distributing the generated instrument to the intended target population and collecting feedback</MethodDefinition>
+</_x0039_3_MethodTypes>
+<_x0039_3_MethodTypes>
+<MethodTypeID>5</MethodTypeID>
+<MethodName>Expert Review</MethodName>
+<MethodClass>Translation</MethodClass>
+<MethodDefinition>Process by which an individual or group of individuals review changes from the used instrument to the generated instrument and provide feedback to others associated with the activity</MethodDefinition>
+</_x0039_3_MethodTypes>
+<_x0039_3_MethodTypes>
+<MethodTypeID>6</MethodTypeID>
+<MethodName>Blind Review</MethodName>
+<MethodClass>Translation</MethodClass>
+<MethodDefinition>Process by which someone who is blind to the original (untranslated) text resolves discrepancies between multiple forward translations</MethodDefinition>
+</_x0039_3_MethodTypes>
+</dataroot>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="94_RoleTypes.xsd" generated="2025-05-16T12:26:05">
+<_x0039_4_RoleTypes>
+<RoleID>1</RoleID>
+<RoleName>Field-Expert Translator</RoleName>
+<RoleClass>Translator</RoleClass>
+<RoleDefinition>Translator who not only knows both languages but has expertise in subject matter (clinical psychological assessment of youth)</RoleDefinition>
+</_x0039_4_RoleTypes>
+<_x0039_4_RoleTypes>
+<RoleID>2</RoleID>
+<RoleName>Test-Expert Translator</RoleName>
+<RoleClass>Translator</RoleClass>
+<RoleDefinition>Translator who not only knows both languages but also has expertise in test development</RoleDefinition>
+</_x0039_4_RoleTypes>
+<_x0039_4_RoleTypes>
+<RoleID>3</RoleID>
+<RoleName>Bi-Cultural Translator</RoleName>
+<RoleClass>Translator</RoleClass>
+<RoleDefinition>Translator who not only knows both languages but has knowledge and experience of both cultures </RoleDefinition>
+</_x0039_4_RoleTypes>
+</dataroot>

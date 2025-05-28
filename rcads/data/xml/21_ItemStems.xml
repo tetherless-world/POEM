@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="21_ItemStems.xsd" generated="2024-10-08T11:26:03">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="21_ItemStems.xsd" generated="2025-05-15T17:30:05">
 <_x0032_1_ItemStems>
 <ItemStemID>294</ItemStemID>
 <ItemStemLanguage>5</ItemStemLanguage>
@@ -15298,5 +15298,988 @@ overnatte hjemmefra</ItemStemFullText>
 <Respondent>2</Respondent>
 <ItemStemConceptID>33</ItemStemConceptID>
 <ItemStemFullText>Kiedy moje dziecko ma jakiś problem, jest roztrzęsione</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2185</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>12</ItemStemConceptID>
+<ItemStemFullText>I FEEL SAD …</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2186</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>45</ItemStemConceptID>
+<ItemStemFullText>I WORRY WHEN I THINK I HAVE DONE SOMETHING POORLY…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2187</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>7</ItemStemConceptID>
+<ItemStemFullText>I WOULD FEEL AFRAID OF BEING ALONE AT HOME…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2188</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>10</ItemStemConceptID>
+<ItemStemFullText>NOTHING IS MUCH FUN ANYMORE…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2189</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>26</ItemStemConceptID>
+<ItemStemFullText>I FEEL SCARED WHEN I HAVE TO TAKE AN EXAM…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2190</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>14</ItemStemConceptID>
+<ItemStemFullText>I FEEL WORRIED WHEN I THINK SOMEONE IS ANGRY WITH ME…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2191</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>8</ItemStemConceptID>
+<ItemStemFullText>I WORRY ABOUT BEING AWAY FROM MY PARENTS…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2192</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>21</ItemStemConceptID>
+<ItemStemFullText>I HAVE TROUBLE IN SLEEPING…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2193</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>46</ItemStemConceptID>
+<ItemStemFullText>I WORRY THAT I WILL NOT DO WELL IN MY SCHOOL WORK…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2194</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>42</ItemStemConceptID>
+<ItemStemFullText>I WORRY THAT SOMETHING BAD WILL HAPPEN TO SOMEONE IN MY FAMILY…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2195</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>29</ItemStemConceptID>
+<ItemStemFullText>I FEEL AS IF I CAN’T BREATHE WITHOUT A REASON…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2196</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>17</ItemStemConceptID>
+<ItemStemFullText>I HAVE PROBLEMS WITH MY APPETITE FOR FOOD…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2197</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>24</ItemStemConceptID>
+<ItemStemFullText>I FEEL SCARED IF I HAVE TO SLEEP ALONE…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2198</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>16</ItemStemConceptID>
+<ItemStemFullText>I HAVE NO ENERGY FOR ANYTHING…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2199</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>41</ItemStemConceptID>
+<ItemStemFullText>I WORRY I MIGHT LOOK FOOLISH…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2200</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>13</ItemStemConceptID>
+<ItemStemFullText>I AM TIRED A LOT…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2201</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>39</ItemStemConceptID>
+<ItemStemFullText>I WORRY THAT BAD THINGS WILL HAPPEN TO ME…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2202</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>5</ItemStemConceptID>
+<ItemStemFullText>I CANNOT THINK VERY WELL…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2203</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>30</ItemStemConceptID>
+<ItemStemFullText>I START TO TREMBLE OR SHAKE WITHOUT A REASON…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2204</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>43</ItemStemConceptID>
+<ItemStemFullText>I WORRY THAT SOMETHING BAD WILL HAPPEN TO ME…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2205</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>33</ItemStemConceptID>
+<ItemStemFullText>WHEN I HAVE A PROBLEM, I FEEL SHAKY OR TREMBLE…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2206</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>15</ItemStemConceptID>
+<ItemStemFullText>I FEEL I HAVE NO MEANING…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2207</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>36</ItemStemConceptID>
+<ItemStemFullText>I WORRY ABOUT MAKING MISTAKES…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2208</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>44</ItemStemConceptID>
+<ItemStemFullText>I WORRY WHAT OTHER PEOPLE THINK OF ME…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2209</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>1</ItemStemConceptID>
+<ItemStemFullText>I AM AFRAID OF BEING IN CROWDED PLACES (LIKE SHOPPING CENTERS, BUSY PLAYGROUNDS, BUS STATIONS, BUSY STREETS, MARKET PLACES)……</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2210</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>28</ItemStemConceptID>
+<ItemStemFullText>I FEEL REALLY SCARED WITHOUT A REASON…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2211</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>38</ItemStemConceptID>
+<ItemStemFullText>I WORRY ABOUT WHAT IS GOING TO HAPPEN…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2212</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>27</ItemStemConceptID>
+<ItemStemFullText>I BECOME DIZZY OR FAINT WITHOUT A REASON…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2213</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>31</ItemStemConceptID>
+<ItemStemFullText>I THINK ABOUT DEATH…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2214</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>22</ItemStemConceptID>
+<ItemStemFullText>MY HEART STARTS TO BEAT TOO QUICKLY WITHOUT A REASON…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2215</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>9</ItemStemConceptID>
+<ItemStemFullText>I FEEL LIKE I DON’T WANT TO MOVE…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2216</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>47</ItemStemConceptID>
+<ItemStemFullText>I WORRY THAT I WILL GET A SCARED FEELING WHEN THERE IS NOTHING TO BE AFRAID OF…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2217</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>2</ItemStemConceptID>
+<ItemStemFullText>I FEEL AFRAID THAT I WILL SHAME MYSELF IN FRONT OF PEOPLE…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2218</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>25</ItemStemConceptID>
+<ItemStemFullText>I WOULD FEEL SCARED IF I HAD TO STAY AWAY FROM HOME THE WHOLE NIGHT…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2219</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>11</ItemStemConceptID>
+<ItemStemFullText>I FEEL RESTLESS OR NOT AT PEACE…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2220</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>12</ItemStemConceptID>
+<ItemStemFullText>NASIKIA HUZUNI …</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2221</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>45</ItemStemConceptID>
+<ItemStemFullText>NINA WASIWASI NINAPOFIKIRI NIMEFANYA KITU VIBAYA…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2222</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>7</ItemStemConceptID>
+<ItemStemFullText>NINGESIKIA UWOGA KUBAKI NYUMBANI PEKE YANGU…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2223</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>10</ItemStemConceptID>
+<ItemStemFullText>HAKUNA KITU KINACHOFURAHISHA TENA…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2224</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>26</ItemStemConceptID>
+<ItemStemFullText>MIMI NAOGOPA WAKATI WA MTIHANI…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2225</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>14</ItemStemConceptID>
+<ItemStemFullText>NASIKIA WASIWASI WAKATI NINAPOFIKIRIA MTU AMENIKASIRIKIA…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2226</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>8</ItemStemConceptID>
+<ItemStemFullText>NAPATA WASIWASI WA KUWA MBALI NA WAZAZI WANGU…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2227</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>21</ItemStemConceptID>
+<ItemStemFullText>NINAPATA SHIDA YA KULALA…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2228</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>46</ItemStemConceptID>
+<ItemStemFullText>NINA WASIWASI KUWA SITAFANYA VIZURI KATIKA MASOMO YANGU YA SHULE…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2229</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>42</ItemStemConceptID>
+<ItemStemFullText>NINA WASIWASI KUWA KITU KIBAYA KITAMFANYIKIA MTU WA FAMILIA YANGU…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2230</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>29</ItemStemConceptID>
+<ItemStemFullText>NASIKIA KAMA SIWEZI PUMUA BILA SABABU…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2231</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>17</ItemStemConceptID>
+<ItemStemFullText>NINA SHIDA YA HAMU YA KULA CHAKULA…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2232</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>24</ItemStemConceptID>
+<ItemStemFullText>NASIKIA UWOGA NINAPOLAZIMIKA KULALA PEKE YANGU…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2233</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>16</ItemStemConceptID>
+<ItemStemFullText>SINA NGUVU ZA KUFANYA CHOCHOTE…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2234</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>41</ItemStemConceptID>
+<ItemStemFullText>NINA WASIWASI NINAWEZA ONEKANA MJINGA…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2235</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>13</ItemStemConceptID>
+<ItemStemFullText>MIMI HUCHOKA SANA…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2236</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>39</ItemStemConceptID>
+<ItemStemFullText>NINA WASIWASI WA KUFANYIKIWA NA MAMBO MABAYA…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2237</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>5</ItemStemConceptID>
+<ItemStemFullText>SIWEZI FIKIRIA VIZURI…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2238</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>30</ItemStemConceptID>
+<ItemStemFullText>MIMI HUANZA KUTETEMEKA BILA SABABU…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2239</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>43</ItemStemConceptID>
+<ItemStemFullText>NINA WASIWASI KITU KIBAYA KITANIFANYIKIA…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2240</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>33</ItemStemConceptID>
+<ItemStemFullText>NINAPOKUWA NA SHIDA, NASIKIA KUTETEMEKA…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2241</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>15</ItemStemConceptID>
+<ItemStemFullText>NASIKIA SINA MAANA…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2242</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>36</ItemStemConceptID>
+<ItemStemFullText>NINA WASIWASI WA KUFANYA MAKOSA…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2243</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>44</ItemStemConceptID>
+<ItemStemFullText>NINA WASIWASI KUHUSU VILE WATU WANAVYONIFIKIRIA…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2244</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>1</ItemStemConceptID>
+<ItemStemFullText>NAOGOPA KUWA MAHALI PENYE WATU WENGI (KAMA KWENYE MADUKA MAKUU, UWANJA WA MICHEZO WENYE SHUGHULI NYINGI, KITUO CHA BASI, BARABARA ZENYE SHUGHULI NYINGI, SOKONI)…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2245</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>28</ItemStemConceptID>
+<ItemStemFullText>MIMI HUSIKIA KUOGOPA SANA BILA SABABU …</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2246</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>38</ItemStemConceptID>
+<ItemStemFullText>NINA WASIWASI KUHUSU KITAKACHOFANYIKA…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2247</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>27</ItemStemConceptID>
+<ItemStemFullText>NINAKUWA NA KIZUNGUZUNGU AU KUZIMIA BILA SABABU…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2248</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>31</ItemStemConceptID>
+<ItemStemFullText>NINAFIKIRIA KUHUSU KIFO…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2249</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>22</ItemStemConceptID>
+<ItemStemFullText>ROHO YANGU HUANZA KUPIGA KWA HARAKA BILA SABABU…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2250</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>9</ItemStemConceptID>
+<ItemStemFullText>NASIKIA  KAMA SITAKI KUSONGA …</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2251</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>47</ItemStemConceptID>
+<ItemStemFullText>NINA WASIWASI WA KUPATA FIKIRA YA UWOGA BILA SABABU YA KUOGOPA…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2252</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>2</ItemStemConceptID>
+<ItemStemFullText>NASIKIA UWOGA KUWA NITAJIAIBISHA MBELE ZA WATU…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2253</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>25</ItemStemConceptID>
+<ItemStemFullText>NINGESIKIA UWOGA IKIWA ITABIDI NIKAE MBALI NA NYUMBANI USIKU WOTE…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2254</ItemStemID>
+<ItemStemLanguage>26</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>11</ItemStemConceptID>
+<ItemStemFullText>NASIKIA SINA UTULIVU/AMANI…</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2255</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>48</ItemStemConceptID>
+<ItemStemFullText>Jeg liker å møte terapeuten min.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2256</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>49</ItemStemConceptID>
+<ItemStemFullText>Jeg føler at jeg kan fortelle terapeuten min hva som helst.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2257</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>50</ItemStemConceptID>
+<ItemStemFullText>Terapeuten min forstår kulturen min og verdiene mine.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2258</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>51</ItemStemConceptID>
+<ItemStemFullText>Jeg føler meg som en del av et team med terapeuten min.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2259</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>52</ItemStemConceptID>
+<ItemStemFullText>Jeg føler meg komfortabel med å stille terapeuten min spørsmål, eller ta opp bekymringer rundt terapi.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2260</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>53</ItemStemConceptID>
+<ItemStemFullText>Terapeuten min respekterer mine meninger.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2261</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>54</ItemStemConceptID>
+<ItemStemFullText>Jeg er med på å bestemme hva vi sammen jobber med.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2262</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>55</ItemStemConceptID>
+<ItemStemFullText>Den innsatsen jeg legger i terapi vil lønne seg for meg.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2263</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>56</ItemStemConceptID>
+<ItemStemFullText>Jeg tror terapeuten min vet hvordan man kan hjelpe andre som meg. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2264</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>57</ItemStemConceptID>
+<ItemStemFullText>Jeg har ingen dårlige erfaringer med terapi fra tidligere. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2265</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>58</ItemStemConceptID>
+<ItemStemFullText>Det er greit om familie eller venner vet at jeg møter en terapeut. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2266</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>59</ItemStemConceptID>
+<ItemStemFullText>Jeg tror terapi er nødvendig for å løse problemene mine. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2267</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>60</ItemStemConceptID>
+<ItemStemFullText>Jeg tror det arbeidet jeg gjør med terapeuten min vil hjelpe meg. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2268</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>61</ItemStemConceptID>
+<ItemStemFullText>Jeg mener terapeuten min kan hjelpe meg.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2269</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>62</ItemStemConceptID>
+<ItemStemFullText>Hvis jeg dropper en terapitime, kan jeg komme på etterskudd.  </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2270</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>63</ItemStemConceptID>
+<ItemStemFullText>Jeg kommer presis til timene med terapeuten min.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2271</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>64</ItemStemConceptID>
+<ItemStemFullText>Jeg sørger for å komme til timene med terapeuten min. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2272</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>65</ItemStemConceptID>
+<ItemStemFullText>Terapien er lett tilgjengelig for meg. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2273</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>66</ItemStemConceptID>
+<ItemStemFullText>Jeg forteller terapeuten min om ting som hindrer meg i å komme til avtaler. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2274</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>67</ItemStemConceptID>
+<ItemStemFullText>Jeg klarer å komme til avtaler selv når det skjer andre viktige ting i livet mitt. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2275</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>68</ItemStemConceptID>
+<ItemStemFullText>Ting hindrer meg ikke i å komme til avtaler. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2276</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>69</ItemStemConceptID>
+<ItemStemFullText>Jeg vet hva vi jobber med i terapien. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2277</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>70</ItemStemConceptID>
+<ItemStemFullText>Det vi jobber med i terapien gir mening for meg. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2278</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>71</ItemStemConceptID>
+<ItemStemFullText>Det er et klart formål med hver terapitime. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2279</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>72</ItemStemConceptID>
+<ItemStemFullText>Arbeidet jeg gjør med terapeuten min, passer med målene mine. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2280</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>73</ItemStemConceptID>
+<ItemStemFullText>Terapeuten min måler om jeg blir bedre. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2281</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>74</ItemStemConceptID>
+<ItemStemFullText>Jeg forstår hva jeg skal gjøre i terapien. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2282</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>75</ItemStemConceptID>
+<ItemStemFullText>Terapien jeg får er riktig for meg. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2283</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>76</ItemStemConceptID>
+<ItemStemFullText>Jeg deltar aktivt i timene med terapeuten min. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2284</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>77</ItemStemConceptID>
+<ItemStemFullText>Jeg liker å øve på nye ting sammen med terapeuten min. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2285</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>78</ItemStemConceptID>
+<ItemStemFullText>Terapien krever en overkommelig mengde arbeid. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2286</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>79</ItemStemConceptID>
+<ItemStemFullText>Når jeg har lært noe nytt i terapien, prøver jeg det med en gang ut hjemme eller på skolen. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2287</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>80</ItemStemConceptID>
+<ItemStemFullText>Terapeuten min viser meg hvordan jeg kan gjøre en ferdighet, og hjelper meg så å prøve den ut. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2288</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>81</ItemStemConceptID>
+<ItemStemFullText>Hvis jeg prøver ny ferdighet og det ikke går bra, sørger jeg for å prøve igjen. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2289</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>1</Respondent>
+<ItemStemConceptID>82</ItemStemConceptID>
+<ItemStemFullText>Jeg følger forslagene fra terapeuten min.  </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2290</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>48</ItemStemConceptID>
+<ItemStemFullText>Jeg liker å møte terapeuten til barnet mitt.  </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2291</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>49</ItemStemConceptID>
+<ItemStemFullText>Jeg føler at jeg kan fortelle terapeuten til barnet mitt hva som helst.  </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2292</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>50</ItemStemConceptID>
+<ItemStemFullText>Terapeuten til barnet mitt er sensitiv til min kultur og mine verdier. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2293</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>51</ItemStemConceptID>
+<ItemStemFullText>Jeg føler meg som del av et team med terapeuten til barnet mitt. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2294</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>52</ItemStemConceptID>
+<ItemStemFullText>Jeg føler meg komfortabel med å stille terapeuten til barnet mitt spørsmål, eller ta opp bekymringer rundt terapi. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2295</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>53</ItemStemConceptID>
+<ItemStemFullText>Terapeuten til barnet mitt respekterer mine meninger.  </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2296</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>54</ItemStemConceptID>
+<ItemStemFullText>Jeg hjelper til å velge behandlingsmålene til barnet mitt. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2297</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>55</ItemStemConceptID>
+<ItemStemFullText>Den innsatsen jeg legger i terapi vil lønne seg for meg og barnet mitt.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2298</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>56</ItemStemConceptID>
+<ItemStemFullText>Jeg tror terapeuten til barnet mitt vet hvordan man kan hjelpe andre barn og familier som min. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2299</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>57</ItemStemConceptID>
+<ItemStemFullText>Jeg har ingen dårlige erfaringer med terapi for barnet mitt fra tidligere</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2300</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>58</ItemStemConceptID>
+<ItemStemFullText>Det er greit om familie eller venner vet at vi møter en terapeut. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2301</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>59</ItemStemConceptID>
+<ItemStemFullText>Jeg tror terapi er nødvendig for å løse problemene til barnet mitt.  </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2302</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>60</ItemStemConceptID>
+<ItemStemFullText>Jeg tror arbeidet jeg gjør med terapeuten til barnet mitt vil hjelpe barnet mitt.  </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2303</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>61</ItemStemConceptID>
+<ItemStemFullText>Jeg mener terapeuten til barnet mitt kan hjelpe barnet mitt.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2304</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>62</ItemStemConceptID>
+<ItemStemFullText>Hvis jeg dropper en avtale med terapeuten til barnet mitt, kan jeg komme på etterskudd.    </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2305</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>63</ItemStemConceptID>
+<ItemStemFullText>Jeg kommer presis til avtaler med terapeuten til barnet mitt.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2306</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>64</ItemStemConceptID>
+<ItemStemFullText>Jeg møter opp til avtaler med terapeuten til barnet mitt, eller avlyser dem minst en dag i forveien. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2307</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>65</ItemStemConceptID>
+<ItemStemFullText>Terapien til barnet mitt er lett tilgjengelig for meg. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2308</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>66</ItemStemConceptID>
+<ItemStemFullText>Jeg forteller terapeuten til barnet mitt om ting som hindrer meg i å komme til avtaler.  </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2309</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>67</ItemStemConceptID>
+<ItemStemFullText>Jeg klarer å komme til avtaler selv når det skjer andre viktige ting i livet mitt. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2310</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>68</ItemStemConceptID>
+<ItemStemFullText>Ting hindrer meg ikke i å komme til avtaler med terapeuten til barnet mitt.    </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2311</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>69</ItemStemConceptID>
+<ItemStemFullText>Målene for terapien til barnet mitt er tydelige. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2312</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>70</ItemStemConceptID>
+<ItemStemFullText>Det vi gjør i terapien til barnet mitt gir mening for meg. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2313</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>71</ItemStemConceptID>
+<ItemStemFullText>Det er et klart formål med hver terapitime. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2314</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>72</ItemStemConceptID>
+<ItemStemFullText>Arbeidet jeg gjør med terapeuten til barnet mitt, passer med målene våre.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2315</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>73</ItemStemConceptID>
+<ItemStemFullText>Terapeuten til barnet mitt måler om barnet mitt blir bedre. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2316</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>74</ItemStemConceptID>
+<ItemStemFullText>Jeg forstår min rolle i mitt barns terapi.  </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2317</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>75</ItemStemConceptID>
+<ItemStemFullText>Terapien vi får er riktig for oss.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2318</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>76</ItemStemConceptID>
+<ItemStemFullText>Jeg deltar aktivt i timene med terapeuten til barnet mitt. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2319</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>77</ItemStemConceptID>
+<ItemStemFullText>Jeg liker å øve på nye ting med terapeuten til barnet mitt. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2320</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>78</ItemStemConceptID>
+<ItemStemFullText>Terapien krever en overkommelig mengde arbeid.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2321</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>79</ItemStemConceptID>
+<ItemStemFullText>Når jeg lærer noe nytt fra terapien til barnet mitt, prøver jeg det med en gang ut hjemme. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2322</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>80</ItemStemConceptID>
+<ItemStemFullText>Terapeuten til barnet mitt viser oss hvordan vi kan gjøre en ferdighet, og hjelper oss deretter å prøve den. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2323</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>81</ItemStemConceptID>
+<ItemStemFullText>Hvis jeg prøver ny ferdighet og det ikke går bra, passer jeg på å prøve igjen. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2324</ItemStemID>
+<ItemStemLanguage>16</ItemStemLanguage>
+<Respondent>2</Respondent>
+<ItemStemConceptID>82</ItemStemConceptID>
+<ItemStemFullText>Jeg følger anbefalingene fra terapeuten til barnet mitt. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2325</ItemStemID>
 </_x0032_1_ItemStems>
 </dataroot>

@@ -52,18 +52,21 @@ public class HomeController extends Controller {
             List<ItemConcept> itemConcepts = ItemConcept.getByScale(scale);
             return ok(new Gson().toJson(itemConcepts));
         } else if (query.getQuery().equals("query2")) {
-            Instrument instrument = Instrument.getByUri(query.getParameter());
-            List<Instrument> sources = Instrument.getSource(instrument);
+            //Instrument instrument = Instrument.getByUri(query.getParameter());
+            List<Instrument> sources = Instrument.getSource(query.getParameter());
             return ok(new Gson().toJson(sources));
         } else if (query.getQuery().equals("query3")) {
-            Instrument instrument = Instrument.getByUri(query.getParameter());
-            List<Instrument> targets = Instrument.getTarget(instrument);
+            //Instrument instrument = Instrument.getByUri(query.getParameter());
+            List<Instrument> targets = Instrument.getTarget(query.getParameter());
             return ok(new Gson().toJson(targets));
         } else if (query.getQuery().equals("query4")) {
             Instrument instrument0 = Instrument.getByUri(query.getParameter());
             Instrument instrument1 = Instrument.getByUri(query.getParameter1());
             List<ItemConcept> itemConcepts = ItemConcept.getByInstruments(instrument0, instrument1);
             return ok(new Gson().toJson(itemConcepts));
+        } else if (query.getQuery().equals("query9")) {
+            List<Instrument> targets = Instrument.getTarget(query.getParameter());
+            return ok(new Gson().toJson(targets));
         }
         List<String> places = Arrays.asList("Buenos Aires", "Córdoba", "La Plata");
         return ok(new Gson().toJson(places));

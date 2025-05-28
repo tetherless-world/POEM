@@ -21,8 +21,19 @@
     rml:iterator "/dataroot/_x0030_3_Activities"
   ].
 
+:TriplesMap2 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/05_EntityGroupMap.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0030_5_EntityGroupMap"
+  ].
+
 :TriplesMap rr:subjectMap [
   rr:template "http://purl.org/twc/poem/individual/activity/{ActivityID}"
+].
+
+:TriplesMap2 rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/instrument/{EntityID}"
 ].
 
 :TriplesMap rr:predicateObjectMap [
@@ -37,9 +48,38 @@
   ]
 ].
 
+# :TriplesMap rr:predicateObjectMap [
+#   rr:predicate prov:used;
+#   rr:objectMap [
+#     rr:template "http://purl.org/twc/poem/individual/instrument/{UsedEntityID}"
+#   ]
+# ].
+
 :TriplesMap rr:predicateObjectMap [
   rr:predicate prov:used;
   rr:objectMap [
-    rr:template "http://purl.org/twc/poem/individual/instrument/{UsedEntityID2}"
+    rr:parentTriplesMap :TriplesMap2;
+    rr:joinCondition [
+      rr:child "UsedEntityID";
+      rr:parent "EntityGroupID";
+    ];
+  ];
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate prov:generated;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMap2;
+    rr:joinCondition [
+      rr:child "GenEntityID";
+      rr:parent "EntityGroupID";
+    ];
+  ];
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate prov:endedAtTime;
+  rr:objectMap [
+    rml:reference "ActivityDate"
   ]
 ].

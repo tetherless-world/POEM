@@ -120,7 +120,7 @@
     rr:parentTriplesMap :TriplesMap3;
     rr:joinCondition [
       rr:child "InstrumentID";
-      rr:parent "GenEntityID2";
+      rr:parent "GenEntityID";
     ];
   ];
 ].
