@@ -32,6 +32,7 @@
 ].
 
 :TriplesMap2 rr:subjectMap [
+  rr:template "bnodeItem{InstrumentItemID}";
   rr:termType rr:BlankNode;
 ].
 
