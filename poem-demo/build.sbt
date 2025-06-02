@@ -40,19 +40,19 @@ libraryDependencies += "com.fasterxml.jackson.core" % "jackson-databind" % "2.19
 libraryDependencies += "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.19.0"
 
 // https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-base
-libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-base" % "8.0.0"
+libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-base" % "8.2.0"
 
 // https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-structures-r5
-libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-r5" % "8.0.0"
+libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-r5" % "8.2.0"
 
 // https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-structures-r4b
-libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-r4b" % "8.0.0"
+libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-r4b" % "8.2.0"
 
 // https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-structures-r4
-libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-r4" % "8.0.0"
+libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-r4" % "8.2.0"
 
 // https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-structures-dstu3
-libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-dstu3" % "8.0.0"
+libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-dstu3" % "8.2.0"
 
 // https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-structures-dstu2
-libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-dstu2" % "8.0.0"
+libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-dstu2" % "8.2.0"
