@@ -27,3 +27,5 @@ echo "Activities..."
 java -jar rmlmapper-7.3.3-r374-all.jar -m rml-activities.ttl -o ../poem-demo/dist/data/activities.ttl -s turtle
 echo "ScalesInstrument..."
 java -jar rmlmapper-7.3.3-r374-all.jar -m rml-scalesInstrument.ttl -o ../poem-demo/dist/data/scalesInstrument.ttl -s turtle
+echo "InstrumentComponents..."
+java -jar rmlmapper-7.3.3-r374-all.jar -m rml-components.ttl -o ../poem-demo/dist/data/components.ttl -s turtle

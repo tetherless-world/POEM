@@ -1,0 +1,108 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://example.org/rules/> .
+@prefix schema: <http://schema.org/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix poem: <http://purl.org/twc/poem/> .
+@prefix vstoi: <http://purl.org/twc/vstoi/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+
+:TriplesMap a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/11_InstrumentComponents.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0031_1_InstrumentComponents"
+  ].
+
+:TriplesMap2 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/11_InstrumentComponents.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0031_1_InstrumentComponents"
+  ].
+
+:TriplesMap rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/component/{ElementID}"
+].
+
+:TriplesMap2 rr:subjectMap [
+  rr:template "bnodeComponent{ElementID}";
+  rr:termType rr:BlankNode;
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:hasAttribute;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMap2;
+    rr:joinCondition [
+      rr:child "ElementID";
+      rr:parent "ElementID";
+    ];
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000008;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMap2;
+    rr:joinCondition [
+      rr:child "ElementID";
+      rr:parent "ElementID";
+    ];
+  ]
+].
+
+:TriplesMap2 rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant sio:OrdinalPosition ];
+].
+
+:TriplesMap2 rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant sio:SIO_000613 ];
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate rdfs:label;
+  rr:objectMap [
+    rml:reference "ComponentValue";
+    rr:datatype xsd:string
+  ]
+].
+
+:TriplesMap2 rr:predicateObjectMap [
+  rr:predicate sio:hasValue;
+  rr:objectMap [
+    rml:reference "ComponentAttribute";
+    rr:datatype xsd:positiveInteger
+  ];
+].
+
+:TriplesMap2 rr:predicateObjectMap [
+  rr:predicate sio:SIO_000300;
+  rr:objectMap [
+    rml:reference "ComponentAttribute";
+    rr:datatype xsd:positiveInteger
+  ];
+].
+
+:TriplesMap2 rr:predicateObjectMap [
+  rr:predicate sio:inRelationTo;
+  rr:objectMap [ rr:template "http://purl.org/twc/poem/individual/instrument/{InstrumentID}" ];
+].
+
+:TriplesMap2 rr:predicateObjectMap [
+  rr:predicate sio:SIO_000668;
+  rr:objectMap [ rr:template "http://purl.org/twc/poem/individual/instrument/{InstrumentID}" ];
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant vstoi:Component ];
+].
