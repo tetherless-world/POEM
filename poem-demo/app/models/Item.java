@@ -46,10 +46,12 @@ public class Item extends models.Resource {
             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
             PREFIX poem: <http://purl.org/twc/poem/>
             PREFIX sio: <http://semanticscience.org/resource/>
+            PREFIX vstoi: <http://purl.org/twc/vstoi/>
             SELECT ?item ?label ?pos
             WHERE {
                 ?instrument a poem:PsychometricQuestionnaire .
                 ?instrument sio:SIO_000059 ?item .
+                ?item a vstoi:Item .
                 ?item sio:SIO_000253/rdfs:label ?label .
                 ?item sio:SIO_000008 ?position .
                 ?position a sio:SIO_000613 .
