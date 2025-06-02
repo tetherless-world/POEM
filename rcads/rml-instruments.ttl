@@ -35,6 +35,13 @@
     rml:iterator "/dataroot/_x0030_3_Activities"
   ].
 
+:TriplesMap4 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/11_InstrumentComponents.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0031_1_InstrumentComponents"
+  ].
+
 :TriplesMap rr:subjectMap [
   rr:template "http://purl.org/twc/poem/individual/instrument/{InstrumentID}"
 ].
@@ -45,6 +52,10 @@
 
 :TriplesMap3 rr:subjectMap [
   rr:template "http://purl.org/twc/poem/individual/activity/{ActivityID}"
+].
+
+:TriplesMap4 rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/component/{ElementID}"
 ].
 
 :TriplesMap rr:predicateObjectMap [
@@ -121,6 +132,28 @@
     rr:joinCondition [
       rr:child "InstrumentID";
       rr:parent "GenEntityID";
+    ];
+  ];
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:hasMember;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMap4;
+    rr:joinCondition [
+      rr:child "InstrumentID";
+      rr:parent "InstrumentID";
+    ];
+  ];
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000059;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMap4;
+    rr:joinCondition [
+      rr:child "InstrumentID";
+      rr:parent "InstrumentID";
     ];
   ];
 ].
