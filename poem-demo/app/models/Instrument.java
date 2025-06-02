@@ -21,6 +21,7 @@ import utils.POEMModel;
 
 public class Instrument extends models.Resource {
 
+    private List<Component> components;
     private List<Item> items;
 
     public List<Item> getItems() {
@@ -29,6 +30,14 @@ public class Instrument extends models.Resource {
 
     public void setItems(List<Item> items) {
         this.items = items;
+    }
+
+    public List<Component> getComponents() {
+        return components;
+    }
+
+    public void setComponents(List<Component> components) {
+        this.components = components;
     }
 
     public Instrument() {
@@ -60,6 +69,7 @@ public class Instrument extends models.Resource {
         instrument.setUri(resource.getURI());
         instrument.setLabel(resource.getProperty(RDFS.label).getString());
         instrument.setItems(Item.getByInstrument(resource.getURI()));
+        instrument.setComponents(Component.getByInstrument(resource.getURI()));
         return instrument;
     }
 
