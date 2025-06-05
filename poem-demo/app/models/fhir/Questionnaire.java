@@ -1,12 +1,9 @@
 package models.fhir;
 
-import java.util.List;
-
 import models.Instrument;
 
 public class Questionnaire {
     private Instrument instrument;
-    private List<Item> items;
 
     // Constructor
     public Questionnaire(Instrument instrument) {
@@ -21,12 +18,25 @@ public class Questionnaire {
         questionnaire.setId(instrument.getUri());
         questionnaire.setName(instrument.getLabel());
         questionnaire.setStatus(org.hl7.fhir.r5.model.Enumerations.PublicationStatus.ACTIVE);
+        for (models.Component component : instrument.getComponents()) {
+            org.hl7.fhir.r5.model.Questionnaire.QuestionnaireItemComponent itemComponent = new org.hl7.fhir.r5.model.Questionnaire.QuestionnaireItemComponent();
+            itemComponent.setText(component.getLabel());
+            itemComponent.setLinkId(component.getUri());
+            if (component.getLabel().contains("Name")) {
+                itemComponent.setType(org.hl7.fhir.r5.model.Questionnaire.QuestionnaireItemType.STRING);
+            } else if (component.getLabel().contains("Date")) {
+                itemComponent.setType(org.hl7.fhir.r5.model.Questionnaire.QuestionnaireItemType.DATE);
+            } else {
+                itemComponent.setType(org.hl7.fhir.r5.model.Questionnaire.QuestionnaireItemType.DISPLAY);
+            }
+            questionnaire.addItem(itemComponent);
+        }
         for (models.Item item : instrument.getItems()) {
             org.hl7.fhir.r5.model.Questionnaire.QuestionnaireItemComponent itemComponent = new org.hl7.fhir.r5.model.Questionnaire.QuestionnaireItemComponent();
             itemComponent.setText(item.getLabel());
             itemComponent.setLinkId(item.getUri());
             itemComponent.setPrefix(Integer.toString(item.getPosition()));
-            itemComponent.setType(org.hl7.fhir.r5.model.Questionnaire.QuestionnaireItemType.STRING);
+            itemComponent.setType(org.hl7.fhir.r5.model.Questionnaire.QuestionnaireItemType.CODING);
             for (models.ResponseOption responseOption : item.getCodebook().getResponseOptions()) {
                 org.hl7.fhir.r5.model.Questionnaire.QuestionnaireItemAnswerOptionComponent answerOption = new org.hl7.fhir.r5.model.Questionnaire.QuestionnaireItemAnswerOptionComponent();
                 answerOption.setValue(new org.hl7.fhir.r5.model.StringType(responseOption.getLabel()));
@@ -45,12 +55,25 @@ public class Questionnaire {
         questionnaire.setId(instrument.getUri());
         questionnaire.setName(instrument.getLabel());
         questionnaire.setStatus(org.hl7.fhir.r4b.model.Enumerations.PublicationStatus.ACTIVE);
+        for (models.Component component : instrument.getComponents()) {
+            org.hl7.fhir.r4b.model.Questionnaire.QuestionnaireItemComponent itemComponent = new org.hl7.fhir.r4b.model.Questionnaire.QuestionnaireItemComponent();
+            itemComponent.setText(component.getLabel());
+            itemComponent.setLinkId(component.getUri());
+            if (component.getLabel().contains("Name")) {
+                itemComponent.setType(org.hl7.fhir.r4b.model.Questionnaire.QuestionnaireItemType.STRING);
+            } else if (component.getLabel().contains("Date")) {
+                itemComponent.setType(org.hl7.fhir.r4b.model.Questionnaire.QuestionnaireItemType.DATE);
+            } else {
+                itemComponent.setType(org.hl7.fhir.r4b.model.Questionnaire.QuestionnaireItemType.DISPLAY);
+            }
+            questionnaire.addItem(itemComponent);
+        }
         for (models.Item item : instrument.getItems()) {
             org.hl7.fhir.r4b.model.Questionnaire.QuestionnaireItemComponent itemComponent = new org.hl7.fhir.r4b.model.Questionnaire.QuestionnaireItemComponent();
             itemComponent.setText(item.getLabel());
             itemComponent.setLinkId(item.getUri());
             itemComponent.setPrefix(Integer.toString(item.getPosition()));
-            itemComponent.setType(org.hl7.fhir.r4b.model.Questionnaire.QuestionnaireItemType.STRING);
+            itemComponent.setType(org.hl7.fhir.r4b.model.Questionnaire.QuestionnaireItemType.CHOICE);
             for (models.ResponseOption responseOption : item.getCodebook().getResponseOptions()) {
                 org.hl7.fhir.r4b.model.Questionnaire.QuestionnaireItemAnswerOptionComponent answerOption = new org.hl7.fhir.r4b.model.Questionnaire.QuestionnaireItemAnswerOptionComponent();
                 answerOption.setValue(new org.hl7.fhir.r4b.model.StringType(responseOption.getLabel()));
@@ -69,12 +92,25 @@ public class Questionnaire {
         questionnaire.setId(instrument.getUri());
         questionnaire.setName(instrument.getLabel());
         questionnaire.setStatus(org.hl7.fhir.r4.model.Enumerations.PublicationStatus.ACTIVE);
+        for (models.Component component : instrument.getComponents()) {
+            org.hl7.fhir.r4.model.Questionnaire.QuestionnaireItemComponent itemComponent = new org.hl7.fhir.r4.model.Questionnaire.QuestionnaireItemComponent();
+            itemComponent.setText(component.getLabel());
+            itemComponent.setLinkId(component.getUri());
+            if (component.getLabel().contains("Name")) {
+                itemComponent.setType(org.hl7.fhir.r4.model.Questionnaire.QuestionnaireItemType.STRING);
+            } else if (component.getLabel().contains("Date")) {
+                itemComponent.setType(org.hl7.fhir.r4.model.Questionnaire.QuestionnaireItemType.DATE);
+            } else {
+                itemComponent.setType(org.hl7.fhir.r4.model.Questionnaire.QuestionnaireItemType.DISPLAY);
+            }
+            questionnaire.addItem(itemComponent);
+        }
         for (models.Item item : instrument.getItems()) {
             org.hl7.fhir.r4.model.Questionnaire.QuestionnaireItemComponent itemComponent = new org.hl7.fhir.r4.model.Questionnaire.QuestionnaireItemComponent();
             itemComponent.setText(item.getLabel());
             itemComponent.setLinkId(item.getUri());
             itemComponent.setPrefix(Integer.toString(item.getPosition()));
-            itemComponent.setType(org.hl7.fhir.r4.model.Questionnaire.QuestionnaireItemType.STRING);
+            itemComponent.setType(org.hl7.fhir.r4.model.Questionnaire.QuestionnaireItemType.CHOICE);
             for (models.ResponseOption responseOption : item.getCodebook().getResponseOptions()) {
                 org.hl7.fhir.r4.model.Questionnaire.QuestionnaireItemAnswerOptionComponent answerOption = new org.hl7.fhir.r4.model.Questionnaire.QuestionnaireItemAnswerOptionComponent();
                 answerOption.setValue(new org.hl7.fhir.r4.model.StringType(responseOption.getLabel()));
@@ -93,12 +129,25 @@ public class Questionnaire {
         questionnaire.setId(instrument.getUri());
         questionnaire.setName(instrument.getLabel());
         questionnaire.setStatus(org.hl7.fhir.dstu3.model.Enumerations.PublicationStatus.ACTIVE);
+        for (models.Component component : instrument.getComponents()) {
+            org.hl7.fhir.dstu3.model.Questionnaire.QuestionnaireItemComponent itemComponent = new org.hl7.fhir.dstu3.model.Questionnaire.QuestionnaireItemComponent();
+            itemComponent.setText(component.getLabel());
+            itemComponent.setLinkId(component.getUri());
+            if (component.getLabel().contains("Name")) {
+                itemComponent.setType(org.hl7.fhir.dstu3.model.Questionnaire.QuestionnaireItemType.STRING);
+            } else if (component.getLabel().contains("Date")) {
+                itemComponent.setType(org.hl7.fhir.dstu3.model.Questionnaire.QuestionnaireItemType.DATE);
+            } else {
+                itemComponent.setType(org.hl7.fhir.dstu3.model.Questionnaire.QuestionnaireItemType.DISPLAY);
+            }
+            questionnaire.addItem(itemComponent);
+        }
         for (models.Item item : instrument.getItems()) {
             org.hl7.fhir.dstu3.model.Questionnaire.QuestionnaireItemComponent itemComponent = new org.hl7.fhir.dstu3.model.Questionnaire.QuestionnaireItemComponent();
             itemComponent.setText(item.getLabel());
             itemComponent.setLinkId(item.getUri());
             itemComponent.setPrefix(Integer.toString(item.getPosition()));
-            itemComponent.setType(org.hl7.fhir.dstu3.model.Questionnaire.QuestionnaireItemType.STRING);
+            itemComponent.setType(org.hl7.fhir.dstu3.model.Questionnaire.QuestionnaireItemType.CHOICE);
             for (models.ResponseOption responseOption : item.getCodebook().getResponseOptions()) {
                 org.hl7.fhir.dstu3.model.Questionnaire.QuestionnaireItemOptionComponent option = new org.hl7.fhir.dstu3.model.Questionnaire.QuestionnaireItemOptionComponent();
                 option.setValue(new org.hl7.fhir.dstu3.model.StringType(responseOption.getLabel()));
