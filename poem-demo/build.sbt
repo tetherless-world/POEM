@@ -19,7 +19,7 @@ libraryDependencies += guice
 libraryDependencies += "org.apache.jena" % "jena-arq" % "5.4.0"
 
 // https://mvnrepository.com/artifact/org.webjars/bootstrap
-libraryDependencies += "org.webjars" % "bootstrap" % "5.3.5"
+libraryDependencies += "org.webjars" % "bootstrap" % "5.3.6"
 
 // https://mvnrepository.com/artifact/org.webjars/jquery
 libraryDependencies += "org.webjars" % "jquery" % "3.7.1"
