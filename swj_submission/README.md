@@ -4,7 +4,7 @@
 Psychometrics is the field relating to the measurement of concepts within psychology, particularly the assessment of
 various social and psychological dimensions in humans. The relationship between entities such as an assessment instrument and its component elements, the subject and respondent, and the latent variables being assessed, is critical to finding an appropriate assessment instrument, especially in the context of clinical psychology and mental healthcare in which providing the best care based on empirical evidence is crucial. The current standard for questionnaire-based assessment relies on text-based distributions of instruments; so, a structured representation is necessary to capture these relationships to enhance accessibility and use of existing measures, encourage reuse of questionnaires and their component elements, and enable sophisticated reasoning over assessment instruments and results by increasing interoperability. We present the design process and architecture of such a domain ontology, the Psychometric Ontology of Experiences and Measures, situating it within the context of related ontologies, and demonstrating its practical utility through evaluation against a series of competency questions concerning the creation, use, and reuse of psychometric questionnaires in clinical, research, and development settings.
 
-![](https://raw.githubusercontent.com/tetherless-world/POEM/refs/heads/main/images/POEM_uml.png)
+![](https://raw.githubusercontent.com/tetherless-world/POEM/refs/heads/TGDK_revision/images/UML_vertical_TGDK_revision.png)
 
 ## [POEM.rdf](POEM.rdf)
 
