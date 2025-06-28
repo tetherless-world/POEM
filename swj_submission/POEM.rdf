@@ -150,16 +150,6 @@
     
 
 
-    <!-- http://purl.org/twc/poem/detects -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/detects">
-        <owl:inverseOf rdf:resource="http://purl.org/twc/poem/isDetectedBy"/>
-        <rdfs:domain rdf:resource="http://hadatac.org/ont/vstoi#Detector"/>
-        <rdfs:label>detects</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.org/twc/poem/hasScale -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/hasScale">
@@ -444,7 +434,7 @@
         <rdfs:subClassOf rdf:resource="http://hadatac.org/ont/vstoi#Detector"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/twc/poem/detects"/>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000332"/>
                 <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem/Symptom"/>
             </owl:Restriction>
         </rdfs:subClassOf>
