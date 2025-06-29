@@ -430,12 +430,6 @@ and coding scheme of a dataset</skos:definition>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000095"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem/QuestionnaireScale"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000253"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
                 <owl:onClass rdf:resource="http://hadatac.org/ont/vstoi#ItemStem"/>
@@ -527,6 +521,12 @@ and coding scheme of a dataset</skos:definition>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
                 <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem/Experience"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
+                <owl:someValuesFrom rdf:resource="http://semanticscience.org/resource/SIO_000613"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -827,6 +827,23 @@ and coding scheme of a dataset</skos:definition>
     
 
 
+    <!-- http://purl.org/twc/poem#InstrumentCollection -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem#InstrumentCollection">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000616"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000059"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://hadatac.org/ont/vstoi#Instrument"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>instrument collection</rdfs:label>
+        <skos:definition>A set of measurement instruments that have been derived from each other, are published by the same organization, or have some other reason for close association</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/twc/poem#ItemStemConcept -->
 
     <owl:Class rdf:about="http://purl.org/twc/poem#ItemStemConcept">
@@ -882,6 +899,18 @@ and coding scheme of a dataset</skos:definition>
 
     <owl:Class rdf:about="http://purl.org/twc/poem/Construct">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000563"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem#ItemStemConcept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000563"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem/QuestionnaireScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <terms:alternative>psychological construct</terms:alternative>
         <rdfs:label>construct</rdfs:label>
         <skos:definition>A hypothetical or theoretical entity that can not be directly observed</skos:definition>
@@ -899,6 +928,12 @@ and coding scheme of a dataset</skos:definition>
                 <owl:someValuesFrom rdf:resource="http://hadatac.org/ont/vstoi#Codebook"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000011"/>
+                <owl:someValuesFrom rdf:resource="http://hadatac.org/ont/vstoi#ResponseOption"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>experience</rdfs:label>
         <skos:definition>an informant&apos;s observation or encounter in a situation or event</skos:definition>
     </owl:Class>
@@ -909,12 +944,6 @@ and coding scheme of a dataset</skos:definition>
 
     <owl:Class rdf:about="http://purl.org/twc/poem/PsychometricQuestionnaire">
         <rdfs:subClassOf rdf:resource="http://hadatac.org/ont/vstoi#Questionnaire"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
-                <owl:someValuesFrom rdf:resource="http://semanticscience.org/resource/SIO_000485"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label>psychometric questionnaire</rdfs:label>
         <skos:definition>a questionnaire used to measure an individual&apos;s mental capabilities, behaviors, or psychological traits</skos:definition>
     </owl:Class>
