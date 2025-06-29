@@ -347,6 +347,7 @@
                 <owl:onClass rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <skos:definition>A variable specification that includes the target entities and attributes, but not the population property</skos:definition>
     </owl:Class>
     
 
@@ -375,6 +376,8 @@
                 <owl:onClass rdf:resource="http://hadatac.org/ont/vstoi#ResponseOption"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <skos:definition>A document used to outline the content, format,
+and coding scheme of a dataset</skos:definition>
     </owl:Class>
     
 
@@ -384,7 +387,7 @@
     <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Detector">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000956"/>
         <rdfs:label>Detector</rdfs:label>
-        <skos:definition>A device which detects measurements, such as temperature or wind velocity</skos:definition>
+        <skos:definition>A device which detects measurements</skos:definition>
     </owl:Class>
     
 
@@ -394,7 +397,7 @@
     <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Informant">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000498"/>
         <rdfs:label>Informant</rdfs:label>
-        <skos:definition>(Respondent)</skos:definition>
+        <skos:definition>An individual or respondent who provides information based on an observation about themselves or someone else</skos:definition>
     </owl:Class>
     
 
@@ -404,7 +407,7 @@
     <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Instrument">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000956"/>
         <rdfs:label>Instrument</rdfs:label>
-        <skos:definition>A device or mechanism that is used to achire attribute values of entities of interest.  An instrument does not necessarily require a way to store its measured quantity (e.g, a hard disk).</skos:definition>
+        <skos:definition>A device or mechanism that is used to achire attribute values of entities of interest</skos:definition>
     </owl:Class>
     
 
@@ -446,6 +449,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>item</rdfs:label>
+        <skos:definition>An item stem and its response option within an assessment</skos:definition>
     </owl:Class>
     
 
@@ -533,6 +537,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>response option</rdfs:label>
+        <skos:definition>A possible answer choice provided for a question or statement</skos:definition>
     </owl:Class>
     
 
@@ -877,7 +882,9 @@
 
     <owl:Class rdf:about="http://purl.org/twc/poem/Construct">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000000"/>
+        <terms:alternative>psychological construct</terms:alternative>
         <rdfs:label>construct</rdfs:label>
+        <skos:definition>A hypothetical or theoretical entity that can not be directly observed</skos:definition>
     </owl:Class>
     
 
@@ -909,6 +916,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>psychometric questionnaire</rdfs:label>
+        <skos:definition>a questionnaire used to measure an individual&apos;s mental capabilities, behaviors, or psychological traits</skos:definition>
     </owl:Class>
     
 
