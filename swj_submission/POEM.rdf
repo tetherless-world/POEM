@@ -509,6 +509,7 @@ and coding scheme of a dataset</skos:definition>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Questionnaire</rdfs:label>
+        <skos:definition>A set of questions for obtaining statistically useful or personal information from individuals</skos:definition>
     </owl:Class>
     
 
