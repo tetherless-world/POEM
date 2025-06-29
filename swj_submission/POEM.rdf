@@ -125,28 +125,9 @@
     
 
 
-    <!-- http://hadatac.org/ont/vstoi#hasInformant -->
-
-    <owl:ObjectProperty rdf:about="http://hadatac.org/ont/vstoi#hasInformant">
-        <rdfs:domain rdf:resource="http://hadatac.org/ont/vstoi#Questionnaire"/>
-        <rdfs:range rdf:resource="http://hadatac.org/ont/vstoi#Informant"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://hadatac.org/ont/vstoi#hasItem -->
 
     <owl:ObjectProperty rdf:about="http://hadatac.org/ont/vstoi#hasItem"/>
-    
-
-
-    <!-- http://purl.org/twc/poem/canRespondTo -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/canRespondTo">
-        <rdfs:domain rdf:resource="http://semanticscience.org/resource/SIO_000485"/>
-        <rdfs:range rdf:resource="http://hadatac.org/ont/vstoi#Questionnaire"/>
-        <rdfs:label>can respond to</rdfs:label>
-    </owl:ObjectProperty>
     
 
 
@@ -158,16 +139,6 @@
         <rdfs:domain rdf:resource="http://purl.org/twc/poem/PsychometricQuestionnaire"/>
         <rdfs:range rdf:resource="http://purl.org/twc/poem/QuestionnaireScale"/>
         <rdfs:label>has scale</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/twc/poem/hasSubject -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/hasSubject">
-        <owl:inverseOf rdf:resource="http://purl.org/twc/poem/isSubjectOf"/>
-        <rdfs:domain rdf:resource="http://purl.org/twc/poem/PsychometricQuestionnaire"/>
-        <rdfs:label>has subject</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -211,29 +182,11 @@
     
 
 
-    <!-- http://purl.org/twc/poem/isDetectedBy -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/isDetectedBy">
-        <rdfs:range rdf:resource="http://hadatac.org/ont/vstoi#Detector"/>
-        <rdfs:label>is detected by</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.org/twc/poem/isScaleIn -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/isScaleIn">
         <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000068"/>
         <rdfs:label>is scale in</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/twc/poem/isSubjectOf -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/isSubjectOf">
-        <rdfs:range rdf:resource="http://purl.org/twc/poem/PsychometricQuestionnaire"/>
-        <rdfs:label>is subject of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -300,15 +253,6 @@
     <!-- http://hadatac.org/ont/hasco/hasLanguage -->
 
     <owl:DatatypeProperty rdf:about="http://hadatac.org/ont/hasco/hasLanguage"/>
-    
-
-
-    <!-- http://purl.org/twc/poem-rcads#isSignificant -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/twc/poem-rcads#isSignificant">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-        <rdfs:label>is significant</rdfs:label>
-    </owl:DatatypeProperty>
     
 
 
