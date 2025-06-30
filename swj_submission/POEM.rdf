@@ -35,6 +35,7 @@
         <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <dc:creator>Kelsey Rook</dc:creator>
         <terms:description>The Psychometric Ontology of Experience and Measures provides an ontology of domain concepts for the measurement of symptoms and syndromes related to psychiatric conditions.</terms:description>
+        <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://opensource.org/license/mit</terms:license>
         <terms:modified>2023-11-20</terms:modified>
         <terms:title>Psychometric Ontology of Experience and Measures</terms:title>
         <rdfs:isDefinedBy>http://purl.org/ontology/POEM</rdfs:isDefinedBy>
