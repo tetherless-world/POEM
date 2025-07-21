@@ -27,6 +27,13 @@
     rml:iterator "/dataroot/_x0033_2_CodebookOptionMap"
   ].
 
+:TriplesMap3 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/32_CodebookOptionMap.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0033_2_CodebookOptionMap"
+  ].
+
 :TriplesMap rr:subjectMap [
   rr:template "http://purl.org/twc/poem/individual/responseOption/{OptionID}"
 ].
@@ -47,6 +54,10 @@
   rr:termType rr:BlankNode;
 ].
 
+:TriplesMap3 rr:subjectMap [
+  rr:termType rr:BlankNode;
+].
+
 :TriplesMap2 rr:predicateObjectMap [
   rr:predicate rdf:type;
   rr:objectMap [ rr:constant sio:OrdinalPosition ];
@@ -57,6 +68,16 @@
   rr:objectMap [ rr:constant sio:SIO_000613 ];
 ].
 
+:TriplesMap3 rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant sio:Notation ];
+].
+
+:TriplesMap3 rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant sio:SIO_001385 ];
+].
+
 :TriplesMap2 rr:predicateObjectMap [
   rr:predicate sio:hasValue;
   rr:objectMap [ rml:reference "OptionPosition" ];
@@ -65,6 +86,16 @@
 :TriplesMap2 rr:predicateObjectMap [
   rr:predicate sio:SIO_000300;
   rr:objectMap [ rml:reference "OptionPosition" ];
+].
+
+:TriplesMap3 rr:predicateObjectMap [
+  rr:predicate sio:hasValue;
+  rr:objectMap [ rml:reference "OptionValue" ];
+].
+
+:TriplesMap3 rr:predicateObjectMap [
+  rr:predicate sio:SIO_000300;
+  rr:objectMap [ rml:reference "OptionValue" ];
 ].
 
 :TriplesMap2 rr:predicateObjectMap [
@@ -92,6 +123,28 @@
   rr:predicate sio:hasAttribute;
   rr:objectMap [
     rr:parentTriplesMap :TriplesMap2;
+    rr:joinCondition [
+      rr:child "OptionID";
+      rr:parent "OptionID";
+    ];
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000008;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMap3;
+    rr:joinCondition [
+      rr:child "OptionID";
+      rr:parent "OptionID";
+    ];
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:hasAttribute;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMap3;
     rr:joinCondition [
       rr:child "OptionID";
       rr:parent "OptionID";
