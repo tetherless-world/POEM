@@ -39,7 +39,7 @@ public class Questionnaire {
             itemComponent.setType(org.hl7.fhir.r5.model.Questionnaire.QuestionnaireItemType.CODING);
             for (models.ResponseOption responseOption : item.getCodebook().getResponseOptions()) {
                 org.hl7.fhir.r5.model.Questionnaire.QuestionnaireItemAnswerOptionComponent answerOption = new org.hl7.fhir.r5.model.Questionnaire.QuestionnaireItemAnswerOptionComponent();
-                answerOption.setValue(new org.hl7.fhir.r5.model.StringType(responseOption.getLabel()));
+                answerOption.setValue(new org.hl7.fhir.r5.model.Coding("", responseOption.getValue(), responseOption.getLabel()));
                 itemComponent.addAnswerOption(answerOption);
             }
             questionnaire.addItem(itemComponent);
@@ -76,7 +76,7 @@ public class Questionnaire {
             itemComponent.setType(org.hl7.fhir.r4b.model.Questionnaire.QuestionnaireItemType.CHOICE);
             for (models.ResponseOption responseOption : item.getCodebook().getResponseOptions()) {
                 org.hl7.fhir.r4b.model.Questionnaire.QuestionnaireItemAnswerOptionComponent answerOption = new org.hl7.fhir.r4b.model.Questionnaire.QuestionnaireItemAnswerOptionComponent();
-                answerOption.setValue(new org.hl7.fhir.r4b.model.StringType(responseOption.getLabel()));
+                answerOption.setValue(new org.hl7.fhir.r4b.model.Coding("", responseOption.getValue(), responseOption.getLabel()));
                 itemComponent.addAnswerOption(answerOption);
             }
             questionnaire.addItem(itemComponent);
@@ -113,7 +113,7 @@ public class Questionnaire {
             itemComponent.setType(org.hl7.fhir.r4.model.Questionnaire.QuestionnaireItemType.CHOICE);
             for (models.ResponseOption responseOption : item.getCodebook().getResponseOptions()) {
                 org.hl7.fhir.r4.model.Questionnaire.QuestionnaireItemAnswerOptionComponent answerOption = new org.hl7.fhir.r4.model.Questionnaire.QuestionnaireItemAnswerOptionComponent();
-                answerOption.setValue(new org.hl7.fhir.r4.model.StringType(responseOption.getLabel()));
+                answerOption.setValue(new org.hl7.fhir.r4.model.Coding("", responseOption.getValue(), responseOption.getLabel()));
                 itemComponent.addAnswerOption(answerOption);
             }
             questionnaire.addItem(itemComponent);
