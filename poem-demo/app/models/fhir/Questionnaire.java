@@ -150,7 +150,7 @@ public class Questionnaire {
             itemComponent.setType(org.hl7.fhir.dstu3.model.Questionnaire.QuestionnaireItemType.CHOICE);
             for (models.ResponseOption responseOption : item.getCodebook().getResponseOptions()) {
                 org.hl7.fhir.dstu3.model.Questionnaire.QuestionnaireItemOptionComponent option = new org.hl7.fhir.dstu3.model.Questionnaire.QuestionnaireItemOptionComponent();
-                option.setValue(new org.hl7.fhir.dstu3.model.StringType(responseOption.getLabel()));
+                option.setValue(new org.hl7.fhir.dstu3.model.Coding("", responseOption.getValue(), responseOption.getLabel()));
                 itemComponent.addOption(option);
             }
             questionnaire.addItem(itemComponent);
