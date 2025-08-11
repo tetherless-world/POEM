@@ -1,5 +1,5 @@
 ---
-title: Terminology
+title: Use Case
 layout: single
 sidebar:
         nav: "docs"
