@@ -56,6 +56,7 @@ public class Component extends models.Resource {
         ResultSet results = qe.execSelect();
         List<Component> components = new ArrayList<Component>();
         while (results.hasNext()) {
+            System.out.println("Component found:");
             QuerySolution soln = results.nextSolution();
             Component component = new Component();
             component.setUri(soln.getResource("component").getURI());
