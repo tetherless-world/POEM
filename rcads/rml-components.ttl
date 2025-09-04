@@ -12,6 +12,7 @@
 @prefix poem: <http://purl.org/twc/poem/> .
 @prefix vstoi: <http://purl.org/twc/vstoi/> .
 @prefix sio: <http://semanticscience.org/resource/> .
+@prefix schema: <http://schema.org/> .
 
 :TriplesMap a rr:TriplesMap;
   rml:logicalSource [
@@ -27,12 +28,24 @@
     rml:iterator "/dataroot/_x0031_1_InstrumentComponents"
   ].
 
+:TriplesMap3 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/11_InstrumentComponents.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0031_1_InstrumentComponents"
+  ].
+
 :TriplesMap rr:subjectMap [
-  rr:template "http://purl.org/twc/poem/individual/component/{ElementID}"
+  rr:template "http://purl.org/twc/poem/individual/component/{InstrumentComponentID}"
 ].
 
 :TriplesMap2 rr:subjectMap [
-  rr:template "bnodeComponent{ElementID}";
+  rr:template "bnodeComponentPosition{InstrumentComponentID}";
+  rr:termType rr:BlankNode;
+].
+
+:TriplesMap3 rr:subjectMap [
+  rr:template "bnodeComponentDatatype{InstrumentComponentID}";
   rr:termType rr:BlankNode;
 ].
 
@@ -41,8 +54,8 @@
   rr:objectMap [
     rr:parentTriplesMap :TriplesMap2;
     rr:joinCondition [
-      rr:child "ElementID";
-      rr:parent "ElementID";
+      rr:child "InstrumentComponentID";
+      rr:parent "InstrumentComponentID";
     ];
   ]
 ].
@@ -52,8 +65,30 @@
   rr:objectMap [
     rr:parentTriplesMap :TriplesMap2;
     rr:joinCondition [
-      rr:child "ElementID";
-      rr:parent "ElementID";
+      rr:child "InstrumentComponentID";
+      rr:parent "InstrumentComponentID";
+    ];
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:hasAttribute;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMap3;
+    rr:joinCondition [
+      rr:child "InstrumentComponentID";
+      rr:parent "InstrumentComponentID";
+    ];
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000008;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMap3;
+    rr:joinCondition [
+      rr:child "InstrumentComponentID";
+      rr:parent "InstrumentComponentID";
     ];
   ]
 ].
@@ -68,6 +103,11 @@
   rr:objectMap [ rr:constant sio:SIO_000613 ];
 ].
 
+:TriplesMap3 rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant schema:DataType ];
+].
+
 :TriplesMap rr:predicateObjectMap [
   rr:predicate rdfs:label;
   rr:objectMap [
@@ -79,16 +119,16 @@
 :TriplesMap2 rr:predicateObjectMap [
   rr:predicate sio:hasValue;
   rr:objectMap [
-    rml:reference "ComponentAttribute";
-    rr:datatype xsd:positiveInteger
+    rml:reference "ComponentPosition_FHIR";
+    rr:datatype xsd:integer
   ];
 ].
 
 :TriplesMap2 rr:predicateObjectMap [
   rr:predicate sio:SIO_000300;
   rr:objectMap [
-    rml:reference "ComponentAttribute";
-    rr:datatype xsd:positiveInteger
+    rml:reference "ComponentPosition_FHIR";
+    rr:datatype xsd:integer
   ];
 ].
 

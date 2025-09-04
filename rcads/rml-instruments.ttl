@@ -55,7 +55,7 @@
 ].
 
 :TriplesMap4 rr:subjectMap [
-  rr:template "http://purl.org/twc/poem/individual/component/{ElementID}"
+  rr:template "http://purl.org/twc/poem/individual/component/{InstrumentComponentID}"
 ].
 
 :TriplesMap rr:predicateObjectMap [
