@@ -356,86 +356,86 @@
 <http://purl.org/twc/poem/individual/instrument/107> a fhir:Questionnaire, poem:PsychometricQuestionnaire;
   fhir:code "RCADS-35-Y-EN";
   sio:SIO_000008 <http://purl.org/twc/poem/individual/informant/1>;
-  sio:SIO_000059 <http://purl.org/twc/poem/individual/item/2149>, <http://purl.org/twc/poem/individual/item/2150>,
-    <http://purl.org/twc/poem/individual/item/2151>, <http://purl.org/twc/poem/individual/item/2152>,
-    <http://purl.org/twc/poem/individual/item/2153>, <http://purl.org/twc/poem/individual/item/2154>,
-    <http://purl.org/twc/poem/individual/item/2155>, <http://purl.org/twc/poem/individual/item/2156>,
-    <http://purl.org/twc/poem/individual/item/2157>, <http://purl.org/twc/poem/individual/item/2158>,
-    <http://purl.org/twc/poem/individual/item/2159>, <http://purl.org/twc/poem/individual/item/2160>,
-    <http://purl.org/twc/poem/individual/item/2161>, <http://purl.org/twc/poem/individual/item/2162>,
-    <http://purl.org/twc/poem/individual/item/2163>, <http://purl.org/twc/poem/individual/item/2164>,
-    <http://purl.org/twc/poem/individual/item/2165>, <http://purl.org/twc/poem/individual/item/2166>,
-    <http://purl.org/twc/poem/individual/item/2167>, <http://purl.org/twc/poem/individual/item/2168>,
-    <http://purl.org/twc/poem/individual/item/2169>, <http://purl.org/twc/poem/individual/item/2170>,
-    <http://purl.org/twc/poem/individual/item/2171>, <http://purl.org/twc/poem/individual/item/2172>,
-    <http://purl.org/twc/poem/individual/item/2173>, <http://purl.org/twc/poem/individual/item/2174>,
-    <http://purl.org/twc/poem/individual/item/2175>, <http://purl.org/twc/poem/individual/item/2176>,
-    <http://purl.org/twc/poem/individual/item/2177>, <http://purl.org/twc/poem/individual/item/2178>,
-    <http://purl.org/twc/poem/individual/item/2179>, <http://purl.org/twc/poem/individual/item/2180>,
-    <http://purl.org/twc/poem/individual/item/2181>, <http://purl.org/twc/poem/individual/item/2182>,
-    <http://purl.org/twc/poem/individual/item/2183>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/component/463>, <http://purl.org/twc/poem/individual/item/2149>,
+    <http://purl.org/twc/poem/individual/item/2150>, <http://purl.org/twc/poem/individual/item/2151>,
+    <http://purl.org/twc/poem/individual/item/2152>, <http://purl.org/twc/poem/individual/item/2153>,
+    <http://purl.org/twc/poem/individual/item/2154>, <http://purl.org/twc/poem/individual/item/2155>,
+    <http://purl.org/twc/poem/individual/item/2156>, <http://purl.org/twc/poem/individual/item/2157>,
+    <http://purl.org/twc/poem/individual/item/2158>, <http://purl.org/twc/poem/individual/item/2159>,
+    <http://purl.org/twc/poem/individual/item/2160>, <http://purl.org/twc/poem/individual/item/2161>,
+    <http://purl.org/twc/poem/individual/item/2162>, <http://purl.org/twc/poem/individual/item/2163>,
+    <http://purl.org/twc/poem/individual/item/2164>, <http://purl.org/twc/poem/individual/item/2165>,
+    <http://purl.org/twc/poem/individual/item/2166>, <http://purl.org/twc/poem/individual/item/2167>,
+    <http://purl.org/twc/poem/individual/item/2168>, <http://purl.org/twc/poem/individual/item/2169>,
+    <http://purl.org/twc/poem/individual/item/2170>, <http://purl.org/twc/poem/individual/item/2171>,
+    <http://purl.org/twc/poem/individual/item/2172>, <http://purl.org/twc/poem/individual/item/2173>,
+    <http://purl.org/twc/poem/individual/item/2174>, <http://purl.org/twc/poem/individual/item/2175>,
+    <http://purl.org/twc/poem/individual/item/2176>, <http://purl.org/twc/poem/individual/item/2177>,
+    <http://purl.org/twc/poem/individual/item/2178>, <http://purl.org/twc/poem/individual/item/2179>,
+    <http://purl.org/twc/poem/individual/item/2180>, <http://purl.org/twc/poem/individual/item/2181>,
+    <http://purl.org/twc/poem/individual/item/2182>, <http://purl.org/twc/poem/individual/item/2183>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/informant/1>;
-  sio:hasMember <http://purl.org/twc/poem/individual/item/2149>, <http://purl.org/twc/poem/individual/item/2150>,
-    <http://purl.org/twc/poem/individual/item/2151>, <http://purl.org/twc/poem/individual/item/2152>,
-    <http://purl.org/twc/poem/individual/item/2153>, <http://purl.org/twc/poem/individual/item/2154>,
-    <http://purl.org/twc/poem/individual/item/2155>, <http://purl.org/twc/poem/individual/item/2156>,
-    <http://purl.org/twc/poem/individual/item/2157>, <http://purl.org/twc/poem/individual/item/2158>,
-    <http://purl.org/twc/poem/individual/item/2159>, <http://purl.org/twc/poem/individual/item/2160>,
-    <http://purl.org/twc/poem/individual/item/2161>, <http://purl.org/twc/poem/individual/item/2162>,
-    <http://purl.org/twc/poem/individual/item/2163>, <http://purl.org/twc/poem/individual/item/2164>,
-    <http://purl.org/twc/poem/individual/item/2165>, <http://purl.org/twc/poem/individual/item/2166>,
-    <http://purl.org/twc/poem/individual/item/2167>, <http://purl.org/twc/poem/individual/item/2168>,
-    <http://purl.org/twc/poem/individual/item/2169>, <http://purl.org/twc/poem/individual/item/2170>,
-    <http://purl.org/twc/poem/individual/item/2171>, <http://purl.org/twc/poem/individual/item/2172>,
-    <http://purl.org/twc/poem/individual/item/2173>, <http://purl.org/twc/poem/individual/item/2174>,
-    <http://purl.org/twc/poem/individual/item/2175>, <http://purl.org/twc/poem/individual/item/2176>,
-    <http://purl.org/twc/poem/individual/item/2177>, <http://purl.org/twc/poem/individual/item/2178>,
-    <http://purl.org/twc/poem/individual/item/2179>, <http://purl.org/twc/poem/individual/item/2180>,
-    <http://purl.org/twc/poem/individual/item/2181>, <http://purl.org/twc/poem/individual/item/2182>,
-    <http://purl.org/twc/poem/individual/item/2183>;
+  sio:hasMember <http://purl.org/twc/poem/individual/component/463>, <http://purl.org/twc/poem/individual/item/2149>,
+    <http://purl.org/twc/poem/individual/item/2150>, <http://purl.org/twc/poem/individual/item/2151>,
+    <http://purl.org/twc/poem/individual/item/2152>, <http://purl.org/twc/poem/individual/item/2153>,
+    <http://purl.org/twc/poem/individual/item/2154>, <http://purl.org/twc/poem/individual/item/2155>,
+    <http://purl.org/twc/poem/individual/item/2156>, <http://purl.org/twc/poem/individual/item/2157>,
+    <http://purl.org/twc/poem/individual/item/2158>, <http://purl.org/twc/poem/individual/item/2159>,
+    <http://purl.org/twc/poem/individual/item/2160>, <http://purl.org/twc/poem/individual/item/2161>,
+    <http://purl.org/twc/poem/individual/item/2162>, <http://purl.org/twc/poem/individual/item/2163>,
+    <http://purl.org/twc/poem/individual/item/2164>, <http://purl.org/twc/poem/individual/item/2165>,
+    <http://purl.org/twc/poem/individual/item/2166>, <http://purl.org/twc/poem/individual/item/2167>,
+    <http://purl.org/twc/poem/individual/item/2168>, <http://purl.org/twc/poem/individual/item/2169>,
+    <http://purl.org/twc/poem/individual/item/2170>, <http://purl.org/twc/poem/individual/item/2171>,
+    <http://purl.org/twc/poem/individual/item/2172>, <http://purl.org/twc/poem/individual/item/2173>,
+    <http://purl.org/twc/poem/individual/item/2174>, <http://purl.org/twc/poem/individual/item/2175>,
+    <http://purl.org/twc/poem/individual/item/2176>, <http://purl.org/twc/poem/individual/item/2177>,
+    <http://purl.org/twc/poem/individual/item/2178>, <http://purl.org/twc/poem/individual/item/2179>,
+    <http://purl.org/twc/poem/individual/item/2180>, <http://purl.org/twc/poem/individual/item/2181>,
+    <http://purl.org/twc/poem/individual/item/2182>, <http://purl.org/twc/poem/individual/item/2183>;
   rdfs:label "RCADS-35-Y-EN";
   skos:notation "RCADS-35-Y-EN" .
 
 <http://purl.org/twc/poem/individual/instrument/108> a fhir:Questionnaire, poem:PsychometricQuestionnaire;
   fhir:code "RCADS-35-Y-SW";
   sio:SIO_000008 <http://purl.org/twc/poem/individual/informant/1>;
-  sio:SIO_000059 <http://purl.org/twc/poem/individual/item/2184>, <http://purl.org/twc/poem/individual/item/2185>,
-    <http://purl.org/twc/poem/individual/item/2186>, <http://purl.org/twc/poem/individual/item/2187>,
-    <http://purl.org/twc/poem/individual/item/2188>, <http://purl.org/twc/poem/individual/item/2189>,
-    <http://purl.org/twc/poem/individual/item/2190>, <http://purl.org/twc/poem/individual/item/2191>,
-    <http://purl.org/twc/poem/individual/item/2192>, <http://purl.org/twc/poem/individual/item/2193>,
-    <http://purl.org/twc/poem/individual/item/2194>, <http://purl.org/twc/poem/individual/item/2195>,
-    <http://purl.org/twc/poem/individual/item/2196>, <http://purl.org/twc/poem/individual/item/2197>,
-    <http://purl.org/twc/poem/individual/item/2198>, <http://purl.org/twc/poem/individual/item/2199>,
-    <http://purl.org/twc/poem/individual/item/2200>, <http://purl.org/twc/poem/individual/item/2201>,
-    <http://purl.org/twc/poem/individual/item/2202>, <http://purl.org/twc/poem/individual/item/2203>,
-    <http://purl.org/twc/poem/individual/item/2204>, <http://purl.org/twc/poem/individual/item/2205>,
-    <http://purl.org/twc/poem/individual/item/2206>, <http://purl.org/twc/poem/individual/item/2207>,
-    <http://purl.org/twc/poem/individual/item/2208>, <http://purl.org/twc/poem/individual/item/2209>,
-    <http://purl.org/twc/poem/individual/item/2210>, <http://purl.org/twc/poem/individual/item/2211>,
-    <http://purl.org/twc/poem/individual/item/2212>, <http://purl.org/twc/poem/individual/item/2213>,
-    <http://purl.org/twc/poem/individual/item/2214>, <http://purl.org/twc/poem/individual/item/2215>,
-    <http://purl.org/twc/poem/individual/item/2216>, <http://purl.org/twc/poem/individual/item/2217>,
-    <http://purl.org/twc/poem/individual/item/2218>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/component/464>, <http://purl.org/twc/poem/individual/item/2184>,
+    <http://purl.org/twc/poem/individual/item/2185>, <http://purl.org/twc/poem/individual/item/2186>,
+    <http://purl.org/twc/poem/individual/item/2187>, <http://purl.org/twc/poem/individual/item/2188>,
+    <http://purl.org/twc/poem/individual/item/2189>, <http://purl.org/twc/poem/individual/item/2190>,
+    <http://purl.org/twc/poem/individual/item/2191>, <http://purl.org/twc/poem/individual/item/2192>,
+    <http://purl.org/twc/poem/individual/item/2193>, <http://purl.org/twc/poem/individual/item/2194>,
+    <http://purl.org/twc/poem/individual/item/2195>, <http://purl.org/twc/poem/individual/item/2196>,
+    <http://purl.org/twc/poem/individual/item/2197>, <http://purl.org/twc/poem/individual/item/2198>,
+    <http://purl.org/twc/poem/individual/item/2199>, <http://purl.org/twc/poem/individual/item/2200>,
+    <http://purl.org/twc/poem/individual/item/2201>, <http://purl.org/twc/poem/individual/item/2202>,
+    <http://purl.org/twc/poem/individual/item/2203>, <http://purl.org/twc/poem/individual/item/2204>,
+    <http://purl.org/twc/poem/individual/item/2205>, <http://purl.org/twc/poem/individual/item/2206>,
+    <http://purl.org/twc/poem/individual/item/2207>, <http://purl.org/twc/poem/individual/item/2208>,
+    <http://purl.org/twc/poem/individual/item/2209>, <http://purl.org/twc/poem/individual/item/2210>,
+    <http://purl.org/twc/poem/individual/item/2211>, <http://purl.org/twc/poem/individual/item/2212>,
+    <http://purl.org/twc/poem/individual/item/2213>, <http://purl.org/twc/poem/individual/item/2214>,
+    <http://purl.org/twc/poem/individual/item/2215>, <http://purl.org/twc/poem/individual/item/2216>,
+    <http://purl.org/twc/poem/individual/item/2217>, <http://purl.org/twc/poem/individual/item/2218>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/informant/1>;
-  sio:hasMember <http://purl.org/twc/poem/individual/item/2184>, <http://purl.org/twc/poem/individual/item/2185>,
-    <http://purl.org/twc/poem/individual/item/2186>, <http://purl.org/twc/poem/individual/item/2187>,
-    <http://purl.org/twc/poem/individual/item/2188>, <http://purl.org/twc/poem/individual/item/2189>,
-    <http://purl.org/twc/poem/individual/item/2190>, <http://purl.org/twc/poem/individual/item/2191>,
-    <http://purl.org/twc/poem/individual/item/2192>, <http://purl.org/twc/poem/individual/item/2193>,
-    <http://purl.org/twc/poem/individual/item/2194>, <http://purl.org/twc/poem/individual/item/2195>,
-    <http://purl.org/twc/poem/individual/item/2196>, <http://purl.org/twc/poem/individual/item/2197>,
-    <http://purl.org/twc/poem/individual/item/2198>, <http://purl.org/twc/poem/individual/item/2199>,
-    <http://purl.org/twc/poem/individual/item/2200>, <http://purl.org/twc/poem/individual/item/2201>,
-    <http://purl.org/twc/poem/individual/item/2202>, <http://purl.org/twc/poem/individual/item/2203>,
-    <http://purl.org/twc/poem/individual/item/2204>, <http://purl.org/twc/poem/individual/item/2205>,
-    <http://purl.org/twc/poem/individual/item/2206>, <http://purl.org/twc/poem/individual/item/2207>,
-    <http://purl.org/twc/poem/individual/item/2208>, <http://purl.org/twc/poem/individual/item/2209>,
-    <http://purl.org/twc/poem/individual/item/2210>, <http://purl.org/twc/poem/individual/item/2211>,
-    <http://purl.org/twc/poem/individual/item/2212>, <http://purl.org/twc/poem/individual/item/2213>,
-    <http://purl.org/twc/poem/individual/item/2214>, <http://purl.org/twc/poem/individual/item/2215>,
-    <http://purl.org/twc/poem/individual/item/2216>, <http://purl.org/twc/poem/individual/item/2217>,
-    <http://purl.org/twc/poem/individual/item/2218>;
+  sio:hasMember <http://purl.org/twc/poem/individual/component/464>, <http://purl.org/twc/poem/individual/item/2184>,
+    <http://purl.org/twc/poem/individual/item/2185>, <http://purl.org/twc/poem/individual/item/2186>,
+    <http://purl.org/twc/poem/individual/item/2187>, <http://purl.org/twc/poem/individual/item/2188>,
+    <http://purl.org/twc/poem/individual/item/2189>, <http://purl.org/twc/poem/individual/item/2190>,
+    <http://purl.org/twc/poem/individual/item/2191>, <http://purl.org/twc/poem/individual/item/2192>,
+    <http://purl.org/twc/poem/individual/item/2193>, <http://purl.org/twc/poem/individual/item/2194>,
+    <http://purl.org/twc/poem/individual/item/2195>, <http://purl.org/twc/poem/individual/item/2196>,
+    <http://purl.org/twc/poem/individual/item/2197>, <http://purl.org/twc/poem/individual/item/2198>,
+    <http://purl.org/twc/poem/individual/item/2199>, <http://purl.org/twc/poem/individual/item/2200>,
+    <http://purl.org/twc/poem/individual/item/2201>, <http://purl.org/twc/poem/individual/item/2202>,
+    <http://purl.org/twc/poem/individual/item/2203>, <http://purl.org/twc/poem/individual/item/2204>,
+    <http://purl.org/twc/poem/individual/item/2205>, <http://purl.org/twc/poem/individual/item/2206>,
+    <http://purl.org/twc/poem/individual/item/2207>, <http://purl.org/twc/poem/individual/item/2208>,
+    <http://purl.org/twc/poem/individual/item/2209>, <http://purl.org/twc/poem/individual/item/2210>,
+    <http://purl.org/twc/poem/individual/item/2211>, <http://purl.org/twc/poem/individual/item/2212>,
+    <http://purl.org/twc/poem/individual/item/2213>, <http://purl.org/twc/poem/individual/item/2214>,
+    <http://purl.org/twc/poem/individual/item/2215>, <http://purl.org/twc/poem/individual/item/2216>,
+    <http://purl.org/twc/poem/individual/item/2217>, <http://purl.org/twc/poem/individual/item/2218>;
   rdfs:label "RCADS-35-Y-SW";
   skos:notation "RCADS-35-Y-SW" .
 
@@ -508,7 +508,9 @@
 <http://purl.org/twc/poem/individual/instrument/113> a fhir:Questionnaire, poem:PsychometricQuestionnaire;
   fhir:code "RCADS-47-Y-FR-2";
   sio:SIO_000008 <http://purl.org/twc/poem/individual/informant/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/component/528>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/informant/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/component/528>;
   rdfs:label "RCADS-47-Y-FR-2";
   skos:notation "RCADS-47-Y-FR-2" .
 
@@ -595,7 +597,9 @@
 <http://purl.org/twc/poem/individual/instrument/120> a fhir:Questionnaire, poem:PsychometricQuestionnaire;
   fhir:code "RCADS-47-Y-BN";
   sio:SIO_000008 <http://purl.org/twc/poem/individual/informant/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/component/482>, <http://purl.org/twc/poem/individual/component/483>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/informant/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/component/482>, <http://purl.org/twc/poem/individual/component/483>;
   rdfs:label "RCADS-47-Y-BN";
   skos:notation "RCADS-47-Y-BN" .
 
@@ -606,9 +610,9 @@
   rdfs:label "RCADS-47-CG-BN";
   skos:notation "RCADS-47-CG-BN" .
 
-<http://purl.org/twc/poem/individual/instrument/122> a fhir:Questionnaire, poem:PsychometricQuestionnaire;
-  fhir:code "RCADS-25-Y-BN";
+<http://purl.org/twc/poem/individual/instrument/122> fhir:code "RCADS-25-Y-BN";
   sio:SIO_000008 <http://purl.org/twc/poem/individual/informant/1>;
+  a fhir:Questionnaire, poem:PsychometricQuestionnaire;
   sio:hasAttribute <http://purl.org/twc/poem/individual/informant/1>;
   rdfs:label "RCADS-25-Y-BN";
   skos:notation "RCADS-25-Y-BN" .
@@ -651,50 +655,57 @@
 <http://purl.org/twc/poem/individual/instrument/128> a fhir:Questionnaire, poem:PsychometricQuestionnaire;
   fhir:code "MTT-35-Y-NO";
   sio:SIO_000008 <http://purl.org/twc/poem/individual/informant/1>;
-  sio:SIO_000059 <http://purl.org/twc/poem/individual/item/2219>, <http://purl.org/twc/poem/individual/item/2220>,
-    <http://purl.org/twc/poem/individual/item/2221>, <http://purl.org/twc/poem/individual/item/2222>,
-    <http://purl.org/twc/poem/individual/item/2223>, <http://purl.org/twc/poem/individual/item/2224>,
-    <http://purl.org/twc/poem/individual/item/2225>, <http://purl.org/twc/poem/individual/item/2226>,
-    <http://purl.org/twc/poem/individual/item/2227>, <http://purl.org/twc/poem/individual/item/2228>,
-    <http://purl.org/twc/poem/individual/item/2229>, <http://purl.org/twc/poem/individual/item/2230>,
-    <http://purl.org/twc/poem/individual/item/2231>, <http://purl.org/twc/poem/individual/item/2232>,
-    <http://purl.org/twc/poem/individual/item/2233>, <http://purl.org/twc/poem/individual/item/2234>,
-    <http://purl.org/twc/poem/individual/item/2235>, <http://purl.org/twc/poem/individual/item/2236>,
-    <http://purl.org/twc/poem/individual/item/2237>, <http://purl.org/twc/poem/individual/item/2238>,
-    <http://purl.org/twc/poem/individual/item/2239>, <http://purl.org/twc/poem/individual/item/2240>,
-    <http://purl.org/twc/poem/individual/item/2241>, <http://purl.org/twc/poem/individual/item/2243>,
-    <http://purl.org/twc/poem/individual/item/2244>, <http://purl.org/twc/poem/individual/item/2245>,
-    <http://purl.org/twc/poem/individual/item/2246>, <http://purl.org/twc/poem/individual/item/2247>,
-    <http://purl.org/twc/poem/individual/item/2248>, <http://purl.org/twc/poem/individual/item/2250>,
-    <http://purl.org/twc/poem/individual/item/2251>, <http://purl.org/twc/poem/individual/item/2252>,
-    <http://purl.org/twc/poem/individual/item/2253>, <http://purl.org/twc/poem/individual/item/2277>,
-    <http://purl.org/twc/poem/individual/item/2284>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/component/471>, <http://purl.org/twc/poem/individual/component/472>,
+    <http://purl.org/twc/poem/individual/component/473>, <http://purl.org/twc/poem/individual/component/474>,
+    <http://purl.org/twc/poem/individual/component/475>, <http://purl.org/twc/poem/individual/item/2219>,
+    <http://purl.org/twc/poem/individual/item/2220>, <http://purl.org/twc/poem/individual/item/2221>,
+    <http://purl.org/twc/poem/individual/item/2222>, <http://purl.org/twc/poem/individual/item/2223>,
+    <http://purl.org/twc/poem/individual/item/2224>, <http://purl.org/twc/poem/individual/item/2225>,
+    <http://purl.org/twc/poem/individual/item/2226>, <http://purl.org/twc/poem/individual/item/2227>,
+    <http://purl.org/twc/poem/individual/item/2228>, <http://purl.org/twc/poem/individual/item/2229>,
+    <http://purl.org/twc/poem/individual/item/2230>, <http://purl.org/twc/poem/individual/item/2231>,
+    <http://purl.org/twc/poem/individual/item/2232>, <http://purl.org/twc/poem/individual/item/2233>,
+    <http://purl.org/twc/poem/individual/item/2234>, <http://purl.org/twc/poem/individual/item/2235>,
+    <http://purl.org/twc/poem/individual/item/2236>, <http://purl.org/twc/poem/individual/item/2237>,
+    <http://purl.org/twc/poem/individual/item/2238>, <http://purl.org/twc/poem/individual/item/2239>,
+    <http://purl.org/twc/poem/individual/item/2240>, <http://purl.org/twc/poem/individual/item/2241>,
+    <http://purl.org/twc/poem/individual/item/2243>, <http://purl.org/twc/poem/individual/item/2244>,
+    <http://purl.org/twc/poem/individual/item/2245>, <http://purl.org/twc/poem/individual/item/2246>,
+    <http://purl.org/twc/poem/individual/item/2247>, <http://purl.org/twc/poem/individual/item/2248>,
+    <http://purl.org/twc/poem/individual/item/2250>, <http://purl.org/twc/poem/individual/item/2251>,
+    <http://purl.org/twc/poem/individual/item/2252>, <http://purl.org/twc/poem/individual/item/2253>,
+    <http://purl.org/twc/poem/individual/item/2277>, <http://purl.org/twc/poem/individual/item/2284>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/informant/1>;
-  sio:hasMember <http://purl.org/twc/poem/individual/item/2219>, <http://purl.org/twc/poem/individual/item/2220>,
-    <http://purl.org/twc/poem/individual/item/2221>, <http://purl.org/twc/poem/individual/item/2222>,
-    <http://purl.org/twc/poem/individual/item/2223>, <http://purl.org/twc/poem/individual/item/2224>,
-    <http://purl.org/twc/poem/individual/item/2225>, <http://purl.org/twc/poem/individual/item/2226>,
-    <http://purl.org/twc/poem/individual/item/2227>, <http://purl.org/twc/poem/individual/item/2228>,
-    <http://purl.org/twc/poem/individual/item/2229>, <http://purl.org/twc/poem/individual/item/2230>,
-    <http://purl.org/twc/poem/individual/item/2231>, <http://purl.org/twc/poem/individual/item/2232>,
-    <http://purl.org/twc/poem/individual/item/2233>, <http://purl.org/twc/poem/individual/item/2234>,
-    <http://purl.org/twc/poem/individual/item/2235>, <http://purl.org/twc/poem/individual/item/2236>,
-    <http://purl.org/twc/poem/individual/item/2237>, <http://purl.org/twc/poem/individual/item/2238>,
-    <http://purl.org/twc/poem/individual/item/2239>, <http://purl.org/twc/poem/individual/item/2240>,
-    <http://purl.org/twc/poem/individual/item/2241>, <http://purl.org/twc/poem/individual/item/2243>,
-    <http://purl.org/twc/poem/individual/item/2244>, <http://purl.org/twc/poem/individual/item/2245>,
-    <http://purl.org/twc/poem/individual/item/2246>, <http://purl.org/twc/poem/individual/item/2247>,
-    <http://purl.org/twc/poem/individual/item/2248>, <http://purl.org/twc/poem/individual/item/2250>,
-    <http://purl.org/twc/poem/individual/item/2251>, <http://purl.org/twc/poem/individual/item/2252>,
-    <http://purl.org/twc/poem/individual/item/2253>, <http://purl.org/twc/poem/individual/item/2277>,
-    <http://purl.org/twc/poem/individual/item/2284>;
+  sio:hasMember <http://purl.org/twc/poem/individual/component/471>, <http://purl.org/twc/poem/individual/component/472>,
+    <http://purl.org/twc/poem/individual/component/473>, <http://purl.org/twc/poem/individual/component/474>,
+    <http://purl.org/twc/poem/individual/component/475>, <http://purl.org/twc/poem/individual/item/2219>,
+    <http://purl.org/twc/poem/individual/item/2220>, <http://purl.org/twc/poem/individual/item/2221>,
+    <http://purl.org/twc/poem/individual/item/2222>, <http://purl.org/twc/poem/individual/item/2223>,
+    <http://purl.org/twc/poem/individual/item/2224>, <http://purl.org/twc/poem/individual/item/2225>,
+    <http://purl.org/twc/poem/individual/item/2226>, <http://purl.org/twc/poem/individual/item/2227>,
+    <http://purl.org/twc/poem/individual/item/2228>, <http://purl.org/twc/poem/individual/item/2229>,
+    <http://purl.org/twc/poem/individual/item/2230>, <http://purl.org/twc/poem/individual/item/2231>,
+    <http://purl.org/twc/poem/individual/item/2232>, <http://purl.org/twc/poem/individual/item/2233>,
+    <http://purl.org/twc/poem/individual/item/2234>, <http://purl.org/twc/poem/individual/item/2235>,
+    <http://purl.org/twc/poem/individual/item/2236>, <http://purl.org/twc/poem/individual/item/2237>,
+    <http://purl.org/twc/poem/individual/item/2238>, <http://purl.org/twc/poem/individual/item/2239>,
+    <http://purl.org/twc/poem/individual/item/2240>, <http://purl.org/twc/poem/individual/item/2241>,
+    <http://purl.org/twc/poem/individual/item/2243>, <http://purl.org/twc/poem/individual/item/2244>,
+    <http://purl.org/twc/poem/individual/item/2245>, <http://purl.org/twc/poem/individual/item/2246>,
+    <http://purl.org/twc/poem/individual/item/2247>, <http://purl.org/twc/poem/individual/item/2248>,
+    <http://purl.org/twc/poem/individual/item/2250>, <http://purl.org/twc/poem/individual/item/2251>,
+    <http://purl.org/twc/poem/individual/item/2252>, <http://purl.org/twc/poem/individual/item/2253>,
+    <http://purl.org/twc/poem/individual/item/2277>, <http://purl.org/twc/poem/individual/item/2284>;
   rdfs:label "MTT-35-Y-NO";
   skos:notation "MTT-35-Y-NO" .
 
 <http://purl.org/twc/poem/individual/instrument/129> a fhir:Questionnaire, poem:PsychometricQuestionnaire;
   fhir:code "MTT-35-CG-NO";
   sio:SIO_000008 <http://purl.org/twc/poem/individual/informant/2>;
-  sio:SIO_000059 <http://purl.org/twc/poem/individual/item/2238>, <http://purl.org/twc/poem/individual/item/2254>,
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/component/476>, <http://purl.org/twc/poem/individual/component/477>,
+    <http://purl.org/twc/poem/individual/component/478>, <http://purl.org/twc/poem/individual/component/479>,
+    <http://purl.org/twc/poem/individual/component/480>, <http://purl.org/twc/poem/individual/component/481>,
+    <http://purl.org/twc/poem/individual/item/2238>, <http://purl.org/twc/poem/individual/item/2254>,
     <http://purl.org/twc/poem/individual/item/2255>, <http://purl.org/twc/poem/individual/item/2256>,
     <http://purl.org/twc/poem/individual/item/2257>, <http://purl.org/twc/poem/individual/item/2258>,
     <http://purl.org/twc/poem/individual/item/2259>, <http://purl.org/twc/poem/individual/item/2260>,
@@ -713,7 +724,10 @@
     <http://purl.org/twc/poem/individual/item/2286>, <http://purl.org/twc/poem/individual/item/2287>,
     <http://purl.org/twc/poem/individual/item/2288>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/informant/2>;
-  sio:hasMember <http://purl.org/twc/poem/individual/item/2238>, <http://purl.org/twc/poem/individual/item/2254>,
+  sio:hasMember <http://purl.org/twc/poem/individual/component/476>, <http://purl.org/twc/poem/individual/component/477>,
+    <http://purl.org/twc/poem/individual/component/478>, <http://purl.org/twc/poem/individual/component/479>,
+    <http://purl.org/twc/poem/individual/component/480>, <http://purl.org/twc/poem/individual/component/481>,
+    <http://purl.org/twc/poem/individual/item/2238>, <http://purl.org/twc/poem/individual/item/2254>,
     <http://purl.org/twc/poem/individual/item/2255>, <http://purl.org/twc/poem/individual/item/2256>,
     <http://purl.org/twc/poem/individual/item/2257>, <http://purl.org/twc/poem/individual/item/2258>,
     <http://purl.org/twc/poem/individual/item/2259>, <http://purl.org/twc/poem/individual/item/2260>,
@@ -1116,8 +1130,7 @@
   skos:notation "RCADS-25-CG-ES";
   prov:wasGeneratedBy <http://purl.org/twc/poem/individual/activity/18> .
 
-<http://purl.org/twc/poem/individual/instrument/21> a fhir:Questionnaire, poem:PsychometricQuestionnaire;
-  fhir:code "RCADS-47-Y-AR";
+<http://purl.org/twc/poem/individual/instrument/21> fhir:code "RCADS-47-Y-AR";
   sio:SIO_000008 <http://purl.org/twc/poem/individual/informant/1>;
   sio:SIO_000059 <http://purl.org/twc/poem/individual/component/93>, <http://purl.org/twc/poem/individual/component/94>,
     <http://purl.org/twc/poem/individual/component/95>, <http://purl.org/twc/poem/individual/component/96>,
@@ -1170,8 +1183,9 @@
     <http://purl.org/twc/poem/individual/item/509>, <http://purl.org/twc/poem/individual/item/510>,
     <http://purl.org/twc/poem/individual/item/511>, <http://purl.org/twc/poem/individual/item/512>,
     <http://purl.org/twc/poem/individual/item/513>, <http://purl.org/twc/poem/individual/item/514>,
-    <http://purl.org/twc/poem/individual/item/515>, <http://purl.org/twc/poem/individual/item/516>,
-    <http://purl.org/twc/poem/individual/item/517>;
+    <http://purl.org/twc/poem/individual/item/515>, <http://purl.org/twc/poem/individual/item/516>;
+  a fhir:Questionnaire, poem:PsychometricQuestionnaire;
+  sio:hasMember <http://purl.org/twc/poem/individual/item/517>;
   rdfs:label "RCADS-47-Y-AR";
   skos:notation "RCADS-47-Y-AR";
   prov:wasGeneratedBy <http://purl.org/twc/poem/individual/activity/19> .
@@ -1190,13 +1204,13 @@
   skos:notation "RCADS-47-CG-AR";
   prov:wasGeneratedBy <http://purl.org/twc/poem/individual/activity/20> .
 
-<http://purl.org/twc/poem/individual/instrument/23> fhir:code "RCADS-25-Y-AR";
+<http://purl.org/twc/poem/individual/instrument/23> a fhir:Questionnaire, poem:PsychometricQuestionnaire;
+  fhir:code "RCADS-25-Y-AR";
   sio:SIO_000008 <http://purl.org/twc/poem/individual/informant/1>;
   sio:SIO_000059 <http://purl.org/twc/poem/individual/component/102>, <http://purl.org/twc/poem/individual/component/103>,
     <http://purl.org/twc/poem/individual/component/104>, <http://purl.org/twc/poem/individual/component/105>,
-    <http://purl.org/twc/poem/individual/item/472>, <http://purl.org/twc/poem/individual/item/474>;
-  a fhir:Questionnaire, poem:PsychometricQuestionnaire;
-  sio:SIO_000059 <http://purl.org/twc/poem/individual/item/475>, <http://purl.org/twc/poem/individual/item/476>,
+    <http://purl.org/twc/poem/individual/item/472>, <http://purl.org/twc/poem/individual/item/474>,
+    <http://purl.org/twc/poem/individual/item/475>, <http://purl.org/twc/poem/individual/item/476>,
     <http://purl.org/twc/poem/individual/item/481>, <http://purl.org/twc/poem/individual/item/483>,
     <http://purl.org/twc/poem/individual/item/485>, <http://purl.org/twc/poem/individual/item/487>,
     <http://purl.org/twc/poem/individual/item/489>, <http://purl.org/twc/poem/individual/item/491>,
@@ -1732,25 +1746,25 @@
   sio:SIO_000059 <http://purl.org/twc/poem/individual/component/151>, <http://purl.org/twc/poem/individual/component/152>,
     <http://purl.org/twc/poem/individual/component/153>, <http://purl.org/twc/poem/individual/component/154>,
     <http://purl.org/twc/poem/individual/component/155>, <http://purl.org/twc/poem/individual/item/225>,
-    <http://purl.org/twc/poem/individual/item/226>, <http://purl.org/twc/poem/individual/item/227>,
-    <http://purl.org/twc/poem/individual/item/228>, <http://purl.org/twc/poem/individual/item/229>,
-    <http://purl.org/twc/poem/individual/item/230>, <http://purl.org/twc/poem/individual/item/231>,
-    <http://purl.org/twc/poem/individual/item/232>, <http://purl.org/twc/poem/individual/item/233>,
-    <http://purl.org/twc/poem/individual/item/234>, <http://purl.org/twc/poem/individual/item/235>,
-    <http://purl.org/twc/poem/individual/item/236>, <http://purl.org/twc/poem/individual/item/237>,
-    <http://purl.org/twc/poem/individual/item/238>, <http://purl.org/twc/poem/individual/item/239>,
-    <http://purl.org/twc/poem/individual/item/240>, <http://purl.org/twc/poem/individual/item/241>,
-    <http://purl.org/twc/poem/individual/item/242>, <http://purl.org/twc/poem/individual/item/243>,
-    <http://purl.org/twc/poem/individual/item/244>, <http://purl.org/twc/poem/individual/item/245>,
-    <http://purl.org/twc/poem/individual/item/246>, <http://purl.org/twc/poem/individual/item/247>,
-    <http://purl.org/twc/poem/individual/item/248>, <http://purl.org/twc/poem/individual/item/249>,
-    <http://purl.org/twc/poem/individual/item/250>, <http://purl.org/twc/poem/individual/item/251>,
-    <http://purl.org/twc/poem/individual/item/252>, <http://purl.org/twc/poem/individual/item/253>,
-    <http://purl.org/twc/poem/individual/item/254>, <http://purl.org/twc/poem/individual/item/255>,
-    <http://purl.org/twc/poem/individual/item/256>, <http://purl.org/twc/poem/individual/item/257>,
-    <http://purl.org/twc/poem/individual/item/258>;
+    <http://purl.org/twc/poem/individual/item/226>;
   a fhir:Questionnaire, poem:PsychometricQuestionnaire;
-  sio:SIO_000059 <http://purl.org/twc/poem/individual/item/259>, <http://purl.org/twc/poem/individual/item/260>,
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/item/227>, <http://purl.org/twc/poem/individual/item/228>,
+    <http://purl.org/twc/poem/individual/item/229>, <http://purl.org/twc/poem/individual/item/230>,
+    <http://purl.org/twc/poem/individual/item/231>, <http://purl.org/twc/poem/individual/item/232>,
+    <http://purl.org/twc/poem/individual/item/233>, <http://purl.org/twc/poem/individual/item/234>,
+    <http://purl.org/twc/poem/individual/item/235>, <http://purl.org/twc/poem/individual/item/236>,
+    <http://purl.org/twc/poem/individual/item/237>, <http://purl.org/twc/poem/individual/item/238>,
+    <http://purl.org/twc/poem/individual/item/239>, <http://purl.org/twc/poem/individual/item/240>,
+    <http://purl.org/twc/poem/individual/item/241>, <http://purl.org/twc/poem/individual/item/242>,
+    <http://purl.org/twc/poem/individual/item/243>, <http://purl.org/twc/poem/individual/item/244>,
+    <http://purl.org/twc/poem/individual/item/245>, <http://purl.org/twc/poem/individual/item/246>,
+    <http://purl.org/twc/poem/individual/item/247>, <http://purl.org/twc/poem/individual/item/248>,
+    <http://purl.org/twc/poem/individual/item/249>, <http://purl.org/twc/poem/individual/item/250>,
+    <http://purl.org/twc/poem/individual/item/251>, <http://purl.org/twc/poem/individual/item/252>,
+    <http://purl.org/twc/poem/individual/item/253>, <http://purl.org/twc/poem/individual/item/254>,
+    <http://purl.org/twc/poem/individual/item/255>, <http://purl.org/twc/poem/individual/item/256>,
+    <http://purl.org/twc/poem/individual/item/257>, <http://purl.org/twc/poem/individual/item/258>,
+    <http://purl.org/twc/poem/individual/item/259>, <http://purl.org/twc/poem/individual/item/260>,
     <http://purl.org/twc/poem/individual/item/261>, <http://purl.org/twc/poem/individual/item/262>,
     <http://purl.org/twc/poem/individual/item/263>, <http://purl.org/twc/poem/individual/item/264>,
     <http://purl.org/twc/poem/individual/item/265>, <http://purl.org/twc/poem/individual/item/266>,
@@ -2254,8 +2268,7 @@
   skos:notation "RCADS-25-Y-EL";
   prov:wasGeneratedBy <http://purl.org/twc/poem/individual/activity/36> .
 
-<http://purl.org/twc/poem/individual/instrument/44> a fhir:Questionnaire, poem:PsychometricQuestionnaire;
-  fhir:code "RCADS-25-CG-EL";
+<http://purl.org/twc/poem/individual/instrument/44> fhir:code "RCADS-25-CG-EL";
   sio:SIO_000008 <http://purl.org/twc/poem/individual/informant/2>;
   sio:SIO_000059 <http://purl.org/twc/poem/individual/component/196>, <http://purl.org/twc/poem/individual/component/197>,
     <http://purl.org/twc/poem/individual/component/198>, <http://purl.org/twc/poem/individual/component/199>,
@@ -2282,8 +2295,9 @@
     <http://purl.org/twc/poem/individual/item/335>, <http://purl.org/twc/poem/individual/item/337>,
     <http://purl.org/twc/poem/individual/item/339>, <http://purl.org/twc/poem/individual/item/343>,
     <http://purl.org/twc/poem/individual/item/344>, <http://purl.org/twc/poem/individual/item/345>,
-    <http://purl.org/twc/poem/individual/item/347>, <http://purl.org/twc/poem/individual/item/349>,
-    <http://purl.org/twc/poem/individual/item/350>, <http://purl.org/twc/poem/individual/item/351>,
+    <http://purl.org/twc/poem/individual/item/347>, <http://purl.org/twc/poem/individual/item/349>;
+  a fhir:Questionnaire, poem:PsychometricQuestionnaire;
+  sio:hasMember <http://purl.org/twc/poem/individual/item/350>, <http://purl.org/twc/poem/individual/item/351>,
     <http://purl.org/twc/poem/individual/item/354>, <http://purl.org/twc/poem/individual/item/355>,
     <http://purl.org/twc/poem/individual/item/358>, <http://purl.org/twc/poem/individual/item/359>,
     <http://purl.org/twc/poem/individual/item/360>, <http://purl.org/twc/poem/individual/item/361>,
@@ -2292,7 +2306,8 @@
   skos:notation "RCADS-25-CG-EL";
   prov:wasGeneratedBy <http://purl.org/twc/poem/individual/activity/37> .
 
-<http://purl.org/twc/poem/individual/instrument/45> fhir:code "RCADS-47-Y-HU";
+<http://purl.org/twc/poem/individual/instrument/45> a fhir:Questionnaire, poem:PsychometricQuestionnaire;
+  fhir:code "RCADS-47-Y-HU";
   sio:SIO_000008 <http://purl.org/twc/poem/individual/informant/1>;
   sio:SIO_000059 <http://purl.org/twc/poem/individual/component/201>, <http://purl.org/twc/poem/individual/component/202>,
     <http://purl.org/twc/poem/individual/component/203>, <http://purl.org/twc/poem/individual/component/204>,
@@ -2301,26 +2316,25 @@
     <http://purl.org/twc/poem/individual/item/847>, <http://purl.org/twc/poem/individual/item/848>,
     <http://purl.org/twc/poem/individual/item/849>, <http://purl.org/twc/poem/individual/item/850>,
     <http://purl.org/twc/poem/individual/item/851>, <http://purl.org/twc/poem/individual/item/852>,
-    <http://purl.org/twc/poem/individual/item/853>;
-  a fhir:Questionnaire, poem:PsychometricQuestionnaire;
-  sio:SIO_000059 <http://purl.org/twc/poem/individual/item/854>, <http://purl.org/twc/poem/individual/item/855>,
-    <http://purl.org/twc/poem/individual/item/856>, <http://purl.org/twc/poem/individual/item/857>,
-    <http://purl.org/twc/poem/individual/item/858>, <http://purl.org/twc/poem/individual/item/859>,
-    <http://purl.org/twc/poem/individual/item/860>, <http://purl.org/twc/poem/individual/item/861>,
-    <http://purl.org/twc/poem/individual/item/862>, <http://purl.org/twc/poem/individual/item/863>,
-    <http://purl.org/twc/poem/individual/item/864>, <http://purl.org/twc/poem/individual/item/865>,
-    <http://purl.org/twc/poem/individual/item/866>, <http://purl.org/twc/poem/individual/item/867>,
-    <http://purl.org/twc/poem/individual/item/868>, <http://purl.org/twc/poem/individual/item/869>,
-    <http://purl.org/twc/poem/individual/item/870>, <http://purl.org/twc/poem/individual/item/871>,
-    <http://purl.org/twc/poem/individual/item/872>, <http://purl.org/twc/poem/individual/item/873>,
-    <http://purl.org/twc/poem/individual/item/874>, <http://purl.org/twc/poem/individual/item/875>,
-    <http://purl.org/twc/poem/individual/item/876>, <http://purl.org/twc/poem/individual/item/877>,
-    <http://purl.org/twc/poem/individual/item/878>, <http://purl.org/twc/poem/individual/item/879>,
-    <http://purl.org/twc/poem/individual/item/880>, <http://purl.org/twc/poem/individual/item/881>,
-    <http://purl.org/twc/poem/individual/item/882>, <http://purl.org/twc/poem/individual/item/883>,
-    <http://purl.org/twc/poem/individual/item/884>, <http://purl.org/twc/poem/individual/item/885>,
-    <http://purl.org/twc/poem/individual/item/886>, <http://purl.org/twc/poem/individual/item/887>,
-    <http://purl.org/twc/poem/individual/item/888>, <http://purl.org/twc/poem/individual/item/889>;
+    <http://purl.org/twc/poem/individual/item/853>, <http://purl.org/twc/poem/individual/item/854>,
+    <http://purl.org/twc/poem/individual/item/855>, <http://purl.org/twc/poem/individual/item/856>,
+    <http://purl.org/twc/poem/individual/item/857>, <http://purl.org/twc/poem/individual/item/858>,
+    <http://purl.org/twc/poem/individual/item/859>, <http://purl.org/twc/poem/individual/item/860>,
+    <http://purl.org/twc/poem/individual/item/861>, <http://purl.org/twc/poem/individual/item/862>,
+    <http://purl.org/twc/poem/individual/item/863>, <http://purl.org/twc/poem/individual/item/864>,
+    <http://purl.org/twc/poem/individual/item/865>, <http://purl.org/twc/poem/individual/item/866>,
+    <http://purl.org/twc/poem/individual/item/867>, <http://purl.org/twc/poem/individual/item/868>,
+    <http://purl.org/twc/poem/individual/item/869>, <http://purl.org/twc/poem/individual/item/870>,
+    <http://purl.org/twc/poem/individual/item/871>, <http://purl.org/twc/poem/individual/item/872>,
+    <http://purl.org/twc/poem/individual/item/873>, <http://purl.org/twc/poem/individual/item/874>,
+    <http://purl.org/twc/poem/individual/item/875>, <http://purl.org/twc/poem/individual/item/876>,
+    <http://purl.org/twc/poem/individual/item/877>, <http://purl.org/twc/poem/individual/item/878>,
+    <http://purl.org/twc/poem/individual/item/879>, <http://purl.org/twc/poem/individual/item/880>,
+    <http://purl.org/twc/poem/individual/item/881>, <http://purl.org/twc/poem/individual/item/882>,
+    <http://purl.org/twc/poem/individual/item/883>, <http://purl.org/twc/poem/individual/item/884>,
+    <http://purl.org/twc/poem/individual/item/885>, <http://purl.org/twc/poem/individual/item/886>,
+    <http://purl.org/twc/poem/individual/item/887>, <http://purl.org/twc/poem/individual/item/888>,
+    <http://purl.org/twc/poem/individual/item/889>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/informant/1>;
   sio:hasMember <http://purl.org/twc/poem/individual/component/201>, <http://purl.org/twc/poem/individual/component/202>,
     <http://purl.org/twc/poem/individual/component/203>, <http://purl.org/twc/poem/individual/component/204>,
@@ -2831,6 +2845,7 @@
     <http://purl.org/twc/poem/individual/item/996>, <http://purl.org/twc/poem/individual/item/997>,
     <http://purl.org/twc/poem/individual/item/998>, <http://purl.org/twc/poem/individual/item/999>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/informant/2>;
+  a fhir:Questionnaire, poem:PsychometricQuestionnaire;
   sio:hasMember <http://purl.org/twc/poem/individual/component/241>, <http://purl.org/twc/poem/individual/component/242>,
     <http://purl.org/twc/poem/individual/component/243>, <http://purl.org/twc/poem/individual/component/244>,
     <http://purl.org/twc/poem/individual/component/245>, <http://purl.org/twc/poem/individual/item/1000>,
@@ -2846,9 +2861,8 @@
     <http://purl.org/twc/poem/individual/item/972>, <http://purl.org/twc/poem/individual/item/973>,
     <http://purl.org/twc/poem/individual/item/974>, <http://purl.org/twc/poem/individual/item/975>,
     <http://purl.org/twc/poem/individual/item/976>, <http://purl.org/twc/poem/individual/item/977>,
-    <http://purl.org/twc/poem/individual/item/978>, <http://purl.org/twc/poem/individual/item/979>;
-  a fhir:Questionnaire, poem:PsychometricQuestionnaire;
-  sio:hasMember <http://purl.org/twc/poem/individual/item/980>, <http://purl.org/twc/poem/individual/item/981>,
+    <http://purl.org/twc/poem/individual/item/978>, <http://purl.org/twc/poem/individual/item/979>,
+    <http://purl.org/twc/poem/individual/item/980>, <http://purl.org/twc/poem/individual/item/981>,
     <http://purl.org/twc/poem/individual/item/982>, <http://purl.org/twc/poem/individual/item/983>,
     <http://purl.org/twc/poem/individual/item/984>, <http://purl.org/twc/poem/individual/item/985>,
     <http://purl.org/twc/poem/individual/item/986>, <http://purl.org/twc/poem/individual/item/987>,
@@ -3388,24 +3402,25 @@
     <http://purl.org/twc/poem/individual/item/1790>, <http://purl.org/twc/poem/individual/item/1791>,
     <http://purl.org/twc/poem/individual/item/1792>, <http://purl.org/twc/poem/individual/item/1793>,
     <http://purl.org/twc/poem/individual/item/1794>, <http://purl.org/twc/poem/individual/item/1795>,
-    <http://purl.org/twc/poem/individual/item/1796>, <http://purl.org/twc/poem/individual/item/1797>,
-    <http://purl.org/twc/poem/individual/item/1798>, <http://purl.org/twc/poem/individual/item/1799>,
-    <http://purl.org/twc/poem/individual/item/1800>, <http://purl.org/twc/poem/individual/item/1801>,
-    <http://purl.org/twc/poem/individual/item/1802>, <http://purl.org/twc/poem/individual/item/1803>,
-    <http://purl.org/twc/poem/individual/item/1804>, <http://purl.org/twc/poem/individual/item/1805>,
-    <http://purl.org/twc/poem/individual/item/1806>, <http://purl.org/twc/poem/individual/item/1807>,
-    <http://purl.org/twc/poem/individual/item/1808>, <http://purl.org/twc/poem/individual/item/1809>,
-    <http://purl.org/twc/poem/individual/item/1810>, <http://purl.org/twc/poem/individual/item/1811>,
-    <http://purl.org/twc/poem/individual/item/1812>, <http://purl.org/twc/poem/individual/item/1813>,
-    <http://purl.org/twc/poem/individual/item/1814>, <http://purl.org/twc/poem/individual/item/1815>,
-    <http://purl.org/twc/poem/individual/item/1816>, <http://purl.org/twc/poem/individual/item/1817>,
-    <http://purl.org/twc/poem/individual/item/1818>, <http://purl.org/twc/poem/individual/item/1819>,
-    <http://purl.org/twc/poem/individual/item/1820>, <http://purl.org/twc/poem/individual/item/1821>,
-    <http://purl.org/twc/poem/individual/item/1822>, <http://purl.org/twc/poem/individual/item/1823>,
-    <http://purl.org/twc/poem/individual/item/1824>, <http://purl.org/twc/poem/individual/item/1825>,
-    <http://purl.org/twc/poem/individual/item/1826>, <http://purl.org/twc/poem/individual/item/1827>;
-  sio:hasAttribute <http://purl.org/twc/poem/individual/informant/2>;
+    <http://purl.org/twc/poem/individual/item/1796>;
   a fhir:Questionnaire, poem:PsychometricQuestionnaire;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/item/1797>, <http://purl.org/twc/poem/individual/item/1798>,
+    <http://purl.org/twc/poem/individual/item/1799>, <http://purl.org/twc/poem/individual/item/1800>,
+    <http://purl.org/twc/poem/individual/item/1801>, <http://purl.org/twc/poem/individual/item/1802>,
+    <http://purl.org/twc/poem/individual/item/1803>, <http://purl.org/twc/poem/individual/item/1804>,
+    <http://purl.org/twc/poem/individual/item/1805>, <http://purl.org/twc/poem/individual/item/1806>,
+    <http://purl.org/twc/poem/individual/item/1807>, <http://purl.org/twc/poem/individual/item/1808>,
+    <http://purl.org/twc/poem/individual/item/1809>, <http://purl.org/twc/poem/individual/item/1810>,
+    <http://purl.org/twc/poem/individual/item/1811>, <http://purl.org/twc/poem/individual/item/1812>,
+    <http://purl.org/twc/poem/individual/item/1813>, <http://purl.org/twc/poem/individual/item/1814>,
+    <http://purl.org/twc/poem/individual/item/1815>, <http://purl.org/twc/poem/individual/item/1816>,
+    <http://purl.org/twc/poem/individual/item/1817>, <http://purl.org/twc/poem/individual/item/1818>,
+    <http://purl.org/twc/poem/individual/item/1819>, <http://purl.org/twc/poem/individual/item/1820>,
+    <http://purl.org/twc/poem/individual/item/1821>, <http://purl.org/twc/poem/individual/item/1822>,
+    <http://purl.org/twc/poem/individual/item/1823>, <http://purl.org/twc/poem/individual/item/1824>,
+    <http://purl.org/twc/poem/individual/item/1825>, <http://purl.org/twc/poem/individual/item/1826>,
+    <http://purl.org/twc/poem/individual/item/1827>;
+  sio:hasAttribute <http://purl.org/twc/poem/individual/informant/2>;
   sio:hasMember <http://purl.org/twc/poem/individual/component/295>, <http://purl.org/twc/poem/individual/component/296>,
     <http://purl.org/twc/poem/individual/component/297>, <http://purl.org/twc/poem/individual/component/298>,
     <http://purl.org/twc/poem/individual/component/299>, <http://purl.org/twc/poem/individual/item/1781>,
@@ -3744,10 +3759,14 @@
   fhir:code "RCADS-47-Y-PL";
   sio:SIO_000008 <http://purl.org/twc/poem/individual/informant/1>;
   sio:SIO_000059 <http://purl.org/twc/poem/individual/component/325>, <http://purl.org/twc/poem/individual/component/326>,
-    <http://purl.org/twc/poem/individual/component/327>, <http://purl.org/twc/poem/individual/component/328>;
+    <http://purl.org/twc/poem/individual/component/327>, <http://purl.org/twc/poem/individual/component/328>,
+    <http://purl.org/twc/poem/individual/component/522>, <http://purl.org/twc/poem/individual/component/524>,
+    <http://purl.org/twc/poem/individual/component/526>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/informant/1>;
   sio:hasMember <http://purl.org/twc/poem/individual/component/325>, <http://purl.org/twc/poem/individual/component/326>,
-    <http://purl.org/twc/poem/individual/component/327>, <http://purl.org/twc/poem/individual/component/328>;
+    <http://purl.org/twc/poem/individual/component/327>, <http://purl.org/twc/poem/individual/component/328>,
+    <http://purl.org/twc/poem/individual/component/522>, <http://purl.org/twc/poem/individual/component/524>,
+    <http://purl.org/twc/poem/individual/component/526>;
   rdfs:label "RCADS-47-Y-PL";
   skos:notation "RCADS-47-Y-PL" .
 
@@ -3814,10 +3833,14 @@
   fhir:code "RCADS-25-Y-PL";
   sio:SIO_000008 <http://purl.org/twc/poem/individual/informant/1>;
   sio:SIO_000059 <http://purl.org/twc/poem/individual/component/334>, <http://purl.org/twc/poem/individual/component/335>,
-    <http://purl.org/twc/poem/individual/component/336>, <http://purl.org/twc/poem/individual/component/337>;
+    <http://purl.org/twc/poem/individual/component/336>, <http://purl.org/twc/poem/individual/component/337>,
+    <http://purl.org/twc/poem/individual/component/523>, <http://purl.org/twc/poem/individual/component/525>,
+    <http://purl.org/twc/poem/individual/component/527>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/informant/1>;
   sio:hasMember <http://purl.org/twc/poem/individual/component/334>, <http://purl.org/twc/poem/individual/component/335>,
-    <http://purl.org/twc/poem/individual/component/336>, <http://purl.org/twc/poem/individual/component/337>;
+    <http://purl.org/twc/poem/individual/component/336>, <http://purl.org/twc/poem/individual/component/337>,
+    <http://purl.org/twc/poem/individual/component/523>, <http://purl.org/twc/poem/individual/component/525>,
+    <http://purl.org/twc/poem/individual/component/527>;
   rdfs:label "RCADS-25-Y-PL";
   skos:notation "RCADS-25-Y-PL" .
 
@@ -3948,8 +3971,9 @@
   sio:SIO_000059 <http://purl.org/twc/poem/individual/component/359>, <http://purl.org/twc/poem/individual/component/360>,
     <http://purl.org/twc/poem/individual/component/361>, <http://purl.org/twc/poem/individual/component/362>,
     <http://purl.org/twc/poem/individual/item/1521>, <http://purl.org/twc/poem/individual/item/1522>,
-    <http://purl.org/twc/poem/individual/item/1523>, <http://purl.org/twc/poem/individual/item/1524>,
-    <http://purl.org/twc/poem/individual/item/1525>, <http://purl.org/twc/poem/individual/item/1526>,
+    <http://purl.org/twc/poem/individual/item/1523>, <http://purl.org/twc/poem/individual/item/1524>;
+  a fhir:Questionnaire, poem:PsychometricQuestionnaire;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/item/1525>, <http://purl.org/twc/poem/individual/item/1526>,
     <http://purl.org/twc/poem/individual/item/1527>, <http://purl.org/twc/poem/individual/item/1528>,
     <http://purl.org/twc/poem/individual/item/1529>, <http://purl.org/twc/poem/individual/item/1530>,
     <http://purl.org/twc/poem/individual/item/1531>, <http://purl.org/twc/poem/individual/item/1532>,
@@ -3972,7 +3996,6 @@
     <http://purl.org/twc/poem/individual/item/1565>, <http://purl.org/twc/poem/individual/item/1566>,
     <http://purl.org/twc/poem/individual/item/1567>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/informant/1>;
-  a fhir:Questionnaire, poem:PsychometricQuestionnaire;
   sio:hasMember <http://purl.org/twc/poem/individual/component/359>, <http://purl.org/twc/poem/individual/component/360>,
     <http://purl.org/twc/poem/individual/component/361>, <http://purl.org/twc/poem/individual/component/362>,
     <http://purl.org/twc/poem/individual/item/1521>, <http://purl.org/twc/poem/individual/item/1522>,
@@ -4448,8 +4471,7 @@
   rdfs:label "RCADS-47-Y-DA";
   skos:notation "RCADS-47-Y-DA" .
 
-<http://purl.org/twc/poem/individual/instrument/90> a fhir:Questionnaire, poem:PsychometricQuestionnaire;
-  fhir:code "RCADS-47-CG-TR";
+<http://purl.org/twc/poem/individual/instrument/90> fhir:code "RCADS-47-CG-TR";
   sio:SIO_000008 <http://purl.org/twc/poem/individual/informant/2>;
   sio:SIO_000059 <http://purl.org/twc/poem/individual/component/399>, <http://purl.org/twc/poem/individual/component/400>,
     <http://purl.org/twc/poem/individual/component/401>, <http://purl.org/twc/poem/individual/component/402>,
@@ -4492,8 +4514,9 @@
     <http://purl.org/twc/poem/individual/item/1389>, <http://purl.org/twc/poem/individual/item/1390>,
     <http://purl.org/twc/poem/individual/item/1391>, <http://purl.org/twc/poem/individual/item/1392>,
     <http://purl.org/twc/poem/individual/item/1393>, <http://purl.org/twc/poem/individual/item/1394>,
-    <http://purl.org/twc/poem/individual/item/1395>, <http://purl.org/twc/poem/individual/item/1396>,
-    <http://purl.org/twc/poem/individual/item/1397>, <http://purl.org/twc/poem/individual/item/1398>,
+    <http://purl.org/twc/poem/individual/item/1395>, <http://purl.org/twc/poem/individual/item/1396>;
+  a fhir:Questionnaire, poem:PsychometricQuestionnaire;
+  sio:hasMember <http://purl.org/twc/poem/individual/item/1397>, <http://purl.org/twc/poem/individual/item/1398>,
     <http://purl.org/twc/poem/individual/item/1399>, <http://purl.org/twc/poem/individual/item/1400>,
     <http://purl.org/twc/poem/individual/item/1401>, <http://purl.org/twc/poem/individual/item/1402>,
     <http://purl.org/twc/poem/individual/item/1403>, <http://purl.org/twc/poem/individual/item/1404>,
@@ -4507,7 +4530,8 @@
   rdfs:label "RCADS-47-CG-TR";
   skos:notation "RCADS-47-CG-TR" .
 
-<http://purl.org/twc/poem/individual/instrument/91> fhir:code "RCADS-25-Y-TR";
+<http://purl.org/twc/poem/individual/instrument/91> a fhir:Questionnaire, poem:PsychometricQuestionnaire;
+  fhir:code "RCADS-25-Y-TR";
   sio:SIO_000008 <http://purl.org/twc/poem/individual/informant/1>;
   sio:SIO_000059 <http://purl.org/twc/poem/individual/component/404>, <http://purl.org/twc/poem/individual/component/405>,
     <http://purl.org/twc/poem/individual/component/406>, <http://purl.org/twc/poem/individual/component/407>,
@@ -4516,9 +4540,8 @@
     <http://purl.org/twc/poem/individual/item/1672>, <http://purl.org/twc/poem/individual/item/1674>,
     <http://purl.org/twc/poem/individual/item/1676>, <http://purl.org/twc/poem/individual/item/1678>,
     <http://purl.org/twc/poem/individual/item/1680>, <http://purl.org/twc/poem/individual/item/1682>,
-    <http://purl.org/twc/poem/individual/item/1686>, <http://purl.org/twc/poem/individual/item/1687>;
-  a fhir:Questionnaire, poem:PsychometricQuestionnaire;
-  sio:SIO_000059 <http://purl.org/twc/poem/individual/item/1688>, <http://purl.org/twc/poem/individual/item/1690>,
+    <http://purl.org/twc/poem/individual/item/1686>, <http://purl.org/twc/poem/individual/item/1687>,
+    <http://purl.org/twc/poem/individual/item/1688>, <http://purl.org/twc/poem/individual/item/1690>,
     <http://purl.org/twc/poem/individual/item/1692>, <http://purl.org/twc/poem/individual/item/1693>,
     <http://purl.org/twc/poem/individual/item/1694>, <http://purl.org/twc/poem/individual/item/1697>,
     <http://purl.org/twc/poem/individual/item/1698>, <http://purl.org/twc/poem/individual/item/1701>,
@@ -4634,7 +4657,9 @@
   sio:SIO_000008 <http://purl.org/twc/poem/individual/informant/1>;
   sio:SIO_000059 <http://purl.org/twc/poem/individual/component/431>, <http://purl.org/twc/poem/individual/component/432>,
     <http://purl.org/twc/poem/individual/component/433>, <http://purl.org/twc/poem/individual/component/435>,
-    <http://purl.org/twc/poem/individual/component/455>, <http://purl.org/twc/poem/individual/item/1909>,
+    <http://purl.org/twc/poem/individual/component/455>, <http://purl.org/twc/poem/individual/component/531>,
+    <http://purl.org/twc/poem/individual/component/532>, <http://purl.org/twc/poem/individual/component/533>,
+    <http://purl.org/twc/poem/individual/component/534>, <http://purl.org/twc/poem/individual/item/1909>,
     <http://purl.org/twc/poem/individual/item/1917>, <http://purl.org/twc/poem/individual/item/1922>,
     <http://purl.org/twc/poem/individual/item/1923>, <http://purl.org/twc/poem/individual/item/1936>,
     <http://purl.org/twc/poem/individual/item/2043>, <http://purl.org/twc/poem/individual/item/2044>,
@@ -4655,7 +4680,9 @@
   sio:hasAttribute <http://purl.org/twc/poem/individual/informant/1>;
   sio:hasMember <http://purl.org/twc/poem/individual/component/431>, <http://purl.org/twc/poem/individual/component/432>,
     <http://purl.org/twc/poem/individual/component/433>, <http://purl.org/twc/poem/individual/component/435>,
-    <http://purl.org/twc/poem/individual/component/455>, <http://purl.org/twc/poem/individual/item/1909>,
+    <http://purl.org/twc/poem/individual/component/455>, <http://purl.org/twc/poem/individual/component/531>,
+    <http://purl.org/twc/poem/individual/component/532>, <http://purl.org/twc/poem/individual/component/533>,
+    <http://purl.org/twc/poem/individual/component/534>, <http://purl.org/twc/poem/individual/item/1909>,
     <http://purl.org/twc/poem/individual/item/1917>, <http://purl.org/twc/poem/individual/item/1922>,
     <http://purl.org/twc/poem/individual/item/1923>, <http://purl.org/twc/poem/individual/item/1936>,
     <http://purl.org/twc/poem/individual/item/2043>, <http://purl.org/twc/poem/individual/item/2044>,
