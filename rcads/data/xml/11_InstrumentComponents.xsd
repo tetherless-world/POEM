@@ -12,31 +12,30 @@
 <xsd:annotation>
 <xsd:appinfo>
 <od:index index-name="InstrumentID" index-key="InstrumentID " primary="no" unique="no" clustered="no" order="asc"/>
-<od:index index-name="PrimaryKey" index-key="ElementID " primary="yes" unique="yes" clustered="no" order="asc"/>
-<od:tableProperty name="GUID" type="9" value="J94kDoQJfEmijgZYB/nPXw==
-"/>
+<od:index index-name="PrimaryKey" index-key="InstrumentComponentID " primary="yes" unique="yes" clustered="no" order="asc"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAAn3iQOhAl8SaKOBlgH+c9fAAAAAAhc9exQQOZAAAAAAAAAAAAxADEA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAABkrNW9ueAWRq517Y01yJkGAAAAANWRmV8wZuZAAAAAAAAAAAAxADEA
 XwBJAG4AcwB0AHIAdQBtAGUAbgB0AEMAbwBtAHAAbwBuAGUAbgB0AHMAAAAAAAAA
-wDU0J13HUUarqDpJ3LflxAcAAAAn3iQOhAl8SaKOBlgH+c9fRQBsAGUAbQBlAG4A
-dABJAEQAAAAAAAAAv6f4548+uku/VFSa38UxZAAAAABtyhU2FkDmQAAAAAAAAAAA
-MQAwAF8ASQBuAHMAdAByAHUAbQBlAG4AdABzAAAAAAAAABtvtG/v4KFAgjZa6ZOi
-5OYHAAAAv6f4548+uku/VFSa38UxZEkAbgBzAHQAcgB1AG0AZQBuAHQASQBEAAAA
-AAAAAC1CujHK82BJoaHnazlwJxoHAAAAv6f4548+uku/VFSa38UxZEkAbgBzAHQA
-cgB1AG0AZQBuAHQATgBhAG0AZQAAAAAAAAByN6fZYwaTTJaKpmMBt5AMBwAAACfe
-JA6ECXxJoo4GWAf5z19JAG4AcwB0AHIAdQBtAGUAbgB0AEkARAAAAAAAAAAWlGVO
-qwpbT77JCe3RdK5IAAAAAGQBOt4YK+ZAAAAAAAAAAAAxADIAXwBDAG8AbQBwAG8A
-bgBlAG4AdABBAHQAdAByAGkAYgB1AHQAZQBzAAAAAAAAAFGx9UpxlAhOt4/eoa/A
-eREHAAAAFpRlTqsKW0++yQnt0XSuSEUAbABlAG0AZQBuAHQAQQB0AHQAcgBpAGIA
-dQB0AGUASQBEAAAAAAAAABWyoePVnBNCiuNNVqwICeAHAAAAFpRlTqsKW0++yQnt
-0XSuSEEAdAB0AHIAaQBiAHUAdABlAFQAeQBwAGUAAAAAAAAAuOypdNRxG0mIHkhX
-jAxKHQcAAAAn3iQOhAl8SaKOBlgH+c9fQwBvAG0AcABvAG4AZQBuAHQAQQB0AHQA
-cgBpAGIAdQB0AGUAAAAAAAAArzAZa7xVRUCOcWDfyBwmAAcAAAAn3iQOhAl8SaKO
-BlgH+c9fQwBvAG0AcABvAG4AZQBuAHQAVgBhAGwAdQBlAAAAAAAAANn4Zy+FkLFF
-isiVH0SNUNIHAAAAJ94kDoQJfEmijgZYB/nPX0MAbwBtAHAAbwBuAGUAbgB0AFAA
-bwBzAGkAdABpAG8AbgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAUAAAAAAAAA
-AAAAAAAAAAAAAA==
+kEymSCDwU0WkiQQBSItabwcAAABkrNW9ueAWRq517Y01yJkGSQBuAHMAdAByAHUA
+bQBlAG4AdABDAG8AbQBwAG8AbgBlAG4AdABJAEQAAAAAAAAA6g3nO0DdZU2jE1/p
+bGhMTQAAAACj/aygVmXmQAAAAAAAAAAAMQAwAF8ASQBuAHMAdAByAHUAbQBlAG4A
+dABzAAAAAAAAACLmjuMMHodPvUEFA/J+FNAHAAAA6g3nO0DdZU2jE1/pbGhMTUkA
+bgBzAHQAcgB1AG0AZQBuAHQASQBEAAAAAAAAAHBaIozFH4FBuxz/TYc0MlUHAAAA
+6g3nO0DdZU2jE1/pbGhMTUkAbgBzAHQAcgB1AG0AZQBuAHQATgBhAG0AZQAAAAAA
+AADz8g/1Y9p0RLNCOhnwZDqMBwAAAGSs1b254BZGrnXtjTXImQZJAG4AcwB0AHIA
+dQBtAGUAbgB0AEkARAAAAAAAAAAWlGVOqwpbT77JCe3RdK5IAAAAACLMULbyZOZA
+AAAAAAAAAAAxADIAXwBDAG8AbQBwAG8AbgBlAG4AdABUAHkAcABlAHMAAAAAAAAA
+UbH1SnGUCE63j96hr8B5EQcAAAAWlGVOqwpbT77JCe3RdK5IQwBvAG0AcABvAG4A
+ZQBuAHQAVAB5AHAAZQBJAEQAAAAAAAAAFbKh49WcE0KK401WrAgJ4AcAAAAWlGVO
+qwpbT77JCe3RdK5IQwBvAG0AcABvAG4AZQBuAHQAVAB5AHAAZQAAAAAAAACAcrDy
+belyTKu723/RhhcrBwAAAGSs1b254BZGrnXtjTXImQZDAG8AbQBwAG8AbgBlAG4A
+dABUAHkAcABlAAAAAAAAAJEvcDBR+/NBm2YEMR8pZeQHAAAAZKzVvbngFkaude2N
+NciZBkMAbwBtAHAAbwBuAGUAbgB0AFYAYQBsAHUAZQAAAAAAAAAojJUSDbyuTIl6
+RygGX+mVBwAAAGSs1b254BZGrnXtjTXImQZDAG8AbQBwAG8AbgBlAG4AdABQAG8A
+cwBpAHQAaQBvAG4AXwBGAEgASQBSAAAAAAAAANoAdm6FY3lPuuRSj8rrJLoHAAAA
+ZKzVvbngFkaude2NNciZBlMAZQBjAHQAaQBvAG4AAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAwAAAAFAAAAAAAAAAAAAAAAAAAAAAA=
 "/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
 <od:tableProperty name="DisplayViewsOnSharePointSite" type="2" value="1"/>
@@ -54,16 +53,15 @@ AAAAAAAAAAAAAA==
 <od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="3"/>
 <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="0"/>
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
-<od:tableProperty name="Filter" type="12" value="([Lookup_InstrumentID].[InstrumentName] In (&quot;MTT-35-CG-EN-1&quot;,&quot;MTT-35-CG-EN-2&quot;,&quot;MTT-35-Y-EN-1&quot;,&quot;MTT-35-Y-EN-2&quot;))"/>
+<od:tableProperty name="GUID" type="9" value="ZKzVvbngFkaude2NNciZBg==
+"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
 <xsd:sequence>
-<xsd:element name="ElementID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
+<xsd:element name="InstrumentComponentID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="GUID" type="9" value="wDU0J13HUUarqDpJ3LflxA==
-"/>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="1"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
@@ -71,16 +69,16 @@ AAAAAAAAAAAAAA==
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="kEymSCDwU0WkiQQBSItabw==
+"/>
 </xsd:appinfo>
 </xsd:annotation>
 </xsd:element>
 <xsd:element name="InstrumentID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="GUID" type="9" value="cjen2WMGk0yWiqZjAbeQDA==
-"/>
 <od:fieldProperty name="ColumnWidth" type="3" value="1995"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="2"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
@@ -101,22 +99,22 @@ AAAAAAAAAAAAAA==
 <od:fieldProperty name="ShowOnlyRowSourceValues" type="1" value="0"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="8/IP9WPadESzQjoZ8GQ6jA==
+"/>
 </xsd:appinfo>
 </xsd:annotation>
 </xsd:element>
-<xsd:element name="ComponentAttribute" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+<xsd:element name="ComponentType" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="GUID" type="9" value="uOypdNRxG0mIHkhXjAxKHQ==
-"/>
 <od:fieldProperty name="ColumnWidth" type="3" value="2385"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="3"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
 <od:fieldProperty name="DisplayControl" type="3" value="111"/>
 <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"/>
-<od:fieldProperty name="RowSource" type="12" value="SELECT [12_ComponentAttributes].ElementAttributeID, [12_ComponentAttributes].AttributeType FROM 12_ComponentAttributes ORDER BY [ElementAttributeID]; "/>
+<od:fieldProperty name="RowSource" type="12" value="SELECT [12_ComponentTypes].[ComponentTypeID], [12_ComponentTypes].[ComponentType] FROM 12_ComponentTypes ORDER BY [ComponentTypeID]; "/>
 <od:fieldProperty name="BoundColumn" type="3" value="1"/>
 <od:fieldProperty name="ColumnCount" type="3" value="2"/>
 <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
@@ -131,16 +129,16 @@ AAAAAAAAAAAAAA==
 <od:fieldProperty name="ShowOnlyRowSourceValues" type="1" value="0"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="gHKw8m3pckyru9t/0YYXKw==
+"/>
 </xsd:appinfo>
 </xsd:annotation>
 </xsd:element>
 <xsd:element name="ComponentValue" minOccurs="0" od:jetType="memo" od:sqlSType="ntext">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="GUID" type="9" value="rzAZa7xVRUCOcWDfyBwmAA==
-"/>
 <od:fieldProperty name="ColumnWidth" type="3" value="12360"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="4"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
 <od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
@@ -153,6 +151,8 @@ AAAAAAAAAAAAAA==
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="kS9wMFH780GbZgQxHyll5A==
+"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:simpleType>
@@ -161,15 +161,34 @@ AAAAAAAAAAAAAA==
 </xsd:restriction>
 </xsd:simpleType>
 </xsd:element>
-<xsd:element name="ComponentPosition" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+<xsd:element name="ComponentPosition_FHIR" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="GUID" type="9" value="2fhnL4WQsUWKyJUfRI1Q0g==
-"/>
-<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="2720"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="5"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Description" type="10" value="Where it appears on the page of the instrument (must be a code so it can merge with item positions in other queries)"/>
+<od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+<od:fieldProperty name="DefaultValue" type="12" value="0"/>
+<od:fieldProperty name="Required" type="1" value="0"/>
+<od:fieldProperty name="DisplayControl" type="3" value="109"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="KIyVEg28rkyJekcoBl/plQ==
+"/>
+</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element name="Section" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="GUID" type="9" value="2gB2boVjeU+65FKPyuskug==
+"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="6"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
 <od:fieldProperty name="DefaultValue" type="12" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>

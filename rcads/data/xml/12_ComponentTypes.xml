@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="12_ComponentTypes.xsd" generated="2025-08-04T12:40:02">
+<_x0031_2_ComponentTypes>
+<ComponentTypeID>1</ComponentTypeID>
+<ComponentType>NameText</ComponentType>
+</_x0031_2_ComponentTypes>
+<_x0031_2_ComponentTypes>
+<ComponentTypeID>2</ComponentTypeID>
+<ComponentType>DateText</ComponentType>
+</_x0031_2_ComponentTypes>
+<_x0031_2_ComponentTypes>
+<ComponentTypeID>3</ComponentTypeID>
+<ComponentType>PageText</ComponentType>
+</_x0031_2_ComponentTypes>
+<_x0031_2_ComponentTypes>
+<ComponentTypeID>4</ComponentTypeID>
+<ComponentType>InstructionTextPaper</ComponentType>
+</_x0031_2_ComponentTypes>
+<_x0031_2_ComponentTypes>
+<ComponentTypeID>5</ComponentTypeID>
+<ComponentType>InstructionTextOnline</ComponentType>
+</_x0031_2_ComponentTypes>
+<_x0031_2_ComponentTypes>
+<ComponentTypeID>6</ComponentTypeID>
+<ComponentType>RelationshipText</ComponentType>
+</_x0031_2_ComponentTypes>
+<_x0031_2_ComponentTypes>
+<ComponentTypeID>7</ComponentTypeID>
+<ComponentType>InstructionsSubsection</ComponentType>
+</_x0031_2_ComponentTypes>
+<_x0031_2_ComponentTypes>
+<ComponentTypeID>8</ComponentTypeID>
+<ComponentType>TimeText</ComponentType>
+</_x0031_2_ComponentTypes>
+</dataroot>
