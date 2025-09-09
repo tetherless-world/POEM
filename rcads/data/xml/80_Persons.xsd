@@ -15,19 +15,16 @@
 <od:index index-name="AuthorID" index-key="PersonID " primary="no" unique="no" clustered="no" order="asc"/>
 <od:index index-name="ORCID" index-key="ORCID " primary="no" unique="no" clustered="no" order="asc"/>
 <od:index index-name="PrimaryKey" index-key="PersonID " primary="yes" unique="yes" clustered="no" order="asc"/>
-<od:tableProperty name="GUID" type="9" value="dLMiwVO2KUaUsrjtKqSSpw==
-"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAB0syLBU7YpRpSyuO0qpJKnAAAAAKodsA5tP+ZAAAAAAAAAAAA4ADAA
-XwBQAGUAcgBzAG8AbgBzAAAAAAAAABiI4XO2qZ1Gh1q8Igmcqj4AAAAAoh0P3tE+
-5kAAAAAAAAAAADgAMgBfAEEAZwBlAG4AdABQAGUAcgBzAG8AbgBNAGEAcAAAAAAA
-AAA6+ZXuph3BTokwOL9WepjlBwAAAHSzIsFTtilGlLK47SqkkqdQAGUAcgBzAG8A
-bgBJAEQAAAAAAAAA8CXDh5H+2kawra3B3Gk1fQcAAAB0syLBU7YpRpSyuO0qpJKn
-UABlAHIAcwBvAG4ATgBhAG0AZQAAAAAAAADGvPYQzMeRT71mrUVTPmtzBwAAAHSz
-IsFTtilGlLK47SqkkqdPAFIAQwBJAEQAAAAAAAAAuQw57OHMu0SR1K3o7KgMOAcA
-AAB0syLBU7YpRpSyuO0qpJKnQQBtAGIAaQBnAHUAbwB1AHMASQBEAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAADXhNtL+ICHT5Slp+p4dN6iAAAAABLA4R2VYOZAAAAAAAAAAAA4ADAA
+XwBQAGUAcgBzAG8AbgBzADEAAAAAAAAA7JubWekjAUeCInoxfpJ8dwcAAADXhNtL
++ICHT5Slp+p4dN6iUABlAHIAcwBvAG4ASQBEAAAAAAAAACY14tl8Rl5CtpDW4GR0
+wg8HAAAA14TbS/iAh0+UpafqeHTeolAAZQByAHMAbwBuAE4AYQBtAGUAAAAAAAAA
+1JSWgbXUSk2TFS6L0AQJDgcAAADXhNtL+ICHT5Slp+p4dN6iTwBSAEMASQBEAAAA
+AAAAAFnrpVUidhhHk/H0yl90ONkHAAAA14TbS/iAh0+UpafqeHTeokEAbQBiAGkA
+ZwB1AG8AdQBzAEkARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAUAAAAAAAAA
+AAAAAAAAAAAAAA==
 "/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
 <od:tableProperty name="DisplayViewsOnSharePointSite" type="2" value="1"/>
@@ -45,6 +42,8 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="3"/>
 <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="0"/>
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
+<od:tableProperty name="GUID" type="9" value="14TbS/iAh0+UpafqeHTeog==
+"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
@@ -52,8 +51,6 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <xsd:element name="PersonID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="GUID" type="9" value="OvmV7qYdwU6JMDi/VnqY5Q==
-"/>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
@@ -61,15 +58,15 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="7JubWekjAUeCInoxfpJ8dw==
+"/>
 </xsd:appinfo>
 </xsd:annotation>
 </xsd:element>
 <xsd:element name="PersonName" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="GUID" type="9" value="8CXDh5H+2kawra3B3Gk1fQ==
-"/>
-<od:fieldProperty name="ColumnWidth" type="3" value="2085"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="3045"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
@@ -83,6 +80,8 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
 <od:fieldProperty name="Description" type="10" value="First and last name for reference"/>
+<od:fieldProperty name="GUID" type="9" value="JjXi2XxGXkK2kNbgZHTCDw==
+"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:simpleType>
@@ -94,8 +93,6 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <xsd:element name="ORCID" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="GUID" type="9" value="xrz2EMzHkU+9Zq1FUz5rcw==
-"/>
 <od:fieldProperty name="ColumnWidth" type="3" value="2085"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
@@ -110,6 +107,8 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
 <od:fieldProperty name="Description" type="10" value="ORCID identifier in http:/www.orcid.org"/>
+<od:fieldProperty name="GUID" type="9" value="1JSWgbXUSk2TFS6L0AQJDg==
+"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:simpleType>
@@ -121,8 +120,6 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <xsd:element name="AmbiguousID" minOccurs="1" od:jetType="yesno" od:sqlSType="bit" od:nonNullable="yes" type="xsd:boolean">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="GUID" type="9" value="uQw57OHMu0SR1K3o7KgMOA==
-"/>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
@@ -134,6 +131,8 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
 <od:fieldProperty name="Description" type="10" value="Is their name/ORCID combination not a unique identifier?"/>
+<od:fieldProperty name="GUID" type="9" value="WeulVSJ2GEeT8fTKX3Q42Q==
+"/>
 </xsd:appinfo>
 </xsd:annotation>
 </xsd:element>

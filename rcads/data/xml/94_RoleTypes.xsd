@@ -3,28 +3,30 @@
 <xsd:element name="dataroot">
 <xsd:complexType>
 <xsd:sequence>
-<xsd:element ref="_x0038_1_Agents" minOccurs="0" maxOccurs="unbounded"/>
+<xsd:element ref="_x0039_4_RoleTypes" minOccurs="0" maxOccurs="unbounded"/>
 </xsd:sequence>
 <xsd:attribute name="generated" type="xsd:dateTime"/>
 </xsd:complexType>
 </xsd:element>
-<xsd:element name="_x0038_1_Agents">
+<xsd:element name="_x0039_4_RoleTypes">
 <xsd:annotation>
 <xsd:appinfo>
-<od:index index-name="PrimaryKey" index-key="AgentID " primary="yes" unique="yes" clustered="no" order="asc"/>
+<od:index index-name="PrimaryKey" index-key="RoleID " primary="yes" unique="yes" clustered="no" order="asc"/>
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAD4BzImp/IcQrl7eCVWImxRAAAAALDXMOqVYOZAAAAAAAAAAAA4ADEA
-XwBBAGcAZQBuAHQAcwAAAAAAAACJ3fwt/zE6QrzPRkMG41XaAAAAAL+k4x2VYOZA
-AAAAAAAAAAA4ADIAXwBBAGcAZQBuAHQAUABlAHIAcwBvAG4ATQBhAHAAMQAAAAAA
-AABGwwqifqr7Q5I2+/Wp6XC/BwAAAPgHMian8hxCuXt4JVYibFFBAGcAZQBuAHQA
-SQBEAAAAAAAAAIvTNwYNCTVPrEigCpZa2doHAAAA+AcyJqfyHEK5e3glViJsUUEA
-ZwBlAG4AdABOAGEAbQBlAAAAAAAAAMc/nY5n0zFJtSy09m41Q2MHAAAA+AcyJqfy
-HEK5e3glViJsUUEAcwBzAG8AYwBpAGEAdABlAGQAIABEAE8ASQAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAA5L+2O7FjoQqEtw1vhVu/zAAAAAAPuPrXrUuZAAAAAAAAAAAA5ADQA
+XwBSAG8AbABlAFQAeQBwAGUAcwAAAAAAAAAY/SMT2nA+Q5Gtlv6P94acBwAAADkv
+7Y7sWOhCoS3DW+FW7/NSAG8AbABlAEkARAAAAAAAAAC2wCJz2zqNQIOG3MHQD0Gv
+BwAAADkv7Y7sWOhCoS3DW+FW7/NSAG8AbABlAE4AYQBtAGUAAAAAAAAAt1phTJaJ
+nUSgAl+e4jxyJAcAAAA5L+2O7FjoQqEtw1vhVu/zUgBvAGwAZQBDAGwAYQBzAHMA
+AAAAAAAADjQruDFpBUifKsnoZEO52AcAAAA5L+2O7FjoQqEtw1vhVu/zUgBvAGwA
+ZQBEAGUAZgBpAG4AaQB0AGkAbwBuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAA
+BQAAAAAAAAAAAAAAAAAAAAAA
 "/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
+<od:tableProperty name="GUID" type="9" value="OS/tjuxY6EKhLcNb4Vbv8w==
+"/>
 <od:tableProperty name="DisplayViewsOnSharePointSite" type="2" value="1"/>
 <od:tableProperty name="TotalsRow" type="1" value="0"/>
 <od:tableProperty name="FilterOnLoad" type="1" value="0"/>
@@ -39,32 +41,31 @@ AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:tableProperty name="ReadOnlyWhenDisconnected" type="1" value="0"/>
 <od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="3"/>
 <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="0"/>
-<od:tableProperty name="GUID" type="9" value="+AcyJqfyHEK5e3glViJsUQ==
-"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
 <xsd:sequence>
-<xsd:element name="AgentID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
+<xsd:element name="RoleID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="1"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="TextAlign" type="2" value="0"/>
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
-<od:fieldProperty name="GUID" type="9" value="RsMKon6q+0OSNvv1qelwvw==
+<od:fieldProperty name="GUID" type="9" value="GP0jE9pwPkORrZb+j/eGnA==
 "/>
-<od:fieldProperty name="Description" type="10" value="An agent is one or more person."/>
 </xsd:appinfo>
 </xsd:annotation>
 </xsd:element>
-<xsd:element name="AgentName" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:element name="RoleName" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="ColumnWidth" type="3" value="3210"/>
+<od:fieldProperty name="GUID" type="9" value="tsAic9s6jUCDhtzB0A9Brw==
+"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="2670"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
@@ -77,8 +78,31 @@ AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
-<od:fieldProperty name="Description" type="10" value="This is the name of the group assigned by us."/>
-<od:fieldProperty name="GUID" type="9" value="i9M3Bg0JNU+sSKAKllrZ2g==
+</xsd:appinfo>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="RoleClass" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="Required" type="1" value="0"/>
+<od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
+<od:fieldProperty name="DisplayControl" type="3" value="109"/>
+<od:fieldProperty name="IMEMode" type="2" value="0"/>
+<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+<od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="t1phTJaJnUSgAl+e4jxyJA==
 "/>
 </xsd:appinfo>
 </xsd:annotation>
@@ -88,25 +112,24 @@ AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 </xsd:restriction>
 </xsd:simpleType>
 </xsd:element>
-<xsd:element name="Associated_x0020_DOI" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:element name="RoleDefinition" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="ColumnWidth" type="3" value="3870"/>
+<od:fieldProperty name="GUID" type="9" value="DjQruDFpBUifKsnoZEO52A==
+"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="9285"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
 <od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
 <od:fieldProperty name="DisplayControl" type="3" value="109"/>
 <od:fieldProperty name="IMEMode" type="2" value="0"/>
-<od:fieldProperty name="IMESentenceMode" type="2" value="0"/>
+<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
 <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
 <od:fieldProperty name="TextAlign" type="2" value="0"/>
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
-<od:fieldProperty name="Description" type="10" value="If there is a specific doi that is the full set of group members as authors"/>
-<od:fieldProperty name="GUID" type="9" value="xz+djmfTMUm1LLT2bjVDYw==
-"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:simpleType>

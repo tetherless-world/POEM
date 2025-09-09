@@ -14,31 +14,34 @@
 <od:index index-name="PrimaryKey" index-key="InstrumentID " primary="yes" unique="yes" clustered="no" order="asc"/>
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
-<od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAC/p/jnjz66S79UVJrfxTFkAAAAALQNBDj1PuZAAAAAAAAAAAAxADAA
-XwBJAG4AcwB0AHIAdQBtAGUAbgB0AHMAAAAAAAAAG2+0b+/goUCCNlrpk6Lk5gcA
-AAC/p/jnjz66S79UVJrfxTFkSQBuAHMAdAByAHUAbQBlAG4AdABJAEQAAAAAAAAA
-LUK6McrzYEmhoedrOXAnGgcAAAC/p/jnjz66S79UVJrfxTFkSQBuAHMAdAByAHUA
-bQBlAG4AdABOAGEAbQBlAAAAAAAAAIPRkG07a8ZErvvNf7H7wd4AAAAAxrvAM/U+
-5kAAAAAAAAAAADAAMABfAEkAbgBzAHQAcgB1AG0AZQBuAHQAQwBvAGwAbABlAGMA
-dABpAG8AbgBzAAAAAAAAAH7z/skX9ypPqKSAjRaf03IHAAAAg9GQbTtrxkSu+81/
-sfvB3kMAbwBsAGwAZQBjAHQAaQBvAG4ASQBEAAAAAAAAANSpimL3ydhMjzRpbI8h
-CTAHAAAAg9GQbTtrxkSu+81/sfvB3kkAbgBzAHQAcgB1AG0AZQBuAHQAQwBvAGwA
-bABlAGMAdABpAG8AbgAAAAAAAAA2Mw198YFLRb9H8dWj88Z+BwAAAL+n+OePPrpL
-v1RUmt/FMWRJAG4AcwB0AHIAdQBtAGUAbgB0AEMAbwBsAGwAZQBjAHQAaQBvAG4A
-AAAAAAAAdXFIvcfHLkSsNuuIDndJawAAAABRjI/YGCvmQAAAAAAAAAAAOQAwAF8A
-TABhAG4AZwB1AGEAZwBlAHMAAAAAAAAAO+d2gX9GMEuxOT5wuG4aGQcAAAB1cUi9
-x8cuRKw264gOd0lrTABhAG4AZwBhAHUAZwBlAEkARAAAAAAAAAAvF/vZBae2TqG+
-WmaCm+BrBwAAAHVxSL3Hxy5ErDbriA53SWtMAGEAbgBnAHUAYQBnAGUAAAAAAAAA
-Gt7v/VWSm0GIgSHLY+EXIwcAAAC/p/jnjz66S79UVJrfxTFkTABhAG4AZwB1AGEA
-ZwBlAAAAAAAAAAWH30kZ3MJCmkFpwk32+RYAAAAAp5t2THA/5kAAAAAAAAAAADkA
-MQBfAFIAZQBzAHAAbwBuAGQAZQBuAHQAcwAAAAAAAADwQ/c7UhhERaWhHqr5bGnW
-BwAAAAWH30kZ3MJCmkFpwk32+RZSAGUAcwBwAG8AbgBkAGUAbgB0AEkARAAAAAAA
-AACdKlVpKe/1SoRehv5BzAFGBwAAAAWH30kZ3MJCmkFpwk32+RZSAGUAcwBwAG8A
-bgBkAGUAbgB0AAAAAAAAAIlMFm4H4tBAicMEYi/yV5MHAAAAv6f4548+uku/VFSa
-38UxZFIAZQBzAHAAbwBuAGQAZQBuAHQAAAAAAAAA5ppK+LNuakOkpwvWfN7qKQcA
-AAC/p/jnjz66S79UVJrfxTFkQQBuAG4AbwB0AGEAdABpAG8AbgAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
+<od:tableProperty name="OrderByOn" type="1" value="1"/>
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAADqDec7QN1lTaMTX+lsaExNAAAAAC/qWWvWaOZAAAAAAAAAAAAxADAA
+XwBJAG4AcwB0AHIAdQBtAGUAbgB0AHMAAAAAAAAAIuaO4wweh0+9QQUD8n4U0AcA
+AADqDec7QN1lTaMTX+lsaExNSQBuAHMAdAByAHUAbQBlAG4AdABJAEQAAAAAAAAA
+mOeP2vBe8EWOnxZmFamv0gAAAADNSKq0cGbmQAAAAAAAAAAAMAAzAF8AQQBjAHQA
+aQB2AGkAdABpAGUAcwAAAAAAAABwWiKMxR+BQbsc/02HNDJVBwAAAOoN5ztA3WVN
+oxNf6WxoTE1JAG4AcwB0AHIAdQBtAGUAbgB0AE4AYQBtAGUAAAAAAAAAg9GQbTtr
+xkSu+81/sfvB3gAAAAAmR4rvMmLmQAAAAAAAAAAAMAAwAF8ASQBuAHMAdAByAHUA
+bQBlAG4AdABGAGEAbQBpAGwAaQBlAHMAAAAAAAAAfvP+yRf3Kk+opICNFp/TcgcA
+AACD0ZBtO2vGRK77zX+x+8HeRgBhAG0AaQBsAHkASQBEAAAAAAAAANSpimL3ydhM
+jzRpbI8hCTAHAAAAg9GQbTtrxkSu+81/sfvB3kkAbgBzAHQAcgB1AG0AZQBuAHQA
+RgBhAG0AaQBsAHkAAAAAAAAATweYzPB8D0WsL4Ah2jmZ5QcAAADqDec7QN1lTaMT
+X+lsaExNSQBuAHMAdAByAHUAbQBlAG4AdABGAGEAbQBpAGwAeQAAAAAAAABqYTCf
+kURZSY48cDc8kVA3AAAAAKdDCscTZOZAAAAAAAAAAAA5ADAAXwBMAGEAbgBnAHUA
+YQBnAGUAcwAAAAAAAACrMY2PjWV6Tp3M5t6QklJQBwAAAGphMJ+RRFlJjjxwNzyR
+UDdMAGEAbgBnAGEAdQBnAGUASQBEAAAAAAAAAHO1cvlc2OxAvFlWCyVKOUUHAAAA
+amEwn5FEWUmOPHA3PJFQN0wAYQBuAGcAdQBhAGcAZQAAAAAAAABj0W9f+lAXQqzS
++8/zGHUaBwAAAOoN5ztA3WVNoxNf6WxoTE1MAGEAbgBnAHUAYQBnAGUAAAAAAAAA
+BYffSRncwkKaQWnCTfb5FgAAAADLQk7a9GnmQAAAAAAAAAAAOQAxAF8AUgBlAHMA
+cABvAG4AZABlAG4AdAAAAAAAAADwQ/c7UhhERaWhHqr5bGnWBwAAAAWH30kZ3MJC
+mkFpwk32+RZSAGUAcwBwAG8AbgBkAGUAbgB0AEkARAAAAAAAAACdKlVpKe/1SoRe
+hv5BzAFGBwAAAAWH30kZ3MJCmkFpwk32+RZSAGUAcwBwAG8AbgBkAGUAbgB0AAAA
+AAAAAB15/Hg2YjdIlwYeqLeb/BAHAAAA6g3nO0DdZU2jE1/pbGhMTUkAbgBmAG8A
+cgBtAGEAbgB0AAAAAAAAAB6JKP7wpqlEjv9Z0L4IHloHAAAA6g3nO0DdZU2jE1/p
+bGhMTUEAbgBuAG8AdABhAHQAaQBvAG4AAAAAAAAAgkWKQw4RCkyIQhFyLi2DLwcA
+AADqDec7QN1lTaMTX+lsaExNRABlAHAAcgBlAGMAYQB0AGUAZAAAAAAAAADjBL3U
+mhESSoTMKmkBgIkPBwAAAOoN5ztA3WVNoxNf6WxoTE1BAHUAdABoAG8AcgBpAHoA
+ZQBkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 "/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
 <od:tableProperty name="DisplayViewsOnSharePointSite" type="2" value="1"/>
@@ -55,9 +58,12 @@ AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:tableProperty name="ReadOnlyWhenDisconnected" type="1" value="0"/>
 <od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="3"/>
 <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="0"/>
-<od:tableProperty name="GUID" type="9" value="v6f4548+uku/VFSa38UxZA==
+<od:tableProperty name="SubdatasheetName" type="10" value="Table.03_Activities"/>
+<od:tableProperty name="LinkMasterFields" type="10" value="InstrumentID"/>
+<od:tableProperty name="GUID" type="9" value="6g3nO0DdZU2jE1/pbGhMTQ==
 "/>
-<od:tableProperty name="Filter" type="12" value="([Lookup_Language].[Language]=&quot;Portuguese&quot;)"/>
+<od:tableProperty name="OrderBy" type="12" value="[10_Instruments].[InstrumentID]"/>
+<od:tableProperty name="Filter" type="12" value="([Lookup_Language].[Language]=&quot;Urdu&quot;)"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
@@ -65,10 +71,8 @@ AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <xsd:element name="InstrumentID" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="GUID" type="9" value="G2+0b+/goUCCNlrpk6Lk5g==
-"/>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
 <od:fieldProperty name="Required" type="1" value="1"/>
@@ -77,6 +81,9 @@ AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="IuaO4wweh0+9QQUD8n4U0A==
+"/>
+<od:fieldProperty name="Description" type="10" value="[maps to POEM: Psychometric Questionnaire]"/>
 </xsd:appinfo>
 </xsd:annotation>
 </xsd:element>
@@ -96,8 +103,9 @@ AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
-<od:fieldProperty name="GUID" type="9" value="LUK6McrzYEmhoedrOXAnGg==
+<od:fieldProperty name="GUID" type="9" value="cFoijMUfgUG7HP9NhzQyVQ==
 "/>
+<od:fieldProperty name="Description" type="10" value="Human readable common name for the questionnaire"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:simpleType>
@@ -106,19 +114,17 @@ AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 </xsd:restriction>
 </xsd:simpleType>
 </xsd:element>
-<xsd:element name="InstrumentCollection" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+<xsd:element name="InstrumentFamily" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="GUID" type="9" value="NjMNffGBS0W/R/HVo/PGfg==
-"/>
-<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="2400"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
 <od:fieldProperty name="DisplayControl" type="3" value="111"/>
 <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"/>
-<od:fieldProperty name="RowSource" type="12" value="SELECT [00_InstrumentCollections].[CollectionID], [00_InstrumentCollections].[InstrumentCollection] FROM 00_InstrumentCollections ORDER BY [InstrumentCollection]; "/>
+<od:fieldProperty name="RowSource" type="12" value="SELECT [00_InstrumentFamilies].FamilyID, [00_InstrumentFamilies].InstrumentFamily FROM 00_InstrumentFamilies ORDER BY [InstrumentFamily]; "/>
 <od:fieldProperty name="BoundColumn" type="3" value="1"/>
 <od:fieldProperty name="ColumnCount" type="3" value="2"/>
 <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
@@ -133,14 +139,15 @@ AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:fieldProperty name="ShowOnlyRowSourceValues" type="1" value="0"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="TweYzPB8D0WsL4Ah2jmZ5Q==
+"/>
+<od:fieldProperty name="Description" type="10" value="This is the VSTO-I Instrument Family"/>
 </xsd:appinfo>
 </xsd:annotation>
 </xsd:element>
 <xsd:element name="Language" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="GUID" type="9" value="Gt7v/VWSm0GIgSHLY+EXIw==
-"/>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
@@ -163,14 +170,14 @@ AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:fieldProperty name="ShowOnlyRowSourceValues" type="1" value="0"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="Y9FvX/pQF0Ks0vvP8xh1Gg==
+"/>
 </xsd:appinfo>
 </xsd:annotation>
 </xsd:element>
-<xsd:element name="Respondent" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+<xsd:element name="Informant" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="GUID" type="9" value="iUwWbgfi0ECJwwRiL/JXkw==
-"/>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
@@ -178,7 +185,7 @@ AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:fieldProperty name="Required" type="1" value="0"/>
 <od:fieldProperty name="DisplayControl" type="3" value="111"/>
 <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"/>
-<od:fieldProperty name="RowSource" type="12" value="SELECT [91_Respondents].RespondentID, [91_Respondents].Respondent FROM 91_Respondents ORDER BY [RespondentID]; "/>
+<od:fieldProperty name="RowSource" type="12" value="SELECT [91_Respondent].[RespondentID], [91_Respondent].[Respondent] FROM 91_Respondent ORDER BY [RespondentID]; "/>
 <od:fieldProperty name="BoundColumn" type="3" value="1"/>
 <od:fieldProperty name="ColumnCount" type="3" value="2"/>
 <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
@@ -193,14 +200,14 @@ AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:fieldProperty name="ShowOnlyRowSourceValues" type="1" value="0"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="HXn8eDZiN0iXBh6ot5v8EA==
+"/>
 </xsd:appinfo>
 </xsd:annotation>
 </xsd:element>
 <xsd:element name="Annotation" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="GUID" type="9" value="5ppK+LNuakOkpwvWfN7qKQ==
-"/>
 <od:fieldProperty name="ColumnWidth" type="3" value="3570"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
@@ -214,6 +221,8 @@ AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="Hoko/vCmqUSO/1nQvggeWg==
+"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:simpleType>
@@ -221,6 +230,44 @@ AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <xsd:maxLength value="255"/>
 </xsd:restriction>
 </xsd:simpleType>
+</xsd:element>
+<xsd:element name="Deprecated" minOccurs="1" od:jetType="yesno" od:sqlSType="bit" od:nonNullable="yes" type="xsd:boolean">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="Description" type="10" value="Was previously authorized, but now is not to be published or used. Must be maintained for provenance queries and for some other queries. Would not be in Publisher or Scoring Applications."/>
+<od:fieldProperty name="Format" type="10" value="Yes/No"/>
+<od:fieldProperty name="DefaultValue" type="12" value="No"/>
+<od:fieldProperty name="DisplayControl" type="3" value="106"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="gkWKQw4RCkyIQhFyLi2DLw==
+"/>
+</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element name="Authorized" minOccurs="1" od:jetType="yesno" od:sqlSType="bit" od:nonNullable="yes" type="xsd:boolean">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="GUID" type="9" value="4wS91JoREkqEzCppAYCJDw==
+"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="Description" type="10" value="Was never authorized. Not to be published or used. Would not be in Provenance or Publisher or Scoring Applications. Availble for custom analysis and inspection. Do not change to No when deprecating."/>
+<od:fieldProperty name="Format" type="10" value="Yes/No"/>
+<od:fieldProperty name="DefaultValue" type="12" value="No"/>
+<od:fieldProperty name="DisplayControl" type="3" value="106"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+</xsd:appinfo>
+</xsd:annotation>
 </xsd:element>
 </xsd:sequence>
 </xsd:complexType>

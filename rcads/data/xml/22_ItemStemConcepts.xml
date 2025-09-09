@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="22_ItemStemConcepts.xsd" generated="2024-10-08T11:26:07">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="22_ItemStemConcepts.xsd" generated="2025-08-28T15:32:56">
 <_x0032_2_ItemStemConcepts>
 <ItemStemConceptID>52</ItemStemConceptID>
 <ItemStemConcept>Feel comfortable asking questions or raising concerns</ItemStemConcept>
@@ -134,7 +134,7 @@
 </_x0032_2_ItemStemConcepts>
 <_x0032_2_ItemStemConcepts>
 <ItemStemConceptID>86</ItemStemConceptID>
-<ItemStemConcept>Tired or low energy</ItemStemConcept>
+<ItemStemConcept>Feeling tired or having little energy</ItemStemConcept>
 </_x0032_2_ItemStemConcepts>
 <_x0032_2_ItemStemConcepts>
 <ItemStemConceptID>87</ItemStemConceptID>
@@ -142,7 +142,7 @@
 </_x0032_2_ItemStemConcepts>
 <_x0032_2_ItemStemConcepts>
 <ItemStemConceptID>88</ItemStemConceptID>
-<ItemStemConcept>Trouble concentrating</ItemStemConcept>
+<ItemStemConcept>Little interest or pleasure in doing things</ItemStemConcept>
 </_x0032_2_ItemStemConcepts>
 <_x0032_2_ItemStemConcepts>
 <ItemStemConceptID>89</ItemStemConceptID>
@@ -190,7 +190,7 @@
 </_x0032_2_ItemStemConcepts>
 <_x0032_2_ItemStemConcepts>
 <ItemStemConceptID>10</ItemStemConceptID>
-<ItemStemConcept>Feels nothing is much fun anymore, loss of pleasure or interest</ItemStemConcept>
+<ItemStemConcept>Feels nothing is much fun anymore</ItemStemConcept>
 </_x0032_2_ItemStemConcepts>
 <_x0032_2_ItemStemConcepts>
 <ItemStemConceptID>11</ItemStemConceptID>
@@ -202,7 +202,7 @@
 </_x0032_2_ItemStemConcepts>
 <_x0032_2_ItemStemConcepts>
 <ItemStemConceptID>13</ItemStemConceptID>
-<ItemStemConcept>Feels tired a lot or low energy</ItemStemConcept>
+<ItemStemConcept>Tired a lot</ItemStemConcept>
 </_x0032_2_ItemStemConcepts>
 <_x0032_2_ItemStemConcepts>
 <ItemStemConceptID>14</ItemStemConceptID>
@@ -355,5 +355,41 @@
 <_x0032_2_ItemStemConcepts>
 <ItemStemConceptID>51</ItemStemConceptID>
 <ItemStemConcept>Feels like part of a team</ItemStemConcept>
+</_x0032_2_ItemStemConcepts>
+<_x0032_2_ItemStemConcepts>
+<ItemStemConceptID>91</ItemStemConceptID>
+<ItemStemConcept>Poor appetite or overeating</ItemStemConcept>
+</_x0032_2_ItemStemConcepts>
+<_x0032_2_ItemStemConcepts>
+<ItemStemConceptID>92</ItemStemConceptID>
+<ItemStemConcept>Trouble concentrating on things</ItemStemConcept>
+</_x0032_2_ItemStemConcepts>
+<_x0032_2_ItemStemConcepts>
+<ItemStemConceptID>93</ItemStemConceptID>
+<ItemStemConcept>Feeling nervous, anxious, or on edge</ItemStemConcept>
+</_x0032_2_ItemStemConcepts>
+<_x0032_2_ItemStemConcepts>
+<ItemStemConceptID>94</ItemStemConceptID>
+<ItemStemConcept>Not being able to stop or control worrying</ItemStemConcept>
+</_x0032_2_ItemStemConcepts>
+<_x0032_2_ItemStemConcepts>
+<ItemStemConceptID>95</ItemStemConceptID>
+<ItemStemConcept>Worrying too much about different things</ItemStemConcept>
+</_x0032_2_ItemStemConcepts>
+<_x0032_2_ItemStemConcepts>
+<ItemStemConceptID>96</ItemStemConceptID>
+<ItemStemConcept>Trouble relaxing</ItemStemConcept>
+</_x0032_2_ItemStemConcepts>
+<_x0032_2_ItemStemConcepts>
+<ItemStemConceptID>97</ItemStemConceptID>
+<ItemStemConcept>Being so restless that it is hard to sit still</ItemStemConcept>
+</_x0032_2_ItemStemConcepts>
+<_x0032_2_ItemStemConcepts>
+<ItemStemConceptID>98</ItemStemConceptID>
+<ItemStemConcept>Becoming easily annoyed or irritable</ItemStemConcept>
+</_x0032_2_ItemStemConcepts>
+<_x0032_2_ItemStemConcepts>
+<ItemStemConceptID>99</ItemStemConceptID>
+<ItemStemConcept>Feeling afraid, as if something awful might happen</ItemStemConcept>
 </_x0032_2_ItemStemConcepts>
 </dataroot>

@@ -15,20 +15,26 @@
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAAqNUP9k6naSrQQc4RmoPUdAAAAAPNBqNDPJ+ZAAAAAAAAAAABSAEMA
-QQBEAFMAXwBTAGMAYQBsAGUAcwAAAAAAAABjWNXHj1wQS5+RT63Dd2F4AAAAAMEP
-CFFyHeZAAAAAAAAAAABSAEMAQQBEAFMAXwBTAGMAYQBsAGUASQB0AGUAbQBDAG8A
-bgB0AGUAbgB0AE0AYQBwAAAAAAAAAH8odOw/xO1Ds/TPBrhHGxEHAAAAKjVD/ZOp
-2kq0EHOEZqD1HVMAYwBhAGwAZQBJAEQAAAAAAAAAG92rf1Yr0U+eg8hMMfS1IwcA
-AAAqNUP9k6naSrQQc4RmoPUdUwBjAGEAbABlAE4AYQBtAGUAAAAAAAAA94Y+2Dy5
-Z0ueVEHQTRptDAcAAAAqNUP9k6naSrQQc4RmoPUdUwBjAGEAbABlAEMAbwBuAHMA
-dAByAHUAYwB0AAAAAAAAAG9Ep1O8meFOkokThKKvMBsHAAAAKjVD/ZOp2kq0EHOE
-ZqD1HVMAYwBhAGwAZQBVAHAAcABlAHIAQwBvAG4AcwB0AHIAdQBjAHQAAAAAAAAA
-Tu235Jpp/kW69oJtGa6A2AcAAAAqNUP9k6naSrQQc4RmoPUdSQB0AGUAbQBOAAAA
-AAAAAE3gGIBiWqJOkaXooJqbQMwHAAAAKjVD/ZOp2kq0EHOEZqD1HVMAYwBhAGwA
-ZQBTAGgAbwByAHQATgBhAG0AZQAAAAAAAAAPrTE7ZfEHR7PI8i1rJQDzBwAAACo1
-Q/2TqdpKtBBzhGag9R1TAGMAYQBsAGUASQBuAGkAdABpAGEAbABzAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAAqNUP9k6naSrQQc4RmoPUdAAAAAGrCRYDuVOZAAAAAAAAAAAA0ADAA
+XwBTAGMAYQBsAGUAcwAAAAAAAAB/KHTsP8TtQ7P0zwa4RxsRBwAAACo1Q/2TqdpK
+tBBzhGag9R1TAGMAYQBsAGUASQBEAAAAAAAAABvdq39WK9FPnoPITDH0tSMHAAAA
+KjVD/ZOp2kq0EHOEZqD1HVMAYwBhAGwAZQBOAGEAbQBlAAAAAAAAAPeGPtg8uWdL
+nlRB0E0abQwHAAAAKjVD/ZOp2kq0EHOEZqD1HVMAYwBhAGwAZQBDAG8AbgBzAHQA
+cgB1AGMAdAAAAAAAAABvRKdTvJnhTpKJE4SirzAbBwAAACo1Q/2TqdpKtBBzhGag
+9R1TAGMAYQBsAGUAVQBwAHAAZQByAEMAbwBuAHMAdAByAHUAYwB0AAAAAAAAAE7t
+t+Saaf5FuvaCbRmugNgHAAAAKjVD/ZOp2kq0EHOEZqD1HUkAdABlAG0ATgAAAAAA
+AABN4BiAYlqiTpGl6KCam0DMBwAAACo1Q/2TqdpKtBBzhGag9R1TAGMAYQBsAGUA
+UwBoAG8AcgB0AE4AYQBtAGUAAAAAAAAAD60xO2XxB0ezyPItayUA8wcAAAAqNUP9
+k6naSrQQc4RmoPUdUwBjAGEAbABlAEkAbgBpAHQAaQBhAGwAcwAAAAAAAACD0ZBt
+O2vGRK77zX+x+8HeAAAAACZHiu8yYuZAAAAAAAAAAAAwADAAXwBJAG4AcwB0AHIA
+dQBtAGUAbgB0AEYAYQBtAGkAbABpAGUAcwAAAAAAAAB+8/7JF/cqT6ikgI0Wn9Ny
+BwAAAIPRkG07a8ZErvvNf7H7wd5GAGEAbQBpAGwAeQBJAEQAAAAAAAAA1KmKYvfJ
+2EyPNGlsjyEJMAcAAACD0ZBtO2vGRK77zX+x+8HeSQBuAHMAdAByAHUAbQBlAG4A
+dABGAGEAbQBpAGwAeQAAAAAAAACCD3YoBzbKRYzaUMJ4dYIxBwAAACo1Q/2TqdpK
+tBBzhGag9R1JAG4AcwB0AHIAdQBtAGUAbgB0AEMAbwBsAGwAZQBjAHQAaQBvAG4A
+AAAAAAAAq6Vy4zYuSUa3ImqUy6YzsgcAAAAqNUP9k6naSrQQc4RmoPUdSQBuAHMA
+dAByAHUAbQBlAG4AdABMAGUAbgBnAHQAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+DAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 "/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
 <od:tableProperty name="DisplayViewsOnSharePointSite" type="2" value="1"/>
@@ -217,6 +223,57 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <xsd:maxLength value="255"/>
 </xsd:restriction>
 </xsd:simpleType>
+</xsd:element>
+<xsd:element name="InstrumentCollection" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="GUID" type="9" value="gg92KAc2ykWM2lDCeHWCMQ==
+"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+<od:fieldProperty name="Required" type="1" value="0"/>
+<od:fieldProperty name="DisplayControl" type="3" value="111"/>
+<od:fieldProperty name="RowSourceType" type="10" value="Table/Query"/>
+<od:fieldProperty name="RowSource" type="12" value="SELECT [00_InstrumentFamilies].[FamilyID], [00_InstrumentFamilies].[InstrumentFamily] FROM 00_InstrumentFamilies ORDER BY [InstrumentFamily]; "/>
+<od:fieldProperty name="BoundColumn" type="3" value="1"/>
+<od:fieldProperty name="ColumnCount" type="3" value="2"/>
+<od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+<od:fieldProperty name="ColumnWidths" type="10" value="0;1440"/>
+<od:fieldProperty name="ListRows" type="3" value="16"/>
+<od:fieldProperty name="ListWidth" type="10" value="1440twip"/>
+<od:fieldProperty name="LimitToList" type="1" value="1"/>
+<od:fieldProperty name="AllowMultipleValues" type="1" value="0"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AllowValueListEdits" type="1" value="1"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ShowOnlyRowSourceValues" type="1" value="0"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="Description" type="10" value="This is a faster way of determining which instrument a scale belongs to than the real way of computing relationships through instruments, items, item concepts, &amp; scales."/>
+</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element name="InstrumentLength" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="GUID" type="9" value="q6Vy4zYuSUa3ImqUy6Yzsg==
+"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="Description" type="10" value="This is the length of the instrument in the instrument collection to which the scale belongs."/>
+<od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+<od:fieldProperty name="DefaultValue" type="12" value="0"/>
+<od:fieldProperty name="Required" type="1" value="0"/>
+<od:fieldProperty name="DisplayControl" type="3" value="109"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+</xsd:appinfo>
+</xsd:annotation>
 </xsd:element>
 </xsd:sequence>
 </xsd:complexType>

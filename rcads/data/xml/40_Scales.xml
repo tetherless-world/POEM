@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="40_Scales.xsd" generated="2024-10-08T11:26:33">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="40_Scales.xsd" generated="2025-07-15T15:44:14">
 <_x0034_0_Scales>
 <ScaleID>1</ScaleID>
 <ScaleName>Social Phobia (9.1)</ScaleName>
@@ -8,6 +8,8 @@
 <ItemN>9</ItemN>
 <ScaleShortName>Social Phobia</ScaleShortName>
 <ScaleInitials>SP</ScaleInitials>
+<InstrumentCollection>1</InstrumentCollection>
+<InstrumentLength>47</InstrumentLength>
 </_x0034_0_Scales>
 <_x0034_0_Scales>
 <ScaleID>2</ScaleID>
@@ -17,6 +19,8 @@
 <ItemN>9</ItemN>
 <ScaleShortName>Panic Disorder</ScaleShortName>
 <ScaleInitials>PD</ScaleInitials>
+<InstrumentCollection>1</InstrumentCollection>
+<InstrumentLength>47</InstrumentLength>
 </_x0034_0_Scales>
 <_x0034_0_Scales>
 <ScaleID>3</ScaleID>
@@ -26,6 +30,8 @@
 <ItemN>6</ItemN>
 <ScaleShortName>Generalized Anxiety Disorder</ScaleShortName>
 <ScaleInitials>GAD</ScaleInitials>
+<InstrumentCollection>1</InstrumentCollection>
+<InstrumentLength>47</InstrumentLength>
 </_x0034_0_Scales>
 <_x0034_0_Scales>
 <ScaleID>4</ScaleID>
@@ -35,6 +41,8 @@
 <ItemN>10</ItemN>
 <ScaleShortName>Major Depressive Disorder</ScaleShortName>
 <ScaleInitials>MDD</ScaleInitials>
+<InstrumentCollection>1</InstrumentCollection>
+<InstrumentLength>25</InstrumentLength>
 </_x0034_0_Scales>
 <_x0034_0_Scales>
 <ScaleID>5</ScaleID>
@@ -44,6 +52,8 @@
 <ItemN>7</ItemN>
 <ScaleShortName>Separation Anxiety Disorder</ScaleShortName>
 <ScaleInitials>SAD</ScaleInitials>
+<InstrumentCollection>1</InstrumentCollection>
+<InstrumentLength>47</InstrumentLength>
 </_x0034_0_Scales>
 <_x0034_0_Scales>
 <ScaleID>6</ScaleID>
@@ -53,6 +63,8 @@
 <ItemN>6</ItemN>
 <ScaleShortName>Obsessive Compulsive Disorder</ScaleShortName>
 <ScaleInitials>OCD</ScaleInitials>
+<InstrumentCollection>1</InstrumentCollection>
+<InstrumentLength>47</InstrumentLength>
 </_x0034_0_Scales>
 <_x0034_0_Scales>
 <ScaleID>7</ScaleID>
@@ -62,6 +74,8 @@
 <ItemN>37</ItemN>
 <ScaleShortName>Total Anxiety (37.1)</ScaleShortName>
 <ScaleInitials>ANX</ScaleInitials>
+<InstrumentCollection>1</InstrumentCollection>
+<InstrumentLength>47</InstrumentLength>
 </_x0034_0_Scales>
 <_x0034_0_Scales>
 <ScaleID>8</ScaleID>
@@ -71,6 +85,8 @@
 <ItemN>47</ItemN>
 <ScaleShortName>Total Anxiety and Depression (47.1)</ScaleShortName>
 <ScaleInitials>ANXDEP</ScaleInitials>
+<InstrumentCollection>1</InstrumentCollection>
+<InstrumentLength>47</InstrumentLength>
 </_x0034_0_Scales>
 <_x0034_0_Scales>
 <ScaleID>9</ScaleID>
@@ -80,6 +96,8 @@
 <ItemN>15</ItemN>
 <ScaleShortName>Total Anxiety (15.1)</ScaleShortName>
 <ScaleInitials>Anx15</ScaleInitials>
+<InstrumentCollection>1</InstrumentCollection>
+<InstrumentLength>25</InstrumentLength>
 </_x0034_0_Scales>
 <_x0034_0_Scales>
 <ScaleID>10</ScaleID>
@@ -89,6 +107,8 @@
 <ItemN>25</ItemN>
 <ScaleShortName>Total Anxiety and Depression (25.1)</ScaleShortName>
 <ScaleInitials>AnxDep25</ScaleInitials>
+<InstrumentCollection>1</InstrumentCollection>
+<InstrumentLength>25</InstrumentLength>
 </_x0034_0_Scales>
 <_x0034_0_Scales>
 <ScaleID>11</ScaleID>
@@ -98,6 +118,7 @@
 <ItemN>5</ItemN>
 <ScaleShortName>Total Depression (5.1)</ScaleShortName>
 <ScaleInitials>Dep5</ScaleInitials>
+<InstrumentCollection>1</InstrumentCollection>
 </_x0034_0_Scales>
 <_x0034_0_Scales>
 <ScaleID>12</ScaleID>
@@ -107,6 +128,7 @@
 <ItemN>20</ItemN>
 <ScaleShortName>Total Anxiety (20.1)</ScaleShortName>
 <ScaleInitials>Anx20</ScaleInitials>
+<InstrumentCollection>1</InstrumentCollection>
 </_x0034_0_Scales>
 <_x0034_0_Scales>
 <ScaleID>13</ScaleID>
@@ -116,6 +138,8 @@
 <ItemN>7</ItemN>
 <ScaleShortName>Relationship</ScaleShortName>
 <ScaleInitials>R</ScaleInitials>
+<InstrumentCollection>3</InstrumentCollection>
+<InstrumentLength>35</InstrumentLength>
 </_x0034_0_Scales>
 <_x0034_0_Scales>
 <ScaleID>14</ScaleID>
@@ -125,6 +149,8 @@
 <ItemN>7</ItemN>
 <ScaleShortName>Expectancy</ScaleShortName>
 <ScaleInitials>E</ScaleInitials>
+<InstrumentCollection>3</InstrumentCollection>
+<InstrumentLength>35</InstrumentLength>
 </_x0034_0_Scales>
 <_x0034_0_Scales>
 <ScaleID>15</ScaleID>
@@ -134,6 +160,8 @@
 <ItemN>7</ItemN>
 <ScaleShortName>Attendance</ScaleShortName>
 <ScaleInitials>A</ScaleInitials>
+<InstrumentCollection>3</InstrumentCollection>
+<InstrumentLength>35</InstrumentLength>
 </_x0034_0_Scales>
 <_x0034_0_Scales>
 <ScaleID>16</ScaleID>
@@ -143,6 +171,8 @@
 <ItemN>7</ItemN>
 <ScaleShortName>Clarity</ScaleShortName>
 <ScaleInitials>C</ScaleInitials>
+<InstrumentCollection>3</InstrumentCollection>
+<InstrumentLength>35</InstrumentLength>
 </_x0034_0_Scales>
 <_x0034_0_Scales>
 <ScaleID>17</ScaleID>
@@ -152,6 +182,8 @@
 <ItemN>7</ItemN>
 <ScaleShortName>Homework</ScaleShortName>
 <ScaleInitials>H</ScaleInitials>
+<InstrumentCollection>3</InstrumentCollection>
+<InstrumentLength>35</InstrumentLength>
 </_x0034_0_Scales>
 <_x0034_0_Scales>
 <ScaleID>18</ScaleID>
@@ -161,5 +193,7 @@
 <ItemN>9</ItemN>
 <ScaleShortName>Depression (9.1)</ScaleShortName>
 <ScaleInitials>PHQ-9-Dep</ScaleInitials>
+<InstrumentCollection>4</InstrumentCollection>
+<InstrumentLength>9</InstrumentLength>
 </_x0034_0_Scales>
 </dataroot>

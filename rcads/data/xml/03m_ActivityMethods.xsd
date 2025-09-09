@@ -3,36 +3,35 @@
 <xsd:element name="dataroot">
 <xsd:complexType>
 <xsd:sequence>
-<xsd:element ref="_x0030_5_EntityGroupMap" minOccurs="0" maxOccurs="unbounded"/>
+<xsd:element ref="_x0030_3m_ActivityMethods" minOccurs="0" maxOccurs="unbounded"/>
 </xsd:sequence>
 <xsd:attribute name="generated" type="xsd:dateTime"/>
 </xsd:complexType>
 </xsd:element>
-<xsd:element name="_x0030_5_EntityGroupMap">
+<xsd:element name="_x0030_3m_ActivityMethods">
 <xsd:annotation>
 <xsd:appinfo>
-<od:index index-name="EntityGroupID" index-key="EntityGroupID " primary="no" unique="no" clustered="no" order="asc"/>
-<od:index index-name="EntityGroupMapID" index-key="EntityGroupMapID " primary="no" unique="no" clustered="no" order="asc"/>
-<od:index index-name="EntityID" index-key="EntityID " primary="no" unique="no" clustered="no" order="asc"/>
-<od:index index-name="PrimaryKey" index-key="EntityGroupMapID " primary="yes" unique="yes" clustered="no" order="asc"/>
+<od:index index-name="ActivityID" index-key="ActivityID " primary="no" unique="no" clustered="no" order="asc"/>
+<od:index index-name="MethodID" index-key="MethodID " primary="no" unique="no" clustered="no" order="asc"/>
+<od:index index-name="PrimaryKey" index-key="ID " primary="yes" unique="yes" clustered="no" order="asc"/>
+<od:tableProperty name="PublishToWeb" type="2" value="1"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAA/nhIRPS7SQZSDUqaiNj2fAAAAANp3HiLyYeZAAAAAAAAAAAAwADUA
-XwBFAG4AdABpAHQAeQBHAHIAbwB1AHAATQBhAHAAAAAAAAAAyqbc8ONyREWnEZ+l
-dB1GFQcAAAA/nhIRPS7SQZSDUqaiNj2fRQBuAHQAaQB0AHkARwByAG8AdQBwAE0A
-YQBwAEkARAAAAAAAAAD9wMSij8ZbRZqxpAuCpdLzAAAAADv1qhryYeZAAAAAAAAA
-AAAwADQAXwBFAG4AdABpAHQAeQBHAHIAbwB1AHAAcwAAAAAAAADff20Yj70GQrGs
-8e+F3mM9BwAAAP3AxKKPxltFmrGkC4Kl0vNFAG4AdABpAHQAeQBNAGEAcABwAGkA
-bgBnAEkARAAAAAAAAACP0cBV6LvrSL4AbsfBQLOyBwAAAP3AxKKPxltFmrGkC4Kl
-0vNFAG4AdABpAHQAeQBMAGkAcwB0AE4AYQBtAGUAAAAAAAAAA44ZiTiHX0+4iDAf
-zZR/4gcAAAA/nhIRPS7SQZSDUqaiNj2fRQBuAHQAaQB0AHkARwByAG8AdQBwAEkA
-RAAAAAAAAADqDec7QN1lTaMTX+lsaExNAAAAAA8ti0eVYOZAAAAAAAAAAAAxADAA
-XwBJAG4AcwB0AHIAdQBtAGUAbgB0AHMAAAAAAAAAIuaO4wweh0+9QQUD8n4U0AcA
-AADqDec7QN1lTaMTX+lsaExNSQBuAHMAdAByAHUAbQBlAG4AdABJAEQAAAAAAAAA
-cFoijMUfgUG7HP9NhzQyVQcAAADqDec7QN1lTaMTX+lsaExNSQBuAHMAdAByAHUA
-bQBlAG4AdABOAGEAbQBlAAAAAAAAAFM11qdf8oNKvqckNENSahwHAAAAP54SET0u
-0kGUg1KmojY9n0UAbgB0AGkAdAB5AEkARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-DAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAA5QBA9TECDQY/6cZckqAg0AAAAACnVF//xYeZAAAAAAAAAAAAwADMA
+bQBfAEEAYwB0AGkAdgBpAHQAeQBNAGUAdABoAG8AZABzAAAAAAAAAGT8a0eAIodH
+rTaqrs7TNcQHAAAAOUAQPUxAg0GP+nGXJKgINEkARAAAAAAAAAAn7ves1+dyQI9y
+CUI7m3BUAAAAAMOmu3iVYOZAAAAAAAAAAAAwADMAXwBBAGMAdABpAHYAaQB0AGkA
+ZQBzAAAAAAAAAISbmglTnvdIqwBN3EyFs90HAAAAJ+73rNfnckCPcglCO5twVEEA
+YwB0AGkAdgBpAHQAeQBJAEQAAAAAAAAAdMBlQqlu2E6imZBuQgm3hQcAAAAn7ves
+1+dyQI9yCUI7m3BUQQBjAHQAaQB2AGkAdAB5AE4AYQBtAGUAAAAAAAAAueUKyCSG
+UEanLQ3L+DGPxAcAAAA5QBA9TECDQY/6cZckqAg0QQBjAHQAaQB2AGkAdAB5AEkA
+RAAAAAAAAABWrFudDhlTQ55rJWXl6jV0AAAAAIt5Q1cRU+ZAAAAAAAAAAAA5ADMA
+XwBNAGUAdABoAG8AZABUAHkAcABlAHMAAAAAAAAATm/q1NN7xkyqUmuRXO4WIgcA
+AABWrFudDhlTQ55rJWXl6jV0TQBlAHQAaABvAGQAVAB5AHAAZQBJAEQAAAAAAAAA
+F7wBFMjdIkS9Yb/45tu7uwcAAABWrFudDhlTQ55rJWXl6jV0TQBlAHQAaABvAGQA
+TgBhAG0AZQAAAAAAAAARwdMwwpXKS7vHoB5rWNyoBwAAADlAED1MQINBj/pxlySo
+CDRNAGUAdABoAG8AZABJAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAFAAAA
+AAAAAAAAAAAAAAAAAAA=
 "/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
 <od:tableProperty name="DisplayViewsOnSharePointSite" type="2" value="1"/>
@@ -49,14 +48,13 @@ DAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:tableProperty name="ReadOnlyWhenDisconnected" type="1" value="0"/>
 <od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="3"/>
 <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="0"/>
-<od:tableProperty name="PublishToWeb" type="2" value="1"/>
-<od:tableProperty name="GUID" type="9" value="P54SET0u0kGUg1KmojY9nw==
+<od:tableProperty name="GUID" type="9" value="OUAQPUxAg0GP+nGXJKgINA==
 "/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
 <xsd:sequence>
-<xsd:element name="EntityGroupMapID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
+<xsd:element name="ID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
@@ -66,18 +64,19 @@ DAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
-<od:fieldProperty name="Description" type="10" value="ID for the relationship between a member and its group"/>
-<od:fieldProperty name="GUID" type="9" value="yqbc8ONyREWnEZ+ldB1GFQ==
+<od:fieldProperty name="Description" type="10" value="This table links provenance activties to specific methods. Activities can have 0...x methods."/>
+<od:fieldProperty name="GUID" type="9" value="ZPxrR4Aih0etNqquztM1xA==
 "/>
 </xsd:appinfo>
 </xsd:annotation>
 </xsd:element>
-<xsd:element name="EntityGroupID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+<xsd:element name="ActivityID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="ColumnWidth" type="3" value="6735"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="8060"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="Description" type="10" value="Lookup for Activity table"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
 <od:fieldProperty name="DisplayControl" type="3" value="111"/>
@@ -86,50 +85,49 @@ DAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
 <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"/>
-<od:fieldProperty name="RowSource" type="12" value="SELECT [04_EntityGroups].[EntityMappingID], [04_EntityGroups].[EntityListName] FROM 04_EntityGroups ORDER BY [EntityListName]; "/>
+<od:fieldProperty name="RowSource" type="12" value="SELECT [03_Activities].[ActivityID], [03_Activities].[ActivityName] FROM 03_Activities ORDER BY [ActivityName]; "/>
 <od:fieldProperty name="BoundColumn" type="3" value="1"/>
 <od:fieldProperty name="ColumnCount" type="3" value="2"/>
 <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
-<od:fieldProperty name="ColumnWidths" type="10" value="0;1440"/>
+<od:fieldProperty name="ColumnWidths" type="10" value="0;4350"/>
 <od:fieldProperty name="ListRows" type="3" value="16"/>
-<od:fieldProperty name="ListWidth" type="10" value="1440twip"/>
-<od:fieldProperty name="LimitToList" type="1" value="1"/>
-<od:fieldProperty name="AllowMultipleValues" type="1" value="0"/>
-<od:fieldProperty name="AllowValueListEdits" type="1" value="1"/>
-<od:fieldProperty name="ShowOnlyRowSourceValues" type="1" value="0"/>
-<od:fieldProperty name="Description" type="10" value="The entity group"/>
-<od:fieldProperty name="GUID" type="9" value="A44ZiTiHX0+4iDAfzZR/4g==
-"/>
-</xsd:appinfo>
-</xsd:annotation>
-</xsd:element>
-<xsd:element name="EntityID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
-<xsd:annotation>
-<xsd:appinfo>
-<od:fieldProperty name="ColumnWidth" type="3" value="2565"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
-<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
-<od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
-<od:fieldProperty name="Required" type="1" value="0"/>
-<od:fieldProperty name="DisplayControl" type="3" value="111"/>
-<od:fieldProperty name="TextAlign" type="2" value="0"/>
-<od:fieldProperty name="AggregateType" type="4" value="-1"/>
-<od:fieldProperty name="ResultType" type="2" value="0"/>
-<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
-<od:fieldProperty name="RowSourceType" type="10" value="Table/Query"/>
-<od:fieldProperty name="RowSource" type="12" value="SELECT [10_Instruments].[InstrumentID], [10_Instruments].[InstrumentName] FROM 10_Instruments ORDER BY [InstrumentName]; "/>
-<od:fieldProperty name="BoundColumn" type="3" value="1"/>
-<od:fieldProperty name="ColumnCount" type="3" value="2"/>
-<od:fieldProperty name="ColumnHeads" type="1" value="0"/>
-<od:fieldProperty name="ColumnWidths" type="10" value="0;1440"/>
-<od:fieldProperty name="ListRows" type="3" value="16"/>
-<od:fieldProperty name="ListWidth" type="10" value="1440twip"/>
+<od:fieldProperty name="ListWidth" type="10" value="4350twip"/>
 <od:fieldProperty name="LimitToList" type="1" value="1"/>
 <od:fieldProperty name="AllowMultipleValues" type="1" value="0"/>
 <od:fieldProperty name="AllowValueListEdits" type="1" value="0"/>
 <od:fieldProperty name="ShowOnlyRowSourceValues" type="1" value="0"/>
-<od:fieldProperty name="Description" type="10" value="One member of the entity group"/>
-<od:fieldProperty name="GUID" type="9" value="UzXWp1/yg0q+pyQ0Q1JqHA==
+<od:fieldProperty name="GUID" type="9" value="ueUKyCSGUEanLQ3L+DGPxA==
+"/>
+</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element name="MethodID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="ColumnWidth" type="3" value="6170"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="Description" type="10" value="Lookup for MethodType table"/>
+<od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+<od:fieldProperty name="Required" type="1" value="0"/>
+<od:fieldProperty name="DisplayControl" type="3" value="111"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="RowSourceType" type="10" value="Table/Query"/>
+<od:fieldProperty name="RowSource" type="12" value="SELECT [93_MethodTypes].[MethodTypeID], [93_MethodTypes].[MethodName] FROM 93_MethodTypes ORDER BY [MethodName]; "/>
+<od:fieldProperty name="BoundColumn" type="3" value="1"/>
+<od:fieldProperty name="ColumnCount" type="3" value="2"/>
+<od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+<od:fieldProperty name="ColumnWidths" type="10" value="0;2940"/>
+<od:fieldProperty name="ListRows" type="3" value="16"/>
+<od:fieldProperty name="ListWidth" type="10" value="2940twip"/>
+<od:fieldProperty name="LimitToList" type="1" value="1"/>
+<od:fieldProperty name="AllowMultipleValues" type="1" value="0"/>
+<od:fieldProperty name="AllowValueListEdits" type="1" value="0"/>
+<od:fieldProperty name="ShowOnlyRowSourceValues" type="1" value="0"/>
+<od:fieldProperty name="GUID" type="9" value="EcHTMMKVyku7x6Aea1jcqA==
 "/>
 </xsd:appinfo>
 </xsd:annotation>

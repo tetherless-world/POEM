@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="03_Activities.xsd" generated="2025-05-15T17:27:42">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="03_Activities.xsd" generated="2025-08-28T15:30:17">
 <_x0030_3_Activities>
 <ActivityID>46</ActivityID>
 <ActivityName>Generated the RCADS-47-Y-JA-1 from RCADS-47-Y-EN</ActivityName>
@@ -172,6 +172,78 @@
 <GenEntityID>85</GenEntityID>
 </_x0030_3_Activities>
 <_x0030_3_Activities>
+<ActivityID>65</ActivityID>
+<ActivityName>Generated the RCADS-47-CG-SV-1 from RCADS-47-CG-EN</ActivityName>
+<AssociatedAgent>36</AssociatedAgent>
+<ActivityDate>2015-07-17T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>2</UsedEntityID>
+<GenEntityID>86</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>66</ActivityID>
+<ActivityName>Generated the RCADS-47-Y-SV from RCADS-47-Y-EN</ActivityName>
+<AssociatedAgent>36</AssociatedAgent>
+<ActivityDate>2015-07-17T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>1</UsedEntityID>
+<GenEntityID>87</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>67</ActivityID>
+<ActivityName>Generated the RCADS-47-CG-SV-2 from RCADS-47-CG-SV-1 and RCADS-47-CG-EN (2 item stems changed)</ActivityName>
+<AssociatedAgent>37</AssociatedAgent>
+<ActivityDate>2025-04-03T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>88</UsedEntityID>
+<GenEntityID>89</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>68</ActivityID>
+<ActivityName>Generated the RCADS-47-Y-ZH-HANS-1 from RCADS-47-Y-EN</ActivityName>
+<AssociatedAgent>38</AssociatedAgent>
+<ActivityDate>2002-03-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>1</UsedEntityID>
+<GenEntityID>90</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>69</ActivityID>
+<ActivityName>Generated the RCADS-47-Y-IS from RCADS-47-Y-EN</ActivityName>
+<AssociatedAgent>39</AssociatedAgent>
+<ActivityDate>2019-06-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>1</UsedEntityID>
+<GenEntityID>91</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>70</ActivityID>
+<ActivityName>Generated the RCADS-47-CG-IS from RCADS-47-CG-EN</ActivityName>
+<AssociatedAgent>39</AssociatedAgent>
+<ActivityDate>2019-06-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>2</UsedEntityID>
+<GenEntityID>92</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>71</ActivityID>
+<ActivityName>Generated the RCADS-47-Y-HU from RCADS-47-Y-EN</ActivityName>
+<AssociatedAgent>40</AssociatedAgent>
+<ActivityDate>2021-03-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>1</UsedEntityID>
+<GenEntityID>93</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>72</ActivityID>
+<ActivityName>Generated the RCADS-47-CG-HU from RCADS-47-CG-EN</ActivityName>
+<AssociatedAgent>40</AssociatedAgent>
+<ActivityDate>2021-03-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>2</UsedEntityID>
+<GenEntityID>94</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
 <ActivityID>1</ActivityID>
 <ActivityName>Created the RCADS-47-Y-EN</ActivityName>
 <AssociatedAgent>1</AssociatedAgent>
@@ -192,7 +264,7 @@
 <ActivityID>3</ActivityID>
 <ActivityName>Generated the RCADS-25-Y-EN using RCADS-47-Y-EN</ActivityName>
 <AssociatedAgent>5</AssociatedAgent>
-<ActivityDate>2012-02-13T00:00:00</ActivityDate>
+<ActivityDate>2011-09-02T00:00:00</ActivityDate>
 <EntityType>1</EntityType>
 <UsedEntityID>1</UsedEntityID>
 <GenEntityID>3</GenEntityID>
@@ -554,5 +626,203 @@
 <EntityType>1</EntityType>
 <UsedEntityID>2</UsedEntityID>
 <GenEntityID>53</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>73</ActivityID>
+<ActivityName>Generated the RCADS-47-Y-HI from RCADS-47-Y-EN</ActivityName>
+<AssociatedAgent>41</AssociatedAgent>
+<ActivityDate>2025-07-14T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>1</UsedEntityID>
+<GenEntityID>95</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>74</ActivityID>
+<ActivityName>Generated the RCADS-47-CG-HI from RCADS-47-CG-EN</ActivityName>
+<AssociatedAgent>41</AssociatedAgent>
+<ActivityDate>2025-07-14T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>2</UsedEntityID>
+<GenEntityID>96</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>75</ActivityID>
+<ActivityName>Generated the RCADS-25-Y-HI-2 from RCADS-47-Y-HI and RCADS-25-Y-EN</ActivityName>
+<AssociatedAgent>42</AssociatedAgent>
+<ActivityDate>2025-07-22T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>97</UsedEntityID>
+<GenEntityID>99</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>76</ActivityID>
+<ActivityName>Generated the RCADS-25-CG-HI from RCADS-47-CG-HI and RCADS-25-CG-EN</ActivityName>
+<AssociatedAgent>42</AssociatedAgent>
+<ActivityDate>2025-07-22T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>98</UsedEntityID>
+<GenEntityID>100</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>77</ActivityID>
+<ActivityName>Generated the RCADS-47-Y-PA from RCADS-47-Y-EN</ActivityName>
+<AssociatedAgent>41</AssociatedAgent>
+<ActivityDate>2025-07-14T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>1</UsedEntityID>
+<GenEntityID>101</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>78</ActivityID>
+<ActivityName>Generated the RCADS-47-CG-PA from RCADS-47-Y-EN</ActivityName>
+<AssociatedAgent>41</AssociatedAgent>
+<ActivityDate>2022-07-14T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>2</UsedEntityID>
+<GenEntityID>102</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>79</ActivityID>
+<ActivityName>Generated the RCADS-25-Y-PA from RCADS-47-Y-PA and RCADS-25-Y-EN</ActivityName>
+<AssociatedAgent>42</AssociatedAgent>
+<ActivityDate>2025-07-22T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>103</UsedEntityID>
+<GenEntityID>105</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>80</ActivityID>
+<ActivityName>Generated the RCADS-25-CG-PA from RCADS-47-CG-PA and RCADS-25-CG-EN</ActivityName>
+<AssociatedAgent>42</AssociatedAgent>
+<ActivityDate>2025-07-22T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>104</UsedEntityID>
+<GenEntityID>106</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>81</ActivityID>
+<ActivityName>Generated the RCADS-25-Y-ET from RCADS-47-Y-ET and RCADS-25-Y-EN</ActivityName>
+<AssociatedAgent>7</AssociatedAgent>
+<ActivityDate>2024-01-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>109</UsedEntityID>
+<GenEntityID>107</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>82</ActivityID>
+<ActivityName>Generated the RCADS-25-CG-ET from RCADS-47-CG-ET and RCADS-25-CG-EN</ActivityName>
+<AssociatedAgent>7</AssociatedAgent>
+<ActivityDate>2024-01-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>110</UsedEntityID>
+<GenEntityID>108</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>85</ActivityID>
+<ActivityName>Generated the RCADS-25-Y-EL from RCADS-47-Y-EL and RCADS-25-Y-EN</ActivityName>
+<AssociatedAgent>43</AssociatedAgent>
+<ActivityDate>2024-01-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>113</UsedEntityID>
+<GenEntityID>111</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>86</ActivityID>
+<ActivityName>Generated the RCADS-25-CG-EL from RCADS-47-CG-EL and RCADS-25-CG-EN</ActivityName>
+<AssociatedAgent>43</AssociatedAgent>
+<ActivityDate>2024-01-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>114</UsedEntityID>
+<GenEntityID>112</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>94</ActivityID>
+<ActivityName>Generated the RCADS-25-Y-HU from RCADS-47-Y-HU and RCADS-25-Y-EN</ActivityName>
+<AssociatedAgent>43</AssociatedAgent>
+<ActivityDate>2024-01-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>121</UsedEntityID>
+<GenEntityID>119</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>95</ActivityID>
+<ActivityName>Generated the RCADS-25-CG-HU from RCADS-47-CG-HU and RCADS-25-CG-EN</ActivityName>
+<AssociatedAgent>43</AssociatedAgent>
+<ActivityDate>2024-01-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>122</UsedEntityID>
+<GenEntityID>120</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>96</ActivityID>
+<ActivityName>Generated the RCADS-25-Y-IS from RCADS-47-Y-IS and RCADS-25-Y-EN</ActivityName>
+<AssociatedAgent>42</AssociatedAgent>
+<ActivityDate>2024-01-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>125</UsedEntityID>
+<GenEntityID>123</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>97</ActivityID>
+<ActivityName>Generated the RCADS-25-CG-IS from RCADS-47-CG-IS and RCADS-25-CG-EN</ActivityName>
+<AssociatedAgent>42</AssociatedAgent>
+<ActivityDate>2024-01-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>126</UsedEntityID>
+<GenEntityID>124</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>98</ActivityID>
+<ActivityName>Generated the RCADS-25-Y-SL from RCADS-47-Y-SL and RCADS-25-Y-EN</ActivityName>
+<AssociatedAgent>44</AssociatedAgent>
+<ActivityDate>2024-01-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>129</UsedEntityID>
+<GenEntityID>127</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>99</ActivityID>
+<ActivityName>Generated the RCADS-25-CG-SL from RCADS-47-CG-SL and RCADS-25-CG-EN</ActivityName>
+<AssociatedAgent>44</AssociatedAgent>
+<ActivityDate>2024-01-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>130</UsedEntityID>
+<GenEntityID>128</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>100</ActivityID>
+<ActivityName>Generated the RCADS-25-Y-FI from RCADS-47-Y-FI and RCADS-25-Y-EN</ActivityName>
+<AssociatedAgent>42</AssociatedAgent>
+<ActivityDate>2024-01-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>117</UsedEntityID>
+<GenEntityID>115</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>101</ActivityID>
+<ActivityName>Generated the RCADS-25-CG-FI from RCADS-47-CG-FI and RCADS-25-CG-EN</ActivityName>
+<AssociatedAgent>42</AssociatedAgent>
+<ActivityDate>2024-01-01T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>118</UsedEntityID>
+<GenEntityID>116</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>102</ActivityID>
+<ActivityName>Generated the RCADS-47-Y-KO from RCADS-47-Y-EN</ActivityName>
+<AssociatedAgent>45</AssociatedAgent>
+<ActivityDate>2012-06-22T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>1</UsedEntityID>
+<GenEntityID>131</GenEntityID>
+</_x0030_3_Activities>
+<_x0030_3_Activities>
+<ActivityID>103</ActivityID>
+<ActivityName>Generated the RCADS-47-CG-KO from RCADS-47-CG-EN</ActivityName>
+<AssociatedAgent>45</AssociatedAgent>
+<ActivityDate>2012-06-22T00:00:00</ActivityDate>
+<EntityType>1</EntityType>
+<UsedEntityID>2</UsedEntityID>
+<GenEntityID>132</GenEntityID>
 </_x0030_3_Activities>
 </dataroot>

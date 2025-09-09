@@ -19,23 +19,24 @@
 "/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAC7WlCHcswaQaxJopgMJEZ3AAAAABRSzMZuP+ZAAAAAAAAAAAAzADAA
-XwBDAG8AZABlAGIAbwBvAGsAcwAAAAAAAADuWeMTXz0aTZ10PoU/j78lBwAAALta
-UIdyzBpBrEmimAwkRndDAG8AZABlAGIAbwBvAGsASQBEAAAAAAAAAIS3xmKKVchE
-sHRU0/9496kHAAAAu1pQh3LMGkGsSaKYDCRGd0MAbwBkAGUAYgBvAG8AawBOAGEA
-bQBlAAAAAAAAAF0W4jLePcxNke1SIu1DkvYAAAAAzhUb1xgr5kAAAAAAAAAAADMA
-MwBfAEUAeABwAGUAcgBpAGUAbgBjAGUAcwAAAAAAAACj1dUdS90CRIdJeys2JARB
-BwAAAF0W4jLePcxNke1SIu1DkvZFAHgAcABlAHIAaQBlAG4AYwBlAEkARAAAAAAA
-AADY0m5JZtISSIe13N4j8++DBwAAAF0W4jLePcxNke1SIu1DkvZFAHgAcABlAHIA
-aQBlAG4AYwBlAAAAAAAAAPp8yXSUDhRNgl2nqEOr/KIHAAAAu1pQh3LMGkGsSaKY
-DCRGd0MAbwBkAGUAYgBvAG8AawBFAHgAcABlAHIAaQBlAG4AYwBlAAAAAAAAAHVx
-SL3Hxy5ErDbriA53SWsAAAAAUYyP2Bgr5kAAAAAAAAAAADkAMABfAEwAYQBuAGcA
-dQBhAGcAZQBzAAAAAAAAADvndoF/RjBLsTk+cLhuGhkHAAAAdXFIvcfHLkSsNuuI
-DndJa0wAYQBuAGcAYQB1AGcAZQBJAEQAAAAAAAAALxf72QWntk6hvlpmgpvgawcA
-AAB1cUi9x8cuRKw264gOd0lrTABhAG4AZwB1AGEAZwBlAAAAAAAAAJ4T94MqbbRK
-hn9A9INxYawHAAAAu1pQh3LMGkGsSaKYDCRGd0MAbwBkAGUAYgBvAG8AawBMAGEA
-bgBnAHUAYQBnAGUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAAAA
-AAAAAAAAAAA=
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAC7WlCHcswaQaxJopgMJEZ3AAAAAMSNvcOVYOZAAAAAAAAAAAAzADAA
+XwBDAG8AZABlAGIAbwBvAGsAcwAAAAAAAAA1b8hzrJckTKfsGd9+lLFMAAAAANTK
+0ttxZeZAAAAAAAAAAAAzADIAXwBDAG8AZABlAGIAbwBvAGsATwBwAHQAaQBvAG4A
+TQBhAHAAAAAAAAAA7lnjE189Gk2ddD6FP4+/JQcAAAC7WlCHcswaQaxJopgMJEZ3
+QwBvAGQAZQBiAG8AbwBrAEkARAAAAAAAAACEt8ZiilXIRLB0VNP/ePepBwAAALta
+UIdyzBpBrEmimAwkRndDAG8AZABlAGIAbwBvAGsATgBhAG0AZQAAAAAAAABdFuIy
+3j3MTZHtUiLtQ5L2AAAAAM4VG9cYK+ZAAAAAAAAAAAAzADMAXwBFAHgAcABlAHIA
+aQBlAG4AYwBlAHMAAAAAAAAAo9XVHUvdAkSHSXsrNiQEQQcAAABdFuIy3j3MTZHt
+UiLtQ5L2RQB4AHAAZQByAGkAZQBuAGMAZQBJAEQAAAAAAAAA2NJuSWbSEkiHtdze
+I/PvgwcAAABdFuIy3j3MTZHtUiLtQ5L2RQB4AHAAZQByAGkAZQBuAGMAZQAAAAAA
+AAD6fMl0lA4UTYJdp6hDq/yiBwAAALtaUIdyzBpBrEmimAwkRndDAG8AZABlAGIA
+bwBvAGsARQB4AHAAZQByAGkAZQBuAGMAZQAAAAAAAABqYTCfkURZSY48cDc8kVA3
+AAAAAKdDCscTZOZAAAAAAAAAAAA5ADAAXwBMAGEAbgBnAHUAYQBnAGUAcwAAAAAA
+AACrMY2PjWV6Tp3M5t6QklJQBwAAAGphMJ+RRFlJjjxwNzyRUDdMAGEAbgBnAGEA
+dQBnAGUASQBEAAAAAAAAAHO1cvlc2OxAvFlWCyVKOUUHAAAAamEwn5FEWUmOPHA3
+PJFQN0wAYQBuAGcAdQBhAGcAZQAAAAAAAACeE/eDKm20SoZ/QPSDcWGsBwAAALta
+UIdyzBpBrEmimAwkRndDAG8AZABlAGIAbwBvAGsATABhAG4AZwB1AGEAZwBlAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 "/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
 <od:tableProperty name="DisplayViewsOnSharePointSite" type="2" value="1"/>
@@ -53,6 +54,7 @@ AAAAAAAAAAA=
 <od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="-1"/>
 <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="-1"/>
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
+<od:tableProperty name="Filter" type="12" value="([Lookup_CodebookLanguage].[Language]=&quot;Urdu&quot;)"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
@@ -64,7 +66,7 @@ AAAAAAAAAAA=
 <od:fieldProperty name="GUID" type="9" value="7lnjE189Gk2ddD6FP4+/JQ==
 "/>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="1"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
 <od:fieldProperty name="Required" type="1" value="1"/>
@@ -73,6 +75,7 @@ AAAAAAAAAAA=
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+<od:fieldProperty name="Description" type="10" value="A codebook is a colllection of response options having a language and an experience attribute."/>
 </xsd:appinfo>
 </xsd:annotation>
 </xsd:element>

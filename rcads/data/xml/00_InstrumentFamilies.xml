@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="00_InstrumentFamilies.xsd" generated="2025-08-28T15:29:46">
+<_x0030_0_InstrumentFamilies>
+<FamilyID>1</FamilyID>
+<InstrumentFamily>RCADS</InstrumentFamily>
+<InstrumentFamilyFullName>Revised Child Anxiety and Depression Scale</InstrumentFamilyFullName>
+</_x0030_0_InstrumentFamilies>
+<_x0030_0_InstrumentFamilies>
+<FamilyID>2</FamilyID>
+<InstrumentFamily>PSWQ-C</InstrumentFamily>
+<InstrumentFamilyFullName>Penn State Worry Questionnaire for Children</InstrumentFamilyFullName>
+</_x0030_0_InstrumentFamilies>
+<_x0030_0_InstrumentFamilies>
+<FamilyID>3</FamilyID>
+<InstrumentFamily>MTT</InstrumentFamily>
+<InstrumentFamilyFullName>My Thoughts About Therapy</InstrumentFamilyFullName>
+</_x0030_0_InstrumentFamilies>
+<_x0030_0_InstrumentFamilies>
+<FamilyID>4</FamilyID>
+<InstrumentFamily>PHQ</InstrumentFamily>
+<InstrumentFamilyFullName>Patient Health Questionnaire</InstrumentFamilyFullName>
+</_x0030_0_InstrumentFamilies>
+<_x0030_0_InstrumentFamilies>
+<FamilyID>5</FamilyID>
+<InstrumentFamily>GAD</InstrumentFamily>
+<InstrumentFamilyFullName>General Anxiety Disorder</InstrumentFamilyFullName>
+</_x0030_0_InstrumentFamilies>
+</dataroot>

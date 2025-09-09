@@ -14,14 +14,13 @@
 <od:index index-name="EntityMappingID" index-key="EntityMappingID " primary="no" unique="no" clustered="no" order="asc"/>
 <od:index index-name="PrimaryKey" index-key="EntityMappingID " primary="yes" unique="yes" clustered="no" order="asc"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
-<od:tableProperty name="OrderByOn" type="1" value="1"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAABYfwX/ttBTR6LYhQacp+kvAAAAAFFGSL0PP+ZAAAAAAAAAAAAwADQA
-XwBFAG4AdABpAHQAeQBHAHIAbwB1AHAAcwAAAAAAAADt/CYA396IT4pGPJW0V8i6
-BwAAAFh/Bf+20FNHotiFBpyn6S9FAG4AdABpAHQAeQBMAGkAcwB0AE4AYQBtAGUA
-AAAAAAAA73V7VtdHTUS0XYJ7YCPFbgAAAACxE0ovjUDmQAAAAAAAAAAAMAAzAF8A
-QQBjAHQAaQB2AGkAdABpAGUAcwAAAAAAAABcaAe8QAw3RLh7PwlrJZkGBwAAAFh/
-Bf+20FNHotiFBpyn6S9FAG4AdABpAHQAeQBNAGEAcABwAGkAbgBnAEkARAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
+<od:tableProperty name="OrderByOn" type="1" value="0"/>
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAD9wMSij8ZbRZqxpAuCpdLzAAAAAAaYqhryYeZAAAAAAAAAAAAwADQA
+XwBFAG4AdABpAHQAeQBHAHIAbwB1AHAAcwAAAAAAAADff20Yj70GQrGs8e+F3mM9
+BwAAAP3AxKKPxltFmrGkC4Kl0vNFAG4AdABpAHQAeQBNAGEAcABwAGkAbgBnAEkA
+RAAAAAAAAACP0cBV6LvrSL4AbsfBQLOyBwAAAP3AxKKPxltFmrGkC4Kl0vNFAG4A
+dABpAHQAeQBMAGkAcwB0AE4AYQBtAGUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwA
+AAAFAAAAAAAAAAAAAAAAAAAAAAA=
 "/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
 <od:tableProperty name="DisplayViewsOnSharePointSite" type="2" value="1"/>
@@ -39,9 +38,8 @@ AAAAAAAAAAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="3"/>
 <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="0"/>
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
-<od:tableProperty name="GUID" type="9" value="WH8F/7bQU0ei2IUGnKfpLw==
+<od:tableProperty name="GUID" type="9" value="/cDEoo/GW0WasaQLgqXS8w==
 "/>
-<od:tableProperty name="OrderBy" type="12" value="[04_EntityGroups].[EntityListName]"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
@@ -50,13 +48,14 @@ AAAAAAAAAAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="1965"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="TextAlign" type="2" value="0"/>
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
-<od:fieldProperty name="GUID" type="9" value="XGgHvEAMN0S4ez8JayWZBg==
+<od:fieldProperty name="Description" type="10" value="This is a group of 1...x entities (instruments)."/>
+<od:fieldProperty name="GUID" type="9" value="339tGI+9BkKxrPHvhd5jPQ==
 "/>
 </xsd:appinfo>
 </xsd:annotation>
@@ -78,7 +77,7 @@ AAAAAAAAAAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
-<od:fieldProperty name="GUID" type="9" value="7fwmAN/eiE+KRjyVtFfIug==
+<od:fieldProperty name="GUID" type="9" value="j9HAVei760i+AG7HwUCzsg==
 "/>
 </xsd:appinfo>
 </xsd:annotation>

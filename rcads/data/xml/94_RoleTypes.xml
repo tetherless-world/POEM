@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="94_RoleTypes.xsd" generated="2025-05-16T12:26:05">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="94_RoleTypes.xsd" generated="2025-08-28T15:35:12">
+<_x0039_4_RoleTypes>
+<RoleID>6</RoleID>
+<RoleName>Editor</RoleName>
+<RoleClass>Editor</RoleClass>
+<RoleDefinition>[Non-translator] Individual who alters the formatting or length of the instrument without altering content.</RoleDefinition>
+</_x0039_4_RoleTypes>
+<_x0039_4_RoleTypes>
+<RoleID>4</RoleID>
+<RoleName>Field-Expert Reviewer</RoleName>
+<RoleClass>Reviewer</RoleClass>
+<RoleDefinition>[Non-translator] Reviewer who has expertise in subject matter (clinical psychological assessment of youth)</RoleDefinition>
+</_x0039_4_RoleTypes>
+<_x0039_4_RoleTypes>
+<RoleID>5</RoleID>
+<RoleName>Test-Expert Reviewer</RoleName>
+<RoleClass>Reviewer</RoleClass>
+<RoleDefinition>[Non-translator] Reviewer who has expertise in test development</RoleDefinition>
+</_x0039_4_RoleTypes>
 <_x0039_4_RoleTypes>
 <RoleID>1</RoleID>
 <RoleName>Field-Expert Translator</RoleName>

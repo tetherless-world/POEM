@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="70_TerminologySystems.xsd" generated="2025-07-15T15:44:34">
+<_x0037_0_TerminologySystems>
+<SystemID>1</SystemID>
+<SystemName>SNOMEDCT</SystemName>
+</_x0037_0_TerminologySystems>
+<_x0037_0_TerminologySystems>
+<SystemID>2</SystemID>
+<SystemName>DSM-IV</SystemName>
+</_x0037_0_TerminologySystems>
+<_x0037_0_TerminologySystems>
+<SystemID>3</SystemID>
+<SystemName>DSM-5</SystemName>
+</_x0037_0_TerminologySystems>
+</dataroot>

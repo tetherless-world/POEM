@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="11_InstrumentComponents.xsd" generated="2025-08-04T12:39:50">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="11_InstrumentComponents.xsd" generated="2025-08-28T15:31:33">
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>486</InstrumentComponentID>
 <InstrumentID>133</InstrumentID>
@@ -312,28 +312,24 @@
 <InstrumentID>97</InstrumentID>
 <ComponentType>7</ComponentType>
 <ComponentValue>Please complete the next 7 items below.</ComponentValue>
-<Section>3</Section>
 </_x0031_1_InstrumentComponents>
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>532</InstrumentComponentID>
 <InstrumentID>97</InstrumentID>
 <ComponentType>7</ComponentType>
 <ComponentValue>Please complete the next 7 items below.</ComponentValue>
-<Section>4</Section>
 </_x0031_1_InstrumentComponents>
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>533</InstrumentComponentID>
 <InstrumentID>97</InstrumentID>
 <ComponentType>7</ComponentType>
 <ComponentValue>Please complete the next 7 items below.</ComponentValue>
-<Section>5</Section>
 </_x0031_1_InstrumentComponents>
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>534</InstrumentComponentID>
 <InstrumentID>97</InstrumentID>
 <ComponentType>7</ComponentType>
 <ComponentValue>Please complete the next 7 items below.</ComponentValue>
-<Section>6</Section>
 </_x0031_1_InstrumentComponents>
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>3</InstrumentComponentID>
@@ -341,7 +337,6 @@
 <ComponentType>1</ComponentType>
 <ComponentValue>Name/ID:</ComponentValue>
 <ComponentPosition_FHIR>1</ComponentPosition_FHIR>
-<Section>1</Section>
 </_x0031_1_InstrumentComponents>
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>4</InstrumentComponentID>
@@ -349,14 +344,12 @@
 <ComponentType>2</ComponentType>
 <ComponentValue>Date:</ComponentValue>
 <ComponentPosition_FHIR>2</ComponentPosition_FHIR>
-<Section>1</Section>
 </_x0031_1_InstrumentComponents>
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>5</InstrumentComponentID>
 <InstrumentID>1</InstrumentID>
 <ComponentType>3</ComponentType>
 <ComponentValue>Page</ComponentValue>
-<Section>0</Section>
 </_x0031_1_InstrumentComponents>
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>6</InstrumentComponentID>
@@ -364,7 +357,6 @@
 <ComponentType>4</ComponentType>
 <ComponentValue>Please put a circle around the word that shows how often each of these things happens to you. There are no right or wrong answers.</ComponentValue>
 <ComponentPosition_FHIR>3</ComponentPosition_FHIR>
-<Section>1</Section>
 </_x0031_1_InstrumentComponents>
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>7</InstrumentComponentID>
@@ -372,7 +364,6 @@
 <ComponentType>1</ComponentType>
 <ComponentValue>Name/ID:</ComponentValue>
 <ComponentPosition_FHIR>1</ComponentPosition_FHIR>
-<Section>1</Section>
 </_x0031_1_InstrumentComponents>
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>8</InstrumentComponentID>
@@ -380,14 +371,12 @@
 <ComponentType>2</ComponentType>
 <ComponentValue>Date:</ComponentValue>
 <ComponentPosition_FHIR>2</ComponentPosition_FHIR>
-<Section>1</Section>
 </_x0031_1_InstrumentComponents>
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>9</InstrumentComponentID>
 <InstrumentID>2</InstrumentID>
 <ComponentType>3</ComponentType>
 <ComponentValue>Page</ComponentValue>
-<Section>0</Section>
 </_x0031_1_InstrumentComponents>
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>10</InstrumentComponentID>
@@ -395,7 +384,6 @@
 <ComponentType>4</ComponentType>
 <ComponentValue>Please put a circle around the word that shows how often each of these things happens for your child.</ComponentValue>
 <ComponentPosition_FHIR>4</ComponentPosition_FHIR>
-<Section>1</Section>
 </_x0031_1_InstrumentComponents>
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>11</InstrumentComponentID>
@@ -403,7 +391,6 @@
 <ComponentType>6</ComponentType>
 <ComponentValue>Relationship to Child:</ComponentValue>
 <ComponentPosition_FHIR>3</ComponentPosition_FHIR>
-<Section>1</Section>
 </_x0031_1_InstrumentComponents>
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>12</InstrumentComponentID>
@@ -411,7 +398,6 @@
 <ComponentType>1</ComponentType>
 <ComponentValue>Name/ID:</ComponentValue>
 <ComponentPosition_FHIR>1</ComponentPosition_FHIR>
-<Section>1</Section>
 </_x0031_1_InstrumentComponents>
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>13</InstrumentComponentID>
@@ -3297,7 +3283,6 @@ Her Zaman doğru ise </ComponentValue>
 <InstrumentID>97</InstrumentID>
 <ComponentType>4</ComponentType>
 <ComponentValue>Directions. This form is about your thoughts and experiences with therapy. Please complete only the sections that have a checkmark at the top. Circle the answer that best tells how true each sentence is about how you usually feel. There are no right or wrong answers. Just circle what you think describes you best.</ComponentValue>
-<Section>1</Section>
 </_x0031_1_InstrumentComponents>
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>471</InstrumentComponentID>
@@ -3425,21 +3410,18 @@ Onyesha kadi ya kurekodi majibu, eleza maana ya kila laini/mstari. Rekodi nambar
 <InstrumentID>97</InstrumentID>
 <ComponentType>1</ComponentType>
 <ComponentValue>Name:</ComponentValue>
-<Section>1</Section>
 </_x0031_1_InstrumentComponents>
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>433</InstrumentComponentID>
 <InstrumentID>97</InstrumentID>
 <ComponentType>2</ComponentType>
 <ComponentValue>Date:</ComponentValue>
-<Section>1</Section>
 </_x0031_1_InstrumentComponents>
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>435</InstrumentComponentID>
 <InstrumentID>97</InstrumentID>
 <ComponentType>3</ComponentType>
 <ComponentValue>Page</ComponentValue>
-<Section>1</Section>
 </_x0031_1_InstrumentComponents>
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>436</InstrumentComponentID>
@@ -3560,7 +3542,6 @@ Onyesha kadi ya kurekodi majibu, eleza maana ya kila laini/mstari. Rekodi nambar
 <InstrumentID>97</InstrumentID>
 <ComponentType>7</ComponentType>
 <ComponentValue>Please complete the next 7 items below.</ComponentValue>
-<Section>2</Section>
 </_x0031_1_InstrumentComponents>
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>456</InstrumentComponentID>

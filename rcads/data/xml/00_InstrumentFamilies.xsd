@@ -3,25 +3,28 @@
 <xsd:element name="dataroot">
 <xsd:complexType>
 <xsd:sequence>
-<xsd:element ref="_x0038_1_Agents" minOccurs="0" maxOccurs="unbounded"/>
+<xsd:element ref="_x0030_0_InstrumentFamilies" minOccurs="0" maxOccurs="unbounded"/>
 </xsd:sequence>
 <xsd:attribute name="generated" type="xsd:dateTime"/>
 </xsd:complexType>
 </xsd:element>
-<xsd:element name="_x0038_1_Agents">
+<xsd:element name="_x0030_0_InstrumentFamilies">
 <xsd:annotation>
 <xsd:appinfo>
-<od:index index-name="PrimaryKey" index-key="AgentID " primary="yes" unique="yes" clustered="no" order="asc"/>
-<od:tableProperty name="PublishToWeb" type="2" value="1"/>
+<od:index index-name="CollectionID" index-key="FamilyID " primary="no" unique="no" clustered="no" order="asc"/>
+<od:index index-name="PrimaryKey" index-key="FamilyID " primary="yes" unique="yes" clustered="no" order="asc"/>
+<od:tableProperty name="GUID" type="9" value="g9GQbTtrxkSu+81/sfvB3g==
+"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAD4BzImp/IcQrl7eCVWImxRAAAAALDXMOqVYOZAAAAAAAAAAAA4ADEA
-XwBBAGcAZQBuAHQAcwAAAAAAAACJ3fwt/zE6QrzPRkMG41XaAAAAAL+k4x2VYOZA
-AAAAAAAAAAA4ADIAXwBBAGcAZQBuAHQAUABlAHIAcwBvAG4ATQBhAHAAMQAAAAAA
-AABGwwqifqr7Q5I2+/Wp6XC/BwAAAPgHMian8hxCuXt4JVYibFFBAGcAZQBuAHQA
-SQBEAAAAAAAAAIvTNwYNCTVPrEigCpZa2doHAAAA+AcyJqfyHEK5e3glViJsUUEA
-ZwBlAG4AdABOAGEAbQBlAAAAAAAAAMc/nY5n0zFJtSy09m41Q2MHAAAA+AcyJqfy
-HEK5e3glViJsUUEAcwBzAG8AYwBpAGEAdABlAGQAIABEAE8ASQAAAAAAAAAAAAAA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAACD0ZBtO2vGRK77zX+x+8HeAAAAAIo/nn0RYuZAAAAAAAAAAAAwADAA
+XwBJAG4AcwB0AHIAdQBtAGUAbgB0AEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAAAAAA
+AAAqNUP9k6naSrQQc4RmoPUdAAAAAGrCRYDuVOZAAAAAAAAAAAA0ADAAXwBTAGMA
+YQBsAGUAcwAAAAAAAAB+8/7JF/cqT6ikgI0Wn9NyBwAAAIPRkG07a8ZErvvNf7H7
+wd5GAGEAbQBpAGwAeQBJAEQAAAAAAAAA1KmKYvfJ2EyPNGlsjyEJMAcAAACD0ZBt
+O2vGRK77zX+x+8HeSQBuAHMAdAByAHUAbQBlAG4AdABGAGEAbQBpAGwAeQAAAAAA
+AAAuOQ98Ply0QrbIbq8F+3K0BwAAAIPRkG07a8ZErvvNf7H7wd5JAG4AcwB0AHIA
+dQBtAGUAbgB0AEYAYQBtAGkAbAB5AEYAdQBsAGwATgBhAG0AZQAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 "/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
@@ -39,15 +42,16 @@ AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:tableProperty name="ReadOnlyWhenDisconnected" type="1" value="0"/>
 <od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="3"/>
 <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="0"/>
-<od:tableProperty name="GUID" type="9" value="+AcyJqfyHEK5e3glViJsUQ==
-"/>
+<od:tableProperty name="PublishToWeb" type="2" value="1"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
 <xsd:sequence>
-<xsd:element name="AgentID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
+<xsd:element name="FamilyID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
+<od:fieldProperty name="GUID" type="9" value="fvP+yRf3Kk+opICNFp/Tcg==
+"/>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
@@ -55,16 +59,15 @@ AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
-<od:fieldProperty name="GUID" type="9" value="RsMKon6q+0OSNvv1qelwvw==
-"/>
-<od:fieldProperty name="Description" type="10" value="An agent is one or more person."/>
 </xsd:appinfo>
 </xsd:annotation>
 </xsd:element>
-<xsd:element name="AgentName" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:element name="InstrumentFamily" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="ColumnWidth" type="3" value="3210"/>
+<od:fieldProperty name="GUID" type="9" value="1KmKYvfJ2EyPNGlsjyEJMA==
+"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="1830"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
@@ -77,9 +80,7 @@ AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
-<od:fieldProperty name="Description" type="10" value="This is the name of the group assigned by us."/>
-<od:fieldProperty name="GUID" type="9" value="i9M3Bg0JNU+sSKAKllrZ2g==
-"/>
+<od:fieldProperty name="Description" type="10" value="A short name for instruments in a collection. A collection member must have the same or a subset of the original members&apos; item stem concepts."/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:simpleType>
@@ -88,25 +89,25 @@ AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 </xsd:restriction>
 </xsd:simpleType>
 </xsd:element>
-<xsd:element name="Associated_x0020_DOI" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:element name="InstrumentFamilyFullName" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="ColumnWidth" type="3" value="3870"/>
+<od:fieldProperty name="GUID" type="9" value="LjkPfD5ctEK2yG6vBftytA==
+"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="4740"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
 <od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
 <od:fieldProperty name="DisplayControl" type="3" value="109"/>
 <od:fieldProperty name="IMEMode" type="2" value="0"/>
-<od:fieldProperty name="IMESentenceMode" type="2" value="0"/>
+<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
 <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
 <od:fieldProperty name="TextAlign" type="2" value="0"/>
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
-<od:fieldProperty name="Description" type="10" value="If there is a specific doi that is the full set of group members as authors"/>
-<od:fieldProperty name="GUID" type="9" value="xz+djmfTMUm1LLT2bjVDYw==
-"/>
+<od:fieldProperty name="Description" type="10" value="The full name of the instrument collection."/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:simpleType>

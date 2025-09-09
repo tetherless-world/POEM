@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="80_Persons.xsd" generated="2025-05-15T17:31:55">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="80_Persons.xsd" generated="2025-08-28T15:34:11">
+<_x0038_0_Persons>
+<PersonID>93</PersonID>
+<PersonName>Szilvia Ádám</PersonName>
+<ORCID>0000-0003-0052-3525</ORCID>
+<AmbiguousID>0</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>94</PersonID>
+<PersonName>Mehak</PersonName>
+<ORCID>0009-0002-1270-7540</ORCID>
+<AmbiguousID>0</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>95</PersonID>
+<PersonName>Arshpreet Singh</PersonName>
+<AmbiguousID>1</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>96</PersonID>
+<PersonName>Eliza Swindell</PersonName>
+<ORCID>0009-0005-8281-663X</ORCID>
+<AmbiguousID>0</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>97</PersonID>
+<PersonName>Jackson Baschnagel</PersonName>
+<AmbiguousID>1</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>98</PersonID>
+<PersonName>Megan Chang</PersonName>
+<AmbiguousID>1</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>99</PersonID>
+<PersonName>Hyun-sik Kim</PersonName>
+<AmbiguousID>1</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>100</PersonID>
+<PersonName>Jenny Kim</PersonName>
+<AmbiguousID>1</AmbiguousID>
+</_x0038_0_Persons>
 <_x0038_0_Persons>
 <PersonID>66</PersonID>
 <PersonName>Mitsuhiro Miyamae</PersonName>
@@ -68,6 +111,61 @@
 <_x0038_0_Persons>
 <PersonID>78</PersonID>
 <PersonName>Elisabeth Haukeland</PersonName>
+<AmbiguousID>1</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>79</PersonID>
+<PersonName>Jens Högström</PersonName>
+<ORCID>0000-0002-5313-8498</ORCID>
+<AmbiguousID>0</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>80</PersonID>
+<PersonName>Tina Hörlin</PersonName>
+<AmbiguousID>1</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>81</PersonID>
+<PersonName>Weili Lu</PersonName>
+<ORCID>0000-0003-2566-1537</ORCID>
+<AmbiguousID>0</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>82</PersonID>
+<PersonName>NA (graduate student) 1</PersonName>
+<AmbiguousID>1</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>83</PersonID>
+<PersonName>NA (graduate student) 2</PersonName>
+<AmbiguousID>1</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>84</PersonID>
+<PersonName>Dagmar Kr. Hannesdottir</PersonName>
+<ORCID>0000-0003-2610-6738</ORCID>
+<AmbiguousID>0</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>85</PersonID>
+<PersonName>Urdur Njardvik</PersonName>
+<ORCID>0000-0002-2993-9359</ORCID>
+<AmbiguousID>0</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>86</PersonID>
+<PersonName>Gudmundur Skarphedinsson</PersonName>
+<ORCID>0000-0002-8618-153X</ORCID>
+<AmbiguousID>0</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>87</PersonID>
+<PersonName>NA (student) 1</PersonName>
+<AmbiguousID>1</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>88</PersonID>
+<PersonName>NA (student) 2</PersonName>
 <AmbiguousID>1</AmbiguousID>
 </_x0038_0_Persons>
 <_x0038_0_Persons>
@@ -416,6 +514,28 @@
 <PersonID>65</PersonID>
 <PersonName>Hiroko Fujisato</PersonName>
 <ORCID>0009-0002-9715-2985</ORCID>
+<AmbiguousID>0</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>89</PersonID>
+<PersonName>Zsófia Katalin Varga</PersonName>
+<AmbiguousID>1</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>90</PersonID>
+<PersonName>Lilla Károlyi</PersonName>
+<AmbiguousID>1</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>91</PersonID>
+<PersonName>Adrienn Vargay</PersonName>
+<ORCID>0000-0002-9887-8772</ORCID>
+<AmbiguousID>0</AmbiguousID>
+</_x0038_0_Persons>
+<_x0038_0_Persons>
+<PersonID>92</PersonID>
+<PersonName>János Major</PersonName>
+<ORCID>0000-0002-6375-5756</ORCID>
 <AmbiguousID>0</AmbiguousID>
 </_x0038_0_Persons>
 </dataroot>

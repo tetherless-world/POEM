@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="13_ComponentDataTypes.xsd" generated="2025-08-28T15:31:51">
+<_x0031_3_ComponentDataTypes>
+<ComponentDataTypeID>1</ComponentDataTypeID>
+<DataType>Integer</DataType>
+</_x0031_3_ComponentDataTypes>
+<_x0031_3_ComponentDataTypes>
+<ComponentDataTypeID>2</ComponentDataTypeID>
+<DataType>Date</DataType>
+</_x0031_3_ComponentDataTypes>
+<_x0031_3_ComponentDataTypes>
+<ComponentDataTypeID>3</ComponentDataTypeID>
+<DataType>Time</DataType>
+</_x0031_3_ComponentDataTypes>
+<_x0031_3_ComponentDataTypes>
+<ComponentDataTypeID>4</ComponentDataTypeID>
+<DataType>String</DataType>
+</_x0031_3_ComponentDataTypes>
+</dataroot>
