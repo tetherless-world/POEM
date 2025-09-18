@@ -23,6 +23,7 @@ public class POEMModel {
             model.read("./data/scales.ttl");
             model.read("./data/scalesInstrument.ttl");
             model.read("./data/components.ttl");
+            model.read("./data/languages.ttl");
         } catch (RiotNotFoundException e) {
             try {
                 model.read("./dist/data/activities.ttl");
@@ -39,6 +40,7 @@ public class POEMModel {
                 model.read("./dist/data/scales.ttl");
                 model.read("./dist/data/scalesInstrument.ttl");
                 model.read("./dist/data/components.ttl");
+                model.read("./dist/data/languages.ttl");
             } catch (Exception e2) {
                 e2.printStackTrace();
             }
