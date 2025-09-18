@@ -3316,145 +3316,11 @@ az éjszakát.""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/26>;
   rdfs:label "Mein Kind hat Angst, wenn es eine Arbeit schreiben muss." .
 
-<http://purl.org/twc/poem/individual/itemStem/1480> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/37>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/37>;
-  rdfs:label "私の子どもは、いろいろなことについて心配する" .
-
-<http://purl.org/twc/poem/individual/itemStem/1481> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/12>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/12>;
-  rdfs:label "私の子どもは、悲しさや虚しさを感じている" .
-
-<http://purl.org/twc/poem/individual/itemStem/1482> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/35>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/35>;
-  rdfs:label """私の子どもは、困ったことがあると、おなかの調子が
-悪くなる""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1483> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
-  rdfs:label """私の子どもは、うまくできていなかったんじゃないかと
-考えて心配になる""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1484> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/7>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/7>;
-  rdfs:label "私の子どもは、一人で家にいるのをこわがる" .
-
-<http://purl.org/twc/poem/individual/itemStem/1485> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
-  rdfs:label "私の子どもは、何をしてもあまり楽しめない" .
-
-<http://purl.org/twc/poem/individual/itemStem/1486> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/26>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/26>;
-  rdfs:label """私の子どもは、テストを受けなくてはいけないときに、
-こわがる""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1487> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
-  rdfs:label """私の子どもは、誰かが自分のことを怒っているのでは
-ないかと考えて心配になる""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1488> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/8>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
-  rdfs:label """私の子どもは、私たち親のそばにいられなくなることを
-心配する""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1489> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/4>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/4>;
-  rdfs:label """私の子どもは、悪い、または、ばかばかしい考えや
-イメージが頭の中に浮かんできて困っている""" .
-
 <http://purl.org/twc/poem/individual/itemStem/149> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#GER>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
   rdfs:label "Mein Kind ist besorgt, wenn es denkt, dass jemand böse auf es ist." .
-
-<http://purl.org/twc/poem/individual/itemStem/1490> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/21>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
-  rdfs:label "私の子どもは、なかなか眠れない" .
-
-<http://purl.org/twc/poem/individual/itemStem/1491> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/46>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/46>;
-  rdfs:label """私の子どもは、学校でうまくいかないんじゃないかと
-心配する""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1492> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/42>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
-  rdfs:label """私の子どもは、家族の誰かに何か悪いことが起こるので
-はないかと心配する""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1493> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/29>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/29>;
-  rdfs:label """私の子どもは、理由もないのに突然息ができないような
-感じになる""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1494> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
-  rdfs:label "私の子どもは、食欲に問題がある" .
-
-<http://purl.org/twc/poem/individual/itemStem/1495> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/23>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/23>;
-  rdfs:label """私の子どもは、（電気を消したか、ドアに鍵をかけたか
-など）何かをきちんとやったかどうか、何度も確認せずに
-はいられない""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1496> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
-  rdfs:label """私の子どもは、ひとりで寝なくてはいけないとしたら、
-こわがる""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1497> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/32>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/32>;
-  rdfs:label """私の子どもは、緊張したり、こわくなったりするので、
-朝、学校に行くのが大変だ""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1498> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/16>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
-  rdfs:label "私の子どもは、何もする気力がない" .
-
-<http://purl.org/twc/poem/individual/itemStem/1499> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/41>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/41>;
-  rdfs:label """私の子どもは、自分がばかみたいに見えるのではないか
-と心配する""" .
 
 <http://purl.org/twc/poem/individual/itemStem/15> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
@@ -3468,197 +3334,17 @@ az éjszakát.""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
   rdfs:label "Mein Kind macht sich Sorgen, wenn es nicht bei seinen Eltern ist." .
 
-<http://purl.org/twc/poem/individual/itemStem/1500> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
-  rdfs:label "私の子どもは、とても疲れている" .
-
-<http://purl.org/twc/poem/individual/itemStem/1501> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
-  rdfs:label """私の子どもは、自分に悪いことが起こるのではないかと
-心配する""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1502> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/6>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/6>;
-  rdfs:label """私の子どもは、悪い考えやばかばかしい考えを頭の中か
-ら追い出すことができない""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1503> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/34>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/34>;
-  rdfs:label """私の子どもは、困ったことがあると、心臓がとてもドキ
-ドキする""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1504> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
-  rdfs:label """私の子どもは、頭がうまく働かず、はっきりと考えられ
-ない""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1505> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
-  rdfs:label "私の子どもは、理由もないのに突然身体が震え出す" .
-
-<http://purl.org/twc/poem/individual/itemStem/1506> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/43>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
-  rdfs:label """私の子どもは、自分に何か悪いことが起こるのではない
-かと心配する""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1507> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/33>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/33>;
-  rdfs:label "私の子どもは、困ったことがあると震える" .
-
-<http://purl.org/twc/poem/individual/itemStem/1508> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/15>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
-  rdfs:label "私の子どもは、自分には価値がないと感じている" .
-
-<http://purl.org/twc/poem/individual/itemStem/1509> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
-  rdfs:label "私の子どもは、失敗するんじゃないかと心配する" .
-
 <http://purl.org/twc/poem/individual/itemStem/151> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#GER>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/4>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/4>;
   rdfs:label "Mein Kind stören schlimme oder dummen Gedanken oder Bildern in seinem Kopf." .
 
-<http://purl.org/twc/poem/individual/itemStem/1510> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/20>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/20>;
-  rdfs:label """私の子どもは、悪いことが起こらないようにするため
-に、（数字や言葉など）特別なことを考えずにはいられ
-ない""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1511> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
-  rdfs:label "私の子どもは、他の人にどう思われているか心配する" .
-
-<http://purl.org/twc/poem/individual/itemStem/1512> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/1>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
-  rdfs:label """私の子どもは、（ショッピングセンター、映画館、
-バス、人がたくさんいる遊び場など）混んでいる場所に
-いるのをこわがる""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1513> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/28>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
-  rdfs:label "私の子どもは、何も理由がないのに突然とてもこわがる" .
-
-<http://purl.org/twc/poem/individual/itemStem/1514> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/38>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
-  rdfs:label "私の子どもは、これから何が起こるのだろうと心配する" .
-
-<http://purl.org/twc/poem/individual/itemStem/1515> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
-  rdfs:label """私の子どもは、理由もないのに、突然クラクラしたり
-気を失いそうになる""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1516> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
-  rdfs:label "私の子どもは、死について考える" .
-
-<http://purl.org/twc/poem/individual/itemStem/1517> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/3>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/3>;
-  rdfs:label """私の子どもは、クラスのみんなの前で話をしなければ
-ならないとしたらこわがる""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1518> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/22>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/22>;
-  rdfs:label """私の子どもは、理由もないのに、突然心臓がとてもドキ
-ドキし始める""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1519> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
-  rdfs:label "私の子どもは、動きたくないと感じている" .
-
 <http://purl.org/twc/poem/individual/itemStem/152> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#GER>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/21>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
   rdfs:label "Mein Kind kann nicht gut schlafen." .
-
-<http://purl.org/twc/poem/individual/itemStem/1520> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
-  rdfs:label """私の子どもは、何もこわいことがないのに、突然こわい
-気持ちになってしまうのではないかと心配する""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1521> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/19>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/19>;
-  rdfs:label """私の子どもは、（手を洗う、きれいにする、特別な
-ルールどおりに物を置くなど）あることを何度も何度も
-せずにはいられない""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1522> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
-  rdfs:label """私の子どもは、人前でばかなことをしてしまうのでは
-ないかとこわがる""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1523> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/18>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/18>;
-  rdfs:label """私の子どもは、悪いことが起こらないようにするため
-に、何かを正しいやり方でしなければならない""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1524> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/40>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/40>;
-  rdfs:label "私の子どもは、夜ひとりで寝ているときに心配になる" .
-
-<http://purl.org/twc/poem/individual/itemStem/1525> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/25>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/25>;
-  rdfs:label """私の子どもは、一晩中、家から離れないといけないと
-したらこわがる""" .
-
-<http://purl.org/twc/poem/individual/itemStem/1526> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/11>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/11>;
-  rdfs:label "私の子どもは、気持ちが落ち着かない" .
 
 <http://purl.org/twc/poem/individual/itemStem/1527> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#KOR>;
@@ -7834,8 +7520,8 @@ yapmak zorunda hisseder""" .
 
 <http://purl.org/twc/poem/individual/itemStem/2176> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/88>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/88>;
   rdfs:label "Little interest or pleasure in doing things" .
 
 <http://purl.org/twc/poem/individual/itemStem/2177> a vstoi:ItemStem;
@@ -7852,8 +7538,8 @@ yapmak zorunda hisseder""" .
 
 <http://purl.org/twc/poem/individual/itemStem/2179> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/86>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/86>;
   rdfs:label "Feeling tired or having little energy" .
 
 <http://purl.org/twc/poem/individual/itemStem/218> a vstoi:ItemStem;
@@ -7864,20 +7550,20 @@ yapmak zorunda hisseder""" .
 
 <http://purl.org/twc/poem/individual/itemStem/2180> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/91>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/91>;
   rdfs:label "Poor appetite or overeating" .
 
 <http://purl.org/twc/poem/individual/itemStem/2181> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/15>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/87>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/87>;
   rdfs:label "Feeling bad about yourself--or that you are a failure or have let yourself down or your family down" .
 
 <http://purl.org/twc/poem/individual/itemStem/2182> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
-  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/92>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/92>;
   rdfs:label "Trouble concentrating on things, such as reading the newspaper or watching television" .
 
 <http://purl.org/twc/poem/individual/itemStem/2183> a vstoi:ItemStem;
@@ -8133,51 +7819,61 @@ yapmak zorunda hisseder""" .
   rdfs:label "无缘无故的，我孩子会突然觉得很害怕" .
 
 <http://purl.org/twc/poem/individual/itemStem/2220> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/12>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/12>;
   rdfs:label "NASIKIA HUZUNI …" .
 
 <http://purl.org/twc/poem/individual/itemStem/2221> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
   rdfs:label "NINA WASIWASI NINAPOFIKIRI NIMEFANYA KITU VIBAYA…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2222> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/7>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/7>;
   rdfs:label "NINGESIKIA UWOGA KUBAKI NYUMBANI PEKE YANGU…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2223> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
   rdfs:label "HAKUNA KITU KINACHOFURAHISHA TENA…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2224> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/26>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/26>;
   rdfs:label "MIMI NAOGOPA WAKATI WA MTIHANI…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2225> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
   rdfs:label "NASIKIA WASIWASI WAKATI NINAPOFIKIRIA MTU AMENIKASIRIKIA…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2226> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/8>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
   rdfs:label "NAPATA WASIWASI WA KUWA MBALI NA WAZAZI WANGU…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2227> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/21>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
   rdfs:label "NINAPATA SHIDA YA KULALA…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2228> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/46>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/46>;
   rdfs:label "NINA WASIWASI KUWA SITAFANYA VIZURI KATIKA MASOMO YANGU YA SHULE…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2229> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/42>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
   rdfs:label "NINA WASIWASI KUWA KITU KIBAYA KITAMFANYIKIA MTU WA FAMILIA YANGU…" .
@@ -8189,51 +7885,61 @@ yapmak zorunda hisseder""" .
   rdfs:label "我孩子担心将要发生的事情" .
 
 <http://purl.org/twc/poem/individual/itemStem/2230> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/29>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/29>;
   rdfs:label "NASIKIA KAMA SIWEZI PUMUA BILA SABABU…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2231> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
   rdfs:label "NINA SHIDA YA HAMU YA KULA CHAKULA…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2232> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
   rdfs:label "NASIKIA UWOGA NINAPOLAZIMIKA KULALA PEKE YANGU…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2233> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/16>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
   rdfs:label "SINA NGUVU ZA KUFANYA CHOCHOTE…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2234> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/41>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/41>;
   rdfs:label "NINA WASIWASI NINAWEZA ONEKANA MJINGA…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2235> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
   rdfs:label "MIMI HUCHOKA SANA…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2236> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
   rdfs:label "NINA WASIWASI WA KUFANYIKIWA NA MAMBO MABAYA…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2237> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
   rdfs:label "SIWEZI FIKIRIA VIZURI…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2238> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
   rdfs:label "MIMI HUANZA KUTETEMEKA BILA SABABU…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2239> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/43>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
   rdfs:label "NINA WASIWASI KITU KIBAYA KITANIFANYIKIA…" .
@@ -8245,51 +7951,61 @@ yapmak zorunda hisseder""" .
   rdfs:label "无缘无故的，我孩子会突然觉得晕" .
 
 <http://purl.org/twc/poem/individual/itemStem/2240> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/33>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/33>;
   rdfs:label "NINAPOKUWA NA SHIDA, NASIKIA KUTETEMEKA…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2241> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/15>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
   rdfs:label "NASIKIA SINA MAANA…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2242> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
   rdfs:label "NINA WASIWASI WA KUFANYA MAKOSA…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2243> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
   rdfs:label "NINA WASIWASI KUHUSU VILE WATU WANAVYONIFIKIRIA…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2244> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/1>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
   rdfs:label "NAOGOPA KUWA MAHALI PENYE WATU WENGI (KAMA KWENYE MADUKA MAKUU, UWANJA WA MICHEZO WENYE SHUGHULI NYINGI, KITUO CHA BASI, BARABARA ZENYE SHUGHULI NYINGI, SOKONI)…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2245> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/28>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
   rdfs:label "MIMI HUSIKIA KUOGOPA SANA BILA SABABU …" .
 
 <http://purl.org/twc/poem/individual/itemStem/2246> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/38>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
   rdfs:label "NINA WASIWASI KUHUSU KITAKACHOFANYIKA…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2247> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
   rdfs:label "NINAKUWA NA KIZUNGUZUNGU AU KUZIMIA BILA SABABU…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2248> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
   rdfs:label "NINAFIKIRIA KUHUSU KIFO…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2249> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/22>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/22>;
   rdfs:label "ROHO YANGU HUANZA KUPIGA KWA HARAKA BILA SABABU…" .
@@ -8301,26 +8017,31 @@ yapmak zorunda hisseder""" .
   rdfs:label "我孩子会想关于死亡的事情" .
 
 <http://purl.org/twc/poem/individual/itemStem/2250> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
   rdfs:label "NASIKIA  KAMA SITAKI KUSONGA …" .
 
 <http://purl.org/twc/poem/individual/itemStem/2251> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
   rdfs:label "NINA WASIWASI WA KUPATA FIKIRA YA UWOGA BILA SABABU YA KUOGOPA…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2252> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
   rdfs:label "NASIKIA UWOGA KUWA NITAJIAIBISHA MBELE ZA WATU…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2253> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/25>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/25>;
   rdfs:label "NINGESIKIA UWOGA IKIWA ITABIDI NIKAE MBALI NA NYUMBANI USIKU WOTE…" .
 
 <http://purl.org/twc/poem/individual/itemStem/2254> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWA>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/11>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/11>;
   rdfs:label "NASIKIA SINA UTULIVU/AMANI…" .
@@ -8793,7 +8514,11 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/82>;
   rdfs:label "Jeg følger anbefalingene fra terapeuten til barnet mitt. " .
 
-<http://purl.org/twc/poem/individual/itemStem/2325> a vstoi:ItemStem .
+<http://purl.org/twc/poem/individual/itemStem/2325> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#SWE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  rdfs:label "Mitt barn oroar sig över att dåliga saker ska hända hen." .
 
 <http://purl.org/twc/poem/individual/itemStem/233> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#CHI>;
@@ -8825,17 +8550,186 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/12>;
   rdfs:label "Mit barn føler sig trist eller tom" .
 
+<http://purl.org/twc/poem/individual/itemStem/2373> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  rdfs:label "いろいろなことについて心配する" .
+
+<http://purl.org/twc/poem/individual/itemStem/2374> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  rdfs:label "私の子どもは、いろいろなことについて心配する" .
+
+<http://purl.org/twc/poem/individual/itemStem/2375> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  rdfs:label "悲しさや虚しさを感じている" .
+
+<http://purl.org/twc/poem/individual/itemStem/2376> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  rdfs:label "私の子どもは、悲しさや虚しさを感じている" .
+
+<http://purl.org/twc/poem/individual/itemStem/2377> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  rdfs:label "困ったことがあると、おなかの調子が悪くなる" .
+
+<http://purl.org/twc/poem/individual/itemStem/2378> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  rdfs:label "私の子どもは、困ったことがあると、おなかの調子が 悪くなる" .
+
+<http://purl.org/twc/poem/individual/itemStem/2379> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  rdfs:label "うまくできていなかったんじゃないかと考えて、心配に なる" .
+
 <http://purl.org/twc/poem/individual/itemStem/238> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/35>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/35>;
   rdfs:label "Når mit barn har et problem, får han/hun en sjov følelse i maven" .
 
+<http://purl.org/twc/poem/individual/itemStem/2380> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  rdfs:label "私の子どもは、うまくできていなかったんじゃないかと 考えて心配になる" .
+
+<http://purl.org/twc/poem/individual/itemStem/2381> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  rdfs:label "一人で家にいるのがこわい" .
+
+<http://purl.org/twc/poem/individual/itemStem/2382> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  rdfs:label "私の子どもは、一人で家にいるのをこわがる" .
+
+<http://purl.org/twc/poem/individual/itemStem/2383> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  rdfs:label "何をしてもあまり楽しくない" .
+
+<http://purl.org/twc/poem/individual/itemStem/2384> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  rdfs:label "私の子どもは、何をしてもあまり楽しめない" .
+
+<http://purl.org/twc/poem/individual/itemStem/2385> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  rdfs:label "テストを受けなくてはいけないときに、こわくなる" .
+
+<http://purl.org/twc/poem/individual/itemStem/2386> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  rdfs:label """私の子どもは、テストを受けなくてはいけないときに、
+こわがる""" .
+
+<http://purl.org/twc/poem/individual/itemStem/2387> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  rdfs:label """誰かが自分のことを怒っているのではないかと考えて、
+心配になる""" .
+
+<http://purl.org/twc/poem/individual/itemStem/2388> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  rdfs:label """私の子どもは、誰かが自分のことを怒っているのでは
+ないかと考えて心配になる""" .
+
+<http://purl.org/twc/poem/individual/itemStem/2389> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  rdfs:label "私たち親のそばにいられなくなることを心配する" .
+
 <http://purl.org/twc/poem/individual/itemStem/239> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
   rdfs:label "Mit barn bekymrer sig, når han/hun synes, han/hun har præsteret dårligt" .
+
+<http://purl.org/twc/poem/individual/itemStem/2390> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  rdfs:label """私の子どもは、私たち親のそばにいられなくなることを
+心配する""" .
+
+<http://purl.org/twc/poem/individual/itemStem/2391> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  rdfs:label """私の子どもは、悪い、または、ばかばかしい考えや
+イメージが頭の中に浮かんできて困っている""" .
+
+<http://purl.org/twc/poem/individual/itemStem/2392> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  rdfs:label """悪い、または、ばかばかしい考えやイメージが頭の中に
+浮かんできて困る""" .
+
+<http://purl.org/twc/poem/individual/itemStem/2393> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  rdfs:label "なかなか眠れない" .
+
+<http://purl.org/twc/poem/individual/itemStem/2394> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  rdfs:label "私の子どもは、なかなか眠れない" .
+
+<http://purl.org/twc/poem/individual/itemStem/2395> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  rdfs:label "学校でうまくいかないんじゃないかと心配する" .
+
+<http://purl.org/twc/poem/individual/itemStem/2396> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  rdfs:label """私の子どもは、学校でうまくいかないんじゃないかと
+心配する""" .
+
+<http://purl.org/twc/poem/individual/itemStem/2397> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  rdfs:label "家族の誰かに何か悪いことが起こるのではないかと心配 する" .
+
+<http://purl.org/twc/poem/individual/itemStem/2398> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  rdfs:label "私の子どもは、家族の誰かに何か悪いことが起こるので はないかと心配する" .
+
+<http://purl.org/twc/poem/individual/itemStem/2399> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  rdfs:label "理由もないのに、突然息ができないような感じになる" .
 
 <http://purl.org/twc/poem/individual/itemStem/24> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
@@ -8849,11 +8743,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/7>;
   rdfs:label "Mit barn føler sig bange for at være alene hjemme" .
 
+<http://purl.org/twc/poem/individual/itemStem/2400> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  rdfs:label "私の子どもは、理由もないのに突然息ができないような 感じになる" .
+
+<http://purl.org/twc/poem/individual/itemStem/2401> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  rdfs:label "食欲に問題がある" .
+
+<http://purl.org/twc/poem/individual/itemStem/2402> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  rdfs:label "私の子どもは、食欲に問題がある" .
+
+<http://purl.org/twc/poem/individual/itemStem/2403> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  rdfs:label "（電気を消したか、ドアに鍵をかけたかなど）何かを きちんとやったかどうか、何度も確認せずにはいられない" .
+
+<http://purl.org/twc/poem/individual/itemStem/2404> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  rdfs:label "私の子どもは、（電気を消したか、ドアに鍵をかけたかなど）何かをきちんとやったかどうか、何度も確認せずに はいられない" .
+
+<http://purl.org/twc/poem/individual/itemStem/2405> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  rdfs:label "ひとりで寝なくてはいけないとしたら、こわい" .
+
+<http://purl.org/twc/poem/individual/itemStem/2406> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  rdfs:label "私の子どもは、ひとりで寝なくてはいけないとしたら、こわがる" .
+
+<http://purl.org/twc/poem/individual/itemStem/2407> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  rdfs:label "緊張したり、こわくなったりするので、朝、学校に行くのは大変だ" .
+
+<http://purl.org/twc/poem/individual/itemStem/2408> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  rdfs:label "私の子どもは、緊張したり、こわくなったりするので、朝、学校に行くのが大変だ" .
+
+<http://purl.org/twc/poem/individual/itemStem/2409> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  rdfs:label "何もする気になれない" .
+
 <http://purl.org/twc/poem/individual/itemStem/241> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
   rdfs:label "Mit barn synes ikke noget er særlig sjovt længere" .
+
+<http://purl.org/twc/poem/individual/itemStem/2410> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  rdfs:label "私の子どもは、何もする気力がない" .
+
+<http://purl.org/twc/poem/individual/itemStem/2411> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  rdfs:label "自分がばかみたいに見えるのではないかと心配する" .
+
+<http://purl.org/twc/poem/individual/itemStem/2412> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  rdfs:label "私の子どもは、自分がばかみたいに見えるのではないかと心配する" .
+
+<http://purl.org/twc/poem/individual/itemStem/2413> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  rdfs:label "とても疲れている" .
+
+<http://purl.org/twc/poem/individual/itemStem/2414> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  rdfs:label "私の子どもは、とても疲れている" .
+
+<http://purl.org/twc/poem/individual/itemStem/2415> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  rdfs:label "自分に悪いことが起こるのではないかと心配する" .
+
+<http://purl.org/twc/poem/individual/itemStem/2416> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  rdfs:label "私の子どもは、自分に悪いことが起こるのではないかと心配する" .
+
+<http://purl.org/twc/poem/individual/itemStem/2417> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  rdfs:label "私の子どもは、悪い考えやばかばかしい考えを頭の中から追い出すことができない" .
+
+<http://purl.org/twc/poem/individual/itemStem/2418> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  rdfs:label "悪い考えやばかばかしい考えを頭の中から追い出すことができない" .
+
+<http://purl.org/twc/poem/individual/itemStem/2419> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  rdfs:label "困ったことがあると、心臓がとてもドキドキする" .
 
 <http://purl.org/twc/poem/individual/itemStem/242> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
@@ -8861,11 +8875,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/26>;
   rdfs:label "Mit barn føler sig bange, når han/hun skal tage en test" .
 
+<http://purl.org/twc/poem/individual/itemStem/2420> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  rdfs:label "私の子どもは、困ったことがあると、心臓がとてもドキドキする" .
+
+<http://purl.org/twc/poem/individual/itemStem/2421> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  rdfs:label "はっきりと考えられない" .
+
+<http://purl.org/twc/poem/individual/itemStem/2422> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  rdfs:label "私の子どもは、頭がうまく働かず、はっきりと考えられない" .
+
+<http://purl.org/twc/poem/individual/itemStem/2423> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  rdfs:label "理由もないのに、突然身体が震え出す" .
+
+<http://purl.org/twc/poem/individual/itemStem/2424> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  rdfs:label "私の子どもは、理由もないのに突然身体が震え出す" .
+
+<http://purl.org/twc/poem/individual/itemStem/2425> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  rdfs:label "自分に何か悪いことが起こるのではないかと心配する" .
+
+<http://purl.org/twc/poem/individual/itemStem/2426> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  rdfs:label "私の子どもは、自分に何か悪いことが起こるのではないかと心配する" .
+
+<http://purl.org/twc/poem/individual/itemStem/2427> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  rdfs:label "困ったことがあると、震える" .
+
+<http://purl.org/twc/poem/individual/itemStem/2428> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  rdfs:label "私の子どもは、困ったことがあると震える" .
+
+<http://purl.org/twc/poem/individual/itemStem/2429> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  rdfs:label "自分には価値がないと感じる" .
+
 <http://purl.org/twc/poem/individual/itemStem/243> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
   rdfs:label "Mit barn bekymrer sig, når han/hun tror, at nogen er vred på ham/hende" .
+
+<http://purl.org/twc/poem/individual/itemStem/2430> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  rdfs:label "私の子どもは、自分には価値がないと感じている" .
+
+<http://purl.org/twc/poem/individual/itemStem/2431> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  rdfs:label "失敗するんじゃないかと心配する" .
+
+<http://purl.org/twc/poem/individual/itemStem/2432> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  rdfs:label "私の子どもは、失敗するんじゃないかと心配する" .
+
+<http://purl.org/twc/poem/individual/itemStem/2433> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  rdfs:label "悪いことが起こらないようにするために、（数字や言葉など）特別なことを考えずにはいられない" .
+
+<http://purl.org/twc/poem/individual/itemStem/2434> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  rdfs:label "私の子どもは、悪いことが起こらないようにするために、（数字や言葉など）特別なことを考えずにはいられない" .
+
+<http://purl.org/twc/poem/individual/itemStem/2435> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  rdfs:label "他の人にどう思われているか心配する" .
+
+<http://purl.org/twc/poem/individual/itemStem/2436> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  rdfs:label "私の子どもは、他の人にどう思われているか心配する" .
+
+<http://purl.org/twc/poem/individual/itemStem/2437> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  rdfs:label "（ショッピングセンター、映画館、バス、人がたくさんいる遊び場など）混んでいる場所にいるのがこわい" .
+
+<http://purl.org/twc/poem/individual/itemStem/2438> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  rdfs:label "私の子どもは、（ショッピングセンター、映画館、バス、人がたくさんいる遊び場など）混んでいる場所にいるのをこわがる" .
+
+<http://purl.org/twc/poem/individual/itemStem/2439> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  rdfs:label "私の子どもは、何も理由がないのに突然とてもこわがる" .
 
 <http://purl.org/twc/poem/individual/itemStem/244> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
@@ -8873,11 +9007,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
   rdfs:label "Mit barn bekymrer sig om at være væk fra mig" .
 
+<http://purl.org/twc/poem/individual/itemStem/2440> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  rdfs:label "何も理由がないのに、突然とてもこわくなる" .
+
+<http://purl.org/twc/poem/individual/itemStem/2441> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  rdfs:label "これから何が起こるのだろうと心配する" .
+
+<http://purl.org/twc/poem/individual/itemStem/2442> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  rdfs:label "私の子どもは、これから何が起こるのだろうと心配する" .
+
+<http://purl.org/twc/poem/individual/itemStem/2443> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  rdfs:label "理由もないのに、突然クラクラしたり、気を失いそうになる" .
+
+<http://purl.org/twc/poem/individual/itemStem/2444> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  rdfs:label "私の子どもは、理由もないのに、突然クラクラしたり気を失いそうになる" .
+
+<http://purl.org/twc/poem/individual/itemStem/2445> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  rdfs:label "死について考える" .
+
+<http://purl.org/twc/poem/individual/itemStem/2446> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  rdfs:label "私の子どもは、死について考える" .
+
+<http://purl.org/twc/poem/individual/itemStem/2447> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  rdfs:label "クラスのみんなの前で話をしなければならないとしたら、こわい" .
+
+<http://purl.org/twc/poem/individual/itemStem/2448> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  rdfs:label "私の子どもは、クラスのみんなの前で話をしなければならないとしたらこわがる" .
+
+<http://purl.org/twc/poem/individual/itemStem/2449> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  rdfs:label "理由もないのに、突然心臓がとてもドキドキし始める" .
+
 <http://purl.org/twc/poem/individual/itemStem/245> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/4>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/4>;
   rdfs:label "Mit barn bliver generet af dårlige eller fjollede tanker eller billeder i sit hoved" .
+
+<http://purl.org/twc/poem/individual/itemStem/2450> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  rdfs:label "私の子どもは、理由もないのに、突然心臓がとてもドキドキし始める" .
+
+<http://purl.org/twc/poem/individual/itemStem/2451> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  rdfs:label "動きたくないと感じる" .
+
+<http://purl.org/twc/poem/individual/itemStem/2452> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  rdfs:label "私の子どもは、動きたくないと感じている" .
+
+<http://purl.org/twc/poem/individual/itemStem/2453> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  rdfs:label "何もこわいことがないのに、突然こわい気持ちになってしまうのではないかと心配する" .
+
+<http://purl.org/twc/poem/individual/itemStem/2454> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  rdfs:label "私の子どもは、何もこわいことがないのに、突然こわい気持ちになってしまうのではないかと心配する" .
+
+<http://purl.org/twc/poem/individual/itemStem/2455> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  rdfs:label "（手を洗う、きれいにする、特別なルールどおりに物を置くなど）あることを何度も何度もせずにはいられない" .
+
+<http://purl.org/twc/poem/individual/itemStem/2456> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  rdfs:label "私の子どもは、（手を洗う、きれいにする、特別なルールどおりに物を置くなど）あることを何度も何度もせずにはいられない" .
+
+<http://purl.org/twc/poem/individual/itemStem/2457> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  rdfs:label "人前で、ばかなことをしてしまうのではないかとこわくなる" .
+
+<http://purl.org/twc/poem/individual/itemStem/2458> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  rdfs:label "私の子どもは、人前でばかなことをしてしまうのではないかとこわがる" .
+
+<http://purl.org/twc/poem/individual/itemStem/2459> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  rdfs:label "悪いことが起こらないようにするために、何かを正しいやり方でしなければならない" .
 
 <http://purl.org/twc/poem/individual/itemStem/246> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
@@ -8885,11 +9139,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
   rdfs:label "Mit barn har svært ved at sove" .
 
+<http://purl.org/twc/poem/individual/itemStem/2460> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  rdfs:label "私の子どもは、悪いことが起こらないようにするために、何かを正しいやり方でしなければならない" .
+
+<http://purl.org/twc/poem/individual/itemStem/2461> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  rdfs:label "夜ひとりで寝ているときに、心配になる" .
+
+<http://purl.org/twc/poem/individual/itemStem/2462> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  rdfs:label "私の子どもは、夜ひとりで寝ているときに心配になる" .
+
+<http://purl.org/twc/poem/individual/itemStem/2463> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  rdfs:label "一晩中、家から離れないといけないとしたら、こわい" .
+
+<http://purl.org/twc/poem/individual/itemStem/2464> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  rdfs:label "私の子どもは、一晩中、家から離れないといけないとしたらこわがる" .
+
+<http://purl.org/twc/poem/individual/itemStem/2465> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  rdfs:label "気持ちが落ち着かない" .
+
+<http://purl.org/twc/poem/individual/itemStem/2466> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  rdfs:label "私の子どもは、気持ちが落ち着かない" .
+
+<http://purl.org/twc/poem/individual/itemStem/2467> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/93>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/93>;
+  rdfs:label "Feeling nervous, anxious, or on edge" .
+
+<http://purl.org/twc/poem/individual/itemStem/2468> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/94>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/94>;
+  rdfs:label "Not being able to stop or control worrying" .
+
+<http://purl.org/twc/poem/individual/itemStem/2469> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/95>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/95>;
+  rdfs:label "Worrying too much about different things" .
+
 <http://purl.org/twc/poem/individual/itemStem/247> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/46>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/46>;
   rdfs:label "Mit barn bekymrer sig om, at han/hun vil klare sig dårligt i skolearbejdet" .
+
+<http://purl.org/twc/poem/individual/itemStem/2470> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/96>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/96>;
+  rdfs:label "Trouble relaxing" .
+
+<http://purl.org/twc/poem/individual/itemStem/2471> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/97>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/97>;
+  rdfs:label "Being so restless that it is hard to sit still" .
+
+<http://purl.org/twc/poem/individual/itemStem/2472> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/98>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/98>;
+  rdfs:label "Becoming easily annoyed or irritable" .
+
+<http://purl.org/twc/poem/individual/itemStem/2473> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/99>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/99>;
+  rdfs:label "Feeling afraid, as if something awful might happen" .
+
+<http://purl.org/twc/poem/individual/itemStem/2474> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  rdfs:label "はっきりと考かんがえられない" .
+
+<http://purl.org/twc/poem/individual/itemStem/2475> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  rdfs:label "मुझे चीजों की चिंता होती है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2476> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  rdfs:label "मैं उदास या खाली महसूस करता/करती हूँ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2477> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  rdfs:label "जब मुझे कोई समस्या होती है, तो मेरे पेट में अजीब सा महसूस होता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2478> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  rdfs:label "जब मुझे लगता है कि मैंने कुछ खराब किया है, तो मुझे चिंता होती है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2479> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  rdfs:label "मुझे घर पर अकेले होने से डर लगता है|" .
 
 <http://purl.org/twc/poem/individual/itemStem/248> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
@@ -8897,11 +9271,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
   rdfs:label "Mit barn bekymrer sig om, at der vil ske noget forfærdeligt med nogen i familien" .
 
+<http://purl.org/twc/poem/individual/itemStem/2480> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  rdfs:label "अब कुछ भी मज़ेदार नहीं लगता |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2481> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  rdfs:label "जब मुझे परीक्षा देनी होती है, तो मुझे डर लगता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2482> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  rdfs:label "जब मुझे लगता है कि कोई मुझसे नाराज़ है, तो मुझे चिंता होती है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2483> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  rdfs:label "मुझे अपने माता-पिता से दूर होने की चिंता होती है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2484> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  rdfs:label "मुझे अपने दिमाग में बुरे या मूर्खतापूर्ण विचारों या तस्वीरों से परेशानी होती है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2485> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  rdfs:label "मुझे सोने में परेशानी होती है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2486> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  rdfs:label "मुझे चिंता होती है कि मैं स्कूल का काम खराब करूंगा/करूंगी |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2487> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  rdfs:label "मुझे चिंता होती है कि मेरे परिवार में किसी के साथ कुछ बुरा होगा |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2488> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  rdfs:label "मुझे अचानक ऐसा लगता है कि मैं सांस नहीं ले पा रहा/रही, जबकि कोई कारण नहीं होता |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2489> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  rdfs:label "मेरी भूख में समस्या होती है |" .
+
 <http://purl.org/twc/poem/individual/itemStem/249> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/29>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/29>;
   rdfs:label "Mit barn føler pludselig uden grund, at det er som om han/hun ikke kan trække vejret" .
+
+<http://purl.org/twc/poem/individual/itemStem/2490> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  rdfs:label "मुझे बार-बार जांचना पड़ता है कि मैंने चीजें सही की हैं (जैसे स्विच बंद है या दरवाज़ा बंद है)|" .
+
+<http://purl.org/twc/poem/individual/itemStem/2491> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  rdfs:label "अगर मुझे अकेले सोना पड़े तो मुझे डर लगता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2492> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  rdfs:label "मुझे सुबह स्कूल जाने में परेशानी होती है क्योंकि मैं घबराया/घबराई या डरा/डरी हुआ महसूस करता/करती हूं |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2493> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  rdfs:label "मेरे पास किसी चीज़ के लिए ऊर्जा नहीं होती |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2494> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  rdfs:label "मुझे चिंता होती है कि कहीं मैं मूर्ख न दिखूं |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2495> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  rdfs:label "मैं बहुत थका/थकी रहता/रहती हूं |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2496> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  rdfs:label "मुझे चिंता होती है कि मेरे साथ कुछ बुरा होगा |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2497> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  rdfs:label "मैं अपने दिमाग से बुरे या मूर्खतापूर्ण विचार नहीं निकाल पाता/पाती हूं |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2498> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  rdfs:label "जब मुझे कोई समस्या होती है तो मेरा दिल बहुत तेज़ धड़कता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2499> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  rdfs:label "मैं साफ-साफ सोच नहीं पाता/पाती |" .
 
 <http://purl.org/twc/poem/individual/itemStem/25> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
@@ -8915,11 +9409,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
   rdfs:label "Mit barn har problemer med sin appetit" .
 
+<http://purl.org/twc/poem/individual/itemStem/2500> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  rdfs:label "मैं अचानक बिना किसी कारण के कांपने लगता/लगती हूं |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2501> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  rdfs:label "मुझे चिंता होती है कि मेरे साथ कुछ बुरा होगा |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2502> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  rdfs:label "जब मुझे कोई समस्या होती है, तो मैं कांपने लगता/लगती हूं |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2503> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  rdfs:label "मुझे लगता है कि मेरी कोई कदर नहीं है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2504> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  rdfs:label "मुझे गलतियां करने की चिंता होती है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2505> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  rdfs:label "मुझे बुरी चीज़ों से बचने के लिए विशेष विचार (जैसे नंबर या शब्द) सोचने पड़ते हैं |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2506> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  rdfs:label "मुझे चिंता होती है कि लोग मेरे बारे में क्या सोचते हैं |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2507> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  rdfs:label "मुझे भीड़-भाड़ वाली जगहों (जैसे मॉल, सिनेमा, बस, व्यस्त खेल के मैदान) में डर लगता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2508> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  rdfs:label "अचानक मुझे बिना किसी कारण के बहुत डर लगता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2509> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  rdfs:label "मुझे चिंता होती है कि आगे क्या होगा |" .
+
 <http://purl.org/twc/poem/individual/itemStem/251> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/23>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/23>;
   rdfs:label "Mit barn skal blive ved med at tjekke, at han/hun har gjort tingene rigtigt (som at kontakten er slukket, eller døren er låst)" .
+
+<http://purl.org/twc/poem/individual/itemStem/2510> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  rdfs:label "मुझे अचानक बिना किसी कारण चक्कर आते हैं या बेहोशी जैसा लगता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2511> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  rdfs:label "मैं मृत्यु के बारे में सोचता/सोचती हूं |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2512> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  rdfs:label "अगर मुझे क्लास के सामने बोलना पड़े तो मैं डरता/डरती हूं |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2513> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  rdfs:label "मेरा दिल बिना किसी कारण अचानक बहुत तेज़ धड़कने लगता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2514> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  rdfs:label "मुझे लगता है कि मैं हिलना नहीं चाहता/चाहती |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2515> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  rdfs:label "मुझे डर लगता है कि अचानक से मुझे डरावनी अनुभूति हो सकती है, जबकि डरने के लिए कुछ भी न हो।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2516> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  rdfs:label "मुझे कुछ काम बार-बार करने पड़ते हैं (जैसे हाथ धोना, सफाई करना या चीजों को एक विशेष क्रम में रखना)।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2517> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  rdfs:label "मुझे डर लगता है कि मैं लोगों के सामने खुद को मूर्ख बना दूंगा/दूंगी |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2518> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  rdfs:label "मुझे चीजों को सही तरीके से करना पड़ता है ताकि बुरी चीजें न हो |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2519> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  rdfs:label "जब मैं रात को सोने जाता/जाती हूं तो मुझे चिंता होती है |" .
 
 <http://purl.org/twc/poem/individual/itemStem/252> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
@@ -8927,11 +9541,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
   rdfs:label "Mit barn føler sig bange, hvis han/hun skal sove alene" .
 
+<http://purl.org/twc/poem/individual/itemStem/2520> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  rdfs:label "अगर मुझे रात भर घर से दूर रहना पड़े तो मुझे डर लगेगा |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2521> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  rdfs:label "मुझे बेचैनी महसूस होती है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2522> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  rdfs:label "मैं मन का और खाली महसूस करता हूँ।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2523> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  rdfs:label "मैं परेशान होता हूँ जब मुझे लगता है कि मैंने कुछ चीज़ें खराब की हैं।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2524> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  rdfs:label "मैं घरमें अकेले रहने पर डर महसूस करता हंू।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2525> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  rdfs:label "अब और कुछ भी आनंद के लिए नहीं बचा है।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2526> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  rdfs:label "मुझे नींद लेनेमें मुष्किल आती है।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2527> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  rdfs:label "मैं चिन्तित होता हंू कि मेरे परिवार के किसी सदस्य के साथ कुछ बुरा होने वाला है।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2528> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  rdfs:label "मुझे भूख की षिकायत रहती है।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2529> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  rdfs:label "यदि मुझे अकेले सोनापड़े तो मैं डर महसूस करता/करती हँू।" .
+
 <http://purl.org/twc/poem/individual/itemStem/253> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/32>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/32>;
   rdfs:label "Mit barn har problemer med at komme i skole om morgenen, fordi han/hun føler sig nervøs eller bange" .
+
+<http://purl.org/twc/poem/individual/itemStem/2530> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  rdfs:label "मुझमें किसी चीजों के लिए ताकत नहीं है।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2531> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  rdfs:label "मैं बहुत ज्यादा थक गया हंू।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2532> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  rdfs:label "मैं ठीक से सोच नहीं पाता/पाती हंू।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2533> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  rdfs:label "मैं अचानक से कंप-कपाने लगता हंू जब इसकी कोई वजहही नहीं होती।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2534> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  rdfs:label "मैं चिन्तित रहता हंू कि मेरे साथ कुछ बुरा होने वाला है।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2535> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  rdfs:label "मैं अपने आपको मूल्यहीन समझता हंू।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2536> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  rdfs:label "मुझे सोचना पड़ता है, किसी विषेश विचारों (जैसे कि संख्याओं या षब्दों) के बारेमें, किसी बुरी घटना को रोकने के लिए।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2537> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  rdfs:label "मैं चिन्तित होता हंू कि दूसरे लोग मेरे बारेमें क्या सोचते होंगे।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2538> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  rdfs:label "मैं भीड़-भाड़ वाली जगहों (जैसे कि बाजारों, बसों, सिनेमा घरांे, व्यस्त मैदानों) पर होने से डरता हंू।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2539> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  rdfs:label "मैं अचानक बेहोष होता/होती हंू या चक्कर महसूस करता/करती हंू जब इसकी कोई वजहही नहीं होती।" .
 
 <http://purl.org/twc/poem/individual/itemStem/254> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
@@ -8939,11 +9673,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
   rdfs:label "Mit barn har ingen energi til ting" .
 
+<http://purl.org/twc/poem/individual/itemStem/2540> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  rdfs:label "मैं मौत के बारेमें सांेचता हंू।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2541> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  rdfs:label "मुझे ऐसा लगता है कि मैं हिलना नहीं चाहता/चाहती हंू।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2542> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  rdfs:label "मैं चिन्तित होताहंू कि मुझे अचानक से एक भयभीत अनुभूति होगी जबकि डरने के लिए कुछ होतेही नहीं।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2543> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  rdfs:label "मुझे कुछ चीजें बार-बार करने पड़ते है। (जैसे कि हाथ धोना, चीजों को साफ करना या निष्चित क्रम से रखना)" .
+
+<http://purl.org/twc/poem/individual/itemStem/2544> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  rdfs:label "मैं भयभीत रहता हंू कि मैं लोगो के सामने अपने आपको मूर्ख बना देंगे।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2545> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  rdfs:label "मुझे कुछ बुरा होने रोकने के लिए कुछ चीजें उचित तरीके से करनेही पड़ते हैं।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2546> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  rdfs:label "मैं अषांत महसूस करता हंू।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2547> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  rdfs:label "मेरा बच्चा चीजों को लेकर चिंता करता  है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2548> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  rdfs:label "मेरा बच्चा उदास या खाली महसूस करता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2549> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  rdfs:label "जब मेरे बच्चे को कोई समस्या होती है, तो उसके पेट में अजीब सा लगता है |" .
+
 <http://purl.org/twc/poem/individual/itemStem/255> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/41>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/41>;
   rdfs:label "Mit barn bekymrer sig om, at han/hun ser tåbelig ud" .
+
+<http://purl.org/twc/poem/individual/itemStem/2550> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  rdfs:label "जब उसे लगता है कि उसने कुछ गलत किया है, तो मेरा बच्चा चिंता करता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2551> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  rdfs:label "मेरा बच्चा घर पर अकेले होने से डरता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2552> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  rdfs:label "अब मेरे बच्चे को किसी चीज़ में मज़ा नहीं आता|" .
+
+<http://purl.org/twc/poem/individual/itemStem/2553> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  rdfs:label "परीक्षा देते समय मेरा बच्चा डरता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2554> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  rdfs:label "जब उसे लगता है कि कोई उस पर नाराज़ है, तो मेरा बच्चा चिंता करता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2555> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  rdfs:label " मेरा बच्चा मुझसे दूर होने पर चिंता करता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2556> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  rdfs:label "मेरे बच्चे के मन में बुरे या मूर्खतापूर्ण विचार या चित्र आते हैं जो उसे परेशान करते हैं |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2557> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  rdfs:label "मेरे बच्चे को सोने में कठिनाई होती है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2558> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  rdfs:label "मेरा बच्चा स्कूल के काम में खराब करने की चिंता करता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2559> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  rdfs:label "मेरा बच्चा चिंता करता है कि परिवार के किसी सदस्य के साथ कुछ बुरा हो जाएगा |" .
 
 <http://purl.org/twc/poem/individual/itemStem/256> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
@@ -8951,11 +9805,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
   rdfs:label "Mit barn er ofte træt" .
 
+<http://purl.org/twc/poem/individual/itemStem/2560> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  rdfs:label "मेरे बच्चे को अचानक ऐसा लगता है कि वह सांस नहीं ले पा रहा है, जबकि कोई कारण नहीं होता |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2561> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  rdfs:label "मेरे बच्चे को भूख से संबंधित समस्याएं हैं |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2562> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  rdfs:label " मेरा बच्चा बार-बार जांचता है कि सब कुछ सही किया है या नहीं (जैसे स्विच बंद है या दरवाजा लॉक है) |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2563> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  rdfs:label "मेरा बच्चा अकेले सोने से डरता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2564> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  rdfs:label "घबराहट या डर के कारण मेरे बच्चे को सुबह स्कूल जाने में परेशानी होती है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2565> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  rdfs:label "मेरे बच्चे में किसी भी चीज़ के लिए ऊर्जा नहीं होती |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2566> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  rdfs:label "मेरा बच्चा बेवकूफ दिखने को लेकर चिंता करता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2567> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  rdfs:label "मेरा बच्चा अक्सर थका हुआ रहता है|" .
+
+<http://purl.org/twc/poem/individual/itemStem/2568> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  rdfs:label "मेरा बच्चा चिंता करता है कि उसके साथ कुछ बुरा हो जाएगा |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2569> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  rdfs:label "मेरे बच्चे के मन से बुरे या मूर्खतापूर्ण विचार नहीं निकलते |" .
+
 <http://purl.org/twc/poem/individual/itemStem/257> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
   rdfs:label "Mit barn er bekymret for, at der vil ske ham/hende noget dårligt" .
+
+<http://purl.org/twc/poem/individual/itemStem/2570> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  rdfs:label "जब मेरे बच्चे को कोई समस्या होती है, तो उसका दिल बहुत तेज़ धड़कता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2571> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  rdfs:label "मेरा बच्चा स्पष्ट रूप से नहीं सोच पाता |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2572> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  rdfs:label "बिना किसी कारण के मेरा बच्चा अचानक कांपने लगता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2573> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  rdfs:label "मेरा बच्चा सोचता है कि उसके साथ कुछ बुरा हो जाएगा |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2574> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  rdfs:label "जब मेरे बच्चे को कोई समस्या होती है, तो वह कांपता हुआ महसूस करता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2575> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  rdfs:label "मेरा बच्चा खुद को बेकार समझता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2576> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  rdfs:label "मेरा बच्चा गलतियाँ करने को लेकर चिंता करता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2577> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  rdfs:label "मेरा बच्चा बुरी चीजों को रोकने के लिए खास विचारों (जैसे नंबर या शब्द) के बारे में सोचता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2578> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  rdfs:label "मेरा बच्चा सोचता है कि लोग उसके बारे में क्या सोचते हैं |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2579> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  rdfs:label "मेरा बच्चा भीड़-भाड़ वाली जगहों से डरता है (जैसे शॉपिंग सेंटर, सिनेमा, बस, व्यस्त खेल के मैदान) |" .
 
 <http://purl.org/twc/poem/individual/itemStem/258> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
@@ -8963,11 +9937,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/6>;
   rdfs:label "Mit barn kan ikke få dårlige eller dumme tanker ud af sit hoved" .
 
+<http://purl.org/twc/poem/individual/itemStem/2580> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  rdfs:label "अचानक मेरे बच्चे को बिना कारण बहुत डर लगने लगता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2581> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  rdfs:label "मेरा बच्चा सोचता है कि आगे क्या होगा |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2582> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  rdfs:label "बिना किसी कारण के मेरा बच्चा अचानक चक्कर या बेहोशी जैसा महसूस करता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2583> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  rdfs:label " मेरा बच्चा मृत्यु के बारे में सोचता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2584> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  rdfs:label "यदि उसे कक्षा के सामने बोलना पड़े, तो मेरा बच्चा डरता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2585> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  rdfs:label "बिना कारण के मेरे बच्चे का दिल अचानक बहुत तेज़ धड़कने लगता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2586> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  rdfs:label "मेरा बच्चा ऐसा महसूस करता है कि वह हिलना-डुलना नहीं चाहता |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2587> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  rdfs:label "मेरा बच्चा सोचता है कि वह अचानक डर जाएगा, भले ही डरने वाली कोई बात न हो |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2588> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  rdfs:label "मेरा बच्चा कुछ चीजें बार-बार करता है (जैसे हाथ धोना, सफाई करना, या चीजों को एक क्रम में रखना) |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2589> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  rdfs:label " मेरा बच्चा डरता है कि वह लोगों के सामने खुद को मूर्ख साबित कर बैठेगा |" .
+
 <http://purl.org/twc/poem/individual/itemStem/259> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/34>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/34>;
   rdfs:label "Mit barn kan ikke få dårlige eller dumme tanker ud af sit hoved" .
+
+<http://purl.org/twc/poem/individual/itemStem/2590> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  rdfs:label "मेरा बच्चा बुरी चीजों को रोकने के लिए कुछ चीजें एक विशेष तरीके से करता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2591> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  rdfs:label "रात को बिस्तर पर लेटे हुए मेरा बच्चा चिंता करता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2592> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  rdfs:label "अगर उसे रात भर घर से दूर रहना पड़े, तो मेरा बच्चा डर जाता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2593> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#HIN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  rdfs:label "मेरा बच्चा बेचैन महसूस करता है |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2594> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  rdfs:label "ਮੈਨੂੰ ਚੀਜ਼ਾਂ ਦੀ ਚਿੰਤਾ ਹੁੰਦੀ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2595> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  rdfs:label "ਮੈਂ ਉਦਾਸ ਜਾਂ ਖਾਲੀ ਮਹਿਸੂਸ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2596> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  rdfs:label "ਜਦੋਂ ਮੈਨੂੰ ਕੋਈ ਸਮੱਸਿਆ ਹੁੰਦੀ ਹੈ ਤਾਂ ਮੇਰੇ ਪੇਟ ਵਿੱਚ ਅਜੀਬੋ-ਗਰੀਬ ਮਹਿਸੂਸ ਹੁੰਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2597> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  rdfs:label "ਜਦੋਂ ਮੈਨੂੰ ਲੱਗਦਾ ਹੈ ਕਿ ਮੈਂ ਕੁਝ ਗਲਤ ਕੀਤਾ ਹੈ ਤਾਂ ਮੈਨੂੰ ਚਿੰਤਾ ਹੁੰਦੀ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2598> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  rdfs:label "ਮੈਨੂੰ ਘਰ ਵਿੱਚ ਅਕੇਲਾ ਹੋਣ ਤੋਂ ਡਰ ਲੱਗਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2599> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  rdfs:label "ਹੁਣ ਕਿਸੇ ਵੀ ਚੀਜ਼ ਵਿੱਚ ਮਜ਼ਾ ਨਹੀਂ ਆਉਂਦਾ |" .
 
 <http://purl.org/twc/poem/individual/itemStem/26> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
@@ -8981,11 +10075,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
   rdfs:label "Mit barn kan ikke tænke klart" .
 
+<http://purl.org/twc/poem/individual/itemStem/2600> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  rdfs:label "ਜਦੋਂ ਮੈਨੂੰ ਟੈਸਟ ਦੇਣਾ ਪੈਂਦਾ ਹੈ, ਤਾਂ ਮੈਨੂੰ ਡਰ ਲੱਗਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2601> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  rdfs:label "ਜਦੋਂ ਮੈਨੂੰ ਲੱਗਦਾ ਹੈ ਕਿ ਕੋਈ ਮੇਰੇ 'ਤੇ ਨਾਰਾਜ਼ ਹੈ, ਤਾਂ ਮੈਨੂੰ ਚਿੰਤਾ ਹੁੰਦੀ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2602> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  rdfs:label "ਮੈਨੂੰ ਆਪਣੇ ਮਾਪਿਆਂ ਤੋਂ ਦੂਰ ਹੋਣ ਦੀ ਚਿੰਤਾ ਹੁੰਦੀ ਹੈ|" .
+
+<http://purl.org/twc/poem/individual/itemStem/2603> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  rdfs:label "ਮੈਨੂੰ ਆਪਣੇ ਮਨ ਵਿੱਚ ਖਰਾਬ ਜਾਂ ਬੇਵਕੂਫ਼ ਵਿਚਾਰਾਂ ਜਾਂ ਚਿੱਤਰਾਂ ਨਾਲ ਪਰੇਸ਼ਾਨੀ ਹੁੰਦੀ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2604> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  rdfs:label "ਮੈਨੂੰ ਸੌਣ ਵਿੱਚ ਮੁਸ਼ਕਲ ਹੁੰਦੀ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2605> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  rdfs:label "ਮੈਨੂੰ ਚਿੰਤਾ ਹੁੰਦੀ ਹੈ ਕਿ ਮੈਂ ਸਕੂਲ ਦਾ ਕੰਮ ਖਰਾਬ ਕਰਾਂਗਾ/ਕਰਾਂਗੀ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2606> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  rdfs:label "ਮੈਨੂੰ ਚਿੰਤਾ ਹੁੰਦੀ ਹੈ ਕਿ ਮੇਰੇ ਪਰਿਵਾਰ ਵਿੱਚ ਕਿਸੇ ਦੇ ਨਾਲ ਕੁਝ ਬੁਰਾ ਹੋਵੇਗਾ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2607> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  rdfs:label "ਮੈਨੂੰ ਅਚਾਨਕ ਲੱਗਦਾ ਹੈ ਕਿ ਮੈਂ ਸਾਹ ਨਹੀਂ ਲੈ ਸਕਦਾ/ਸਕਦੀ, ਹਾਲਾਂਕਿ ਕੋਈ ਕਾਰਨ ਨਹੀਂ ਹੁੰਦਾ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2608> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  rdfs:label "ਮੈਨੂੰ ਭੁੱਖ ਨਾਲ ਸੰਬੰਧਿਤ ਸਮੱਸਿਆ ਹੁੰਦੀ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2609> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  rdfs:label "ਮੈਨੂੰ ਵਾਰੀ-ਵਾਰੀ ਚੈੱਕ ਕਰਨਾ ਪੈਂਦਾ ਹੈ ਕਿ ਸਭ ਠੀਕ ਕੀਤਾ ਜਾਂ ਨਹੀਂ (ਜਿਵੇਂ ਕਿ ਸਵਿੱਚ ਬੰਦ ਹੈ ਜਾਂ ਦਰਵਾਜ਼ਾ ਲਾਕ ਹੈ) |" .
+
 <http://purl.org/twc/poem/individual/itemStem/261> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
   rdfs:label "Mit barn begynder pludselig at ryste, eller ryster uden grund" .
+
+<http://purl.org/twc/poem/individual/itemStem/2610> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  rdfs:label "ਜੇਕਰ ਮੈਨੂੰ ਇੱਕਲੇ ਸੌਣਾ ਪਵੇ, ਮੈਨੂੰ ਡਰ ਮਹਿਸੂਸ  ਹੁੰਦਾ ਹੈ।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2611> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  rdfs:label "ਮੈਨੂੰ ਸਵੇਰੇ ਸਕੂਲ ਜਾਣ ਵਿੱਚ ਮੁਸ਼ਕਲ ਹੁੰਦੀ ਹੈ ਕਿਉਂਕਿ ਮੈਂ ਘਬਰਾਇਆ/ਘਬਰਾਈ ਜਾਂ ਡਰਿਆ/ਡਰੀ ਮਹਿਸੂਸ ਕਰਦਾ/ਕਰਦੀ ਹਾਂ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2612> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  rdfs:label "ਮੈਨੂੰ ਕਿਸੇ ਵੀ ਕੰਮ ਲਈ ਤਾਕਤ ਨਹੀਂ ਹੁੰਦੀ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2613> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  rdfs:label "ਮੈਨੂੰ ਚਿੰਤਾ ਹੁੰਦੀ ਹੈ ਕਿ ਕਿਤੇ ਮੈਂ ਮੂਰਖ ਨਾ ਲੱਗਾਂ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2614> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  rdfs:label "ਮੈਂ ਬਹੁਤ ਥੱਕਿਆ/ਥੱਕੀ ਰਹਿੰਦਾ/ਰਹਿੰਦੀ ਹਾਂ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2615> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  rdfs:label "ਮੈਨੂੰ ਚਿੰਤਾ ਹੁੰਦੀ ਹੈ ਕਿ ਮੇਰੇ ਨਾਲ ਕੁਝ ਬੁਰਾ ਹੋਵੇਗਾ।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2616> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  rdfs:label "ਮੈਂ ਆਪਣੇ ਮਨ ਤੋਂ ਖਰਾਬ ਜਾਂ ਬੇਵਕੂਫ਼ ਵਿਚਾਰਾਂ ਨੂੰ ਨਹੀਂ ਕੱਢ ਸਕਦਾ/ਸਕਦੀ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2617> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  rdfs:label "ਜਦੋਂ ਮੈਨੂੰ ਕੋਈ ਸਮੱਸਿਆ ਹੁੰਦੀ ਹੈ ਤਾਂ ਮੇਰਾ ਦਿਲ ਬਹੁਤ ਤੇਜ਼ ਧੜਕਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2618> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  rdfs:label "ਮੈਂ ਠੀਕ ਤਰ੍ਹਾਂ ਸੋਚ ਨਹੀਂ ਸਕਦਾ/ਸਕਦੀ|" .
+
+<http://purl.org/twc/poem/individual/itemStem/2619> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  rdfs:label "ਬਿਨਾਂ ਕਿਸੇ ਕਾਰਨ ਦੇ, ਮੈਂ ਅਚਾਨਕ ਕੰਬਣ ਜਾਂ ਹਿਲਣ ਲੱਗਦਾ ਹਾਂ।" .
 
 <http://purl.org/twc/poem/individual/itemStem/262> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
@@ -8993,11 +10207,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
   rdfs:label "Mit barn bekymrer sig om, at der vil ske ham/hende noget slemt" .
 
+<http://purl.org/twc/poem/individual/itemStem/2620> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  rdfs:label "ਮੈਨੂੰ ਚਿੰਤਾ ਹੁੰਦੀ ਹੈ ਕਿ ਮੇਰੇ ਨਾਲ ਕੁਝ ਬੁਰਾ ਹੋ ਸਕਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2621> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  rdfs:label "ਜਦੋਂ ਮੈਨੂੰ ਕੋਈ ਸਮੱਸਿਆ ਹੁੰਦੀ ਹੈ, ਤਦ ਮੈਂ ਕੰਬਣ ਲੱਗ ਪੈਂਦੀ / ਪੈਂਦਾ ਹਾਂ।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2622> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  rdfs:label "ਮੈਨੂੰ ਲੱਗਦਾ ਹੈ ਕਿ ਮੇਰੀ ਕੋਈ ਕੀਮਤ ਨਹੀਂ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2623> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  rdfs:label "ਮੈਨੂੰ ਗਲਤੀਆਂ ਕਰਨ ਦੀ ਚਿੰਤਾ ਹੁੰਦੀ ਹੈ|" .
+
+<http://purl.org/twc/poem/individual/itemStem/2624> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  rdfs:label "ਮੈਨੂੰ ਵਿਸ਼ੇਸ਼ ਵਿਚਾਰ ਕਰਨੇ ਪੈਂਦੇ ਹਨ (ਜਿਵੇਂ ਕਿ ਨੰਬਰ ਜਾਂ ਸ਼ਬਦ) ਤਾਂ ਕਿ ਕੁਝ ਬੁਰਾ ਨਾ ਹੋਵੇ।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2625> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  rdfs:label "ਮੈਨੂੰ ਇਸ ਗੱਲ ਦੀ ਚਿੰਤਾ ਹੁੰਦੀ ਹੈ ਕਿ ਲੋਕ ਮੇਰੇ ਬਾਰੇ ਕੀ ਸੋਚਦੇ ਹਨ।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2626> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  rdfs:label "ਮੈਨੂੰ ਭੀੜ ਵਾਲੀਆਂ ਥਾਵਾਂ (ਜਿਵੇਂ ਕਿ ਸ਼ਾਪਿੰਗ ਸੈਂਟਰ, ਸਿਨੇਮਾ, ਬੱਸ, ਵੀਰਾਨ ਸਥਾਨ) ਵਿੱਚ ਡਰ ਲੱਗਦਾ ਹੈ।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2627> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  rdfs:label "ਅਚਾਨਕ ਮੈਨੂੰ ਬਿਨਾਂ ਕਿਸੇ ਕਾਰਨ ਦੇ ਬਹੁਤ ਡਰ ਲੱਗਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2628> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  rdfs:label "ਮੈਨੂੰ ਚਿੰਤਾ ਹੁੰਦੀ ਹੈ ਕਿ ਅਗੇ ਕੀ ਹੋਵੇਗਾ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2629> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  rdfs:label "ਮੈਨੂੰ ਅਚਾਨਕ ਚੱਕਰ ਜਾਂ ਬੇਹੋਸ਼ੀ ਜਿਹਾ ਮਹਿਸੂਸ ਹੁੰਦਾ ਹੈ ਜਦੋਂ ਕਿ ਕੋਈ ਕਾਰਨ ਨਹੀਂ ਹੁੰਦਾ।" .
+
 <http://purl.org/twc/poem/individual/itemStem/263> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/33>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/33>;
   rdfs:label "Når mit barn har et problem, føler han/hun at hans/hendes krop ryster" .
+
+<http://purl.org/twc/poem/individual/itemStem/2630> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  rdfs:label "ਮੈਂ ਮੌਤ ਬਾਰੇ ਸੋਚਦਾ ਹਾਂ।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2631> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  rdfs:label "ਜੇ ਮੈਨੂੰ ਕਲਾਸ ਦੇ ਸਾਹਮਣੇ ਬੋਲਣਾ ਪਏ ਤਾਂ ਮੈਨੂੰ ਡਰ ਲੱਗਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2632> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  rdfs:label "ਮੇਰਾ ਦਿਲ ਅਚਾਨਕ ਬਿਨਾਂ ਕਿਸੇ ਕਾਰਨ ਦੇ ਬਹੁਤ ਤੇਜ਼ ਧੜਕਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2633> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  rdfs:label "ਮੈਨੂੰ ਲੱਗਦਾ ਹੈ ਕਿ ਮੈਂ ਹਿੱਲਣਾ ਨਹੀਂ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ|" .
+
+<http://purl.org/twc/poem/individual/itemStem/2634> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  rdfs:label "ਮੈਨੂੰ ਚਿੰਤਾ ਹੁੰਦੀ ਹੈ ਕਿ ਮੈਂ ਅਚਾਨਕ ਡਰ ਮਹਿਸੂਸ ਕਰਾਂਗਾ ਜਦੋਂ ਕਿ ਡਰਣ ਵਾਲੀ ਕੋਈ ਗੱਲ ਵੀ ਨਾ ਹੋਵੇ।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2635> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  rdfs:label "ਮੈਨੂੰ ਕੁਝ ਕੰਮ ਵਾਰ-ਵਾਰ ਕਰਨ ਦੀ ਲੋੜ ਮਹਿਸੂਸ ਹੁੰਦੀ ਹੈ (ਜਿਵੇਂ ਕਿ ਹੱਥ ਧੋਣਾ, ਚੀਜ਼ਾਂ ਸਾਫ ਕਰਨਾ, ਜਾਂ ਚੀਜ਼ਾਂ ਨੂੰ ਨਿਯਮਤ ਢੰਗ ਨਾਲ ਰੱਖਣਾ)। " .
+
+<http://purl.org/twc/poem/individual/itemStem/2636> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  rdfs:label "ਮੈਨੂੰ ਡਰ ਹੁੰਦਾ ਹੈ ਕਿ ਮੈਂ ਲੋਕਾਂ ਸਾਹਮਣੇ ਆਪਣੇ ਆਪ ਨੂੰ ਬੇਵਕੂਫ ਸਾਬਤ ਕਰਾਂਗਾ।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2637> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  rdfs:label "ਮੈਨੂੰ ਕੁਝ ਕੰਮ ਸਹੀ ਢੰਗ ਨਾਲ ਕਰਨੇ ਪੈਂਦੇ ਹਨ ਤਾਂ  ਕਿ ਕੁਝ ਬੁਰਾ ਨਾ ਹੋਵੇ।" .
+
+<http://purl.org/twc/poem/individual/itemStem/2638> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  rdfs:label "ਜਦੋਂ ਮੈਂ ਰਾਤ ਨੂੰ ਸੌਣ ਜਾਂਦਾ/ਜਾਂਦੀ ਹਾਂ ਤਾਂ ਮੈਨੂੰ ਚਿੰਤਾ ਹੁੰਦੀ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2639> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  rdfs:label "ਜੇ ਮੈਨੂੰ ਰਾਤ ਭਰ ਲਈ ਘਰ ਤੋਂ ਦੂਰ ਰਹਿਣਾ ਪਏ ਤਾਂ ਮੈਨੂੰ ਡਰ ਲੱਗੇਗਾ |" .
 
 <http://purl.org/twc/poem/individual/itemStem/264> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
@@ -9005,11 +10339,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
   rdfs:label "Mit barn føler sig værdiløs" .
 
+<http://purl.org/twc/poem/individual/itemStem/2640> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  rdfs:label "ਮੈਨੂੰ ਬੇਚੈਨੀ ਮਹਿਸੂਸ ਹੁੰਦੀ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2641> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਚੀਜ਼ਾਂ ਬਾਰੇ ਚਿੰਤਾ ਕਰਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2642> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਉਦਾਸ ਜਾਂ ਖਾਲੀ ਮਹਿਸੂਸ ਕਰਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2643> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  rdfs:label "ਜਦ ਮੇਰੇ ਬੱਚੇ ਨੂੰ ਕੋਈ ਸਮੱਸਿਆ ਹੁੰਦੀ ਹੈ ਤਾਂ ਉਸਦੇ ਪੇਟ ਵਿੱਚ ਅਜੀਬ ਜਿਹਾ ਮਹਿਸੂਸ ਹੁੰਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2644> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  rdfs:label "ਜਦ ਉਸਨੂੰ ਲੱਗਦਾ ਹੈ ਕਿ ਉਸਨੇ ਕੁਝ ਖਰਾਬ ਕੀਤਾ ਹੈ ਤਾਂ ਉਹ ਚਿੰਤਾ ਕਰਦਾ ਹੈ|" .
+
+<http://purl.org/twc/poem/individual/itemStem/2645> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਘਰ ਵਿੱਚ ਅਕੇਲਾ ਹੋਣ ਤੋਂ ਡਰਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2646> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  rdfs:label "ਹੁਣ ਮੇਰੇ ਬੱਚੇ ਨੂੰ ਕਿਸੇ ਵੀ ਚੀਜ਼ ਵਿੱਚ ਮਜ਼ਾ ਨਹੀਂ ਆਉਂਦਾ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2647> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  rdfs:label "ਟੈਸਟ ਦਿੰਦਿਆਂ ਮੇਰਾ ਬੱਚਾ ਡਰਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2648> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  rdfs:label "ਜਦ ਉਸਨੂੰ ਲੱਗਦਾ ਹੈ ਕਿ ਕੋਈ ਉਸ ਤੋਂ ਨਾਰਾਜ਼ ਹੈ, ਤਾਂ ਉਹ ਚਿੰਤਾ ਕਰਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2649> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਮੇਰੇ ਤੋਂ ਦੂਰ ਹੋਣ ਤੇ ਚਿੰਤਾ ਕਰਦਾ ਹੈ |" .
+
 <http://purl.org/twc/poem/individual/itemStem/265> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
   rdfs:label "Mit barn bekymrer sig om at lave fejl" .
+
+<http://purl.org/twc/poem/individual/itemStem/2650> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  rdfs:label "ਮੇਰੇ ਬੱਚੇ ਦੇ ਮਨ ਵਿਚ ਮਾੜੇ ਜਾਂ ਫ਼ਜ਼ੂਲ ਵਿਚਾਰ ਜਾਂ ਚਿੱਤਰ ਆਉਂਦੇ ਹਨ ਜੋ ਉਸਨੂੰ ਪਰੇਸ਼ਾਨ ਕਰਦੇ ਹਨ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2651> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  rdfs:label "ਮੇਰੇ ਬੱਚੇ ਨੂੰ ਸੌਣ ਵਿੱਚ ਮੁਸ਼ਕਿਲ ਹੁੰਦੀ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2652> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਸਕੂਲ ਦੇ ਕੰਮ ਵਿੱਚ ਮਾੜਾ ਕਰਨ ਦੀ ਚਿੰਤਾ ਕਰਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2653> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਚਿੰਤਾ ਕਰਦਾ ਹੈ ਕਿ ਪਰਿਵਾਰ ਦੇ ਕਿਸੇ ਮੈਂਬਰ ਨਾਲ ਕੁਝ ਮਾੜਾ ਹੋ ਜਾਵੇਗਾ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2654> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  rdfs:label "ਮੇਰੇ ਬੱਚੇ ਨੂੰ ਅਚਾਨਕ ਲੱਗਦਾ ਹੈ ਕਿ ਉਹ ਸਾਹ ਨਹੀਂ ਲੈ ਸਕਦਾ, ਹਾਲਾਂਕਿ ਕੋਈ ਵਜ੍ਹਾ ਨਹੀਂ ਹੁੰਦੀ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2655> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  rdfs:label "ਮੇਰੇ ਬੱਚੇ ਨੂੰ ਭੁੱਖ ਨਾਲ ਸੰਬੰਧਤ ਸਮੱਸਿਆਵਾਂ ਹੁੰਦੀਆਂ ਹਨ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2656> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਵਾਰ-ਵਾਰ ਜਾਂਚਦਾ ਹੈ ਕਿ ਸਭ ਕੁਝ ਠੀਕ ਕੀਤਾ ਹੈ ਜਾਂ ਨਹੀਂ (ਜਿਵੇਂ ਕਿ ਸਵਿੱਚ ਬੰਦ ਹੈ ਜਾਂ ਦਰਵਾਜ਼ਾ ਲੌਕ ਹੈ) |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2657> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਇਕੱਲਾ ਸੌਣ ਤੋਂ ਡਰਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2658> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  rdfs:label "ਘਬਰਾਹਟ ਜਾਂ ਡਰ ਕਾਰਨ ਮੇਰੇ ਬੱਚੇ ਨੂੰ ਸਵੇਰੇ ਸਕੂਲ ਜਾਣ ਵਿੱਚ ਮੁਸ਼ਕਲ ਹੁੰਦੀ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2659> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  rdfs:label "ਮੇਰੇ ਬੱਚੇ ਕੋਲ ਕਿਸੇ ਵੀ ਚੀਜ਼ ਲਈ ਊਰਜਾ ਨਹੀਂ ਹੁੰਦੀ|" .
 
 <http://purl.org/twc/poem/individual/itemStem/266> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
@@ -9017,11 +10471,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/20>;
   rdfs:label "Mit barn skal tænke på bestemte tanker (som på tal eller ord) for at forhindre dårlige ting i at ske" .
 
+<http://purl.org/twc/poem/individual/itemStem/2660> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਮੂਰਖ ਲੱਗਣ ਦੀ ਚਿੰਤਾ ਕਰਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2661> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਅਕਸਰ ਥੱਕਿਆ ਹੋਇਆ ਹੁੰਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2662> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਚਿੰਤਾ ਕਰਦਾ ਹੈ ਕਿ ਉਸਦੇ ਨਾਲ ਕੁਝ ਮਾੜਾ ਹੋ ਜਾਵੇਗਾ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2663> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  rdfs:label "ਮੇਰੇ ਬੱਚੇ ਦੇ ਮਨ ਤੋਂ ਮਾੜੇ ਜਾਂ ਫ਼ਜ਼ੂਲ ਵਿਚਾਰ ਨਹੀਂ ਜਾਂਦੇ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2664> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  rdfs:label "ਜਦ ਮੇਰੇ ਬੱਚੇ ਨੂੰ ਕੋਈ ਸਮੱਸਿਆ ਹੁੰਦੀ ਹੈ, ਤਾਂ ਉਸਦਾ ਦਿਲ ਬਹੁਤ ਤੇਜ਼ ਧੜਕਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2665> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਸਾਫ਼ ਤਰੀਕੇ ਨਾਲ ਨਹੀਂ ਸੋਚ ਸਕਦਾ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2666> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  rdfs:label "ਕੋਈ ਵੀ ਵਜ੍ਹਾ ਨਾ ਹੋਣ ਦੇ ਬਾਵਜੂਦ ਮੇਰਾ ਬੱਚਾ ਅਚਾਨਕ ਕੰਬਣ ਲੱਗਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2667> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਸੋਚਦਾ ਹੈ ਕਿ ਉਸਦੇ ਨਾਲ ਕੁਝ ਮਾੜਾ ਹੋ ਜਾਵੇਗਾ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2668> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  rdfs:label "ਜਦ ਮੇਰੇ ਬੱਚੇ ਨੂੰ ਕੋਈ ਸਮੱਸਿਆ ਹੁੰਦੀ ਹੈ, ਤਾਂ ਉਹ ਕੰਬਣ ਜਿਹਾ ਮਹਿਸੂਸ ਕਰਦਾ ਹੈ|" .
+
+<http://purl.org/twc/poem/individual/itemStem/2669> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਆਪਣੇ ਆਪ ਨੂੰ ਨਿਕੰਮਾ ਮਹਿਸੂਸ ਕਰਦਾ ਹੈ |" .
+
 <http://purl.org/twc/poem/individual/itemStem/267> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
   rdfs:label "Mit barn bekymrer sig om, hvad andre mennesker synes om ham/hende" .
+
+<http://purl.org/twc/poem/individual/itemStem/2670> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਗਲਤੀਆਂ ਕਰਨ ਬਾਰੇ ਚਿੰਤਾ ਕਰਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2671> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਮਾੜੀਆਂ ਚੀਜ਼ਾਂ ਨੂੰ ਰੋਕਣ ਲਈ ਖਾਸ ਵਿਚਾਰ (ਜਿਵੇਂ ਨੰਬਰ ਜਾਂ ਸ਼ਬਦ) ਸੋਚਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2672> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਸੋਚਦਾ ਹੈ ਕਿ ਲੋਕ ਉਸ ਬਾਰੇ ਕੀ ਸੋਚਦੇ ਹਨ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2673> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਭੀੜ ਵਾਲੀਆਂ ਥਾਵਾਂ ਤੋਂ ਡਰਦਾ ਹੈ (ਜਿਵੇਂ ਕਿ ਸ਼ਾਪਿੰਗ ਮਾਲ, ਸੀਨੇਮਾ, ਬੱਸਾਂ, ਖੇਡ ਮੈਦਾਨ ਆਦਿ)|" .
+
+<http://purl.org/twc/poem/individual/itemStem/2674> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  rdfs:label "ਅਚਾਨਕ ਹੀ ਮੇਰੇ ਬੱਚੇ ਨੂੰ ਬਿਨਾ ਕਿਸੇ ਵਜ੍ਹਾ ਦੇ ਬਹੁਤ ਡਰ ਲੱਗਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2675> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਸੋਚਦਾ ਹੈ ਕਿ ਅੱਗੇ ਕੀ ਹੋਵੇਗਾ|" .
+
+<http://purl.org/twc/poem/individual/itemStem/2676> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  rdfs:label "ਬਿਨਾ ਕਿਸੇ ਕਾਰਨ ਦੇ ਮੇਰੇ ਬੱਚੇ ਨੂੰ ਅਚਾਨਕ ਚੱਕਰ ਜਾਂ ਬੇਹੋਸ਼ੀ ਵਰਗਾ ਲੱਗਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2677> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਮੌਤ ਬਾਰੇ ਸੋਚਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2678> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  rdfs:label "ਜੇਕਰ ਉਸਨੂੰ ਕਲਾਸ ਦੇ ਸਾਹਮਣੇ ਬੋਲਣਾ ਪਏ, ਤਾਂ ਉਹ ਡਰਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2679> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  rdfs:label "ਬਿਨਾਂ ਕਿਸੇ ਕਾਰਨ ਦੇ ਮੇਰੇ ਬੱਚੇ ਦਾ ਦਿਲ ਅਚਾਨਕ ਬਹੁਤ ਤੇਜ਼ ਧੜਕਦਾ ਹੈ |" .
 
 <http://purl.org/twc/poem/individual/itemStem/268> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
@@ -9029,11 +10603,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
   rdfs:label "Mit barn er bange for at være på overfyldte steder (såsom shoppingcentre, biografer, busser, travle legepladser)" .
 
+<http://purl.org/twc/poem/individual/itemStem/2680> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਅਜਿਹਾ ਮਹਿਸੂਸ ਕਰਦਾ ਹੈ ਕਿ ਉਹ ਹਿਲਣਾ ਨਹੀਂ ਚਾਹੁੰਦਾ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2681> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਸੋਚਦਾ ਹੈ ਕਿ ਉਹ ਅਚਾਨਕ ਡਰ ਜਾਵੇਗਾ, ਭਾਵੇਂ ਡਰਣ ਵਾਲੀ ਕੋਈ ਗੱਲ ਨਾ ਹੋਵੇ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2682> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਕੁਝ ਚੀਜ਼ਾਂ ਵਾਰ-ਵਾਰ ਕਰਦਾ ਹੈ (ਜਿਵੇਂ ਕਿ ਹੱਥ ਧੋਣਾ, ਸਫਾਈ ਕਰਨਾ, ਜਾਂ ਚੀਜ਼ਾਂ ਨੂੰ ਇਕ ਕ੍ਰਮ ਵਿੱਚ ਰੱਖਣਾ) |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2683> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਡਰਦਾ ਹੈ ਕਿ ਉਹ ਲੋਕਾਂ ਸਾਹਮਣੇ ਆਪਣੇ ਆਪ ਨੂੰ ਮੂਰਖ ਸਾਬਤ ਕਰ ਲਵੇਗਾ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2684> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਮਾੜੀਆਂ ਚੀਜ਼ਾਂ ਨੂੰ ਰੋਕਣ ਲਈ ਕੁਝ ਚੀਜ਼ਾਂ ਇੱਕ ਖਾਸ ਤਰੀਕੇ ਨਾਲ ਕਰਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2685> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  rdfs:label "ਰਾਤ ਨੂੰ ਸੌਂਦੇ ਸਮੇਂ ਮੇਰਾ ਬੱਚਾ ਚਿੰਤਾ ਕਰਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2686> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  rdfs:label "ਜੇਕਰ ਉਸਨੂੰ ਰਾਤ ਭਰ ਘਰ ਤੋਂ ਦੂਰ ਰਹਿਣਾ ਪਏ, ਤਾਂ ਉਹ ਡਰਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2687> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#PAN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  rdfs:label "ਮੇਰਾ ਬੱਚਾ ਬੇਚੈਨ ਮਹਿਸੂਸ ਕਰਦਾ ਹੈ |" .
+
+<http://purl.org/twc/poem/individual/itemStem/2688> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  rdfs:label " Martwię się różnymi rzeczami" .
+
+<http://purl.org/twc/poem/individual/itemStem/2689> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  rdfs:label " Odczuwam smutek lub pustkę" .
+
 <http://purl.org/twc/poem/individual/itemStem/269> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/28>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
   rdfs:label "Lige pludselig føler mit barn sig virkelig bange uden nogen som helst grund" .
+
+<http://purl.org/twc/poem/individual/itemStem/2690> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  rdfs:label " Kiedy mam jakiś problem, w brzuchu mam takie dziwne uczucie" .
+
+<http://purl.org/twc/poem/individual/itemStem/2691> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  rdfs:label " Martwię się, gdy wiem, że coś mi słabo poszło" .
+
+<http://purl.org/twc/poem/individual/itemStem/2692> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  rdfs:label " Bał/a/bym się zostać sam/a w domu" .
+
+<http://purl.org/twc/poem/individual/itemStem/2693> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  rdfs:label " Nic mnie już nie cieszy" .
+
+<http://purl.org/twc/poem/individual/itemStem/2694> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  rdfs:label " Boję się, kiedy muszę napisać sprawdzian" .
+
+<http://purl.org/twc/poem/individual/itemStem/2695> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  rdfs:label " Martwię się, gdy myślę, że ktoś jest na mnie zdenerwowany" .
+
+<http://purl.org/twc/poem/individual/itemStem/2696> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  rdfs:label " Boję się być daleko od rodziców" .
+
+<http://purl.org/twc/poem/individual/itemStem/2697> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  rdfs:label " Przeszkadzają mi pojawiające się w mojej głowie złe albo niemądre myśli lub obrazy" .
+
+<http://purl.org/twc/poem/individual/itemStem/2698> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  rdfs:label " Mam problemy z zasypianiem" .
+
+<http://purl.org/twc/poem/individual/itemStem/2699> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  rdfs:label " Martwię się, że źle zrobię zadania szkolne" .
 
 <http://purl.org/twc/poem/individual/itemStem/27> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
@@ -9047,11 +10741,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
   rdfs:label "Mit barn bekymrer sig om, hvad der skal ske" .
 
+<http://purl.org/twc/poem/individual/itemStem/2700> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  rdfs:label " Martwię się, że coś strasznego stanie się komuś z mojej rodziny" .
+
+<http://purl.org/twc/poem/individual/itemStem/2701> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  rdfs:label " Nagle i bez powodu miewam trudności z oddychaniem" .
+
+<http://purl.org/twc/poem/individual/itemStem/2702> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  rdfs:label " Nie mam apetytu" .
+
+<http://purl.org/twc/poem/individual/itemStem/2703> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  rdfs:label " Czuję, że muszę ciągle sprawdzać, czy dobrze zrobiłem/łam różne rzeczy (np  czy zgasiłem/am światło lub zamknąłem/ęłam drzwi)" .
+
+<http://purl.org/twc/poem/individual/itemStem/2704> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  rdfs:label " Boję się sam/a spać" .
+
+<http://purl.org/twc/poem/individual/itemStem/2705> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  rdfs:label " Trudno jest mi wyjść rano do szkoły, bo jestem zdenerwowany/a lub boję się" .
+
+<http://purl.org/twc/poem/individual/itemStem/2706> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  rdfs:label " Nie mam energii, żeby cokolwiek zrobić" .
+
+<http://purl.org/twc/poem/individual/itemStem/2707> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  rdfs:label " Martwię się, że mogę głupio wyglądać" .
+
+<http://purl.org/twc/poem/individual/itemStem/2708> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  rdfs:label " Jestem bardzo zmęczony/a" .
+
+<http://purl.org/twc/poem/individual/itemStem/2709> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  rdfs:label " Martwię się, że przydarzą mi się złe rzeczy" .
+
 <http://purl.org/twc/poem/individual/itemStem/271> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
   rdfs:label "Mit barn bliver pludselig svimmel eller besvimer, uden nogen grund" .
+
+<http://purl.org/twc/poem/individual/itemStem/2710> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  rdfs:label " Nie potrafię pozbyć się złych lub niemądrych myśli" .
+
+<http://purl.org/twc/poem/individual/itemStem/2711> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  rdfs:label " Kiedy mam jakiś problem, moje serce bije bardzo szybko" .
+
+<http://purl.org/twc/poem/individual/itemStem/2712> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  rdfs:label " Nie potrafię jasno myśleć" .
+
+<http://purl.org/twc/poem/individual/itemStem/2713> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  rdfs:label " Zdarza się, że zaczynam nagle drżeć lub trząść się bez powodu" .
+
+<http://purl.org/twc/poem/individual/itemStem/2714> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  rdfs:label " Martwię się, że stanie mi się coś złego" .
+
+<http://purl.org/twc/poem/individual/itemStem/2715> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  rdfs:label " Kiedy mam jakiś problem, jest roztrzęsiony/a" .
+
+<http://purl.org/twc/poem/individual/itemStem/2716> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  rdfs:label " Czuje się bezwartościowy/a" .
+
+<http://purl.org/twc/poem/individual/itemStem/2717> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  rdfs:label " Martwię się, że popełnię błędy" .
+
+<http://purl.org/twc/poem/individual/itemStem/2718> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  rdfs:label " Żeby uniknąć czegoś złego, muszę myśleć o czymś szczególnym (np  o jakichś liczbach lub słowach)" .
+
+<http://purl.org/twc/poem/individual/itemStem/2719> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  rdfs:label " Przejmuję się tym, co inni myślą o mnie" .
 
 <http://purl.org/twc/poem/individual/itemStem/272> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
@@ -9059,11 +10873,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
   rdfs:label "Mit barn tænker på døden" .
 
+<http://purl.org/twc/poem/individual/itemStem/2720> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  rdfs:label " Boję się przebywać w zatłoczonych miejscach" .
+
+<http://purl.org/twc/poem/individual/itemStem/2721> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  rdfs:label " Nagle i bez żadnego powodu zaczynam się czegoś bać" .
+
+<http://purl.org/twc/poem/individual/itemStem/2722> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  rdfs:label " Martwię się tym, co ma się wydarzyć" .
+
+<http://purl.org/twc/poem/individual/itemStem/2723> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  rdfs:label " Nagle, bez powodu zaczyna kręcić mi się w głowie lub mdleję" .
+
+<http://purl.org/twc/poem/individual/itemStem/2724> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  rdfs:label " Myślę o śmierci" .
+
+<http://purl.org/twc/poem/individual/itemStem/2725> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  rdfs:label " Boję się, gdy mam coś mówić przed moją klasą" .
+
+<http://purl.org/twc/poem/individual/itemStem/2726> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  rdfs:label " Moje serce bez powodu zaczyna bić za szybko" .
+
+<http://purl.org/twc/poem/individual/itemStem/2727> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  rdfs:label " Nie chce mi się w ogóle ruszać" .
+
+<http://purl.org/twc/poem/individual/itemStem/2728> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  rdfs:label " Martwi się, że nagle bez powodu zacznę się czegoś bać" .
+
+<http://purl.org/twc/poem/individual/itemStem/2729> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  rdfs:label " Czuję, że muszę powtarzać niektóre rzeczy wiele razy" .
+
 <http://purl.org/twc/poem/individual/itemStem/273> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/3>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/3>;
   rdfs:label "Mit barn føler sig bange, hvis han/hun skal tale foran sin klasse" .
+
+<http://purl.org/twc/poem/individual/itemStem/2730> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  rdfs:label " Boję się, że wyjdę na głupka przed innymi ludźmi" .
+
+<http://purl.org/twc/poem/individual/itemStem/2731> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  rdfs:label " Czuję, że muszę robić niektóre rzeczy w ściśle określony sposób, żeby nie stało się nic złego" .
+
+<http://purl.org/twc/poem/individual/itemStem/2732> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  rdfs:label " Boję się wieczorem iść spać" .
+
+<http://purl.org/twc/poem/individual/itemStem/2733> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  rdfs:label " Bał/a/bym się, gdybym musiał/a spędzić noc poza domem" .
+
+<http://purl.org/twc/poem/individual/itemStem/2734> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#POL>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  rdfs:label " Czuję się niespokojny/a" .
+
+<http://purl.org/twc/poem/individual/itemStem/2735> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  rdfs:label "Je m’inquiète de certaines choses" .
+
+<http://purl.org/twc/poem/individual/itemStem/2736> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  rdfs:label "Lorsque j’ai un problème, j’ai une drôle de sensation dans l’estomac" .
+
+<http://purl.org/twc/poem/individual/itemStem/2737> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  rdfs:label "Je m’inquiète lorsque je pense que j’ai mal fait quelque chose" .
+
+<http://purl.org/twc/poem/individual/itemStem/2738> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  rdfs:label "J’aurais peur d’être laissé seul à la maison" .
+
+<http://purl.org/twc/poem/individual/itemStem/2739> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  rdfs:label "Plus rien n'est amusant" .
 
 <http://purl.org/twc/poem/individual/itemStem/274> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
@@ -9071,11 +11005,131 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/22>;
   rdfs:label "Mit barns hjerte begynder pludselig at banke for hurtigt uden nogen grund" .
 
+<http://purl.org/twc/poem/individual/itemStem/2740> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  rdfs:label "J'ai peur quand je dois passer un examen" .
+
+<http://purl.org/twc/poem/individual/itemStem/2741> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  rdfs:label "Je me sens inquiet (inquiète) quand je pense que quelqu’un est" .
+
+<http://purl.org/twc/poem/individual/itemStem/2742> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  rdfs:label "Je m’inquiète d’être loin de mes parents" .
+
+<http://purl.org/twc/poem/individual/itemStem/2743> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  rdfs:label "Je suis tracassé(e) par des mauvaises ou stupides pensées ou images dans mon esprit" .
+
+<http://purl.org/twc/poem/individual/itemStem/2744> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  rdfs:label "Je crains que quelque chose d'horrible n'arrive à un membre de ma famille" .
+
+<http://purl.org/twc/poem/individual/itemStem/2745> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  rdfs:label "J'ai soudain l'impression de ne plus pouvoir respirer alors qu'il n'y a aucune raison pour cela" .
+
+<http://purl.org/twc/poem/individual/itemStem/2746> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  rdfs:label "Je dois constamment vérifier que j’ai bien fait les choses (comme vérifier si la lumière est éteinte ou la porte fermée à clé)" .
+
+<http://purl.org/twc/poem/individual/itemStem/2747> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  rdfs:label "J'ai peur si je dois dormir seul(e)" .
+
+<http://purl.org/twc/poem/individual/itemStem/2748> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  rdfs:label "J’ai du mal à aller à l’école le matin car je me sens nerveux" .
+
+<http://purl.org/twc/poem/individual/itemStem/2749> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  rdfs:label "Je n’ai aucune énergie pour quoi que ce soit" .
+
 <http://purl.org/twc/poem/individual/itemStem/275> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
   rdfs:label "Mit barn føler, at han/hun ikke vil bevæge sig" .
+
+<http://purl.org/twc/poem/individual/itemStem/2750> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  rdfs:label "Je crains d’avoir l’air ridicule" .
+
+<http://purl.org/twc/poem/individual/itemStem/2751> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  rdfs:label "Je suis très fatigué(e)" .
+
+<http://purl.org/twc/poem/individual/itemStem/2752> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  rdfs:label "Je crains que de mauvaises choses ne m’arrivent" .
+
+<http://purl.org/twc/poem/individual/itemStem/2753> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  rdfs:label "Je n'arrive pas à chasser des pensées mauvaises ou idiotes de ma" .
+
+<http://purl.org/twc/poem/individual/itemStem/2754> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  rdfs:label "Lorsque j’ai un problème, mon cœur bat très vite" .
+
+<http://purl.org/twc/poem/individual/itemStem/2755> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  rdfs:label "Je n’arrive pas à penser clairement" .
+
+<http://purl.org/twc/poem/individual/itemStem/2756> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  rdfs:label "Je me mets soudainement à trembler ou à m'agiter alors qu'il n'y a aucune raison de le faire" .
+
+<http://purl.org/twc/poem/individual/itemStem/2757> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  rdfs:label "Je m’inquiète que de mauvaises choses ne m’arrivent" .
+
+<http://purl.org/twc/poem/individual/itemStem/2758> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  rdfs:label "Je me sens dévalorisé" .
+
+<http://purl.org/twc/poem/individual/itemStem/2759> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  rdfs:label "Je crains de faire des erreurs" .
 
 <http://purl.org/twc/poem/individual/itemStem/276> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
@@ -9083,11 +11137,89 @@ yapmak zorunda hisseder""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
   rdfs:label "Mit barn bekymrer sig om, at han/hun pludselig får en bange følelse når der er ikke noget at være bange for" .
 
+<http://purl.org/twc/poem/individual/itemStem/2760> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  rdfs:label "Je dois réfléchir à des pensées particulières (comme des nombres ou des mots) pour empêcher que de mauvaises choses ne se produisent" .
+
+<http://purl.org/twc/poem/individual/itemStem/2761> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  rdfs:label "J'ai peur d'être dans des endroits bondés (comme les centres commerciaux, le cinéma, les bus, les terrains de jeux très fréquentés)" .
+
+<http://purl.org/twc/poem/individual/itemStem/2762> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  rdfs:label "Tout d’un coup, j'ai vraiment peur sans aucune raison" .
+
+<http://purl.org/twc/poem/individual/itemStem/2763> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  rdfs:label "Je m’inquiète de ce qui va se passer" .
+
+<http://purl.org/twc/poem/individual/itemStem/2764> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  rdfs:label "J'ai soudainement des vertiges ou je m'évanouis alors que je n'ai aucune raison de le faire" .
+
+<http://purl.org/twc/poem/individual/itemStem/2765> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  rdfs:label "J'ai peur si je dois parler devant ma classe" .
+
+<http://purl.org/twc/poem/individual/itemStem/2766> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  rdfs:label "Mon cœur se met soudainement à battre trop vite sans raison" .
+
+<http://purl.org/twc/poem/individual/itemStem/2767> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  rdfs:label "Je n’ai pas envie de bouger" .
+
+<http://purl.org/twc/poem/individual/itemStem/2768> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  rdfs:label "Je m'inquiète de ressentir soudainement une sensation de peur" .
+
+<http://purl.org/twc/poem/individual/itemStem/2769> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  rdfs:label "J'ai peur de me ridiculiser devant les gens" .
+
 <http://purl.org/twc/poem/individual/itemStem/277> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/19>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/19>;
   rdfs:label "Mit barn bliver nødt til at gøre nogle ting igen og igen (som at vaske hænder, gøre rent eller sætte ting i en bestemt rækkefølge)" .
+
+<http://purl.org/twc/poem/individual/itemStem/2770> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  rdfs:label "Je dois faire certaines choses juste de la bonne manière pour éviter que de mauvaises choses ne se produisent" .
+
+<http://purl.org/twc/poem/individual/itemStem/2771> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  rdfs:label "J'aurais peur si je devais rester loin de chez moi pour la nuit" .
+
+<http://purl.org/twc/poem/individual/itemStem/2772> a vstoi:ItemStem .
+
+<http://purl.org/twc/poem/individual/itemStem/2773> a vstoi:ItemStem;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/37> .
 
 <http://purl.org/twc/poem/individual/itemStem/278> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
@@ -10085,8 +12217,8 @@ moest zijn""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/18>;
   rdfs:label "Lapseni täytyy tehdä joitain asioita juuri oikealla tavalla, ettei pahoja asioita tapahtuisi" .
 
-<http://purl.org/twc/poem/individual/itemStem/421> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FIN>;
+<http://purl.org/twc/poem/individual/itemStem/421> dc:language <http://www.fao.org/aims/aos/languagecode.owl#FIN>;
+  a vstoi:ItemStem;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/40>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/40>;
   rdfs:label "Lapseni on huolissaan iltaisin nukkumaan mennessään" .
@@ -11293,8 +13425,8 @@ moest zijn""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
   rdfs:label "Jeg bliver pludselig svimmel eller besvimer, uden nogen grund" .
 
-<http://purl.org/twc/poem/individual/itemStem/601> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
+<http://purl.org/twc/poem/individual/itemStem/601> dc:language <http://www.fao.org/aims/aos/languagecode.owl#DAN>;
+  a vstoi:ItemStem;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
   rdfs:label "Jeg tænker på døden" .
@@ -12493,8 +14625,8 @@ moest zijn""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
   rdfs:label "Je me sens sans valeur" .
 
-<http://purl.org/twc/poem/individual/itemStem/782> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+<http://purl.org/twc/poem/individual/itemStem/782> dc:language <http://www.fao.org/aims/aos/languagecode.owl#FRE>;
+  a vstoi:ItemStem;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
   rdfs:label "Je m’inquiète de faire des erreurs" .
@@ -12845,7 +14977,7 @@ moest zijn""" .
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#GRE>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/38>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
-  rdfs:label "Ξαφνικά και χωρίς λόγο αισθάνομαι πολύ τρομαγμένος/-η." .
+  rdfs:label "Ανησυχώ για το τι πρόκειται να συμβεί." .
 
 <http://purl.org/twc/poem/individual/itemStem/835> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#GRE>;
@@ -13717,8 +15849,8 @@ történését.""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
   rdfs:label "とても疲つかれている" .
 
-<http://purl.org/twc/poem/individual/itemStem/962> a vstoi:ItemStem;
-  dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+<http://purl.org/twc/poem/individual/itemStem/962> dc:language <http://www.fao.org/aims/aos/languagecode.owl#JPN>;
+  a vstoi:ItemStem;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
   rdfs:label "自分じぶんに悪わるいことが起お こるのではないかと心配しんぱいする" .

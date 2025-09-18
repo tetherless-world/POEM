@@ -14,7 +14,7 @@
   rdfs:label "Afraid of being in crowded places" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/10> a poem:ItemStemConcept;
-  rdfs:label "Feels nothing is much fun anymore, loss of pleasure or interest" .
+  rdfs:label "Feels nothing is much fun anymore" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/11> a poem:ItemStemConcept;
   rdfs:label "Feels restless" .
@@ -23,7 +23,7 @@
   rdfs:label "Feels sad or empty" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/13> a poem:ItemStemConcept;
-  rdfs:label "Feels tired a lot or low energy" .
+  rdfs:label "Tired a lot" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/14> a poem:ItemStemConcept;
   rdfs:label "Feels worried when someone angry" .
@@ -260,13 +260,13 @@
   rdfs:label "Sleep disturbance--too much or too little" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/86> a poem:ItemStemConcept;
-  rdfs:label "Tired or low energy" .
+  rdfs:label "Feeling tired or having little energy" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/87> a poem:ItemStemConcept;
   rdfs:label "Feeling bad about yourself, feeling like a failure" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/88> a poem:ItemStemConcept;
-  rdfs:label "Trouble concentrating" .
+  rdfs:label "Little interest or pleasure in doing things" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/89> a poem:ItemStemConcept;
   rdfs:label "Feeling either restless or fidgety" .
@@ -276,3 +276,30 @@
 
 <http://purl.org/twc/poem/individual/itemStemConcept/90> a poem:ItemStemConcept;
   rdfs:label "Thoughts of self harm or being better off dead" .
+
+<http://purl.org/twc/poem/individual/itemStemConcept/91> a poem:ItemStemConcept;
+  rdfs:label "Poor appetite or overeating" .
+
+<http://purl.org/twc/poem/individual/itemStemConcept/92> a poem:ItemStemConcept;
+  rdfs:label "Trouble concentrating on things" .
+
+<http://purl.org/twc/poem/individual/itemStemConcept/93> a poem:ItemStemConcept;
+  rdfs:label "Feeling nervous, anxious, or on edge" .
+
+<http://purl.org/twc/poem/individual/itemStemConcept/94> a poem:ItemStemConcept;
+  rdfs:label "Not being able to stop or control worrying" .
+
+<http://purl.org/twc/poem/individual/itemStemConcept/95> a poem:ItemStemConcept;
+  rdfs:label "Worrying too much about different things" .
+
+<http://purl.org/twc/poem/individual/itemStemConcept/96> a poem:ItemStemConcept;
+  rdfs:label "Trouble relaxing" .
+
+<http://purl.org/twc/poem/individual/itemStemConcept/97> a poem:ItemStemConcept;
+  rdfs:label "Being so restless that it is hard to sit still" .
+
+<http://purl.org/twc/poem/individual/itemStemConcept/98> a poem:ItemStemConcept;
+  rdfs:label "Becoming easily annoyed or irritable" .
+
+<http://purl.org/twc/poem/individual/itemStemConcept/99> a poem:ItemStemConcept;
+  rdfs:label "Feeling afraid, as if something awful might happen" .

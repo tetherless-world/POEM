@@ -1,0 +1,132 @@
+@prefix : <http://example.org/rules/> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix poem: <http://purl.org/twc/poem/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://w3id.org/rml/> .
+@prefix schema: <http://schema.org/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vstoi: <http://purl.org/twc/vstoi/> .
+
+<http://purl.org/twc/poem/individual/language/1> a poem:Language;
+  schema:countryCode "US";
+  skos:notation "EN" .
+
+<http://purl.org/twc/poem/individual/language/10> a poem:Language;
+  skos:notation "EL" .
+
+<http://purl.org/twc/poem/individual/language/11> a poem:Language;
+  skos:notation "HU" .
+
+<http://purl.org/twc/poem/individual/language/12> a poem:Language;
+  skos:notation "IS" .
+
+<http://purl.org/twc/poem/individual/language/13> a poem:Language;
+  schema:countryCode "JP";
+  skos:notation "JA" .
+
+<http://purl.org/twc/poem/individual/language/14> a poem:Language;
+  skos:notation "KO" .
+
+<http://purl.org/twc/poem/individual/language/15> a poem:Language;
+  skos:notation "LT" .
+
+<http://purl.org/twc/poem/individual/language/16> a poem:Language;
+  skos:notation "NO" .
+
+<http://purl.org/twc/poem/individual/language/17> a poem:Language;
+  skos:notation "FA" .
+
+<http://purl.org/twc/poem/individual/language/18> a poem:Language;
+  skos:notation "PL" .
+
+<http://purl.org/twc/poem/individual/language/19> a poem:Language;
+  schema:countryCode "BR";
+  skos:notation "PT" .
+
+<http://purl.org/twc/poem/individual/language/2> a poem:Language;
+  skos:notation "AR" .
+
+<http://purl.org/twc/poem/individual/language/20> a poem:Language;
+  skos:notation "SL" .
+
+<http://purl.org/twc/poem/individual/language/21> a poem:Language;
+  skos:notation "ES" .
+
+<http://purl.org/twc/poem/individual/language/22> a poem:Language;
+  skos:notation "SV" .
+
+<http://purl.org/twc/poem/individual/language/23> a poem:Language;
+  skos:notation "TR" .
+
+<http://purl.org/twc/poem/individual/language/24> a poem:Language;
+  skos:notation "UR" .
+
+<http://purl.org/twc/poem/individual/language/25> a poem:Language;
+  skos:notation "ZH" .
+
+<http://purl.org/twc/poem/individual/language/26> a poem:Language;
+  skos:notation "SW" .
+
+<http://purl.org/twc/poem/individual/language/27> a poem:Language;
+  skos:notation "SR" .
+
+<http://purl.org/twc/poem/individual/language/28> a poem:Language;
+  skos:notation "MS" .
+
+<http://purl.org/twc/poem/individual/language/29> a poem:Language;
+  skos:notation "BN" .
+
+<http://purl.org/twc/poem/individual/language/3> a poem:Language;
+  skos:notation "ZH" .
+
+<http://purl.org/twc/poem/individual/language/30> a poem:Language;
+  schema:countryCode "CA";
+  skos:notation "FR" .
+
+<http://purl.org/twc/poem/individual/language/31> a poem:Language;
+  skos:notation "HI" .
+
+<http://purl.org/twc/poem/individual/language/32> a poem:Language;
+  skos:notation "PA" .
+
+<http://purl.org/twc/poem/individual/language/33> a poem:Language;
+  skos:notation "RU" .
+
+<http://purl.org/twc/poem/individual/language/34> a poem:Language;
+  skos:notation "NY" .
+
+<http://purl.org/twc/poem/individual/language/35> a poem:Language;
+  skos:notation "HE" .
+
+<http://purl.org/twc/poem/individual/language/36> a poem:Language;
+  skos:notation "IT" .
+
+<http://purl.org/twc/poem/individual/language/37> a poem:Language;
+  skos:notation "TH" .
+
+<http://purl.org/twc/poem/individual/language/4> a poem:Language;
+  schema:countryCode "DK";
+  skos:notation "DA" .
+
+<http://purl.org/twc/poem/individual/language/5> a poem:Language;
+  schema:countryCode "NL";
+  skos:notation "NL" .
+
+<http://purl.org/twc/poem/individual/language/6> a poem:Language;
+  skos:notation "ET" .
+
+<http://purl.org/twc/poem/individual/language/7> a poem:Language;
+  skos:notation "FI" .
+
+<http://purl.org/twc/poem/individual/language/8> a poem:Language;
+  schema:countryCode "FR";
+  skos:notation "FR" .
+
+<http://purl.org/twc/poem/individual/language/9> a poem:Language;
+  schema:countryCode "DE";
+  skos:notation "DE" .
