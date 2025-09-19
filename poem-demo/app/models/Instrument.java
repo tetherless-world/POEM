@@ -22,6 +22,7 @@ public class Instrument extends models.Resource {
 
     private List<Component> components;
     private List<Item> items;
+    private Language language;
 
     public List<Item> getItems() {
         return items;
@@ -55,6 +56,7 @@ public class Instrument extends models.Resource {
             model.listObjectsOfProperty(r, RDFS.label).forEachRemaining(label -> {
                 instrument.setLabel(label.asLiteral().getString());
             });
+            instrument.setLanguage(Language.getByInstrument(r.getURI()));
             instruments.add(instrument);
         }
         return instruments;
@@ -69,6 +71,7 @@ public class Instrument extends models.Resource {
         instrument.setLabel(resource.getProperty(RDFS.label).getString());
         instrument.setItems(Item.getByInstrument(resource.getURI()));
         instrument.setComponents(Component.getByInstrument(resource.getURI()));
+        instrument.setLanguage(Language.getByInstrument(resource.getURI()));
         return instrument;
     }
 
@@ -140,5 +143,13 @@ public class Instrument extends models.Resource {
 
     public static List<Instrument> getTarget(Instrument instrument) {
         return getTarget(instrument.getUri());
+    }
+
+    public Language getLanguage() {
+        return language;
+    }
+
+    public void setLanguage(Language language) {
+        this.language = language;
     }
 }
