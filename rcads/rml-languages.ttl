@@ -27,7 +27,19 @@
 
 :TriplesMap rr:predicateObjectMap [
   rr:predicate rdf:type;
-  rr:objectMap [ rr:constant poem:Language ];
+  rr:objectMap [ rr:constant sio:SIO_000104 ];
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant sio:Language ];
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate rdfs:label;
+  rr:objectMap [
+    rml:reference "Language"
+  ]
 ].
 
 :TriplesMap rr:predicateObjectMap [
