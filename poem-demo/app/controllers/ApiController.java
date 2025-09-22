@@ -47,11 +47,13 @@ public class ApiController extends Controller {
             ArrayNode questionnairesJson = Json.newArray();
             
             for (Instrument questionnaire : questionnaires) {
-                ObjectNode questionnaireNode = Json.newObject();
-                questionnaireNode.put("value", questionnaire.getUri());
-                questionnaireNode.put("label", questionnaire.getLabel());
-                questionnaireNode.put("language", questionnaire.getLanguage() != null ? questionnaire.getLanguage().getBCP47() : null);
-                questionnairesJson.add(questionnaireNode);
+                if (questionnaire.getDeprecated() == 0) {
+                    ObjectNode questionnaireNode = Json.newObject();
+                    questionnaireNode.put("value", questionnaire.getUri());
+                    questionnaireNode.put("label", questionnaire.getLabel());
+                    questionnaireNode.put("language", questionnaire.getLanguage() != null ? questionnaire.getLanguage().getBCP47() : null);
+                    questionnairesJson.add(questionnaireNode);
+                }
             }
             
             return ok(questionnairesJson);

@@ -15,6 +15,7 @@ import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdf.model.ResourceFactory;
 import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.RDFS;
+import org.apache.jena.vocabulary.OWL;
 
 import utils.POEMModel;
 
@@ -23,6 +24,7 @@ public class Instrument extends models.Resource {
     private List<Component> components;
     private List<Item> items;
     private Language language;
+    private int deprecated;
 
     public List<Item> getItems() {
         return items;
@@ -57,6 +59,11 @@ public class Instrument extends models.Resource {
                 instrument.setLabel(label.asLiteral().getString());
             });
             instrument.setLanguage(Language.getByInstrument(r.getURI()));
+             if (r.getProperty(OWL.deprecated) != null) {
+                 instrument.setDeprecated(r.getProperty(OWL.deprecated).getInt());
+             } else {
+                 instrument.setDeprecated(0);
+             }
             instruments.add(instrument);
         }
         return instruments;
@@ -72,6 +79,11 @@ public class Instrument extends models.Resource {
         instrument.setItems(Item.getByInstrument(resource.getURI()));
         instrument.setComponents(Component.getByInstrument(resource.getURI()));
         instrument.setLanguage(Language.getByInstrument(resource.getURI()));
+        if (resource.getProperty(OWL.deprecated) != null) {
+            instrument.setDeprecated(resource.getProperty(OWL.deprecated).getInt());
+        } else {
+            instrument.setDeprecated(0);
+        }
         return instrument;
     }
 
@@ -151,5 +163,13 @@ public class Instrument extends models.Resource {
 
     public void setLanguage(Language language) {
         this.language = language;
+    }
+
+    public int getDeprecated() {
+        return deprecated;
+    }
+
+    public void setDeprecated(int deprecated) {
+        this.deprecated = deprecated;
     }
 }
