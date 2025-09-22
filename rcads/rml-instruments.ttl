@@ -4,6 +4,8 @@
 @prefix csvw: <http://www.w3.org/ns/csvw#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix : <http://example.org/rules/> .
 @prefix schema: <http://schema.org/> .
 @prefix dbo: <http://dbpedia.org/ontology/> .
@@ -97,6 +99,14 @@
   rr:predicate fhir:code;
   rr:objectMap [
     rml:reference "InstrumentName"
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate owl:deprecated;
+  rr:objectMap [
+    rml:reference "Deprecated";
+    rr:datatype xsd:integer
   ]
 ].
 
