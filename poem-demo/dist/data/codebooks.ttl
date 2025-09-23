@@ -254,6 +254,11 @@
     <http://purl.org/twc/poem/individual/responseOption/129>, <http://purl.org/twc/poem/individual/responseOption/131>;
   rdfs:label "4.0-item-Frequency-Punjabi" .
 
+<http://purl.org/twc/poem/individual/codebook/34> a vstoi:Codebook;
+  sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  rdfs:label "4.0-item-Frequency-Mongolian" .
+
 <http://purl.org/twc/poem/individual/codebook/4> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
   sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/13>, <http://purl.org/twc/poem/individual/responseOption/14>,

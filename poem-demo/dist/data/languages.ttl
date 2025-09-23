@@ -140,6 +140,10 @@
   rdfs:label "Thai";
   skos:notation "TH" .
 
+<http://purl.org/twc/poem/individual/language/38> a sio:Language, sio:SIO_000104;
+  rdfs:label "Mongolian";
+  skos:notation "MN" .
+
 <http://purl.org/twc/poem/individual/language/4> a sio:Language, sio:SIO_000104;
   schema:countryCode "DK";
   rdfs:label "Danish";
