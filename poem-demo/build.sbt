@@ -31,7 +31,7 @@ libraryDependencies += "org.webjars" % "jquery-form" % "4.2.2"
 libraryDependencies += "org.webjars.npm" % "choices.js" % "11.1.0"
 
 // https://mvnrepository.com/artifact/com.google.code.gson/gson
-libraryDependencies += "com.google.code.gson" % "gson" % "2.13.1"
+libraryDependencies += "com.google.code.gson" % "gson" % "2.13.2"
 
 // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
 libraryDependencies += "com.fasterxml.jackson.core" % "jackson-databind" % "2.20.0"
