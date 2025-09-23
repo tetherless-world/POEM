@@ -14,19 +14,19 @@
 <od:index index-name="InstrumentItemID" index-key="InstrumentItemID " primary="no" unique="no" clustered="no" order="asc"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAABt++PEt1UrTIHvHeFabfyIAAAAAB7mpPUyaOZAAAAAAAAAAAAyADMA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAABt++PEt1UrTIHvHeFabfyIAAAAABZwHug1auZAAAAAAAAAAAAyADMA
 XwBJAG4AcwB0AHIAdQBtAGUAbgB0AEkAdABlAG0ATQBhAHAAAAAAAAAALilXLLd0
 dUWHAu6uxK9qEwcAAABt++PEt1UrTIHvHeFabfyISQBuAHMAdAByAHUAbQBlAG4A
-dABJAHQAZQBtAEkARAAAAAAAAADqDec7QN1lTaMTX+lsaExNAAAAAC/qWWvWaOZA
+dABJAHQAZQBtAEkARAAAAAAAAADqDec7QN1lTaMTX+lsaExNAAAAAAiwUn02auZA
 AAAAAAAAAAAxADAAXwBJAG4AcwB0AHIAdQBtAGUAbgB0AHMAAAAAAAAAIuaO4wwe
 h0+9QQUD8n4U0AcAAADqDec7QN1lTaMTX+lsaExNSQBuAHMAdAByAHUAbQBlAG4A
 dABJAEQAAAAAAAAAcFoijMUfgUG7HP9NhzQyVQcAAADqDec7QN1lTaMTX+lsaExN
 SQBuAHMAdAByAHUAbQBlAG4AdABOAGEAbQBlAAAAAAAAANzkz/MwVRRCmzKSSok7
 67IHAAAAbfvjxLdVK0yB7x3hWm38iEkAbgBzAHQAcgB1AG0AZQBuAHQASQBEAAAA
 AAAAALtaUIdyzBpBrEmimAwkRncAAAAAcd0xa9Zo5kAAAAAAAAAAADMAMABfAEMA
-bwBkAGUAYgBvAG8AawBzAAAAAAAAAOhn87EMxK9Apfx+LZFuujgAAAAAbCKpuTRp
+bwBkAGUAYgBvAG8AawBzAAAAAAAAAOhn87EMxK9Apfx+LZFuujgAAAAADnWUgrBr
 5kAAAAAAAAAAADIAMQBfAEkAdABlAG0AUwB0AGUAbQBzAAAAAAAAAPjChbmClkJD
-kKSMRHdxN6UAAAAAPoDjtjRp5kAAAAAAAAAAADIAMABfAEkAdABlAG0AcwAAAAAA
+kKSMRHdxN6UAAAAA8XN9rPZq5kAAAAAAAAAAADIAMABfAEkAdABlAG0AcwAAAAAA
 AAA1WpXYsGrmTaYf8til3KldBwAAAPjChbmClkJDkKSMRHdxN6VJAHQAZQBtAEkA
 RAAAAAAAAACiZ79Zbf9hT5qZAlT6KPz7BwAAAPjChbmClkJDkKSMRHdxN6VJAHQA
 ZQBtAFMAdABlAG0ASQBEAAAAAAAAAB+LCQJwG2FMtrii4alZcGMHAAAA6GfzsQzE
@@ -113,7 +113,7 @@ AAAAAAAA
 <xsd:element name="ItemID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="ColumnWidth" type="3" value="9615"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="14100"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="3"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>

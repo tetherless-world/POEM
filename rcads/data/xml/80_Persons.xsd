@@ -17,14 +17,15 @@
 <od:index index-name="PrimaryKey" index-key="PersonID " primary="yes" unique="yes" clustered="no" order="asc"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAADXhNtL+ICHT5Slp+p4dN6iAAAAABLA4R2VYOZAAAAAAAAAAAA4ADAA
-XwBQAGUAcgBzAG8AbgBzADEAAAAAAAAA7JubWekjAUeCInoxfpJ8dwcAAADXhNtL
-+ICHT5Slp+p4dN6iUABlAHIAcwBvAG4ASQBEAAAAAAAAACY14tl8Rl5CtpDW4GR0
-wg8HAAAA14TbS/iAh0+UpafqeHTeolAAZQByAHMAbwBuAE4AYQBtAGUAAAAAAAAA
-1JSWgbXUSk2TFS6L0AQJDgcAAADXhNtL+ICHT5Slp+p4dN6iTwBSAEMASQBEAAAA
-AAAAAFnrpVUidhhHk/H0yl90ONkHAAAA14TbS/iAh0+UpafqeHTeokEAbQBiAGkA
-ZwB1AG8AdQBzAEkARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAUAAAAAAAAA
-AAAAAAAAAAAAAA==
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAADXhNtL+ICHT5Slp+p4dN6iAAAAAN4a/+iVYOZAAAAAAAAAAAA4ADAA
+XwBQAGUAcgBzAG8AbgBzAAAAAAAAAInd/C3/MTpCvM9GQwbjVdoAAAAA+u3r8JVg
+5kAAAAAAAAAAADgAMgBfAEEAZwBlAG4AdABQAGUAcgBzAG8AbgBNAGEAcAAAAAAA
+AADsm5tZ6SMBR4IiejF+knx3BwAAANeE20v4gIdPlKWn6nh03qJQAGUAcgBzAG8A
+bgBJAEQAAAAAAAAAJjXi2XxGXkK2kNbgZHTCDwcAAADXhNtL+ICHT5Slp+p4dN6i
+UABlAHIAcwBvAG4ATgBhAG0AZQAAAAAAAADUlJaBtdRKTZMVLovQBAkOBwAAANeE
+20v4gIdPlKWn6nh03qJPAFIAQwBJAEQAAAAAAAAAWeulVSJ2GEeT8fTKX3Q42QcA
+AADXhNtL+ICHT5Slp+p4dN6iQQBtAGIAaQBnAHUAbwB1AHMASQBEAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 "/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
 <od:tableProperty name="DisplayViewsOnSharePointSite" type="2" value="1"/>
@@ -52,7 +53,7 @@ AAAAAAAAAAAAAA==
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="1"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="TextAlign" type="2" value="0"/>
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>

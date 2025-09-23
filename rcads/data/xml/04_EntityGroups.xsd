@@ -15,11 +15,11 @@
 <od:index index-name="PrimaryKey" index-key="EntityMappingID " primary="yes" unique="yes" clustered="no" order="asc"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAD9wMSij8ZbRZqxpAuCpdLzAAAAAAaYqhryYeZAAAAAAAAAAAAwADQA
-XwBFAG4AdABpAHQAeQBHAHIAbwB1AHAAcwAAAAAAAADff20Yj70GQrGs8e+F3mM9
-BwAAAP3AxKKPxltFmrGkC4Kl0vNFAG4AdABpAHQAeQBNAGEAcABwAGkAbgBnAEkA
-RAAAAAAAAACP0cBV6LvrSL4AbsfBQLOyBwAAAP3AxKKPxltFmrGkC4Kl0vNFAG4A
-dABpAHQAeQBMAGkAcwB0AE4AYQBtAGUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAD9wMSij8ZbRZqxpAuCpdLzAAAAADv1qhryYeZAAAAAAAAAAAAwADQA
+XwBFAG4AdABpAHQAeQBHAHIAbwB1AHAAcwAAAAAAAACP0cBV6LvrSL4AbsfBQLOy
+BwAAAP3AxKKPxltFmrGkC4Kl0vNFAG4AdABpAHQAeQBMAGkAcwB0AE4AYQBtAGUA
+AAAAAAAA339tGI+9BkKxrPHvhd5jPQcAAAD9wMSij8ZbRZqxpAuCpdLzRQBuAHQA
+aQB0AHkATQBhAHAAcABpAG4AZwBJAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwA
 AAAFAAAAAAAAAAAAAAAAAAAAAAA=
 "/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
@@ -40,6 +40,7 @@ AAAFAAAAAAAAAAAAAAAAAAAAAAA=
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
 <od:tableProperty name="GUID" type="9" value="/cDEoo/GW0WasaQLgqXS8w==
 "/>
+<od:tableProperty name="Filter" type="12" value="([04_EntityGroups].[EntityListName] Like &quot;*FR*&quot;)"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
@@ -48,7 +49,7 @@ AAAFAAAAAAAAAAAAAAAAAAAAAAA=
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="1965"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="1"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="TextAlign" type="2" value="0"/>
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>

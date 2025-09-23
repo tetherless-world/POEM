@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="04_EntityGroups.xsd" generated="2025-08-28T15:30:56">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="04_EntityGroups.xsd" generated="2025-09-22T19:01:12">
+<_x0030_4_EntityGroups>
+<EntityMappingID>141</EntityMappingID>
+<EntityListName>[3] RCADS-47-Y-FR-FR-1, RCADS-47-CG-FR-1, RCADS-47-CG-FR-2</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>142</EntityMappingID>
+<EntityListName>RCADS-47-CG-FR-3</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>143</EntityMappingID>
+<EntityListName>RCADS-47-CG-FR-1</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>144</EntityMappingID>
+<EntityListName>RCADS-25-Y-KO</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>145</EntityMappingID>
+<EntityListName>RCADS-25-CG-KO</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>146</EntityMappingID>
+<EntityListName>[2] RCADS-47-Y-KO, RCADS-25-Y-EN</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>147</EntityMappingID>
+<EntityListName>[2] RCADS-47-CG-KO, RCADS-25-CG-EN</EntityListName>
+</_x0030_4_EntityGroups>
 <_x0030_4_EntityGroups>
 <EntityMappingID>62</EntityMappingID>
 <EntityListName>[2] RCADS-47-Y-JA-2, RCADS-25-Y-EN</EntityListName>
@@ -142,7 +170,7 @@
 </_x0030_4_EntityGroups>
 <_x0030_4_EntityGroups>
 <EntityMappingID>8</EntityMappingID>
-<EntityListName>RCADS-47-Y-FR-1</EntityListName>
+<EntityListName>RCADS-47-Y-FR-FR-1</EntityListName>
 </_x0030_4_EntityGroups>
 <_x0030_4_EntityGroups>
 <EntityMappingID>9</EntityMappingID>
@@ -258,11 +286,11 @@
 </_x0030_4_EntityGroups>
 <_x0030_4_EntityGroups>
 <EntityMappingID>37</EntityMappingID>
-<EntityListName>[2] RCADS-47-Y-FR-1, RCADS-47-Y-EN</EntityListName>
+<EntityListName>[2] RCADS-47-Y-FR-FR-1, RCADS-47-Y-EN</EntityListName>
 </_x0030_4_EntityGroups>
 <_x0030_4_EntityGroups>
 <EntityMappingID>38</EntityMappingID>
-<EntityListName>RCADS-47-Y-FR-2</EntityListName>
+<EntityListName>RCADS-47-Y-FR-FR-2</EntityListName>
 </_x0030_4_EntityGroups>
 <_x0030_4_EntityGroups>
 <EntityMappingID>39</EntityMappingID>
@@ -449,6 +477,22 @@
 <EntityListName>[2] RCADS-47-Y-FI, RCADS-25-Y-EN</EntityListName>
 </_x0030_4_EntityGroups>
 <_x0030_4_EntityGroups>
+<EntityMappingID>137</EntityMappingID>
+<EntityListName>[2] RCADS-47-Y-FR-FR-2, RCADS-25-Y-EN</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>138</EntityMappingID>
+<EntityListName>RCADS-25-Y-FR-FR-2</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>139</EntityMappingID>
+<EntityListName>[2] RCADS-47-FR-FR-1, RCADS-47-CG-EN</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>140</EntityMappingID>
+<EntityListName>RCADS-47-CG-FR-2</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
 <EntityMappingID>118</EntityMappingID>
 <EntityListName>[2] RCADS-47-CG-FI, RCADS-25-CG-EN</EntityListName>
 </_x0030_4_EntityGroups>
@@ -507,5 +551,21 @@
 <_x0030_4_EntityGroups>
 <EntityMappingID>132</EntityMappingID>
 <EntityListName>RCADS-47-CG-KO</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>133</EntityMappingID>
+<EntityListName>[2] RCADS-47-Y-FR-FR-1, RCADS-25-Y-EN</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>134</EntityMappingID>
+<EntityListName>RCADS-25-Y-FR-FR-1</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>135</EntityMappingID>
+<EntityListName>[2] RCADS-47-FR-FR-1, RCADS-25-Y-EN</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>136</EntityMappingID>
+<EntityListName>RCADS-25-Y-FR-CA-2</EntityListName>
 </_x0030_4_EntityGroups>
 </dataroot>

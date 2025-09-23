@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="10_Instruments.xsd" generated="2025-09-05T11:51:46">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="10_Instruments.xsd" generated="2025-09-22T19:01:42">
 <_x0031_0_Instruments>
 <InstrumentID>1</InstrumentID>
 <InstrumentName>RCADS-47-Y-EN</InstrumentName>
@@ -110,35 +110,37 @@
 </_x0031_0_Instruments>
 <_x0031_0_Instruments>
 <InstrumentID>13</InstrumentID>
-<InstrumentName>RCADS-47-Y-FR-1</InstrumentName>
+<InstrumentName>RCADS-47-Y-FR-FR-1</InstrumentName>
 <InstrumentFamily>1</InstrumentFamily>
 <Language>8</Language>
 <Informant>1</Informant>
+<Annotation>OG Bouvard version</Annotation>
 <Deprecated>0</Deprecated>
 <Authorized>0</Authorized>
 </_x0031_0_Instruments>
 <_x0031_0_Instruments>
 <InstrumentID>14</InstrumentID>
-<InstrumentName>RCADS-47-CG-FR-CA</InstrumentName>
+<InstrumentName>RCADS-47-CG-FR-CA-1</InstrumentName>
 <InstrumentFamily>1</InstrumentFamily>
-<Language>8</Language>
+<Language>30</Language>
 <Informant>2</Informant>
-<Annotation>Canadian French; no items</Annotation>
+<Annotation>Chantal Caron et al 2018</Annotation>
 <Deprecated>1</Deprecated>
 <Authorized>0</Authorized>
 </_x0031_0_Instruments>
 <_x0031_0_Instruments>
 <InstrumentID>15</InstrumentID>
-<InstrumentName>RCADS-25-Y-FR-1</InstrumentName>
+<InstrumentName>RCADS-25-Y-FR-FR-1</InstrumentName>
 <InstrumentFamily>1</InstrumentFamily>
 <Language>8</Language>
 <Informant>1</Informant>
+<Annotation>RCADS team generated</Annotation>
 <Deprecated>0</Deprecated>
 <Authorized>0</Authorized>
 </_x0031_0_Instruments>
 <_x0031_0_Instruments>
 <InstrumentID>16</InstrumentID>
-<InstrumentName>RCADS-25-CG-FR-FR</InstrumentName>
+<InstrumentName>RCADS-25-CG-FR-FR-1</InstrumentName>
 <InstrumentFamily>1</InstrumentFamily>
 <Language>8</Language>
 <Informant>2</Informant>
@@ -696,8 +698,7 @@
 <InstrumentFamily>1</InstrumentFamily>
 <Language>19</Language>
 <Informant>1</Informant>
-<Annotation>No items</Annotation>
-<Deprecated>1</Deprecated>
+<Deprecated>0</Deprecated>
 <Authorized>0</Authorized>
 </_x0031_0_Instruments>
 <_x0031_0_Instruments>
@@ -717,7 +718,7 @@
 <Language>19</Language>
 <Informant>1</Informant>
 <Annotation>No items</Annotation>
-<Deprecated>1</Deprecated>
+<Deprecated>0</Deprecated>
 <Authorized>0</Authorized>
 </_x0031_0_Instruments>
 <_x0031_0_Instruments>
@@ -844,7 +845,7 @@
 <InstrumentFamily>1</InstrumentFamily>
 <Language>24</Language>
 <Informant>1</Informant>
-<Annotation>No items</Annotation>
+<Annotation>incorrect item numbering after 29, missing item stem concept for item 35</Annotation>
 <Deprecated>1</Deprecated>
 <Authorized>0</Authorized>
 </_x0031_0_Instruments>
@@ -854,8 +855,7 @@
 <InstrumentFamily>1</InstrumentFamily>
 <Language>24</Language>
 <Informant>2</Informant>
-<Annotation>No items</Annotation>
-<Deprecated>1</Deprecated>
+<Deprecated>0</Deprecated>
 <Authorized>0</Authorized>
 </_x0031_0_Instruments>
 <_x0031_0_Instruments>
@@ -864,8 +864,7 @@
 <InstrumentFamily>1</InstrumentFamily>
 <Language>24</Language>
 <Informant>1</Informant>
-<Annotation>No items</Annotation>
-<Deprecated>1</Deprecated>
+<Deprecated>0</Deprecated>
 <Authorized>0</Authorized>
 </_x0031_0_Instruments>
 <_x0031_0_Instruments>
@@ -874,8 +873,7 @@
 <InstrumentFamily>1</InstrumentFamily>
 <Language>24</Language>
 <Informant>2</Informant>
-<Annotation>No items</Annotation>
-<Deprecated>1</Deprecated>
+<Deprecated>0</Deprecated>
 <Authorized>0</Authorized>
 </_x0031_0_Instruments>
 <_x0031_0_Instruments>
@@ -1036,7 +1034,7 @@
 <Language>8</Language>
 <Informant>1</Informant>
 <Annotation>Boustani update</Annotation>
-<Deprecated>0</Deprecated>
+<Deprecated>1</Deprecated>
 <Authorized>0</Authorized>
 </_x0031_0_Instruments>
 <_x0031_0_Instruments>
@@ -1329,21 +1327,21 @@
 </_x0031_0_Instruments>
 <_x0031_0_Instruments>
 <InstrumentID>144</InstrumentID>
-<InstrumentName>RCADS-47-CG-FR-FR-1</InstrumentName>
+<InstrumentName>RCADS-47-CG-FR-1</InstrumentName>
 <InstrumentFamily>1</InstrumentFamily>
-<Language>30</Language>
+<Language>8</Language>
 <Informant>2</Informant>
-<Annotation>France French, we think</Annotation>
+<Annotation>Dayer 2023</Annotation>
 <Deprecated>1</Deprecated>
 <Authorized>0</Authorized>
 </_x0031_0_Instruments>
 <_x0031_0_Instruments>
 <InstrumentID>145</InstrumentID>
-<InstrumentName>RCADS-47-CG-FR-FR-2</InstrumentName>
+<InstrumentName>RCADS-47-CG-FR-2</InstrumentName>
 <InstrumentFamily>1</InstrumentFamily>
-<Language>30</Language>
+<Language>8</Language>
 <Informant>2</Informant>
-<Annotation>Boustani update - France French, we think</Annotation>
+<Annotation>Unauthorized version from NHS (UK)</Annotation>
 <Deprecated>1</Deprecated>
 <Authorized>0</Authorized>
 </_x0031_0_Instruments>
@@ -1351,7 +1349,7 @@
 <InstrumentID>146</InstrumentID>
 <InstrumentName>RCADS-25-Y-FR-FR-2</InstrumentName>
 <InstrumentFamily>1</InstrumentFamily>
-<Language>30</Language>
+<Language>8</Language>
 <Informant>1</Informant>
 <Annotation>Boustani update</Annotation>
 <Deprecated>1</Deprecated>
@@ -1386,5 +1384,45 @@
 <Annotation>No items</Annotation>
 <Deprecated>1</Deprecated>
 <Authorized>1</Authorized>
+</_x0031_0_Instruments>
+<_x0031_0_Instruments>
+<InstrumentID>150</InstrumentID>
+<InstrumentName>RCADS-25-Y-FR-CA-1</InstrumentName>
+<InstrumentFamily>1</InstrumentFamily>
+<Language>30</Language>
+<Informant>1</Informant>
+<Annotation>2022</Annotation>
+<Deprecated>1</Deprecated>
+<Authorized>0</Authorized>
+</_x0031_0_Instruments>
+<_x0031_0_Instruments>
+<InstrumentID>151</InstrumentID>
+<InstrumentName>RCADS-47-CG-FR-3</InstrumentName>
+<InstrumentFamily>1</InstrumentFamily>
+<Language>8</Language>
+<Informant>2</Informant>
+<Annotation>Boustani update, combined versions 1 and 2 while consulting youth version 1</Annotation>
+<Deprecated>1</Deprecated>
+<Authorized>0</Authorized>
+</_x0031_0_Instruments>
+<_x0031_0_Instruments>
+<InstrumentID>152</InstrumentID>
+<InstrumentName>RCADS-25-Y-FR-CA-2</InstrumentName>
+<InstrumentFamily>1</InstrumentFamily>
+<Language>30</Language>
+<Informant>1</Informant>
+<Annotation>No items; Unauthorized Canadian changes</Annotation>
+<Deprecated>1</Deprecated>
+<Authorized>0</Authorized>
+</_x0031_0_Instruments>
+<_x0031_0_Instruments>
+<InstrumentID>153</InstrumentID>
+<InstrumentName>RCADS-25-CG-FR-CA-1</InstrumentName>
+<InstrumentFamily>1</InstrumentFamily>
+<Language>30</Language>
+<Informant>2</Informant>
+<Annotation>2022</Annotation>
+<Deprecated>1</Deprecated>
+<Authorized>0</Authorized>
 </_x0031_0_Instruments>
 </dataroot>

@@ -17,7 +17,7 @@
 <od:index index-name="UsedEntityID" index-key="UsedEntityID " primary="no" unique="no" clustered="no" order="asc"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAACY54/a8F7wRY6fFmYVqa/SAAAAAIAnowbyYeZAAAAAAAAAAAAwADMA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAACY54/a8F7wRY6fFmYVqa/SAAAAAFTXKug1auZAAAAAAAAAAAAwADMA
 XwBBAGMAdABpAHYAaQB0AGkAZQBzAAAAAAAAAP3PHxGb0IhJutS2MS5FUMMHAAAA
 mOeP2vBe8EWOnxZmFamv0kEAYwB0AGkAdgBpAHQAeQBJAEQAAAAAAAAA54t0Y6qn
 6EqiAsESQiPT9AcAAACY54/a8F7wRY6fFmYVqa/SQQBjAHQAaQB2AGkAdAB5AE4A
@@ -34,7 +34,7 @@ E+TLF9hCkzDWYDg5bohJAG4AcwB0AHIAdQBtAGUAbgB0AEUAbgB0AGkAdAB5AFQA
 eQBwAGUASQBEAAAAAAAAAH3WaldCAApHpu0osMbSbrQHAAAAHeoT5MsX2EKTMNZg
 ODluiEkAbgBzAHQAcgB1AG0AZQBuAHQARQBuAHQAaQB0AHkAVAB5AHAAZQAAAAAA
 AACpo29bGMWHRLztuIA8s0DHBwAAAJjnj9rwXvBFjp8WZhWpr9JFAG4AdABpAHQA
-eQBUAHkAcABlAAAAAAAAAP3AxKKPxltFmrGkC4Kl0vMAAAAAO/WqGvJh5kAAAAAA
+eQBUAHkAcABlAAAAAAAAAP3AxKKPxltFmrGkC4Kl0vMAAAAAGctD6DVq5kAAAAAA
 AAAAADAANABfAEUAbgB0AGkAdAB5AEcAcgBvAHUAcABzAAAAAAAAAN9/bRiPvQZC
 sazx74XeYz0HAAAA/cDEoo/GW0WasaQLgqXS80UAbgB0AGkAdAB5AE0AYQBwAHAA
 aQBuAGcASQBEAAAAAAAAAI/RwFXou+tIvgBux8FAs7IHAAAA/cDEoo/GW0WasaQL
@@ -65,6 +65,7 @@ AAAAAAAAAAAAAAAAAAA=
 <od:tableProperty name="LinkMasterFields" type="10" value="ActivityID"/>
 <od:tableProperty name="GUID" type="9" value="mOeP2vBe8EWOnxZmFamv0g==
 "/>
+<od:tableProperty name="Filter" type="12" value="([Lookup_GenEntityID].[EntityListName] Like &quot;*FR*&quot;)"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
@@ -87,7 +88,7 @@ AAAAAAAAAAAAAAAAAAA=
 <xsd:element name="ActivityName" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="ColumnWidth" type="3" value="8360"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="9650"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Description" type="10" value="Human readable descripitive field"/>
@@ -227,7 +228,7 @@ AAAAAAAAAAAAAAAAAAA=
 <xsd:element name="GenEntityID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="ColumnWidth" type="3" value="3310"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="3270"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Description" type="10" value="What is the ID of the entity produced? (also represents a &quot;list&quot; of elements, but can only have one item in list)"/>

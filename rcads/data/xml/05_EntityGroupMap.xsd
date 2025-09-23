@@ -17,16 +17,16 @@
 <od:index index-name="PrimaryKey" index-key="EntityGroupMapID " primary="yes" unique="yes" clustered="no" order="asc"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAA/nhIRPS7SQZSDUqaiNj2fAAAAANp3HiLyYeZAAAAAAAAAAAAwADUA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAA/nhIRPS7SQZSDUqaiNj2fAAAAACH0HiLyYeZAAAAAAAAAAAAwADUA
 XwBFAG4AdABpAHQAeQBHAHIAbwB1AHAATQBhAHAAAAAAAAAAyqbc8ONyREWnEZ+l
 dB1GFQcAAAA/nhIRPS7SQZSDUqaiNj2fRQBuAHQAaQB0AHkARwByAG8AdQBwAE0A
-YQBwAEkARAAAAAAAAAD9wMSij8ZbRZqxpAuCpdLzAAAAADv1qhryYeZAAAAAAAAA
+YQBwAEkARAAAAAAAAAD9wMSij8ZbRZqxpAuCpdLzAAAAABnLQ+g1auZAAAAAAAAA
 AAAwADQAXwBFAG4AdABpAHQAeQBHAHIAbwB1AHAAcwAAAAAAAADff20Yj70GQrGs
 8e+F3mM9BwAAAP3AxKKPxltFmrGkC4Kl0vNFAG4AdABpAHQAeQBNAGEAcABwAGkA
 bgBnAEkARAAAAAAAAACP0cBV6LvrSL4AbsfBQLOyBwAAAP3AxKKPxltFmrGkC4Kl
 0vNFAG4AdABpAHQAeQBMAGkAcwB0AE4AYQBtAGUAAAAAAAAAA44ZiTiHX0+4iDAf
 zZR/4gcAAAA/nhIRPS7SQZSDUqaiNj2fRQBuAHQAaQB0AHkARwByAG8AdQBwAEkA
-RAAAAAAAAADqDec7QN1lTaMTX+lsaExNAAAAAA8ti0eVYOZAAAAAAAAAAAAxADAA
+RAAAAAAAAADqDec7QN1lTaMTX+lsaExNAAAAABpC4+Y1auZAAAAAAAAAAAAxADAA
 XwBJAG4AcwB0AHIAdQBtAGUAbgB0AHMAAAAAAAAAIuaO4wweh0+9QQUD8n4U0AcA
 AADqDec7QN1lTaMTX+lsaExNSQBuAHMAdAByAHUAbQBlAG4AdABJAEQAAAAAAAAA
 cFoijMUfgUG7HP9NhzQyVQcAAADqDec7QN1lTaMTX+lsaExNSQBuAHMAdAByAHUA
@@ -52,6 +52,7 @@ DAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
 <od:tableProperty name="GUID" type="9" value="P54SET0u0kGUg1KmojY9nw==
 "/>
+<od:tableProperty name="Filter" type="12" value="([Lookup_EntityGroupID].[EntityListName] Like &quot;*FR*&quot;)"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
@@ -60,7 +61,7 @@ DAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="1"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="TextAlign" type="2" value="0"/>
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
@@ -75,7 +76,7 @@ DAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <xsd:element name="EntityGroupID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="ColumnWidth" type="3" value="6735"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="8890"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>

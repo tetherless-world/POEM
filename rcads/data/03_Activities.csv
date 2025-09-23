@@ -1,9 +1,0 @@
-ActivityID,ActivityName,AssociatedAgent,ActivityDate,ActivityMethod,EntityType,UsedEntityID,UsedEntityID2,GenEntityID,GenEntityID2
-1,Generated the RCADS-47-Y,Chorpita & Spence,26-May-99,,Instrument,,,RCADS-47-Y-EN,1
-2,Generated the RCADS-47-CG-EN using RCADS-47-Y-EN,Ebesutani et al. 2010,01-Feb-10,,Instrument,RCADS-47-Y-EN,1,RCADS-47-CG-EN,2
-3,Generated the RCADS-25-Y-EN using RCADS-47-Y-EN,Ebesutani et al. 2012,13-Feb-12,,Instrument,RCADS-47-Y-EN,1,RCADS-25-Y-EN,3
-4,Generated the RCADS-47-CG-ES using RCADS-47-Y-EN,,,"Following the translation procedures recommended by Brislin (1970), the two Spanish translations of the RCADS-P were then compared with each other and to the original English version of the RCADS-P, and inspected for differences.",Instrument,RCADS-47-Y-EN,1,RCADS-47-CG-ES,18
-5,Generated MTT-35-CG-EN-3 (provider) using MTT-35-CG-EN-1,Caplan NIH R16 Early Intervention Team,11-Jul-24,,Instrument,MTT-35-CG-EN-1,98,MTT-35-CG-EN-3,105
-6,Made German RCADS-Y 25 from German Y 47 (items) and RCADS EN 25 (order),RCADS Team,01-Sep-24,,Instrument,RCADS-25-Y-EN,3,RCADS-25-Y-DE,7
-6,Made German RCADS-Y 25 from German Y 47 (items) and RCADS EN 25 (order),RCADS Team,01-Sep-24,,Instrument,RCADS-47-Y-DE,5,RCADS-25-Y-DE,7
-7,Generated MTT-35-CG-EN-2 (therapist) using MTT-35-CG-EN-1,Chorpita & Becker,,,Instrument,MTT-35-CG-EN-1,98,MTT-35-CG-EN-2,102
