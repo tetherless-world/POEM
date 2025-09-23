@@ -13,9 +13,9 @@
 
 :TriplesMap a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "data/xml/91_Respondents.xml";
+    rml:source "data/xml/91_Respondent.xml";
     rml:referenceFormulation ql:XPath;
-    rml:iterator "/dataroot/_x0039_1_Respondents"
+    rml:iterator "/dataroot/_x0039_1_Respondent"
   ].
 
 :TriplesMap rr:subjectMap [
