@@ -39,6 +39,13 @@ public class Language extends models.Resource {
         return lowerNotation + "-" + countryCode.toLowerCase();
     }
 
+    public String getLabelWithCountry() {
+        if (countryCode == null || countryCode.isEmpty()) {
+            return label != null ? label : notation;
+        }
+        return (label != null ? label : notation) + " (" + countryCode + ")";
+    }
+
     public String getLabel() {
         return label;
     }
