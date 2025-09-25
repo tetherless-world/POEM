@@ -1,0 +1,183 @@
+<h1>
+    Digital Administration Resources
+</h1>
+<p>
+    An Electronic Health Record (EHR) is a digital version of a patient’s medical history, maintained by healthcare providers.
+</p>
+<p>
+    Fast Healthcare Interoperability Resources (FHIR) is a standard that defines how healthcare data should be structured and exchanged among different systems. To be able to administer a digital version of the RCADS in an EHR system that is compliant with FHIR, it must be stored in a FHIR-compliant data and file format. The data format depends on the file format, which includes JSON, XML, RDF, and TTL.
+</p>
+<p>
+    You can find more information about FHIR here: https://www.hl7.org/fhir/overview.html
+</p>
+<p>
+    Below, you will find a JSON file generator for every supported version of the RCADS. If you would like to download a PDF file, please go to the Downloads page.
+</p>
+<p>
+    Please select the version of the RCADS you would like to administer as well as the FHIR version.
+</p>
+<form id="fhir" action="http://129.153.140.160:9000/fhir" method="get">
+    <div class="card-body">
+        &nbsp;
+    </div>
+    <div class="card-footer">
+        &nbsp;
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Language
+                </th>
+                <th>
+                    Questionnaire
+                </th>
+                <th>
+                    FHIR Version
+                </th>
+                <th>
+                    Download
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div class="form-group">
+                        <select class="form-control" id="language-select" data-trigger="" name="language">
+                                                                                                                                                                                                                                                                            <option>Loading languages...</option>
+                                                                                                                                                                                                                                                                        </select>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group" hidden="">
+                        <input class="form-control" type="hidden" name="format" value="json">
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="questionnaire-select" data-trigger="" name="uri">
+                                                                                                                                                                                                                                                                            <option>Loading questionnaires...</option>
+                                                                                                                                                                                                                                                                        </select>
+                    </div>
+                </td>
+                <td>
+                    <select class="form-control" data-trigger="" name="version">
+                                                                                                                                                                                                                                <option value="r3">R3</option>
+                                                                                                                                                                                                                                <option value="r4">R4</option>
+                                                                                                                                                                                                                                <option value="r4b">R4B</option>
+                                                                                                                                                                                                                                <option value="r5">R5</option>
+                                                                                                                                                                                                                            </select>
+                </td>
+                <td>
+                    <button class="btn btn-primary btn-sm" type="submit">Download</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  let allLanguages = [];
+  let allQuestionnaires = [];
+  const languageSelect = document.getElementById('language-select');
+  const questionnaireSelect = document.getElementById('questionnaire-select');
+  
+  // Load both JSON files
+  Promise.all([
+    fetch('/sites/default/files/languages.json').then(response => response.json()),
+    fetch('/sites/default/files/questionnaires.json').then(response => response.json())
+  ])
+  .then(([languagesData, questionnairesData]) => {
+    allLanguages = languagesData;
+    allQuestionnaires = questionnairesData;
+    populateLanguageSelector();
+  })
+  .catch(error => {
+    console.error('Error loading data:', error);
+    languageSelect.innerHTML = '<option value="">Error loading languages</option>';
+  });
+  
+  function populateLanguageSelector() {
+    // Get unique language codes from questionnaires
+    const availableLanguageCodes = [...new Set(allQuestionnaires.map(q => q.language))];
+    
+    // Filter languages to only show those that have questionnaires available
+    const availableLanguages = allLanguages.filter(lang => 
+      availableLanguageCodes.includes(lang.value)
+    );
+    
+    languageSelect.innerHTML = '<option value="">- Select a language -</option>';
+    
+    availableLanguages.forEach(language => {
+      const option = document.createElement('option');
+      option.value = language.value;
+      
+      // Use labelInLanguage if available and not empty, otherwise use label only
+      const displayLabel = language.labelInLanguage && language.labelInLanguage.trim() !== '' 
+        ? `${language.label} (${language.labelInLanguage})` 
+        : language.label;
+      
+      option.textContent = displayLabel;
+      languageSelect.appendChild(option);
+    });
+    
+    // Enable language selector
+    languageSelect.disabled = false;
+  }
+  
+  function populateQuestionnaireSelector(selectedLanguageCode) {
+    // Filter questionnaires by exact language code match
+    const filteredQuestionnaires = allQuestionnaires.filter(q => 
+      q.language === selectedLanguageCode
+    );
+    
+    questionnaireSelect.innerHTML = '<option value="">- Select a questionnaire -</option>';
+    
+    if (filteredQuestionnaires.length === 0) {
+      const option = document.createElement('option');
+      option.value = '';
+      option.textContent = 'No questionnaires available for this language';
+      option.disabled = true;
+      questionnaireSelect.appendChild(option);
+    } else {
+      filteredQuestionnaires.forEach(questionnaire => {
+        const option = document.createElement('option');
+        option.value = questionnaire.value;
+        option.textContent = questionnaire.label;
+        questionnaireSelect.appendChild(option);
+      });
+    }
+    
+    // Enable questionnaire selector
+    questionnaireSelect.disabled = false;
+  }
+  
+  // Language selector change event
+  languageSelect.addEventListener('change', function() {
+    const selectedLanguageCode = this.value;
+    
+    if (selectedLanguageCode) {
+      populateQuestionnaireSelector(selectedLanguageCode);
+    } else {
+      questionnaireSelect.innerHTML = '<option value="">Please select a language first</option>';
+      questionnaireSelect.disabled = true;
+    }
+  });
+  
+  // Questionnaire selector change event
+  questionnaireSelect.addEventListener('change', function() {
+    if (this.value) {
+      const selectedLanguage = allLanguages.find(lang => lang.value === languageSelect.value);
+      const selectedQuestionnaire = allQuestionnaires.find(q => q.value === this.value);
+      
+      console.log('Selected questionnaire:', this.value);
+      console.log('Selected language:', languageSelect.value);
+      console.log('Language details:', selectedLanguage);
+      console.log('Questionnaire details:', selectedQuestionnaire);
+      
+      // Add your logic here for what happens when user selects a questionnaire
+      // Example: redirect to questionnaire page with language parameter
+      // window.location.href = `/questionnaire/${this.value}?lang=${languageSelect.value}`;
+    }
+  });
+});
+</script>
