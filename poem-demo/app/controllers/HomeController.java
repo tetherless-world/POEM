@@ -13,7 +13,6 @@ import forms.Query;
 import models.Instrument;
 import models.ItemConcept;
 import models.QuestionnaireScale;
-import models.fhir.Questionnaire;
 import play.data.Form;
 import play.mvc.*;
 
@@ -72,12 +71,26 @@ public class HomeController extends Controller {
         return ok(new Gson().toJson(places));
     }
 
+    public Result excel(String uri) {
+        Instrument instrument = Instrument.getByUri(uri);
+        if (instrument == null) {
+            return notFound("Instrument not found");
+        }
+        models.excel.Questionnaire excelQuestionnaire = new models.excel.Questionnaire(instrument);
+        byte[] excelBytes = excelQuestionnaire.toXLSX();
+        String filename = instrument.getLabel() + ".xlsx";
+        return ok(excelBytes)
+            .withHeader("Content-Disposition", "attachment; filename=\"" + filename + "\"")
+            .as("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+    }
+
+
     public Result fhir(String uri, String format, String version) {
         Instrument instrument = Instrument.getByUri(uri);
         if (instrument == null) {
             return notFound("Instrument not found");
         }
-        Questionnaire questionnaire = new Questionnaire(instrument);
+        models.fhir.Questionnaire questionnaire = new models.fhir.Questionnaire(instrument);
 
         if (format.equals("json")) {
             if (version.equals("r5")) {

@@ -39,6 +39,9 @@ libraryDependencies += "com.fasterxml.jackson.core" % "jackson-databind" % "2.20
 // https://mvnrepository.com/artifact/com.fasterxml.jackson.module/jackson-module-scala
 libraryDependencies += "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.20.0"
 
+// https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
+libraryDependencies += "org.apache.poi" % "poi-ooxml" % "5.4.1"
+
 // https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-base
 libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-base" % "8.4.0"
 
