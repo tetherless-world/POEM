@@ -306,6 +306,26 @@
                 </form>
             </div>
         </div>
+        <div class="col-md-4 mb-5">
+            <div class="card h-100">
+                <form id="queryForm10" action="/excel" method="get">
+                    <div class="card-body">
+                        <div class="form-group">
+                            <h2 class="card-title">XLSX Export</h2>
+                            <p class="card-text">Instrument:</p>
+                            <select class="form-control" data-trigger name="uri">
+                                @for(instrument <- instruments) {
+                                    <option value="@instrument.getUri()">@instrument.getLabel()</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary btn-sm">Ask POEM</button>
+                    </div>
+                </form>
+            </div>
+        </div>
         
         <hr>
     </div>
