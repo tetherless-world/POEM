@@ -98,36 +98,36 @@ public class HomeController extends Controller {
                 IParser parser = fhirContext.newJsonParser();
                 String serialized = parser.encodeResourceToString(questionnaire.toFhirR5());
                 return ok(serialized)
-                    .withHeader("Content-Disposition", "attachment; filename=\"" + instrument.getLabel() + "_FHIR-R5.json\"")
+                    // .withHeader("Content-Disposition", "attachment; filename=\"" + instrument.getLabel() + "_FHIR-R5.json\"")
                     .as("application/json");
             } else if (version.equals("r4b")) {
                 FhirContext fhirContext = FhirContext.forR4B();
                 IParser parser = fhirContext.newJsonParser();
                 String serialized = parser.encodeResourceToString(questionnaire.toFhirR4B());
                 return ok(serialized)
-                    .withHeader("Content-Disposition", "attachment; filename=\"" + instrument.getLabel() + "_FHIR-R4B.json\"")
+                    // .withHeader("Content-Disposition", "attachment; filename=\"" + instrument.getLabel() + "_FHIR-R4B.json\"")
                     .as("application/json");
             } else if (version.equals("r4")) {
                 FhirContext fhirContext = FhirContext.forR4();
                 IParser parser = fhirContext.newJsonParser();
                 String serialized = parser.encodeResourceToString(questionnaire.toFhirR4());
                 return ok(serialized)
-                    .withHeader("Content-Disposition", "attachment; filename=\"" + instrument.getLabel() + "_FHIR-R4.json\"")
+                    // .withHeader("Content-Disposition", "attachment; filename=\"" + instrument.getLabel() + "_FHIR-R4.json\"")
                     .as("application/json");
             } else if (version.equals("r3")) {
                 FhirContext fhirContext = FhirContext.forDstu3();
                 IParser parser = fhirContext.newJsonParser();
                 String serialized = parser.encodeResourceToString(questionnaire.toFhirR3());
                 return ok(serialized)
-                    .withHeader("Content-Disposition", "attachment; filename=\"" + instrument.getLabel() + "_FHIR-R3.json\"")
+                    // .withHeader("Content-Disposition", "attachment; filename=\"" + instrument.getLabel() + "_FHIR-R3.json\"")
                     .as("application/json");
             } else if (version.equals("r2")) {
                 FhirContext fhirContext = FhirContext.forDstu2();
                 IParser parser = fhirContext.newJsonParser();
                 String serialized = parser.encodeResourceToString(questionnaire.toFhirR2());
                 return ok(serialized)
-                    .withHeader("Content-Disposition", "attachment; filename=\"" + instrument.getLabel() + "_FHIR-R2.json\"")
-                .as("application/json");
+                    // .withHeader("Content-Disposition", "attachment; filename=\"" + instrument.getLabel() + "_FHIR-R2.json\"")
+                    .as("application/json");
             }
         }
         return ok("FHIR endpoint is not implemented yet.");
