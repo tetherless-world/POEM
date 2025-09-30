@@ -137,7 +137,7 @@
     <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/hasSubscale">
         <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000028"/>
         <owl:inverseOf rdf:resource="http://purl.org/twc/poem/isSubscaleOf"/>
-        <rdfs:domain rdf:resource="http://purl.org/twc/poem/CompositeScale"/>
+        <rdfs:domain rdf:resource="http://purl.org/twc/poem/ale"/>
         <rdfs:range rdf:resource="http://purl.org/twc/poem/QuestionnaireScale"/>
         <rdfs:label>has subscale</rdfs:label>
         <skos:definition>comprises of multiple scales about more specific concepts</skos:definition>
@@ -162,7 +162,7 @@
     <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/isSubscaleOf">
         <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000068"/>
         <rdfs:domain rdf:resource="http://purl.org/twc/poem/QuestionnaireScale"/>
-        <rdfs:range rdf:resource="http://purl.org/twc/poem/CompositeScale"/>
+        <rdfs:range rdf:resource="http://purl.org/twc/poem/ale"/>
         <rdfs:label>is subscale of</rdfs:label>
         <skos:definition>has, as its constituent parts, multiple scales</skos:definition>
     </owl:ObjectProperty>
@@ -558,6 +558,24 @@ and coding scheme of a dataset</skos:definition>
     </owl:Class>
     
 
+    <!-- http://purl.org/twc/poem#BackwardTranslation -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem#BackwardTranslation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <dc:description>Process of transforming (translating) the generated instrument in the target langauge (i.e., a draft of the translated instrument), back into the language of the used instrument</dc:description>
+        <rdfs:label>Backward Translation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/twc/poem#BlindReview -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem#BlindReview">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <dc:description>Process by which someone who is blind to the original (untranslated) text resolves discrepancies between multiple forward translations</dc:description>
+        <rdfs:label>Blind Review</rdfs:label>
+    </owl:Class>
+
 
     <!-- http://purl.org/twc/poem/CompositeScale -->
 
@@ -617,7 +635,47 @@ and coding scheme of a dataset</skos:definition>
         <rdfs:label>experience</rdfs:label>
         <skos:definition>an informant&apos;s observation or encounter in a situation or event</skos:definition>
     </owl:Class>
+
+
+    <!-- http://purl.org/twc/poem#DoubleTranslationReconciliation -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem#DoubleTranslationReconciliation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <dc:description>Process that includes an independent translator or an expert panel to identify and resolve any discrepancies between multiple forward translations, reconciling them into a single instrument. Requires forward translation to have occurred.</dc:description>
+        <rdfs:label>Double-Translation and Reconciliation</rdfs:label>
+    </owl:Class>
     
+
+
+    <!-- http://purl.org/twc/poem#ExpertReview -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem#ExpertReview">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <dc:description>Process by which an individual or group of individuals review changes from the used instrument to the generated instrument and provide feedback to others associated with the activity</dc:description>
+        <rdfs:label>Expert Review</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/twc/poem#ForwardTranslation -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem#ForwardTranslation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <dc:description>Process of transforming (translating) the source language (i.e., the language of the used  instrument) into a target language (i.e., the language in which generated instrument is to be administered)</dc:description>
+        <rdfs:label>Forward Translation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/twc/poem#Interview -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem#Interview">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <dc:description>Process that includes distributing the generated instrument to the intended target population and collecting feedback</dc:description>
+        <rdfs:label>Interview</rdfs:label>
+    </owl:Class>
+
+
 
 
     <!-- http://purl.org/twc/poem/PsychometricQuestionnaire -->
