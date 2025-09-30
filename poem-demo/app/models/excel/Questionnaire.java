@@ -40,7 +40,7 @@ public class Questionnaire {
             Sheet compSheet = workbook.createSheet("Other Components");
             Row compHeader = compSheet.createRow(0);
             compHeader.createCell(0).setCellValue("Component");
-            compHeader.createCell(1).setCellValue("Text");
+            //compHeader.createCell(1).setCellValue("Text");
 
             List<models.Component> components = instrument.getComponents();
             if (components != null) {
@@ -48,7 +48,7 @@ public class Questionnaire {
                 for (models.Component comp : components) {
                     Row row = compSheet.createRow(rowIdx++);
                     row.createCell(0).setCellValue(comp.getLabel());
-                    row.createCell(1).setCellValue(""); // Text column left blank for now
+                    //row.createCell(1).setCellValue(""); // Text column left blank for now
                 }
             }
 
