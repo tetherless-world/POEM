@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.org/twc/poem/"
-     xml:base="http://purl.org/twc/poem"
+     xml:base="http://purl.org/twc/poem/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:eco="http://purl.obolibrary.org/obo/eco.owl#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
@@ -35,6 +35,7 @@
         <owl:imports rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <dc:creator>Kelsey Rook</dc:creator>
         <terms:description>The Psychometric Ontology of Experience and Measures provides an ontology of domain concepts for the measurement of symptoms and syndromes related to psychiatric conditions.</terms:description>
+        <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://opensource.org/license/mit</terms:license>
         <terms:modified>2023-11-20</terms:modified>
         <terms:title>Psychometric Ontology of Experience and Measures</terms:title>
         <rdfs:isDefinedBy>http://purl.org/ontology/POEM</rdfs:isDefinedBy>
@@ -125,60 +126,9 @@
     
 
 
-    <!-- http://hadatac.org/ont/vstoi#hasInformant -->
-
-    <owl:ObjectProperty rdf:about="http://hadatac.org/ont/vstoi#hasInformant">
-        <rdfs:domain rdf:resource="http://hadatac.org/ont/vstoi#Questionnaire"/>
-        <rdfs:range rdf:resource="http://hadatac.org/ont/vstoi#Informant"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://hadatac.org/ont/vstoi#hasItem -->
 
     <owl:ObjectProperty rdf:about="http://hadatac.org/ont/vstoi#hasItem"/>
-    
-
-
-    <!-- http://purl.org/twc/poem/canRespondTo -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/canRespondTo">
-        <rdfs:domain rdf:resource="http://semanticscience.org/resource/SIO_000485"/>
-        <rdfs:range rdf:resource="http://hadatac.org/ont/vstoi#Questionnaire"/>
-        <rdfs:label>can respond to</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/twc/poem/detects -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/detects">
-        <owl:inverseOf rdf:resource="http://purl.org/twc/poem/isDetectedBy"/>
-        <rdfs:domain rdf:resource="http://hadatac.org/ont/vstoi#Detector"/>
-        <rdfs:label>detects</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/twc/poem/hasScale -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/hasScale">
-        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000028"/>
-        <owl:inverseOf rdf:resource="http://purl.org/twc/poem/isScaleIn"/>
-        <rdfs:domain rdf:resource="http://purl.org/twc/poem/PsychometricQuestionnaire"/>
-        <rdfs:range rdf:resource="http://purl.org/twc/poem/QuestionnaireScale"/>
-        <rdfs:label>has scale</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/twc/poem/hasSubject -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/hasSubject">
-        <owl:inverseOf rdf:resource="http://purl.org/twc/poem/isSubjectOf"/>
-        <rdfs:domain rdf:resource="http://purl.org/twc/poem/PsychometricQuestionnaire"/>
-        <rdfs:label>has subject</rdfs:label>
-    </owl:ObjectProperty>
     
 
 
@@ -190,17 +140,7 @@
         <rdfs:domain rdf:resource="http://purl.org/twc/poem/CompositeScale"/>
         <rdfs:range rdf:resource="http://purl.org/twc/poem/QuestionnaireScale"/>
         <rdfs:label>has subscale</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/twc/poem/hasSymptom -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/hasSymptom">
-        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
-        <owl:inverseOf rdf:resource="http://purl.org/twc/poem/isSymptomOf"/>
-        <rdfs:range rdf:resource="http://purl.org/twc/poem/Symptom"/>
-        <rdfs:label>has symptom</rdfs:label>
+        <skos:definition>comprises of multiple scales about more specific concepts</skos:definition>
     </owl:ObjectProperty>
     
 
@@ -209,75 +149,10 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/hasVariable">
         <owl:inverseOf rdf:resource="http://purl.org/twc/poem/isVariableOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://hadatac.org/ont/hasco/SemanticVariable"/>
         <rdfs:label>has variable</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/twc/poem/isAboutDisorder -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/isAboutDisorder">
-        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000332"/>
-        <owl:inverseOf rdf:resource="http://purl.org/twc/poem/isSubjectOfScale"/>
-        <rdfs:domain rdf:resource="http://purl.org/twc/poem/QuestionnaireScale"/>
-        <rdfs:range rdf:resource="http://purl.org/twc/poem/Construct"/>
-        <rdfs:label>is about disorder</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/twc/poem/isAboutSource -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/isAboutSource">
-        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000332"/>
-        <rdfs:label>is about source</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/twc/poem/isAboutTarget -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/isAboutTarget">
-        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000332"/>
-        <rdfs:label>is about target</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/twc/poem/isDetectedBy -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/isDetectedBy">
-        <rdfs:range rdf:resource="http://hadatac.org/ont/vstoi#Detector"/>
-        <rdfs:label>is detected by</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/twc/poem/isScaleIn -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/isScaleIn">
-        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000068"/>
-        <rdfs:label>is scale in</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/twc/poem/isSubjectOf -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/isSubjectOf">
-        <rdfs:range rdf:resource="http://purl.org/twc/poem/PsychometricQuestionnaire"/>
-        <rdfs:label>is subject of</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/twc/poem/isSubjectOfScale -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/isSubjectOfScale">
-        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000629"/>
-        <rdfs:domain rdf:resource="http://purl.org/twc/poem/Construct"/>
-        <rdfs:range rdf:resource="http://purl.org/twc/poem/QuestionnaireScale"/>
-        <rdfs:label>is subject of scale</rdfs:label>
+        <skos:definition>has a specification of some quality that is subject to change</skos:definition>
     </owl:ObjectProperty>
     
 
@@ -289,16 +164,7 @@
         <rdfs:domain rdf:resource="http://purl.org/twc/poem/QuestionnaireScale"/>
         <rdfs:range rdf:resource="http://purl.org/twc/poem/CompositeScale"/>
         <rdfs:label>is subscale of</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/twc/poem/isSymptomOf -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/isSymptomOf">
-        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/SIO_000011"/>
-        <rdfs:domain rdf:resource="http://purl.org/twc/poem/Symptom"/>
-        <rdfs:label>is symptom of</rdfs:label>
+        <skos:definition>has, as its constituent parts, multiple scales</skos:definition>
     </owl:ObjectProperty>
     
 
@@ -306,7 +172,10 @@
     <!-- http://purl.org/twc/poem/isVariableOf -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/twc/poem/isVariableOf">
+        <rdfs:domain rdf:resource="http://hadatac.org/ont/hasco/SemanticVariable"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:label>is variable of</rdfs:label>
+        <skos:definition>is an attribute specification of some entity that is subject to change</skos:definition>
     </owl:ObjectProperty>
     
 
@@ -346,15 +215,6 @@
     
 
 
-    <!-- http://purl.org/twc/poem-rcads#isSignificant -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/twc/poem-rcads#isSignificant">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-        <rdfs:label>is significant</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -371,6 +231,13 @@
     <owl:Class rdf:about="http://hadatac.org/ont/hasco/SemanticVariable">
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/twc/poem/isVariableOf"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.org/twc/poem#ItemStemConcept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://semanticscience.org/resource/SIO_000614"/>
@@ -383,6 +250,7 @@
                 <owl:onClass rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <skos:definition>A variable specification that includes the target entities and attributes, but not the population property</skos:definition>
     </owl:Class>
     
 
@@ -399,11 +267,20 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.org/twc/poem/Experience"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000059"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
                 <owl:onClass rdf:resource="http://hadatac.org/ont/vstoi#ResponseOption"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <skos:definition>A document used to outline the content, format,
+and coding scheme of a dataset</skos:definition>
     </owl:Class>
     
 
@@ -413,7 +290,7 @@
     <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Detector">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000956"/>
         <rdfs:label>Detector</rdfs:label>
-        <skos:definition>A device which detects measurements, such as temperature or wind velocity</skos:definition>
+        <skos:definition>A device which detects measurements</skos:definition>
     </owl:Class>
     
 
@@ -423,7 +300,7 @@
     <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Informant">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000498"/>
         <rdfs:label>Informant</rdfs:label>
-        <skos:definition>(Respondent)</skos:definition>
+        <skos:definition>An individual or respondent who provides information based on an observation about themselves or someone else</skos:definition>
     </owl:Class>
     
 
@@ -433,7 +310,7 @@
     <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Instrument">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000956"/>
         <rdfs:label>Instrument</rdfs:label>
-        <skos:definition>A device or mechanism that is used to achire attribute values of entities of interest.  An instrument does not necessarily require a way to store its measured quantity (e.g, a hard disk).</skos:definition>
+        <skos:definition>A device or mechanism that is used to achire attribute values of entities of interest</skos:definition>
     </owl:Class>
     
 
@@ -444,12 +321,6 @@
         <rdfs:subClassOf rdf:resource="http://hadatac.org/ont/vstoi#Detector"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/twc/poem/detects"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem/Symptom"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
                 <owl:someValuesFrom rdf:resource="http://semanticscience.org/resource/SIO_000613"/>
             </owl:Restriction>
@@ -458,12 +329,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000095"/>
                 <owl:someValuesFrom rdf:resource="http://hadatac.org/ont/vstoi#Questionnaire"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000095"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem/QuestionnaireScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -481,6 +346,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>item</rdfs:label>
+        <skos:definition>An item stem and its response option within an assessment</skos:definition>
     </owl:Class>
     
 
@@ -500,6 +366,13 @@
                 <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000219"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
                 <owl:onClass rdf:resource="http://hadatac.org/ont/vstoi#Item"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000332"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.org/twc/poem#ItemStemConcept"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>item stem</rdfs:label>
@@ -539,6 +412,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Questionnaire</rdfs:label>
+        <skos:definition>An instrument used to acquire data reported from human subjects</skos:definition>
     </owl:Class>
     
 
@@ -555,236 +429,19 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
+                <owl:someValuesFrom rdf:resource="http://semanticscience.org/resource/SIO_000613"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000095"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
                 <owl:onClass rdf:resource="http://hadatac.org/ont/vstoi#Codebook"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>response option</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/102912007 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/102912007">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/1144814003 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/1144814003">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/1217332007 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/1217332007">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/12479006 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/12479006">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/126943008 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/126943008">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Disorder"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/191736004 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/191736004">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Disorder"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/197480006 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/197480006">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Disorder"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/21897009 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/21897009">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Disorder"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/225445003 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/225445003">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/225629005 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/225629005">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/247799003 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247799003">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/247825008 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247825008">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/247826009 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247826009">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/247835002 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247835002">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/247892001 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247892001">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/249473004 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/249473004">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/25501002 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/25501002">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Disorder"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/28669007 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/28669007">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/35489007 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/35489007">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Disorder"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/370143000 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/370143000">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Disorder"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/371631005 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/371631005">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Disorder"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/43364001 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/43364001">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/47295007 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/47295007">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/53888004 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/53888004">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/64336009 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/64336009">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/79015004 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/79015004">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/79823003 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/79823003">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/84229001 -->
-
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/84229001">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Symptom"/>
+        <skos:definition>A possible answer choice provided for a question or statement</skos:definition>
     </owl:Class>
     
 
@@ -850,6 +507,58 @@
     
 
 
+    <!-- http://purl.org/twc/poem#InstrumentCollection -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem#InstrumentCollection">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000616"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000059"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://hadatac.org/ont/vstoi#Instrument"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>instrument collection</rdfs:label>
+        <skos:definition>A set of measurement instruments that have been derived from each other, are published by the same organization, or have some other reason for close association</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/twc/poem#ItemStemConcept -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem#ItemStemConcept">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/twc/poem/hasVariable"/>
+                <owl:someValuesFrom rdf:resource="http://hadatac.org/ont/hasco/SemanticVariable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000095"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem/QuestionnaireScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000332"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem/Construct"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000563"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://hadatac.org/ont/vstoi#ItemStem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>item stem concept</rdfs:label>
+        <skos:definition>The experience or construct that the question or statement used to prompt an individual intends to capture</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/twc/poem/CompositeScale -->
 
     <owl:Class rdf:about="http://purl.org/twc/poem/CompositeScale">
@@ -870,17 +579,43 @@
 
     <owl:Class rdf:about="http://purl.org/twc/poem/Construct">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000563"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem#ItemStemConcept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000563"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem/QuestionnaireScale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:alternative>psychological construct</terms:alternative>
         <rdfs:label>construct</rdfs:label>
+        <skos:definition>A hypothetical or theoretical entity that can not be directly observed</skos:definition>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/twc/poem/Disorder -->
+    <!-- http://purl.org/twc/poem/Experience -->
 
-    <owl:Class rdf:about="http://purl.org/twc/poem/Disorder">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Construct"/>
-        <rdfs:label>disorder</rdfs:label>
-        <skos:definition>a disease entity typically representing a non-normative elevation on a syndrome in conjuction with marked distress or impairment</skos:definition>
+    <owl:Class rdf:about="http://purl.org/twc/poem/Experience">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000011"/>
+                <owl:someValuesFrom rdf:resource="http://hadatac.org/ont/vstoi#Codebook"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000011"/>
+                <owl:someValuesFrom rdf:resource="http://hadatac.org/ont/vstoi#ResponseOption"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>experience</rdfs:label>
+        <skos:definition>an informant&apos;s observation or encounter in a situation or event</skos:definition>
     </owl:Class>
     
 
@@ -889,13 +624,8 @@
 
     <owl:Class rdf:about="http://purl.org/twc/poem/PsychometricQuestionnaire">
         <rdfs:subClassOf rdf:resource="http://hadatac.org/ont/vstoi#Questionnaire"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
-                <owl:someValuesFrom rdf:resource="http://semanticscience.org/resource/SIO_000485"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label>psychometric questionnaire</rdfs:label>
+        <skos:definition>a questionnaire used to measure an individual&apos;s mental capabilities, behaviors, or psychological traits</skos:definition>
     </owl:Class>
     
 
@@ -914,7 +644,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000059"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://hadatac.org/ont/vstoi#Item"/>
+                <owl:onClass rdf:resource="http://purl.org/twc/poem#ItemStemConcept"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -926,38 +656,6 @@
         </rdfs:subClassOf>
         <rdfs:label>questionnaire scale</rdfs:label>
         <skos:definition>a collection of indicators designed to be related to a shared construct</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/twc/poem/Symptom -->
-
-    <owl:Class rdf:about="http://purl.org/twc/poem/Symptom">
-        <rdfs:subClassOf rdf:resource="http://purl.org/twc/poem/Construct"/>
-        <rdfs:label>symptom</rdfs:label>
-        <skos:definition>a type of behavior, emotion, or thought that is indicative of a syndrome (or a disorder, indirectly)</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/twc/poem/Experience -->
-
-    <owl:Class rdf:about="http://purl.org/twc/poem/Experience">
-        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000005"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000011"/>
-                <owl:someValuesFrom rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000332"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.org/twc/poem/Symptom"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>symptom experience</rdfs:label>
     </owl:Class>
     
 
@@ -985,379 +683,9 @@
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_001017">
         <skos:definition>a sufficient set of co-occuring symptoms believed to represent an underlying phenomenon with dimensional properties</skos:definition>
     </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/102912007 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/102912007">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/1144814003 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/1144814003">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/1217332007 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/1217332007">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/12479006 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/12479006">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/126943008 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/126943008">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Disorder"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225629005"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/191736004 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/191736004">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Disorder"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/12479006"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225445003"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/197480006 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/197480006">
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/102912007"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/12479006"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225445003"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/225629005"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247825008"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247826009"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247835002"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/43364001"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79015004"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79823003"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/21897009 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/21897009">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Disorder"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/102912007"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79015004"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/225445003 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/225445003">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/225629005 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/225629005">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/247799003 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247799003">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/247825008 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247825008">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/247826009 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247826009">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/247835002 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247835002">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/247892001 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247892001">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/249473004 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/249473004">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/25501002 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/25501002">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Disorder"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247825008"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247826009"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247835002"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/28669007 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/28669007">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/35489007 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/35489007">
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/1144814003"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/1217332007"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247892001"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/249473004"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/28669007"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/47295007"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/53888004"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/64336009"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/84229001"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/370143000 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/370143000">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Disorder"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/1144814003"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/1217332007"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/247892001"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/249473004"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/28669007"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/47295007"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/53888004"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/64336009"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/84229001"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/371631005 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/371631005">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Disorder"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/43364001"/>
-        <hasSymptom rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/79823003"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/43364001 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/43364001">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/47295007 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/47295007">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/53888004 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/53888004">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/64336009 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/64336009">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/79015004 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/79015004">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/79823003 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/79823003">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/84229001 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/84229001">
-        <rdf:type rdf:resource="http://purl.org/twc/poem/Symptom"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/102912007">
-        <rdfs:label>fear of death</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/1144814003">
-        <rdfs:label>psychomotor retardation</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/1217332007">
-        <rdfs:label>persistent sadness</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/12479006">
-        <rdfs:label>compulsive behavior</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/126943008">
-        <rdfs:label>separation anxiety</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/191736004">
-        <rdfs:label>obsessive compulsive disorder</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/197480006">
-        <rdfs:label>anxiety disorder</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/21897009">
-        <rdfs:label>generalized anxiety disorder</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/225445003">
-        <rdfs:label>intrusive thoughts</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/225629005">
-        <rdfs:label>fear of being left alone</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247799003">
-        <rdfs:comment>No more specific mapping in SNOMED exists to symptom &quot;worry about future&quot;</rdfs:comment>
-        <rdfs:label>pessimistic</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247825008">
-        <rdfs:label>anxiety about behaviour or performance</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247826009">
-        <rdfs:label>fear of appearing ridiculous</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247835002">
-        <rdfs:label>fear of public speaking</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/247892001">
-        <rdfs:label>self-depreciation</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/249473004">
-        <rdfs:label>altered appetite</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/25501002">
-        <rdfs:label>social phobia</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/28669007">
-        <rdfs:label>anhedonia</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/35489007">
-        <rdfs:label>depressive disorder</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/370143000">
-        <rdfs:label>major depressive disorder</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/371631005">
-        <rdfs:label>panic disorder</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/43364001">
-        <rdfs:comment>More appropriate SNOMED mapping does not exist to cover abdominal discomfort/nausea as caused by anxiety</rdfs:comment>
-        <rdfs:label>abdominal discomfort</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/47295007">
-        <rdfs:label>psychomotor agitation</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/53888004">
-        <rdfs:label>disturbance in sleep behavior</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/64336009">
-        <rdfs:label>incoherent thinking</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/79015004">
-        <rdfs:comment>No more specific mapping to symptom &quot;worry about future panic attacks&quot; in SNOMED</rdfs:comment>
-        <rdfs:comment>No more specific mapping to symptom &quot;worry about sleep/reluctance to sleep&quot; in SNOMED</rdfs:comment>
-        <rdfs:label>worry</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/79823003">
-        <rdfs:label>panic</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/84229001">
-        <rdfs:label>fatigue</rdfs:label>
-    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
 
