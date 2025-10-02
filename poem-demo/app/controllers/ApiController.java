@@ -45,7 +45,7 @@ public class ApiController extends Controller {
             ArrayNode questionnairesJson = Json.newArray();
             
             for (Instrument questionnaire : questionnaires) {
-                if (questionnaire.getDeprecated() == 0) {
+                if (questionnaire.getDeprecated() == 0 && questionnaire.getLabel().startsWith("RCADS")) {
                     ObjectNode questionnaireNode = Json.newObject();
                     questionnaireNode.put("value", questionnaire.getUri());
                     questionnaireNode.put("label", questionnaire.getLabel());
