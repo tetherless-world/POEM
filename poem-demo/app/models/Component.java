@@ -52,17 +52,18 @@ public class Component extends models.Resource {
             ORDER BY ?pos
         """);
         query.setIri("instrument", instrumentUri);
-        QueryExecution qe = QueryExecutionFactory.create(query.asQuery(), model);
-        ResultSet results = qe.execSelect();
         List<Component> components = new ArrayList<Component>();
-        while (results.hasNext()) {
-            System.out.println("Component found:");
-            QuerySolution soln = results.nextSolution();
-            Component component = new Component();
-            component.setUri(soln.getResource("component").getURI());
-            component.setLabel(soln.getLiteral("label").getString());
-            component.setPosition(soln.getLiteral("pos").getInt());
-            components.add(component);
+        try (QueryExecution qe = QueryExecutionFactory.create(query.asQuery(), model)) {
+            ResultSet results = qe.execSelect();
+            while (results.hasNext()) {
+                System.out.println("Component found:");
+                QuerySolution soln = results.nextSolution();
+                Component component = new Component();
+                component.setUri(soln.getResource("component").getURI());
+                component.setLabel(soln.getLiteral("label").getString());
+                component.setPosition(soln.getLiteral("pos").getInt());
+                components.add(component);
+            }
         }
         return components;
     }

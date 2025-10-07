@@ -61,17 +61,18 @@ public class Item extends models.Resource {
             ORDER BY ?pos
         """);
         query.setIri("instrument", instrumentUri);
-        QueryExecution qe = QueryExecutionFactory.create(query.asQuery(), model);
-        ResultSet results = qe.execSelect();
         List<Item> items = new ArrayList<Item>();
-        while (results.hasNext()) {
-            QuerySolution soln = results.nextSolution();
-            Item item = new Item();
-            item.setUri(soln.getResource("item").getURI());
-            item.setLabel(soln.getLiteral("label").getString());
-            item.setPosition(soln.getLiteral("pos").getInt());
-            item.setCodebook(Codebook.getByItem(item.getUri()));
-            items.add(item);
+        try (QueryExecution qe = QueryExecutionFactory.create(query.asQuery(), model)) {
+            ResultSet results = qe.execSelect();
+            while (results.hasNext()) {
+                QuerySolution soln = results.nextSolution();
+                Item item = new Item();
+                item.setUri(soln.getResource("item").getURI());
+                item.setLabel(soln.getLiteral("label").getString());
+                item.setPosition(soln.getLiteral("pos").getInt());
+                item.setCodebook(Codebook.getByItem(item.getUri()));
+                items.add(item);
+            }
         }
         return items;
     }
