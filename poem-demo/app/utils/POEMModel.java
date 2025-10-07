@@ -3,50 +3,80 @@ package utils;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.riot.RiotNotFoundException;
-import org.apache.jena.sparql.exec.RowSet.Exception;
 
 public class POEMModel {
+
+    private static final String DATA_PREFIX = "./data/";
+    private static final String DIST_DATA_PREFIX = "./dist/data/";
+    private static final String[] DATA_FILES = {
+        "activities.ttl",
+        "codebooks.ttl",
+        "experiences.ttl",
+        "informants.ttl",
+        "instrumentItemMap.ttl",
+        "instruments.ttl",
+        "items.ttl",
+        "itemStemConcepts.ttl",
+        "itemStems.ttl",
+        "responseOptions.ttl",
+        "scaleItemConceptMap.ttl",
+        "scales.ttl",
+        "scalesInstrument.ttl",
+        "components.ttl",
+        "languages.ttl"
+    };
+
+    private static final Object MODEL_LOCK = new Object();
+    private static volatile Model cachedModel;
+
     public static Model getModel() {
-        Model model = ModelFactory.createDefaultModel();
+        Model localModel = cachedModel;
+        if (localModel != null) {
+            return localModel;
+        }
+        synchronized (MODEL_LOCK) {
+            if (cachedModel == null) {
+                cachedModel = loadModel();
+            }
+            return cachedModel;
+        }
+    }
+
+    public static void refresh() {
+        synchronized (MODEL_LOCK) {
+            if (cachedModel != null) {
+                cachedModel.close();
+            }
+            cachedModel = loadModel();
+        }
+    }
+
+    private static Model loadModel() {
         try {
-            model.read("./data/activities.ttl");
-            model.read("./data/codebooks.ttl");
-            model.read("./data/experiences.ttl");
-            model.read("./data/informants.ttl");
-            model.read("./data/instrumentItemMap.ttl");
-            model.read("./data/instruments.ttl");
-            model.read("./data/items.ttl");
-            model.read("./data/itemStemConcepts.ttl");
-            model.read("./data/itemStems.ttl");
-            model.read("./data/responseOptions.ttl");
-            model.read("./data/scaleItemConceptMap.ttl");
-            model.read("./data/scales.ttl");
-            model.read("./data/scalesInstrument.ttl");
-            model.read("./data/components.ttl");
-            model.read("./data/languages.ttl");
+            return loadModelFromPrefix(DATA_PREFIX);
         } catch (RiotNotFoundException e) {
             try {
-                model.read("./dist/data/activities.ttl");
-                model.read("./dist/data/codebooks.ttl");
-                model.read("./dist/data/experiences.ttl");
-                model.read("./dist/data/informants.ttl");
-                model.read("./dist/data/instrumentItemMap.ttl");
-                model.read("./dist/data/instruments.ttl");
-                model.read("./dist/data/items.ttl");
-                model.read("./dist/data/itemStemConcepts.ttl");
-                model.read("./dist/data/itemStems.ttl");
-                model.read("./dist/data/responseOptions.ttl");
-                model.read("./dist/data/scaleItemConceptMap.ttl");
-                model.read("./dist/data/scales.ttl");
-                model.read("./dist/data/scalesInstrument.ttl");
-                model.read("./dist/data/components.ttl");
-                model.read("./dist/data/languages.ttl");
-            } catch (Exception e2) {
+                return loadModelFromPrefix(DIST_DATA_PREFIX);
+            } catch (RuntimeException e2) {
                 e2.printStackTrace();
+                return ModelFactory.createDefaultModel();
             }
-        } catch (Exception e) {
+        } catch (RuntimeException e) {
             e.printStackTrace();
+            return ModelFactory.createDefaultModel();
         }
-        return model;
+    }
+
+    private static Model loadModelFromPrefix(String prefix) {
+        Model model = ModelFactory.createDefaultModel();
+        try {
+            for (String file : DATA_FILES) {
+                model.read(prefix + file);
+            }
+            return model;
+        } catch (RuntimeException e) {
+            model.close();
+            throw e;
+        }
     }
 }
