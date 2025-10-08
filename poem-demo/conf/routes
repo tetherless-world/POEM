@@ -15,3 +15,9 @@ GET     /fhir           controllers.HomeController.fhir(uri: String, format: Str
 GET     /excel          controllers.HomeController.excel(uri: String)
 GET     /api/languages              controllers.ApiController.getLanguages()
 GET     /api/questionnaires         controllers.ApiController.getQuestionnaires()
+
+# Chat API endpoints
+GET     /chat                       controllers.ChatController.chatPage(request: Request)
++nocsrf
+POST    /api/chat                   controllers.ChatController.sendMessage(request: Request)
+GET     /api/chat/history           controllers.ChatController.getChatHistory(request: Request)
