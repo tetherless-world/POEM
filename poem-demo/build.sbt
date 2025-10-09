@@ -71,3 +71,6 @@ libraryDependencies += "com.openai" % "openai-java" % "4.2.0"
 
 // https://mvnrepository.com/artifact/org.json/json
 libraryDependencies += "org.json" % "json" % "20250517"
+
+// https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-to-slf4j
+libraryDependencies += "org.apache.logging.log4j" % "log4j-to-slf4j" % "2.25.2"
