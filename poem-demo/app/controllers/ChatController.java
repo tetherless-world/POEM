@@ -8,7 +8,7 @@ import play.mvc.Http;
 import play.mvc.Result;
 import services.ChatHistoryService;
 import services.ChatTurn;
-import services.OpenAIService;
+import services.chat.ChatRagService;
 
 import java.time.Instant;
 import java.util.HashMap;
@@ -22,12 +22,12 @@ import javax.inject.Inject;
 
 public class ChatController extends Controller {
 
-    private final OpenAIService openAIService;
+    private final ChatRagService chatRagService;
     private final ChatHistoryService chatHistoryService;
 
     @Inject
-    public ChatController(OpenAIService openAIService, ChatHistoryService chatHistoryService) {
-        this.openAIService = openAIService;
+    public ChatController(ChatRagService chatRagService, ChatHistoryService chatHistoryService) {
+        this.chatRagService = chatRagService;
         this.chatHistoryService = chatHistoryService;
     }
 
@@ -54,8 +54,8 @@ public class ChatController extends Controller {
         chatHistoryService.addUserMessage(sessionId, message);
         List<ChatMessage> history = chatHistoryService.getMessageHistory(sessionId);
 
-        // Call the real OpenAI API using the service
-        return openAIService.generateResponse(history).thenApply(botResponse -> {
+        // Call the RAG service which augments history with knowledge graph context when possible.
+        return chatRagService.generateResponse(message, history).thenApply(botResponse -> {
             chatHistoryService.addAssistantMessage(sessionId, botResponse);
 
             Map<String, Object> response = new HashMap<>();
