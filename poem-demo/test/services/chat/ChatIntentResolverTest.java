@@ -33,7 +33,8 @@ public class ChatIntentResolverTest {
                 "Which scales does RCADS-47-Y-EN include?");
 
         assertTrue(resolved.isPresent());
-        assertTrue(resolved.get() instanceof InstrumentScalesIntent intent);
+        assertTrue(resolved.get() instanceof InstrumentScalesIntent);
+        InstrumentScalesIntent intent = (InstrumentScalesIntent) resolved.get();
         assertEquals(INSTRUMENT_Y_EN, intent.instrumentUri());
     }
 
@@ -43,7 +44,8 @@ public class ChatIntentResolverTest {
                 "What language is RCADS-47-Y-EN available in?");
 
         assertTrue(resolved.isPresent());
-        assertTrue(resolved.get() instanceof InstrumentLanguagesIntent intent);
+        assertTrue(resolved.get() instanceof InstrumentLanguagesIntent);
+        InstrumentLanguagesIntent intent = (InstrumentLanguagesIntent) resolved.get();
         assertEquals(INSTRUMENT_Y_EN, intent.instrumentUri());
     }
 
@@ -53,7 +55,8 @@ public class ChatIntentResolverTest {
                 "How are RCADS-47-Y-EN and RCADS-25-Y-EN similar? Do they share item concepts?");
 
         assertTrue(resolved.isPresent());
-        assertTrue(resolved.get() instanceof InstrumentSimilarityByConceptsIntent intent);
+        assertTrue(resolved.get() instanceof InstrumentSimilarityByConceptsIntent);
+        InstrumentSimilarityByConceptsIntent intent = (InstrumentSimilarityByConceptsIntent) resolved.get();
         assertTrue(intent.instrumentUris().contains(INSTRUMENT_Y_EN));
         assertTrue(intent.instrumentUris().contains(INSTRUMENT_25_Y_EN));
     }
@@ -64,7 +67,8 @@ public class ChatIntentResolverTest {
                 "Which item concepts compose the Social Phobia (9.1) scale?");
 
         assertTrue(resolved.isPresent());
-        assertTrue(resolved.get() instanceof ScaleItemConceptsIntent intent);
+        assertTrue(resolved.get() instanceof ScaleItemConceptsIntent);
+        ScaleItemConceptsIntent intent = (ScaleItemConceptsIntent) resolved.get();
         assertEquals(SCALE_SOCIAL_PHOBIA, intent.scaleUri());
     }
 
