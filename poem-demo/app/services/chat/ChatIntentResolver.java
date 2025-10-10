@@ -3,6 +3,10 @@ package services.chat;
 import models.Instrument;
 import models.QuestionnaireScale;
 import play.Logger;
+import services.chat.classifier.IntentClassifier;
+import services.chat.classifier.IntentClassifier.Candidate;
+import services.chat.classifier.IntentClassifier.ClassificationContext;
+import services.chat.classifier.NoopIntentClassifier;
 import services.chat.intent.ChatIntent;
 import services.chat.intent.InstrumentExperienceComparisonIntent;
 import services.chat.intent.InstrumentItemStructureIntent;
@@ -18,6 +22,7 @@ import services.chat.intent.ScaleNotationIntent;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Objects;
@@ -26,19 +31,24 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
- * Naive keyword-based detector that maps a user utterance onto a chat intent.
- * This is intentionally simple and meant to be replaced by an LLM classifier later.
+ * Resolves user utterances to chat intents using an optional LLM classifier with a heuristic fallback.
  */
 @Singleton
 public class ChatIntentResolver {
 
     private static final Logger.ALogger logger = Logger.of(ChatIntentResolver.class);
 
+    private final IntentClassifier classifier;
     private final List<ResourceEntry> instrumentEntries;
     private final List<ResourceEntry> scaleEntries;
 
-    @Inject
     public ChatIntentResolver() {
+        this(new NoopIntentClassifier());
+    }
+
+    @Inject
+    public ChatIntentResolver(IntentClassifier classifier) {
+        this.classifier = classifier;
         this.instrumentEntries = buildInstrumentIndex();
         this.scaleEntries = buildScaleIndex();
     }
@@ -51,8 +61,29 @@ public class ChatIntentResolver {
         String normalised = message.toLowerCase(Locale.ROOT);
         String canonical = canonicalise(message);
 
-        List<String> instruments = findMatches(normalised, canonical, instrumentEntries);
-        List<String> scales = findMatches(normalised, canonical, scaleEntries);
+        List<ResourceEntry> instrumentMatches = findMatches(normalised, canonical, instrumentEntries);
+        List<ResourceEntry> scaleMatches = findMatches(normalised, canonical, scaleEntries);
+
+        ClassificationContext classificationContext = new ClassificationContext(
+                toCandidates(instrumentMatches, 5),
+                toCandidates(scaleMatches, 5),
+                List.of()
+        );
+
+        Optional<ChatIntent> classifiedIntent = classifier.classify(message, classificationContext);
+        if (classifiedIntent.isPresent()) {
+            logger.debug("LLM classified intent {} for message '{}'", classifiedIntent.get().name(), message);
+            return classifiedIntent;
+        } else {
+            logger.debug("LLM classification returned no result for message '{}'", message);
+        }
+
+        List<String> instruments = instrumentMatches.stream()
+                .map(ResourceEntry::uri)
+                .collect(Collectors.toList());
+        List<String> scales = scaleMatches.stream()
+                .map(ResourceEntry::uri)
+                .collect(Collectors.toList());
 
         // Two-instrument intents first.
         if (instruments.size() >= 2) {
@@ -117,12 +148,14 @@ public class ChatIntentResolver {
         return false;
     }
 
-    private static List<String> findMatches(String normalised, String canonical, List<ResourceEntry> entries) {
-        Set<String> matches = entries.stream()
-                .filter(entry -> normalised.contains(entry.normalisedToken()) || canonical.contains(entry.canonicalToken()))
-                .map(ResourceEntry::uri)
-                .collect(Collectors.toCollection(java.util.LinkedHashSet::new));
-        return new ArrayList<>(matches);
+    private static List<ResourceEntry> findMatches(String normalised, String canonical, List<ResourceEntry> entries) {
+        LinkedHashMap<String, ResourceEntry> matches = new LinkedHashMap<>();
+        for (ResourceEntry entry : entries) {
+            if (normalised.contains(entry.normalisedToken()) || canonical.contains(entry.canonicalToken())) {
+                matches.putIfAbsent(entry.uri(), entry);
+            }
+        }
+        return new ArrayList<>(matches.values());
     }
 
     private static List<ResourceEntry> buildInstrumentIndex() {
@@ -154,9 +187,16 @@ public class ChatIntentResolver {
         for (String variant : generateVariants(label)) {
             String normalised = variant.toLowerCase(Locale.ROOT);
             String canonical = canonicalise(variant);
-            entries.add(new ResourceEntry(normalised, canonical, uri));
+            entries.add(new ResourceEntry(label, normalised, canonical, uri));
         }
         return entries;
+    }
+
+    private static List<Candidate> toCandidates(List<ResourceEntry> entries, int limit) {
+        return entries.stream()
+                .limit(limit)
+                .map(entry -> new Candidate(entry.uri(), entry.label()))
+                .collect(Collectors.toList());
     }
 
     private static List<String> generateVariants(String label) {
@@ -176,6 +216,6 @@ public class ChatIntentResolver {
         return input.toLowerCase(Locale.ROOT).replaceAll("[^a-z0-9]+", " ").trim();
     }
 
-    private record ResourceEntry(String normalisedToken, String canonicalToken, String uri) {
+    private record ResourceEntry(String label, String normalisedToken, String canonicalToken, String uri) {
     }
 }

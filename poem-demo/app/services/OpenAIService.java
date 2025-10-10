@@ -83,4 +83,8 @@ public class OpenAIService {
             throw new RuntimeException("Failed to call OpenAI API", e);
         }
     }
+
+    public OpenAIClient getClient() {
+        return openAIClient;
+    }
 }
