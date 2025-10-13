@@ -12,13 +12,13 @@
 <xsd:annotation>
 <xsd:appinfo>
 <od:index index-name="ISO 3166 Country Code" index-key="ISO_x0020_3166_x0020_Country_x0020_Code " primary="no" unique="no" clustered="no" order="asc"/>
-<od:index index-name="PrimaryKey" index-key="LangaugeID " primary="yes" unique="yes" clustered="no" order="asc"/>
+<od:index index-name="PrimaryKey" index-key="LanguageID " primary="yes" unique="yes" clustered="no" order="asc"/>
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAABqYTCfkURZSY48cDc8kVA3AAAAAABzt7cQZOZAAAAAAAAAAAA5ADAA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAABqYTCfkURZSY48cDc8kVA3AAAAAIbMqYRZbOZAAAAAAAAAAAA5ADAA
 XwBMAGEAbgBnAHUAYQBnAGUAcwAAAAAAAACrMY2PjWV6Tp3M5t6QklJQBwAAAGph
-MJ+RRFlJjjxwNzyRUDdMAGEAbgBnAGEAdQBnAGUASQBEAAAAAAAAAHO1cvlc2OxA
+MJ+RRFlJjjxwNzyRUDdMAGEAbgBnAHUAYQBnAGUASQBEAAAAAAAAAHO1cvlc2OxA
 vFlWCyVKOUUHAAAAamEwn5FEWUmOPHA3PJFQN0wAYQBuAGcAdQBhAGcAZQAAAAAA
 AADXCnfAgksWQ6X/pRs+Kvq6BwAAAGphMJ+RRFlJjjxwNzyRUDdJAFMATwA2ADMA
 OQAtADEAAAAAAAAA5UTnHY5VTUmWNjfPF5SxGgcAAABqYTCfkURZSY48cDc8kVA3
@@ -53,7 +53,7 @@ AAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 </xsd:annotation>
 <xsd:complexType>
 <xsd:sequence>
-<xsd:element name="LangaugeID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
+<xsd:element name="LanguageID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
