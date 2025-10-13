@@ -67,7 +67,7 @@ libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-dstu3" % "8.4.
 libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-dstu2" % "8.4.0"
 
 // https://mvnrepository.com/artifact/com.openai/openai-java
-libraryDependencies += "com.openai" % "openai-java" % "4.2.0"
+libraryDependencies += "com.openai" % "openai-java" % "4.3.0"
 
 // https://mvnrepository.com/artifact/org.json/json
 libraryDependencies += "org.json" % "json" % "20250517"
