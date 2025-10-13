@@ -98,6 +98,30 @@
   prov:generated <http://purl.org/twc/poem/individual/instrument/60>;
   prov:used <http://purl.org/twc/poem/individual/instrument/4>, <http://purl.org/twc/poem/individual/instrument/58> .
 
+<http://purl.org/twc/poem/individual/activity/112> a prov:Activity;
+  rdfs:label "Generated the RCADS-25-Y-SR from RCADS-47-Y-SR and RCADS-25-Y-EN";
+  prov:endedAtTime "2025-04-25T00:00:00";
+  prov:generated <http://purl.org/twc/poem/individual/instrument/141>;
+  prov:used <http://purl.org/twc/poem/individual/instrument/109>, <http://purl.org/twc/poem/individual/instrument/3> .
+
+<http://purl.org/twc/poem/individual/activity/113> a prov:Activity;
+  rdfs:label "Generated the RCADS-25-CG-SR from RCADS-47-CG-SR and RCADS-25-CG-EN";
+  prov:endedAtTime "2025-04-25T00:00:00";
+  prov:generated <http://purl.org/twc/poem/individual/instrument/142>;
+  prov:used <http://purl.org/twc/poem/individual/instrument/110>, <http://purl.org/twc/poem/individual/instrument/4> .
+
+<http://purl.org/twc/poem/individual/activity/114> a prov:Activity;
+  rdfs:label "Generated the RCADS-47-CG-MN from RCADS-47-CG-EN";
+  prov:endedAtTime "2025-09-01T00:00:00";
+  prov:generated <http://purl.org/twc/poem/individual/instrument/147>;
+  prov:used <http://purl.org/twc/poem/individual/instrument/2> .
+
+<http://purl.org/twc/poem/individual/activity/115> a prov:Activity;
+  rdfs:label "Generated the RCADS-47-Y-MN from RCADS-47-Y-EN";
+  prov:endedAtTime "2025-09-01T00:00:00";
+  prov:generated <http://purl.org/twc/poem/individual/instrument/143>;
+  prov:used <http://purl.org/twc/poem/individual/instrument/1> .
+
 <http://purl.org/twc/poem/individual/activity/12> a prov:Activity;
   rdfs:label "Translated the MTT-35-CG-EN-1 to Spanish";
   prov:endedAtTime "2017-09-07T00:00:00";
