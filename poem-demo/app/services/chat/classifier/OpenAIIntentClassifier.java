@@ -46,6 +46,10 @@ public class OpenAIIntentClassifier implements IntentClassifier {
             String systemPrompt = buildSystemPrompt();
             String userPrompt = buildUserPrompt(message, context);
 
+            // log debug messages for system and user prompt
+            logger.debug("systemPrompt: " + systemPrompt);
+            logger.debug("userPrompt: " + userPrompt);
+
             ChatCompletionCreateParams params = ChatCompletionCreateParams.builder()
                     .model("openai/gpt-oss-20b")
                     .temperature(TEMPERATURE)
@@ -56,6 +60,7 @@ public class OpenAIIntentClassifier implements IntentClassifier {
 
             ChatCompletion completion = client.chat().completions().create(params);
             String content = extractContent(completion);
+            logger.debug("content: " + content);
             if (content == null || content.isBlank()) {
                 return Optional.empty();
             }

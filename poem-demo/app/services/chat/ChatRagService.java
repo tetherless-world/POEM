@@ -39,7 +39,7 @@ public class ChatRagService {
     }
 
     public CompletionStage<String> generateResponse(String userMessage, List<ChatMessage> history) {
-        Optional<ChatIntent> resolved = intentResolver.resolve(userMessage);
+        Optional<ChatIntent> resolved = intentResolver.resolve(userMessage, history);
 
         if (resolved.isPresent()) {
             ChatIntent intent = resolved.get();

@@ -7,6 +7,8 @@ import org.apache.jena.query.QueryFactory;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.RDFNode;
+
+import play.Logger;
 import utils.POEMModel;
 
 import services.chat.intent.ChatIntent;
@@ -26,6 +28,8 @@ import javax.inject.Singleton;
 @Singleton
 public class ChatKnowledgeService {
 
+    private static final Logger.ALogger logger = Logger.of(ChatKnowledgeService.class);
+
     @Inject
     public ChatKnowledgeService() {
     }
@@ -33,6 +37,7 @@ public class ChatKnowledgeService {
     public ChatQueryResult executeIntent(ChatIntent intent) {
         Objects.requireNonNull(intent, "intent must not be null");
         String sparql = intent.toSparql();
+        logger.debug("Executing SPARQL for intent {}: {}", intent.name(), sparql);
         Query query = QueryFactory.create(sparql);
 
         try (QueryExecution execution = QueryExecutionFactory.create(query, POEMModel.getModel())) {
