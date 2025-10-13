@@ -63,7 +63,7 @@
     rr:parentTriplesMap :TriplesMap2;
     rr:joinCondition [
       rr:child "ItemStemLanguage";
-      rr:parent "LangaugeID";
+      rr:parent "LanguageID";
     ];
   ];
 ].

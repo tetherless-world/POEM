@@ -68,7 +68,7 @@
 ].
 
 :TriplesMap5 rr:subjectMap [
-  rr:template "http://purl.org/twc/poem/individual/language/{LangaugeID}"
+  rr:template "http://purl.org/twc/poem/individual/language/{LanguageID}"
 ].
 
 :TriplesMap rr:predicateObjectMap [
@@ -185,7 +185,7 @@
     rr:parentTriplesMap :TriplesMap5;
     rr:joinCondition [
       rr:child "Language";
-      rr:parent "LangaugeID";
+      rr:parent "LanguageID";
     ];
   ];
 ].
@@ -196,7 +196,7 @@
     rr:parentTriplesMap :TriplesMap5;
     rr:joinCondition [
       rr:child "Language";
-      rr:parent "LangaugeID";
+      rr:parent "LanguageID";
     ];
   ];
 ].

@@ -22,7 +22,7 @@
   ].
 
 :TriplesMap rr:subjectMap [
-  rr:template "http://purl.org/twc/poem/individual/language/{LangaugeID}"
+  rr:template "http://purl.org/twc/poem/individual/language/{LanguageID}"
 ].
 
 :TriplesMap rr:predicateObjectMap [
