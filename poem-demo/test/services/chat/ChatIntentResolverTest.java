@@ -2,6 +2,8 @@ package services.chat;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
+import models.chat.ChatMessage;
+import services.chat.classifier.NoopIntentClassifier;
 import services.chat.intent.ChatIntent;
 import services.chat.intent.InstrumentLanguagesIntent;
 import services.chat.intent.InstrumentScalesIntent;
@@ -9,6 +11,8 @@ import services.chat.intent.InstrumentSimilarityByConceptsIntent;
 import services.chat.intent.ScaleItemConceptsIntent;
 import utils.POEMModel;
 
+import java.util.Collections;
+import java.util.List;
 import java.util.Optional;
 
 import static org.junit.Assert.*;
@@ -24,13 +28,14 @@ public class ChatIntentResolverTest {
     @BeforeClass
     public static void loadModel() {
         POEMModel.refresh();
-        resolver = new ChatIntentResolver();
+        resolver = new ChatIntentResolver(new NoopIntentClassifier());
     }
 
     @Test
     public void detectsInstrumentScalesIntent() {
         Optional<ChatIntent> resolved = resolver.resolve(
-                "Which scales does RCADS-47-Y-EN include?");
+                "Which scales does RCADS-47-Y-EN include?",
+                Collections.emptyList());
 
         assertTrue(resolved.isPresent());
         assertTrue(resolved.get() instanceof InstrumentScalesIntent);
@@ -41,7 +46,8 @@ public class ChatIntentResolverTest {
     @Test
     public void detectsLanguageIntent() {
         Optional<ChatIntent> resolved = resolver.resolve(
-                "What language is RCADS-47-Y-EN available in?");
+                "What language is RCADS-47-Y-EN available in?",
+                Collections.emptyList());
 
         assertTrue(resolved.isPresent());
         assertTrue(resolved.get() instanceof InstrumentLanguagesIntent);
@@ -52,7 +58,8 @@ public class ChatIntentResolverTest {
     @Test
     public void detectsSimilarityIntentWithTwoInstruments() {
         Optional<ChatIntent> resolved = resolver.resolve(
-                "How are RCADS-47-Y-EN and RCADS-25-Y-EN similar? Do they share item concepts?");
+                "How are RCADS-47-Y-EN and RCADS-25-Y-EN similar? Do they share item concepts?",
+                Collections.emptyList());
 
         assertTrue(resolved.isPresent());
         assertTrue(resolved.get() instanceof InstrumentSimilarityByConceptsIntent);
@@ -64,7 +71,8 @@ public class ChatIntentResolverTest {
     @Test
     public void detectsScaleConceptIntent() {
         Optional<ChatIntent> resolved = resolver.resolve(
-                "Which item concepts compose the Social Phobia (9.1) scale?");
+                "Which item concepts compose the Social Phobia (9.1) scale?",
+                Collections.emptyList());
 
         assertTrue(resolved.isPresent());
         assertTrue(resolved.get() instanceof ScaleItemConceptsIntent);
@@ -73,7 +81,35 @@ public class ChatIntentResolverTest {
     }
 
     @Test
+    public void resolvesUsingConversationHistory() {
+        List<ChatMessage> history = List.of(
+                new ChatMessage(ChatMessage.Role.USER, "Let's talk about RCADS-25-Y-EN"),
+                new ChatMessage(ChatMessage.Role.ASSISTANT, "Sure."),
+                new ChatMessage(ChatMessage.Role.USER, "What scales does it measure?")
+        );
+
+        Optional<ChatIntent> resolved = resolver.resolve("What scales does it measure?", history);
+
+        assertTrue(resolved.isPresent());
+        assertTrue(resolved.get() instanceof InstrumentScalesIntent);
+        InstrumentScalesIntent intent = (InstrumentScalesIntent) resolved.get();
+        assertEquals(INSTRUMENT_25_Y_EN, intent.instrumentUri());
+    }
+
+    @Test
+    public void matchesInstrumentWithFlexibleName() {
+        Optional<ChatIntent> resolved = resolver.resolve(
+                "Show scales for RCADS 25 English",
+                Collections.emptyList());
+
+        assertTrue(resolved.isPresent());
+        assertTrue(resolved.get() instanceof InstrumentScalesIntent);
+        InstrumentScalesIntent intent = (InstrumentScalesIntent) resolved.get();
+        assertEquals(INSTRUMENT_25_Y_EN, intent.instrumentUri());
+    }
+
+    @Test
     public void emptyIntentForUnknownQuestion() {
-        assertTrue(resolver.resolve("Tell me a joke.").isEmpty());
+        assertTrue(resolver.resolve("Tell me a joke.", Collections.emptyList()).isEmpty());
     }
 }

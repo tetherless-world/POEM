@@ -15,7 +15,7 @@ public record ConceptInstrumentUsageIntent(String conceptUri) implements ChatInt
 
     @Override
     public String description() {
-        return "Show instruments using a given concept";
+        return "Show instruments using a given item stem concept";
     }
 
     @Override

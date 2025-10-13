@@ -15,7 +15,7 @@ public record ConceptLocalizedStemsIntent(String conceptUri) implements ChatInte
 
     @Override
     public String description() {
-        return "List localised stems for an item concept";
+        return "List item stems for an item stem concept";
     }
 
     @Override
