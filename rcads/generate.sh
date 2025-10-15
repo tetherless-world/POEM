@@ -3,6 +3,8 @@
 echo "Generating RDF files from RML mappings..."
 echo "Instruments..."
 java -jar rmlmapper-8.0.0-r378-all.jar -m rml-instruments.ttl -o ../poem-demo/dist/data/instruments.ttl -s turtle
+echo "Instrument Collections..."
+java -jar rmlmapper-8.0.0-r378-all.jar -m rml-instrumentCollections.ttl -o ../poem-demo/dist/data/instrumentCollections.ttl -s turtle
 echo "Informants..."
 java -jar rmlmapper-8.0.0-r378-all.jar -m rml-informants.ttl -o ../poem-demo/dist/data/informants.ttl -s turtle
 echo "ItemStemConcepts..."
