@@ -1,0 +1,87 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://example.org/rules/> .
+@prefix schema: <http://schema.org/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix poem: <http://purl.org/twc/poem/> .
+@prefix vstoi: <http://purl.org/twc/vstoi/> .
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+:TriplesMap a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/00_InstrumentFamilies.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0030_0_InstrumentFamilies"
+  ].
+
+:TriplesMap2 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/10_Instruments.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0031_0_Instruments"
+  ].
+
+:TriplesMap rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/instrumentCollection/{FamilyID}"
+].
+
+:TriplesMap2 rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/instrument/{InstrumentID}"
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant poem:InstrumentCollection ];
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate rdfs:label;
+  rr:objectMap [
+    rml:reference "InstrumentFamily"
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate skos:notation;
+  rr:objectMap [
+    rml:reference "InstrumentFamily"
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate skos:definition;
+  rr:objectMap [
+    rml:reference "InstrumentFamilyFullName"
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:hasMember;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMap2;
+    rr:joinCondition [
+      rr:child "FamilyID";
+      rr:parent "InstrumentFamily";
+    ];
+  ];
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000059;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMap2;
+    rr:joinCondition [
+      rr:child "FamilyID";
+      rr:parent "InstrumentFamily";
+    ];
+  ];
+].
