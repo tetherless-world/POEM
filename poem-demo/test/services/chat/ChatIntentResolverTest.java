@@ -5,6 +5,7 @@ import org.junit.Test;
 import models.chat.ChatMessage;
 import services.chat.classifier.NoopIntentClassifier;
 import services.chat.intent.ChatIntent;
+import services.chat.intent.InstrumentIntent;
 import services.chat.intent.InstrumentLanguagesIntent;
 import services.chat.intent.InstrumentScalesIntent;
 import services.chat.intent.InstrumentSimilarityByConceptsIntent;
@@ -106,6 +107,18 @@ public class ChatIntentResolverTest {
         assertTrue(resolved.get() instanceof InstrumentScalesIntent);
         InstrumentScalesIntent intent = (InstrumentScalesIntent) resolved.get();
         assertEquals(INSTRUMENT_25_Y_EN, intent.instrumentUri());
+    }
+
+    @Test
+    public void detectsInstrumentMetadataIntent() {
+        Optional<ChatIntent> resolved = resolver.resolve(
+                "Provide metadata about RCADS-47-Y-EN",
+                Collections.emptyList());
+
+        assertTrue(resolved.isPresent());
+        assertTrue(resolved.get() instanceof InstrumentIntent);
+        InstrumentIntent intent = (InstrumentIntent) resolved.get();
+        assertEquals(INSTRUMENT_Y_EN, intent.instrumentUri());
     }
 
     @Test

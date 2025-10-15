@@ -1,9 +1,28 @@
 package services.chat;
 
+import models.Instrument;
+import models.QuestionnaireScale;
 import models.chat.ChatMessage;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.vocabulary.RDFS;
 import play.Logger;
 import services.OpenAIService;
 import services.chat.intent.ChatIntent;
+import services.chat.intent.ConceptInstrumentUsageIntent;
+import services.chat.intent.ConceptLocalizedStemsIntent;
+import services.chat.intent.InstrumentExperienceComparisonIntent;
+import services.chat.intent.InstrumentIntent;
+import services.chat.intent.InstrumentItemStructureIntent;
+import services.chat.intent.InstrumentLanguagesIntent;
+import services.chat.intent.InstrumentLineageIntent;
+import services.chat.intent.InstrumentQuestionTextsIntent;
+import services.chat.intent.InstrumentResponseOptionsIntent;
+import services.chat.intent.InstrumentScalesIntent;
+import services.chat.intent.InstrumentSimilarityByConceptsIntent;
+import services.chat.intent.ScaleItemConceptsIntent;
+import services.chat.intent.ScaleNotationIntent;
+import utils.POEMModel;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
@@ -58,7 +77,6 @@ public class ChatRagService {
                 List<ChatMessage> augmentedHistory = new ArrayList<>(history.size() + 1);
                 augmentedHistory.addAll(history);
                 augmentedHistory.add(contextMessage);
-                //logger.debug("Augmented history with knowledge context for intent {}: {}", intent.name(), contextMessage.getContent());
                 for (ChatMessage msg : augmentedHistory) {
                     logger.debug("Augmented history message: role={}, content={}", msg.getRole(), msg.getContent());
                 }
@@ -77,9 +95,18 @@ public class ChatRagService {
 
     private String buildKnowledgeContext(ChatIntent intent, ChatQueryResult result) {
         StringBuilder builder = new StringBuilder();
-        builder.append("The following facts were retrieved from the POEM knowledge graph ")
-                .append("for intent ").append(intent.description())
-                .append(" (" + intent.name() + "):\n");
+        builder.append("Intent: ").append(intent.description())
+                .append(" (").append(intent.name()).append(")\n");
+
+        List<String> parameterSummaries = describeIntentParameters(intent);
+        if (!parameterSummaries.isEmpty()) {
+            builder.append("Parameters:\n");
+            for (String param : parameterSummaries) {
+                builder.append("- ").append(param).append("\n");
+            }
+        }
+
+        builder.append("Facts:\n");
 
         List<Map<String, String>> rows = result.getRows();
         int rowCount = Math.min(rows.size(), MAX_ROWS_IN_CONTEXT);
@@ -99,8 +126,90 @@ public class ChatRagService {
         }
 
         builder.append("Use only these facts (and prior conversation history) to answer the user's question. ")
+                .append("The first line of your response should list a description of the Parameters. ")
                 .append("If they do not address the question, say so clearly.");
 
         return builder.toString();
+    }
+
+    private List<String> describeIntentParameters(ChatIntent intent) {
+        List<String> summaries = new ArrayList<>();
+        if (intent instanceof InstrumentIntent i) {
+            summaries.add(describeInstrument(i.instrumentUri(), "Instrument"));
+        } else if (intent instanceof InstrumentScalesIntent i) {
+            summaries.add(describeInstrument(i.instrumentUri(), "Instrument"));
+        } else if (intent instanceof InstrumentLanguagesIntent i) {
+            summaries.add(describeInstrument(i.instrumentUri(), "Instrument"));
+        } else if (intent instanceof InstrumentQuestionTextsIntent i) {
+            summaries.add(describeInstrument(i.instrumentUri(), "Instrument"));
+        } else if (intent instanceof InstrumentResponseOptionsIntent i) {
+            summaries.add(describeInstrument(i.instrumentUri(), "Instrument"));
+        } else if (intent instanceof InstrumentLineageIntent i) {
+            summaries.add(describeInstrument(i.instrumentUri(), "Instrument"));
+        } else if (intent instanceof InstrumentItemStructureIntent i) {
+            summaries.add(describeInstrument(i.instrumentUri(), "Instrument"));
+        } else if (intent instanceof InstrumentSimilarityByConceptsIntent i) {
+            int index = 1;
+            for (String uri : i.instrumentUris()) {
+                summaries.add(describeInstrument(uri, "Instrument " + index++));
+            }
+        } else if (intent instanceof InstrumentExperienceComparisonIntent i) {
+            int index = 1;
+            for (String uri : i.instrumentUris()) {
+                summaries.add(describeInstrument(uri, "Instrument " + index++));
+            }
+        } else if (intent instanceof ScaleItemConceptsIntent s) {
+            summaries.add(describeScale(s.scaleUri(), "Scale"));
+        } else if (intent instanceof ScaleNotationIntent s) {
+            summaries.add(describeScale(s.scaleUri(), "Scale"));
+        } else if (intent instanceof ConceptLocalizedStemsIntent c) {
+            summaries.add(describeConcept(c.conceptUri(), "Concept"));
+        } else if (intent instanceof ConceptInstrumentUsageIntent c) {
+            summaries.add(describeConcept(c.conceptUri(), "Concept"));
+        }
+        return summaries;
+    }
+
+    private String describeInstrument(String uri, String labelPrefix) {
+        try {
+            Instrument instrument = Instrument.getByUri(uri);
+            if (instrument != null && instrument.getLabel() != null) {
+                return labelPrefix + ": " + instrument.getLabel() + " (" + uri + ")";
+            }
+        } catch (Exception ex) {
+            logger.debug("Failed to resolve instrument {}: {}", uri, ex.getMessage());
+        }
+        return labelPrefix + ": " + uri;
+    }
+
+    private String describeScale(String uri, String labelPrefix) {
+        try {
+            QuestionnaireScale scale = QuestionnaireScale.getByUri(uri);
+            if (scale != null && scale.getLabel() != null) {
+                return labelPrefix + ": " + scale.getLabel() + " (" + uri + ")";
+            }
+        } catch (Exception ex) {
+            logger.debug("Failed to resolve scale {}: {}", uri, ex.getMessage());
+        }
+        return labelPrefix + ": " + uri;
+    }
+
+    private String describeConcept(String uri, String labelPrefix) {
+        String label = fetchLabel(uri);
+        String display = label != null ? label : uri;
+        return labelPrefix + ": " + display + " (" + uri + ")";
+    }
+
+    private String fetchLabel(String uri) {
+        try {
+            Model model = POEMModel.getModel();
+            Resource resource = model.getResource(uri);
+            if (resource != null && resource.hasProperty(RDFS.label)) {
+                return resource.getProperty(RDFS.label).getString();
+            }
+        } catch (Exception ex) {
+            logger.debug("Failed to fetch label for {}: {}", uri, ex.getMessage());
+        }
+        return null;
     }
 }

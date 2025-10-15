@@ -11,6 +11,7 @@ import services.chat.classifier.IntentClassifier.ClassificationContext;
 import services.chat.classifier.NoopIntentClassifier;
 import services.chat.intent.ChatIntent;
 import services.chat.intent.InstrumentExperienceComparisonIntent;
+import services.chat.intent.InstrumentIntent;
 import services.chat.intent.InstrumentItemStructureIntent;
 import services.chat.intent.InstrumentLanguagesIntent;
 import services.chat.intent.InstrumentLineageIntent;
@@ -168,6 +169,10 @@ public class ChatIntentResolver {
             String instrument = instruments.get(0);
             logger.debug("Heuristic matched instrument {} for message '{}'", instrument, latestMessage);
 
+            if (wantsMetadata(normalised)) {
+                return Optional.of(new InstrumentIntent(instrument));
+            }
+
             if (containsAny(normalised, "language", "translation", "translated", "locale")) {
                 return Optional.of(new InstrumentLanguagesIntent(instrument));
             }
@@ -204,6 +209,24 @@ public class ChatIntentResolver {
         }
 
         return Optional.empty();
+    }
+
+    private static boolean wantsMetadata(String normalised) {
+        return containsAny(normalised,
+                "metadata",
+                "information",
+                "details",
+                "overview",
+                "summary",
+                "describe",
+                "description",
+                "tell me about",
+                "what is",
+                "informant",
+                "type",
+                "item count",
+                "number of items",
+                "items total");
     }
 
     private static String buildContextText(String latestMessage, List<ChatMessage> history) {
