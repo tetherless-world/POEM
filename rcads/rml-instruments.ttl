@@ -113,14 +113,14 @@
 :TriplesMap rr:predicateObjectMap [
   rr:predicate sio:hasAttribute;
   rr:objectMap [
-    rr:template "http://purl.org/twc/poem/individual/informant/{Respondent}"
+    rr:template "http://purl.org/twc/poem/individual/informant/{Informant}"
   ]
 ].
 
 :TriplesMap rr:predicateObjectMap [
   rr:predicate sio:SIO_000008;
   rr:objectMap [
-    rr:template "http://purl.org/twc/poem/individual/informant/{Respondent}"
+    rr:template "http://purl.org/twc/poem/individual/informant/{Informant}"
   ]
 ].
 
