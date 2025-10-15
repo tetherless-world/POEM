@@ -119,6 +119,7 @@ public class ChatIntentResolver {
 
     public Optional<ChatIntent> resolve(String latestMessage, List<ChatMessage> history) {
         String contextText = buildContextText(latestMessage, history);
+        logger.debug("Context text for intent resolution: '{}'", contextText);
         if (contextText.isBlank()) {
             return Optional.empty();
         }

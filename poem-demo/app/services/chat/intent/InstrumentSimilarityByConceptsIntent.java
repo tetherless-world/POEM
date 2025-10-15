@@ -2,8 +2,12 @@ package services.chat.intent;
 
 import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 
 public record InstrumentSimilarityByConceptsIntent(List<String> instrumentUris) implements ChatIntent {
+
+    public static final String NAME = "INSTRUMENT_SIMILARITY_BY_CONCEPTS";
+    public static final String DESCRIPTION = "Highlight shared item concepts across instruments";
 
     public InstrumentSimilarityByConceptsIntent {
         Objects.requireNonNull(instrumentUris, "instrumentUris must not be null");
@@ -15,12 +19,12 @@ public record InstrumentSimilarityByConceptsIntent(List<String> instrumentUris) 
 
     @Override
     public String name() {
-        return "INSTRUMENT_SIMILARITY_BY_CONCEPTS";
+        return NAME;
     }
 
     @Override
     public String description() {
-        return "Highlight shared item concepts across instruments";
+        return DESCRIPTION;
     }
 
     @Override
@@ -44,5 +48,25 @@ public record InstrumentSimilarityByConceptsIntent(List<String> instrumentUris) 
             }
             ORDER BY ?conceptLabel
             """.formatted(first, second);
+    }
+
+    public static final class Provider implements IntentProvider {
+        @Override
+        public String name() {
+            return NAME;
+        }
+
+        @Override
+        public String description() {
+            return DESCRIPTION;
+        }
+
+        @Override
+        public Optional<ChatIntent> create(List<String> instrumentUris, List<String> scaleUris, List<String> conceptUris) {
+            if (instrumentUris == null || instrumentUris.size() < 2) {
+                return Optional.empty();
+            }
+            return Optional.of(new InstrumentSimilarityByConceptsIntent(instrumentUris));
+        }
     }
 }

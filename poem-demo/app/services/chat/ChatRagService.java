@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 public class ChatRagService {
 
     private static final Logger.ALogger logger = Logger.of(ChatRagService.class);
-    private static final int MAX_ROWS_IN_CONTEXT = 12;
+    private static final int MAX_ROWS_IN_CONTEXT = 100;
 
     private final OpenAIService openAIService;
     private final ChatKnowledgeService knowledgeService;
@@ -58,6 +58,10 @@ public class ChatRagService {
                 List<ChatMessage> augmentedHistory = new ArrayList<>(history.size() + 1);
                 augmentedHistory.addAll(history);
                 augmentedHistory.add(contextMessage);
+                //logger.debug("Augmented history with knowledge context for intent {}: {}", intent.name(), contextMessage.getContent());
+                for (ChatMessage msg : augmentedHistory) {
+                    logger.debug("Augmented history message: role={}, content={}", msg.getRole(), msg.getContent());
+                }
                 return openAIService.generateResponse(augmentedHistory);
             }
 

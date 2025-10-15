@@ -1,8 +1,13 @@
 package services.chat.intent;
 
+import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 
 public record ConceptLocalizedStemsIntent(String conceptUri) implements ChatIntent {
+
+    public static final String NAME = "CONCEPT_LOCALIZED_STEMS";
+    public static final String DESCRIPTION = "List localised stems for an item concept";
 
     public ConceptLocalizedStemsIntent {
         Objects.requireNonNull(conceptUri, "conceptUri must not be null");
@@ -10,12 +15,12 @@ public record ConceptLocalizedStemsIntent(String conceptUri) implements ChatInte
 
     @Override
     public String name() {
-        return "CONCEPT_LOCALIZED_STEMS";
+        return NAME;
     }
 
     @Override
     public String description() {
-        return "List item stems for an item stem concept";
+        return DESCRIPTION;
     }
 
     @Override
@@ -33,5 +38,25 @@ public record ConceptLocalizedStemsIntent(String conceptUri) implements ChatInte
             }
             ORDER BY ?language ?stemLabel
             """.formatted(conceptUri);
+    }
+
+    public static final class Provider implements IntentProvider {
+        @Override
+        public String name() {
+            return NAME;
+        }
+
+        @Override
+        public String description() {
+            return DESCRIPTION;
+        }
+
+        @Override
+        public Optional<ChatIntent> create(List<String> instrumentUris, List<String> scaleUris, List<String> conceptUris) {
+            if (conceptUris == null || conceptUris.isEmpty()) {
+                return Optional.empty();
+            }
+            return Optional.of(new ConceptLocalizedStemsIntent(conceptUris.get(0)));
+        }
     }
 }

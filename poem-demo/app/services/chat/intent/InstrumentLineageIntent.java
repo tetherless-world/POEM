@@ -1,8 +1,13 @@
 package services.chat.intent;
 
+import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 
 public record InstrumentLineageIntent(String instrumentUri) implements ChatIntent {
+
+    public static final String NAME = "INSTRUMENT_LINEAGE";
+    public static final String DESCRIPTION = "Summarise provenance of an instrument";
 
     public InstrumentLineageIntent {
         Objects.requireNonNull(instrumentUri, "instrumentUri must not be null");
@@ -10,12 +15,12 @@ public record InstrumentLineageIntent(String instrumentUri) implements ChatInten
 
     @Override
     public String name() {
-        return "INSTRUMENT_LINEAGE";
+        return NAME;
     }
 
     @Override
     public String description() {
-        return "Summarise provenance of an instrument";
+        return DESCRIPTION;
     }
 
     @Override
@@ -44,5 +49,25 @@ public record InstrumentLineageIntent(String instrumentUri) implements ChatInten
             }
             ORDER BY ?activity ?relationship ?relatedLabel
             """.formatted(instrumentUri);
+    }
+
+    public static final class Provider implements IntentProvider {
+        @Override
+        public String name() {
+            return NAME;
+        }
+
+        @Override
+        public String description() {
+            return DESCRIPTION;
+        }
+
+        @Override
+        public Optional<ChatIntent> create(List<String> instrumentUris, List<String> scaleUris, List<String> conceptUris) {
+            if (instrumentUris == null || instrumentUris.isEmpty()) {
+                return Optional.empty();
+            }
+            return Optional.of(new InstrumentLineageIntent(instrumentUris.get(0)));
+        }
     }
 }

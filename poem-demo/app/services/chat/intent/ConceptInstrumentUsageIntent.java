@@ -1,8 +1,13 @@
 package services.chat.intent;
 
+import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 
 public record ConceptInstrumentUsageIntent(String conceptUri) implements ChatIntent {
+
+    public static final String NAME = "CONCEPT_INSTRUMENT_USAGE";
+    public static final String DESCRIPTION = "Show instruments using a given concept";
 
     public ConceptInstrumentUsageIntent {
         Objects.requireNonNull(conceptUri, "conceptUri must not be null");
@@ -10,12 +15,12 @@ public record ConceptInstrumentUsageIntent(String conceptUri) implements ChatInt
 
     @Override
     public String name() {
-        return "CONCEPT_INSTRUMENT_USAGE";
+        return NAME;
     }
 
     @Override
     public String description() {
-        return "Show instruments using a given item stem concept";
+        return DESCRIPTION;
     }
 
     @Override
@@ -34,5 +39,25 @@ public record ConceptInstrumentUsageIntent(String conceptUri) implements ChatInt
             }
             ORDER BY ?instrumentLabel
             """.formatted(conceptUri);
+    }
+
+    public static final class Provider implements IntentProvider {
+        @Override
+        public String name() {
+            return NAME;
+        }
+
+        @Override
+        public String description() {
+            return DESCRIPTION;
+        }
+
+        @Override
+        public Optional<ChatIntent> create(List<String> instrumentUris, List<String> scaleUris, List<String> conceptUris) {
+            if (conceptUris == null || conceptUris.isEmpty()) {
+                return Optional.empty();
+            }
+            return Optional.of(new ConceptInstrumentUsageIntent(conceptUris.get(0)));
+        }
     }
 }

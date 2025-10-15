@@ -1,8 +1,13 @@
 package services.chat.intent;
 
+import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 
 public record InstrumentResponseOptionsIntent(String instrumentUri) implements ChatIntent {
+
+    public static final String NAME = "INSTRUMENT_RESPONSE_OPTIONS";
+    public static final String DESCRIPTION = "Describe response options used by an instrument";
 
     public InstrumentResponseOptionsIntent {
         Objects.requireNonNull(instrumentUri, "instrumentUri must not be null");
@@ -10,12 +15,12 @@ public record InstrumentResponseOptionsIntent(String instrumentUri) implements C
 
     @Override
     public String name() {
-        return "INSTRUMENT_RESPONSE_OPTIONS";
+        return NAME;
     }
 
     @Override
     public String description() {
-        return "Describe response options used by an instrument";
+        return DESCRIPTION;
     }
 
     @Override
@@ -46,5 +51,25 @@ public record InstrumentResponseOptionsIntent(String instrumentUri) implements C
             }
             ORDER BY ?item ?order
             """.formatted(instrumentUri);
+    }
+
+    public static final class Provider implements IntentProvider {
+        @Override
+        public String name() {
+            return NAME;
+        }
+
+        @Override
+        public String description() {
+            return DESCRIPTION;
+        }
+
+        @Override
+        public Optional<ChatIntent> create(List<String> instrumentUris, List<String> scaleUris, List<String> conceptUris) {
+            if (instrumentUris == null || instrumentUris.isEmpty()) {
+                return Optional.empty();
+            }
+            return Optional.of(new InstrumentResponseOptionsIntent(instrumentUris.get(0)));
+        }
     }
 }

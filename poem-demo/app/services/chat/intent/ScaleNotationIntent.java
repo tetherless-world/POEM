@@ -1,8 +1,13 @@
 package services.chat.intent;
 
+import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 
 public record ScaleNotationIntent(String scaleUri) implements ChatIntent {
+
+    public static final String NAME = "SCALE_NOTATION";
+    public static final String DESCRIPTION = "Show label and notation for a scale";
 
     public ScaleNotationIntent {
         Objects.requireNonNull(scaleUri, "scaleUri must not be null");
@@ -10,12 +15,12 @@ public record ScaleNotationIntent(String scaleUri) implements ChatIntent {
 
     @Override
     public String name() {
-        return "SCALE_NOTATION";
+        return NAME;
     }
 
     @Override
     public String description() {
-        return "Show label and notation for a scale";
+        return DESCRIPTION;
     }
 
     @Override
@@ -31,5 +36,25 @@ public record ScaleNotationIntent(String scaleUri) implements ChatIntent {
               OPTIONAL { ?scale skos:notation ?notation }
             }
             """.formatted(scaleUri);
+    }
+
+    public static final class Provider implements IntentProvider {
+        @Override
+        public String name() {
+            return NAME;
+        }
+
+        @Override
+        public String description() {
+            return DESCRIPTION;
+        }
+
+        @Override
+        public Optional<ChatIntent> create(List<String> instrumentUris, List<String> scaleUris, List<String> conceptUris) {
+            if (scaleUris == null || scaleUris.isEmpty()) {
+                return Optional.empty();
+            }
+            return Optional.of(new ScaleNotationIntent(scaleUris.get(0)));
+        }
     }
 }

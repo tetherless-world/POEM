@@ -1,0 +1,12 @@
+services.chat.intent.InstrumentScalesIntent$Provider
+services.chat.intent.InstrumentLanguagesIntent$Provider
+services.chat.intent.InstrumentQuestionTextsIntent$Provider
+services.chat.intent.InstrumentResponseOptionsIntent$Provider
+services.chat.intent.InstrumentLineageIntent$Provider
+services.chat.intent.InstrumentSimilarityByConceptsIntent$Provider
+services.chat.intent.InstrumentItemStructureIntent$Provider
+services.chat.intent.InstrumentExperienceComparisonIntent$Provider
+services.chat.intent.ScaleItemConceptsIntent$Provider
+services.chat.intent.ScaleNotationIntent$Provider
+services.chat.intent.ConceptLocalizedStemsIntent$Provider
+services.chat.intent.ConceptInstrumentUsageIntent$Provider

@@ -1,8 +1,13 @@
 package services.chat.intent;
 
+import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 
 public record InstrumentLanguagesIntent(String instrumentUri) implements ChatIntent {
+
+    public static final String NAME = "INSTRUMENT_LANGUAGES";
+    public static final String DESCRIPTION = "Identify the language metadata for an instrument";
 
     public InstrumentLanguagesIntent {
         Objects.requireNonNull(instrumentUri, "instrumentUri must not be null");
@@ -10,12 +15,12 @@ public record InstrumentLanguagesIntent(String instrumentUri) implements ChatInt
 
     @Override
     public String name() {
-        return "INSTRUMENT_LANGUAGES";
+        return NAME;
     }
 
     @Override
     public String description() {
-        return "Identify the language metadata for an instrument";
+        return DESCRIPTION;
     }
 
     @Override
@@ -35,5 +40,25 @@ public record InstrumentLanguagesIntent(String instrumentUri) implements ChatInt
               OPTIONAL { ?language skos:notation ?isoCode }
             }
             """.formatted(instrumentUri);
+    }
+
+    public static final class Provider implements IntentProvider {
+        @Override
+        public String name() {
+            return NAME;
+        }
+
+        @Override
+        public String description() {
+            return DESCRIPTION;
+        }
+
+        @Override
+        public Optional<ChatIntent> create(List<String> instrumentUris, List<String> scaleUris, List<String> conceptUris) {
+            if (instrumentUris == null || instrumentUris.isEmpty()) {
+                return Optional.empty();
+            }
+            return Optional.of(new InstrumentLanguagesIntent(instrumentUris.get(0)));
+        }
     }
 }

@@ -1,8 +1,13 @@
 package services.chat.intent;
 
+import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 
 public record InstrumentScalesIntent(String instrumentUri) implements ChatIntent {
+
+    public static final String NAME = "INSTRUMENT_SCALES";
+    public static final String DESCRIPTION = "List scales associated with an instrument";
 
     public InstrumentScalesIntent {
         Objects.requireNonNull(instrumentUri, "instrumentUri must not be null");
@@ -10,12 +15,12 @@ public record InstrumentScalesIntent(String instrumentUri) implements ChatIntent
 
     @Override
     public String name() {
-        return "INSTRUMENT_SCALES";
+        return NAME;
     }
 
     @Override
     public String description() {
-        return "List scales associated with an instrument";
+        return DESCRIPTION;
     }
 
     @Override
@@ -37,5 +42,25 @@ public record InstrumentScalesIntent(String instrumentUri) implements ChatIntent
             }
             ORDER BY ?scaleLabel
             """.formatted(instrumentUri);
+    }
+
+    public static final class Provider implements IntentProvider {
+        @Override
+        public String name() {
+            return NAME;
+        }
+
+        @Override
+        public String description() {
+            return DESCRIPTION;
+        }
+
+        @Override
+        public Optional<ChatIntent> create(List<String> instrumentUris, List<String> scaleUris, List<String> conceptUris) {
+            if (instrumentUris == null || instrumentUris.isEmpty()) {
+                return Optional.empty();
+            }
+            return Optional.of(new InstrumentScalesIntent(instrumentUris.get(0)));
+        }
     }
 }

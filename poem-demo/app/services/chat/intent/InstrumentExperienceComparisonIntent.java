@@ -2,8 +2,12 @@ package services.chat.intent;
 
 import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 
 public record InstrumentExperienceComparisonIntent(List<String> instrumentUris) implements ChatIntent {
+
+    public static final String NAME = "INSTRUMENT_EXPERIENCE_COMPARISON";
+    public static final String DESCRIPTION = "Compare response experiences across instruments";
 
     public InstrumentExperienceComparisonIntent {
         Objects.requireNonNull(instrumentUris, "instrumentUris must not be null");
@@ -15,12 +19,12 @@ public record InstrumentExperienceComparisonIntent(List<String> instrumentUris) 
 
     @Override
     public String name() {
-        return "INSTRUMENT_EXPERIENCE_COMPARISON";
+        return NAME;
     }
 
     @Override
     public String description() {
-        return "Compare response experiences across instruments";
+        return DESCRIPTION;
     }
 
     @Override
@@ -41,5 +45,25 @@ public record InstrumentExperienceComparisonIntent(List<String> instrumentUris) 
             }
             ORDER BY ?instrument ?experienceLabel
             """.formatted(first, second);
+    }
+
+    public static final class Provider implements IntentProvider {
+        @Override
+        public String name() {
+            return NAME;
+        }
+
+        @Override
+        public String description() {
+            return DESCRIPTION;
+        }
+
+        @Override
+        public Optional<ChatIntent> create(List<String> instrumentUris, List<String> scaleUris, List<String> conceptUris) {
+            if (instrumentUris == null || instrumentUris.size() < 2) {
+                return Optional.empty();
+            }
+            return Optional.of(new InstrumentExperienceComparisonIntent(instrumentUris));
+        }
     }
 }
