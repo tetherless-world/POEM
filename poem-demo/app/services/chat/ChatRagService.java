@@ -6,11 +6,13 @@ import models.chat.ChatMessage;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.vocabulary.RDFS;
+import org.apache.jena.vocabulary.SKOS;
 import play.Logger;
 import services.OpenAIService;
 import services.chat.intent.ChatIntent;
 import services.chat.intent.ConceptInstrumentUsageIntent;
 import services.chat.intent.ConceptLocalizedStemsIntent;
+import services.chat.intent.InstrumentCollectionIntent;
 import services.chat.intent.InstrumentExperienceComparisonIntent;
 import services.chat.intent.InstrumentIntent;
 import services.chat.intent.InstrumentItemStructureIntent;
@@ -126,7 +128,8 @@ public class ChatRagService {
         }
 
         builder.append("Use only these facts (and prior conversation history) to answer the user's question. ")
-                .append("The first line of your response should list a description of the Parameters. ")
+                //.append("Explicitly mention each parameter label with its URI in parentheses (e.g., Name (URI)). ")
+                .append("From these facts, construct a concise and accurate answer to the user's question. Generate a complete sentence response that is easy to understand. ")
                 .append("If they do not address the question, say so clearly.");
 
         return builder.toString();
@@ -134,7 +137,9 @@ public class ChatRagService {
 
     private List<String> describeIntentParameters(ChatIntent intent) {
         List<String> summaries = new ArrayList<>();
-        if (intent instanceof InstrumentIntent i) {
+        if (intent instanceof InstrumentCollectionIntent collectionIntent) {
+            summaries.add(describeInstrumentCollection(collectionIntent.collectionUri(), "Instrument Collection"));
+        } else if (intent instanceof InstrumentIntent i) {
             summaries.add(describeInstrument(i.instrumentUri(), "Instrument"));
         } else if (intent instanceof InstrumentScalesIntent i) {
             summaries.add(describeInstrument(i.instrumentUri(), "Instrument"));
@@ -168,6 +173,19 @@ public class ChatRagService {
             summaries.add(describeConcept(c.conceptUri(), "Concept"));
         }
         return summaries;
+    }
+
+    private String describeInstrumentCollection(String uri, String labelPrefix) {
+        String label = fetchLabel(uri);
+        String definition = fetchDefinition(uri);
+        StringBuilder summary = new StringBuilder();
+        summary.append(labelPrefix).append(": ")
+                .append(label != null ? label : uri)
+                .append(" (").append(uri).append(")");
+        if (definition != null && !definition.isBlank()) {
+            summary.append(" - ").append(definition);
+        }
+        return summary.toString();
     }
 
     private String describeInstrument(String uri, String labelPrefix) {
@@ -209,6 +227,19 @@ public class ChatRagService {
             }
         } catch (Exception ex) {
             logger.debug("Failed to fetch label for {}: {}", uri, ex.getMessage());
+        }
+        return null;
+    }
+
+    private String fetchDefinition(String uri) {
+        try {
+            Model model = POEMModel.getModel();
+            Resource resource = model.getResource(uri);
+            if (resource != null && resource.hasProperty(SKOS.definition)) {
+                return resource.getProperty(SKOS.definition).getString();
+            }
+        } catch (Exception ex) {
+            logger.debug("Failed to fetch definition for {}: {}", uri, ex.getMessage());
         }
         return null;
     }

@@ -52,7 +52,7 @@ public record ConceptLocalizedStemsIntent(String conceptUri) implements ChatInte
         }
 
         @Override
-        public Optional<ChatIntent> create(List<String> instrumentUris, List<String> scaleUris, List<String> conceptUris) {
+        public Optional<ChatIntent> create(List<String> collectionUris, List<String> instrumentUris, List<String> scaleUris, List<String> conceptUris) {
             if (conceptUris == null || conceptUris.isEmpty()) {
                 return Optional.empty();
             }

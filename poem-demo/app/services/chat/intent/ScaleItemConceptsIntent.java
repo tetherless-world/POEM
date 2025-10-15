@@ -51,7 +51,7 @@ public record ScaleItemConceptsIntent(String scaleUri) implements ChatIntent {
         }
 
         @Override
-        public Optional<ChatIntent> create(List<String> instrumentUris, List<String> scaleUris, List<String> conceptUris) {
+        public Optional<ChatIntent> create(List<String> collectionUris, List<String> instrumentUris, List<String> scaleUris, List<String> conceptUris) {
             if (scaleUris == null || scaleUris.isEmpty()) {
                 return Optional.empty();
             }

@@ -62,7 +62,7 @@ public record InstrumentSimilarityByConceptsIntent(List<String> instrumentUris) 
         }
 
         @Override
-        public Optional<ChatIntent> create(List<String> instrumentUris, List<String> scaleUris, List<String> conceptUris) {
+        public Optional<ChatIntent> create(List<String> collectionUris, List<String> instrumentUris, List<String> scaleUris, List<String> conceptUris) {
             if (instrumentUris == null || instrumentUris.size() < 2) {
                 return Optional.empty();
             }

@@ -36,6 +36,7 @@ public final class IntentFactory {
     }
 
     public static Optional<ChatIntent> create(String intentName,
+                                              List<String> collectionUris,
                                               List<String> instrumentUris,
                                               List<String> scaleUris,
                                               List<String> conceptUris) {
@@ -47,11 +48,12 @@ public final class IntentFactory {
             return Optional.empty();
         }
 
+        List<String> collections = collectionUris == null ? List.of() : List.copyOf(collectionUris);
         List<String> instruments = instrumentUris == null ? List.of() : List.copyOf(instrumentUris);
         List<String> scales = scaleUris == null ? List.of() : List.copyOf(scaleUris);
         List<String> concepts = conceptUris == null ? List.of() : List.copyOf(conceptUris);
 
-        return provider.create(instruments, scales, concepts);
+        return provider.create(collections, instruments, scales, concepts);
     }
 
     public record IntentDefinition(String name, String description) {
@@ -64,6 +66,7 @@ public final class IntentFactory {
 
     private static void registerFallbackProviders(Map<String, IntentProvider> providers) {
         addProvider(providers, new InstrumentIntent.Provider());
+        addProvider(providers, new InstrumentCollectionIntent.Provider());
         addProvider(providers, new InstrumentScalesIntent.Provider());
         addProvider(providers, new InstrumentLanguagesIntent.Provider());
         addProvider(providers, new InstrumentQuestionTextsIntent.Provider());

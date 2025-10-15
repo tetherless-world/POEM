@@ -5,6 +5,7 @@ import org.junit.Test;
 import models.chat.ChatMessage;
 import services.chat.classifier.NoopIntentClassifier;
 import services.chat.intent.ChatIntent;
+import services.chat.intent.InstrumentCollectionIntent;
 import services.chat.intent.InstrumentIntent;
 import services.chat.intent.InstrumentLanguagesIntent;
 import services.chat.intent.InstrumentScalesIntent;
@@ -119,6 +120,18 @@ public class ChatIntentResolverTest {
         assertTrue(resolved.get() instanceof InstrumentIntent);
         InstrumentIntent intent = (InstrumentIntent) resolved.get();
         assertEquals(INSTRUMENT_Y_EN, intent.instrumentUri());
+    }
+
+    @Test
+    public void detectsInstrumentCollectionIntent() {
+        Optional<ChatIntent> resolved = resolver.resolve(
+                "Give me the details for the RCADS instrument collection",
+                Collections.emptyList());
+
+        assertTrue(resolved.isPresent());
+        assertTrue(resolved.get() instanceof InstrumentCollectionIntent);
+        InstrumentCollectionIntent intent = (InstrumentCollectionIntent) resolved.get();
+        assertEquals("http://purl.org/twc/poem/individual/instrumentCollection/1", intent.collectionUri());
     }
 
     @Test

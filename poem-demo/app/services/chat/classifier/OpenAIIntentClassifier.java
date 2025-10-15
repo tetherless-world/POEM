@@ -39,7 +39,10 @@ public class OpenAIIntentClassifier implements IntentClassifier {
 
     @Override
     public Optional<ChatIntent> classify(String message, ClassificationContext context) {
-        if (context.instruments().isEmpty() && context.scales().isEmpty() && context.concepts().isEmpty()) {
+        if (context.collections().isEmpty()
+                && context.instruments().isEmpty()
+                && context.scales().isEmpty()
+                && context.concepts().isEmpty()) {
             return Optional.empty();
         }
         try {
@@ -71,7 +74,7 @@ public class OpenAIIntentClassifier implements IntentClassifier {
             }
 
             ResultPayload result = payload.get();
-            return IntentFactory.create(result.intentName(), result.instrumentUris(), result.scaleUris(), result.conceptUris());
+            return IntentFactory.create(result.intentName(), result.collectionUris(), result.instrumentUris(), result.scaleUris(), result.conceptUris());
         } catch (Exception ex) {
             logger.warn("Intent classification via LLM failed: {}", ex.getMessage(), ex);
             return Optional.empty();
@@ -89,7 +92,7 @@ public class OpenAIIntentClassifier implements IntentClassifier {
                 + "Intents:\n"
                 + intentDescriptions + "\n\n"
                 + "Respond with a strict JSON object containing the fields:\n"
-                + "{ \"intent\": string|null, \"instrumentUris\": string[], \"scaleUris\": string[], \"conceptUris\": string[] }\n"
+                + "{ \"intent\": string|null, \"collectionUris\": string[], \"instrumentUris\": string[], \"scaleUris\": string[], \"conceptUris\": string[] }\n"
                 + "Use the provided candidate URIs only. If you are unsure, set \"intent\" to null.\n"
                 + "Do not include any additional text.";
     }
@@ -99,7 +102,9 @@ public class OpenAIIntentClassifier implements IntentClassifier {
         builder.append("User question:\n");
         builder.append(message).append("\n\n");
 
-        builder.append("Candidate instruments:\n");
+        builder.append("Candidate instrument collections:\n");
+        appendCandidates(builder, context.collections());
+        builder.append("\nCandidate instruments:\n");
         appendCandidates(builder, context.instruments());
         builder.append("\nCandidate scales:\n");
         appendCandidates(builder, context.scales());
@@ -140,6 +145,7 @@ public class OpenAIIntentClassifier implements IntentClassifier {
             JsonNode intentNode = root.get("intent");
             String intentName = intentNode == null || intentNode.isNull() ? null : intentNode.asText();
 
+            List<String> collectionUris = filterValidUris(readStringArray(root.get("collectionUris")), context.collections());
             List<String> instrumentUris = filterValidUris(readStringArray(root.get("instrumentUris")), context.instruments());
             List<String> scaleUris = filterValidUris(readStringArray(root.get("scaleUris")), context.scales());
             List<String> conceptUris = filterValidUris(readStringArray(root.get("conceptUris")), context.concepts());
@@ -148,7 +154,7 @@ public class OpenAIIntentClassifier implements IntentClassifier {
                 return Optional.empty();
             }
 
-            return Optional.of(new ResultPayload(intentName, instrumentUris, scaleUris, conceptUris));
+            return Optional.of(new ResultPayload(intentName, collectionUris, instrumentUris, scaleUris, conceptUris));
         } catch (Exception ex) {
             logger.debug("Failed to parse classifier response '{}': {}", content, ex.getMessage());
             return Optional.empty();
@@ -197,6 +203,7 @@ public class OpenAIIntentClassifier implements IntentClassifier {
     }
 
     private record ResultPayload(String intentName,
+                                 List<String> collectionUris,
                                  List<String> instrumentUris,
                                  List<String> scaleUris,
                                  List<String> conceptUris) {

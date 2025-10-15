@@ -13,7 +13,8 @@ public interface IntentProvider {
 
     String description();
 
-    Optional<ChatIntent> create(List<String> instrumentUris,
+    Optional<ChatIntent> create(List<String> collectionUris,
+                                List<String> instrumentUris,
                                 List<String> scaleUris,
                                 List<String> conceptUris);
 }

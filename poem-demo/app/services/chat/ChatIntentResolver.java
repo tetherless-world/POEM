@@ -4,12 +4,21 @@ import models.Instrument;
 import models.Language;
 import models.QuestionnaireScale;
 import models.chat.ChatMessage;
+import org.apache.jena.query.Query;
+import org.apache.jena.query.QueryExecution;
+import org.apache.jena.query.QueryExecutionFactory;
+import org.apache.jena.query.QueryFactory;
+import org.apache.jena.query.QuerySolution;
+import org.apache.jena.query.ResultSet;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.Resource;
 import play.Logger;
 import services.chat.classifier.IntentClassifier;
 import services.chat.classifier.IntentClassifier.Candidate;
 import services.chat.classifier.IntentClassifier.ClassificationContext;
 import services.chat.classifier.NoopIntentClassifier;
 import services.chat.intent.ChatIntent;
+import services.chat.intent.InstrumentCollectionIntent;
 import services.chat.intent.InstrumentExperienceComparisonIntent;
 import services.chat.intent.InstrumentIntent;
 import services.chat.intent.InstrumentItemStructureIntent;
@@ -21,6 +30,7 @@ import services.chat.intent.InstrumentScalesIntent;
 import services.chat.intent.InstrumentSimilarityByConceptsIntent;
 import services.chat.intent.ScaleItemConceptsIntent;
 import services.chat.intent.ScaleNotationIntent;
+import utils.POEMModel;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
@@ -104,6 +114,7 @@ public class ChatIntentResolver {
     }
 
     private final IntentClassifier classifier;
+    private final List<ResourceEntry> collectionEntries;
     private final List<ResourceEntry> instrumentEntries;
     private final List<ResourceEntry> scaleEntries;
 
@@ -114,6 +125,7 @@ public class ChatIntentResolver {
     @Inject
     public ChatIntentResolver(IntentClassifier classifier) {
         this.classifier = classifier;
+        this.collectionEntries = buildInstrumentCollectionIndex();
         this.instrumentEntries = buildInstrumentIndex();
         this.scaleEntries = buildScaleIndex();
     }
@@ -126,13 +138,14 @@ public class ChatIntentResolver {
         }
 
         String normalised = contextText.toLowerCase(Locale.ROOT);
-        String canonical = canonicalise(contextText);
         Set<String> messageTokens = tokenize(contextText);
 
+        List<ResourceEntry> collectionMatches = findMatches(messageTokens, collectionEntries);
         List<ResourceEntry> instrumentMatches = findMatches(messageTokens, instrumentEntries);
         List<ResourceEntry> scaleMatches = findMatches(messageTokens, scaleEntries);
 
         ClassificationContext classificationContext = new ClassificationContext(
+                toCandidates(collectionMatches, 5),
                 toCandidates(instrumentMatches, 5),
                 toCandidates(scaleMatches, 5),
                 List.of()
@@ -146,12 +159,22 @@ public class ChatIntentResolver {
             logger.debug("LLM classification returned no result for message '{}'", latestMessage);
         }
 
+        List<String> collections = collectionMatches.stream()
+                .map(ResourceEntry::uri)
+                .collect(Collectors.toList());
         List<String> instruments = instrumentMatches.stream()
                 .map(ResourceEntry::uri)
                 .collect(Collectors.toList());
         List<String> scales = scaleMatches.stream()
                 .map(ResourceEntry::uri)
                 .collect(Collectors.toList());
+
+        if (!collections.isEmpty()) {
+            String collection = collections.get(0);
+            if (mentionsCollection(normalised) || wantsCollectionMetadata(normalised)) {
+                return Optional.of(new InstrumentCollectionIntent(collection));
+            }
+        }
 
         // Heuristic fallback
         if (instruments.size() >= 2) {
@@ -229,6 +252,20 @@ public class ChatIntentResolver {
                 "items total");
     }
 
+    private static boolean wantsCollectionMetadata(String normalised) {
+        return containsAny(normalised,
+                "collection",
+                "collections",
+                "instrument collection",
+                "family",
+                "families",
+                "instrument family");
+    }
+
+    private static boolean mentionsCollection(String normalised) {
+        return containsAny(normalised, "collection", "collections", "family", "families", "instrument collection", "instrument family");
+    }
+
     private static String buildContextText(String latestMessage, List<ChatMessage> history) {
         StringBuilder builder = new StringBuilder();
         if (history != null) {
@@ -273,6 +310,49 @@ public class ChatIntentResolver {
             }
         }
         return score;
+    }
+
+    private static List<ResourceEntry> buildInstrumentCollectionIndex() {
+        List<ResourceEntry> entries = new ArrayList<>();
+        String queryText = """
+            PREFIX poem: <http://purl.org/twc/poem/>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+            SELECT ?collection ?label ?definition
+            WHERE {
+              ?collection a poem:InstrumentCollection .
+              OPTIONAL { ?collection rdfs:label ?label }
+              OPTIONAL { ?collection skos:definition ?definition }
+            }
+        """;
+
+        Model model = POEMModel.getModel();
+        Query query = QueryFactory.create(queryText);
+        try (QueryExecution qexec = QueryExecutionFactory.create(query, model)) {
+            ResultSet results = qexec.execSelect();
+            while (results.hasNext()) {
+                QuerySolution sol = results.next();
+                Resource resource = sol.getResource("collection");
+                String uri = resource.getURI();
+                String label = sol.contains("label") ? sol.getLiteral("label").getString() : uri;
+                Set<String> tokens = new LinkedHashSet<>();
+                for (String variant : generateVariants(label)) {
+                    tokens.addAll(tokenize(variant));
+                }
+                if (sol.contains("definition")) {
+                    tokens.addAll(basicTokens(sol.getLiteral("definition").getString()));
+                }
+                tokens.add("collection");
+                tokens.add("collections");
+                tokens.add("family");
+                tokens.add("families");
+                tokens.add("instrumentcollection");
+                tokens.add("instrumentfamily");
+                entries.add(new ResourceEntry(label, uri, tokens));
+            }
+        }
+        return entries;
     }
 
     private static List<ResourceEntry> buildInstrumentIndex() {

@@ -13,12 +13,13 @@ public interface IntentClassifier {
     Optional<ChatIntent> classify(String message, ClassificationContext context);
 
     record ClassificationContext(
+            List<Candidate> collections,
             List<Candidate> instruments,
             List<Candidate> scales,
             List<Candidate> concepts) {
 
         public static ClassificationContext empty() {
-            return new ClassificationContext(List.of(), List.of(), List.of());
+            return new ClassificationContext(List.of(), List.of(), List.of(), List.of());
         }
     }
 

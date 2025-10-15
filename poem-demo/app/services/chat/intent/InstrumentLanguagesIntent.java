@@ -54,7 +54,7 @@ public record InstrumentLanguagesIntent(String instrumentUri) implements ChatInt
         }
 
         @Override
-        public Optional<ChatIntent> create(List<String> instrumentUris, List<String> scaleUris, List<String> conceptUris) {
+        public Optional<ChatIntent> create(List<String> collectionUris, List<String> instrumentUris, List<String> scaleUris, List<String> conceptUris) {
             if (instrumentUris == null || instrumentUris.isEmpty()) {
                 return Optional.empty();
             }
