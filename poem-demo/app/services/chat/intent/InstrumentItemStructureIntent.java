@@ -28,12 +28,14 @@ public record InstrumentItemStructureIntent(String instrumentUri) implements Cha
         return """
             PREFIX sio:  <http://semanticscience.org/resource/>
             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            PREFIX vstoi: <http://purl.org/twc/vstoi/>
 
             SELECT DISTINCT ?order ?item ?itemStem ?stemLabel
             WHERE {
               VALUES ?instrument { <%s> }
 
               ?instrument sio:SIO_000059 ?item .
+              ?item a vstoi:Item .
               OPTIONAL { ?item sio:hasSource ?itemStem }
               OPTIONAL { ?itemStem rdfs:label ?stemLabel }
 

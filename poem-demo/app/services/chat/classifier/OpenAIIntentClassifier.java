@@ -74,6 +74,12 @@ public class OpenAIIntentClassifier implements IntentClassifier {
             }
 
             ResultPayload result = payload.get();
+            logger.debug("Classified intent '{}' with {} collection(s), {} instrument(s), {} scale(s), and {} concept(s)",
+                    result.intentName(),
+                    result.collectionUris().size(),
+                    result.instrumentUris().size(),
+                    result.scaleUris().size(),
+                    result.conceptUris().size());
             return IntentFactory.create(result.intentName(), result.collectionUris(), result.instrumentUris(), result.scaleUris(), result.conceptUris());
         } catch (Exception ex) {
             logger.warn("Intent classification via LLM failed: {}", ex.getMessage(), ex);

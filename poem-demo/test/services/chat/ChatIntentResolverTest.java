@@ -7,6 +7,8 @@ import services.chat.classifier.NoopIntentClassifier;
 import services.chat.intent.ChatIntent;
 import services.chat.intent.InstrumentCollectionIntent;
 import services.chat.intent.InstrumentIntent;
+import services.chat.intent.ListInstrumentCollectionsIntent;
+import services.chat.intent.ListInstrumentsIntent;
 import services.chat.intent.InstrumentLanguagesIntent;
 import services.chat.intent.InstrumentScalesIntent;
 import services.chat.intent.InstrumentSimilarityByConceptsIntent;
@@ -132,6 +134,26 @@ public class ChatIntentResolverTest {
         assertTrue(resolved.get() instanceof InstrumentCollectionIntent);
         InstrumentCollectionIntent intent = (InstrumentCollectionIntent) resolved.get();
         assertEquals("http://purl.org/twc/poem/individual/instrumentCollection/1", intent.collectionUri());
+    }
+
+    @Test
+    public void detectsListInstrumentCollectionsIntent() {
+        Optional<ChatIntent> resolved = resolver.resolve(
+                "List all instrument collections",
+                Collections.emptyList());
+
+        assertTrue(resolved.isPresent());
+        assertTrue(resolved.get() instanceof ListInstrumentCollectionsIntent);
+    }
+
+    @Test
+    public void detectsListInstrumentsIntent() {
+        Optional<ChatIntent> resolved = resolver.resolve(
+                "List all instruments",
+                Collections.emptyList());
+
+        assertTrue(resolved.isPresent());
+        assertTrue(resolved.get() instanceof ListInstrumentsIntent);
     }
 
     @Test

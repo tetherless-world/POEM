@@ -67,6 +67,8 @@ public final class IntentFactory {
     private static void registerFallbackProviders(Map<String, IntentProvider> providers) {
         addProvider(providers, new InstrumentIntent.Provider());
         addProvider(providers, new InstrumentCollectionIntent.Provider());
+        addProvider(providers, new ListInstrumentsIntent.Provider());
+        addProvider(providers, new ListInstrumentCollectionsIntent.Provider());
         addProvider(providers, new InstrumentScalesIntent.Provider());
         addProvider(providers, new InstrumentLanguagesIntent.Provider());
         addProvider(providers, new InstrumentQuestionTextsIntent.Provider());

@@ -1,6 +1,8 @@
 services.chat.intent.InstrumentScalesIntent$Provider
 services.chat.intent.InstrumentCollectionIntent$Provider
+services.chat.intent.ListInstrumentCollectionsIntent$Provider
 services.chat.intent.InstrumentIntent$Provider
+services.chat.intent.ListInstrumentsIntent$Provider
 services.chat.intent.InstrumentLanguagesIntent$Provider
 services.chat.intent.InstrumentQuestionTextsIntent$Provider
 services.chat.intent.InstrumentResponseOptionsIntent$Provider

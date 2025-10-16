@@ -22,6 +22,8 @@ import services.chat.intent.InstrumentQuestionTextsIntent;
 import services.chat.intent.InstrumentResponseOptionsIntent;
 import services.chat.intent.InstrumentScalesIntent;
 import services.chat.intent.InstrumentSimilarityByConceptsIntent;
+import services.chat.intent.ListInstrumentCollectionsIntent;
+import services.chat.intent.ListInstrumentsIntent;
 import services.chat.intent.ScaleItemConceptsIntent;
 import services.chat.intent.ScaleNotationIntent;
 import utils.POEMModel;
@@ -137,7 +139,11 @@ public class ChatRagService {
 
     private List<String> describeIntentParameters(ChatIntent intent) {
         List<String> summaries = new ArrayList<>();
-        if (intent instanceof InstrumentCollectionIntent collectionIntent) {
+        if (intent instanceof ListInstrumentCollectionsIntent) {
+            summaries.add("Instrument Collections: all (multiple URIs)");
+        } else if (intent instanceof ListInstrumentsIntent) {
+            summaries.add("Instruments: all (multiple URIs)");
+        } else if (intent instanceof InstrumentCollectionIntent collectionIntent) {
             summaries.add(describeInstrumentCollection(collectionIntent.collectionUri(), "Instrument Collection"));
         } else if (intent instanceof InstrumentIntent i) {
             summaries.add(describeInstrument(i.instrumentUri(), "Instrument"));

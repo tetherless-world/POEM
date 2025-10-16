@@ -28,6 +28,8 @@ import services.chat.intent.InstrumentQuestionTextsIntent;
 import services.chat.intent.InstrumentResponseOptionsIntent;
 import services.chat.intent.InstrumentScalesIntent;
 import services.chat.intent.InstrumentSimilarityByConceptsIntent;
+import services.chat.intent.ListInstrumentCollectionsIntent;
+import services.chat.intent.ListInstrumentsIntent;
 import services.chat.intent.ScaleItemConceptsIntent;
 import services.chat.intent.ScaleNotationIntent;
 import utils.POEMModel;
@@ -169,6 +171,14 @@ public class ChatIntentResolver {
                 .map(ResourceEntry::uri)
                 .collect(Collectors.toList());
 
+        if (wantsCollectionList(normalised)) {
+            return Optional.of(new ListInstrumentCollectionsIntent());
+        }
+
+        if (wantsInstrumentList(normalised)) {
+            return Optional.of(new ListInstrumentsIntent());
+        }
+
         if (!collections.isEmpty()) {
             String collection = collections.get(0);
             if (mentionsCollection(normalised) || wantsCollectionMetadata(normalised)) {
@@ -250,6 +260,30 @@ public class ChatIntentResolver {
                 "item count",
                 "number of items",
                 "items total");
+    }
+
+    private static boolean wantsCollectionList(String normalised) {
+        return containsAny(normalised,
+                "list instrument collections",
+                "list all instrument collections",
+                "show instrument collections",
+                "list collections",
+                "what instrument collections exist",
+                "instrument collection list",
+                "list instrument families",
+                "show instrument families",
+                "all instrument collections");
+    }
+
+    private static boolean wantsInstrumentList(String normalised) {
+        return containsAny(normalised,
+                "list all instruments",
+                "list instruments",
+                "show instruments",
+                "what instruments",
+                "instrument list",
+                "catalog of instruments",
+                "all instruments");
     }
 
     private static boolean wantsCollectionMetadata(String normalised) {
