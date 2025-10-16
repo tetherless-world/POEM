@@ -4,6 +4,7 @@ import models.Instrument;
 import models.QuestionnaireScale;
 import models.chat.ChatMessage;
 import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.vocabulary.RDFS;
 import org.apache.jena.vocabulary.SKOS;
@@ -139,10 +140,24 @@ public class ChatRagService {
 
     private List<String> describeIntentParameters(ChatIntent intent) {
         List<String> summaries = new ArrayList<>();
-        if (intent instanceof ListInstrumentCollectionsIntent) {
-            summaries.add("Instrument Collections: all (multiple URIs)");
-        } else if (intent instanceof ListInstrumentsIntent) {
-            summaries.add("Instruments: all (multiple URIs)");
+        if (intent instanceof ListInstrumentCollectionsIntent collectionListIntent) {
+            boolean hasFilters = !collectionListIntent.languageUris().isEmpty()
+                    || !collectionListIntent.scaleUris().isEmpty();
+            summaries.add(hasFilters ? "Instrument Collections: filtered list" : "Instrument Collections: all (multiple URIs)");
+            addLanguageSummaries(collectionListIntent.languageUris(), summaries);
+            addScaleSummaries(collectionListIntent.scaleUris(), summaries);
+        } else if (intent instanceof ListInstrumentsIntent listIntent) {
+            boolean hasFilters = !listIntent.collectionUris().isEmpty()
+                    || !listIntent.languageUris().isEmpty()
+                    || !listIntent.scaleUris().isEmpty()
+                    || listIntent.itemCountEquals() != null;
+            summaries.add(hasFilters ? "Instruments: filtered list" : "Instruments: all (multiple URIs)");
+            addCollectionSummaries(listIntent.collectionUris(), summaries);
+            addLanguageSummaries(listIntent.languageUris(), summaries);
+            addScaleSummaries(listIntent.scaleUris(), summaries);
+            if (listIntent.itemCountEquals() != null) {
+                summaries.add("Item count equals " + listIntent.itemCountEquals());
+            }
         } else if (intent instanceof InstrumentCollectionIntent collectionIntent) {
             summaries.add(describeInstrumentCollection(collectionIntent.collectionUri(), "Instrument Collection"));
         } else if (intent instanceof InstrumentIntent i) {
@@ -224,6 +239,29 @@ public class ChatRagService {
         return labelPrefix + ": " + display + " (" + uri + ")";
     }
 
+    private String describeLanguage(String uri, String labelPrefix) {
+        try {
+            Model model = POEMModel.getModel();
+            Resource resource = model.getResource(uri);
+            if (resource != null) {
+                String label = resource.hasProperty(RDFS.label) ? resource.getProperty(RDFS.label).getString() : null;
+                String notation = resource.hasProperty(SKOS.notation) ? resource.getProperty(SKOS.notation).getString() : null;
+                Property countryProperty = model.createProperty("http://schema.org/countryCode");
+                String country = resource.hasProperty(countryProperty) ? resource.getProperty(countryProperty).getString() : null;
+                String display = label != null ? label : notation;
+                if (display != null && country != null && !country.isBlank()) {
+                    display = display + " (" + country + ")";
+                }
+                if (display != null) {
+                    return labelPrefix + ": " + display + " (" + uri + ")";
+                }
+            }
+        } catch (Exception ex) {
+            logger.debug("Failed to resolve language {}: {}", uri, ex.getMessage());
+        }
+        return labelPrefix + ": " + uri;
+    }
+
     private String fetchLabel(String uri) {
         try {
             Model model = POEMModel.getModel();
@@ -248,5 +286,35 @@ public class ChatRagService {
             logger.debug("Failed to fetch definition for {}: {}", uri, ex.getMessage());
         }
         return null;
+    }
+
+    private void addCollectionSummaries(List<String> collectionUris, List<String> summaries) {
+        if (collectionUris == null || collectionUris.isEmpty()) {
+            return;
+        }
+        int index = 1;
+        for (String uri : collectionUris) {
+            summaries.add(describeInstrumentCollection(uri, "Collection " + index++));
+        }
+    }
+
+    private void addLanguageSummaries(List<String> languageUris, List<String> summaries) {
+        if (languageUris == null || languageUris.isEmpty()) {
+            return;
+        }
+        int index = 1;
+        for (String uri : languageUris) {
+            summaries.add(describeLanguage(uri, "Language " + index++));
+        }
+    }
+
+    private void addScaleSummaries(List<String> scaleUris, List<String> summaries) {
+        if (scaleUris == null || scaleUris.isEmpty()) {
+            return;
+        }
+        int index = 1;
+        for (String uri : scaleUris) {
+            summaries.add(describeScale(uri, "Scale " + index++));
+        }
     }
 }

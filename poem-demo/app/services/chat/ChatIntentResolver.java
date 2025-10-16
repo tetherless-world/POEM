@@ -51,6 +51,8 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 /**
@@ -64,6 +66,9 @@ public class ChatIntentResolver {
     private static final Map<String, List<String>> SPECIAL_TOKEN_ALIASES;
     private static final Map<String, String> LANGUAGE_LABEL_BY_CODE;
     private static final Map<String, Set<String>> LANGUAGE_CODES_BY_LABEL_TOKEN;
+    private static final int MAX_FILTER_MATCHES = 5;
+    private static final Pattern ITEM_COUNT_PATTERN =
+            Pattern.compile("\\b(\\d{1,3})\\s*(?:-|\\s)?(?:item|items|question|questions)\\b");
 
     static {
         List<Language> languages = Language.getAll();
@@ -119,6 +124,7 @@ public class ChatIntentResolver {
     private final List<ResourceEntry> collectionEntries;
     private final List<ResourceEntry> instrumentEntries;
     private final List<ResourceEntry> scaleEntries;
+    private final List<ResourceEntry> languageEntries;
 
     public ChatIntentResolver() {
         this(new NoopIntentClassifier());
@@ -130,6 +136,7 @@ public class ChatIntentResolver {
         this.collectionEntries = buildInstrumentCollectionIndex();
         this.instrumentEntries = buildInstrumentIndex();
         this.scaleEntries = buildScaleIndex();
+        this.languageEntries = buildLanguageIndex();
     }
 
     public Optional<ChatIntent> resolve(String latestMessage, List<ChatMessage> history) {
@@ -145,6 +152,7 @@ public class ChatIntentResolver {
         List<ResourceEntry> collectionMatches = findMatches(messageTokens, collectionEntries);
         List<ResourceEntry> instrumentMatches = findMatches(messageTokens, instrumentEntries);
         List<ResourceEntry> scaleMatches = findMatches(messageTokens, scaleEntries);
+        List<ResourceEntry> languageMatches = findMatches(messageTokens, languageEntries);
 
         ClassificationContext classificationContext = new ClassificationContext(
                 toCandidates(collectionMatches, 5),
@@ -170,13 +178,17 @@ public class ChatIntentResolver {
         List<String> scales = scaleMatches.stream()
                 .map(ResourceEntry::uri)
                 .collect(Collectors.toList());
+        List<String> collectionFilters = limitUris(collectionMatches, MAX_FILTER_MATCHES);
+        List<String> languageFilters = limitUris(languageMatches, MAX_FILTER_MATCHES);
+        List<String> scaleFilters = limitUris(scaleMatches, MAX_FILTER_MATCHES);
+        Integer itemCountEquals = extractItemCount(contextText);
 
         if (wantsCollectionList(normalised)) {
-            return Optional.of(new ListInstrumentCollectionsIntent());
+            return Optional.of(new ListInstrumentCollectionsIntent(languageFilters, scaleFilters, 0));
         }
 
         if (wantsInstrumentList(normalised)) {
-            return Optional.of(new ListInstrumentsIntent());
+            return Optional.of(new ListInstrumentsIntent(collectionFilters, languageFilters, scaleFilters, itemCountEquals, 0));
         }
 
         if (!collections.isEmpty()) {
@@ -268,6 +280,8 @@ public class ChatIntentResolver {
                 "list all instrument collections",
                 "show instrument collections",
                 "list collections",
+                "which instrument collections",
+                "which collections",
                 "what instrument collections exist",
                 "instrument collection list",
                 "list instrument families",
@@ -281,6 +295,7 @@ public class ChatIntentResolver {
                 "list instruments",
                 "show instruments",
                 "what instruments",
+                "which instruments",
                 "instrument list",
                 "catalog of instruments",
                 "all instruments");
@@ -432,6 +447,71 @@ public class ChatIntentResolver {
                 .limit(limit)
                 .map(entry -> new Candidate(entry.uri(), entry.label()))
                 .collect(Collectors.toList());
+    }
+
+    private static List<ResourceEntry> buildLanguageIndex() {
+        List<ResourceEntry> entries = new ArrayList<>();
+        for (Language language : Language.getAll()) {
+            if (language.getUri() == null) {
+                continue;
+            }
+            Set<String> tokens = new LinkedHashSet<>();
+            if (language.getLabel() != null) {
+                for (String variant : generateVariants(language.getLabel())) {
+                    tokens.addAll(tokenize(variant));
+                }
+            }
+            if (language.getNotation() != null) {
+                tokens.add(language.getNotation().toLowerCase(Locale.ROOT));
+                tokens.add(language.getNotation().replace("-", "").toLowerCase(Locale.ROOT));
+                for (String part : language.getNotation().split("[-_\\s]+")) {
+                    if (!part.isBlank()) {
+                        tokens.add(part.toLowerCase(Locale.ROOT));
+                    }
+                }
+            }
+            if (language.getBCP47() != null) {
+                tokens.add(language.getBCP47().toLowerCase(Locale.ROOT));
+                tokens.add(language.getBCP47().replace("-", "").toLowerCase(Locale.ROOT));
+            }
+            if (language.getCountryCode() != null) {
+                tokens.add(language.getCountryCode().toLowerCase(Locale.ROOT));
+            }
+            if (tokens.isEmpty()) {
+                tokens.add(language.getUri());
+            }
+            String label = language.getLabelWithCountry();
+            entries.add(new ResourceEntry(label != null ? label : language.getUri(), language.getUri(), tokens));
+        }
+        return entries;
+    }
+
+    private static List<String> limitUris(List<ResourceEntry> entries, int limit) {
+        if (entries.isEmpty() || limit <= 0) {
+            return List.of();
+        }
+        LinkedHashSet<String> uris = new LinkedHashSet<>();
+        for (ResourceEntry entry : entries) {
+            if (uris.add(entry.uri()) && uris.size() >= limit) {
+                break;
+            }
+        }
+        return List.copyOf(uris);
+    }
+
+    private static Integer extractItemCount(String text) {
+        if (text == null || text.isBlank()) {
+            return null;
+        }
+        Matcher matcher = ITEM_COUNT_PATTERN.matcher(text.toLowerCase(Locale.ROOT));
+        if (matcher.find()) {
+            try {
+                return Integer.parseInt(matcher.group(1));
+            } catch (NumberFormatException ignored) {
+                return null;
+            }
+        }
+        return null;
     }
 
     private static List<String> generateVariants(String label) {
