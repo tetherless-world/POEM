@@ -267,18 +267,19 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.org/twc/poem/Experience"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000059"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
                 <owl:onClass rdf:resource="http://hadatac.org/ont/vstoi#ResponseOption"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.org/twc/poem/Experience"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>codebook</rdfs:label>
         <skos:definition>A document used to outline the content, format,
 and coding scheme of a dataset</skos:definition>
     </owl:Class>
@@ -392,23 +393,16 @@ and coding scheme of a dataset</skos:definition>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000059"/>
-                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://hadatac.org/ont/vstoi#Item"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000059"/>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
                 <owl:onClass rdf:resource="http://purl.org/twc/poem/QuestionnaireScale"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000668"/>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000059"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://semanticscience.org/resource/SIO_000613"/>
+                <owl:onClass rdf:resource="http://hadatac.org/ont/vstoi#Item"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Questionnaire</rdfs:label>
@@ -507,6 +501,56 @@ and coding scheme of a dataset</skos:definition>
     
 
 
+    <!-- http://purl.org/twc/poem#BackwardTranslation -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem#BackwardTranslation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <dc:description>Process of transforming (translating) the generated instrument in the target langauge (i.e., a draft of the translated instrument), back into the language of the used instrument</dc:description>
+        <rdfs:label>Backward Translation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/twc/poem#BlindReview -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem#BlindReview">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <dc:description>Process by which someone who is blind to the original (untranslated) text resolves discrepancies between multiple forward translations</dc:description>
+        <rdfs:label>Blind Review</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/twc/poem#DoubleTranslationReconciliation -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem#DoubleTranslationReconciliation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <dc:description>Process that includes an independent translator or an expert panel to identify and resolve any discrepancies between multiple forward translations, reconciling them into a single instrument. Requires forward translation to have occurred.</dc:description>
+        <rdfs:label>Double-Translation and Reconciliation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/twc/poem#ExpertReview -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem#ExpertReview">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <dc:description>Process by which an individual or group of individuals review changes from the used instrument to the generated instrument and provide feedback to others associated with the activity</dc:description>
+        <rdfs:label>Expert Review</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/twc/poem#ForwardTranslation -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem#ForwardTranslation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <dc:description>Process of transforming (translating) the source language (i.e., the language of the used  instrument) into a target language (i.e., the language in which generated instrument is to be administered)</dc:description>
+        <rdfs:label>Forward Translation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/twc/poem#InstrumentCollection -->
 
     <owl:Class rdf:about="http://purl.org/twc/poem#InstrumentCollection">
@@ -520,6 +564,16 @@ and coding scheme of a dataset</skos:definition>
         </rdfs:subClassOf>
         <rdfs:label>instrument collection</rdfs:label>
         <skos:definition>A set of measurement instruments that have been derived from each other, are published by the same organization, or have some other reason for close association</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/twc/poem#Interview -->
+
+    <owl:Class rdf:about="http://purl.org/twc/poem#Interview">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <dc:description>Process that includes distributing the generated instrument to the intended target population and collecting feedback</dc:description>
+        <rdfs:label>Interview</rdfs:label>
     </owl:Class>
     
 
@@ -548,7 +602,7 @@ and coding scheme of a dataset</skos:definition>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000563"/>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000629"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
                 <owl:onClass rdf:resource="http://hadatac.org/ont/vstoi#ItemStem"/>
             </owl:Restriction>
@@ -557,24 +611,6 @@ and coding scheme of a dataset</skos:definition>
         <skos:definition>The experience or construct that the question or statement used to prompt an individual intends to capture</skos:definition>
     </owl:Class>
     
-
-    <!-- http://purl.org/twc/poem#BackwardTranslation -->
-
-    <owl:Class rdf:about="http://purl.org/twc/poem#BackwardTranslation">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-        <dc:description>Process of transforming (translating) the generated instrument in the target langauge (i.e., a draft of the translated instrument), back into the language of the used instrument</dc:description>
-        <rdfs:label>Backward Translation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/twc/poem#BlindReview -->
-
-    <owl:Class rdf:about="http://purl.org/twc/poem#BlindReview">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-        <dc:description>Process by which someone who is blind to the original (untranslated) text resolves discrepancies between multiple forward translations</dc:description>
-        <rdfs:label>Blind Review</rdfs:label>
-    </owl:Class>
 
 
     <!-- http://purl.org/twc/poem/CompositeScale -->
@@ -635,53 +671,19 @@ and coding scheme of a dataset</skos:definition>
         <rdfs:label>experience</rdfs:label>
         <skos:definition>an informant&apos;s observation or encounter in a situation or event</skos:definition>
     </owl:Class>
-
-
-    <!-- http://purl.org/twc/poem#DoubleTranslationReconciliation -->
-
-    <owl:Class rdf:about="http://purl.org/twc/poem#DoubleTranslationReconciliation">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-        <dc:description>Process that includes an independent translator or an expert panel to identify and resolve any discrepancies between multiple forward translations, reconciling them into a single instrument. Requires forward translation to have occurred.</dc:description>
-        <rdfs:label>Double-Translation and Reconciliation</rdfs:label>
-    </owl:Class>
     
-
-
-    <!-- http://purl.org/twc/poem#ExpertReview -->
-
-    <owl:Class rdf:about="http://purl.org/twc/poem#ExpertReview">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-        <dc:description>Process by which an individual or group of individuals review changes from the used instrument to the generated instrument and provide feedback to others associated with the activity</dc:description>
-        <rdfs:label>Expert Review</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/twc/poem#ForwardTranslation -->
-
-    <owl:Class rdf:about="http://purl.org/twc/poem#ForwardTranslation">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-        <dc:description>Process of transforming (translating) the source language (i.e., the language of the used  instrument) into a target language (i.e., the language in which generated instrument is to be administered)</dc:description>
-        <rdfs:label>Forward Translation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/twc/poem#Interview -->
-
-    <owl:Class rdf:about="http://purl.org/twc/poem#Interview">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-        <dc:description>Process that includes distributing the generated instrument to the intended target population and collecting feedback</dc:description>
-        <rdfs:label>Interview</rdfs:label>
-    </owl:Class>
-
-
 
 
     <!-- http://purl.org/twc/poem/PsychometricQuestionnaire -->
 
     <owl:Class rdf:about="http://purl.org/twc/poem/PsychometricQuestionnaire">
         <rdfs:subClassOf rdf:resource="http://hadatac.org/ont/vstoi#Questionnaire"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000892"/>
+                <owl:someValuesFrom rdf:resource="http://semanticscience.org/resource/SIO_000613"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>psychometric questionnaire</rdfs:label>
         <skos:definition>a questionnaire used to measure an individual&apos;s mental capabilities, behaviors, or psychological traits</skos:definition>
     </owl:Class>
@@ -700,16 +702,16 @@ and coding scheme of a dataset</skos:definition>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000059"/>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000011"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.org/twc/poem#ItemStemConcept"/>
+                <owl:onClass rdf:resource="http://hadatac.org/ont/vstoi#Questionnaire"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000095"/>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000059"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="http://hadatac.org/ont/vstoi#Questionnaire"/>
+                <owl:onClass rdf:resource="http://purl.org/twc/poem#ItemStemConcept"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>questionnaire scale</rdfs:label>
@@ -730,6 +732,19 @@ and coding scheme of a dataset</skos:definition>
     
 
 
+    <!-- http://semanticscience.org/resource/SIO_000788 -->
+
+    <rdf:Description rdf:about="http://semanticscience.org/resource/SIO_000788">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000668"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/twc/poem/PsychometricQuestionnaire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://semanticscience.org/resource/SIO_000912 -->
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000912"/>
@@ -741,6 +756,12 @@ and coding scheme of a dataset</skos:definition>
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_001017">
         <skos:definition>a sufficient set of co-occuring symptoms believed to represent an underlying phenomenon with dimensional properties</skos:definition>
     </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Activity -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Activity"/>
 </rdf:RDF>
 
 
