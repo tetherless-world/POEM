@@ -250,6 +250,7 @@
                 <owl:onClass rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>semantic variable</rdfs:label>
         <skos:definition>A variable specification that includes the target entities and attributes, but not the population property</skos:definition>
     </owl:Class>
     
@@ -280,7 +281,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>codebook</rdfs:label>
-        <skos:definition>A document used to outline the content, format,
+        <skos:definition>a document used to outline the content, format,
 and coding scheme of a dataset</skos:definition>
     </owl:Class>
     
@@ -291,7 +292,7 @@ and coding scheme of a dataset</skos:definition>
     <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Detector">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000956"/>
         <rdfs:label>Detector</rdfs:label>
-        <skos:definition>A device which detects measurements</skos:definition>
+        <skos:definition>an object that is capable of sensing environmental properties by collecting physical signals about these properties, translating these physical signals into (most often electrical) signals, and forwarding these electrical signals to instruments</skos:definition>
     </owl:Class>
     
 
@@ -301,7 +302,7 @@ and coding scheme of a dataset</skos:definition>
     <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Informant">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000498"/>
         <rdfs:label>Informant</rdfs:label>
-        <skos:definition>An individual or respondent who provides information based on an observation about themselves or someone else</skos:definition>
+        <skos:definition>an individual or respondent who provides information based on an observation about themselves or someone else</skos:definition>
     </owl:Class>
     
 
@@ -311,7 +312,7 @@ and coding scheme of a dataset</skos:definition>
     <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Instrument">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000956"/>
         <rdfs:label>Instrument</rdfs:label>
-        <skos:definition>A device or mechanism that is used to achire attribute values of entities of interest</skos:definition>
+        <skos:definition>an object that receives sensed signals from detectors and processes these signals into numerical values</skos:definition>
     </owl:Class>
     
 
@@ -319,7 +320,7 @@ and coding scheme of a dataset</skos:definition>
     <!-- http://hadatac.org/ont/vstoi#Item -->
 
     <owl:Class rdf:about="http://hadatac.org/ont/vstoi#Item">
-        <rdfs:subClassOf rdf:resource="http://hadatac.org/ont/vstoi#Detector"/>
+        <rdfs:subClassOf rdf:resource="http://hadatac.org/ont/vstoi#Instrument"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000008"/>
@@ -347,7 +348,7 @@ and coding scheme of a dataset</skos:definition>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>item</rdfs:label>
-        <skos:definition>An item stem and its response option within an assessment</skos:definition>
+        <skos:definition>an item stem and its response option within an assessment</skos:definition>
     </owl:Class>
     
 
@@ -407,7 +408,7 @@ and coding scheme of a dataset</skos:definition>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Questionnaire</rdfs:label>
-        <skos:definition>An instrument used to acquire data reported from human subjects</skos:definition>
+        <skos:definition>a set of questions for obtaining statistically useful or personal information from individuals</skos:definition>
     </owl:Class>
     
 
@@ -436,7 +437,7 @@ and coding scheme of a dataset</skos:definition>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>response option</rdfs:label>
-        <skos:definition>A possible answer choice provided for a question or statement</skos:definition>
+        <skos:definition>a possible answer choice provided for a question or statement</skos:definition>
     </owl:Class>
     
 
@@ -609,7 +610,7 @@ and coding scheme of a dataset</skos:definition>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>item stem concept</rdfs:label>
-        <skos:definition>The experience or construct that the question or statement used to prompt an individual intends to capture</skos:definition>
+        <skos:definition>the experience or construct that the question or statement used to prompt an individual intends to capture</skos:definition>
     </owl:Class>
     
 
@@ -626,6 +627,7 @@ and coding scheme of a dataset</skos:definition>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>composite scale</rdfs:label>
+        <skos:definition>a questionnaire scale with one or more subsets of questions comprising another questionnaire scale</skos:definition>
     </owl:Class>
     
 
@@ -648,7 +650,7 @@ and coding scheme of a dataset</skos:definition>
         </rdfs:subClassOf>
         <terms:alternative>psychological construct</terms:alternative>
         <rdfs:label>construct</rdfs:label>
-        <skos:definition>A hypothetical or theoretical entity that can not be directly observed</skos:definition>
+        <skos:definition>a hypothetical or theoretical entity that can not be directly observed</skos:definition>
     </owl:Class>
     
 
