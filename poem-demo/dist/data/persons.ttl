@@ -1,0 +1,423 @@
+@prefix : <http://example.org/rules/> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix poem: <http://purl.org/twc/poem/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://w3id.org/rml/> .
+@prefix schema: <http://schema.org/> .
+@prefix vstoi: <http://purl.org/twc/vstoi/> .
+
+<http://purl.org/twc/poem/individual/person/1> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0001-7454-464X";
+  schema:sameAs <https://orcid.org/0000-0001-7454-464X>;
+  rdfs:label "Bruce F. Chorpita" .
+
+<http://purl.org/twc/poem/individual/person/10> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0003-0134-5767";
+  schema:sameAs <https://orcid.org/0000-0003-0134-5767>;
+  rdfs:label "Charmaine Higa-McMillan" .
+
+<http://purl.org/twc/poem/individual/person/100> a prov:Agent, foaf:Person;
+  rdfs:label "Jenny Kim" .
+
+<http://purl.org/twc/poem/individual/person/101> a prov:Agent, foaf:Person;
+  rdfs:label "Julia Traub" .
+
+<http://purl.org/twc/poem/individual/person/102> a prov:Agent, foaf:Person;
+  rdfs:label "Marie-Pier Lacroix" .
+
+<http://purl.org/twc/poem/individual/person/103> a prov:Agent, foaf:Person;
+  rdfs:label "Olivia Buckley" .
+
+<http://purl.org/twc/poem/individual/person/104> a prov:Agent, foaf:Person;
+  rdfs:label "Anastasia Dayer" .
+
+<http://purl.org/twc/poem/individual/person/105> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0003-0997-3514";
+  schema:sameAs <https://orcid.org/0000-0003-0997-3514>;
+  rdfs:label "Selenge Baljinnyam" .
+
+<http://purl.org/twc/poem/individual/person/106> a prov:Agent, foaf:Person;
+  rdfs:label "Guljanat Erlan" .
+
+<http://purl.org/twc/poem/individual/person/107> a prov:Agent, foaf:Person;
+  rdfs:label "Sarnai Erdene" .
+
+<http://purl.org/twc/poem/individual/person/11> a prov:Agent, foaf:Person;
+  rdfs:label "John R. Weisz" .
+
+<http://purl.org/twc/poem/individual/person/12> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0001-8246-3479";
+  schema:sameAs <https://orcid.org/0000-0001-8246-3479>;
+  rdfs:label "Brad J. Nakamura" .
+
+<http://purl.org/twc/poem/individual/person/13> a prov:Agent, foaf:Person;
+  rdfs:label "Adam D. Bernstein" .
+
+<http://purl.org/twc/poem/individual/person/14> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0001-8869-4438";
+  schema:sameAs <https://orcid.org/0000-0001-8869-4438>;
+  rdfs:label "Alayna Park" .
+
+<http://purl.org/twc/poem/individual/person/15> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0003-0315-0912";
+  schema:sameAs <https://orcid.org/0000-0003-0315-0912>;
+  rdfs:label "Manuel Sprung" .
+
+<http://purl.org/twc/poem/individual/person/16> a prov:Agent, foaf:Person;
+  rdfs:label "Deepika Bose" .
+
+<http://purl.org/twc/poem/individual/person/17> a prov:Agent, foaf:Person;
+  rdfs:label "Antonio Polo" .
+
+<http://purl.org/twc/poem/individual/person/18> a prov:Agent, foaf:Person;
+  rdfs:label "Adriana Rodriguez" .
+
+<http://purl.org/twc/poem/individual/person/19> a prov:Agent, foaf:Person;
+  rdfs:label "Silvia Henriquez" .
+
+<http://purl.org/twc/poem/individual/person/2> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0002-7022-6676";
+  schema:sameAs <https://orcid.org/0000-0002-7022-6676>;
+  rdfs:label "Susan H. Spence" .
+
+<http://purl.org/twc/poem/individual/person/20> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0002-9773-8014";
+  schema:sameAs <https://orcid.org/0000-0002-9773-8014>;
+  rdfs:label "Manasi Kumar" .
+
+<http://purl.org/twc/poem/individual/person/21> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0002-5982-9388";
+  schema:sameAs <https://orcid.org/0000-0002-5982-9388>;
+  rdfs:label "Ioanna Giannopoulou" .
+
+<http://purl.org/twc/poem/individual/person/22> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0002-2535-1064";
+  schema:sameAs <https://orcid.org/0000-0002-2535-1064>;
+  rdfs:label "Marie-Louise Reinholdt-Dunne" .
+
+<http://purl.org/twc/poem/individual/person/23> a prov:Agent, foaf:Person;
+  rdfs:label "Marie Tolstrup" .
+
+<http://purl.org/twc/poem/individual/person/24> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0002-9178-2874";
+  schema:sameAs <https://orcid.org/0000-0002-9178-2874>;
+  rdfs:label "Nada Nasr" .
+
+<http://purl.org/twc/poem/individual/person/25> a prov:Agent, foaf:Person;
+  rdfs:label "Rasha Ismail" .
+
+<http://purl.org/twc/poem/individual/person/26> a prov:Agent, foaf:Person;
+  rdfs:label "Priya Korathu-Larson" .
+
+<http://purl.org/twc/poem/individual/person/29> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0001-6638-6434";
+  schema:sameAs <https://orcid.org/0000-0001-6638-6434>;
+  rdfs:label "Susanne Grothus" .
+
+<http://purl.org/twc/poem/individual/person/3> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0003-2381-8588";
+  schema:sameAs <https://orcid.org/0000-0003-2381-8588>;
+  rdfs:label "Kimberly D. Becker" .
+
+<http://purl.org/twc/poem/individual/person/30> a prov:Agent, foaf:Person;
+  rdfs:label "Ariane Sommer" .
+
+<http://purl.org/twc/poem/individual/person/31> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0001-9501-0954";
+  schema:sameAs <https://orcid.org/0000-0001-9501-0954>;
+  rdfs:label "Benedikt B. Claus" .
+
+<http://purl.org/twc/poem/individual/person/32> a prov:Agent, foaf:Person;
+  rdfs:label "Lorin Stahlschmidt" .
+
+<http://purl.org/twc/poem/individual/person/33> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0003-4493-6356";
+  schema:sameAs <https://orcid.org/0000-0003-4493-6356>;
+  rdfs:label "Julia Wager" .
+
+<http://purl.org/twc/poem/individual/person/34> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0002-4919-7209";
+  schema:sameAs <https://orcid.org/0000-0002-4919-7209>;
+  rdfs:label "Barbara Hoff Esbjørn" .
+
+<http://purl.org/twc/poem/individual/person/35> a prov:Agent, foaf:Person;
+  rdfs:label "Mikael Julius Sømhovd" .
+
+<http://purl.org/twc/poem/individual/person/36> a prov:Agent, foaf:Person;
+  rdfs:label "Clara Johanna Anneli Turnstedt" .
+
+<http://purl.org/twc/poem/individual/person/37> a prov:Agent, foaf:Person;
+  rdfs:label "Sujith Ramachandran" .
+
+<http://purl.org/twc/poem/individual/person/38> a prov:Agent, foaf:Person;
+  rdfs:label "Regan Stewart" .
+
+<http://purl.org/twc/poem/individual/person/39> a prov:Agent, foaf:Person;
+  rdfs:label "Rosaura Orengo-Aguayo" .
+
+<http://purl.org/twc/poem/individual/person/4> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0003-0563-5411";
+  schema:sameAs <https://orcid.org/0000-0003-0563-5411>;
+  rdfs:label "Barbara Caplan" .
+
+<http://purl.org/twc/poem/individual/person/40> a prov:Agent, foaf:Person;
+  rdfs:label "LS" .
+
+<http://purl.org/twc/poem/individual/person/41> a prov:Agent, foaf:Person;
+  rdfs:label "JW" .
+
+<http://purl.org/twc/poem/individual/person/42> a prov:Agent, foaf:Person;
+  rdfs:label "Martine Bouvard" .
+
+<http://purl.org/twc/poem/individual/person/43> a prov:Agent, foaf:Person;
+  rdfs:label "Jean-Luc Roulin" .
+
+<http://purl.org/twc/poem/individual/person/44> a prov:Agent, foaf:Person;
+  rdfs:label "Maya Boustani" .
+
+<http://purl.org/twc/poem/individual/person/45> a prov:Agent, foaf:Person;
+  rdfs:label "Shuang Lu" .
+
+<http://purl.org/twc/poem/individual/person/46> a prov:Agent, foaf:Person;
+  rdfs:label "Ailen Elias" .
+
+<http://purl.org/twc/poem/individual/person/47> a prov:Agent, foaf:Person;
+  rdfs:label "Thea Marran" .
+
+<http://purl.org/twc/poem/individual/person/48> a prov:Agent, foaf:Person;
+  rdfs:label "Juuli Puusepp" .
+
+<http://purl.org/twc/poem/individual/person/49> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0001-5234-6474";
+  schema:sameAs <https://orcid.org/0000-0001-5234-6474>;
+  rdfs:label "Mairi Männamaa" .
+
+<http://purl.org/twc/poem/individual/person/5> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0002-8133-6440";
+  schema:sameAs <https://orcid.org/0000-0002-8133-6440>;
+  rdfs:label "Chad Ebesutani" .
+
+<http://purl.org/twc/poem/individual/person/50> a prov:Agent, foaf:Person;
+  schema:identifier " 0000-0001-6587-9157";
+  schema:sameAs <https://orcid.org/%200000-0001-6587-9157>;
+  rdfs:label "Triinu Ojalo" .
+
+<http://purl.org/twc/poem/individual/person/51> a prov:Agent, foaf:Person;
+  rdfs:label "Eftychia Argalia" .
+
+<http://purl.org/twc/poem/individual/person/52> a prov:Agent, foaf:Person;
+  schema:identifier "0009-0009-3930-999X";
+  schema:sameAs <https://orcid.org/0009-0009-3930-999X>;
+  rdfs:label "Maria Zafiropoulou" .
+
+<http://purl.org/twc/poem/individual/person/53> a prov:Agent, foaf:Person;
+  schema:identifier "0009-0008-6990-9489";
+  schema:sameAs <https://orcid.org/0009-0008-6990-9489>;
+  rdfs:label "Dovilė Mikučionytė" .
+
+<http://purl.org/twc/poem/individual/person/54> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0003-1428-422X";
+  schema:sameAs <https://orcid.org/0000-0003-1428-422X>;
+  rdfs:label "Asta Adler" .
+
+<http://purl.org/twc/poem/individual/person/55> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0001-8236-5246";
+  schema:sameAs <https://orcid.org/0000-0001-8236-5246>;
+  rdfs:label "Dejan Stevanovic" .
+
+<http://purl.org/twc/poem/individual/person/56> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0003-4473-3364";
+  schema:sameAs <https://orcid.org/0000-0003-4473-3364>;
+  rdfs:label "Fabio Fontana" .
+
+<http://purl.org/twc/poem/individual/person/57> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0002-7628-3997";
+  schema:sameAs <https://orcid.org/0000-0002-7628-3997>;
+  rdfs:label "Michael Pereira da Silva" .
+
+<http://purl.org/twc/poem/individual/person/58> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0001-5325-9815";
+  schema:sameAs <https://orcid.org/0000-0001-5325-9815>;
+  rdfs:label "Oldemar Mazzardo" .
+
+<http://purl.org/twc/poem/individual/person/59> a prov:Agent, foaf:Person;
+  rdfs:label "Priscila Lumi" .
+
+<http://purl.org/twc/poem/individual/person/6> a prov:Agent, foaf:Person;
+  schema:identifier "000-0002-5408-6992";
+  schema:sameAs <https://orcid.org/000-0002-5408-6992>;
+  rdfs:label "Steven P. Reise" .
+
+<http://purl.org/twc/poem/individual/person/60> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0003-2719-9411";
+  schema:sameAs <https://orcid.org/0000-0003-2719-9411>;
+  rdfs:label "Marianne Aalberg" .
+
+<http://purl.org/twc/poem/individual/person/61> a prov:Agent, foaf:Person;
+  rdfs:label "Hanne Kristensen" .
+
+<http://purl.org/twc/poem/individual/person/62> a prov:Agent, foaf:Person;
+  rdfs:label "Michał Furman-Zwiefka" .
+
+<http://purl.org/twc/poem/individual/person/63> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0002-2704-9520";
+  schema:sameAs <https://orcid.org/0000-0002-2704-9520>;
+  rdfs:label "Vahdet Gormez" .
+
+<http://purl.org/twc/poem/individual/person/64> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0002-7332-3658";
+  schema:sameAs <https://orcid.org/0000-0002-7332-3658>;
+  rdfs:label "Ayse Kılınçaslan" .
+
+<http://purl.org/twc/poem/individual/person/65> a prov:Agent, foaf:Person;
+  schema:identifier "0009-0002-9715-2985";
+  schema:sameAs <https://orcid.org/0009-0002-9715-2985>;
+  rdfs:label "Hiroko Fujisato" .
+
+<http://purl.org/twc/poem/individual/person/66> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0002-3963-767X";
+  schema:sameAs <https://orcid.org/0000-0002-3963-767X>;
+  rdfs:label "Mitsuhiro Miyamae" .
+
+<http://purl.org/twc/poem/individual/person/67> a prov:Agent, foaf:Person;
+  rdfs:label "Noriko Kato" .
+
+<http://purl.org/twc/poem/individual/person/68> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0003-2295-9733";
+  schema:sameAs <https://orcid.org/0000-0003-2295-9733>;
+  rdfs:label "Masaya Ito" .
+
+<http://purl.org/twc/poem/individual/person/69> a prov:Agent, foaf:Person;
+  rdfs:label "Kyosuke Kaneko" .
+
+<http://purl.org/twc/poem/individual/person/7> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0002-0263-9989";
+  schema:sameAs <https://orcid.org/0000-0002-0263-9989>;
+  rdfs:label "Chelsea Ale" .
+
+<http://purl.org/twc/poem/individual/person/70> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0003-4522-3788";
+  schema:sameAs <https://orcid.org/0000-0003-4522-3788>;
+  rdfs:label "Jana Kodrič" .
+
+<http://purl.org/twc/poem/individual/person/71> a prov:Agent, foaf:Person;
+  rdfs:label "Staša Stropnik" .
+
+<http://purl.org/twc/poem/individual/person/72> a prov:Agent, foaf:Person;
+  rdfs:label "Jasna Zupan" .
+
+<http://purl.org/twc/poem/individual/person/73> a prov:Agent, foaf:Person;
+  rdfs:label "Kristina Alice Waller" .
+
+<http://purl.org/twc/poem/individual/person/74> a prov:Agent, foaf:Person;
+  rdfs:label "Eeva Aronen" .
+
+<http://purl.org/twc/poem/individual/person/75> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0002-1498-8238";
+  schema:sameAs <https://orcid.org/0000-0002-1498-8238>;
+  rdfs:label "Shuang Lu" .
+
+<http://purl.org/twc/poem/individual/person/76> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0001-7545-5059";
+  schema:sameAs <https://orcid.org/0000-0001-7545-5059>;
+  rdfs:label "Ilona Skoczen" .
+
+<http://purl.org/twc/poem/individual/person/77> a prov:Agent, foaf:Person;
+  rdfs:label "Kristianne Stigsdatter Ovenstad" .
+
+<http://purl.org/twc/poem/individual/person/78> a prov:Agent, foaf:Person;
+  rdfs:label "Elisabeth Haukeland" .
+
+<http://purl.org/twc/poem/individual/person/79> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0002-5313-8498";
+  schema:sameAs <https://orcid.org/0000-0002-5313-8498>;
+  rdfs:label "Jens Högström" .
+
+<http://purl.org/twc/poem/individual/person/8> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0001-6524-3140";
+  schema:sameAs <https://orcid.org/0000-0001-6524-3140>;
+  rdfs:label "Jennifer Regan" .
+
+<http://purl.org/twc/poem/individual/person/80> a prov:Agent, foaf:Person;
+  rdfs:label "Tina Hörlin" .
+
+<http://purl.org/twc/poem/individual/person/81> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0003-2566-1537";
+  schema:sameAs <https://orcid.org/0000-0003-2566-1537>;
+  rdfs:label "Weili Lu" .
+
+<http://purl.org/twc/poem/individual/person/82> a prov:Agent, foaf:Person;
+  rdfs:label "NA (graduate student) 1" .
+
+<http://purl.org/twc/poem/individual/person/83> a prov:Agent, foaf:Person;
+  rdfs:label "NA (graduate student) 2" .
+
+<http://purl.org/twc/poem/individual/person/84> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0003-2610-6738";
+  schema:sameAs <https://orcid.org/0000-0003-2610-6738>;
+  rdfs:label "Dagmar Kr. Hannesdottir" .
+
+<http://purl.org/twc/poem/individual/person/85> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0002-2993-9359";
+  schema:sameAs <https://orcid.org/0000-0002-2993-9359>;
+  rdfs:label "Urdur Njardvik" .
+
+<http://purl.org/twc/poem/individual/person/86> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0002-8618-153X";
+  schema:sameAs <https://orcid.org/0000-0002-8618-153X>;
+  rdfs:label "Gudmundur Skarphedinsson" .
+
+<http://purl.org/twc/poem/individual/person/87> a prov:Agent, foaf:Person;
+  rdfs:label "NA (student) 1" .
+
+<http://purl.org/twc/poem/individual/person/88> a prov:Agent, foaf:Person;
+  rdfs:label "NA (student) 2" .
+
+<http://purl.org/twc/poem/individual/person/89> a prov:Agent, foaf:Person;
+  rdfs:label "Zsófia Katalin Varga" .
+
+<http://purl.org/twc/poem/individual/person/9> a prov:Agent, foaf:Person;
+  rdfs:label "John Young" .
+
+<http://purl.org/twc/poem/individual/person/90> a prov:Agent, foaf:Person;
+  rdfs:label "Lilla Károlyi" .
+
+<http://purl.org/twc/poem/individual/person/91> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0002-9887-8772";
+  schema:sameAs <https://orcid.org/0000-0002-9887-8772>;
+  rdfs:label "Adrienn Vargay" .
+
+<http://purl.org/twc/poem/individual/person/92> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0002-6375-5756";
+  schema:sameAs <https://orcid.org/0000-0002-6375-5756>;
+  rdfs:label "János Major" .
+
+<http://purl.org/twc/poem/individual/person/93> a prov:Agent, foaf:Person;
+  schema:identifier "0000-0003-0052-3525";
+  schema:sameAs <https://orcid.org/0000-0003-0052-3525>;
+  rdfs:label "Szilvia Ádám" .
+
+<http://purl.org/twc/poem/individual/person/94> a prov:Agent, foaf:Person;
+  schema:identifier "0009-0002-1270-7540";
+  schema:sameAs <https://orcid.org/0009-0002-1270-7540>;
+  rdfs:label "Mehak" .
+
+<http://purl.org/twc/poem/individual/person/95> a prov:Agent, foaf:Person;
+  rdfs:label "Arshpreet Singh" .
+
+<http://purl.org/twc/poem/individual/person/96> a prov:Agent, foaf:Person;
+  schema:identifier "0009-0005-8281-663X";
+  schema:sameAs <https://orcid.org/0009-0005-8281-663X>;
+  rdfs:label "Eliza Swindell" .
+
+<http://purl.org/twc/poem/individual/person/97> a prov:Agent, foaf:Person;
+  rdfs:label "Jackson Baschnagel" .
+
+<http://purl.org/twc/poem/individual/person/98> a prov:Agent, foaf:Person;
+  rdfs:label "Megan Chang" .
+
+<http://purl.org/twc/poem/individual/person/99> a prov:Agent, foaf:Person;
+  rdfs:label "Hyun-sik Kim" .

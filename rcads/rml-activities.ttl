@@ -28,12 +28,45 @@
     rml:iterator "/dataroot/_x0030_5_EntityGroupMap"
   ].
 
+:TriplesMapAgents a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/81_Agents.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0038_1_Agents"
+  ].
+
+:TriplesMapAgentPersonMap a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/82_AgentPersonMap.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0038_2_AgentPersonMap"
+  ].
+
+:TriplesMapPersons a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/80_Persons.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0038_0_Persons"
+  ].
+
 :TriplesMap rr:subjectMap [
   rr:template "http://purl.org/twc/poem/individual/activity/{ActivityID}"
 ].
 
 :TriplesMap2 rr:subjectMap [
   rr:template "http://purl.org/twc/poem/individual/instrument/{EntityID}"
+].
+
+:TriplesMapAgents rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/agent/{AgentID}"
+].
+
+:TriplesMapAgentPersonMap rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/agentperson/{AgentPersonMapID}"
+].
+
+:TriplesMapPersons rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/person/{PersonID}"
 ].
 
 :TriplesMap rr:predicateObjectMap [
@@ -76,6 +109,17 @@
     ];
   ];
 ].
+
+# :TriplesMap rr:predicateObjectMap [
+#   rr:predicate prov:wasAssociatedWith;
+#   rr:objectMap [
+#     rr:parentTriplesMap :TriplesMapAgents;
+#     rr:joinCondition [
+#       rr:child "AssociatedAgent";
+#       rr:parent "AgentID"
+#     ];
+#   ];
+# ].
 
 :TriplesMap rr:predicateObjectMap [
   rr:predicate prov:endedAtTime;

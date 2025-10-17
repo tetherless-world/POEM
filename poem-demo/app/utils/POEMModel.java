@@ -24,7 +24,8 @@ public class POEMModel {
         "scales.ttl",
         "scalesInstrument.ttl",
         "components.ttl",
-        "languages.ttl"
+        "languages.ttl",
+        "persons.ttl"
     };
 
     private static final Object MODEL_LOCK = new Object();

@@ -1,0 +1,52 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <http://example.org/rules/> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix poem: <http://purl.org/twc/poem/> .
+@prefix vstoi: <http://purl.org/twc/vstoi/> .
+
+# Mapping for Persons (data/xml/80_Persons.xml)
+:TriplesMap a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/80_Persons.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0038_0_Persons"
+  ].
+
+:TriplesMap rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/person/{PersonID}"
+].
+
+# Each person is both a foaf:Person and a prov:Agent
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant foaf:Person ];
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant prov:Agent ];
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate rdfs:label;
+  rr:objectMap [ rml:reference "PersonName" ];
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate schema:identifier;
+  rr:objectMap [ rml:reference "ORCID" ];
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate schema:sameAs;
+  rr:objectMap [
+    rr:template "https://orcid.org/{ORCID}"
+  ];
+].

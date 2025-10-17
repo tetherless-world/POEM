@@ -33,3 +33,5 @@ echo "InstrumentComponents..."
 java -jar rmlmapper-8.0.0-r378-all.jar -m rml-components.ttl -o ../poem-demo/dist/data/components.ttl -s turtle
 echo "Languages..."
 java -jar rmlmapper-8.0.0-r378-all.jar -m rml-languages.ttl -o ../poem-demo/dist/data/languages.ttl -s turtle
+echo "Persons..."
+java -jar rmlmapper-8.0.0-r378-all.jar -m rml-persons.ttl -o ../poem-demo/dist/data/persons.ttl -s turtle
