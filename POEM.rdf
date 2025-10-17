@@ -377,6 +377,7 @@ and coding scheme of a dataset</skos:definition>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>item stem</rdfs:label>
+        <skos:definition>a question or statement used to prompt an individual to provide information regarding a latent variable</skos:definition>
     </owl:Class>
     
 
@@ -709,7 +710,7 @@ and coding scheme of a dataset</skos:definition>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>questionnaire scale</rdfs:label>
-        <skos:definition>a collection of indicators designed to be related to a shared construct</skos:definition>
+        <skos:definition>a set of questions, often within a questionnaire, for obtaining information and/or a numeric result about one particular condition</skos:definition>
     </owl:Class>
     
 
