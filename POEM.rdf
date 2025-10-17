@@ -678,12 +678,6 @@ and coding scheme of a dataset</skos:definition>
 
     <owl:Class rdf:about="http://purl.org/twc/poem/PsychometricQuestionnaire">
         <rdfs:subClassOf rdf:resource="http://hadatac.org/ont/vstoi#Questionnaire"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000892"/>
-                <owl:someValuesFrom rdf:resource="http://semanticscience.org/resource/SIO_000613"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label>psychometric questionnaire</rdfs:label>
         <skos:definition>a questionnaire used to measure an individual&apos;s mental capabilities, behaviors, or psychological traits</skos:definition>
     </owl:Class>
