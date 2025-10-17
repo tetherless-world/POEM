@@ -1,0 +1,11 @@
+FROM hansidm/fuseki:latest
+
+COPY /poem-demo/dist/data /data
+COPY /ontology /data
+COPY POEM.rdf /data
+RUN tdb2.tdbloader --loc=/ds /data/*.ttl
+RUN tdb2.tdbloader --loc=/ds /data/*.rdf
+RUN tdb2.tdbloader --loc=/ds /data/*.owl
+RUN rm -rf /data
+ 
+WORKDIR /usr/local/fuseki
