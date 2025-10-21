@@ -6,7 +6,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix : <http://example.org/rules/> .
 @prefix schema: <http://schema.org/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix poem: <http://purl.org/twc/poem/> .
 @prefix vstoi: <http://purl.org/twc/vstoi/> .
@@ -23,15 +22,9 @@
   rr:template "http://purl.org/twc/poem/individual/person/{PersonID}"
 ].
 
-# Each person is both a foaf:Person and a prov:Agent
 :TriplesMap rr:predicateObjectMap [
   rr:predicate rdf:type;
-  rr:objectMap [ rr:constant foaf:Person ];
-].
-
-:TriplesMap rr:predicateObjectMap [
-  rr:predicate rdf:type;
-  rr:objectMap [ rr:constant prov:Agent ];
+  rr:objectMap [ rr:constant prov:Person ];
 ].
 
 :TriplesMap rr:predicateObjectMap [

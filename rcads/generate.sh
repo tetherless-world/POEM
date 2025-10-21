@@ -35,3 +35,5 @@ echo "Languages..."
 java -jar rmlmapper-8.0.0-r378-all.jar -m rml-languages.ttl -o ../poem-demo/dist/data/languages.ttl -s turtle
 echo "Persons..."
 java -jar rmlmapper-8.0.0-r378-all.jar -m rml-persons.ttl -o ../poem-demo/dist/data/persons.ttl -s turtle
+echo "Agents..."
+java -jar rmlmapper-8.0.0-r378-all.jar -m rml-agents.ttl -o ../poem-demo/dist/data/agents.ttl -s turtle

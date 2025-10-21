@@ -81,13 +81,6 @@
   ]
 ].
 
-# :TriplesMap rr:predicateObjectMap [
-#   rr:predicate prov:used;
-#   rr:objectMap [
-#     rr:template "http://purl.org/twc/poem/individual/instrument/{UsedEntityID}"
-#   ]
-# ].
-
 :TriplesMap rr:predicateObjectMap [
   rr:predicate prov:used;
   rr:objectMap [
@@ -110,16 +103,16 @@
   ];
 ].
 
-# :TriplesMap rr:predicateObjectMap [
-#   rr:predicate prov:wasAssociatedWith;
-#   rr:objectMap [
-#     rr:parentTriplesMap :TriplesMapAgents;
-#     rr:joinCondition [
-#       rr:child "AssociatedAgent";
-#       rr:parent "AgentID"
-#     ];
-#   ];
-# ].
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate prov:wasAssociatedWith;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMapAgents;
+    rr:joinCondition [
+      rr:child "AssociatedAgent";
+      rr:parent "AgentID"
+    ];
+  ];
+].
 
 :TriplesMap rr:predicateObjectMap [
   rr:predicate prov:endedAtTime;

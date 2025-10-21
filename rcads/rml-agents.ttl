@@ -1,0 +1,75 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <http://example.org/rules/> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix poem: <http://purl.org/twc/poem/> .
+@prefix vstoi: <http://purl.org/twc/vstoi/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+
+# Mapping for Agents (data/xml/81_Agents.xml)
+:TriplesMap a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/81_Agents.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0038_1_Agents"
+  ].
+
+:TriplesMap rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/agent/{AgentID}"
+].
+
+# Each agent is modeled as a prov:Agent (and also a schema:Organization/Person when appropriate)
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant prov:Agent ];
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate rdfs:label;
+  rr:objectMap [ rml:reference "AgentName" ];
+].
+
+# Map any DOI/associated identifier to schema:identifier and also provide a sameAs if it's a URL
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate schema:identifier;
+  rr:objectMap [ rml:reference "Associated_x0020_DOI" ];
+].
+
+:TriplesMapAgentMembers a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/82_AgentPersonMap.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0038_2_AgentPersonMap"
+  ].
+
+:TriplesMapAgentMembers rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/person/{Person}"
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:hasMember;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMapAgentMembers;
+    rr:joinCondition [
+      rr:child "AgentID";
+      rr:parent "Agent";
+    ];
+  ];
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000059;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMapAgentMembers;
+    rr:joinCondition [
+      rr:child "AgentID";
+      rr:parent "Agent";
+    ];
+  ];
+].
