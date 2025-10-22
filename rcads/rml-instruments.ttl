@@ -146,16 +146,16 @@
   ];
 ].
 
-:TriplesMap rr:predicateObjectMap [
-  rr:predicate prov:wasGeneratedBy;
-  rr:objectMap [
-    rr:parentTriplesMap :TriplesMap3;
-    rr:joinCondition [
-      rr:child "InstrumentID";
-      rr:parent "GenEntityID";
-    ];
-  ];
-].
+# :TriplesMap rr:predicateObjectMap [
+#   rr:predicate prov:wasGeneratedBy;
+#   rr:objectMap [
+#     rr:parentTriplesMap :TriplesMap3;
+#     rr:joinCondition [
+#       rr:child "InstrumentID";
+#       rr:parent "GenEntityID";
+#     ];
+#   ];
+# ].
 
 :TriplesMap rr:predicateObjectMap [
   rr:predicate sio:hasMember;
