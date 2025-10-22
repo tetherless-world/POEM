@@ -16,7 +16,7 @@ scalaVersion := "3.3.6"
 libraryDependencies += guice
 
 // https://mvnrepository.com/artifact/org.apache.jena/jena-arq
-libraryDependencies += "org.apache.jena" % "jena-arq" % "5.5.0"
+libraryDependencies += "org.apache.jena" % "jena-arq" % "5.6.0"
 
 // https://mvnrepository.com/artifact/org.webjars/bootstrap
 libraryDependencies += "org.webjars" % "bootstrap" % "5.3.8"
@@ -67,7 +67,7 @@ libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-dstu3" % "8.4.
 libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-dstu2" % "8.4.0"
 
 // https://mvnrepository.com/artifact/com.openai/openai-java
-libraryDependencies += "com.openai" % "openai-java" % "4.3.0"
+libraryDependencies += "com.openai" % "openai-java" % "4.6.1"
 
 // https://mvnrepository.com/artifact/org.json/json
 libraryDependencies += "org.json" % "json" % "20250517"
