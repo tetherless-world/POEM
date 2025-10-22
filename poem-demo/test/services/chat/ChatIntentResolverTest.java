@@ -133,7 +133,7 @@ public class ChatIntentResolverTest {
         assertTrue(resolved.isPresent());
         assertTrue(resolved.get() instanceof InstrumentCollectionIntent);
         InstrumentCollectionIntent intent = (InstrumentCollectionIntent) resolved.get();
-        assertEquals("http://purl.org/twc/poem/individual/instrumentCollection/1", intent.collectionUri());
+    assertEquals("http://purl.org/twc/poem/individual/instrumentCollection/1", intent.collectionUri());
     }
 
     @Test

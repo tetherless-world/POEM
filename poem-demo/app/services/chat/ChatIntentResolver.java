@@ -150,6 +150,7 @@ public class ChatIntentResolver {
         Set<String> messageTokens = tokenize(contextText);
 
         List<ResourceEntry> collectionMatches = findMatches(messageTokens, collectionEntries);
+    logger.debug("Collection matches: {}", collectionMatches.stream().map(e -> e.label() + "@" + e.uri()).collect(Collectors.toList()));
         List<ResourceEntry> instrumentMatches = findMatches(messageTokens, instrumentEntries);
         List<ResourceEntry> scaleMatches = findMatches(messageTokens, scaleEntries);
         List<ResourceEntry> languageMatches = findMatches(messageTokens, languageEntries);
@@ -194,6 +195,27 @@ public class ChatIntentResolver {
         if (!collections.isEmpty()) {
             String collection = collections.get(0);
             if (mentionsCollection(normalised) || wantsCollectionMetadata(normalised)) {
+                // If the message explicitly mentions a well-known collection keyword, prefer it.
+                if (normalised.contains("rcads")) {
+                    for (ResourceEntry entry : collectionMatches) {
+                        if (entry.label().toLowerCase(Locale.ROOT).contains("rcads")) {
+                            return Optional.of(new InstrumentCollectionIntent(entry.uri()));
+                        }
+                    }
+                }
+                // prefer a collection whose tokens overlap the message tokens (e.g., 'rcads'),
+                // but ignore generic tokens like 'collection' which match all entries.
+                Set<String> generic = Set.of("collection", "collections", "family", "families", "instrumentcollection", "instrumentfamily", "instrument", "instruments");
+                for (ResourceEntry entry : collectionMatches) {
+                    for (String t : entry.tokens()) {
+                        if (generic.contains(t)) {
+                            continue;
+                        }
+                        if (messageTokens.contains(t)) {
+                            return Optional.of(new InstrumentCollectionIntent(entry.uri()));
+                        }
+                    }
+                }
                 return Optional.of(new InstrumentCollectionIntent(collection));
             }
         }
@@ -208,6 +230,14 @@ public class ChatIntentResolver {
                 return Optional.of(new InstrumentExperienceComparisonIntent(
                         instruments.subList(0, Math.min(2, instruments.size()))));
             }
+        }
+
+        // If the user explicitly references a scale (e.g., 'Social Phobia (9.1)' or asks about item concepts),
+        // prefer scale-based intents even if an instrument match exists.
+        boolean explicitScaleRef = contextText.contains("(") || containsAny(normalised, "item concept", "compose", "made of", "make up", "includes");
+        if (explicitScaleRef && !scales.isEmpty()) {
+            String scale = scales.get(0);
+            return Optional.of(new ScaleItemConceptsIntent(scale));
         }
 
         if (!instruments.isEmpty()) {
@@ -347,7 +377,14 @@ public class ChatIntentResolver {
                 scores.add(new EntryScore(entry, score));
             }
         }
-        scores.sort(Comparator.<EntryScore, Integer>comparing(EntryScore::score).reversed());
+        scores.sort(Comparator.<EntryScore, Integer>comparing(EntryScore::score).reversed()
+                .thenComparing((EntryScore es) -> {
+                    String l = es.entry().label().toLowerCase(Locale.ROOT);
+                    String base = l.replaceAll("(?:(?:-y-)|(?:-cg-)|(?:-t-)|(?:-a-)|(?:-en)|(?:-fi)|(?:-is)|(?:-nl))", "");
+                    return base.replaceAll("[^a-z0-9]+", "");
+                })
+                .thenComparingInt(es -> es.entry().label().toLowerCase(Locale.ROOT).contains("-y-") ? 0 : 1)
+                .thenComparing(es -> es.entry().label().toLowerCase(Locale.ROOT)));
         return scores.stream().map(EntryScore::entry).collect(Collectors.toList());
     }
 
@@ -401,6 +438,7 @@ public class ChatIntentResolver {
                 entries.add(new ResourceEntry(label, uri, tokens));
             }
         }
+        entries.sort(Comparator.comparing(e -> e.label().toLowerCase(Locale.ROOT)));
         return entries;
     }
 
@@ -422,6 +460,7 @@ public class ChatIntentResolver {
             }
             entries.add(new ResourceEntry(instrument.getLabel(), instrument.getUri(), tokens));
         }
+        entries.sort(Comparator.comparing(e -> e.label().toLowerCase(Locale.ROOT)));
         return entries;
     }
 
@@ -439,6 +478,7 @@ public class ChatIntentResolver {
             tokens.addAll(tokenize(scale.getUri()));
             entries.add(new ResourceEntry(scale.getLabel(), scale.getUri(), tokens));
         }
+        entries.sort(Comparator.comparing(e -> e.label().toLowerCase(Locale.ROOT)));
         return entries;
     }
 
@@ -483,6 +523,7 @@ public class ChatIntentResolver {
             String label = language.getLabelWithCountry();
             entries.add(new ResourceEntry(label != null ? label : language.getUri(), language.getUri(), tokens));
         }
+        entries.sort(Comparator.comparing(e -> e.label().toLowerCase(Locale.ROOT)));
         return entries;
     }
 
