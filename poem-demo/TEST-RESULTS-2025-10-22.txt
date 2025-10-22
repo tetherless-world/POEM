@@ -1,0 +1,57 @@
+Test run: poem-demo (sbt test)
+Date: 2025-10-22
+Command: sbt test
+
+Summary:
+- Total tests run: 17
+- Passed: 14
+- Failed: 3
+- Errors: 0
+
+Relevant output (trimmed):
+
+[info] compiling 3 Java sources to /Users/henrique/git/POEM/poem-demo/target/scala-3.3.6/test-classes ...
+[info] Annotation processing is enabled because one or more processors were found
+
+DEBUG logs (selected):
+services.chat.ChatKnowledgeService  Executing SPARQL for intent INSTRUMENT_EXPERIENCE_COMPARISON: ...
+services.chat.ChatIntentResolver  Context text for intent resolution: 'List all instruments'
+services.chat.ChatIntentResolver  LLM classification returned no result for message 'List all instruments'
+
+Failing tests (names and brief failures):
+1) services.chat.ChatIntentResolverTest.detectsScaleConceptIntent
+   - java.lang.AssertionError: null
+   - location: ChatIntentResolverTest.java:82
+
+2) services.chat.ChatIntentResolverTest.detectsInstrumentCollectionIntent
+   - org.junit.ComparisonFailure: expected:<...nstrumentCollection/[1]> but was:<...nstrumentCollection/[2]>
+   - location: ChatIntentResolverTest.java:136
+
+3) services.chat.ChatIntentResolverTest.detectsLanguageIntent
+   - org.junit.ComparisonFailure: expected:<...dividual/instrument/[1]> but was:<...dividual/instrument/[49]>
+   - location: ChatIntentResolverTest.java:59
+
+Full test output (trimmed to relevant parts) follows below for troubleshooting:
+
+2025-10-22 09:59:33 DEBUG services.chat.ChatKnowledgeService  Executing SPARQL for intent INSTRUMENT_EXPERIENCE_COMPARISON: PREFIX sio:  <http://semanticscience.org/resource/>
+...
+[error] Test services.chat.ChatIntentResolverTest.detectsScaleConceptIntent failed: java.lang.AssertionError: null, took 0.001 sec
+[error]     at services.chat.ChatIntentResolverTest.detectsScaleConceptIntent(ChatIntentResolverTest.java:82)
+...
+[error] Test services.chat.ChatIntentResolverTest.detectsInstrumentCollectionIntent failed: org.junit.ComparisonFailure: expected:<...nstrumentCollection/[1]> but was:<...nstrumentCollection/[2]>, took 0.001 sec
+[error]     at services.chat.ChatIntentResolverTest.detectsInstrumentCollectionIntent(ChatIntentResolverTest.java:136)
+...
+[error] Test services.chat.ChatIntentResolverTest.detectsLanguageIntent failed: org.junit.ComparisonFailure: expected:<...dividual/instrument/[1]> but was:<...dividual/instrument/[49]>, took 0.001 sec
+[error]     at services.chat.ChatIntentResolverTest.detectsLanguageIntent(ChatIntentResolverTest.java:59)
+
+[error] Failed: Total 17, Failed 3, Errors 0, Passed 14
+[error] Failed tests:
+[error]         services.chat.ChatIntentResolverTest
+
+Recommendation:
+- The failing assertions indicate the intent resolver's heuristic/LLM classification behavior changed or test fixtures/data ordering differs. Steps to investigate:
+  1. Re-run the failing tests in isolation with `sbt "testOnly services.chat.ChatIntentResolverTest"` to reproduce locally with full stack traces.
+ 2. Inspect the test fixture data (in `test/` and any data loaded in tests) for possible ordering or ID changes (e.g., instrument IDs or collections).
+ 3. Check whether dependency bumps (Jena or OpenAI) changed SPARQL query behavior or LLM classification outputs. The tests show debug SPARQL logs — verify RDF data and query results.
+
+This file was committed to branch `chore/bump-jena-openai-2025-10-22` and pushed so it can be attached to the PR.
