@@ -14,3 +14,4 @@ services.chat.intent.ScaleItemConceptsIntent$Provider
 services.chat.intent.ScaleNotationIntent$Provider
 services.chat.intent.ConceptLocalizedStemsIntent$Provider
 services.chat.intent.ConceptInstrumentUsageIntent$Provider
+services.chat.intent.ListScalesIntent

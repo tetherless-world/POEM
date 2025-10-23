@@ -150,10 +150,13 @@ public class ChatIntentResolver {
         Set<String> messageTokens = tokenize(contextText);
 
         List<ResourceEntry> collectionMatches = findMatches(messageTokens, collectionEntries);
-    logger.debug("Collection matches: {}", collectionMatches.stream().map(e -> e.label() + "@" + e.uri()).collect(Collectors.toList()));
         List<ResourceEntry> instrumentMatches = findMatches(messageTokens, instrumentEntries);
         List<ResourceEntry> scaleMatches = findMatches(messageTokens, scaleEntries);
         List<ResourceEntry> languageMatches = findMatches(messageTokens, languageEntries);
+        // logger.debug("Collection matches: {}", collectionMatches.stream().map(e -> e.label() + "@" + e.uri()).collect(Collectors.toList()));
+        // logger.debug("Instrument matches: {}", instrumentMatches.stream().map(e -> e.label() + "@" + e.uri()).collect(Collectors.toList()));
+        // logger.debug("Scale matches: {}", scaleMatches.stream().map(e -> e.label() + "@" + e.uri()).collect(Collectors.toList()));
+        // logger.debug("Language matches: {}", languageMatches.stream().map(e -> e.label() + "@" + e.uri()).collect(Collectors.toList()));
 
         ClassificationContext classificationContext = new ClassificationContext(
                 toCandidates(collectionMatches, 5),
@@ -220,6 +223,11 @@ public class ChatIntentResolver {
             }
         }
 
+        // Heuristic for generic scale questions (always triggers for matching phrases)
+        if (containsAny(normalised, "psychometric scale", "psychometric scales", "list scales", "what are scales", "show scales", "which scales", "scale list")) {
+            return Optional.of(new services.chat.intent.ListScalesIntent(List.of(), List.of(), 0));
+        }
+
         // Heuristic fallback
         if (instruments.size() >= 2) {
             if (containsAny(normalised, "similar", "common", "overlap", "share")) {
@@ -241,35 +249,60 @@ public class ChatIntentResolver {
         }
 
         if (!instruments.isEmpty()) {
-            String instrument = instruments.get(0);
-            logger.debug("Heuristic matched instrument {} for message '{}'", instrument, latestMessage);
-
-            if (wantsMetadata(normalised)) {
-                return Optional.of(new InstrumentIntent(instrument));
+            // Always return InstrumentScalesIntent with first instrument match for scale-related queries
+            if (containsAny(normalised, "scale", "subscale") && !instruments.isEmpty()) {
+                String bestInstrument = instruments.get(0);
+                logger.debug("Heuristic matched instrument {} for message '{}'", bestInstrument, latestMessage);
+                return Optional.of(new InstrumentScalesIntent(bestInstrument));
             }
-
-            if (containsAny(normalised, "language", "translation", "translated", "locale")) {
-                return Optional.of(new InstrumentLanguagesIntent(instrument));
+            // Try to find the best instrument match by maximizing token overlap for other queries
+            String bestInstrument = null;
+            int bestScore = -1;
+            for (ResourceEntry entry : instrumentEntries) {
+                int score = overlapScore(messageTokens, entry.tokens());
+                if (score > bestScore && instruments.contains(entry.uri())) {
+                    bestScore = score;
+                    bestInstrument = entry.uri();
+                } else if (score > bestScore && score > 0) {
+                    bestScore = score;
+                    bestInstrument = entry.uri();
+                }
             }
-
-            if (containsAny(normalised, "when", "created", "origin", "based on", "source", "generated", "derived")) {
-                return Optional.of(new InstrumentLineageIntent(instrument));
+            if (bestInstrument == null) {
+                bestInstrument = instruments.stream()
+                    .filter(uri -> uri != null && !uri.isBlank())
+                    .findFirst()
+                    .orElse(null);
             }
+            if (bestInstrument != null) {
+                logger.debug("Heuristic matched instrument {} for message '{}'", bestInstrument, latestMessage);
 
-            if (containsAny(normalised, "response option", "response options", "response scale", "codebook", "rating scale")) {
-                return Optional.of(new InstrumentResponseOptionsIntent(instrument));
-            }
+                if (wantsMetadata(normalised)) {
+                    return Optional.of(new InstrumentIntent(bestInstrument));
+                }
 
-            if (containsAny(normalised, "item text", "question text", "question wording", "item wording", "which items")) {
-                return Optional.of(new InstrumentQuestionTextsIntent(instrument));
-            }
+                if (containsAny(normalised, "psychometric scale", "psychometric scales", "list scales", "what are scales", "show scales", "which scales", "scale list")) {
+                    return Optional.of(new services.chat.intent.ListScalesIntent(List.of(), List.of(), 0));
+                }
+                if (containsAny(normalised, "language", "translation", "translated", "locale")) {
+                    return Optional.of(new InstrumentLanguagesIntent(bestInstrument));
+                }
 
-            if (containsAny(normalised, "order", "item order", "structure", "how many items", "number of items", "item count")) {
-                return Optional.of(new InstrumentItemStructureIntent(instrument));
-            }
+                if (containsAny(normalised, "when", "created", "origin", "based on", "source", "generated", "derived")) {
+                    return Optional.of(new InstrumentLineageIntent(bestInstrument));
+                }
 
-            if (containsAny(normalised, "scale", "subscale")) {
-                return Optional.of(new InstrumentScalesIntent(instrument));
+                if (containsAny(normalised, "response option", "response options", "response scale", "codebook", "rating scale")) {
+                    return Optional.of(new InstrumentResponseOptionsIntent(bestInstrument));
+                }
+
+                if (containsAny(normalised, "item text", "question text", "question wording", "item wording", "which items")) {
+                    return Optional.of(new InstrumentQuestionTextsIntent(bestInstrument));
+                }
+
+                if (containsAny(normalised, "order", "item order", "structure", "how many items", "number of items", "item count")) {
+                    return Optional.of(new InstrumentItemStructureIntent(bestInstrument));
+                }
             }
         }
 

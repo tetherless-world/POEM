@@ -81,5 +81,6 @@ public final class IntentFactory {
         addProvider(providers, new ScaleNotationIntent.Provider());
         addProvider(providers, new ConceptLocalizedStemsIntent.Provider());
         addProvider(providers, new ConceptInstrumentUsageIntent.Provider());
+        addProvider(providers, new ListScalesIntent.Provider());
     }
 }
