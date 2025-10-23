@@ -28,6 +28,37 @@ public class Codebook extends models.Resource {
     public Codebook() {
         super();
     }
+    
+        public static List<Codebook> getAll() {
+            List<Codebook> codebooks = new ArrayList<>();
+            Model model = POEMModel.getModel();
+            // vstoi:Codebook type URI
+            org.apache.jena.rdf.model.ResIterator iter = model.listSubjectsWithProperty(
+                org.apache.jena.vocabulary.RDF.type,
+                org.apache.jena.rdf.model.ResourceFactory.createResource("http://purl.org/twc/vstoi/Codebook")
+            );
+            while (iter.hasNext()) {
+                org.apache.jena.rdf.model.Resource r = iter.nextResource();
+                Codebook codebook = new Codebook();
+                codebook.setUri(r.getURI());
+                if (r.hasProperty(org.apache.jena.vocabulary.RDFS.label)) {
+                    codebook.setLabel(r.getProperty(org.apache.jena.vocabulary.RDFS.label).getString());
+                }
+                codebooks.add(codebook);
+            }
+            return codebooks;
+        }
+    
+        public static Codebook getByUri(String uri) {
+            Codebook codebook = new Codebook();
+            Model model = POEMModel.getModel();
+            org.apache.jena.rdf.model.Resource resource = model.getResource(uri);
+            codebook.setUri(resource.getURI());
+            if (resource.hasProperty(org.apache.jena.vocabulary.RDFS.label)) {
+                codebook.setLabel(resource.getProperty(org.apache.jena.vocabulary.RDFS.label).getString());
+            }
+            return codebook;
+        }
 
     public static Codebook getByItem(String itemUri) {
         System.out.println("Codebook.getByItem: " + itemUri);

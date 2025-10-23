@@ -31,8 +31,8 @@ public class ChatIntentResolverTest {
 
     @BeforeClass
     public static void loadModel() {
-        POEMModel.refresh();
-        resolver = new ChatIntentResolver(new NoopIntentClassifier());
+    POEMModel.refresh();
+    resolver = new ChatIntentResolver();
     }
 
     @Test
@@ -155,6 +155,15 @@ public class ChatIntentResolverTest {
         assertTrue(resolved.isPresent());
         assertTrue(resolved.get() instanceof ListInstrumentsIntent);
     }
+
+        @Test
+        public void detectsPsychometricScalesQuestion() {
+    Optional<ChatIntent> resolved = resolver.resolve(
+        "What are psychometric scales?",
+        Collections.emptyList());
+    assertTrue(resolved.isPresent());
+    assertTrue(resolved.get() instanceof services.chat.intent.ListScalesIntent);
+        }
 
     @Test
     public void emptyIntentForUnknownQuestion() {

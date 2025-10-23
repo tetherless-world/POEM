@@ -27,6 +27,36 @@ public class Component extends models.Resource {
     public Component() {
         super();
     }
+        public static List<Component> getAll() {
+            List<Component> components = new ArrayList<>();
+            Model model = POEMModel.getModel();
+            // vstoi:Component type URI
+            org.apache.jena.rdf.model.ResIterator iter = model.listSubjectsWithProperty(
+                org.apache.jena.vocabulary.RDF.type,
+                org.apache.jena.rdf.model.ResourceFactory.createResource("http://purl.org/twc/vstoi/Component")
+            );
+            while (iter.hasNext()) {
+                org.apache.jena.rdf.model.Resource r = iter.nextResource();
+                Component component = new Component();
+                component.setUri(r.getURI());
+                if (r.hasProperty(org.apache.jena.vocabulary.RDFS.label)) {
+                    component.setLabel(r.getProperty(org.apache.jena.vocabulary.RDFS.label).getString());
+                }
+                components.add(component);
+            }
+            return components;
+        }
+
+        public static Component getByUri(String uri) {
+            Component component = new Component();
+            Model model = POEMModel.getModel();
+            org.apache.jena.rdf.model.Resource resource = model.getResource(uri);
+            component.setUri(resource.getURI());
+            if (resource.hasProperty(org.apache.jena.vocabulary.RDFS.label)) {
+                component.setLabel(resource.getProperty(org.apache.jena.vocabulary.RDFS.label).getString());
+            }
+            return component;
+        }
 
     public static List<Component> getByInstrument(String instrumentUri) {
         System.out.println("Component.getByInstrument: " + instrumentUri);

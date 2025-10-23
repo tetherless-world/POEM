@@ -36,6 +36,36 @@ public class Item extends models.Resource {
     public Item() {
         super();
     }
+        public static List<Item> getAll() {
+            List<Item> items = new ArrayList<>();
+            Model model = POEMModel.getModel();
+            // vstoi:Item type URI
+            org.apache.jena.rdf.model.ResIterator iter = model.listSubjectsWithProperty(
+                org.apache.jena.vocabulary.RDF.type,
+                org.apache.jena.rdf.model.ResourceFactory.createResource("http://purl.org/twc/vstoi/Item")
+            );
+            while (iter.hasNext()) {
+                org.apache.jena.rdf.model.Resource r = iter.nextResource();
+                Item item = new Item();
+                item.setUri(r.getURI());
+                if (r.hasProperty(org.apache.jena.vocabulary.RDFS.label)) {
+                    item.setLabel(r.getProperty(org.apache.jena.vocabulary.RDFS.label).getString());
+                }
+                items.add(item);
+            }
+            return items;
+        }
+
+        public static Item getByUri(String uri) {
+            Item item = new Item();
+            Model model = POEMModel.getModel();
+            org.apache.jena.rdf.model.Resource resource = model.getResource(uri);
+            item.setUri(resource.getURI());
+            if (resource.hasProperty(org.apache.jena.vocabulary.RDFS.label)) {
+                item.setLabel(resource.getProperty(org.apache.jena.vocabulary.RDFS.label).getString());
+            }
+            return item;
+        }
 
     public static List<Item> getByInstrument(String instrumentUri) {
         System.out.println("Item.getByInstrument: " + instrumentUri);
