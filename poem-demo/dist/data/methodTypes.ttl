@@ -1,0 +1,34 @@
+@prefix : <http://example.org/rules/> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix poem: <http://purl.org/twc/poem/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://w3id.org/rml/> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vstoi: <http://purl.org/twc/vstoi/> .
+
+<http://purl.org/twc/poem/individual/methodType/1> rdfs:label "Forward Translation";
+  rdfs:subClassOf prov:Activity;
+  skos:definition "Process of transforming (translating) the source language (i.e., the language of the used  instrument) into a target language (i.e., the language in which generated instrument is to be administered)" .
+
+<http://purl.org/twc/poem/individual/methodType/2> rdfs:label "Backward Translation";
+  rdfs:subClassOf prov:Activity;
+  skos:definition "Process of transforming (translating) the generated instrument in the target langauge (i.e., a draft of the translated instrument), back into the language of the used instrument" .
+
+<http://purl.org/twc/poem/individual/methodType/3> rdfs:label "Double-Translation and Reconciliation";
+  rdfs:subClassOf prov:Activity;
+  skos:definition "Process that includes an independent translator or an expert panel to identify and resolve any discrepancies between multiple forward translations, reconciling them into a single instrument. Requires forward translation to have occurred." .
+
+<http://purl.org/twc/poem/individual/methodType/4> rdfs:label "Interview";
+  rdfs:subClassOf prov:Activity;
+  skos:definition "Process that includes distributing the generated instrument to the intended target population and collecting feedback" .
+
+<http://purl.org/twc/poem/individual/methodType/5> rdfs:label "Expert Review";
+  rdfs:subClassOf prov:Activity;
+  skos:definition "Process by which an individual or group of individuals review changes from the used instrument to the generated instrument and provide feedback to others associated with the activity" .
+
+<http://purl.org/twc/poem/individual/methodType/6> rdfs:label "Blind Review";
+  rdfs:subClassOf prov:Activity;
+  skos:definition "Process by which someone who is blind to the original (untranslated) text resolves discrepancies between multiple forward translations" .

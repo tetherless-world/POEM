@@ -26,7 +26,8 @@ public class POEMModel {
         "components.ttl",
         "languages.ttl",
         "persons.ttl",
-        "agents.ttl"
+        "agents.ttl",
+        "methodTypes.ttl"
     };
 
     private static final Object MODEL_LOCK = new Object();
