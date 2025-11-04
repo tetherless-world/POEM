@@ -11,7 +11,7 @@ Assets / LessKeys.less / excludeFilter := "_*.less"
 
 Assets / LessKeys.compress := true
 
-scalaVersion := "3.3.6"
+scalaVersion := "3.3.7"
 
 libraryDependencies += guice
 
