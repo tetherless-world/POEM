@@ -1,0 +1,6 @@
+rcads_proxy.settings:
+  title: 'RCADS proxy'
+  description: 'Configure the RCADS download proxy.'
+  route_name: rcads_proxy.settings
+  parent: system.admin_config_services
+  weight: 100

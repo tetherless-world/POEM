@@ -1,0 +1,3 @@
+access rcads proxy:
+  title: 'Access RCADS proxy endpoint'
+  description: 'Allow users to proxy file downloads through RCADS proxy.'

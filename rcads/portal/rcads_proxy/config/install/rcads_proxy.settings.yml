@@ -1,0 +1,2 @@
+base_url: 'http://localhost:9000/fhir'
+auth_header: ''

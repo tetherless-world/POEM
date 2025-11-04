@@ -1,0 +1,20 @@
+rcads_proxy.download:
+  path: '/rcads-proxy/download'
+  defaults:
+    _controller: '\Drupal\rcads_proxy\Controller\ProxyDownloadController::download'
+    _title: 'Download file'
+  requirements:
+    _permission: 'access rcads proxy'
+  methods: [GET]
+  options:
+    no_cache: true
+
+rcads_proxy.settings:
+  path: '/admin/config/services/rcads-proxy'
+  defaults:
+    _form: '\Drupal\rcads_proxy\Form\ProxySettingsForm'
+    _title: 'RCADS proxy'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: true

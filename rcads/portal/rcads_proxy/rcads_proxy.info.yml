@@ -1,0 +1,5 @@
+name: 'RCADS Proxy'
+type: module
+description: 'Provides a proxy endpoint for downloading files from an external webservice.'
+package: 'Custom'
+core_version_requirement: ^10 || ^11

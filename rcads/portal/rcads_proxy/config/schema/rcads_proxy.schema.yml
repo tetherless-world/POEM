@@ -1,0 +1,10 @@
+rcads_proxy.settings:
+  type: config_object
+  label: 'RCADS proxy settings'
+  mapping:
+    base_url:
+      type: string
+      label: 'Base URL'
+    auth_header:
+      type: string
+      label: 'Authorization header value'
