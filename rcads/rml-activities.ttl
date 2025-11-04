@@ -49,6 +49,17 @@
     rml:iterator "/dataroot/_x0038_0_Persons"
   ].
 
+# Logical source and TriplesMap for ActivityMethods join table
+:TriplesMapActivityMethods a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/03m_ActivityMethods.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0030_3m_ActivityMethods"
+  ];
+  rr:subjectMap [
+    rr:template "http://purl.org/twc/poem/individual/methodType/{MethodID}"
+  ].
+
 :TriplesMap rr:subjectMap [
   rr:template "http://purl.org/twc/poem/individual/activity/{ActivityID}"
 ].
@@ -119,4 +130,16 @@
   rr:objectMap [
     rml:reference "ActivityDate"
   ]
+].
+
+# Link each activity to its method type(s) using rdf:type and the join table
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+    rr:parentTriplesMap :TriplesMapActivityMethods;
+    rr:joinCondition [
+      rr:child "ActivityID";
+      rr:parent "ActivityID"
+    ]
+  ];
 ].
