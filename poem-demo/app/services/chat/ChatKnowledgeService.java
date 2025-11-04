@@ -37,7 +37,7 @@ public class ChatKnowledgeService {
     public ChatQueryResult executeIntent(ChatIntent intent) {
         Objects.requireNonNull(intent, "intent must not be null");
         String sparql = intent.toSparql();
-        logger.debug("Executing SPARQL for intent {}: {}", intent.name(), sparql);
+        //logger.debug("Executing SPARQL for intent {}: {}", intent.name(), sparql);
         Query query = QueryFactory.create(sparql);
 
         try (QueryExecution execution = QueryExecutionFactory.create(query, POEMModel.getModel())) {
