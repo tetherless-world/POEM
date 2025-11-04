@@ -12,21 +12,22 @@
 <xsd:annotation>
 <xsd:appinfo>
 <od:index index-name="InstrumentItemID" index-key="InstrumentItemID " primary="no" unique="no" clustered="no" order="asc"/>
+<od:index index-name="ItemStemID" index-key="ItemID " primary="no" unique="no" clustered="no" order="asc"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAABt++PEt1UrTIHvHeFabfyIAAAAABZwHug1auZAAAAAAAAAAAAyADMA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAABt++PEt1UrTIHvHeFabfyIAAAAANwVhCbOcOZAAAAAAAAAAAAyADMA
 XwBJAG4AcwB0AHIAdQBtAGUAbgB0AEkAdABlAG0ATQBhAHAAAAAAAAAALilXLLd0
 dUWHAu6uxK9qEwcAAABt++PEt1UrTIHvHeFabfyISQBuAHMAdAByAHUAbQBlAG4A
-dABJAHQAZQBtAEkARAAAAAAAAADqDec7QN1lTaMTX+lsaExNAAAAAAiwUn02auZA
+dABJAHQAZQBtAEkARAAAAAAAAADqDec7QN1lTaMTX+lsaExNAAAAAFBxa2y1cOZA
 AAAAAAAAAAAxADAAXwBJAG4AcwB0AHIAdQBtAGUAbgB0AHMAAAAAAAAAIuaO4wwe
 h0+9QQUD8n4U0AcAAADqDec7QN1lTaMTX+lsaExNSQBuAHMAdAByAHUAbQBlAG4A
 dABJAEQAAAAAAAAAcFoijMUfgUG7HP9NhzQyVQcAAADqDec7QN1lTaMTX+lsaExN
 SQBuAHMAdAByAHUAbQBlAG4AdABOAGEAbQBlAAAAAAAAANzkz/MwVRRCmzKSSok7
 67IHAAAAbfvjxLdVK0yB7x3hWm38iEkAbgBzAHQAcgB1AG0AZQBuAHQASQBEAAAA
-AAAAALtaUIdyzBpBrEmimAwkRncAAAAAcd0xa9Zo5kAAAAAAAAAAADMAMABfAEMA
-bwBkAGUAYgBvAG8AawBzAAAAAAAAAOhn87EMxK9Apfx+LZFuujgAAAAADnWUgrBr
+AAAAALtaUIdyzBpBrEmimAwkRncAAAAAVE4YU7Vw5kAAAAAAAAAAADMAMABfAEMA
+bwBkAGUAYgBvAG8AawBzAAAAAAAAAOhn87EMxK9Apfx+LZFuujgAAAAAFh5cSbRw
 5kAAAAAAAAAAADIAMQBfAEkAdABlAG0AUwB0AGUAbQBzAAAAAAAAAPjChbmClkJD
-kKSMRHdxN6UAAAAA8XN9rPZq5kAAAAAAAAAAADIAMABfAEkAdABlAG0AcwAAAAAA
+kKSMRHdxN6UAAAAAdDUC2BZw5kAAAAAAAAAAADIAMABfAEkAdABlAG0AcwAAAAAA
 AAA1WpXYsGrmTaYf8til3KldBwAAAPjChbmClkJDkKSMRHdxN6VJAHQAZQBtAEkA
 RAAAAAAAAACiZ79Zbf9hT5qZAlT6KPz7BwAAAPjChbmClkJDkKSMRHdxN6VJAHQA
 ZQBtAFMAdABlAG0ASQBEAAAAAAAAAB+LCQJwG2FMtrii4alZcGMHAAAA6GfzsQzE
@@ -68,7 +69,7 @@ AAAAAAAA
 <xsd:element name="InstrumentItemID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="1940"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="1"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="TextAlign" type="2" value="0"/>

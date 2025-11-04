@@ -15,26 +15,26 @@
 <od:index index-name="ItemID" index-key="ItemID " primary="no" unique="no" clustered="no" order="asc"/>
 <od:index index-name="ItemStemID" index-key="ItemStemID " primary="no" unique="no" clustered="no" order="asc"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
-<od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAD4woW5gpZCQ5CkjER3cTelAAAAAD6A47Y0aeZAAAAAAAAAAAAyADAA
+<od:tableProperty name="OrderByOn" type="1" value="1"/>
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAD4woW5gpZCQ5CkjER3cTelAAAAAHQ1AtgWcOZAAAAAAAAAAAAyADAA
 XwBJAHQAZQBtAHMAAAAAAAAANVqV2LBq5k2mH/LYpdypXQcAAAD4woW5gpZCQ5Ck
-jER3cTelSQB0AGUAbQBJAEQAAAAAAAAAamEwn5FEWUmOPHA3PJFQNwAAAACnQwrH
-E2TmQAAAAAAAAAAAOQAwAF8ATABhAG4AZwB1AGEAZwBlAHMAAAAAAAAAqzGNj41l
-ek6dzObekJJSUAcAAABqYTCfkURZSY48cDc8kVA3TABhAG4AZwBhAHUAZwBlAEkA
+jER3cTelSQB0AGUAbQBJAEQAAAAAAAAAamEwn5FEWUmOPHA3PJFQNwAAAAA8/qmE
+WWzmQAAAAAAAAAAAOQAwAF8ATABhAG4AZwB1AGEAZwBlAHMAAAAAAAAAqzGNj41l
+ek6dzObekJJSUAcAAABqYTCfkURZSY48cDc8kVA3TABhAG4AZwB1AGEAZwBlAEkA
 RAAAAAAAAABztXL5XNjsQLxZVgslSjlFBwAAAGphMJ+RRFlJjjxwNzyRUDdMAGEA
 bgBnAHUAYQBnAGUAAAAAAAAAm3VzBQzgGEKoDxPAobSjHAcAAAD4woW5gpZCQ5Ck
 jER3cTelTABhAG4AZwB1AGEAZwBlAAAAAAAAAAWH30kZ3MJCmkFpwk32+RYAAAAA
-y0JO2vRp5kAAAAAAAAAAADkAMQBfAFIAZQBzAHAAbwBuAGQAZQBuAHQAAAAAAAAA
+cdG2t69r5kAAAAAAAAAAADkAMQBfAFIAZQBzAHAAbwBuAGQAZQBuAHQAAAAAAAAA
 8EP3O1IYREWloR6q+Wxp1gcAAAAFh99JGdzCQppBacJN9vkWUgBlAHMAcABvAG4A
 ZABlAG4AdABJAEQAAAAAAAAAnSpVaSnv9UqEXob+QcwBRgcAAAAFh99JGdzCQppB
 acJN9vkWUgBlAHMAcABvAG4AZABlAG4AdAAAAAAAAACd6l56+Df9RqFecqggAj5F
 BwAAAPjChbmClkJDkKSMRHdxN6VJAG4AZgBvAHIAbQBhAG4AdAAAAAAAAADoZ/Ox
-DMSvQKX8fi2Rbro4AAAAAGwiqbk0aeZAAAAAAAAAAAAyADEAXwBJAHQAZQBtAFMA
+DMSvQKX8fi2Rbro4AAAAAJTjAL3OcOZAAAAAAAAAAAAyADEAXwBJAHQAZQBtAFMA
 dABlAG0AcwAAAAAAAAA2JQAfNH28QJ1oqeaMDMxoBwAAAOhn87EMxK9Apfx+LZFu
 ujhJAHQAZQBtAFMAdABlAG0ASQBEAAAAAAAAAB+LCQJwG2FMtrii4alZcGMHAAAA
 6GfzsQzEr0Cl/H4tkW66OEkAdABlAG0AUwB0AGUAbQBGAHUAbABsAFQAZQB4AHQA
 AAAAAAAAome/WW3/YU+amQJU+ij8+wcAAAD4woW5gpZCQ5CkjER3cTelSQB0AGUA
-bQBTAHQAZQBtAEkARAAAAAAAAAC7WlCHcswaQaxJopgMJEZ3AAAAAHHdMWvWaOZA
+bQBTAHQAZQBtAEkARAAAAAAAAAC7WlCHcswaQaxJopgMJEZ3AAAAAFROGFO1cOZA
 AAAAAAAAAAAzADAAXwBDAG8AZABlAGIAbwBvAGsAcwAAAAAAAADuWeMTXz0aTZ10
 PoU/j78lBwAAALtaUIdyzBpBrEmimAwkRndDAG8AZABlAGIAbwBvAGsASQBEAAAA
 AAAAAIS3xmKKVchEsHRU0/9496kHAAAAu1pQh3LMGkGsSaKYDCRGd0MAbwBkAGUA
@@ -60,6 +60,8 @@ AAAAAAwAAAAFAAAAAAAAAAAAAAAAAAAAAAA=
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
 <od:tableProperty name="GUID" type="9" value="+MKFuYKWQkOQpIxEd3E3pQ==
 "/>
+<od:tableProperty name="Filter" type="12" value="(Lookup_CodebookID.CodebookName Not In (&quot;4.0-item-Agreement-English&quot;,&quot;4.0-item-Agreement-Norwegian&quot;,&quot;4.0-item-Agreement-Spanish&quot;) Or Lookup_CodebookID.CodebookName Is Null)"/>
+<od:tableProperty name="OrderBy" type="12" value="[20_Items].[ItemID]"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
@@ -68,7 +70,7 @@ AAAAAAwAAAAFAAAAAAAAAAAAAAAAAAAAAAA=
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="1"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="TextAlign" type="2" value="0"/>
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
@@ -93,7 +95,7 @@ AAAAAAwAAAAFAAAAAAAAAAAAAAAAAAAAAAA=
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
 <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"/>
-<od:fieldProperty name="RowSource" type="12" value="SELECT [90_Languages].LangaugeID, [90_Languages].Language FROM 90_Languages ORDER BY [Language]; "/>
+<od:fieldProperty name="RowSource" type="12" value="SELECT [90_Languages].[LanguageID], [90_Languages].Language FROM 90_Languages ORDER BY [Language]; "/>
 <od:fieldProperty name="BoundColumn" type="3" value="1"/>
 <od:fieldProperty name="ColumnCount" type="3" value="2"/>
 <od:fieldProperty name="ColumnHeads" type="1" value="0"/>

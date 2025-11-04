@@ -15,12 +15,12 @@
 <od:index index-name="ItemStemID" index-key="ItemStemID " primary="no" unique="no" clustered="no" order="asc"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAADoZ/OxDMSvQKX8fi2Rbro4AAAAAHIwh632auZAAAAAAAAAAAAyADEA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAADoZ/OxDMSvQKX8fi2Rbro4AAAAABYeXEm0cOZAAAAAAAAAAAAyADEA
 XwBJAHQAZQBtAFMAdABlAG0AcwAAAAAAAAA2JQAfNH28QJ1oqeaMDMxoBwAAAOhn
 87EMxK9Apfx+LZFuujhJAHQAZQBtAFMAdABlAG0ASQBEAAAAAAAAAGphMJ+RRFlJ
-jjxwNzyRUDcAAAAAp0MKxxNk5kAAAAAAAAAAADkAMABfAEwAYQBuAGcAdQBhAGcA
+jjxwNzyRUDcAAAAAPP6phFls5kAAAAAAAAAAADkAMABfAEwAYQBuAGcAdQBhAGcA
 ZQBzAAAAAAAAAKsxjY+NZXpOnczm3pCSUlAHAAAAamEwn5FEWUmOPHA3PJFQN0wA
-YQBuAGcAYQB1AGcAZQBJAEQAAAAAAAAAc7Vy+VzY7EC8WVYLJUo5RQcAAABqYTCf
+YQBuAGcAdQBhAGcAZQBJAEQAAAAAAAAAc7Vy+VzY7EC8WVYLJUo5RQcAAABqYTCf
 kURZSY48cDc8kVA3TABhAG4AZwB1AGEAZwBlAAAAAAAAAPaentBLwQFNh/rnG8/I
 23IHAAAA6GfzsQzEr0Cl/H4tkW66OEkAdABlAG0AUwB0AGUAbQBMAGEAbgBnAHUA
 YQBnAGUAAAAAAAAABYffSRncwkKaQWnCTfb5FgAAAABx0ba3r2vmQAAAAAAAAAAA
@@ -57,7 +57,8 @@ AAAAAAAAAAAAAAAA
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
 <od:tableProperty name="GUID" type="9" value="6GfzsQzEr0Cl/H4tkW66OA==
 "/>
-<od:tableProperty name="Filter" type="12" value="(([Lookup_Informant].[Informant]=&quot;Youth&quot;))"/>
+<od:tableProperty name="Filter" type="12" value="([Lookup_ItemStemLanguage].[Language]=&quot;Mongolian&quot;)"/>
+<od:tableProperty name="RowHeight" type="3" value="1030"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
@@ -91,7 +92,7 @@ AAAAAAAAAAAAAAAA
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
 <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"/>
-<od:fieldProperty name="RowSource" type="12" value="SELECT [90_Languages].LangaugeID, [90_Languages].Language FROM 90_Languages ORDER BY [Language]; "/>
+<od:fieldProperty name="RowSource" type="12" value="SELECT [90_Languages].LanguageID, [90_Languages].Language FROM 90_Languages ORDER BY [Language]; "/>
 <od:fieldProperty name="BoundColumn" type="3" value="1"/>
 <od:fieldProperty name="ColumnCount" type="3" value="2"/>
 <od:fieldProperty name="ColumnHeads" type="1" value="0"/>

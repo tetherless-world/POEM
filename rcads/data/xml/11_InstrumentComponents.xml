@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="11_InstrumentComponents.xsd" generated="2025-09-22T19:01:56">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="11_InstrumentComponents.xsd" generated="2025-10-27T15:57:59">
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>486</InstrumentComponentID>
 <InstrumentID>133</InstrumentID>
@@ -351,6 +351,93 @@
 <ComponentType>4</ComponentType>
 <ComponentValue>Доорх зүйлс танд хэр ойр ойрхон тохиолддогийг илэрхийлж буй үгийг дугуйлна уу. Зөв эсвэл буруу хариулт гэж байхгүй.</ComponentValue>
 <ComponentPosition_FHIR>3</ComponentPosition_FHIR>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<InstrumentComponentID>538</InstrumentComponentID>
+<InstrumentID>148</InstrumentID>
+<ComponentType>2</ComponentType>
+<ComponentValue>Огноо</ComponentValue>
+<ComponentPosition_FHIR>2</ComponentPosition_FHIR>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<InstrumentComponentID>539</InstrumentComponentID>
+<InstrumentID>148</InstrumentID>
+<ComponentType>1</ComponentType>
+<ComponentValue>Нэр/КОД</ComponentValue>
+<ComponentPosition_FHIR>1</ComponentPosition_FHIR>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<InstrumentComponentID>540</InstrumentComponentID>
+<InstrumentID>148</InstrumentID>
+<ComponentType>4</ComponentType>
+<ComponentValue>Доорх зүйлс танд хэр ойр ойрхон тохиолддогийг илэрхийлж буй үгийг дугуйлна уу. Зөв эсвэл буруу хариулт гэж байхгүй.</ComponentValue>
+<ComponentPosition_FHIR>3</ComponentPosition_FHIR>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<InstrumentComponentID>541</InstrumentComponentID>
+<InstrumentID>147</InstrumentID>
+<ComponentType>2</ComponentType>
+<ComponentValue>Огноо</ComponentValue>
+<ComponentPosition_FHIR>2</ComponentPosition_FHIR>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<InstrumentComponentID>542</InstrumentComponentID>
+<InstrumentID>147</InstrumentID>
+<ComponentType>1</ComponentType>
+<ComponentValue>Нэр/КОД</ComponentValue>
+<ComponentPosition_FHIR>1</ComponentPosition_FHIR>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<InstrumentComponentID>543</InstrumentComponentID>
+<InstrumentID>147</InstrumentID>
+<ComponentType>4</ComponentType>
+<ComponentValue>Доорх зүйлс таны хүүхдэд хэр ойр ойрхон тохиолддогийг илэрхийлж буй үгийг дугуйлна уу.</ComponentValue>
+<ComponentPosition_FHIR>4</ComponentPosition_FHIR>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<InstrumentComponentID>544</InstrumentComponentID>
+<InstrumentID>147</InstrumentID>
+<ComponentType>6</ComponentType>
+<ComponentValue>Хүүхэдтэй ямар хамааралтай болох</ComponentValue>
+<ComponentPosition_FHIR>3</ComponentPosition_FHIR>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<InstrumentComponentID>545</InstrumentComponentID>
+<InstrumentID>149</InstrumentID>
+<ComponentType>2</ComponentType>
+<ComponentValue>Огноо</ComponentValue>
+<ComponentPosition_FHIR>2</ComponentPosition_FHIR>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<InstrumentComponentID>546</InstrumentComponentID>
+<InstrumentID>149</InstrumentID>
+<ComponentType>1</ComponentType>
+<ComponentValue>Нэр/КОД</ComponentValue>
+<ComponentPosition_FHIR>1</ComponentPosition_FHIR>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<InstrumentComponentID>547</InstrumentComponentID>
+<InstrumentID>149</InstrumentID>
+<ComponentType>4</ComponentType>
+<ComponentValue>Доорх зүйлс таны хүүхдэд хэр ойр ойрхон тохиолддогийг илэрхийлж буй үгийг дугуйлна уу.</ComponentValue>
+<ComponentPosition_FHIR>4</ComponentPosition_FHIR>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<InstrumentComponentID>548</InstrumentComponentID>
+<InstrumentID>149</InstrumentID>
+<ComponentType>6</ComponentType>
+<ComponentValue>Хүүхэдтэй ямар хамааралтай болох</ComponentValue>
+<ComponentPosition_FHIR>3</ComponentPosition_FHIR>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<InstrumentComponentID>549</InstrumentComponentID>
+<ComponentPosition_FHIR>1</ComponentPosition_FHIR>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<InstrumentComponentID>550</InstrumentComponentID>
+</_x0031_1_InstrumentComponents>
+<_x0031_1_InstrumentComponents>
+<InstrumentComponentID>551</InstrumentComponentID>
 </_x0031_1_InstrumentComponents>
 <_x0031_1_InstrumentComponents>
 <InstrumentComponentID>3</InstrumentComponentID>

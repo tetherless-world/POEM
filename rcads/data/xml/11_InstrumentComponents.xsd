@@ -15,11 +15,11 @@
 <od:index index-name="PrimaryKey" index-key="InstrumentComponentID " primary="yes" unique="yes" clustered="no" order="asc"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAABkrNW9ueAWRq517Y01yJkGAAAAAEQnXpAyaOZAAAAAAAAAAAAxADEA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAABkrNW9ueAWRq517Y01yJkGAAAAACO+E2vWaOZAAAAAAAAAAAAxADEA
 XwBJAG4AcwB0AHIAdQBtAGUAbgB0AEMAbwBtAHAAbwBuAGUAbgB0AHMAAAAAAAAA
 kEymSCDwU0WkiQQBSItabwcAAABkrNW9ueAWRq517Y01yJkGSQBuAHMAdAByAHUA
 bQBlAG4AdABDAG8AbQBwAG8AbgBlAG4AdABJAEQAAAAAAAAA6g3nO0DdZU2jE1/p
-bGhMTQAAAACj/aygVmXmQAAAAAAAAAAAMQAwAF8ASQBuAHMAdAByAHUAbQBlAG4A
+bGhMTQAAAAA4gdWp8m7mQAAAAAAAAAAAMQAwAF8ASQBuAHMAdAByAHUAbQBlAG4A
 dABzAAAAAAAAACLmjuMMHodPvUEFA/J+FNAHAAAA6g3nO0DdZU2jE1/pbGhMTUkA
 bgBzAHQAcgB1AG0AZQBuAHQASQBEAAAAAAAAAHBaIozFH4FBuxz/TYc0MlUHAAAA
 6g3nO0DdZU2jE1/pbGhMTUkAbgBzAHQAcgB1AG0AZQBuAHQATgBhAG0AZQAAAAAA
@@ -54,7 +54,7 @@ BQAAAAAAAAAAAAAAAAAAAAAA
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
 <od:tableProperty name="GUID" type="9" value="ZKzVvbngFkaude2NNciZBg==
 "/>
-<od:tableProperty name="Filter" type="12" value="([Lookup_InstrumentID].[InstrumentName] In (&quot;RCADS-25-CG-UR&quot;,&quot;RCADS-25-Y-UR&quot;,&quot;RCADS-47-CG-UR&quot;,&quot;RCADS-47-Y-UR&quot;))"/>
+<od:tableProperty name="Filter" type="12" value="([Lookup_InstrumentID].[InstrumentName]=&quot;RCADS-25-Y-FA&quot;)"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>

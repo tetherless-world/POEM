@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="04_EntityGroups.xsd" generated="2025-10-10T12:33:48">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="04_EntityGroups.xsd" generated="2025-10-27T15:47:53">
 <_x0030_4_EntityGroups>
 <EntityMappingID>141</EntityMappingID>
 <EntityListName>[3] RCADS-47-Y-FR-FR-1, RCADS-47-CG-FR-1, RCADS-47-CG-FR-2</EntityListName>
@@ -51,6 +51,38 @@
 <_x0030_4_EntityGroups>
 <EntityMappingID>153</EntityMappingID>
 <EntityListName>RCADS-47-Y-MN</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>154</EntityMappingID>
+<EntityListName>[2] RCADS-47-CG-AR, RCADS-25-CG-EN</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>155</EntityMappingID>
+<EntityListName>RCADS-25-CG-AR</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>156</EntityMappingID>
+<EntityListName>RCADS-47-Y-IT</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>157</EntityMappingID>
+<EntityListName>RCADS-47-CG-IT</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>158</EntityMappingID>
+<EntityListName>[2] RCADS-47-CG-MN, RCADS-25-CG-EN</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>159</EntityMappingID>
+<EntityListName>RCADS-25-CG-MN</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>160</EntityMappingID>
+<EntityListName>[2] RCADS-47-Y-MN, RCADS-25-Y-EN</EntityListName>
+</_x0030_4_EntityGroups>
+<_x0030_4_EntityGroups>
+<EntityMappingID>161</EntityMappingID>
+<EntityListName>RCADS-25-Y-MN</EntityListName>
 </_x0030_4_EntityGroups>
 <_x0030_4_EntityGroups>
 <EntityMappingID>62</EntityMappingID>

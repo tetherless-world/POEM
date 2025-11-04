@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="21_ItemStems.xsd" generated="2025-09-22T19:03:44">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="21_ItemStems.xsd" generated="2025-10-30T13:16:58">
 <_x0032_1_ItemStems>
 <ItemStemID>2735</ItemStemID>
 <ItemStemLanguage>30</ItemStemLanguage>
@@ -2679,6 +2679,990 @@ casa</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2890</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>37</ItemStemConceptID>
+<ItemStemFullText>طفلي يقلق بشأن األمور.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2891</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>12</ItemStemConceptID>
+<ItemStemFullText>طفلي يشعر بالحزن أو الفراغ.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2892</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>35</ItemStemConceptID>
+<ItemStemFullText>عندما يواجه طفلي مشكلة، يشعر بإحساس غريب في معدته.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2893</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>45</ItemStemConceptID>
+<ItemStemFullText>طفلي يقلق عندما يعتقد أنه/أنها لم ينجز شيئا بالشكل المطلوب.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2894</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>7</ItemStemConceptID>
+<ItemStemFullText> طفلي يشعر بالخوف من البقاء وحيد ا في المنزل.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2895</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>10</ItemStemConceptID>
+<ItemStemFullText>طفلي لم تعد يجد األشياء ممتعة كما كانت.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2896</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>26</ItemStemConceptID>
+<ItemStemFullText>طفلي يشعر بالخوف عند إجراء اختبار.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2897</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>14</ItemStemConceptID>
+<ItemStemFullText>طفلي يقلق عندما يعتقد أن شخ صا ما غاضب منه/منها.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2898</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>8</ItemStemConceptID>
+<ItemStemFullText>طفلي يقلق عند االبتعاد عني.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2899</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>4</ItemStemConceptID>
+<ItemStemFullText> طفلي ينزعج من األفكار أو الصور السيئة أو السخيفة في ذهنه/ها.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2900</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>21</ItemStemConceptID>
+<ItemStemFullText>طفلي يواجه صعوبة في النوم.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2901</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>46</ItemStemConceptID>
+<ItemStemFullText>طفلي يقلق بشأن أدائه السيئ في المدرسة.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2902</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>42</ItemStemConceptID>
+<ItemStemFullText>طفلي يقلق من أن شيئ ا سيئ ا سيحدث لشخص ما في العائلة.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2903</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>29</ItemStemConceptID>
+<ItemStemFullText> طفلي يشعر فجأة أنه ال يستطيع التنفس دون سبب لذلك.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2904</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>17</ItemStemConceptID>
+<ItemStemFullText>طفلي يعاني من مشاكل في الشهية.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2905</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>23</ItemStemConceptID>
+<ItemStemFullText>طفلي بحاجة مستمرة إلى التحقق من أنه/أنها قد قام/ت باألشياء بشكل صحيح )مثل إطفاء المصباح أو قفل الباب(.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2906</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>24</ItemStemConceptID>
+<ItemStemFullText>طفلي يشعر بالخوف من النوم بمفرده/ها.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2907</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>32</ItemStemConceptID>
+<ItemStemFullText> طفلي يواجه صعوبة بالذهاب إلى المدرسة صبا حا بسبب شعوره/ها بالتوتر أو الخوف.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2908</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>16</ItemStemConceptID>
+<ItemStemFullText> طفلي ليس لديه/ها طاقة للقيام باألشياء.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2909</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>41</ItemStemConceptID>
+<ItemStemFullText>طفلي يقلق من أن يبدو أحمق.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2910</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>13</ItemStemConceptID>
+<ItemStemFullText>طفلي يشعر بالتعب كثي را.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2911</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>39</ItemStemConceptID>
+<ItemStemFullText> طفلي يقلق من أن أشياء سيئةستحدث له/لها.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2912</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>6</ItemStemConceptID>
+<ItemStemFullText> طفلي ال يستطيع إخراج األفكار السيئة أو الغريبة من رأسه/ها.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2913</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>34</ItemStemConceptID>
+<ItemStemFullText> عندما يواجه طفلي مشكلة، ينبض قلبه/ها بسرعة كبيرة.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2914</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>5</ItemStemConceptID>
+<ItemStemFullText>طفلي ال يستطيع التفكير بوضوح.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2915</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>30</ItemStemConceptID>
+<ItemStemFullText>يبدأ طفلي باالرتجاف أو االرتعاش فجأة ومن دون سبب لذلك.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2916</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>43</ItemStemConceptID>
+<ItemStemFullText>طفلي يقلق من أن شيئ ا سيئ ا سيحدث له/لها.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2917</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>33</ItemStemConceptID>
+<ItemStemFullText>طفلي يبدأ باالرتجاف عندما يواجه مشكلة.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2918</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>15</ItemStemConceptID>
+<ItemStemFullText> طفلي يشعر بأنه/ها بال قيمة.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2919</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>36</ItemStemConceptID>
+<ItemStemFullText>طفلي يقلق بشأن ارتكاب األخطاء.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2920</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>20</ItemStemConceptID>
+<ItemStemFullText>طفلي يحتاج إلى التفكير في أفكار خاصة )مثل أرقام أو كلمات( لمنع حدوث أشياء سيئة.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2921</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>44</ItemStemConceptID>
+<ItemStemFullText>طفلي يقلق بشأن ما يعتقده اآلخرون عنه/ها.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2922</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>1</ItemStemConceptID>
+<ItemStemFullText> طفلي يخاف من التواجد في األماكن المزدحمة )مثل مراكز التسوق، السينما، الحافالت، المالعب المزدحمة(.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2923</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>28</ItemStemConceptID>
+<ItemStemFullText> يشعر طفلي بالخوف الشديد فجأة ودون سبب لذلك.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2924</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>38</ItemStemConceptID>
+<ItemStemFullText>طفلي يقلق بشأن ما سيحدث الحق.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2925</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>27</ItemStemConceptID>
+<ItemStemFullText> فجأة يشعر طفلي بالدوار أو اإلغماء دون سبب لذلك.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2926</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>31</ItemStemConceptID>
+<ItemStemFullText>طفلي يفكر في الموت.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2927</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>3</ItemStemConceptID>
+<ItemStemFullText>يشعر طفلي بالخوف إذا اضطر إلى التحدث في الصف.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2928</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>22</ItemStemConceptID>
+<ItemStemFullText>فجأة يبدأ قلب طفلي بالخفقان بسرعة كبيرة دون سبب لذلك.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2929</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>9</ItemStemConceptID>
+<ItemStemFullText>طفلي يشعر وكأنه ال يريد التحرك.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2930</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>47</ItemStemConceptID>
+<ItemStemFullText> طفلي يقلق من أنه/أنها سيشعر فجأة بالخوف رغم عدم تواجد أي سبب لذلك.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2931</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>19</ItemStemConceptID>
+<ItemStemFullText> طفلي يحتاج إلى تكرار بعض األشياء مرا را )مثل غسل اليدين، التنظيف، أو ترتيب األشياء بطريقة معينة(.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2932</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>2</ItemStemConceptID>
+<ItemStemFullText>طفلي يشعر بالخوف من أن يبدو أحمق . ا أمام الناس</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2933</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>18</ItemStemConceptID>
+<ItemStemFullText> طفلي يحتاج إلى القيام ببعض األشياء بطريقة محددة لمنع حدوث أشياء سيئة.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2934</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>40</ItemStemConceptID>
+<ItemStemFullText>طفلي يقلق عندما يكون في السرير ليال.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2935</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>25</ItemStemConceptID>
+<ItemStemFullText>طفلي يخاف إذا كان عليه البقاء بعيد ا عن المنزل ليا.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2936</ItemStemID>
+<ItemStemLanguage>2</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>11</ItemStemConceptID>
+<ItemStemFullText>طفلي يشعر بالتوتر.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2937</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>37</ItemStemConceptID>
+<ItemStemFullText>Би аливаа зүйлсд санаа зовдог</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2938</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>12</ItemStemConceptID>
+<ItemStemFullText>Надад гунигтай эсвэл хоосон мэдрэмж төрдөг</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2939</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>35</ItemStemConceptID>
+<ItemStemFullText>Надад асуудал тулгарах үед гэдэс орчимд хачин жигтэй мэдрэмж төрдөг</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2940</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>45</ItemStemConceptID>
+<ItemStemFullText>Ямар нэг зүйлийг би муу хийчихсэн байх вий дээ гэж бодох үед миний санаа зовдог вий дээ гэж</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2941</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>7</ItemStemConceptID>
+<ItemStemFullText>Би гэртээ ганцаараа байхаас айх байсан</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2942</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>10</ItemStemConceptID>
+<ItemStemFullText>Юу ч хөгжилтэй санагдахаа больсон</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2943</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>26</ItemStemConceptID>
+<ItemStemFullText>Шалгалт өгнө гэхээр надад айдас төрдөг</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2944</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>14</ItemStemConceptID>
+<ItemStemFullText>Хэн нэгэн надад уурласан байх вий гэж бодохоор миний санаа зовдог</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2945</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>8</ItemStemConceptID>
+<ItemStemFullText>Би эцэг эхээсээ хол байгаадаа санаа зовдог.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2946</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>4</ItemStemConceptID>
+<ItemStemFullText>Толгойд орж ирэх муу эсвэл хачин жигтэй бодол, зураглалууд намайг тавгүйтүүлдэг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2947</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>21</ItemStemConceptID>
+<ItemStemFullText>Надад унтахад хүндрэлтэй байдаг</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2948</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>46</ItemStemConceptID>
+<ItemStemFullText>Би хичээлээ муу хийх вий гэж санаа зовдог</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2949</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>42</ItemStemConceptID>
+<ItemStemFullText>Би гэр бүлийн хэн нэгэнд маань ямар нэгэн аймшигтай зүйл тохиолдох вий гэж санаа зовдог нэгэн</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2950</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>29</ItemStemConceptID>
+<ItemStemFullText>Тодорхой шалтгаан байхгүй байхад гэнэт амьсгаа авч чадахгүй байгаа юм шиг мэдрэмж надад төрдөг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2951</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>17</ItemStemConceptID>
+<ItemStemFullText>Надад хоолны дуршилтай холбоотой асуудлууд байдаг асуудлууд байдаг</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2952</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>23</ItemStemConceptID>
+<ItemStemFullText>Хийсэн зүйлээ зөв хийсэн эсэхээ дахин дахин шалгах хэрэгтэй мэт санагддаг (жишээлбэл: гэрлээ унтраасан, эсвэл хаалгаа цоожилсон)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2953</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>24</ItemStemConceptID>
+<ItemStemFullText>Би өөрөө, ганцаараа унтах болвол айсан мэдрэмж авдаг</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2954</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>32</ItemStemConceptID>
+<ItemStemFullText>Тайван бус, айж түгшсэн мэдрэмжээсээ сургуульруугаа явахад хүндрэлтэй байдаг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2955</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>16</ItemStemConceptID>
+<ItemStemFullText>Надад аливаа зүйлсийг хийх эрч хүч байдаггүй.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2956</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>41</ItemStemConceptID>
+<ItemStemFullText>Би өөрийгөө тэнэг харагдаж магадгүй гэж санаа зовдог</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2957</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>13</ItemStemConceptID>
+<ItemStemFullText>Би байнга ядардаг</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2958</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>39</ItemStemConceptID>
+<ItemStemFullText>Надад муу зүйл тохиолдох вий гэж миний санаа зовдог</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2959</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>6</ItemStemConceptID>
+<ItemStemFullText>Би муу эсвэл хачин жигтэй бодлуудаа толгойноосоо гаргаж чадахгүй юм шиг санагддаг</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2960</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>34</ItemStemConceptID>
+<ItemStemFullText>Надад асуудал тулгарах үед миний зүрх маш хурдан цохилдог.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2961</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>5</ItemStemConceptID>
+<ItemStemFullText>Би тодорхой бодож, сэтгэж чаддаггүй.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2962</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>30</ItemStemConceptID>
+<ItemStemFullText>Би ямар ч шалтгаангүй байхад чичэрч эсвэл салганаж эхэлдэг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2963</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>43</ItemStemConceptID>
+<ItemStemFullText>Би надад ямар нэгэн муу зүйл тохиолдох вий гэж санаа зовдог.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2964</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>33</ItemStemConceptID>
+<ItemStemFullText>Надад ямар нэгэн асуудал тулгарахад чичирдэг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2965</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>15</ItemStemConceptID>
+<ItemStemFullText>Би өөрийгөө үнэ цэнэгүй гэж мэдэрдэг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2966</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>36</ItemStemConceptID>
+<ItemStemFullText>Би алдаа гаргахаас санаа зовдог.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2967</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>20</ItemStemConceptID>
+<ItemStemFullText>Би ямар нэгэн муу зүйл болохыг зогсоохын тулд өвөрмөц зүйл (тоо эсвэл үг) бодох хэрэгтэй болдог.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2968</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>44</ItemStemConceptID>
+<ItemStemFullText>Би бусад хүмүүс миний тухай юу гэж боддог бол гэж санаа зовдог.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2969</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>1</ItemStemConceptID>
+<ItemStemFullText>Би хүн ихтэй газарт (худалдааны төв, кино театр, автобус, хүн ихтэй тоглоомын төв) байхаас айдаг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2970</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>28</ItemStemConceptID>
+<ItemStemFullText>Би гэнэт ямар ч шалтгаангүй маш их айдаг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2971</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>38</ItemStemConceptID>
+<ItemStemFullText>Би юу болох гэж байгаа бол гэж санаа зовдог.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2972</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>27</ItemStemConceptID>
+<ItemStemFullText>Ямар ч шалтгаангүй гэнэт миний толгой эргэж, ухаан алддаг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2973</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>31</ItemStemConceptID>
+<ItemStemFullText>Би үхлийн тухай боддог.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2974</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>3</ItemStemConceptID>
+<ItemStemFullText>Би ангийнхаа өмнө гарч ярих шаардлагатай болсон үед айдаг шаардлагатай болсон үед айдаг</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2975</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>22</ItemStemConceptID>
+<ItemStemFullText>Миний зүрх ямар ч шалтгаангүй маш хурдан цохилж эхэлдэг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2976</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>9</ItemStemConceptID>
+<ItemStemFullText>Надад хөдөлгөөн хийхийг хүсэхгүй байгаа мэт мэдрэмж төрдөг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2977</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>47</ItemStemConceptID>
+<ItemStemFullText>Надад айх ямар нэгэн зүйл байхгүй байхад гэнэт айх мэдрэмж төрөх вий гэж санаа зовдог.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2978</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>19</ItemStemConceptID>
+<ItemStemFullText>Би зарим зүйлийг (гараа угаах, цэвэрлэх, эд зүйлсийг тодорхой дараалалаар тавих) дахин дахин давтаж хийдэг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2979</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>2</ItemStemConceptID>
+<ItemStemFullText>Би бусад хүмүүсийн өмнө өөрийгөө тэнэгтэх вий гэж айдаг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2980</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>18</ItemStemConceptID>
+<ItemStemFullText>Би муу зүйл тохиолдохоос сэргийлж зарим зүйлийг зөв хийх ёстой байдаг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2981</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>40</ItemStemConceptID>
+<ItemStemFullText>Би шөнө орондоо ороод санаа зовдог.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2982</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>25</ItemStemConceptID>
+<ItemStemFullText>Би гэрээс гадуур хонох үед айгаад байдаг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2983</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>11</ItemStemConceptID>
+<ItemStemFullText>Би тайван бус байдаг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2984</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>37</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд аливаа зүйлсд санаа зовдог.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2985</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>12</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхдэд гунигтай эсвэл хоосон мэдрэмж төрдөг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2986</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>35</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхдэд асуудал тулгарах үед гэдэс орчимд нь хачин жигтэй мэдрэмж төрдөг</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2987</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>45</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд ямар нэг зүйлийг би муу хийчихсэн байх вий гэж бодохоороо санаа нь зовдог</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2988</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>7</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд гэртээ ганцаараа байхаас айх байсан</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2989</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>10</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхдэд юу ч хөгжилтэй санагдахаа больсон</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2990</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>26</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхдэд шалгалт өгнө гэхээр айдас төрдөг</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2991</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>14</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд хэн нэгэн түүнд уурласан байх вий гэж бодохоор санаа нь зовдог</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2992</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>8</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд надаас хол байгаадаа санаа зовдог</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2993</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>4</ItemStemConceptID>
+<ItemStemFullText>Толгойд нь орж ирэх муу эсвэл хачин жигтэй бодол, зураглалууд миний хүүхдийг тавгүйтүүлдэг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2994</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>21</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхдэд унтахад хүндрэлтэй байдаг</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2995</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>46</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд хичээлээ муу хийх вий гэж санаа зовдог</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2996</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>42</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд гэр бүлийн хэн нэгэнд нь аймшигтай зүйл тохиолдох вий гэж санаа зовдог</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2997</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>29</ItemStemConceptID>
+<ItemStemFullText>Тодорхой шалтгаан байхгүй байхад гэнэт амьсгаа авч чадахгүй байгаа юм шиг мэдрэмж миний хүүхдэд төрдөг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2998</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>17</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд хоолны дуршилтай холбоотой асуудалтай</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>2999</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>23</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхдэд хийсэн зүйлээ зөв хийсэн эсэхээ дахин дахин шалгах хэрэгтэй (жишээлбэл: гэрлээ унтраасан, эсвэл хаалгаа цоожилсон)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3000</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>24</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд өөрөө, ганцаараа унтах болвол айсан мэдрэмж авдаг</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3001</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>32</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд тайван бус, айж түгшсэн мэдрэмжээсээ болоод өглөө сургуульруугаа явахад нь хүндрэлтэй байдаг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3002</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>16</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхдэд аливаа зүйлсийг хийх эрч хүч байдаггүй</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3003</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>41</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд өөрийгөө тэнэг харагдаж магадгүй гэж санаа зовдог</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3004</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>13</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд байнга ядардаг</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3005</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>39</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд өөрт нь муу зүйл тохиолдох вий гэж санаа зовдог</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3006</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>6</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд муу эсвэл хачин жигтэй бодлуудаа толгойноосоо гаргаж чадахгүй байгаа юм шиг санагддаг</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3007</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>34</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхдэд асуудал тулгарах үед зүрх нь маш хурдан цохилдог.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3008</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>5</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд тодорхой бодож, сэтгэж чаддаггүй.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3009</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>30</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд ямар ч шалтгаангүй байхад чичэрч эсвэл салганаж эхэлдэг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3010</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>43</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд өөрт нь ямар нэгэн муу зүйл тохиолдох вий гэж санаа зовдог.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3011</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>33</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхдэд ямар нэгэн асуудал тулгарахад чичирдэг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3012</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>15</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд өөрийгөө үнэ цэнэгүй гэж мэдэрдэг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3013</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>36</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд алдаа гаргахаас санаа зовдог.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3014</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>20</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд ямар нэгэн муу зүйл болохыг зогсоохын тулд өвөрмөц зүйл (тоо эсвэл үг) бодох хэрэгтэй болдог.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3015</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>44</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд бусад хүмүүс түүний тухай юу гэж боддог бол гэж санаа зовдог.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3016</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>1</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд хүн ихтэй газар (худалдааны төв, кино театр, автобус, хүн ихтэй тоглоомын төв) байхаас айдаг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3017</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>28</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд гэнэт ямар ч шалтгаангүй маш их айдаг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3018</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>38</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд юу болох гэж байгаа бол гэж санаа зовдог.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3019</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>27</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд ямар ч шалтгаангүй гэнэт толгой нь эргэж, ухаан алддаг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3020</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>31</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд үхлийн тухай боддог.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3021</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>3</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд ангийнхаа өмнө гарч ярих шаардлагатай болсон үед айдаг</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3022</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>22</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхдийн зүрх ямар ч шалтгаангүй маш хурдан цохилж эхэлдэг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3023</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>9</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхдэд хөдөлгөөн хийхийг хүсэхгүй байгаа мэт мэдрэмж төрдөг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3024</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>47</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд айх ямар нэгэн зүйл байхгүй байхад гэнэт айх мэдрэмж төрөх вий гэж санаа зовдог.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3025</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>19</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд зарим зүйлийг (гараа угаах, цэвэрлэх, эд зүйлсийг тодорхой дараалалаар тавих) дахин дахин давтаж хийдэг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3026</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>2</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд бусад хүмүүсийн өмнө өөрийгөө тэнэгтэх вий гэж айдаг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3027</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>18</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд муу зүйл тохиолдохоос сэргийлж зарим зүйлийг зөв хийх ёстой байдаг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3028</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>40</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд шөнө орондоо ороод санаа зовдог.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3029</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>25</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд гэрээс гадуур хонох үед айгаад байдаг.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3030</ItemStemID>
+<ItemStemLanguage>38</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>11</ItemStemConceptID>
+<ItemStemFullText>Миний хүүхэд тайван бус байдаг.</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>294</ItemStemID>
