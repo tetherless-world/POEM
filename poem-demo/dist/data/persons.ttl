@@ -44,8 +44,33 @@
 <http://purl.org/twc/poem/individual/person/107> a prov:Person;
   rdfs:label "Sarnai Erdene" .
 
+<http://purl.org/twc/poem/individual/person/108> a prov:Person;
+  schema:identifier "0009-0006-5361-8906";
+  schema:sameAs <https://orcid.org/0009-0006-5361-8906>;
+  rdfs:label "Adrienne Nguyen" .
+
+<http://purl.org/twc/poem/individual/person/109> a prov:Person;
+  schema:identifier "0000-0001-5994-9788";
+  schema:sameAs <https://orcid.org/0000-0001-5994-9788>;
+  rdfs:label "Dario Esposito" .
+
 <http://purl.org/twc/poem/individual/person/11> a prov:Person;
   rdfs:label "John R. Weisz" .
+
+<http://purl.org/twc/poem/individual/person/110> a prov:Person;
+  schema:identifier "0000-0002-9961-3741";
+  schema:sameAs <https://orcid.org/0000-0002-9961-3741>;
+  rdfs:label "Valeria Mammarella" .
+
+<http://purl.org/twc/poem/individual/person/111> a prov:Person;
+  schema:identifier "0009-0007-2631-3557";
+  schema:sameAs <https://orcid.org/0009-0007-2631-3557>;
+  rdfs:label "Alessia Maffucci" .
+
+<http://purl.org/twc/poem/individual/person/112> a prov:Person;
+  schema:identifier "0009-0006-8635-8231";
+  schema:sameAs <https://orcid.org/0009-0006-8635-8231>;
+  rdfs:label "Olivia Cox" .
 
 <http://purl.org/twc/poem/individual/person/12> a prov:Person;
   schema:identifier "0000-0001-8246-3479";

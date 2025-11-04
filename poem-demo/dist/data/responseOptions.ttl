@@ -167,47 +167,39 @@ _:132 a sio:Notation, sio:SIO_001385;
   sio:SIO_000300 "0";
   sio:hasValue "0" .
 
-_:133 a sio:OrdinalPosition, sio:SIO_000613;
+_:133 a sio:Notation, sio:SIO_001385;
+  sio:SIO_000300 "0";
+  sio:hasValue "0" .
+
+_:134 a sio:Notation, sio:SIO_001385;
   sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/1>;
-  sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/1> .
+  sio:hasValue "1" .
 
-_:134 a sio:OrdinalPosition, sio:SIO_000613;
+_:135 a sio:Notation, sio:SIO_001385;
   sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/1>;
-  sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/1> .
+  sio:hasValue "2" .
 
-_:135 a sio:OrdinalPosition, sio:SIO_000613;
+_:136 a sio:Notation, sio:SIO_001385;
   sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/1>;
-  sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/1> .
-
-_:136 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "4";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/1>;
-  sio:hasValue "4";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/1> .
+  sio:hasValue "3" .
 
 _:137 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/2>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/1>;
   sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/2> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/1> .
 
 _:138 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/2>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/1>;
   sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/2> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/1> .
 
 _:139 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/2>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/1>;
   sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/2> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/1> .
 
 _:14 a sio:Notation, sio:SIO_001385;
   sio:SIO_000300 "2";
@@ -215,63 +207,63 @@ _:14 a sio:Notation, sio:SIO_001385;
 
 _:140 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "4";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/1>;
+  sio:hasValue "4";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/1> .
+
+_:141 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "1";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/2>;
+  sio:hasValue "1";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/2> .
+
+_:142 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/2>;
+  sio:hasValue "2";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/2> .
+
+_:143 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/2>;
+  sio:hasValue "3";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/2> .
+
+_:144 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "4";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/2>;
   sio:hasValue "4";
   sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/2> .
 
-_:141 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/3>;
-  sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/3> .
-
-_:142 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/3>;
-  sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/3> .
-
-_:143 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/3>;
-  sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/3> .
-
-_:144 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "4";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/3>;
-  sio:hasValue "4";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/3> .
-
 _:145 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/4>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/3>;
   sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/4> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/3> .
 
 _:146 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/4>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/3>;
   sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/4> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/3> .
 
 _:147 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/4>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/3>;
   sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/4> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/3> .
 
 _:148 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "4";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/4>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/3>;
   sio:hasValue "4";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/4> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/3> .
 
 _:149 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/5>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/4>;
   sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/5> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/4> .
 
 _:15 a sio:Notation, sio:SIO_001385;
   sio:SIO_000300 "3";
@@ -279,63 +271,63 @@ _:15 a sio:Notation, sio:SIO_001385;
 
 _:150 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/5>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/4>;
   sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/5> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/4> .
 
 _:151 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/5>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/4>;
   sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/5> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/4> .
 
 _:152 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "4";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/4>;
+  sio:hasValue "4";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/4> .
+
+_:153 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "1";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/5>;
+  sio:hasValue "1";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/5> .
+
+_:154 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/5>;
+  sio:hasValue "2";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/5> .
+
+_:155 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/5>;
+  sio:hasValue "3";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/5> .
+
+_:156 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "4";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/5>;
   sio:hasValue "4";
   sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/5> .
 
-_:153 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/6>;
-  sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/6> .
-
-_:154 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/6>;
-  sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/6> .
-
-_:155 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/6>;
-  sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/6> .
-
-_:156 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "4";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/6>;
-  sio:hasValue "4";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/6> .
-
 _:157 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/7>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/6>;
   sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/7> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/6> .
 
 _:158 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/7>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/6>;
   sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/7> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/6> .
 
 _:159 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/7>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/6>;
   sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/7> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/6> .
 
 _:16 a sio:Notation, sio:SIO_001385;
   sio:SIO_000300 "0";
@@ -343,63 +335,63 @@ _:16 a sio:Notation, sio:SIO_001385;
 
 _:160 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "4";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/6>;
+  sio:hasValue "4";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/6> .
+
+_:161 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "1";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/7>;
+  sio:hasValue "1";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/7> .
+
+_:162 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/7>;
+  sio:hasValue "2";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/7> .
+
+_:163 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/7>;
+  sio:hasValue "3";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/7> .
+
+_:164 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "4";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/7>;
   sio:hasValue "4";
   sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/7> .
 
-_:161 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/8>;
-  sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/8> .
-
-_:162 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/8>;
-  sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/8> .
-
-_:163 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/8>;
-  sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/8> .
-
-_:164 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "4";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/8>;
-  sio:hasValue "4";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/8> .
-
 _:165 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/9>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/8>;
   sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/9> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/8> .
 
 _:166 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/9>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/8>;
   sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/9> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/8> .
 
 _:167 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/9>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/8>;
   sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/9> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/8> .
 
 _:168 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "4";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/9>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/8>;
   sio:hasValue "4";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/9> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/8> .
 
 _:169 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/10>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/9>;
   sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/10> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/9> .
 
 _:17 a sio:Notation, sio:SIO_001385;
   sio:SIO_000300 "1";
@@ -407,63 +399,63 @@ _:17 a sio:Notation, sio:SIO_001385;
 
 _:170 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/10>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/9>;
   sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/10> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/9> .
 
 _:171 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/10>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/9>;
   sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/10> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/9> .
 
 _:172 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "4";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/9>;
+  sio:hasValue "4";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/9> .
+
+_:173 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "1";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/10>;
+  sio:hasValue "1";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/10> .
+
+_:174 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/10>;
+  sio:hasValue "2";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/10> .
+
+_:175 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/10>;
+  sio:hasValue "3";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/10> .
+
+_:176 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "4";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/10>;
   sio:hasValue "4";
   sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/10> .
 
-_:173 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/11>;
-  sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/11> .
-
-_:174 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/11>;
-  sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/11> .
-
-_:175 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/11>;
-  sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/11> .
-
-_:176 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "4";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/11>;
-  sio:hasValue "4";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/11> .
-
 _:177 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/12>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/11>;
   sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/12> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/11> .
 
 _:178 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/12>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/11>;
   sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/12> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/11> .
 
 _:179 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/12>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/11>;
   sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/12> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/11> .
 
 _:18 a sio:Notation, sio:SIO_001385;
   sio:SIO_000300 "2";
@@ -471,63 +463,63 @@ _:18 a sio:Notation, sio:SIO_001385;
 
 _:180 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "4";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/11>;
+  sio:hasValue "4";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/11> .
+
+_:181 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "1";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/12>;
+  sio:hasValue "1";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/12> .
+
+_:182 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/12>;
+  sio:hasValue "2";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/12> .
+
+_:183 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/12>;
+  sio:hasValue "3";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/12> .
+
+_:184 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "4";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/12>;
   sio:hasValue "4";
   sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/12> .
 
-_:181 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/13>;
-  sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/13> .
-
-_:182 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/13>;
-  sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/13> .
-
-_:183 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/13>;
-  sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/13> .
-
-_:184 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "4";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/13>;
-  sio:hasValue "4";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/13> .
-
 _:185 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/14>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/13>;
   sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/14> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/13> .
 
 _:186 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/14>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/13>;
   sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/14> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/13> .
 
 _:187 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/14>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/13>;
   sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/14> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/13> .
 
 _:188 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "4";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/14>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/13>;
   sio:hasValue "4";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/14> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/13> .
 
 _:189 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/15>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/14>;
   sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/15> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/14> .
 
 _:19 a sio:Notation, sio:SIO_001385;
   sio:SIO_000300 "3";
@@ -535,63 +527,63 @@ _:19 a sio:Notation, sio:SIO_001385;
 
 _:190 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/15>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/14>;
   sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/15> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/14> .
 
 _:191 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/15>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/14>;
   sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/15> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/14> .
 
 _:192 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "4";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/14>;
+  sio:hasValue "4";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/14> .
+
+_:193 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "1";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/15>;
+  sio:hasValue "1";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/15> .
+
+_:194 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/15>;
+  sio:hasValue "2";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/15> .
+
+_:195 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/15>;
+  sio:hasValue "3";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/15> .
+
+_:196 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "4";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/15>;
   sio:hasValue "4";
   sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/15> .
 
-_:193 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/16>;
-  sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/16> .
-
-_:194 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/16>;
-  sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/16> .
-
-_:195 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/16>;
-  sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/16> .
-
-_:196 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "4";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/16>;
-  sio:hasValue "4";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/16> .
-
 _:197 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/17>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/16>;
   sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/17> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/16> .
 
 _:198 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/17>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/16>;
   sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/17> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/16> .
 
 _:199 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/17>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/16>;
   sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/17> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/16> .
 
 _:2 a sio:Notation, sio:SIO_001385;
   sio:SIO_000300 "2";
@@ -603,63 +595,63 @@ _:20 a sio:Notation, sio:SIO_001385;
 
 _:200 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "4";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/16>;
+  sio:hasValue "4";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/16> .
+
+_:201 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "1";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/17>;
+  sio:hasValue "1";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/17> .
+
+_:202 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/17>;
+  sio:hasValue "2";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/17> .
+
+_:203 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/17>;
+  sio:hasValue "3";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/17> .
+
+_:204 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "4";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/17>;
   sio:hasValue "4";
   sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/17> .
 
-_:201 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/18>;
-  sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/18> .
-
-_:202 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/18>;
-  sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/18> .
-
-_:203 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/18>;
-  sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/18> .
-
-_:204 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "4";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/18>;
-  sio:hasValue "4";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/18> .
-
 _:205 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/19>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/18>;
   sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/19> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/18> .
 
 _:206 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/19>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/18>;
   sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/19> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/18> .
 
 _:207 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/19>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/18>;
   sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/19> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/18> .
 
 _:208 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "4";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/19>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/18>;
   sio:hasValue "4";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/19> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/18> .
 
 _:209 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/20>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/19>;
   sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/20> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/19> .
 
 _:21 a sio:Notation, sio:SIO_001385;
   sio:SIO_000300 "1";
@@ -667,63 +659,63 @@ _:21 a sio:Notation, sio:SIO_001385;
 
 _:210 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/20>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/19>;
   sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/20> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/19> .
 
 _:211 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/20>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/19>;
   sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/20> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/19> .
 
 _:212 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "4";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/19>;
+  sio:hasValue "4";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/19> .
+
+_:213 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "1";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/20>;
+  sio:hasValue "1";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/20> .
+
+_:214 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/20>;
+  sio:hasValue "2";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/20> .
+
+_:215 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/20>;
+  sio:hasValue "3";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/20> .
+
+_:216 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "4";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/20>;
   sio:hasValue "4";
   sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/20> .
 
-_:213 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/21>;
-  sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/21> .
-
-_:214 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/21>;
-  sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/21> .
-
-_:215 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/21>;
-  sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/21> .
-
-_:216 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "4";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/21>;
-  sio:hasValue "4";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/21> .
-
 _:217 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/22>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/21>;
   sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/22> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/21> .
 
 _:218 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/22>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/21>;
   sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/22> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/21> .
 
 _:219 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/22>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/21>;
   sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/22> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/21> .
 
 _:22 a sio:Notation, sio:SIO_001385;
   sio:SIO_000300 "2";
@@ -731,127 +723,127 @@ _:22 a sio:Notation, sio:SIO_001385;
 
 _:220 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "4";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/21>;
+  sio:hasValue "4";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/21> .
+
+_:221 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "1";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/22>;
+  sio:hasValue "1";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/22> .
+
+_:222 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/22>;
+  sio:hasValue "2";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/22> .
+
+_:223 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/22>;
+  sio:hasValue "3";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/22> .
+
+_:224 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "4";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/22>;
   sio:hasValue "4";
   sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/22> .
 
-_:221 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/23>;
-  sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/23> .
-
-_:222 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/23>;
-  sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/23> .
-
-_:223 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/23>;
-  sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/23> .
-
-_:224 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "4";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/23>;
-  sio:hasValue "4";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/23> .
-
 _:225 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/24>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/23>;
   sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/24> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/23> .
 
 _:226 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/24>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/23>;
   sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/24> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/23> .
 
 _:227 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/24>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/23>;
   sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/24> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/23> .
 
 _:228 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "4";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/24>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/23>;
   sio:hasValue "4";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/24> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/23> .
 
 _:229 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/25>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/24>;
   sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/25> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/24> .
 
 _:23 a sio:Notation, sio:SIO_001385;
   sio:SIO_000300 "3";
   sio:hasValue "3" .
 
 _:230 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/30>;
-  sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/30> .
+  sio:SIO_000300 "2";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/24>;
+  sio:hasValue "2";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/24> .
 
 _:231 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/25>;
-  sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/25> .
+  sio:SIO_000300 "3";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/24>;
+  sio:hasValue "3";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/24> .
 
 _:232 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/30>;
-  sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/30> .
+  sio:SIO_000300 "4";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/24>;
+  sio:hasValue "4";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/24> .
 
 _:233 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "3";
+  sio:SIO_000300 "1";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/25>;
-  sio:hasValue "3";
+  sio:hasValue "1";
   sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/25> .
 
 _:234 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "1";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/30>;
+  sio:hasValue "1";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/30> .
+
+_:235 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/25>;
+  sio:hasValue "2";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/25> .
+
+_:236 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/30>;
+  sio:hasValue "2";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/30> .
+
+_:237 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/25>;
+  sio:hasValue "3";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/25> .
+
+_:238 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "3";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/30>;
   sio:hasValue "3";
   sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/30> .
 
-_:235 a sio:OrdinalPosition, sio:SIO_000613;
+_:239 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "4";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/25>;
   sio:hasValue "4";
   sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/25> .
-
-_:236 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "4";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/30>;
-  sio:hasValue "4";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/30> .
-
-_:237 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/26>;
-  sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/26> .
-
-_:238 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/26>;
-  sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/26> .
-
-_:239 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/26>;
-  sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/26> .
 
 _:24 a sio:Notation, sio:SIO_001385;
   sio:SIO_000300 "0";
@@ -859,63 +851,63 @@ _:24 a sio:Notation, sio:SIO_001385;
 
 _:240 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "4";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/30>;
+  sio:hasValue "4";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/30> .
+
+_:241 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "1";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/26>;
+  sio:hasValue "1";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/26> .
+
+_:242 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/26>;
+  sio:hasValue "2";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/26> .
+
+_:243 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/26>;
+  sio:hasValue "3";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/26> .
+
+_:244 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "4";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/26>;
   sio:hasValue "4";
   sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/26> .
 
-_:241 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/27>;
-  sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/27> .
-
-_:242 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/27>;
-  sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/27> .
-
-_:243 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/27>;
-  sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/27> .
-
-_:244 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "4";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/27>;
-  sio:hasValue "4";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/27> .
-
 _:245 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/28>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/27>;
   sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/28> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/27> .
 
 _:246 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/28>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/27>;
   sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/28> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/27> .
 
 _:247 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/28>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/27>;
   sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/28> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/27> .
 
 _:248 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "4";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/28>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/27>;
   sio:hasValue "4";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/28> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/27> .
 
 _:249 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/29>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/28>;
   sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/29> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/28> .
 
 _:25 a sio:Notation, sio:SIO_001385;
   sio:SIO_000300 "1";
@@ -923,107 +915,155 @@ _:25 a sio:Notation, sio:SIO_001385;
 
 _:250 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/29>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/28>;
   sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/29> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/28> .
 
 _:251 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "3";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/29>;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/28>;
   sio:hasValue "3";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/29> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/28> .
 
 _:252 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "4";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/28>;
+  sio:hasValue "4";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/28> .
+
+_:253 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "1";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/29>;
+  sio:hasValue "1";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/29> .
+
+_:254 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/29>;
+  sio:hasValue "2";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/29> .
+
+_:255 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/29>;
+  sio:hasValue "3";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/29> .
+
+_:256 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "4";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/29>;
   sio:hasValue "4";
   sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/29> .
 
-_:253 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/31>;
-  sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/31> .
-
-_:254 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "1";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/32>;
-  sio:hasValue "1";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/32> .
-
-_:255 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/31>;
-  sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/31> .
-
-_:256 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "2";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/32>;
-  sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/32> .
-
 _:257 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "3";
+  sio:SIO_000300 "1";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/31>;
-  sio:hasValue "3";
+  sio:hasValue "1";
   sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/31> .
 
 _:258 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "3";
+  sio:SIO_000300 "1";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/32>;
-  sio:hasValue "3";
+  sio:hasValue "1";
   sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/32> .
 
 _:259 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "4";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/32>;
-  sio:hasValue "4";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/32> .
+  sio:SIO_000300 "2";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/31>;
+  sio:hasValue "2";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/31> .
 
 _:26 a sio:Notation, sio:SIO_001385;
   sio:SIO_000300 "2";
   sio:hasValue "2" .
 
 _:260 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/32>;
+  sio:hasValue "2";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/32> .
+
+_:261 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/31>;
+  sio:hasValue "3";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/31> .
+
+_:262 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/32>;
+  sio:hasValue "3";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/32> .
+
+_:263 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "4";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/32>;
+  sio:hasValue "4";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/32> .
+
+_:264 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "1";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/33>;
   sio:hasValue "1";
   sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/33> .
 
-_:261 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "2";
+_:265 sio:SIO_000300 "2";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/33>;
   sio:hasValue "2";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/33> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/33>;
+  a sio:OrdinalPosition, sio:SIO_000613 .
 
-_:262 a sio:OrdinalPosition, sio:SIO_000613;
+_:266 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "3";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/33>;
   sio:hasValue "3";
   sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/33> .
 
-_:263 a sio:OrdinalPosition, sio:SIO_000613;
+_:267 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "4";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/31>;
   sio:hasValue "4";
   sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/31> .
 
-_:264 sio:SIO_000300 "4";
+_:268 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "4";
   sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/33>;
-  a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasValue "4";
   sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/33> .
 
-_:265 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 "0";
-  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/34>;
-  sio:hasValue "0";
-  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/34> .
+_:269 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "1";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasValue "1";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/35> .
 
 _:27 a sio:Notation, sio:SIO_001385;
   sio:SIO_000300 "3";
   sio:hasValue "3" .
+
+_:270 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasValue "2";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/35> .
+
+_:271 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasValue "3";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/35> .
+
+_:272 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "4";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasValue "4";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/35> .
+
+_:273 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "0";
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasValue "0";
+  sio:inRelationTo <http://purl.org/twc/poem/individual/codebook/34> .
 
 _:28 a sio:Notation, sio:SIO_001385;
   sio:SIO_000300 "0";
@@ -1342,111 +1382,111 @@ _:99 a sio:Notation, sio:SIO_001385;
   sio:hasValue "3" .
 
 <http://purl.org/twc/poem/individual/responseOption/1> a vstoi:ResponseOption;
-  sio:SIO_000008 _:133, _:8;
-  sio:hasAttribute _:133, _:8;
+  sio:SIO_000008 _:137, _:8;
+  sio:hasAttribute _:137, _:8;
   rdfs:label "never" .
 
 <http://purl.org/twc/poem/individual/responseOption/10> a vstoi:ResponseOption;
-  sio:SIO_000008 _:142, _:17;
-  sio:hasAttribute _:142, _:17;
+  sio:SIO_000008 _:146, _:17;
+  sio:hasAttribute _:146, _:17;
   rdfs:label "有时会" .
 
 <http://purl.org/twc/poem/individual/responseOption/100> a vstoi:ResponseOption;
-  sio:SIO_000008 _:107, _:119, _:235, _:236;
-  sio:hasAttribute _:107, _:119, _:235, _:236;
+  sio:SIO_000008 _:107, _:119, _:239, _:240;
+  sio:hasAttribute _:107, _:119, _:239, _:240;
   rdfs:label "Strongly Agree" .
 
 <http://purl.org/twc/poem/individual/responseOption/101> a vstoi:ResponseOption;
-  sio:SIO_000008 _:0, _:237;
-  sio:hasAttribute _:0, _:237;
+  sio:SIO_000008 _:0, _:241;
+  sio:hasAttribute _:0, _:241;
   rdfs:label "Muy en Desacuerdo" .
 
 <http://purl.org/twc/poem/individual/responseOption/102> a vstoi:ResponseOption;
-  sio:SIO_000008 _:1, _:238;
-  sio:hasAttribute _:1, _:238;
+  sio:SIO_000008 _:1, _:242;
+  sio:hasAttribute _:1, _:242;
   rdfs:label "Desacuerdo" .
 
 <http://purl.org/twc/poem/individual/responseOption/103> a vstoi:ResponseOption;
-  sio:SIO_000008 _:2, _:239;
-  sio:hasAttribute _:2, _:239;
+  sio:SIO_000008 _:2, _:243;
+  sio:hasAttribute _:2, _:243;
   rdfs:label "De Acuerdo" .
 
 <http://purl.org/twc/poem/individual/responseOption/104> a vstoi:ResponseOption;
-  sio:SIO_000008 _:240, _:3;
-  sio:hasAttribute _:240, _:3;
+  sio:SIO_000008 _:244, _:3;
+  sio:hasAttribute _:244, _:3;
   rdfs:label "Muy de Acuerdo" .
 
 <http://purl.org/twc/poem/individual/responseOption/106> a vstoi:ResponseOption;
-  sio:SIO_000008 _:241, _:4;
-  sio:hasAttribute _:241, _:4;
+  sio:SIO_000008 _:245, _:4;
+  sio:hasAttribute _:245, _:4;
   rdfs:label "Not at all" .
 
 <http://purl.org/twc/poem/individual/responseOption/107> a vstoi:ResponseOption;
-  sio:SIO_000008 _:242, _:5;
-  sio:hasAttribute _:242, _:5;
+  sio:SIO_000008 _:246, _:5;
+  sio:hasAttribute _:246, _:5;
   rdfs:label "Several days" .
 
 <http://purl.org/twc/poem/individual/responseOption/108> a vstoi:ResponseOption;
-  sio:SIO_000008 _:243, _:6;
-  sio:hasAttribute _:243, _:6;
+  sio:SIO_000008 _:247, _:6;
+  sio:hasAttribute _:247, _:6;
   rdfs:label "More than half the days" .
 
 <http://purl.org/twc/poem/individual/responseOption/109> a vstoi:ResponseOption;
-  sio:SIO_000008 _:244, _:7;
-  sio:hasAttribute _:244, _:7;
+  sio:SIO_000008 _:248, _:7;
+  sio:hasAttribute _:248, _:7;
   rdfs:label "Nearly every day" .
 
 <http://purl.org/twc/poem/individual/responseOption/11> a vstoi:ResponseOption;
-  sio:SIO_000008 _:143, _:18;
-  sio:hasAttribute _:143, _:18;
+  sio:SIO_000008 _:147, _:18;
+  sio:hasAttribute _:147, _:18;
   rdfs:label "大多数时候是" .
 
 <http://purl.org/twc/poem/individual/responseOption/110> a vstoi:ResponseOption;
-  sio:SIO_000008 _:108, _:245;
-  sio:hasAttribute _:108, _:245;
+  sio:SIO_000008 _:108, _:249;
+  sio:hasAttribute _:108, _:249;
   rdfs:label "NEVER" .
 
 <http://purl.org/twc/poem/individual/responseOption/111> a vstoi:ResponseOption;
-  sio:SIO_000008 _:109, _:246;
-  sio:hasAttribute _:109, _:246;
+  sio:SIO_000008 _:109, _:250;
+  sio:hasAttribute _:109, _:250;
   rdfs:label "SOMETIMES" .
 
 <http://purl.org/twc/poem/individual/responseOption/113> a vstoi:ResponseOption;
-  sio:SIO_000008 _:110, _:247;
-  sio:hasAttribute _:110, _:247;
+  sio:SIO_000008 _:110, _:251;
+  sio:hasAttribute _:110, _:251;
   rdfs:label "MANY TIMES" .
 
 <http://purl.org/twc/poem/individual/responseOption/114> a vstoi:ResponseOption;
-  sio:SIO_000008 _:111, _:248;
-  sio:hasAttribute _:111, _:248;
+  sio:SIO_000008 _:111, _:252;
+  sio:hasAttribute _:111, _:252;
   rdfs:label "ALL THE TIME" .
 
 <http://purl.org/twc/poem/individual/responseOption/115> a vstoi:ResponseOption;
-  sio:SIO_000008 _:112, _:249;
-  sio:hasAttribute _:112, _:249;
+  sio:SIO_000008 _:112, _:253;
+  sio:hasAttribute _:112, _:253;
   rdfs:label "SIPATI KABISA" .
 
 <http://purl.org/twc/poem/individual/responseOption/116> a vstoi:ResponseOption;
-  sio:SIO_000008 _:113, _:250;
-  sio:hasAttribute _:113, _:250;
+  sio:SIO_000008 _:113, _:254;
+  sio:hasAttribute _:113, _:254;
   rdfs:label "MARA KWA MARA" .
 
 <http://purl.org/twc/poem/individual/responseOption/117> a vstoi:ResponseOption;
-  sio:SIO_000008 _:114, _:251;
-  sio:hasAttribute _:114, _:251;
+  sio:SIO_000008 _:114, _:255;
+  sio:hasAttribute _:114, _:255;
   rdfs:label "MARA NYINGI" .
 
 <http://purl.org/twc/poem/individual/responseOption/118> a vstoi:ResponseOption;
-  sio:SIO_000008 _:115, _:252;
-  sio:hasAttribute _:115, _:252;
+  sio:SIO_000008 _:115, _:256;
+  sio:hasAttribute _:115, _:256;
   rdfs:label "KILA WAKATI" .
 
 <http://purl.org/twc/poem/individual/responseOption/119> a vstoi:ResponseOption;
   rdfs:label "Helt uenig" .
 
 <http://purl.org/twc/poem/individual/responseOption/12> a vstoi:ResponseOption;
-  sio:SIO_000008 _:144, _:19;
-  sio:hasAttribute _:144, _:19;
+  sio:SIO_000008 _:148, _:19;
+  sio:hasAttribute _:148, _:19;
   rdfs:label "总是" .
 
 <http://purl.org/twc/poem/individual/responseOption/120> a vstoi:ResponseOption;
@@ -1459,53 +1499,53 @@ _:99 a sio:Notation, sio:SIO_001385;
   rdfs:label "Helt enig" .
 
 <http://purl.org/twc/poem/individual/responseOption/123> a vstoi:ResponseOption;
-  sio:SIO_000008 _:120, _:124, _:253, _:254;
-  sio:hasAttribute _:120, _:124, _:253, _:254;
+  sio:SIO_000008 _:120, _:124, _:257, _:258;
+  sio:hasAttribute _:120, _:124, _:257, _:258;
   rdfs:label "कभी नहीं" .
 
 <http://purl.org/twc/poem/individual/responseOption/124> a vstoi:ResponseOption;
-  sio:SIO_000008 _:121, _:125, _:255, _:256;
-  sio:hasAttribute _:121, _:125, _:255, _:256;
+  sio:SIO_000008 _:121, _:125, _:259, _:260;
+  sio:hasAttribute _:121, _:125, _:259, _:260;
   rdfs:label "कभी-कभी" .
 
 <http://purl.org/twc/poem/individual/responseOption/125> a vstoi:ResponseOption;
-  sio:SIO_000008 _:122, _:126, _:257, _:258;
-  sio:hasAttribute _:122, _:126, _:257, _:258;
+  sio:SIO_000008 _:122, _:126, _:261, _:262;
+  sio:hasAttribute _:122, _:126, _:261, _:262;
   rdfs:label "अक्सर" .
 
 <http://purl.org/twc/poem/individual/responseOption/126> a vstoi:ResponseOption;
-  sio:SIO_000008 _:127, _:259;
-  sio:hasAttribute _:127, _:259;
+  sio:SIO_000008 _:127, _:263;
+  sio:hasAttribute _:127, _:263;
   rdfs:label "हमेशा" .
 
 <http://purl.org/twc/poem/individual/responseOption/127> a vstoi:ResponseOption;
-  sio:SIO_000008 _:128, _:260;
-  sio:hasAttribute _:128, _:260;
+  sio:SIO_000008 _:128, _:264;
+  sio:hasAttribute _:128, _:264;
   rdfs:label "ਕਦੇ ਨਹੀਂ" .
 
 <http://purl.org/twc/poem/individual/responseOption/128> a vstoi:ResponseOption;
-  sio:SIO_000008 _:129, _:261;
-  sio:hasAttribute _:129, _:261;
+  sio:SIO_000008 _:129, _:265;
+  sio:hasAttribute _:129, _:265;
   rdfs:label "ਕਦੇ-ਕਦੇ" .
 
 <http://purl.org/twc/poem/individual/responseOption/129> a vstoi:ResponseOption;
-  sio:SIO_000008 _:130, _:262;
-  sio:hasAttribute _:130, _:262;
+  sio:SIO_000008 _:130, _:266;
+  sio:hasAttribute _:130, _:266;
   rdfs:label "ਅਕਸਰ" .
 
 <http://purl.org/twc/poem/individual/responseOption/13> a vstoi:ResponseOption;
-  sio:SIO_000008 _:145, _:20;
-  sio:hasAttribute _:145, _:20;
+  sio:SIO_000008 _:149, _:20;
+  sio:hasAttribute _:149, _:20;
   rdfs:label "Slet ikke" .
 
 <http://purl.org/twc/poem/individual/responseOption/130> a vstoi:ResponseOption;
-  sio:SIO_000008 _:123, _:263;
-  sio:hasAttribute _:123, _:263;
+  sio:SIO_000008 _:123, _:267;
+  sio:hasAttribute _:123, _:267;
   rdfs:label "हमेषा ही" .
 
 <http://purl.org/twc/poem/individual/responseOption/131> a vstoi:ResponseOption;
-  sio:SIO_000008 _:131, _:264;
-  sio:hasAttribute _:131, _:264;
+  sio:SIO_000008 _:131, _:268;
+  sio:hasAttribute _:131, _:268;
   rdfs:label "ਹਮੇਸ਼ਾ" .
 
 <http://purl.org/twc/poem/individual/responseOption/132> a vstoi:ResponseOption;
@@ -1520,472 +1560,492 @@ _:99 a sio:Notation, sio:SIO_001385;
 <http://purl.org/twc/poem/individual/responseOption/135> a vstoi:ResponseOption;
   rdfs:label "Үргэлж" .
 
+<http://purl.org/twc/poem/individual/responseOption/136> a vstoi:ResponseOption;
+  sio:SIO_000008 _:133, _:269;
+  sio:hasAttribute _:133, _:269;
+  rdfs:label "أبدا" .
+
+<http://purl.org/twc/poem/individual/responseOption/137> a vstoi:ResponseOption;
+  sio:SIO_000008 _:134, _:270;
+  sio:hasAttribute _:134, _:270;
+  rdfs:label "أحيانا" .
+
+<http://purl.org/twc/poem/individual/responseOption/138> a vstoi:ResponseOption;
+  sio:SIO_000008 _:135, _:271;
+  sio:hasAttribute _:135, _:271;
+  rdfs:label "غالبا" .
+
+<http://purl.org/twc/poem/individual/responseOption/139> a vstoi:ResponseOption;
+  sio:SIO_000008 _:136, _:272;
+  sio:hasAttribute _:136, _:272;
+  rdfs:label "دائما" .
+
 <http://purl.org/twc/poem/individual/responseOption/14> a vstoi:ResponseOption;
-  sio:SIO_000008 _:146, _:21;
-  sio:hasAttribute _:146, _:21;
+  sio:SIO_000008 _:150, _:21;
+  sio:hasAttribute _:150, _:21;
   rdfs:label "Nogle gange" .
 
 <http://purl.org/twc/poem/individual/responseOption/15> a vstoi:ResponseOption;
-  sio:SIO_000008 _:147, _:22;
-  sio:hasAttribute _:147, _:22;
+  sio:SIO_000008 _:151, _:22;
+  sio:hasAttribute _:151, _:22;
   rdfs:label "Ofte" .
 
 <http://purl.org/twc/poem/individual/responseOption/16> a vstoi:ResponseOption;
-  sio:SIO_000008 _:148, _:23;
-  sio:hasAttribute _:148, _:23;
+  sio:SIO_000008 _:152, _:23;
+  sio:hasAttribute _:152, _:23;
   rdfs:label "Meget ofte" .
 
 <http://purl.org/twc/poem/individual/responseOption/17> a vstoi:ResponseOption;
-  sio:SIO_000008 _:149, _:24;
-  sio:hasAttribute _:149, _:24;
+  sio:SIO_000008 _:153, _:24;
+  sio:hasAttribute _:153, _:24;
   rdfs:label "Noms" .
 
 <http://purl.org/twc/poem/individual/responseOption/18> a vstoi:ResponseOption;
-  sio:SIO_000008 _:150, _:25;
-  sio:hasAttribute _:150, _:25;
+  sio:SIO_000008 _:154, _:25;
+  sio:hasAttribute _:154, _:25;
   rdfs:label "Soms" .
 
 <http://purl.org/twc/poem/individual/responseOption/19> a vstoi:ResponseOption;
-  sio:SIO_000008 _:151, _:26;
-  sio:hasAttribute _:151, _:26;
+  sio:SIO_000008 _:155, _:26;
+  sio:hasAttribute _:155, _:26;
   rdfs:label "Vaak" .
 
 <http://purl.org/twc/poem/individual/responseOption/2> a vstoi:ResponseOption;
-  sio:SIO_000008 _:134, _:9;
-  sio:hasAttribute _:134, _:9;
+  sio:SIO_000008 _:138, _:9;
+  sio:hasAttribute _:138, _:9;
   rdfs:label "sometimes" .
 
 <http://purl.org/twc/poem/individual/responseOption/20> a vstoi:ResponseOption;
-  sio:SIO_000008 _:152, _:27;
-  sio:hasAttribute _:152, _:27;
+  sio:SIO_000008 _:156, _:27;
+  sio:hasAttribute _:156, _:27;
   rdfs:label "Altijd" .
 
 <http://purl.org/twc/poem/individual/responseOption/21> a vstoi:ResponseOption;
-  sio:SIO_000008 _:153, _:28;
-  sio:hasAttribute _:153, _:28;
+  sio:SIO_000008 _:157, _:28;
+  sio:hasAttribute _:157, _:28;
   rdfs:label "Mitte kunagi" .
 
 <http://purl.org/twc/poem/individual/responseOption/22> a vstoi:ResponseOption;
-  sio:SIO_000008 _:154, _:29;
-  sio:hasAttribute _:154, _:29;
+  sio:SIO_000008 _:158, _:29;
+  sio:hasAttribute _:158, _:29;
   rdfs:label "Mõnikord" .
 
 <http://purl.org/twc/poem/individual/responseOption/23> a vstoi:ResponseOption;
-  sio:SIO_000008 _:155, _:30;
-  sio:hasAttribute _:155, _:30;
+  sio:SIO_000008 _:159, _:30;
+  sio:hasAttribute _:159, _:30;
   rdfs:label "Sageli" .
 
 <http://purl.org/twc/poem/individual/responseOption/24> a vstoi:ResponseOption;
-  sio:SIO_000008 _:156, _:31;
-  sio:hasAttribute _:156, _:31;
+  sio:SIO_000008 _:160, _:31;
+  sio:hasAttribute _:160, _:31;
   rdfs:label "Alati" .
 
 <http://purl.org/twc/poem/individual/responseOption/25> a vstoi:ResponseOption;
-  sio:SIO_000008 _:157, _:32;
-  sio:hasAttribute _:157, _:32;
+  sio:SIO_000008 _:161, _:32;
+  sio:hasAttribute _:161, _:32;
   rdfs:label "Ei koskaan" .
 
 <http://purl.org/twc/poem/individual/responseOption/26> a vstoi:ResponseOption;
-  sio:SIO_000008 _:158, _:33;
-  sio:hasAttribute _:158, _:33;
+  sio:SIO_000008 _:162, _:33;
+  sio:hasAttribute _:162, _:33;
   rdfs:label "Joskus" .
 
 <http://purl.org/twc/poem/individual/responseOption/27> a vstoi:ResponseOption;
-  sio:SIO_000008 _:159, _:34;
-  sio:hasAttribute _:159, _:34;
+  sio:SIO_000008 _:163, _:34;
+  sio:hasAttribute _:163, _:34;
   rdfs:label "Usein" .
 
 <http://purl.org/twc/poem/individual/responseOption/28> a vstoi:ResponseOption;
-  sio:SIO_000008 _:160, _:35;
-  sio:hasAttribute _:160, _:35;
+  sio:SIO_000008 _:164, _:35;
+  sio:hasAttribute _:164, _:35;
   rdfs:label "Aina" .
 
 <http://purl.org/twc/poem/individual/responseOption/29> a vstoi:ResponseOption;
-  sio:SIO_000008 _:161, _:36;
-  sio:hasAttribute _:161, _:36;
+  sio:SIO_000008 _:165, _:36;
+  sio:hasAttribute _:165, _:36;
   rdfs:label "Jamais" .
 
 <http://purl.org/twc/poem/individual/responseOption/3> a vstoi:ResponseOption;
-  sio:SIO_000008 _:10, _:135;
-  sio:hasAttribute _:10, _:135;
+  sio:SIO_000008 _:10, _:139;
+  sio:hasAttribute _:10, _:139;
   rdfs:label "often" .
 
 <http://purl.org/twc/poem/individual/responseOption/30> a vstoi:ResponseOption;
-  sio:SIO_000008 _:162, _:37;
-  sio:hasAttribute _:162, _:37;
+  sio:SIO_000008 _:166, _:37;
+  sio:hasAttribute _:166, _:37;
   rdfs:label "Quelque fois" .
 
 <http://purl.org/twc/poem/individual/responseOption/31> a vstoi:ResponseOption;
-  sio:SIO_000008 _:163, _:38;
-  sio:hasAttribute _:163, _:38;
+  sio:SIO_000008 _:167, _:38;
+  sio:hasAttribute _:167, _:38;
   rdfs:label "Souvent" .
 
 <http://purl.org/twc/poem/individual/responseOption/32> a vstoi:ResponseOption;
-  sio:SIO_000008 _:164, _:39;
-  sio:hasAttribute _:164, _:39;
+  sio:SIO_000008 _:168, _:39;
+  sio:hasAttribute _:168, _:39;
   rdfs:label "Toujours" .
 
 <http://purl.org/twc/poem/individual/responseOption/33> a vstoi:ResponseOption;
-  sio:SIO_000008 _:165, _:40;
-  sio:hasAttribute _:165, _:40;
+  sio:SIO_000008 _:169, _:40;
+  sio:hasAttribute _:169, _:40;
   rdfs:label "nie" .
 
 <http://purl.org/twc/poem/individual/responseOption/34> a vstoi:ResponseOption;
-  sio:SIO_000008 _:166, _:41;
-  sio:hasAttribute _:166, _:41;
+  sio:SIO_000008 _:170, _:41;
+  sio:hasAttribute _:170, _:41;
   rdfs:label "manchmal" .
 
 <http://purl.org/twc/poem/individual/responseOption/35> a vstoi:ResponseOption;
-  sio:SIO_000008 _:167, _:42;
-  sio:hasAttribute _:167, _:42;
+  sio:SIO_000008 _:171, _:42;
+  sio:hasAttribute _:171, _:42;
   rdfs:label "häufig" .
 
 <http://purl.org/twc/poem/individual/responseOption/36> a vstoi:ResponseOption;
-  sio:SIO_000008 _:168, _:43;
-  sio:hasAttribute _:168, _:43;
+  sio:SIO_000008 _:172, _:43;
+  sio:hasAttribute _:172, _:43;
   rdfs:label "immer" .
 
 <http://purl.org/twc/poem/individual/responseOption/37> a vstoi:ResponseOption;
-  sio:SIO_000008 _:169, _:44;
-  sio:hasAttribute _:169, _:44;
+  sio:SIO_000008 _:173, _:44;
+  sio:hasAttribute _:173, _:44;
   rdfs:label "Ποτέ" .
 
 <http://purl.org/twc/poem/individual/responseOption/38> a vstoi:ResponseOption;
-  sio:SIO_000008 _:170, _:45;
-  sio:hasAttribute _:170, _:45;
+  sio:SIO_000008 _:174, _:45;
+  sio:hasAttribute _:174, _:45;
   rdfs:label "Μερικές φορές" .
 
 <http://purl.org/twc/poem/individual/responseOption/39> a vstoi:ResponseOption;
-  sio:SIO_000008 _:171, _:46;
-  sio:hasAttribute _:171, _:46;
+  sio:SIO_000008 _:175, _:46;
+  sio:hasAttribute _:175, _:46;
   rdfs:label "Συχνά" .
 
 <http://purl.org/twc/poem/individual/responseOption/4> a vstoi:ResponseOption;
-  sio:SIO_000008 _:11, _:136;
-  sio:hasAttribute _:11, _:136;
+  sio:SIO_000008 _:11, _:140;
+  sio:hasAttribute _:11, _:140;
   rdfs:label "always" .
 
 <http://purl.org/twc/poem/individual/responseOption/40> a vstoi:ResponseOption;
-  sio:SIO_000008 _:172, _:47;
-  sio:hasAttribute _:172, _:47;
+  sio:SIO_000008 _:176, _:47;
+  sio:hasAttribute _:176, _:47;
   rdfs:label "Συνέχεια" .
 
 <http://purl.org/twc/poem/individual/responseOption/41> a vstoi:ResponseOption;
-  sio:SIO_000008 _:173, _:48;
-  sio:hasAttribute _:173, _:48;
+  sio:SIO_000008 _:177, _:48;
+  sio:hasAttribute _:177, _:48;
   rdfs:label "Soha" .
 
 <http://purl.org/twc/poem/individual/responseOption/42> a vstoi:ResponseOption;
-  sio:SIO_000008 _:174, _:49;
-  sio:hasAttribute _:174, _:49;
+  sio:SIO_000008 _:178, _:49;
+  sio:hasAttribute _:178, _:49;
   rdfs:label "Néha" .
 
 <http://purl.org/twc/poem/individual/responseOption/43> a vstoi:ResponseOption;
-  sio:SIO_000008 _:175, _:50;
-  sio:hasAttribute _:175, _:50;
+  sio:SIO_000008 _:179, _:50;
+  sio:hasAttribute _:179, _:50;
   rdfs:label "Gyakran" .
 
 <http://purl.org/twc/poem/individual/responseOption/44> a vstoi:ResponseOption;
-  sio:SIO_000008 _:176, _:51;
-  sio:hasAttribute _:176, _:51;
+  sio:SIO_000008 _:180, _:51;
+  sio:hasAttribute _:180, _:51;
   rdfs:label "Mindig" .
 
 <http://purl.org/twc/poem/individual/responseOption/45> a vstoi:ResponseOption;
-  sio:SIO_000008 _:177, _:52;
-  sio:hasAttribute _:177, _:52;
+  sio:SIO_000008 _:181, _:52;
+  sio:hasAttribute _:181, _:52;
   rdfs:label "Aldrei" .
 
 <http://purl.org/twc/poem/individual/responseOption/46> a vstoi:ResponseOption;
-  sio:SIO_000008 _:178, _:53;
-  sio:hasAttribute _:178, _:53;
+  sio:SIO_000008 _:182, _:53;
+  sio:hasAttribute _:182, _:53;
   rdfs:label "Stundum" .
 
 <http://purl.org/twc/poem/individual/responseOption/47> a vstoi:ResponseOption;
-  sio:SIO_000008 _:179, _:54;
-  sio:hasAttribute _:179, _:54;
+  sio:SIO_000008 _:183, _:54;
+  sio:hasAttribute _:183, _:54;
   rdfs:label "Oft" .
 
 <http://purl.org/twc/poem/individual/responseOption/48> a vstoi:ResponseOption;
-  sio:SIO_000008 _:180, _:55;
-  sio:hasAttribute _:180, _:55;
+  sio:SIO_000008 _:184, _:55;
+  sio:hasAttribute _:184, _:55;
   rdfs:label "Alltaf" .
 
 <http://purl.org/twc/poem/individual/responseOption/49> a vstoi:ResponseOption;
-  sio:SIO_000008 _:181, _:56;
-  sio:hasAttribute _:181, _:56;
+  sio:SIO_000008 _:185, _:56;
+  sio:hasAttribute _:185, _:56;
   rdfs:label "まったくない" .
 
 <http://purl.org/twc/poem/individual/responseOption/5> a vstoi:ResponseOption;
-  sio:SIO_000008 _:12, _:137;
-  sio:hasAttribute _:12, _:137;
+  sio:SIO_000008 _:12, _:141;
+  sio:hasAttribute _:12, _:141;
   rdfs:label "أبدا" .
 
 <http://purl.org/twc/poem/individual/responseOption/50> a vstoi:ResponseOption;
-  sio:SIO_000008 _:182, _:57;
-  sio:hasAttribute _:182, _:57;
+  sio:SIO_000008 _:186, _:57;
+  sio:hasAttribute _:186, _:57;
   rdfs:label "ときどきある" .
 
 <http://purl.org/twc/poem/individual/responseOption/51> a vstoi:ResponseOption;
-  sio:SIO_000008 _:183, _:58;
-  sio:hasAttribute _:183, _:58;
+  sio:SIO_000008 _:187, _:58;
+  sio:hasAttribute _:187, _:58;
   rdfs:label "よくある" .
 
 <http://purl.org/twc/poem/individual/responseOption/52> a vstoi:ResponseOption;
-  sio:SIO_000008 _:184, _:59;
-  sio:hasAttribute _:184, _:59;
+  sio:SIO_000008 _:188, _:59;
+  sio:hasAttribute _:188, _:59;
   rdfs:label "いつもある" .
 
 <http://purl.org/twc/poem/individual/responseOption/53> a vstoi:ResponseOption;
-  sio:SIO_000008 _:185, _:60;
-  sio:hasAttribute _:185, _:60;
+  sio:SIO_000008 _:189, _:60;
+  sio:hasAttribute _:189, _:60;
   rdfs:label "전혀 없음" .
 
 <http://purl.org/twc/poem/individual/responseOption/54> a vstoi:ResponseOption;
-  sio:SIO_000008 _:186, _:61;
-  sio:hasAttribute _:186, _:61;
+  sio:SIO_000008 _:190, _:61;
+  sio:hasAttribute _:190, _:61;
   rdfs:label "가끔" .
 
 <http://purl.org/twc/poem/individual/responseOption/55> a vstoi:ResponseOption;
-  sio:SIO_000008 _:187, _:62;
-  sio:hasAttribute _:187, _:62;
+  sio:SIO_000008 _:191, _:62;
+  sio:hasAttribute _:191, _:62;
   rdfs:label "자주" .
 
 <http://purl.org/twc/poem/individual/responseOption/56> a vstoi:ResponseOption;
-  sio:SIO_000008 _:188, _:63;
-  sio:hasAttribute _:188, _:63;
+  sio:SIO_000008 _:192, _:63;
+  sio:hasAttribute _:192, _:63;
   rdfs:label "항상" .
 
 <http://purl.org/twc/poem/individual/responseOption/57> a vstoi:ResponseOption;
-  sio:SIO_000008 _:189, _:64;
-  sio:hasAttribute _:189, _:64;
+  sio:SIO_000008 _:193, _:64;
+  sio:hasAttribute _:193, _:64;
   rdfs:label "Niekada" .
 
 <http://purl.org/twc/poem/individual/responseOption/58> a vstoi:ResponseOption;
-  sio:SIO_000008 _:190, _:65;
-  sio:hasAttribute _:190, _:65;
+  sio:SIO_000008 _:194, _:65;
+  sio:hasAttribute _:194, _:65;
   rdfs:label "Kartais" .
 
 <http://purl.org/twc/poem/individual/responseOption/59> a vstoi:ResponseOption;
-  sio:SIO_000008 _:191, _:66;
-  sio:hasAttribute _:191, _:66;
+  sio:SIO_000008 _:195, _:66;
+  sio:hasAttribute _:195, _:66;
   rdfs:label "Dažnai" .
 
 <http://purl.org/twc/poem/individual/responseOption/6> a vstoi:ResponseOption;
-  sio:SIO_000008 _:13, _:138;
-  sio:hasAttribute _:13, _:138;
+  sio:SIO_000008 _:13, _:142;
+  sio:hasAttribute _:13, _:142;
   rdfs:label "في بعض الأوقات" .
 
 <http://purl.org/twc/poem/individual/responseOption/60> a vstoi:ResponseOption;
-  sio:SIO_000008 _:192, _:67;
-  sio:hasAttribute _:192, _:67;
+  sio:SIO_000008 _:196, _:67;
+  sio:hasAttribute _:196, _:67;
   rdfs:label "Visada" .
 
 <http://purl.org/twc/poem/individual/responseOption/61> a vstoi:ResponseOption;
-  sio:SIO_000008 _:193, _:68;
-  sio:hasAttribute _:193, _:68;
+  sio:SIO_000008 _:197, _:68;
+  sio:hasAttribute _:197, _:68;
   rdfs:label "Aldri" .
 
 <http://purl.org/twc/poem/individual/responseOption/62> a vstoi:ResponseOption;
-  sio:SIO_000008 _:194, _:69;
-  sio:hasAttribute _:194, _:69;
+  sio:SIO_000008 _:198, _:69;
+  sio:hasAttribute _:198, _:69;
   rdfs:label "Noen ganger" .
 
 <http://purl.org/twc/poem/individual/responseOption/63> a vstoi:ResponseOption;
-  sio:SIO_000008 _:195, _:70;
-  sio:hasAttribute _:195, _:70;
+  sio:SIO_000008 _:199, _:70;
+  sio:hasAttribute _:199, _:70;
   rdfs:label "Ofte" .
 
 <http://purl.org/twc/poem/individual/responseOption/64> a vstoi:ResponseOption;
-  sio:SIO_000008 _:196, _:71;
-  sio:hasAttribute _:196, _:71;
+  sio:SIO_000008 _:200, _:71;
+  sio:hasAttribute _:200, _:71;
   rdfs:label "Veldig ofte" .
 
 <http://purl.org/twc/poem/individual/responseOption/65> a vstoi:ResponseOption;
-  sio:SIO_000008 _:197, _:72;
-  sio:hasAttribute _:197, _:72;
+  sio:SIO_000008 _:201, _:72;
+  sio:hasAttribute _:201, _:72;
   rdfs:label "هرگز " .
 
 <http://purl.org/twc/poem/individual/responseOption/66> a vstoi:ResponseOption;
-  sio:SIO_000008 _:198, _:73;
-  sio:hasAttribute _:198, _:73;
+  sio:SIO_000008 _:202, _:73;
+  sio:hasAttribute _:202, _:73;
   rdfs:label "گاهی" .
 
 <http://purl.org/twc/poem/individual/responseOption/67> a vstoi:ResponseOption;
-  sio:SIO_000008 _:199, _:74;
-  sio:hasAttribute _:199, _:74;
+  sio:SIO_000008 _:203, _:74;
+  sio:hasAttribute _:203, _:74;
   rdfs:label "اغلب" .
 
 <http://purl.org/twc/poem/individual/responseOption/68> a vstoi:ResponseOption;
-  sio:SIO_000008 _:200, _:75;
-  sio:hasAttribute _:200, _:75;
+  sio:SIO_000008 _:204, _:75;
+  sio:hasAttribute _:204, _:75;
   rdfs:label "همیشه" .
 
 <http://purl.org/twc/poem/individual/responseOption/69> a vstoi:ResponseOption;
-  sio:SIO_000008 _:201, _:76;
-  sio:hasAttribute _:201, _:76;
+  sio:SIO_000008 _:205, _:76;
+  sio:hasAttribute _:205, _:76;
   rdfs:label "Nigdy" .
 
 <http://purl.org/twc/poem/individual/responseOption/7> a vstoi:ResponseOption;
-  sio:SIO_000008 _:139, _:14;
-  sio:hasAttribute _:139, _:14;
+  sio:SIO_000008 _:14, _:143;
+  sio:hasAttribute _:14, _:143;
   rdfs:label "غالبا" .
 
 <http://purl.org/twc/poem/individual/responseOption/70> a vstoi:ResponseOption;
-  sio:SIO_000008 _:202, _:77;
-  sio:hasAttribute _:202, _:77;
+  sio:SIO_000008 _:206, _:77;
+  sio:hasAttribute _:206, _:77;
   rdfs:label "Czasami" .
 
 <http://purl.org/twc/poem/individual/responseOption/71> a vstoi:ResponseOption;
-  sio:SIO_000008 _:203, _:78;
-  sio:hasAttribute _:203, _:78;
+  sio:SIO_000008 _:207, _:78;
+  sio:hasAttribute _:207, _:78;
   rdfs:label "Często" .
 
-<http://purl.org/twc/poem/individual/responseOption/72> a vstoi:ResponseOption;
-  sio:SIO_000008 _:204, _:79;
-  sio:hasAttribute _:204, _:79;
+<http://purl.org/twc/poem/individual/responseOption/72> sio:SIO_000008 _:208, _:79;
+  sio:hasAttribute _:208, _:79;
+  a vstoi:ResponseOption;
   rdfs:label "Zawsze" .
 
 <http://purl.org/twc/poem/individual/responseOption/73> a vstoi:ResponseOption;
-  sio:SIO_000008 _:205, _:80;
-  sio:hasAttribute _:205, _:80;
+  sio:SIO_000008 _:209, _:80;
+  sio:hasAttribute _:209, _:80;
   rdfs:label "Nunca" .
 
 <http://purl.org/twc/poem/individual/responseOption/74> a vstoi:ResponseOption;
-  sio:SIO_000008 _:206, _:81;
-  sio:hasAttribute _:206, _:81;
+  sio:SIO_000008 _:210, _:81;
+  sio:hasAttribute _:210, _:81;
   rdfs:label "Às vezes" .
 
 <http://purl.org/twc/poem/individual/responseOption/75> a vstoi:ResponseOption;
-  sio:SIO_000008 _:207, _:82;
-  sio:hasAttribute _:207, _:82;
+  sio:SIO_000008 _:211, _:82;
+  sio:hasAttribute _:211, _:82;
   rdfs:label "Frequentemente" .
 
 <http://purl.org/twc/poem/individual/responseOption/76> a vstoi:ResponseOption;
-  sio:SIO_000008 _:208, _:83;
-  sio:hasAttribute _:208, _:83;
+  sio:SIO_000008 _:212, _:83;
+  sio:hasAttribute _:212, _:83;
   rdfs:label "Sempre" .
 
 <http://purl.org/twc/poem/individual/responseOption/77> a vstoi:ResponseOption;
-  sio:SIO_000008 _:209, _:84;
-  sio:hasAttribute _:209, _:84;
+  sio:SIO_000008 _:213, _:84;
+  sio:hasAttribute _:213, _:84;
   rdfs:label "Nikoli." .
 
 <http://purl.org/twc/poem/individual/responseOption/78> a vstoi:ResponseOption;
-  sio:SIO_000008 _:210, _:85;
-  sio:hasAttribute _:210, _:85;
+  sio:SIO_000008 _:214, _:85;
+  sio:hasAttribute _:214, _:85;
   rdfs:label "Včasih." .
 
 <http://purl.org/twc/poem/individual/responseOption/79> a vstoi:ResponseOption;
-  sio:SIO_000008 _:211, _:86;
-  sio:hasAttribute _:211, _:86;
+  sio:SIO_000008 _:215, _:86;
+  sio:hasAttribute _:215, _:86;
   rdfs:label "Pogosto." .
 
 <http://purl.org/twc/poem/individual/responseOption/8> a vstoi:ResponseOption;
-  sio:SIO_000008 _:140, _:15;
-  sio:hasAttribute _:140, _:15;
+  sio:SIO_000008 _:144, _:15;
+  sio:hasAttribute _:144, _:15;
   rdfs:label "دائما" .
 
 <http://purl.org/twc/poem/individual/responseOption/80> a vstoi:ResponseOption;
-  sio:SIO_000008 _:212, _:87;
-  sio:hasAttribute _:212, _:87;
+  sio:SIO_000008 _:216, _:87;
+  sio:hasAttribute _:216, _:87;
   rdfs:label "Vedno." .
 
 <http://purl.org/twc/poem/individual/responseOption/81> a vstoi:ResponseOption;
-  sio:SIO_000008 _:213, _:88;
-  sio:hasAttribute _:213, _:88;
+  sio:SIO_000008 _:217, _:88;
+  sio:hasAttribute _:217, _:88;
   rdfs:label "Nunca" .
 
-<http://purl.org/twc/poem/individual/responseOption/82> sio:SIO_000008 _:214, _:89;
-  a vstoi:ResponseOption;
-  sio:hasAttribute _:214, _:89;
+<http://purl.org/twc/poem/individual/responseOption/82> a vstoi:ResponseOption;
+  sio:SIO_000008 _:218, _:89;
+  sio:hasAttribute _:218, _:89;
   rdfs:label "Algunas Veces" .
 
 <http://purl.org/twc/poem/individual/responseOption/83> a vstoi:ResponseOption;
-  sio:SIO_000008 _:215, _:90;
-  sio:hasAttribute _:215, _:90;
+  sio:SIO_000008 _:219, _:90;
+  sio:hasAttribute _:219, _:90;
   rdfs:label "Con Frecuencia" .
 
 <http://purl.org/twc/poem/individual/responseOption/84> a vstoi:ResponseOption;
-  sio:SIO_000008 _:216, _:91;
-  sio:hasAttribute _:216, _:91;
+  sio:SIO_000008 _:220, _:91;
+  sio:hasAttribute _:220, _:91;
   rdfs:label "Siempre" .
 
 <http://purl.org/twc/poem/individual/responseOption/85> a vstoi:ResponseOption;
-  sio:SIO_000008 _:217, _:92;
-  sio:hasAttribute _:217, _:92;
+  sio:SIO_000008 _:221, _:92;
+  sio:hasAttribute _:221, _:92;
   rdfs:label "Aldrig" .
 
 <http://purl.org/twc/poem/individual/responseOption/86> a vstoi:ResponseOption;
-  sio:SIO_000008 _:218, _:93;
-  sio:hasAttribute _:218, _:93;
+  sio:SIO_000008 _:222, _:93;
+  sio:hasAttribute _:222, _:93;
   rdfs:label "Ibland" .
 
 <http://purl.org/twc/poem/individual/responseOption/87> a vstoi:ResponseOption;
-  sio:SIO_000008 _:219, _:94;
-  sio:hasAttribute _:219, _:94;
+  sio:SIO_000008 _:223, _:94;
+  sio:hasAttribute _:223, _:94;
   rdfs:label "Ofta" .
 
 <http://purl.org/twc/poem/individual/responseOption/88> a vstoi:ResponseOption;
-  sio:SIO_000008 _:220, _:95;
-  sio:hasAttribute _:220, _:95;
+  sio:SIO_000008 _:224, _:95;
+  sio:hasAttribute _:224, _:95;
   rdfs:label "Alltid" .
 
 <http://purl.org/twc/poem/individual/responseOption/89> a vstoi:ResponseOption;
-  sio:SIO_000008 _:221, _:96;
-  sio:hasAttribute _:221, _:96;
+  sio:SIO_000008 _:225, _:96;
+  sio:hasAttribute _:225, _:96;
   rdfs:label "Asla" .
 
 <http://purl.org/twc/poem/individual/responseOption/9> a vstoi:ResponseOption;
-  sio:SIO_000008 _:141, _:16;
-  sio:hasAttribute _:141, _:16;
+  sio:SIO_000008 _:145, _:16;
+  sio:hasAttribute _:145, _:16;
   rdfs:label "从来没有" .
 
 <http://purl.org/twc/poem/individual/responseOption/90> a vstoi:ResponseOption;
-  sio:SIO_000008 _:222, _:97;
-  sio:hasAttribute _:222, _:97;
+  sio:SIO_000008 _:226, _:97;
+  sio:hasAttribute _:226, _:97;
   rdfs:label "Bazen" .
 
 <http://purl.org/twc/poem/individual/responseOption/91> a vstoi:ResponseOption;
-  sio:SIO_000008 _:223, _:98;
-  sio:hasAttribute _:223, _:98;
+  sio:SIO_000008 _:227, _:98;
+  sio:hasAttribute _:227, _:98;
   rdfs:label "Sik sik" .
 
 <http://purl.org/twc/poem/individual/responseOption/92> a vstoi:ResponseOption;
-  sio:SIO_000008 _:224, _:99;
-  sio:hasAttribute _:224, _:99;
+  sio:SIO_000008 _:228, _:99;
+  sio:hasAttribute _:228, _:99;
   rdfs:label "Her zaman" .
 
 <http://purl.org/twc/poem/individual/responseOption/93> a vstoi:ResponseOption;
-  sio:SIO_000008 _:100, _:225;
-  sio:hasAttribute _:100, _:225;
+  sio:SIO_000008 _:100, _:229;
+  sio:hasAttribute _:100, _:229;
   rdfs:label "کبھی نہیں" .
 
 <http://purl.org/twc/poem/individual/responseOption/94> a vstoi:ResponseOption;
-  sio:SIO_000008 _:101, _:226;
-  sio:hasAttribute _:101, _:226;
+  sio:SIO_000008 _:101, _:230;
+  sio:hasAttribute _:101, _:230;
   rdfs:label "کبھی کبھی" .
 
 <http://purl.org/twc/poem/individual/responseOption/95> a vstoi:ResponseOption;
-  sio:SIO_000008 _:102, _:227;
-  sio:hasAttribute _:102, _:227;
+  sio:SIO_000008 _:102, _:231;
+  sio:hasAttribute _:102, _:231;
   rdfs:label "اکثر" .
 
 <http://purl.org/twc/poem/individual/responseOption/96> a vstoi:ResponseOption;
-  sio:SIO_000008 _:103, _:228;
-  sio:hasAttribute _:103, _:228;
+  sio:SIO_000008 _:103, _:232;
+  sio:hasAttribute _:103, _:232;
   rdfs:label "ہمیشہ" .
 
 <http://purl.org/twc/poem/individual/responseOption/97> a vstoi:ResponseOption;
-  sio:SIO_000008 _:104, _:116, _:229, _:230;
-  sio:hasAttribute _:104, _:116, _:229, _:230;
+  sio:SIO_000008 _:104, _:116, _:233, _:234;
+  sio:hasAttribute _:104, _:116, _:233, _:234;
   rdfs:label "Strongly Disagree" .
 
 <http://purl.org/twc/poem/individual/responseOption/98> a vstoi:ResponseOption;
-  sio:SIO_000008 _:105, _:117, _:231, _:232;
-  sio:hasAttribute _:105, _:117, _:231, _:232;
+  sio:SIO_000008 _:105, _:117, _:235, _:236;
+  sio:hasAttribute _:105, _:117, _:235, _:236;
   rdfs:label "Disagree" .
 
 <http://purl.org/twc/poem/individual/responseOption/99> a vstoi:ResponseOption;
-  sio:SIO_000008 _:106, _:118, _:233, _:234;
-  sio:hasAttribute _:106, _:118, _:233, _:234;
+  sio:SIO_000008 _:106, _:118, _:237, _:238;
+  sio:hasAttribute _:106, _:118, _:237, _:238;
   rdfs:label "Agree" .

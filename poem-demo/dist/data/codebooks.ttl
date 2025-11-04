@@ -259,6 +259,15 @@
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
   rdfs:label "4.0-item-Frequency-Mongolian" .
 
+<http://purl.org/twc/poem/individual/codebook/35> a vstoi:Codebook;
+  sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/136>, <http://purl.org/twc/poem/individual/responseOption/137>,
+    <http://purl.org/twc/poem/individual/responseOption/138>, <http://purl.org/twc/poem/individual/responseOption/139>;
+  sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/136>, <http://purl.org/twc/poem/individual/responseOption/137>,
+    <http://purl.org/twc/poem/individual/responseOption/138>, <http://purl.org/twc/poem/individual/responseOption/139>;
+  rdfs:label "4.2-item-Frequency-Arabic" .
+
 <http://purl.org/twc/poem/individual/codebook/4> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
   sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/13>, <http://purl.org/twc/poem/individual/responseOption/14>,

@@ -24107,17 +24107,1319 @@ _:bnodeItem5082 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasValue "25"^^xsd:positiveInteger;
   sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/79> .
 
+_:bnodeItem5083 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "1"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "1"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5084 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "2"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5085 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "3"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5086 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "4"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "4"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5087 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "5"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "5"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5088 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "6"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "6"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5089 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "7"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "7"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5090 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "8"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "8"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5091 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "9"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "9"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5092 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "10"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "10"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5093 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "11"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "11"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5094 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "12"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "12"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5095 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "13"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "13"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5096 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "14"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "14"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5097 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "15"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "15"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5098 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "16"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "16"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5099 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "17"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "17"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
 _:bnodeItem51 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "4"^^xsd:positiveInteger;
   sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/2>;
   sio:hasValue "4"^^xsd:positiveInteger;
   sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/2> .
 
+_:bnodeItem5100 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "18"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "18"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5101 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "19"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "19"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5102 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "20"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "20"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5103 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "21"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "21"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5104 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "22"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "22"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5105 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "23"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "23"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5106 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "24"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "24"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5107 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "25"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "25"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5108 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "26"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "26"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5109 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "27"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "27"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5110 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "28"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "28"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5111 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "29"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "29"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5112 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "30"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "30"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5113 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "31"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "31"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5114 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "32"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "32"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5115 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "33"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "33"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5116 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "34"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "34"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5117 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "35"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "35"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5118 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "36"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "36"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5119 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "37"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "37"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5120 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "38"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "38"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5121 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "39"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "39"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5122 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "40"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "40"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5123 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "41"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "41"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5124 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "42"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "42"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5125 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "43"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "43"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5126 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "44"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "44"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5127 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "45"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "45"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5128 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "46"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "46"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5129 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "47"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/22>;
+  sio:hasValue "47"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/22> .
+
+_:bnodeItem5130 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "1"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "1"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5131 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "2"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5132 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "3"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5133 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "4"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "4"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5134 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "5"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "5"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5135 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "6"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "6"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5136 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "7"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "7"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5137 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "8"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "8"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5138 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "9"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "9"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5139 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "10"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "10"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5140 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "11"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "11"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5141 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "12"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "12"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5142 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "13"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "13"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5143 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "14"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "14"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5144 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "15"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "15"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5145 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "16"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "16"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5146 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "17"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "17"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5147 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "18"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "18"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5148 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "19"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "19"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5149 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "20"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "20"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5150 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "21"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "21"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5151 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "22"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "22"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5152 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "23"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "23"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5153 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "24"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "24"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5154 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "25"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "25"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5155 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "25"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/24>;
+  sio:hasValue "25"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/24> .
+
+_:bnodeItem5156 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "1"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "1"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5157 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "2"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5158 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "3"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5159 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "4"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "4"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5160 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "5"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "5"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5161 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "6"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "6"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5162 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "7"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "7"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5163 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "8"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "8"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5164 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "9"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "9"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5165 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "10"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "10"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5166 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "11"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "11"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5167 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "12"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "12"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5168 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "13"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "13"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5169 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "14"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "14"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5170 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "15"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "15"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5171 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "16"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "16"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5172 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "17"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "17"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5173 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "18"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "18"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5174 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "19"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "19"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5175 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "20"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "20"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5176 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "21"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "21"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5177 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "22"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "22"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5178 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "23"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "23"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5179 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "24"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "24"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5180 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "25"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "25"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5181 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "26"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "26"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5182 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "27"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "27"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5183 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "28"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "28"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5184 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "29"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "29"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5185 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "30"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "30"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5186 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "31"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "31"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5187 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "32"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "32"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5188 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "33"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "33"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5189 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "34"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "34"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5190 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "35"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "35"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5191 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "36"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "36"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5192 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "37"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "37"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5193 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "38"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "38"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5194 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "39"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "39"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5195 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "40"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "40"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5196 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "41"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "41"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5197 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "42"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "42"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5198 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "43"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "43"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5199 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "44"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "44"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
 _:bnodeItem52 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "5"^^xsd:positiveInteger;
   sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/2>;
   sio:hasValue "5"^^xsd:positiveInteger;
   sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/2> .
+
+_:bnodeItem5200 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "45"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "45"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5201 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "46"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "46"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5202 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "47"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/143>;
+  sio:hasValue "47"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/143> .
+
+_:bnodeItem5203 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "1"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "1"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5204 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "2"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5205 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "3"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5206 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "4"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "4"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5207 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "5"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "5"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5208 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "6"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "6"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5209 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "7"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "7"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5210 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "8"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "8"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5211 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "9"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "9"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5212 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "10"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "10"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5213 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "11"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "11"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5214 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "12"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "12"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5215 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "13"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "13"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5216 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "14"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "14"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5217 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "15"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "15"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5218 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "16"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "16"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5219 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "17"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "17"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5220 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "18"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "18"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5221 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "19"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "19"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5222 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "20"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "20"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5223 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "21"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "21"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5224 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "22"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "22"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5225 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "23"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "23"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5226 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "24"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "24"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5227 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "25"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/148>;
+  sio:hasValue "25"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/148> .
+
+_:bnodeItem5228 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "1"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "1"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5229 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "2"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5230 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "3"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5231 sio:SIO_000300 "4"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "4"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147>;
+  a sio:OrdinalPosition, sio:SIO_000613 .
+
+_:bnodeItem5232 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "5"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "5"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5233 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "6"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "6"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5234 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "7"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "7"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5235 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "8"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "8"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5236 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "9"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "9"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5237 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "10"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "10"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5238 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "11"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "11"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5239 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "12"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "12"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5240 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "13"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "13"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5241 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "14"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "14"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5242 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "15"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "15"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5243 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "16"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "16"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5244 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "17"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "17"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5245 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "18"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "18"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5246 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "19"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "19"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5247 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "20"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "20"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5248 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "21"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "21"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5249 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "22"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "22"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5250 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "23"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "23"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5251 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "24"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "24"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5252 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "25"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "25"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5253 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "26"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "26"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5254 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "27"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "27"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5255 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "28"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "28"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5256 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "29"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "29"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5257 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "30"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "30"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5258 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "31"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "31"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5259 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "32"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "32"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5260 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "33"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "33"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5261 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "34"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "34"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5262 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "35"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "35"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5263 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "36"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "36"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5264 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "37"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "37"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5265 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "38"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "38"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5266 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "39"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "39"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5267 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "40"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "40"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5268 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "41"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "41"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5269 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "42"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "42"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5270 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "43"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "43"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5271 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "44"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "44"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5272 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "45"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "45"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5273 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "46"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "46"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5274 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "47"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/147>;
+  sio:hasValue "47"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/147> .
+
+_:bnodeItem5275 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "1"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "1"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5276 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "2"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "2"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5277 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "3"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "3"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5278 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "4"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "4"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5279 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "5"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "5"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5280 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "6"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "6"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5281 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "7"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "7"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5282 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "8"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "8"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5283 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "9"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "9"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5284 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "10"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "10"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5285 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "11"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "11"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5286 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "12"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "12"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5287 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "13"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "13"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5288 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "14"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "14"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5289 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "15"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "15"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5290 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "16"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "16"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5291 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "17"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "17"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5292 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "18"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "18"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5293 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "19"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "19"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5294 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "20"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "20"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5295 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "21"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "21"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5296 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "22"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "22"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5297 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "23"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "23"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5298 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "24"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "24"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
+
+_:bnodeItem5299 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 "25"^^xsd:positiveInteger;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/149>;
+  sio:hasValue "25"^^xsd:positiveInteger;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
 
 _:bnodeItem53 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 "6"^^xsd:positiveInteger;
@@ -24635,10 +25937,11 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem2473, _:bnodeItem3409, <http://purl.org/twc/poem/individual/codebook/12>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/918> .
 
-<http://purl.org/twc/poem/individual/item/1035> a vstoi:Item;
-  sio:SIO_000008 _:bnodeItem2474, _:bnodeItem3408, <http://purl.org/twc/poem/individual/codebook/12>;
+<http://purl.org/twc/poem/individual/item/1035> sio:SIO_000008 _:bnodeItem2474, _:bnodeItem3408,
+    <http://purl.org/twc/poem/individual/codebook/12>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/919>;
   sio:hasAttribute _:bnodeItem2474, _:bnodeItem3408, <http://purl.org/twc/poem/individual/codebook/12>;
+  a vstoi:Item;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/919> .
 
 <http://purl.org/twc/poem/individual/item/1036> a vstoi:Item;
@@ -24847,9 +26150,8 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem2552, _:bnodeItem4391, <http://purl.org/twc/poem/individual/codebook/13>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/950> .
 
-<http://purl.org/twc/poem/individual/item/1067> sio:SIO_000008 _:bnodeItem2553, _:bnodeItem3452,
-    _:bnodeItem4392, <http://purl.org/twc/poem/individual/codebook/13>;
-  a vstoi:Item;
+<http://purl.org/twc/poem/individual/item/1067> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem2553, _:bnodeItem3452, _:bnodeItem4392, <http://purl.org/twc/poem/individual/codebook/13>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/951>;
   sio:hasAttribute _:bnodeItem2553, _:bnodeItem3452, _:bnodeItem4392, <http://purl.org/twc/poem/individual/codebook/13>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/951> .
@@ -25310,10 +26612,11 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem2668, _:bnodeItem3501, <http://purl.org/twc/poem/individual/codebook/14>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1019> .
 
-<http://purl.org/twc/poem/individual/item/1136> a vstoi:Item;
-  sio:SIO_000008 _:bnodeItem2669, _:bnodeItem3500, <http://purl.org/twc/poem/individual/codebook/14>;
+<http://purl.org/twc/poem/individual/item/1136> sio:SIO_000008 _:bnodeItem2669, _:bnodeItem3500,
+    <http://purl.org/twc/poem/individual/codebook/14>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/1020>;
   sio:hasAttribute _:bnodeItem2669, _:bnodeItem3500, <http://purl.org/twc/poem/individual/codebook/14>;
+  a vstoi:Item;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1020> .
 
 <http://purl.org/twc/poem/individual/item/1137> a vstoi:Item;
@@ -25538,10 +26841,10 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem214, <http://purl.org/twc/poem/individual/codebook/9>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/117> .
 
-<http://purl.org/twc/poem/individual/item/1170> sio:SIO_000008 _:bnodeItem2750, <http://purl.org/twc/poem/individual/codebook/15>;
+<http://purl.org/twc/poem/individual/item/1170> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem2750, <http://purl.org/twc/poem/individual/codebook/15>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/1054>;
   sio:hasAttribute _:bnodeItem2750, <http://purl.org/twc/poem/individual/codebook/15>;
-  a vstoi:Item;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1054> .
 
 <http://purl.org/twc/poem/individual/item/1171> a vstoi:Item;
@@ -26276,12 +27579,11 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem2310, <http://purl.org/twc/poem/individual/codebook/21>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1764> .
 
-<http://purl.org/twc/poem/individual/item/1281> sio:SIO_000008 _:bnodeItem2311, _:bnodeItem3321,
-    <http://purl.org/twc/poem/individual/codebook/21>;
+<http://purl.org/twc/poem/individual/item/1281> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem2311, _:bnodeItem3321, <http://purl.org/twc/poem/individual/codebook/21>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/1765>;
   sio:hasAttribute _:bnodeItem2311, _:bnodeItem3321, <http://purl.org/twc/poem/individual/codebook/21>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1765>;
-  a vstoi:Item .
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1765> .
 
 <http://purl.org/twc/poem/individual/item/1282> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem2312, _:bnodeItem3322, <http://purl.org/twc/poem/individual/codebook/21>;
@@ -26757,10 +28059,12 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem3181, _:bnodeItem4267, <http://purl.org/twc/poem/individual/codebook/22>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1836> .
 
-<http://purl.org/twc/poem/individual/item/1353> a vstoi:Item;
-  sio:SIO_000008 _:bnodeItem3182, _:bnodeItem3785, _:bnodeItem4268, <http://purl.org/twc/poem/individual/codebook/22>;
+<http://purl.org/twc/poem/individual/item/1353> sio:SIO_000008 _:bnodeItem3182, _:bnodeItem3785,
+    _:bnodeItem4268, <http://purl.org/twc/poem/individual/codebook/22>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/1837>;
-  sio:hasAttribute _:bnodeItem3182, _:bnodeItem3785, _:bnodeItem4268, <http://purl.org/twc/poem/individual/codebook/22>;
+  sio:hasAttribute _:bnodeItem3182, _:bnodeItem3785, _:bnodeItem4268;
+  a vstoi:Item;
+  sio:hasAttribute <http://purl.org/twc/poem/individual/codebook/22>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1837> .
 
 <http://purl.org/twc/poem/individual/item/1354> a vstoi:Item;
@@ -26955,9 +28259,8 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem3258, _:bnodeItem3827, <http://purl.org/twc/poem/individual/codebook/23>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1866> .
 
-<http://purl.org/twc/poem/individual/item/1383> sio:SIO_000008 _:bnodeItem3259;
-  a vstoi:Item;
-  sio:SIO_000008 <http://purl.org/twc/poem/individual/codebook/23>;
+<http://purl.org/twc/poem/individual/item/1383> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem3259, <http://purl.org/twc/poem/individual/codebook/23>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/1867>;
   sio:hasAttribute _:bnodeItem3259, <http://purl.org/twc/poem/individual/codebook/23>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1867> .
@@ -27472,9 +28775,9 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem149, _:bnodeItem266, <http://purl.org/twc/poem/individual/codebook/9>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/146> .
 
-<http://purl.org/twc/poem/individual/item/1460> a vstoi:Item;
-  sio:SIO_000008 _:bnodeItem2880, <http://purl.org/twc/poem/individual/codebook/17>;
+<http://purl.org/twc/poem/individual/item/1460> sio:SIO_000008 _:bnodeItem2880, <http://purl.org/twc/poem/individual/codebook/17>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/1137>;
+  a vstoi:Item;
   sio:hasAttribute _:bnodeItem2880, <http://purl.org/twc/poem/individual/codebook/17>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1137> .
 
@@ -27694,12 +28997,11 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem2913, _:bnodeItem3631, <http://purl.org/twc/poem/individual/codebook/17>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1170> .
 
-<http://purl.org/twc/poem/individual/item/1494> sio:SIO_000008 _:bnodeItem2914, _:bnodeItem3641,
-    <http://purl.org/twc/poem/individual/codebook/17>;
+<http://purl.org/twc/poem/individual/item/1494> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem2914, _:bnodeItem3641, <http://purl.org/twc/poem/individual/codebook/17>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/1171>;
   sio:hasAttribute _:bnodeItem2914, _:bnodeItem3641, <http://purl.org/twc/poem/individual/codebook/17>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1171>;
-  a vstoi:Item .
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1171> .
 
 <http://purl.org/twc/poem/individual/item/1495> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem2915, _:bnodeItem3642, <http://purl.org/twc/poem/individual/codebook/17>;
@@ -28223,8 +29525,9 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem2265, _:bnodeItem3297, <http://purl.org/twc/poem/individual/codebook/21>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1249> .
 
-<http://purl.org/twc/poem/individual/item/1573> a vstoi:Item;
-  sio:SIO_000008 _:bnodeItem2266, _:bnodeItem3298, <http://purl.org/twc/poem/individual/codebook/21>;
+<http://purl.org/twc/poem/individual/item/1573> sio:SIO_000008 _:bnodeItem2266, _:bnodeItem3298;
+  a vstoi:Item;
+  sio:SIO_000008 <http://purl.org/twc/poem/individual/codebook/21>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/1250>;
   sio:hasAttribute _:bnodeItem2266, _:bnodeItem3298, <http://purl.org/twc/poem/individual/codebook/21>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1250> .
@@ -28967,11 +30270,11 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem3223, <http://purl.org/twc/poem/individual/codebook/23>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1361> .
 
-<http://purl.org/twc/poem/individual/item/1685> a vstoi:Item;
-  sio:SIO_000008 _:bnodeItem3224, <http://purl.org/twc/poem/individual/codebook/23>;
+<http://purl.org/twc/poem/individual/item/1685> sio:SIO_000008 _:bnodeItem3224, <http://purl.org/twc/poem/individual/codebook/23>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/1362>;
   sio:hasAttribute _:bnodeItem3224, <http://purl.org/twc/poem/individual/codebook/23>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1362> .
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1362>;
+  a vstoi:Item .
 
 <http://purl.org/twc/poem/individual/item/1686> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem3225, _:bnodeItem3809, <http://purl.org/twc/poem/individual/codebook/23>;
@@ -29711,11 +31014,12 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem2842, <http://purl.org/twc/poem/individual/codebook/16>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1591> .
 
-<http://purl.org/twc/poem/individual/item/1799> a vstoi:Item;
-  sio:SIO_000008 _:bnodeItem2843, _:bnodeItem3607, <http://purl.org/twc/poem/individual/codebook/16>;
+<http://purl.org/twc/poem/individual/item/1799> sio:SIO_000008 _:bnodeItem2843, _:bnodeItem3607,
+    <http://purl.org/twc/poem/individual/codebook/16>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/1592>;
   sio:hasAttribute _:bnodeItem2843, _:bnodeItem3607, <http://purl.org/twc/poem/individual/codebook/16>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1592> .
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1592>;
+  a vstoi:Item .
 
 <http://purl.org/twc/poem/individual/item/18> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem117, _:bnodeItem44, <http://purl.org/twc/poem/individual/codebook/1>;
@@ -29933,11 +31237,10 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem2921, <http://purl.org/twc/poem/individual/codebook/17>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1623> .
 
-<http://purl.org/twc/poem/individual/item/1831> sio:SIO_000008 _:bnodeItem2922, _:bnodeItem3646,
-    <http://purl.org/twc/poem/individual/codebook/17>;
+<http://purl.org/twc/poem/individual/item/1831> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem2922, _:bnodeItem3646, <http://purl.org/twc/poem/individual/codebook/17>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/1624>;
   sio:hasAttribute _:bnodeItem2922, _:bnodeItem3646, <http://purl.org/twc/poem/individual/codebook/17>;
-  a vstoi:Item;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1624> .
 
 <http://purl.org/twc/poem/individual/item/1832> a vstoi:Item;
@@ -30462,9 +31765,9 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem1595, <http://purl.org/twc/poem/individual/codebook/5>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/296> .
 
-<http://purl.org/twc/poem/individual/item/1910> a vstoi:Item;
-  sio:SIO_000008 _:bnodeItem3853, <http://purl.org/twc/poem/individual/codebook/25>;
+<http://purl.org/twc/poem/individual/item/1910> sio:SIO_000008 _:bnodeItem3853, <http://purl.org/twc/poem/individual/codebook/25>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/1910>;
+  a vstoi:Item;
   sio:hasAttribute _:bnodeItem3853, <http://purl.org/twc/poem/individual/codebook/25>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1910> .
 
@@ -30708,11 +32011,10 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem3890, <http://purl.org/twc/poem/individual/codebook/25>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1947> .
 
-<http://purl.org/twc/poem/individual/item/1948> sio:SIO_000008 _:bnodeItem3891, <http://purl.org/twc/poem/individual/codebook/25>;
+<http://purl.org/twc/poem/individual/item/1948> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem3891, <http://purl.org/twc/poem/individual/codebook/25>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/1948>;
-  sio:hasAttribute _:bnodeItem3891;
-  a vstoi:Item;
-  sio:hasAttribute <http://purl.org/twc/poem/individual/codebook/25>;
+  sio:hasAttribute _:bnodeItem3891, <http://purl.org/twc/poem/individual/codebook/25>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/1948> .
 
 <http://purl.org/twc/poem/individual/item/1949> a vstoi:Item;
@@ -31291,10 +32593,10 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem3976, <http://purl.org/twc/poem/individual/codebook/26>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2033> .
 
-<http://purl.org/twc/poem/individual/item/2034> a vstoi:Item;
-  sio:SIO_000008 _:bnodeItem3977, <http://purl.org/twc/poem/individual/codebook/26>;
+<http://purl.org/twc/poem/individual/item/2034> sio:SIO_000008 _:bnodeItem3977, <http://purl.org/twc/poem/individual/codebook/26>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2034>;
   sio:hasAttribute _:bnodeItem3977, <http://purl.org/twc/poem/individual/codebook/26>;
+  a vstoi:Item;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2034> .
 
 <http://purl.org/twc/poem/individual/item/2035> a vstoi:Item;
@@ -31549,8 +32851,8 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem4020, <http://purl.org/twc/poem/individual/codebook/25>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2072> .
 
-<http://purl.org/twc/poem/individual/item/2073> sio:SIO_000008 _:bnodeItem4021, <http://purl.org/twc/poem/individual/codebook/25>;
-  a vstoi:Item;
+<http://purl.org/twc/poem/individual/item/2073> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem4021, <http://purl.org/twc/poem/individual/codebook/25>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2073>;
   sio:hasAttribute _:bnodeItem4021, <http://purl.org/twc/poem/individual/codebook/25>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2073> .
@@ -32137,8 +33439,8 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem4112, <http://purl.org/twc/poem/individual/codebook/28>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2197> .
 
-<http://purl.org/twc/poem/individual/item/2162> a vstoi:Item;
-  sio:SIO_000008 _:bnodeItem4113, <http://purl.org/twc/poem/individual/codebook/28>;
+<http://purl.org/twc/poem/individual/item/2162> sio:SIO_000008 _:bnodeItem4113, <http://purl.org/twc/poem/individual/codebook/28>;
+  a vstoi:Item;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2198>;
   sio:hasAttribute _:bnodeItem4113, <http://purl.org/twc/poem/individual/codebook/28>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2198> .
@@ -32389,10 +33691,9 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem39, <http://purl.org/twc/poem/individual/codebook/1>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/22> .
 
-<http://purl.org/twc/poem/individual/item/220> sio:SIO_000008 _:bnodeItem1624, _:bnodeItem2107,
-    <http://purl.org/twc/poem/individual/codebook/5>;
+<http://purl.org/twc/poem/individual/item/220> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem1624, _:bnodeItem2107, <http://purl.org/twc/poem/individual/codebook/5>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/325>;
-  a vstoi:Item;
   sio:hasAttribute _:bnodeItem1624, _:bnodeItem2107, <http://purl.org/twc/poem/individual/codebook/5>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/325> .
 
@@ -32978,11 +34279,11 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem4239, <http://purl.org/twc/poem/individual/codebook/30>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2324> .
 
-<http://purl.org/twc/poem/individual/item/2289> a vstoi:Item;
-  sio:SIO_000008 _:bnodeItem4261, <http://purl.org/twc/poem/individual/codebook/22>;
+<http://purl.org/twc/poem/individual/item/2289> sio:SIO_000008 _:bnodeItem4261, <http://purl.org/twc/poem/individual/codebook/22>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2325>;
   sio:hasAttribute _:bnodeItem4261, <http://purl.org/twc/poem/individual/codebook/22>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2325> .
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2325>;
+  a vstoi:Item .
 
 <http://purl.org/twc/poem/individual/item/229> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem1680, _:bnodeItem2138, <http://purl.org/twc/poem/individual/codebook/6>;
@@ -33236,9 +34537,9 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem4361, <http://purl.org/twc/poem/individual/codebook/13>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2427> .
 
-<http://purl.org/twc/poem/individual/item/2347> sio:SIO_000008 _:bnodeItem4362, <http://purl.org/twc/poem/individual/codebook/13>;
+<http://purl.org/twc/poem/individual/item/2347> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem4362, <http://purl.org/twc/poem/individual/codebook/13>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2429>;
-  a vstoi:Item;
   sio:hasAttribute _:bnodeItem4362, <http://purl.org/twc/poem/individual/codebook/13>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2429> .
 
@@ -33776,8 +35077,9 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem1698, <http://purl.org/twc/poem/individual/codebook/6>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/352> .
 
-<http://purl.org/twc/poem/individual/item/2470> a vstoi:Item;
-  sio:SIO_000008 _:bnodeItem4445, <http://purl.org/twc/poem/individual/codebook/32>;
+<http://purl.org/twc/poem/individual/item/2470> sio:SIO_000008 _:bnodeItem4445;
+  a vstoi:Item;
+  sio:SIO_000008 <http://purl.org/twc/poem/individual/codebook/32>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2484>;
   sio:hasAttribute _:bnodeItem4445, <http://purl.org/twc/poem/individual/codebook/32>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2484> .
@@ -33998,10 +35300,9 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem4477, _:bnodeItem4519, <http://purl.org/twc/poem/individual/codebook/32>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2516> .
 
-<http://purl.org/twc/poem/individual/item/2503> sio:SIO_000008 _:bnodeItem4478, _:bnodeItem4529,
-    <http://purl.org/twc/poem/individual/codebook/32>;
+<http://purl.org/twc/poem/individual/item/2503> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem4478, _:bnodeItem4529, <http://purl.org/twc/poem/individual/codebook/32>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2517>;
-  a vstoi:Item;
   sio:hasAttribute _:bnodeItem4478, _:bnodeItem4529, <http://purl.org/twc/poem/individual/codebook/32>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2517> .
 
@@ -35283,8 +36584,9 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem4766, <http://purl.org/twc/poem/individual/codebook/18>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2705> .
 
-<http://purl.org/twc/poem/individual/item/2739> a vstoi:Item;
-  sio:SIO_000008 _:bnodeItem4767, _:bnodeItem4808, <http://purl.org/twc/poem/individual/codebook/18>;
+<http://purl.org/twc/poem/individual/item/2739> sio:SIO_000008 _:bnodeItem4767, _:bnodeItem4808;
+  a vstoi:Item;
+  sio:SIO_000008 <http://purl.org/twc/poem/individual/codebook/18>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2706>;
   sio:hasAttribute _:bnodeItem4767, _:bnodeItem4808, <http://purl.org/twc/poem/individual/codebook/18>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2706> .
@@ -35505,10 +36807,10 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem4825, <http://purl.org/twc/poem/individual/codebook/8>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2738> .
 
-<http://purl.org/twc/poem/individual/item/2772> sio:SIO_000008 _:bnodeItem4826, <http://purl.org/twc/poem/individual/codebook/8>;
+<http://purl.org/twc/poem/individual/item/2772> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem4826, <http://purl.org/twc/poem/individual/codebook/8>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2739>;
   sio:hasAttribute _:bnodeItem4826, <http://purl.org/twc/poem/individual/codebook/8>;
-  a vstoi:Item;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2739> .
 
 <http://purl.org/twc/poem/individual/item/2773> a vstoi:Item;
@@ -36281,10 +37583,10 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem4951, <http://purl.org/twc/poem/individual/codebook/24>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2855> .
 
-<http://purl.org/twc/poem/individual/item/289> sio:SIO_000008 _:bnodeItem1787, <http://purl.org/twc/poem/individual/codebook/7>;
+<http://purl.org/twc/poem/individual/item/289> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem1787, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/394>;
   sio:hasAttribute _:bnodeItem1787, <http://purl.org/twc/poem/individual/codebook/7>;
-  a vstoi:Item;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/394> .
 
 <http://purl.org/twc/poem/individual/item/2890> a vstoi:Item;
@@ -36515,7 +37817,35 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem5057, _:bnodeItem5081, <http://purl.org/twc/poem/individual/codebook/19>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2889> .
 
-<http://purl.org/twc/poem/individual/item/2925> a vstoi:Item .
+<http://purl.org/twc/poem/individual/item/2925> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5083, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2890>;
+  sio:hasAttribute _:bnodeItem5083, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2890> .
+
+<http://purl.org/twc/poem/individual/item/2926> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5084, _:bnodeItem5130, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2891>;
+  sio:hasAttribute _:bnodeItem5084, _:bnodeItem5130, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2891> .
+
+<http://purl.org/twc/poem/individual/item/2927> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5085, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2892>;
+  sio:hasAttribute _:bnodeItem5085, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2892> .
+
+<http://purl.org/twc/poem/individual/item/2928> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5086, _:bnodeItem5131, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2893>;
+  sio:hasAttribute _:bnodeItem5086, _:bnodeItem5131, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2893> .
+
+<http://purl.org/twc/poem/individual/item/2929> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5087, _:bnodeItem5132, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2894>;
+  sio:hasAttribute _:bnodeItem5087, _:bnodeItem5132, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2894> .
 
 <http://purl.org/twc/poem/individual/item/293> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem1791, <http://purl.org/twc/poem/individual/codebook/7>;
@@ -36523,11 +37853,131 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem1791, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/398> .
 
+<http://purl.org/twc/poem/individual/item/2930> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5088, _:bnodeItem5133, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2895>;
+  sio:hasAttribute _:bnodeItem5088, _:bnodeItem5133, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2895> .
+
+<http://purl.org/twc/poem/individual/item/2931> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5089, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2896>;
+  sio:hasAttribute _:bnodeItem5089, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2896> .
+
+<http://purl.org/twc/poem/individual/item/2932> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5090, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2897>;
+  sio:hasAttribute _:bnodeItem5090, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2897> .
+
+<http://purl.org/twc/poem/individual/item/2933> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5091, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2898>;
+  sio:hasAttribute _:bnodeItem5091, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2898> .
+
+<http://purl.org/twc/poem/individual/item/2934> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5092, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2899>;
+  sio:hasAttribute _:bnodeItem5092, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2899> .
+
+<http://purl.org/twc/poem/individual/item/2935> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5093, _:bnodeItem5137, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2900>;
+  sio:hasAttribute _:bnodeItem5093, _:bnodeItem5137, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2900> .
+
+<http://purl.org/twc/poem/individual/item/2936> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5094, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2901>;
+  sio:hasAttribute _:bnodeItem5094, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2901> .
+
+<http://purl.org/twc/poem/individual/item/2937> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5095, _:bnodeItem5134, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2902>;
+  sio:hasAttribute _:bnodeItem5095, _:bnodeItem5134, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2902> .
+
+<http://purl.org/twc/poem/individual/item/2938> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5096, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2903>;
+  sio:hasAttribute _:bnodeItem5096, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2903> .
+
+<http://purl.org/twc/poem/individual/item/2939> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5097, _:bnodeItem5139, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2904>;
+  sio:hasAttribute _:bnodeItem5097, _:bnodeItem5139, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2904> .
+
 <http://purl.org/twc/poem/individual/item/294> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem1792, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/399>;
   sio:hasAttribute _:bnodeItem1792, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/399> .
+
+<http://purl.org/twc/poem/individual/item/2940> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5098, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2905>;
+  sio:hasAttribute _:bnodeItem5098, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2905> .
+
+<http://purl.org/twc/poem/individual/item/2941> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5099, _:bnodeItem5138, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2906>;
+  sio:hasAttribute _:bnodeItem5099, _:bnodeItem5138, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2906> .
+
+<http://purl.org/twc/poem/individual/item/2942> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5100, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2907>;
+  sio:hasAttribute _:bnodeItem5100, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2907> .
+
+<http://purl.org/twc/poem/individual/item/2943> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5101, _:bnodeItem5142, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2908>;
+  sio:hasAttribute _:bnodeItem5101, _:bnodeItem5142, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2908> .
+
+<http://purl.org/twc/poem/individual/item/2944> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5102, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2909>;
+  sio:hasAttribute _:bnodeItem5102, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2909> .
+
+<http://purl.org/twc/poem/individual/item/2945> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5103, _:bnodeItem5150, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2910>;
+  sio:hasAttribute _:bnodeItem5103, _:bnodeItem5150, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2910> .
+
+<http://purl.org/twc/poem/individual/item/2946> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5104, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2911>;
+  sio:hasAttribute _:bnodeItem5104, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2911> .
+
+<http://purl.org/twc/poem/individual/item/2947> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5105, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2912>;
+  sio:hasAttribute _:bnodeItem5105, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2912> .
+
+<http://purl.org/twc/poem/individual/item/2948> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5106, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2913>;
+  sio:hasAttribute _:bnodeItem5106, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2913> .
+
+<http://purl.org/twc/poem/individual/item/2949> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5107, _:bnodeItem5144, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2914>;
+  sio:hasAttribute _:bnodeItem5107, _:bnodeItem5144, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2914> .
 
 <http://purl.org/twc/poem/individual/item/295> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem1793, <http://purl.org/twc/poem/individual/codebook/7>;
@@ -36535,11 +37985,133 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem1793, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/400> .
 
+<http://purl.org/twc/poem/individual/item/2950> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5108, _:bnodeItem5143, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2915>;
+  sio:hasAttribute _:bnodeItem5108, _:bnodeItem5143, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2915> .
+
+<http://purl.org/twc/poem/individual/item/2951> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5109, _:bnodeItem5154, _:bnodeItem5155, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2916>;
+  sio:hasAttribute _:bnodeItem5109, _:bnodeItem5154, _:bnodeItem5155, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2916> .
+
+<http://purl.org/twc/poem/individual/item/2952> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5110, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2917>;
+  sio:hasAttribute _:bnodeItem5110, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2917> .
+
+<http://purl.org/twc/poem/individual/item/2953> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5111, _:bnodeItem5145, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2918>;
+  sio:hasAttribute _:bnodeItem5111, _:bnodeItem5145, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2918> .
+
+<http://purl.org/twc/poem/individual/item/2954> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5112, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2919>;
+  sio:hasAttribute _:bnodeItem5112, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2919> .
+
+<http://purl.org/twc/poem/individual/item/2955> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5113, _:bnodeItem5146, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2920>;
+  sio:hasAttribute _:bnodeItem5113, _:bnodeItem5146, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2920> .
+
+<http://purl.org/twc/poem/individual/item/2956> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5114, _:bnodeItem5136, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2921>;
+  sio:hasAttribute _:bnodeItem5114, _:bnodeItem5136, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2921> .
+
+<http://purl.org/twc/poem/individual/item/2957> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5115, _:bnodeItem5135, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2922>;
+  sio:hasAttribute _:bnodeItem5115, _:bnodeItem5135, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2922> .
+
+<http://purl.org/twc/poem/individual/item/2958> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5116, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2923>;
+  sio:hasAttribute _:bnodeItem5116, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2923> .
+
+<http://purl.org/twc/poem/individual/item/2959> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5117, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2924>;
+  sio:hasAttribute _:bnodeItem5117, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2924> .
+
 <http://purl.org/twc/poem/individual/item/296> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem1794, _:bnodeItem2200, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/401>;
   sio:hasAttribute _:bnodeItem1794, _:bnodeItem2200, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/401> .
+
+<http://purl.org/twc/poem/individual/item/2960> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5118, _:bnodeItem5140, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2925>;
+  sio:hasAttribute _:bnodeItem5118, _:bnodeItem5140, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2925> .
+
+<http://purl.org/twc/poem/individual/item/2961> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5119, _:bnodeItem5147, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2926>;
+  sio:hasAttribute _:bnodeItem5119, _:bnodeItem5147, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2926> .
+
+<http://purl.org/twc/poem/individual/item/2962> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5120, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2927>;
+  sio:hasAttribute _:bnodeItem5120, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2927> .
+
+<http://purl.org/twc/poem/individual/item/2963> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5121, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2928>;
+  sio:hasAttribute _:bnodeItem5121, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2928> .
+
+<http://purl.org/twc/poem/individual/item/2964> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5122, _:bnodeItem5148, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2929>;
+  sio:hasAttribute _:bnodeItem5122, _:bnodeItem5148, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2929> .
+
+<http://purl.org/twc/poem/individual/item/2965> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5123, _:bnodeItem5149, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2930>;
+  sio:hasAttribute _:bnodeItem5123, _:bnodeItem5149, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2930> .
+
+<http://purl.org/twc/poem/individual/item/2966> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5124, _:bnodeItem5141, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2931>;
+  sio:hasAttribute _:bnodeItem5124, _:bnodeItem5141, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2931> .
+
+<http://purl.org/twc/poem/individual/item/2967> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5125, _:bnodeItem5151, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2932>;
+  sio:hasAttribute _:bnodeItem5125, _:bnodeItem5151, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2932> .
+
+<http://purl.org/twc/poem/individual/item/2968> sio:SIO_000008 _:bnodeItem5126, _:bnodeItem5152,
+    <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2933>;
+  sio:hasAttribute _:bnodeItem5126;
+  a vstoi:Item;
+  sio:hasAttribute _:bnodeItem5152, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2933> .
+
+<http://purl.org/twc/poem/individual/item/2969> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5127, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2934>;
+  sio:hasAttribute _:bnodeItem5127, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2934> .
 
 <http://purl.org/twc/poem/individual/item/297> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem1795, _:bnodeItem2199, <http://purl.org/twc/poem/individual/codebook/7>;
@@ -36547,17 +38119,197 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem1795, _:bnodeItem2199, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/402> .
 
+<http://purl.org/twc/poem/individual/item/2970> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5128, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2935>;
+  sio:hasAttribute _:bnodeItem5128, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2935> .
+
+<http://purl.org/twc/poem/individual/item/2971> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5129, _:bnodeItem5153, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2936>;
+  sio:hasAttribute _:bnodeItem5129, _:bnodeItem5153, <http://purl.org/twc/poem/individual/codebook/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2936> .
+
+<http://purl.org/twc/poem/individual/item/2972> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5156, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2937>;
+  sio:hasAttribute _:bnodeItem5156, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2937> .
+
+<http://purl.org/twc/poem/individual/item/2973> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5157, _:bnodeItem5203, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2938>;
+  sio:hasAttribute _:bnodeItem5157, _:bnodeItem5203, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2938> .
+
+<http://purl.org/twc/poem/individual/item/2974> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5158, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2939>;
+  sio:hasAttribute _:bnodeItem5158, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2939> .
+
+<http://purl.org/twc/poem/individual/item/2975> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5159, _:bnodeItem5204, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2940>;
+  sio:hasAttribute _:bnodeItem5159, _:bnodeItem5204, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2940> .
+
+<http://purl.org/twc/poem/individual/item/2976> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5160, _:bnodeItem5205, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2941>;
+  sio:hasAttribute _:bnodeItem5160, _:bnodeItem5205, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2941> .
+
+<http://purl.org/twc/poem/individual/item/2977> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5161, _:bnodeItem5206, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2942>;
+  sio:hasAttribute _:bnodeItem5161, _:bnodeItem5206, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2942> .
+
+<http://purl.org/twc/poem/individual/item/2978> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5162, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2943>;
+  sio:hasAttribute _:bnodeItem5162, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2943> .
+
+<http://purl.org/twc/poem/individual/item/2979> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5163, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2944>;
+  sio:hasAttribute _:bnodeItem5163, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2944> .
+
 <http://purl.org/twc/poem/individual/item/298> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem1796, _:bnodeItem2210, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/403>;
   sio:hasAttribute _:bnodeItem1796, _:bnodeItem2210, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/403> .
 
+<http://purl.org/twc/poem/individual/item/2980> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5164, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2945>;
+  sio:hasAttribute _:bnodeItem5164, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2945> .
+
+<http://purl.org/twc/poem/individual/item/2981> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5165, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2946>;
+  sio:hasAttribute _:bnodeItem5165, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2946> .
+
+<http://purl.org/twc/poem/individual/item/2982> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5166, _:bnodeItem5210, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2947>;
+  sio:hasAttribute _:bnodeItem5166, _:bnodeItem5210, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2947> .
+
+<http://purl.org/twc/poem/individual/item/2983> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5167, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2948>;
+  sio:hasAttribute _:bnodeItem5167, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2948> .
+
+<http://purl.org/twc/poem/individual/item/2984> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5168, _:bnodeItem5207, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2949>;
+  sio:hasAttribute _:bnodeItem5168, _:bnodeItem5207, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2949> .
+
+<http://purl.org/twc/poem/individual/item/2985> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5169, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2950>;
+  sio:hasAttribute _:bnodeItem5169, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2950> .
+
+<http://purl.org/twc/poem/individual/item/2986> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5170, _:bnodeItem5212, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2951>;
+  sio:hasAttribute _:bnodeItem5170, _:bnodeItem5212, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2951> .
+
+<http://purl.org/twc/poem/individual/item/2987> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5171, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2952>;
+  sio:hasAttribute _:bnodeItem5171, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2952> .
+
+<http://purl.org/twc/poem/individual/item/2988> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5172, _:bnodeItem5211, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2953>;
+  sio:hasAttribute _:bnodeItem5172, _:bnodeItem5211, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2953> .
+
+<http://purl.org/twc/poem/individual/item/2989> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5173, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2954>;
+  sio:hasAttribute _:bnodeItem5173, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2954> .
+
 <http://purl.org/twc/poem/individual/item/299> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem1797, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/404>;
   sio:hasAttribute _:bnodeItem1797, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/404> .
+
+<http://purl.org/twc/poem/individual/item/2990> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5174, _:bnodeItem5215, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2955>;
+  sio:hasAttribute _:bnodeItem5174, _:bnodeItem5215, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2955> .
+
+<http://purl.org/twc/poem/individual/item/2991> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5175, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2956>;
+  sio:hasAttribute _:bnodeItem5175, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2956> .
+
+<http://purl.org/twc/poem/individual/item/2992> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5176, _:bnodeItem5223, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2957>;
+  sio:hasAttribute _:bnodeItem5176, _:bnodeItem5223, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2957> .
+
+<http://purl.org/twc/poem/individual/item/2993> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5177, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2958>;
+  sio:hasAttribute _:bnodeItem5177, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2958> .
+
+<http://purl.org/twc/poem/individual/item/2994> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5178, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2959>;
+  sio:hasAttribute _:bnodeItem5178, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2959> .
+
+<http://purl.org/twc/poem/individual/item/2995> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5179, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2960>;
+  sio:hasAttribute _:bnodeItem5179, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2960> .
+
+<http://purl.org/twc/poem/individual/item/2996> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5180, _:bnodeItem5217, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2961>;
+  sio:hasAttribute _:bnodeItem5180, _:bnodeItem5217, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2961> .
+
+<http://purl.org/twc/poem/individual/item/2997> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5181, _:bnodeItem5216, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2962>;
+  sio:hasAttribute _:bnodeItem5181, _:bnodeItem5216, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2962> .
+
+<http://purl.org/twc/poem/individual/item/2998> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5182, _:bnodeItem5227, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2963>;
+  sio:hasAttribute _:bnodeItem5182, _:bnodeItem5227, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2963> .
+
+<http://purl.org/twc/poem/individual/item/2999> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5183, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2964>;
+  sio:hasAttribute _:bnodeItem5183, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2964> .
 
 <http://purl.org/twc/poem/individual/item/3> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem38, <http://purl.org/twc/poem/individual/codebook/1>;
@@ -36577,11 +38329,131 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem1798, _:bnodeItem2201, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/405> .
 
+<http://purl.org/twc/poem/individual/item/3000> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5184, _:bnodeItem5218, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2965>;
+  sio:hasAttribute _:bnodeItem5184, _:bnodeItem5218, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2965> .
+
+<http://purl.org/twc/poem/individual/item/3001> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5185, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2966>;
+  sio:hasAttribute _:bnodeItem5185, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2966> .
+
+<http://purl.org/twc/poem/individual/item/3002> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5186, _:bnodeItem5219, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2967>;
+  sio:hasAttribute _:bnodeItem5186, _:bnodeItem5219, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2967> .
+
+<http://purl.org/twc/poem/individual/item/3003> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5187, _:bnodeItem5209, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2968>;
+  sio:hasAttribute _:bnodeItem5187, _:bnodeItem5209, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2968> .
+
+<http://purl.org/twc/poem/individual/item/3004> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5188, _:bnodeItem5208, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2969>;
+  sio:hasAttribute _:bnodeItem5188, _:bnodeItem5208, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2969> .
+
+<http://purl.org/twc/poem/individual/item/3005> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5189, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2970>;
+  sio:hasAttribute _:bnodeItem5189, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2970> .
+
+<http://purl.org/twc/poem/individual/item/3006> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5190, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2971>;
+  sio:hasAttribute _:bnodeItem5190, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2971> .
+
+<http://purl.org/twc/poem/individual/item/3007> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5191, _:bnodeItem5213, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2972>;
+  sio:hasAttribute _:bnodeItem5191, _:bnodeItem5213, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2972> .
+
+<http://purl.org/twc/poem/individual/item/3008> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5192, _:bnodeItem5220, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2973>;
+  sio:hasAttribute _:bnodeItem5192, _:bnodeItem5220, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2973> .
+
+<http://purl.org/twc/poem/individual/item/3009> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5193, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2974>;
+  sio:hasAttribute _:bnodeItem5193, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2974> .
+
 <http://purl.org/twc/poem/individual/item/301> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem1799, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/406>;
   sio:hasAttribute _:bnodeItem1799, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/406> .
+
+<http://purl.org/twc/poem/individual/item/3010> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5194, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2975>;
+  sio:hasAttribute _:bnodeItem5194, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2975> .
+
+<http://purl.org/twc/poem/individual/item/3011> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5195, _:bnodeItem5221, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2976>;
+  sio:hasAttribute _:bnodeItem5195, _:bnodeItem5221, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2976> .
+
+<http://purl.org/twc/poem/individual/item/3012> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5196, _:bnodeItem5222, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2977>;
+  sio:hasAttribute _:bnodeItem5196, _:bnodeItem5222, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2977> .
+
+<http://purl.org/twc/poem/individual/item/3013> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5197, _:bnodeItem5214, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2978>;
+  sio:hasAttribute _:bnodeItem5197, _:bnodeItem5214, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2978> .
+
+<http://purl.org/twc/poem/individual/item/3014> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5198, _:bnodeItem5224, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2979>;
+  sio:hasAttribute _:bnodeItem5198, _:bnodeItem5224, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2979> .
+
+<http://purl.org/twc/poem/individual/item/3015> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5199, _:bnodeItem5225, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2980>;
+  sio:hasAttribute _:bnodeItem5199, _:bnodeItem5225, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2980> .
+
+<http://purl.org/twc/poem/individual/item/3016> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5200, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2981>;
+  sio:hasAttribute _:bnodeItem5200, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2981> .
+
+<http://purl.org/twc/poem/individual/item/3017> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5201, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2982>;
+  sio:hasAttribute _:bnodeItem5201, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2982> .
+
+<http://purl.org/twc/poem/individual/item/3018> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5202, _:bnodeItem5226, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2983>;
+  sio:hasAttribute _:bnodeItem5202, _:bnodeItem5226, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2983> .
+
+<http://purl.org/twc/poem/individual/item/3019> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5228, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2984>;
+  sio:hasAttribute _:bnodeItem5228, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2984> .
 
 <http://purl.org/twc/poem/individual/item/302> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem1800, _:bnodeItem2202, <http://purl.org/twc/poem/individual/codebook/7>;
@@ -36589,11 +38461,131 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem1800, _:bnodeItem2202, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/407> .
 
+<http://purl.org/twc/poem/individual/item/3020> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5229, _:bnodeItem5275, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2985>;
+  sio:hasAttribute _:bnodeItem5229, _:bnodeItem5275, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2985> .
+
+<http://purl.org/twc/poem/individual/item/3021> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5230, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2986>;
+  sio:hasAttribute _:bnodeItem5230, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2986> .
+
+<http://purl.org/twc/poem/individual/item/3022> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5231, _:bnodeItem5276, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2987>;
+  sio:hasAttribute _:bnodeItem5231, _:bnodeItem5276, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2987> .
+
+<http://purl.org/twc/poem/individual/item/3023> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5232, _:bnodeItem5277, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2988>;
+  sio:hasAttribute _:bnodeItem5232, _:bnodeItem5277, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2988> .
+
+<http://purl.org/twc/poem/individual/item/3024> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5233, _:bnodeItem5278, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2989>;
+  sio:hasAttribute _:bnodeItem5233, _:bnodeItem5278, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2989> .
+
+<http://purl.org/twc/poem/individual/item/3025> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5234, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2990>;
+  sio:hasAttribute _:bnodeItem5234, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2990> .
+
+<http://purl.org/twc/poem/individual/item/3026> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5235, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2991>;
+  sio:hasAttribute _:bnodeItem5235, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2991> .
+
+<http://purl.org/twc/poem/individual/item/3027> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5236, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2992>;
+  sio:hasAttribute _:bnodeItem5236, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2992> .
+
+<http://purl.org/twc/poem/individual/item/3028> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5237, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2993>;
+  sio:hasAttribute _:bnodeItem5237, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2993> .
+
+<http://purl.org/twc/poem/individual/item/3029> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5238, _:bnodeItem5282, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2994>;
+  sio:hasAttribute _:bnodeItem5238, _:bnodeItem5282, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2994> .
+
 <http://purl.org/twc/poem/individual/item/303> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem1801, _:bnodeItem2192, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/408>;
   sio:hasAttribute _:bnodeItem1801, _:bnodeItem2192, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/408> .
+
+<http://purl.org/twc/poem/individual/item/3030> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5239, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2995>;
+  sio:hasAttribute _:bnodeItem5239, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2995> .
+
+<http://purl.org/twc/poem/individual/item/3031> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5240, _:bnodeItem5279, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2996>;
+  sio:hasAttribute _:bnodeItem5240, _:bnodeItem5279, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2996> .
+
+<http://purl.org/twc/poem/individual/item/3032> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5241, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2997>;
+  sio:hasAttribute _:bnodeItem5241, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2997> .
+
+<http://purl.org/twc/poem/individual/item/3033> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5242, _:bnodeItem5284, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2998>;
+  sio:hasAttribute _:bnodeItem5242, _:bnodeItem5284, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2998> .
+
+<http://purl.org/twc/poem/individual/item/3034> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5243, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/2999>;
+  sio:hasAttribute _:bnodeItem5243, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/2999> .
+
+<http://purl.org/twc/poem/individual/item/3035> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5244, _:bnodeItem5283, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3000>;
+  sio:hasAttribute _:bnodeItem5244, _:bnodeItem5283, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3000> .
+
+<http://purl.org/twc/poem/individual/item/3036> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5245, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3001>;
+  sio:hasAttribute _:bnodeItem5245, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3001> .
+
+<http://purl.org/twc/poem/individual/item/3037> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5246, _:bnodeItem5287, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3002>;
+  sio:hasAttribute _:bnodeItem5246, _:bnodeItem5287, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3002> .
+
+<http://purl.org/twc/poem/individual/item/3038> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5247, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3003>;
+  sio:hasAttribute _:bnodeItem5247, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3003> .
+
+<http://purl.org/twc/poem/individual/item/3039> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5248, _:bnodeItem5295, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3004>;
+  sio:hasAttribute _:bnodeItem5248, _:bnodeItem5295, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3004> .
 
 <http://purl.org/twc/poem/individual/item/304> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem1802, _:bnodeItem2191, <http://purl.org/twc/poem/individual/codebook/7>;
@@ -36601,17 +38593,173 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem1802, _:bnodeItem2191, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/409> .
 
+<http://purl.org/twc/poem/individual/item/3040> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5249, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3005>;
+  sio:hasAttribute _:bnodeItem5249, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3005> .
+
+<http://purl.org/twc/poem/individual/item/3041> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5250, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3006>;
+  sio:hasAttribute _:bnodeItem5250, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3006> .
+
+<http://purl.org/twc/poem/individual/item/3042> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5251, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3007>;
+  sio:hasAttribute _:bnodeItem5251, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3007> .
+
+<http://purl.org/twc/poem/individual/item/3043> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5252, _:bnodeItem5289, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3008>;
+  sio:hasAttribute _:bnodeItem5252, _:bnodeItem5289, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3008> .
+
+<http://purl.org/twc/poem/individual/item/3044> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5253, _:bnodeItem5288, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3009>;
+  sio:hasAttribute _:bnodeItem5253, _:bnodeItem5288, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3009> .
+
+<http://purl.org/twc/poem/individual/item/3045> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5254, _:bnodeItem5299, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3010>;
+  sio:hasAttribute _:bnodeItem5254, _:bnodeItem5299, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3010> .
+
+<http://purl.org/twc/poem/individual/item/3046> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5255, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3011>;
+  sio:hasAttribute _:bnodeItem5255, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3011> .
+
+<http://purl.org/twc/poem/individual/item/3047> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5256, _:bnodeItem5290, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3012>;
+  sio:hasAttribute _:bnodeItem5256, _:bnodeItem5290, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3012> .
+
+<http://purl.org/twc/poem/individual/item/3048> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5257, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3013>;
+  sio:hasAttribute _:bnodeItem5257, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3013> .
+
+<http://purl.org/twc/poem/individual/item/3049> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5258, _:bnodeItem5291, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3014>;
+  sio:hasAttribute _:bnodeItem5258, _:bnodeItem5291, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3014> .
+
 <http://purl.org/twc/poem/individual/item/305> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem1803, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/410>;
   sio:hasAttribute _:bnodeItem1803, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/410> .
 
+<http://purl.org/twc/poem/individual/item/3050> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5259, _:bnodeItem5281, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3015>;
+  sio:hasAttribute _:bnodeItem5259, _:bnodeItem5281, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3015> .
+
+<http://purl.org/twc/poem/individual/item/3051> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5260, _:bnodeItem5280, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3016>;
+  sio:hasAttribute _:bnodeItem5260, _:bnodeItem5280, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3016> .
+
+<http://purl.org/twc/poem/individual/item/3052> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5261, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3017>;
+  sio:hasAttribute _:bnodeItem5261, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3017> .
+
+<http://purl.org/twc/poem/individual/item/3053> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5262, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3018>;
+  sio:hasAttribute _:bnodeItem5262, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3018> .
+
+<http://purl.org/twc/poem/individual/item/3054> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5263, _:bnodeItem5285, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3019>;
+  sio:hasAttribute _:bnodeItem5263, _:bnodeItem5285, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3019> .
+
+<http://purl.org/twc/poem/individual/item/3055> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5264, _:bnodeItem5292, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3020>;
+  sio:hasAttribute _:bnodeItem5264, _:bnodeItem5292, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3020> .
+
+<http://purl.org/twc/poem/individual/item/3056> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5265, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3021>;
+  sio:hasAttribute _:bnodeItem5265, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3021> .
+
+<http://purl.org/twc/poem/individual/item/3057> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5266, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3022>;
+  sio:hasAttribute _:bnodeItem5266, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3022> .
+
+<http://purl.org/twc/poem/individual/item/3058> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5267, _:bnodeItem5293, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3023>;
+  sio:hasAttribute _:bnodeItem5267, _:bnodeItem5293, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3023> .
+
+<http://purl.org/twc/poem/individual/item/3059> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5268, _:bnodeItem5294, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3024>;
+  sio:hasAttribute _:bnodeItem5268, _:bnodeItem5294, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3024> .
+
 <http://purl.org/twc/poem/individual/item/306> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem1804, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/411>;
   sio:hasAttribute _:bnodeItem1804, <http://purl.org/twc/poem/individual/codebook/7>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/411> .
+
+<http://purl.org/twc/poem/individual/item/3060> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5269, _:bnodeItem5286, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3025>;
+  sio:hasAttribute _:bnodeItem5269, _:bnodeItem5286, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3025> .
+
+<http://purl.org/twc/poem/individual/item/3061> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5270, _:bnodeItem5296, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3026>;
+  sio:hasAttribute _:bnodeItem5270, _:bnodeItem5296, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3026> .
+
+<http://purl.org/twc/poem/individual/item/3062> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5271, _:bnodeItem5297, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3027>;
+  sio:hasAttribute _:bnodeItem5271, _:bnodeItem5297, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3027> .
+
+<http://purl.org/twc/poem/individual/item/3063> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5272, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3028>;
+  sio:hasAttribute _:bnodeItem5272, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3028> .
+
+<http://purl.org/twc/poem/individual/item/3064> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5273, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3029>;
+  sio:hasAttribute _:bnodeItem5273, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3029> .
+
+<http://purl.org/twc/poem/individual/item/3065> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem5274, _:bnodeItem5298, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/3030>;
+  sio:hasAttribute _:bnodeItem5274, _:bnodeItem5298, <http://purl.org/twc/poem/individual/codebook/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/3030> .
 
 <http://purl.org/twc/poem/individual/item/307> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem1805, _:bnodeItem2196, <http://purl.org/twc/poem/individual/codebook/7>;
@@ -36697,8 +38845,9 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem1864, <http://purl.org/twc/poem/individual/codebook/10>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/424> .
 
-<http://purl.org/twc/poem/individual/item/32> a vstoi:Item;
-  sio:SIO_000008 _:bnodeItem18, <http://purl.org/twc/poem/individual/codebook/1>;
+<http://purl.org/twc/poem/individual/item/32> sio:SIO_000008 _:bnodeItem18;
+  a vstoi:Item;
+  sio:SIO_000008 <http://purl.org/twc/poem/individual/codebook/1>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/32>;
   sio:hasAttribute _:bnodeItem18, <http://purl.org/twc/poem/individual/codebook/1>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/32> .
@@ -37027,8 +39176,8 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem1491, _:bnodeItem2037, <http://purl.org/twc/poem/individual/codebook/3>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/192> .
 
-<http://purl.org/twc/poem/individual/item/37> sio:SIO_000008 _:bnodeItem1, <http://purl.org/twc/poem/individual/codebook/1>;
-  a vstoi:Item;
+<http://purl.org/twc/poem/individual/item/37> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem1, <http://purl.org/twc/poem/individual/codebook/1>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/37>;
   sio:hasAttribute _:bnodeItem1, <http://purl.org/twc/poem/individual/codebook/1>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/37> .
@@ -37447,10 +39596,11 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem1318, _:bnodeItem1948, <http://purl.org/twc/poem/individual/codebook/4>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/254> .
 
-<http://purl.org/twc/poem/individual/item/432> a vstoi:Item;
-  sio:SIO_000008 _:bnodeItem1319, <http://purl.org/twc/poem/individual/codebook/4>;
+<http://purl.org/twc/poem/individual/item/432> sio:SIO_000008 _:bnodeItem1319, <http://purl.org/twc/poem/individual/codebook/4>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/255>;
-  sio:hasAttribute _:bnodeItem1319, <http://purl.org/twc/poem/individual/codebook/4>;
+  sio:hasAttribute _:bnodeItem1319;
+  a vstoi:Item;
+  sio:hasAttribute <http://purl.org/twc/poem/individual/codebook/4>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/255> .
 
 <http://purl.org/twc/poem/individual/item/433> a vstoi:Item;
@@ -37771,12 +39921,11 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem1403, <http://purl.org/twc/poem/individual/codebook/2>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/480> .
 
-<http://purl.org/twc/poem/individual/item/481> sio:SIO_000008 _:bnodeItem1404, _:bnodeItem1993,
-    <http://purl.org/twc/poem/individual/codebook/2>;
+<http://purl.org/twc/poem/individual/item/481> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem1404, _:bnodeItem1993, <http://purl.org/twc/poem/individual/codebook/2>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/481>;
   sio:hasAttribute _:bnodeItem1404, _:bnodeItem1993, <http://purl.org/twc/poem/individual/codebook/2>;
-  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/481>;
-  a vstoi:Item .
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStem/481> .
 
 <http://purl.org/twc/poem/individual/item/482> a vstoi:Item;
   sio:SIO_000008 _:bnodeItem1405, <http://purl.org/twc/poem/individual/codebook/2>;
@@ -38192,9 +40341,10 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem1466, _:bnodeItem2024, <http://purl.org/twc/poem/individual/codebook/3>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/543> .
 
-<http://purl.org/twc/poem/individual/item/544> a vstoi:Item;
-  sio:SIO_000008 _:bnodeItem1467, _:bnodeItem2035, <http://purl.org/twc/poem/individual/codebook/3>;
+<http://purl.org/twc/poem/individual/item/544> sio:SIO_000008 _:bnodeItem1467, _:bnodeItem2035,
+    <http://purl.org/twc/poem/individual/codebook/3>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/544>;
+  a vstoi:Item;
   sio:hasAttribute _:bnodeItem1467, _:bnodeItem2035, <http://purl.org/twc/poem/individual/codebook/3>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/544> .
 
@@ -38516,12 +40666,10 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem1280, <http://purl.org/twc/poem/individual/codebook/4>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/592> .
 
-<http://purl.org/twc/poem/individual/item/593> sio:SIO_000008 _:bnodeItem1281, _:bnodeItem1926,
-    <http://purl.org/twc/poem/individual/codebook/4>;
+<http://purl.org/twc/poem/individual/item/593> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem1281, _:bnodeItem1926, <http://purl.org/twc/poem/individual/codebook/4>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/593>;
-  sio:hasAttribute _:bnodeItem1281, _:bnodeItem1926;
-  a vstoi:Item;
-  sio:hasAttribute <http://purl.org/twc/poem/individual/codebook/4>;
+  sio:hasAttribute _:bnodeItem1281, _:bnodeItem1926, <http://purl.org/twc/poem/individual/codebook/4>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/593> .
 
 <http://purl.org/twc/poem/individual/item/594> a vstoi:Item;
@@ -38932,8 +41080,9 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem1577, _:bnodeItem2082, <http://purl.org/twc/poem/individual/codebook/5>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/654> .
 
-<http://purl.org/twc/poem/individual/item/655> a vstoi:Item;
-  sio:SIO_000008 _:bnodeItem1578, _:bnodeItem2083, <http://purl.org/twc/poem/individual/codebook/5>;
+<http://purl.org/twc/poem/individual/item/655> sio:SIO_000008 _:bnodeItem1578, _:bnodeItem2083,
+    <http://purl.org/twc/poem/individual/codebook/5>;
+  a vstoi:Item;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/655>;
   sio:hasAttribute _:bnodeItem1578, _:bnodeItem2083, <http://purl.org/twc/poem/individual/codebook/5>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/655> .
@@ -39256,10 +41405,10 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem1672, _:bnodeItem2133, <http://purl.org/twc/poem/individual/codebook/6>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/702> .
 
-<http://purl.org/twc/poem/individual/item/703> sio:SIO_000008 _:bnodeItem1673, <http://purl.org/twc/poem/individual/codebook/6>;
+<http://purl.org/twc/poem/individual/item/703> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem1673, <http://purl.org/twc/poem/individual/codebook/6>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/703>;
   sio:hasAttribute _:bnodeItem1673, <http://purl.org/twc/poem/individual/codebook/6>;
-  a vstoi:Item;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/703> .
 
 <http://purl.org/twc/poem/individual/item/704> a vstoi:Item;
@@ -39676,8 +41825,9 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem1360, <http://purl.org/twc/poem/individual/codebook/8>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/766> .
 
-<http://purl.org/twc/poem/individual/item/767> a vstoi:Item;
-  sio:SIO_000008 _:bnodeItem1361, _:bnodeItem1970, _:bnodeItem4835, <http://purl.org/twc/poem/individual/codebook/8>;
+<http://purl.org/twc/poem/individual/item/767> sio:SIO_000008 _:bnodeItem1361;
+  a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem1970, _:bnodeItem4835, <http://purl.org/twc/poem/individual/codebook/8>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/767>;
   sio:hasAttribute _:bnodeItem1361, _:bnodeItem1970, _:bnodeItem4835, <http://purl.org/twc/poem/individual/codebook/8>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/767> .
@@ -39994,9 +42144,8 @@ _:bnodeItem99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeItem1830, <http://purl.org/twc/poem/individual/codebook/10>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/813> .
 
-<http://purl.org/twc/poem/individual/item/814> sio:SIO_000008 _:bnodeItem1831, _:bnodeItem2220;
-  a vstoi:Item;
-  sio:SIO_000008 <http://purl.org/twc/poem/individual/codebook/10>;
+<http://purl.org/twc/poem/individual/item/814> a vstoi:Item;
+  sio:SIO_000008 _:bnodeItem1831, _:bnodeItem2220, <http://purl.org/twc/poem/individual/codebook/10>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStem/814>;
   sio:hasAttribute _:bnodeItem1831, _:bnodeItem2220, <http://purl.org/twc/poem/individual/codebook/10>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStem/814> .

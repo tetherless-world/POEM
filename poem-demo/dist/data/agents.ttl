@@ -310,6 +310,18 @@
     <http://purl.org/twc/poem/individual/person/107>;
   rdfs:label "Baljinnyam et al 2025" .
 
+<http://purl.org/twc/poem/individual/agent/51> a prov:Agent;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/person/108>;
+  sio:hasMember <http://purl.org/twc/poem/individual/person/108>;
+  rdfs:label "RCADS Team (Adrienne)" .
+
+<http://purl.org/twc/poem/individual/agent/52> a prov:Agent;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/person/109>, <http://purl.org/twc/poem/individual/person/110>,
+    <http://purl.org/twc/poem/individual/person/111>, <http://purl.org/twc/poem/individual/person/112>;
+  sio:hasMember <http://purl.org/twc/poem/individual/person/109>, <http://purl.org/twc/poem/individual/person/110>,
+    <http://purl.org/twc/poem/individual/person/111>, <http://purl.org/twc/poem/individual/person/112>;
+  rdfs:label "Esposito et al 2025" .
+
 <http://purl.org/twc/poem/individual/agent/6> a prov:Agent;
   schema:identifier "https://doi.org/10.1007/s10802-009-9363-8";
   sio:SIO_000059 <http://purl.org/twc/poem/individual/person/1>, <http://purl.org/twc/poem/individual/person/11>,

@@ -12014,7 +12014,65 @@ casa""" .
   rdfs:label """Mijn kind voelt zich zenuwachtig als hij/zij een
 proefwerk of een toets moet maken""" .
 
-<http://purl.org/twc/poem/individual/itemStem/2890> a vstoi:ItemStem .
+<http://purl.org/twc/poem/individual/itemStem/2890> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  rdfs:label "طفلي يقلق بشأن األمور." .
+
+<http://purl.org/twc/poem/individual/itemStem/2891> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  rdfs:label "طفلي يشعر بالحزن أو الفراغ." .
+
+<http://purl.org/twc/poem/individual/itemStem/2892> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  rdfs:label "عندما يواجه طفلي مشكلة، يشعر بإحساس غريب في معدته." .
+
+<http://purl.org/twc/poem/individual/itemStem/2893> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  rdfs:label "طفلي يقلق عندما يعتقد أنه/أنها لم ينجز شيئا بالشكل المطلوب." .
+
+<http://purl.org/twc/poem/individual/itemStem/2894> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  rdfs:label " طفلي يشعر بالخوف من البقاء وحيد ا في المنزل." .
+
+<http://purl.org/twc/poem/individual/itemStem/2895> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  rdfs:label "طفلي لم تعد يجد األشياء ممتعة كما كانت." .
+
+<http://purl.org/twc/poem/individual/itemStem/2896> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  rdfs:label "طفلي يشعر بالخوف عند إجراء اختبار." .
+
+<http://purl.org/twc/poem/individual/itemStem/2897> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  rdfs:label "طفلي يقلق عندما يعتقد أن شخ صا ما غاضب منه/منها." .
+
+<http://purl.org/twc/poem/individual/itemStem/2898> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  rdfs:label "طفلي يقلق عند االبتعاد عني." .
+
+<http://purl.org/twc/poem/individual/itemStem/2899> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  rdfs:label " طفلي ينزعج من األفكار أو الصور السيئة أو السخيفة في ذهنه/ها." .
 
 <http://purl.org/twc/poem/individual/itemStem/29> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
@@ -12029,12 +12087,132 @@ proefwerk of een toets moet maken""" .
   rdfs:label """Mijn kind maakt zich zorgen als het denkt dat iemand
 boos op hem/haar is""" .
 
+<http://purl.org/twc/poem/individual/itemStem/2900> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  rdfs:label "طفلي يواجه صعوبة في النوم." .
+
+<http://purl.org/twc/poem/individual/itemStem/2901> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  rdfs:label "طفلي يقلق بشأن أدائه السيئ في المدرسة." .
+
+<http://purl.org/twc/poem/individual/itemStem/2902> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  rdfs:label "طفلي يقلق من أن شيئ ا سيئ ا سيحدث لشخص ما في العائلة." .
+
+<http://purl.org/twc/poem/individual/itemStem/2903> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  rdfs:label " طفلي يشعر فجأة أنه ال يستطيع التنفس دون سبب لذلك." .
+
+<http://purl.org/twc/poem/individual/itemStem/2904> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  rdfs:label "طفلي يعاني من مشاكل في الشهية." .
+
+<http://purl.org/twc/poem/individual/itemStem/2905> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  rdfs:label "طفلي بحاجة مستمرة إلى التحقق من أنه/أنها قد قام/ت باألشياء بشكل صحيح )مثل إطفاء المصباح أو قفل الباب(." .
+
+<http://purl.org/twc/poem/individual/itemStem/2906> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  rdfs:label "طفلي يشعر بالخوف من النوم بمفرده/ها." .
+
+<http://purl.org/twc/poem/individual/itemStem/2907> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  rdfs:label " طفلي يواجه صعوبة بالذهاب إلى المدرسة صبا حا بسبب شعوره/ها بالتوتر أو الخوف." .
+
+<http://purl.org/twc/poem/individual/itemStem/2908> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  rdfs:label " طفلي ليس لديه/ها طاقة للقيام باألشياء." .
+
+<http://purl.org/twc/poem/individual/itemStem/2909> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  rdfs:label "طفلي يقلق من أن يبدو أحمق." .
+
 <http://purl.org/twc/poem/individual/itemStem/291> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DUT>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/8>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
   rdfs:label """Mijn kind maakt zich zorgen over niet in de buurt van
 ons/mij zijn""" .
+
+<http://purl.org/twc/poem/individual/itemStem/2910> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  rdfs:label "طفلي يشعر بالتعب كثي را." .
+
+<http://purl.org/twc/poem/individual/itemStem/2911> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  rdfs:label " طفلي يقلق من أن أشياء سيئةستحدث له/لها." .
+
+<http://purl.org/twc/poem/individual/itemStem/2912> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  rdfs:label " طفلي ال يستطيع إخراج األفكار السيئة أو الغريبة من رأسه/ها." .
+
+<http://purl.org/twc/poem/individual/itemStem/2913> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  rdfs:label " عندما يواجه طفلي مشكلة، ينبض قلبه/ها بسرعة كبيرة." .
+
+<http://purl.org/twc/poem/individual/itemStem/2914> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  rdfs:label "طفلي ال يستطيع التفكير بوضوح." .
+
+<http://purl.org/twc/poem/individual/itemStem/2915> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  rdfs:label "يبدأ طفلي باالرتجاف أو االرتعاش فجأة ومن دون سبب لذلك." .
+
+<http://purl.org/twc/poem/individual/itemStem/2916> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  rdfs:label "طفلي يقلق من أن شيئ ا سيئ ا سيحدث له/لها." .
+
+<http://purl.org/twc/poem/individual/itemStem/2917> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  rdfs:label "طفلي يبدأ باالرتجاف عندما يواجه مشكلة." .
+
+<http://purl.org/twc/poem/individual/itemStem/2918> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  rdfs:label " طفلي يشعر بأنه/ها بال قيمة." .
+
+<http://purl.org/twc/poem/individual/itemStem/2919> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  rdfs:label "طفلي يقلق بشأن ارتكاب األخطاء." .
 
 <http://purl.org/twc/poem/individual/itemStem/292> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DUT>;
@@ -12043,11 +12221,131 @@ ons/mij zijn""" .
   rdfs:label """Mijn kind heeft last van slechte of rare gedachten of
 beelden in zijn/haar hoofd""" .
 
+<http://purl.org/twc/poem/individual/itemStem/2920> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  rdfs:label "طفلي يحتاج إلى التفكير في أفكار خاصة )مثل أرقام أو كلمات( لمنع حدوث أشياء سيئة." .
+
+<http://purl.org/twc/poem/individual/itemStem/2921> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  rdfs:label "طفلي يقلق بشأن ما يعتقده اآلخرون عنه/ها." .
+
+<http://purl.org/twc/poem/individual/itemStem/2922> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  rdfs:label " طفلي يخاف من التواجد في األماكن المزدحمة )مثل مراكز التسوق، السينما، الحافالت، المالعب المزدحمة(." .
+
+<http://purl.org/twc/poem/individual/itemStem/2923> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  rdfs:label " يشعر طفلي بالخوف الشديد فجأة ودون سبب لذلك." .
+
+<http://purl.org/twc/poem/individual/itemStem/2924> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  rdfs:label "طفلي يقلق بشأن ما سيحدث الحق." .
+
+<http://purl.org/twc/poem/individual/itemStem/2925> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  rdfs:label " فجأة يشعر طفلي بالدوار أو اإلغماء دون سبب لذلك." .
+
+<http://purl.org/twc/poem/individual/itemStem/2926> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  rdfs:label "طفلي يفكر في الموت." .
+
+<http://purl.org/twc/poem/individual/itemStem/2927> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  rdfs:label "يشعر طفلي بالخوف إذا اضطر إلى التحدث في الصف." .
+
+<http://purl.org/twc/poem/individual/itemStem/2928> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  rdfs:label "فجأة يبدأ قلب طفلي بالخفقان بسرعة كبيرة دون سبب لذلك." .
+
+<http://purl.org/twc/poem/individual/itemStem/2929> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  rdfs:label "طفلي يشعر وكأنه ال يريد التحرك." .
+
 <http://purl.org/twc/poem/individual/itemStem/293> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DUT>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/21>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
   rdfs:label "Mijn kind heeft problemen met slapen" .
+
+<http://purl.org/twc/poem/individual/itemStem/2930> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  rdfs:label " طفلي يقلق من أنه/أنها سيشعر فجأة بالخوف رغم عدم تواجد أي سبب لذلك." .
+
+<http://purl.org/twc/poem/individual/itemStem/2931> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  rdfs:label " طفلي يحتاج إلى تكرار بعض األشياء مرا را )مثل غسل اليدين، التنظيف، أو ترتيب األشياء بطريقة معينة(." .
+
+<http://purl.org/twc/poem/individual/itemStem/2932> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  rdfs:label "طفلي يشعر بالخوف من أن يبدو أحمق . ا أمام الناس" .
+
+<http://purl.org/twc/poem/individual/itemStem/2933> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  rdfs:label " طفلي يحتاج إلى القيام ببعض األشياء بطريقة محددة لمنع حدوث أشياء سيئة." .
+
+<http://purl.org/twc/poem/individual/itemStem/2934> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  rdfs:label "طفلي يقلق عندما يكون في السرير ليال." .
+
+<http://purl.org/twc/poem/individual/itemStem/2935> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  rdfs:label "طفلي يخاف إذا كان عليه البقاء بعيد ا عن المنزل ليا." .
+
+<http://purl.org/twc/poem/individual/itemStem/2936> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ARA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  rdfs:label "طفلي يشعر بالتوتر." .
+
+<http://purl.org/twc/poem/individual/itemStem/2937> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  rdfs:label "Би аливаа зүйлсд санаа зовдог" .
+
+<http://purl.org/twc/poem/individual/itemStem/2938> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  rdfs:label "Надад гунигтай эсвэл хоосон мэдрэмж төрдөг" .
+
+<http://purl.org/twc/poem/individual/itemStem/2939> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  rdfs:label "Надад асуудал тулгарах үед гэдэс орчимд хачин жигтэй мэдрэмж төрдөг" .
 
 <http://purl.org/twc/poem/individual/itemStem/294> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DUT>;
@@ -12056,12 +12354,132 @@ beelden in zijn/haar hoofd""" .
   rdfs:label """Mijn kind maakt zich zorgen dat hij/zij het werk op
 school slecht zal doen""" .
 
+<http://purl.org/twc/poem/individual/itemStem/2940> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  rdfs:label "Ямар нэг зүйлийг би муу хийчихсэн байх вий дээ гэж бодох үед миний санаа зовдог вий дээ гэж" .
+
+<http://purl.org/twc/poem/individual/itemStem/2941> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  rdfs:label "Би гэртээ ганцаараа байхаас айх байсан" .
+
+<http://purl.org/twc/poem/individual/itemStem/2942> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  rdfs:label "Юу ч хөгжилтэй санагдахаа больсон" .
+
+<http://purl.org/twc/poem/individual/itemStem/2943> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  rdfs:label "Шалгалт өгнө гэхээр надад айдас төрдөг" .
+
+<http://purl.org/twc/poem/individual/itemStem/2944> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  rdfs:label "Хэн нэгэн надад уурласан байх вий гэж бодохоор миний санаа зовдог" .
+
+<http://purl.org/twc/poem/individual/itemStem/2945> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  rdfs:label "Би эцэг эхээсээ хол байгаадаа санаа зовдог." .
+
+<http://purl.org/twc/poem/individual/itemStem/2946> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  rdfs:label "Толгойд орж ирэх муу эсвэл хачин жигтэй бодол, зураглалууд намайг тавгүйтүүлдэг." .
+
+<http://purl.org/twc/poem/individual/itemStem/2947> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  rdfs:label "Надад унтахад хүндрэлтэй байдаг" .
+
+<http://purl.org/twc/poem/individual/itemStem/2948> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  rdfs:label "Би хичээлээ муу хийх вий гэж санаа зовдог" .
+
+<http://purl.org/twc/poem/individual/itemStem/2949> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  rdfs:label "Би гэр бүлийн хэн нэгэнд маань ямар нэгэн аймшигтай зүйл тохиолдох вий гэж санаа зовдог нэгэн" .
+
 <http://purl.org/twc/poem/individual/itemStem/295> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DUT>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/42>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
   rdfs:label """Mijn kind maakt zich zorgen dat er iets ergs gaat
 gebeuren met iemand uit ons gezin""" .
+
+<http://purl.org/twc/poem/individual/itemStem/2950> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  rdfs:label "Тодорхой шалтгаан байхгүй байхад гэнэт амьсгаа авч чадахгүй байгаа юм шиг мэдрэмж надад төрдөг." .
+
+<http://purl.org/twc/poem/individual/itemStem/2951> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  rdfs:label "Надад хоолны дуршилтай холбоотой асуудлууд байдаг асуудлууд байдаг" .
+
+<http://purl.org/twc/poem/individual/itemStem/2952> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  rdfs:label "Хийсэн зүйлээ зөв хийсэн эсэхээ дахин дахин шалгах хэрэгтэй мэт санагддаг (жишээлбэл: гэрлээ унтраасан, эсвэл хаалгаа цоожилсон)" .
+
+<http://purl.org/twc/poem/individual/itemStem/2953> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  rdfs:label "Би өөрөө, ганцаараа унтах болвол айсан мэдрэмж авдаг" .
+
+<http://purl.org/twc/poem/individual/itemStem/2954> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  rdfs:label "Тайван бус, айж түгшсэн мэдрэмжээсээ сургуульруугаа явахад хүндрэлтэй байдаг." .
+
+<http://purl.org/twc/poem/individual/itemStem/2955> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  rdfs:label "Надад аливаа зүйлсийг хийх эрч хүч байдаггүй." .
+
+<http://purl.org/twc/poem/individual/itemStem/2956> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  rdfs:label "Би өөрийгөө тэнэг харагдаж магадгүй гэж санаа зовдог" .
+
+<http://purl.org/twc/poem/individual/itemStem/2957> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  rdfs:label "Би байнга ядардаг" .
+
+<http://purl.org/twc/poem/individual/itemStem/2958> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  rdfs:label "Надад муу зүйл тохиолдох вий гэж миний санаа зовдог" .
+
+<http://purl.org/twc/poem/individual/itemStem/2959> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  rdfs:label "Би муу эсвэл хачин жигтэй бодлуудаа толгойноосоо гаргаж чадахгүй юм шиг санагддаг" .
 
 <http://purl.org/twc/poem/individual/itemStem/296> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DUT>;
@@ -12070,11 +12488,131 @@ gebeuren met iemand uit ons gezin""" .
   rdfs:label """Mijn kind heeft plotseling het gevoel geen adem te
 kunnen krijgen, terwijl daar geen reden voor is""" .
 
+<http://purl.org/twc/poem/individual/itemStem/2960> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  rdfs:label "Надад асуудал тулгарах үед миний зүрх маш хурдан цохилдог." .
+
+<http://purl.org/twc/poem/individual/itemStem/2961> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  rdfs:label "Би тодорхой бодож, сэтгэж чаддаггүй." .
+
+<http://purl.org/twc/poem/individual/itemStem/2962> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  rdfs:label "Би ямар ч шалтгаангүй байхад чичэрч эсвэл салганаж эхэлдэг." .
+
+<http://purl.org/twc/poem/individual/itemStem/2963> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  rdfs:label "Би надад ямар нэгэн муу зүйл тохиолдох вий гэж санаа зовдог." .
+
+<http://purl.org/twc/poem/individual/itemStem/2964> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  rdfs:label "Надад ямар нэгэн асуудал тулгарахад чичирдэг." .
+
+<http://purl.org/twc/poem/individual/itemStem/2965> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  rdfs:label "Би өөрийгөө үнэ цэнэгүй гэж мэдэрдэг." .
+
+<http://purl.org/twc/poem/individual/itemStem/2966> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  rdfs:label "Би алдаа гаргахаас санаа зовдог." .
+
+<http://purl.org/twc/poem/individual/itemStem/2967> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  rdfs:label "Би ямар нэгэн муу зүйл болохыг зогсоохын тулд өвөрмөц зүйл (тоо эсвэл үг) бодох хэрэгтэй болдог." .
+
+<http://purl.org/twc/poem/individual/itemStem/2968> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  rdfs:label "Би бусад хүмүүс миний тухай юу гэж боддог бол гэж санаа зовдог." .
+
+<http://purl.org/twc/poem/individual/itemStem/2969> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  rdfs:label "Би хүн ихтэй газарт (худалдааны төв, кино театр, автобус, хүн ихтэй тоглоомын төв) байхаас айдаг." .
+
 <http://purl.org/twc/poem/individual/itemStem/297> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DUT>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
   rdfs:label "Mijn kind heeft geen zin in eten" .
+
+<http://purl.org/twc/poem/individual/itemStem/2970> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  rdfs:label "Би гэнэт ямар ч шалтгаангүй маш их айдаг." .
+
+<http://purl.org/twc/poem/individual/itemStem/2971> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  rdfs:label "Би юу болох гэж байгаа бол гэж санаа зовдог." .
+
+<http://purl.org/twc/poem/individual/itemStem/2972> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  rdfs:label "Ямар ч шалтгаангүй гэнэт миний толгой эргэж, ухаан алддаг." .
+
+<http://purl.org/twc/poem/individual/itemStem/2973> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  rdfs:label "Би үхлийн тухай боддог." .
+
+<http://purl.org/twc/poem/individual/itemStem/2974> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  rdfs:label "Би ангийнхаа өмнө гарч ярих шаардлагатай болсон үед айдаг шаардлагатай болсон үед айдаг" .
+
+<http://purl.org/twc/poem/individual/itemStem/2975> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  rdfs:label "Миний зүрх ямар ч шалтгаангүй маш хурдан цохилж эхэлдэг." .
+
+<http://purl.org/twc/poem/individual/itemStem/2976> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  rdfs:label "Надад хөдөлгөөн хийхийг хүсэхгүй байгаа мэт мэдрэмж төрдөг." .
+
+<http://purl.org/twc/poem/individual/itemStem/2977> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  rdfs:label "Надад айх ямар нэгэн зүйл байхгүй байхад гэнэт айх мэдрэмж төрөх вий гэж санаа зовдог." .
+
+<http://purl.org/twc/poem/individual/itemStem/2978> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  rdfs:label "Би зарим зүйлийг (гараа угаах, цэвэрлэх, эд зүйлсийг тодорхой дараалалаар тавих) дахин дахин давтаж хийдэг." .
+
+<http://purl.org/twc/poem/individual/itemStem/2979> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  rdfs:label "Би бусад хүмүүсийн өмнө өөрийгөө тэнэгтэх вий гэж айдаг." .
 
 <http://purl.org/twc/poem/individual/itemStem/298> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DUT>;
@@ -12084,11 +12622,131 @@ kunnen krijgen, terwijl daar geen reden voor is""" .
 heeft gedaan (bijvoorbeeld of het licht uit is, of de deur
 op slot is)""" .
 
+<http://purl.org/twc/poem/individual/itemStem/2980> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  rdfs:label "Би муу зүйл тохиолдохоос сэргийлж зарим зүйлийг зөв хийх ёстой байдаг." .
+
+<http://purl.org/twc/poem/individual/itemStem/2981> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  rdfs:label "Би шөнө орондоо ороод санаа зовдог." .
+
+<http://purl.org/twc/poem/individual/itemStem/2982> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  rdfs:label "Би гэрээс гадуур хонох үед айгаад байдаг." .
+
+<http://purl.org/twc/poem/individual/itemStem/2983> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  rdfs:label "Би тайван бус байдаг." .
+
+<http://purl.org/twc/poem/individual/itemStem/2984> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  rdfs:label "Миний хүүхэд аливаа зүйлсд санаа зовдог." .
+
+<http://purl.org/twc/poem/individual/itemStem/2985> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  rdfs:label "Миний хүүхдэд гунигтай эсвэл хоосон мэдрэмж төрдөг." .
+
+<http://purl.org/twc/poem/individual/itemStem/2986> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  rdfs:label "Миний хүүхдэд асуудал тулгарах үед гэдэс орчимд нь хачин жигтэй мэдрэмж төрдөг" .
+
+<http://purl.org/twc/poem/individual/itemStem/2987> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  rdfs:label "Миний хүүхэд ямар нэг зүйлийг би муу хийчихсэн байх вий гэж бодохоороо санаа нь зовдог" .
+
+<http://purl.org/twc/poem/individual/itemStem/2988> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  rdfs:label "Миний хүүхэд гэртээ ганцаараа байхаас айх байсан" .
+
+<http://purl.org/twc/poem/individual/itemStem/2989> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  rdfs:label "Миний хүүхдэд юу ч хөгжилтэй санагдахаа больсон" .
+
 <http://purl.org/twc/poem/individual/itemStem/299> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DUT>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
   rdfs:label "Mijn kind is bang als hij/zij alleen moet slapen" .
+
+<http://purl.org/twc/poem/individual/itemStem/2990> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  rdfs:label "Миний хүүхдэд шалгалт өгнө гэхээр айдас төрдөг" .
+
+<http://purl.org/twc/poem/individual/itemStem/2991> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  rdfs:label "Миний хүүхэд хэн нэгэн түүнд уурласан байх вий гэж бодохоор санаа нь зовдог" .
+
+<http://purl.org/twc/poem/individual/itemStem/2992> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  rdfs:label "Миний хүүхэд надаас хол байгаадаа санаа зовдог" .
+
+<http://purl.org/twc/poem/individual/itemStem/2993> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  rdfs:label "Толгойд нь орж ирэх муу эсвэл хачин жигтэй бодол, зураглалууд миний хүүхдийг тавгүйтүүлдэг." .
+
+<http://purl.org/twc/poem/individual/itemStem/2994> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  rdfs:label "Миний хүүхдэд унтахад хүндрэлтэй байдаг" .
+
+<http://purl.org/twc/poem/individual/itemStem/2995> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  rdfs:label "Миний хүүхэд хичээлээ муу хийх вий гэж санаа зовдог" .
+
+<http://purl.org/twc/poem/individual/itemStem/2996> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  rdfs:label "Миний хүүхэд гэр бүлийн хэн нэгэнд нь аймшигтай зүйл тохиолдох вий гэж санаа зовдог" .
+
+<http://purl.org/twc/poem/individual/itemStem/2997> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  rdfs:label "Тодорхой шалтгаан байхгүй байхад гэнэт амьсгаа авч чадахгүй байгаа юм шиг мэдрэмж миний хүүхдэд төрдөг." .
+
+<http://purl.org/twc/poem/individual/itemStem/2998> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  rdfs:label "Миний хүүхэд хоолны дуршилтай холбоотой асуудалтай" .
+
+<http://purl.org/twc/poem/individual/itemStem/2999> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  rdfs:label "Миний хүүхдэд хийсэн зүйлээ зөв хийсэн эсэхээ дахин дахин шалгах хэрэгтэй (жишээлбэл: гэрлээ унтраасан, эсвэл хаалгаа цоожилсон)" .
 
 <http://purl.org/twc/poem/individual/itemStem/3> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
@@ -12109,11 +12767,131 @@ op slot is)""" .
   rdfs:label """Mijn kind vindt het moeilijk om ’s ochtends naar school
 te gaan omdat hij/zij zich zenuwachtig of bang voelt…""" .
 
+<http://purl.org/twc/poem/individual/itemStem/3000> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  rdfs:label "Миний хүүхэд өөрөө, ганцаараа унтах болвол айсан мэдрэмж авдаг" .
+
+<http://purl.org/twc/poem/individual/itemStem/3001> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  rdfs:label "Миний хүүхэд тайван бус, айж түгшсэн мэдрэмжээсээ болоод өглөө сургуульруугаа явахад нь хүндрэлтэй байдаг." .
+
+<http://purl.org/twc/poem/individual/itemStem/3002> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  rdfs:label "Миний хүүхдэд аливаа зүйлсийг хийх эрч хүч байдаггүй" .
+
+<http://purl.org/twc/poem/individual/itemStem/3003> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  rdfs:label "Миний хүүхэд өөрийгөө тэнэг харагдаж магадгүй гэж санаа зовдог" .
+
+<http://purl.org/twc/poem/individual/itemStem/3004> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  rdfs:label "Миний хүүхэд байнга ядардаг" .
+
+<http://purl.org/twc/poem/individual/itemStem/3005> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  rdfs:label "Миний хүүхэд өөрт нь муу зүйл тохиолдох вий гэж санаа зовдог" .
+
+<http://purl.org/twc/poem/individual/itemStem/3006> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  rdfs:label "Миний хүүхэд муу эсвэл хачин жигтэй бодлуудаа толгойноосоо гаргаж чадахгүй байгаа юм шиг санагддаг" .
+
+<http://purl.org/twc/poem/individual/itemStem/3007> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  rdfs:label "Миний хүүхдэд асуудал тулгарах үед зүрх нь маш хурдан цохилдог." .
+
+<http://purl.org/twc/poem/individual/itemStem/3008> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  rdfs:label "Миний хүүхэд тодорхой бодож, сэтгэж чаддаггүй." .
+
+<http://purl.org/twc/poem/individual/itemStem/3009> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  rdfs:label "Миний хүүхэд ямар ч шалтгаангүй байхад чичэрч эсвэл салганаж эхэлдэг." .
+
 <http://purl.org/twc/poem/individual/itemStem/301> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DUT>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/16>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
   rdfs:label "Mijn kind heeft geen energie om dingen te doen" .
+
+<http://purl.org/twc/poem/individual/itemStem/3010> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  rdfs:label "Миний хүүхэд өөрт нь ямар нэгэн муу зүйл тохиолдох вий гэж санаа зовдог." .
+
+<http://purl.org/twc/poem/individual/itemStem/3011> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  rdfs:label "Миний хүүхдэд ямар нэгэн асуудал тулгарахад чичирдэг." .
+
+<http://purl.org/twc/poem/individual/itemStem/3012> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  rdfs:label "Миний хүүхэд өөрийгөө үнэ цэнэгүй гэж мэдэрдэг." .
+
+<http://purl.org/twc/poem/individual/itemStem/3013> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  rdfs:label "Миний хүүхэд алдаа гаргахаас санаа зовдог." .
+
+<http://purl.org/twc/poem/individual/itemStem/3014> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  rdfs:label "Миний хүүхэд ямар нэгэн муу зүйл болохыг зогсоохын тулд өвөрмөц зүйл (тоо эсвэл үг) бодох хэрэгтэй болдог." .
+
+<http://purl.org/twc/poem/individual/itemStem/3015> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  rdfs:label "Миний хүүхэд бусад хүмүүс түүний тухай юу гэж боддог бол гэж санаа зовдог." .
+
+<http://purl.org/twc/poem/individual/itemStem/3016> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  rdfs:label "Миний хүүхэд хүн ихтэй газар (худалдааны төв, кино театр, автобус, хүн ихтэй тоглоомын төв) байхаас айдаг." .
+
+<http://purl.org/twc/poem/individual/itemStem/3017> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  rdfs:label "Миний хүүхэд гэнэт ямар ч шалтгаангүй маш их айдаг." .
+
+<http://purl.org/twc/poem/individual/itemStem/3018> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  rdfs:label "Миний хүүхэд юу болох гэж байгаа бол гэж санаа зовдог." .
+
+<http://purl.org/twc/poem/individual/itemStem/3019> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  rdfs:label "Миний хүүхэд ямар ч шалтгаангүй гэнэт толгой нь эргэж, ухаан алддаг." .
 
 <http://purl.org/twc/poem/individual/itemStem/302> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DUT>;
@@ -12122,11 +12900,77 @@ te gaan omdat hij/zij zich zenuwachtig of bang voelt…""" .
   rdfs:label """Mijn kind maakt zich zorgen dat hij/zij misschien stom
 lijkt""" .
 
+<http://purl.org/twc/poem/individual/itemStem/3020> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  rdfs:label "Миний хүүхэд үхлийн тухай боддог." .
+
+<http://purl.org/twc/poem/individual/itemStem/3021> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  rdfs:label "Миний хүүхэд ангийнхаа өмнө гарч ярих шаардлагатай болсон үед айдаг" .
+
+<http://purl.org/twc/poem/individual/itemStem/3022> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  rdfs:label "Миний хүүхдийн зүрх ямар ч шалтгаангүй маш хурдан цохилж эхэлдэг." .
+
+<http://purl.org/twc/poem/individual/itemStem/3023> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  rdfs:label "Миний хүүхдэд хөдөлгөөн хийхийг хүсэхгүй байгаа мэт мэдрэмж төрдөг." .
+
+<http://purl.org/twc/poem/individual/itemStem/3024> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  rdfs:label "Миний хүүхэд айх ямар нэгэн зүйл байхгүй байхад гэнэт айх мэдрэмж төрөх вий гэж санаа зовдог." .
+
+<http://purl.org/twc/poem/individual/itemStem/3025> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  rdfs:label "Миний хүүхэд зарим зүйлийг (гараа угаах, цэвэрлэх, эд зүйлсийг тодорхой дараалалаар тавих) дахин дахин давтаж хийдэг." .
+
+<http://purl.org/twc/poem/individual/itemStem/3026> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  rdfs:label "Миний хүүхэд бусад хүмүүсийн өмнө өөрийгөө тэнэгтэх вий гэж айдаг." .
+
+<http://purl.org/twc/poem/individual/itemStem/3027> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  rdfs:label "Миний хүүхэд муу зүйл тохиолдохоос сэргийлж зарим зүйлийг зөв хийх ёстой байдаг." .
+
+<http://purl.org/twc/poem/individual/itemStem/3028> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  rdfs:label "Миний хүүхэд шөнө орондоо ороод санаа зовдог." .
+
+<http://purl.org/twc/poem/individual/itemStem/3029> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  rdfs:label "Миний хүүхэд гэрээс гадуур хонох үед айгаад байдаг." .
+
 <http://purl.org/twc/poem/individual/itemStem/303> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DUT>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
   rdfs:label "Mijn kind is erg moe" .
+
+<http://purl.org/twc/poem/individual/itemStem/3030> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#MON>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  rdfs:label "Миний хүүхэд тайван бус байдаг." .
 
 <http://purl.org/twc/poem/individual/itemStem/304> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#DUT>;

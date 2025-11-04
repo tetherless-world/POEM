@@ -25,14 +25,16 @@
   prov:used <http://purl.org/twc/poem/individual/instrument/97>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/2> .
 
-<http://purl.org/twc/poem/individual/activity/100> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/100> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, prov:Activity;
   rdfs:label "Generated the RCADS-25-Y-FI from RCADS-47-Y-FI and RCADS-25-Y-EN";
   prov:endedAtTime "2024-01-01T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/39>;
   prov:used <http://purl.org/twc/poem/individual/instrument/3>, <http://purl.org/twc/poem/individual/instrument/37>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/42> .
 
-<http://purl.org/twc/poem/individual/activity/101> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/101> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, prov:Activity;
   rdfs:label "Generated the RCADS-25-CG-FI from RCADS-47-CG-FI and RCADS-25-CG-EN";
   prov:endedAtTime "2024-01-01T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/40>;
@@ -60,7 +62,8 @@
   prov:used <http://purl.org/twc/poem/individual/instrument/13>, <http://purl.org/twc/poem/individual/instrument/3>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/46> .
 
-<http://purl.org/twc/poem/individual/activity/105> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/105> a <http://purl.org/twc/poem/individual/methodType/1>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-25-Y-FR-CA-2 from RCADS-47-Y-FR-FR-1 and RCADS-25-Y-EN";
   prov:endedAtTime "2023-07-26T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/150>;
@@ -73,7 +76,8 @@
   prov:used <http://purl.org/twc/poem/individual/instrument/113>, <http://purl.org/twc/poem/individual/instrument/3>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/42> .
 
-<http://purl.org/twc/poem/individual/activity/107> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/107> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-FR-2 from RCADS-47-FR-FR-1 and RCADS-47-CG-EN";
   prov:endedAtTime "2023-12-12T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/145>;
@@ -127,25 +131,68 @@
   prov:used <http://purl.org/twc/poem/individual/instrument/110>, <http://purl.org/twc/poem/individual/instrument/4>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/24> .
 
-<http://purl.org/twc/poem/individual/activity/114> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/114> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/5>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-MN from RCADS-47-CG-EN";
   prov:endedAtTime "2025-09-01T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/147>;
   prov:used <http://purl.org/twc/poem/individual/instrument/2>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/50> .
 
-<http://purl.org/twc/poem/individual/activity/115> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/115> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/5>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-MN from RCADS-47-Y-EN";
   prov:endedAtTime "2025-09-01T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/143>;
   prov:used <http://purl.org/twc/poem/individual/instrument/1>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/50> .
 
+<http://purl.org/twc/poem/individual/activity/116> a prov:Activity;
+  rdfs:label "Generated the RCADS-25-CG-AR from RCADS-47-CG-AR and RCADS-25-CG-EN";
+  prov:endedAtTime "2025-10-08T00:00:00";
+  prov:generated <http://purl.org/twc/poem/individual/instrument/24>;
+  prov:used <http://purl.org/twc/poem/individual/instrument/22>, <http://purl.org/twc/poem/individual/instrument/4>;
+  prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/51> .
+
+<http://purl.org/twc/poem/individual/activity/117> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    prov:Activity;
+  rdfs:label "Generated the RCADS-47-Y-IT from RCADS-47-Y-EN";
+  prov:endedAtTime "2025-01-25T00:00:00";
+  prov:generated <http://purl.org/twc/poem/individual/instrument/154>;
+  prov:used <http://purl.org/twc/poem/individual/instrument/1>;
+  prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/52> .
+
+<http://purl.org/twc/poem/individual/activity/118> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    prov:Activity;
+  rdfs:label "Generated the RCADS-47-CG-IT from RCADS-47-CG-EN";
+  prov:endedAtTime "2025-01-25T00:00:00";
+  prov:generated <http://purl.org/twc/poem/individual/instrument/155>;
+  prov:used <http://purl.org/twc/poem/individual/instrument/2>;
+  prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/52> .
+
+<http://purl.org/twc/poem/individual/activity/119> a prov:Activity;
+  rdfs:label "Generated the RCADS-25-Y-MN from RCADS-47-Y-MN and RCADS-25-Y-MN";
+  prov:endedAtTime "2025-10-25T00:00:00";
+  prov:generated <http://purl.org/twc/poem/individual/instrument/148>;
+  prov:used <http://purl.org/twc/poem/individual/instrument/143>, <http://purl.org/twc/poem/individual/instrument/3>;
+  prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/51> .
+
 <http://purl.org/twc/poem/individual/activity/12> a prov:Activity;
   rdfs:label "Translated the MTT-35-CG-EN-1 to Spanish";
   prov:endedAtTime "2017-09-07T00:00:00";
   prov:used <http://purl.org/twc/poem/individual/instrument/98>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/2> .
+
+<http://purl.org/twc/poem/individual/activity/120> a prov:Activity;
+  rdfs:label "Generated the RCADS-25-CG-MN from RCADS-47-CG-MN and RCADS-25-CG-MN";
+  prov:endedAtTime "2025-10-26T00:00:00";
+  prov:generated <http://purl.org/twc/poem/individual/instrument/149>;
+  prov:used <http://purl.org/twc/poem/individual/instrument/147>, <http://purl.org/twc/poem/individual/instrument/4>;
+  prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/51> .
 
 <http://purl.org/twc/poem/individual/activity/13> a prov:Activity;
   rdfs:label "Generated MTT-35-Y-EN-2 (counselor) using MTT-35-Y-EN-1";
@@ -168,20 +215,26 @@
   prov:used <http://purl.org/twc/poem/individual/instrument/107>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/9> .
 
-<http://purl.org/twc/poem/individual/activity/16> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/16> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/4>, prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-EL using the RCADS-47-Y-EN";
   prov:endedAtTime "2015-07-23T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/41>;
   prov:used <http://purl.org/twc/poem/individual/instrument/1>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/10> .
 
-<http://purl.org/twc/poem/individual/activity/18> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/18> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/5>, prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-DA using the RCADS-47-Y-EN";
   prov:endedAtTime "2012-02-01T00:00:00";
   prov:used <http://purl.org/twc/poem/individual/instrument/1>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/12> .
 
-<http://purl.org/twc/poem/individual/activity/19> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/19> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/5>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-AR using the RCADS-47-CG-EN";
   prov:endedAtTime "2025-03-20T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/22>;
@@ -202,13 +255,17 @@
   prov:used <http://purl.org/twc/poem/individual/instrument/2>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/14> .
 
-<http://purl.org/twc/poem/individual/activity/21> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/21> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/5>, <http://purl.org/twc/poem/individual/methodType/6>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-DE using the RCADS-47-Y-EN";
   prov:endedAtTime "2023-03-15T00:00:00";
   prov:used <http://purl.org/twc/poem/individual/instrument/1>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/15> .
 
-<http://purl.org/twc/poem/individual/activity/22> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/22> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/5>, prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-DE using the RCADS-47-CG-EN and RCADS-47-Y-DE";
   prov:endedAtTime "2024-04-18T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/6>;
@@ -222,7 +279,8 @@
   prov:used <http://purl.org/twc/poem/individual/instrument/4>, <http://purl.org/twc/poem/individual/instrument/6>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/17> .
 
-<http://purl.org/twc/poem/individual/activity/24> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/24> a <http://purl.org/twc/poem/individual/methodType/1>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-DA from RCADS-47-CG-EN";
   prov:endedAtTime "2023-01-17T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/10>;
@@ -241,7 +299,9 @@
   prov:used <http://purl.org/twc/poem/individual/instrument/3>, <http://purl.org/twc/poem/individual/instrument/9>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/12> .
 
-<http://purl.org/twc/poem/individual/activity/27> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/27> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/5>, prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-ES using the RCADS-47-CG-EN";
   prov:endedAtTime "2015-09-19T00:00:00";
   prov:used <http://purl.org/twc/poem/individual/instrument/2>;
@@ -273,76 +333,100 @@
   prov:used <http://purl.org/twc/poem/individual/instrument/1>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/20> .
 
-<http://purl.org/twc/poem/individual/activity/31> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/31> a <http://purl.org/twc/poem/individual/methodType/1>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-FR-2 from RCADS-47-Y-FR-1 and RCADS-47-Y-EN";
   prov:endedAtTime "2024-05-09T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/113>;
   prov:used <http://purl.org/twc/poem/individual/instrument/1>, <http://purl.org/twc/poem/individual/instrument/13>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/21> .
 
-<http://purl.org/twc/poem/individual/activity/32> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/32> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/4>, prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-EL from RCADS-47-CG-EN";
   prov:endedAtTime "2015-07-23T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/42>;
   prov:used <http://purl.org/twc/poem/individual/instrument/2>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/10> .
 
-<http://purl.org/twc/poem/individual/activity/33> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/33> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/4>, <http://purl.org/twc/poem/individual/methodType/5>,
+    <http://purl.org/twc/poem/individual/methodType/6>, prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-ET from RCADS-47-CG-EN";
   prov:endedAtTime "2023-11-23T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/34>;
   prov:used <http://purl.org/twc/poem/individual/instrument/2>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/22> .
 
-<http://purl.org/twc/poem/individual/activity/34> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/34> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/4>, <http://purl.org/twc/poem/individual/methodType/5>,
+    <http://purl.org/twc/poem/individual/methodType/6>, prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-ET from RCADS-47-Y-EN";
   prov:endedAtTime "2023-11-23T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/33>;
   prov:used <http://purl.org/twc/poem/individual/instrument/1>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/22> .
 
-<http://purl.org/twc/poem/individual/activity/35> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/35> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-LT from RCADS-47-Y-EN";
   prov:endedAtTime "2023-10-30T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/61>;
   prov:used <http://purl.org/twc/poem/individual/instrument/1>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/23> .
 
-<http://purl.org/twc/poem/individual/activity/36> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/36> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/5>, prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-SR from RCADS-47-Y-EN";
   prov:endedAtTime "2013-12-09T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/109>;
   prov:used <http://purl.org/twc/poem/individual/instrument/1>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/24> .
 
-<http://purl.org/twc/poem/individual/activity/37> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/37> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/5>, prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-SR from RCADS-47-CG-EN";
   prov:endedAtTime "2013-12-09T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/110>;
   prov:used <http://purl.org/twc/poem/individual/instrument/2>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/24> .
 
-<http://purl.org/twc/poem/individual/activity/38> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/38> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/4>, <http://purl.org/twc/poem/individual/methodType/5>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-PT from RCADS-47-Y-EN";
   prov:endedAtTime "2019-08-01T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/77>;
   prov:used <http://purl.org/twc/poem/individual/instrument/1>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/25> .
 
-<http://purl.org/twc/poem/individual/activity/4> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/4> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/5>, prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-ES using RCADS-47-Y-EN";
   prov:generated <http://purl.org/twc/poem/individual/instrument/17>;
   prov:used <http://purl.org/twc/poem/individual/instrument/1>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/19> .
 
-<http://purl.org/twc/poem/individual/activity/40> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/40> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/5>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-NO-1 from RCADS-47-Y-EN";
   prov:endedAtTime "2015-09-30T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/65>;
   prov:used <http://purl.org/twc/poem/individual/instrument/1>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/26> .
 
-<http://purl.org/twc/poem/individual/activity/41> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/41> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/5>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-NO-1 from RCADS-47-CG-EN";
   prov:endedAtTime "2015-09-30T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/66>;
@@ -363,42 +447,58 @@
   prov:used <http://purl.org/twc/poem/individual/instrument/2>, <http://purl.org/twc/poem/individual/instrument/66>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/27> .
 
-<http://purl.org/twc/poem/individual/activity/44> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/44> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/5>, <http://purl.org/twc/poem/individual/methodType/6>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-TR from RCADS-47-Y-EN";
   prov:endedAtTime "2016-12-14T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/89>;
   prov:used <http://purl.org/twc/poem/individual/instrument/1>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/28> .
 
-<http://purl.org/twc/poem/individual/activity/45> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/45> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/5>, <http://purl.org/twc/poem/individual/methodType/6>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-TR from RCADS-47-CG-EN";
   prov:endedAtTime "2016-12-14T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/90>;
   prov:used <http://purl.org/twc/poem/individual/instrument/2>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/28> .
 
-<http://purl.org/twc/poem/individual/activity/46> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/46> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/5>, prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-JA-1 from RCADS-47-Y-EN";
   prov:endedAtTime "2020-12-15T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/53>;
   prov:used <http://purl.org/twc/poem/individual/instrument/1>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/29> .
 
-<http://purl.org/twc/poem/individual/activity/47> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/47> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/5>, prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-JA-1 from RCADS-47-CG-EN";
   prov:endedAtTime "2020-12-15T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/54>;
   prov:used <http://purl.org/twc/poem/individual/instrument/2>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/30> .
 
-<http://purl.org/twc/poem/individual/activity/48> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/48> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/4>, <http://purl.org/twc/poem/individual/methodType/5>,
+    <http://purl.org/twc/poem/individual/methodType/6>, prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-JA-2 from RCADS-47-Y-JA-1 and RCADS-47-Y-EN";
   prov:endedAtTime "2022-02-09T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/111>;
   prov:used <http://purl.org/twc/poem/individual/instrument/1>, <http://purl.org/twc/poem/individual/instrument/53>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/29> .
 
-<http://purl.org/twc/poem/individual/activity/49> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/49> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/4>, <http://purl.org/twc/poem/individual/methodType/5>,
+    <http://purl.org/twc/poem/individual/methodType/6>, prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-JA-2 from RCADS-47-CG-JA-1 and RCADS-47-CG-EN";
   prov:endedAtTime "2022-02-09T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/112>;
@@ -426,56 +526,72 @@
   prov:used <http://purl.org/twc/poem/individual/instrument/112>, <http://purl.org/twc/poem/individual/instrument/4>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/30> .
 
-<http://purl.org/twc/poem/individual/activity/52> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/52> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-SL from RCADS-47-Y-EN";
   prov:endedAtTime "2015-08-19T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/81>;
   prov:used <http://purl.org/twc/poem/individual/instrument/1>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/31> .
 
-<http://purl.org/twc/poem/individual/activity/53> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/53> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-SL from RCADS-47-CG-EN";
   prov:endedAtTime "2015-08-19T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/82>;
   prov:used <http://purl.org/twc/poem/individual/instrument/2>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/31> .
 
-<http://purl.org/twc/poem/individual/activity/54> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/54> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/5>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-FI from RCADS-47-Y-EN";
   prov:endedAtTime "2017-08-23T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/37>;
   prov:used <http://purl.org/twc/poem/individual/instrument/1>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/32> .
 
-<http://purl.org/twc/poem/individual/activity/55> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/55> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/5>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-FI from RCADS-47-CG-EN";
   prov:endedAtTime "2017-08-23T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/38>;
   prov:used <http://purl.org/twc/poem/individual/instrument/2>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/32> .
 
-<http://purl.org/twc/poem/individual/activity/56> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/56> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/5>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-ZH-HANS from RCADS-47-CG-EN";
   prov:endedAtTime "2018-03-28T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/28>;
   prov:used <http://purl.org/twc/poem/individual/instrument/2>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/33> .
 
-<http://purl.org/twc/poem/individual/activity/57> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/57> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/5>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-25-CG-ZH-HANS from RCADS-47-CG-ZH-HANS and RCADS-25-CG-EN";
   prov:endedAtTime "2024-04-04T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/28>;
   prov:used <http://purl.org/twc/poem/individual/instrument/26>, <http://purl.org/twc/poem/individual/instrument/4>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/33> .
 
-<http://purl.org/twc/poem/individual/activity/58> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/58> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/5>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-25-Y-ZH-HANS from RCADS-47-Y-ZH-HANS-1 and RCADS-25-Y-EN (made edits to translation from 47-item youth translated version)";
   prov:endedAtTime "2024-03-01T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/27>;
   prov:used <http://purl.org/twc/poem/individual/instrument/25>, <http://purl.org/twc/poem/individual/instrument/3>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/33> .
 
-<http://purl.org/twc/poem/individual/activity/59> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/59> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/5>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-PL from RCADS-47-Y-EN";
   prov:endedAtTime "2017-06-09T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/114>;
@@ -489,7 +605,9 @@
   prov:used <http://purl.org/twc/poem/individual/instrument/3>, <http://purl.org/twc/poem/individual/instrument/5>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/7> .
 
-<http://purl.org/twc/poem/individual/activity/60> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/60> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/5>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-PL from RCADS-47-CG-PL";
   prov:endedAtTime "2017-06-09T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/74>;
@@ -510,49 +628,59 @@
   prov:used <http://purl.org/twc/poem/individual/instrument/4>, <http://purl.org/twc/poem/individual/instrument/74>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/34> .
 
-<http://purl.org/twc/poem/individual/activity/63> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/63> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/5>, prov:Activity;
   rdfs:label "Generated the MTT-35-Y-NO from MTT-35-Y-EN-2";
   prov:endedAtTime "2025-05-13T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/128>;
   prov:used <http://purl.org/twc/poem/individual/instrument/101>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/35> .
 
-<http://purl.org/twc/poem/individual/activity/64> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/64> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/5>, prov:Activity;
   rdfs:label "Generated the MTT-35-CG-NO from MTT-35-CG-EN-2";
   prov:endedAtTime "2025-05-13T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/129>;
   prov:used <http://purl.org/twc/poem/individual/instrument/102>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/35> .
 
-<http://purl.org/twc/poem/individual/activity/65> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/65> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-SV-1 from RCADS-47-CG-EN";
   prov:endedAtTime "2015-07-17T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/86>;
   prov:used <http://purl.org/twc/poem/individual/instrument/2>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/36> .
 
-<http://purl.org/twc/poem/individual/activity/66> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/66> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-SV from RCADS-47-Y-EN";
   prov:endedAtTime "2015-07-17T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/85>;
   prov:used <http://purl.org/twc/poem/individual/instrument/1>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/36> .
 
-<http://purl.org/twc/poem/individual/activity/67> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/67> a <http://purl.org/twc/poem/individual/methodType/1>,
+    prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-SV-2 from RCADS-47-CG-SV-1 and RCADS-47-CG-EN (2 item stems changed)";
   prov:endedAtTime "2025-04-03T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/130>;
   prov:used <http://purl.org/twc/poem/individual/instrument/2>, <http://purl.org/twc/poem/individual/instrument/86>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/37> .
 
-<http://purl.org/twc/poem/individual/activity/68> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/68> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/4>, prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-ZH-HANS-1 from RCADS-47-Y-EN";
   prov:endedAtTime "2002-03-01T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/25>;
   prov:used <http://purl.org/twc/poem/individual/instrument/1>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/38> .
 
-<http://purl.org/twc/poem/individual/activity/69> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/69> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/3>, prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-IS from RCADS-47-Y-EN";
   prov:endedAtTime "2019-06-01T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/49>;
@@ -566,35 +694,42 @@
   prov:used <http://purl.org/twc/poem/individual/instrument/98>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/2> .
 
-<http://purl.org/twc/poem/individual/activity/70> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/70> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/3>, prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-IS from RCADS-47-CG-EN";
   prov:endedAtTime "2019-06-01T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/50>;
   prov:used <http://purl.org/twc/poem/individual/instrument/2>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/39> .
 
-<http://purl.org/twc/poem/individual/activity/71> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/71> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/4>, prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-HU from RCADS-47-Y-EN";
   prov:endedAtTime "2021-03-01T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/46>;
   prov:used <http://purl.org/twc/poem/individual/instrument/1>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/40> .
 
-<http://purl.org/twc/poem/individual/activity/72> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/72> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/2>, <http://purl.org/twc/poem/individual/methodType/3>,
+    <http://purl.org/twc/poem/individual/methodType/4>, prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-HU from RCADS-47-CG-EN";
   prov:endedAtTime "2021-03-01T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/45>;
   prov:used <http://purl.org/twc/poem/individual/instrument/2>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/40> .
 
-<http://purl.org/twc/poem/individual/activity/73> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/73> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/5>, prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-HI from RCADS-47-Y-EN";
   prov:endedAtTime "2025-07-14T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/133>;
   prov:used <http://purl.org/twc/poem/individual/instrument/1>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/41> .
 
-<http://purl.org/twc/poem/individual/activity/74> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/74> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/5>, prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-HI from RCADS-47-CG-EN";
   prov:endedAtTime "2025-07-14T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/134>;
@@ -615,14 +750,16 @@
   prov:used <http://purl.org/twc/poem/individual/instrument/134>, <http://purl.org/twc/poem/individual/instrument/4>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/42> .
 
-<http://purl.org/twc/poem/individual/activity/77> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/77> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/5>, prov:Activity;
   rdfs:label "Generated the RCADS-47-Y-PA from RCADS-47-Y-EN";
   prov:endedAtTime "2025-07-14T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/137>;
   prov:used <http://purl.org/twc/poem/individual/instrument/1>;
   prov:wasAssociatedWith <http://purl.org/twc/poem/individual/agent/41> .
 
-<http://purl.org/twc/poem/individual/activity/78> a prov:Activity;
+<http://purl.org/twc/poem/individual/activity/78> a <http://purl.org/twc/poem/individual/methodType/1>,
+    <http://purl.org/twc/poem/individual/methodType/5>, prov:Activity;
   rdfs:label "Generated the RCADS-47-CG-PA from RCADS-47-Y-EN";
   prov:endedAtTime "2022-07-14T00:00:00";
   prov:generated <http://purl.org/twc/poem/individual/instrument/138>;
