@@ -85,7 +85,7 @@ public class ChatRagService {
                 for (ChatMessage msg : augmentedHistory) {
                     logger.debug("Augmented history message: role={}, content={}", msg.getRole(), msg.getContent());
                 }
-                return openAIService.generateResponse(augmentedHistory);
+                return openAIService.generateResponse(augmentedHistory.getLast());
             }
 
             logger.debug("No knowledge graph results for intent {}", intent.name());
@@ -130,7 +130,7 @@ public class ChatRagService {
                     .append(" more result(s) omitted for brevity.\n");
         }
 
-        builder.append("Use only these facts (and prior conversation history) to answer the user's question. ")
+        builder.append("Use only these facts to answer the user's question. ")
                 //.append("Explicitly mention each parameter label with its URI in parentheses (e.g., Name (URI)). ")
                 .append("From these facts, construct a concise and accurate answer to the user's question. Generate a complete sentence response that is easy to understand. ")
                 .append("If they do not address the question, say so clearly.");
