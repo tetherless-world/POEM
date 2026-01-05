@@ -4,29 +4,31 @@ layout: single
 sidebar:
         nav: "docs"
 ---
-
 ## Contributors
 
 Developers:
+
 - [Tetherless World Constellation at RPI](https://tw.rpi.edu/)
   - Kelsey Rook (rookk@rpi.edu)
   - Henrique Santos (oliveh@rpi.edu)
 
 Subject Matter Experts & Co-Developers:
+
 - [Child FIRST at UCLA](https://www.childfirst.ucla.edu/)
   - Bruce F. Chorpita
+  - Eliza Swindell
   - Manuel S. Sprung
   - Hyun Seon Park
   - Ben Isenberg
- 
+
 Research Leadership:
+
 - [Tetherless World Constellation at RPI](https://tw.rpi.edu/)
   - Deborah L. McGuinness (dlm@rpi.edu)
 
-
 ## Maintenance Policy
 
-Our maintenance policy aims to ensure that our data remains available for use as long as possible. 
+Our maintenance policy aims to ensure that our data remains available for use as long as possible.
 
 - The final versions of the ontology and all the artifacts will remain available on our website and [Github repo](https://github.com/tetherless-world/POEM)
 - We will never change the name of our ontology or its URL. This will ensure that references to our ontology will always be valid and that we will not break applications that may come to rely on our ontology in the future.
