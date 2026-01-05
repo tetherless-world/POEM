@@ -4,7 +4,7 @@ sidebar:
         nav: "docs"
 title: "Publications"
 ---
-Rook, K., Santos, H., McGuinness, D. L., Sprung, M. S., Pinheiro, P., & Chorpita, B. F. (2025, December). Supporting Psychometric Instrument Usage Through the POEM Ontology. [Article](https://doi.org/10.4230/TGDK.3.3.3)
+Rook, K., Santos, H., McGuinness, D. L., Sprung, M. S., Pinheiro, P., & Chorpita, B. F. (2025, December). Supporting Psychometric Instrument Usage Through the POEM Ontology. Transactions on Graph Data and Knowledge 3(3). [Article](https://doi.org/10.4230/TGDK.3.3.3)
 
 Santos, H., Rook, K., Pinheiro, P., Gruen, D. M., Chorpita, B. F., & McGuinness, D. L. (2023, May). Facilitating Reuse of Mental Health Questionnaires via Knowledge Graphs. The Healthcare and Life Sciences Symposium. [Abstract](https://dspace.rpi.edu/handle/20.500.13015/6626), [Presentation](https://dspace.rpi.edu/bitstream/handle/20.500.13015/6626/HCLS%20%40KGC-23%20-%20Facilitating%20Reuse%20of%20Mental%20Health%20Questionnaires%20via%20Knowledge%20Graphs.pdf?sequence=1&isAllowed=y)
 <details>
