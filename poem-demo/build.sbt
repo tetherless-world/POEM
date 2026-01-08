@@ -49,28 +49,28 @@ libraryDependencies += "com.fasterxml.jackson.module" %% "jackson-module-scala" 
 libraryDependencies += "org.apache.poi" % "poi-ooxml" % "5.5.1"
 
 // https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-base
-libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-base" % "8.6.0"
+libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-base" % "8.6.1"
 
 // https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-structures-r5
-libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-r5" % "8.6.0"
+libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-r5" % "8.6.1"
 
 // https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-structures-r4b
-libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-r4b" % "8.6.0"
+libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-r4b" % "8.6.1"
 
 // https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-structures-r4
-libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-r4" % "8.6.0"
+libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-r4" % "8.6.1"
 
 // https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-structures-dstu3
-libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-dstu3" % "8.6.0"
+libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-dstu3" % "8.6.1"
 
 // https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-structures-dstu2
-libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-dstu2" % "8.6.0"
+libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-dstu2" % "8.6.1"
 
 // https://mvnrepository.com/artifact/com.openai/openai-java
-libraryDependencies += "com.openai" % "openai-java" % "4.9.0"
+libraryDependencies += "com.openai" % "openai-java" % "4.14.0"
 
 // https://mvnrepository.com/artifact/org.json/json
-libraryDependencies += "org.json" % "json" % "20250517"
+libraryDependencies += "org.json" % "json" % "20251224"
 
 // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-to-slf4j
-libraryDependencies += "org.apache.logging.log4j" % "log4j-to-slf4j" % "2.25.2"
+libraryDependencies += "org.apache.logging.log4j" % "log4j-to-slf4j" % "2.25.3"
