@@ -1,66 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="90_Languages.xsd" generated="2025-10-27T16:01:29">
-<_x0039_0_Languages>
-<LanguageID>31</LanguageID>
-<Language>Hindi</Language>
-<ISO639-1>HI</ISO639-1>
-<ISO639-2>HIN</ISO639-2>
-<LanguageinLanguage>हिन्दी</LanguageinLanguage>
-<LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>Hindī</LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>
-</_x0039_0_Languages>
-<_x0039_0_Languages>
-<LanguageID>32</LanguageID>
-<Language>Punjabi</Language>
-<ISO639-1>PA</ISO639-1>
-<ISO639-2>PAN</ISO639-2>
-<LanguageinLanguage>ਪੰਜਾਬੀ</LanguageinLanguage>
-<LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>Pãjābī</LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>
-</_x0039_0_Languages>
-<_x0039_0_Languages>
-<LanguageID>33</LanguageID>
-<Language>Russian</Language>
-<ISO639-1>RU</ISO639-1>
-<ISO639-2>RUS</ISO639-2>
-<LanguageinLanguage>Русский язык</LanguageinLanguage>
-<LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>Russkiĭ âzyk</LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>
-</_x0039_0_Languages>
-<_x0039_0_Languages>
-<LanguageID>34</LanguageID>
-<Language>Chichewa</Language>
-<ISO639-1>NY</ISO639-1>
-<ISO639-2>NYA</ISO639-2>
-<LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>Chichewa</LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>
-</_x0039_0_Languages>
-<_x0039_0_Languages>
-<LanguageID>35</LanguageID>
-<Language>Hebrew</Language>
-<ISO639-1>HE</ISO639-1>
-<ISO639-2>HEB</ISO639-2>
-<LanguageinLanguage>עברית</LanguageinLanguage>
-<LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>Ivrit</LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>
-</_x0039_0_Languages>
-<_x0039_0_Languages>
-<LanguageID>36</LanguageID>
-<Language>Italian</Language>
-<ISO639-1>IT</ISO639-1>
-<ISO639-2>ITA</ISO639-2>
-<LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>Italiano</LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>
-</_x0039_0_Languages>
-<_x0039_0_Languages>
-<LanguageID>37</LanguageID>
-<Language>Thai</Language>
-<ISO639-1>TH</ISO639-1>
-<ISO639-2>THA</ISO639-2>
-<LanguageinLanguage>ภาษาไทย</LanguageinLanguage>
-<LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>Phasa Thai</LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>
-</_x0039_0_Languages>
-<_x0039_0_Languages>
-<LanguageID>38</LanguageID>
-<Language>Mongolian</Language>
-<ISO639-1>MN</ISO639-1>
-<ISO639-2>MON</ISO639-2>
-<LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>Mongol xel</LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>
-</_x0039_0_Languages>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="90_Languages.xsd" generated="2025-12-11T11:52:29">
 <_x0039_0_Languages>
 <LanguageID>1</LanguageID>
 <Language>English</Language>
@@ -284,5 +223,82 @@
 <ISO639-2>FRE</ISO639-2>
 <ISO_x0020_3166_x0020_Country_x0020_Code>CA</ISO_x0020_3166_x0020_Country_x0020_Code>
 <LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>Français</LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>
+</_x0039_0_Languages>
+<_x0039_0_Languages>
+<LanguageID>31</LanguageID>
+<Language>Hindi</Language>
+<ISO639-1>HI</ISO639-1>
+<ISO639-2>HIN</ISO639-2>
+<LanguageinLanguage>हिन्दी</LanguageinLanguage>
+<LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>Hindī</LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>
+</_x0039_0_Languages>
+<_x0039_0_Languages>
+<LanguageID>32</LanguageID>
+<Language>Punjabi</Language>
+<ISO639-1>PA</ISO639-1>
+<ISO639-2>PAN</ISO639-2>
+<LanguageinLanguage>ਪੰਜਾਬੀ</LanguageinLanguage>
+<LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>Pãjābī</LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>
+</_x0039_0_Languages>
+<_x0039_0_Languages>
+<LanguageID>33</LanguageID>
+<Language>Russian</Language>
+<ISO639-1>RU</ISO639-1>
+<ISO639-2>RUS</ISO639-2>
+<LanguageinLanguage>Русский язык</LanguageinLanguage>
+<LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>Russkiĭ âzyk</LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>
+</_x0039_0_Languages>
+<_x0039_0_Languages>
+<LanguageID>34</LanguageID>
+<Language>Chichewa</Language>
+<ISO639-1>NY</ISO639-1>
+<ISO639-2>NYA</ISO639-2>
+<LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>Chichewa</LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>
+</_x0039_0_Languages>
+<_x0039_0_Languages>
+<LanguageID>35</LanguageID>
+<Language>Hebrew</Language>
+<ISO639-1>HE</ISO639-1>
+<ISO639-2>HEB</ISO639-2>
+<LanguageinLanguage>עברית</LanguageinLanguage>
+<LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>Ivrit</LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>
+</_x0039_0_Languages>
+<_x0039_0_Languages>
+<LanguageID>36</LanguageID>
+<Language>Italian</Language>
+<ISO639-1>IT</ISO639-1>
+<ISO639-2>ITA</ISO639-2>
+<LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>Italiano</LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>
+</_x0039_0_Languages>
+<_x0039_0_Languages>
+<LanguageID>37</LanguageID>
+<Language>Thai</Language>
+<ISO639-1>TH</ISO639-1>
+<ISO639-2>THA</ISO639-2>
+<LanguageinLanguage>ภาษาไทย</LanguageinLanguage>
+<LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>Phasa Thai</LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>
+</_x0039_0_Languages>
+<_x0039_0_Languages>
+<LanguageID>38</LanguageID>
+<Language>Mongolian</Language>
+<ISO639-1>MN</ISO639-1>
+<ISO639-2>MON</ISO639-2>
+<LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>Mongol xel</LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>
+</_x0039_0_Languages>
+<_x0039_0_Languages>
+<LanguageID>39</LanguageID>
+<Language>Vietnamese</Language>
+<ISO639-1>VI</ISO639-1>
+<ISO639-2>VIE</ISO639-2>
+<LanguageinLanguage>Tiếng Việt</LanguageinLanguage>
+<LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>Tiếng Việt</LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>
+</_x0039_0_Languages>
+<_x0039_0_Languages>
+<LanguageID>40</LanguageID>
+<Language>Marathi</Language>
+<ISO639-1>MR</ISO639-1>
+<ISO639-2>MAR</ISO639-2>
+<LanguageinLanguage>मराठी</LanguageinLanguage>
+<LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>Marāṭhī</LanguageinLanguage_x0020__x0028_Latin_x0020_letters_x0029_>
 </_x0039_0_Languages>
 </dataroot>

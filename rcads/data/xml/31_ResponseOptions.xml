@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="31_ResponseOptions.xsd" generated="2025-10-27T16:00:00">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="31_ResponseOptions.xsd" generated="2025-12-11T11:51:38">
 <_x0033_1_ResponseOptions>
 <OptionID>1</OptionID>
 <OptionConceptID>1</OptionConceptID>
@@ -821,5 +821,77 @@
 <OptionConceptID>4</OptionConceptID>
 <OptionLanguage>2</OptionLanguage>
 <OptionText>دائما</OptionText>
+</_x0033_1_ResponseOptions>
+<_x0033_1_ResponseOptions>
+<OptionID>140</OptionID>
+<OptionConceptID>1</OptionConceptID>
+<OptionLanguage>40</OptionLanguage>
+<OptionText>कधीच नाही</OptionText>
+</_x0033_1_ResponseOptions>
+<_x0033_1_ResponseOptions>
+<OptionID>141</OptionID>
+<OptionConceptID>2</OptionConceptID>
+<OptionLanguage>40</OptionLanguage>
+<OptionText>कधीकधी</OptionText>
+</_x0033_1_ResponseOptions>
+<_x0033_1_ResponseOptions>
+<OptionID>142</OptionID>
+<OptionConceptID>3</OptionConceptID>
+<OptionLanguage>40</OptionLanguage>
+<OptionText>वारंवार</OptionText>
+</_x0033_1_ResponseOptions>
+<_x0033_1_ResponseOptions>
+<OptionID>143</OptionID>
+<OptionConceptID>4</OptionConceptID>
+<OptionLanguage>40</OptionLanguage>
+<OptionText>नेहमीच</OptionText>
+</_x0033_1_ResponseOptions>
+<_x0033_1_ResponseOptions>
+<OptionID>144</OptionID>
+<OptionConceptID>1</OptionConceptID>
+<OptionLanguage>27</OptionLanguage>
+<OptionText>Никад</OptionText>
+</_x0033_1_ResponseOptions>
+<_x0033_1_ResponseOptions>
+<OptionID>145</OptionID>
+<OptionConceptID>2</OptionConceptID>
+<OptionLanguage>27</OptionLanguage>
+<OptionText>Понекад</OptionText>
+</_x0033_1_ResponseOptions>
+<_x0033_1_ResponseOptions>
+<OptionID>146</OptionID>
+<OptionConceptID>3</OptionConceptID>
+<OptionLanguage>27</OptionLanguage>
+<OptionText>Често</OptionText>
+</_x0033_1_ResponseOptions>
+<_x0033_1_ResponseOptions>
+<OptionID>147</OptionID>
+<OptionConceptID>4</OptionConceptID>
+<OptionLanguage>27</OptionLanguage>
+<OptionText>Стално</OptionText>
+</_x0033_1_ResponseOptions>
+<_x0033_1_ResponseOptions>
+<OptionID>148</OptionID>
+<OptionConceptID>1</OptionConceptID>
+<OptionLanguage>39</OptionLanguage>
+<OptionText>Không bao giờ</OptionText>
+</_x0033_1_ResponseOptions>
+<_x0033_1_ResponseOptions>
+<OptionID>149</OptionID>
+<OptionConceptID>2</OptionConceptID>
+<OptionLanguage>39</OptionLanguage>
+<OptionText>Thỉnh thoảng</OptionText>
+</_x0033_1_ResponseOptions>
+<_x0033_1_ResponseOptions>
+<OptionID>150</OptionID>
+<OptionConceptID>3</OptionConceptID>
+<OptionLanguage>39</OptionLanguage>
+<OptionText>Thường xuyên</OptionText>
+</_x0033_1_ResponseOptions>
+<_x0033_1_ResponseOptions>
+<OptionID>151</OptionID>
+<OptionConceptID>4</OptionConceptID>
+<OptionLanguage>39</OptionLanguage>
+<OptionText>Luôn luôn</OptionText>
 </_x0033_1_ResponseOptions>
 </dataroot>

@@ -15,7 +15,7 @@
 <od:index index-name="ItemStemID" index-key="ItemStemID " primary="no" unique="no" clustered="no" order="asc"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAADoZ/OxDMSvQKX8fi2Rbro4AAAAABYeXEm0cOZAAAAAAAAAAAAyADEA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAADoZ/OxDMSvQKX8fi2Rbro4AAAAACZqQSBPdOZAAAAAAAAAAAAyADEA
 XwBJAHQAZQBtAFMAdABlAG0AcwAAAAAAAAA2JQAfNH28QJ1oqeaMDMxoBwAAAOhn
 87EMxK9Apfx+LZFuujhJAHQAZQBtAFMAdABlAG0ASQBEAAAAAAAAAGphMJ+RRFlJ
 jjxwNzyRUDcAAAAAPP6phFls5kAAAAAAAAAAADkAMABfAEwAYQBuAGcAdQBhAGcA
@@ -58,7 +58,7 @@ AAAAAAAAAAAAAAAA
 <od:tableProperty name="GUID" type="9" value="6GfzsQzEr0Cl/H4tkW66OA==
 "/>
 <od:tableProperty name="Filter" type="12" value="([Lookup_ItemStemLanguage].[Language]=&quot;Mongolian&quot;)"/>
-<od:tableProperty name="RowHeight" type="3" value="1030"/>
+<od:tableProperty name="RowHeight" type="3" value="290"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
@@ -82,7 +82,7 @@ AAAAAAAAAAAAAAAA
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="2"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
@@ -112,7 +112,7 @@ AAAAAAAAAAAAAAAA
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="3"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
@@ -142,7 +142,7 @@ AAAAAAAAAAAAAAAA
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="4910"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="4"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
@@ -173,7 +173,7 @@ AAAAAAAAAAAAAAAA
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="14740"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="5"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
 <od:fieldProperty name="AllowZeroLength" type="1" value="1"/>

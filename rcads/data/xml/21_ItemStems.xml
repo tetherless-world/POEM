@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="21_ItemStems.xsd" generated="2025-10-30T13:16:58">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="21_ItemStems.xsd" generated="2025-12-11T11:50:54">
 <_x0032_1_ItemStems>
 <ItemStemID>2735</ItemStemID>
 <ItemStemLanguage>30</ItemStemLanguage>
@@ -3011,7 +3011,7 @@ casa</ItemStemFullText>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>37</ItemStemConceptID>
-<ItemStemFullText>Би аливаа зүйлсд санаа зовдог</ItemStemFullText>
+<ItemStemFullText>Би аливаа зүйлсд санаа зовдог.</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2938</ItemStemID>
@@ -3067,14 +3067,14 @@ casa</ItemStemFullText>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>8</ItemStemConceptID>
-<ItemStemFullText>Би эцэг эхээсээ хол байгаадаа санаа зовдог.</ItemStemFullText>
+<ItemStemFullText>Би эцэг эхээсээ хол байгаадаа санаа зовдог</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2946</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>4</ItemStemConceptID>
-<ItemStemFullText>Толгойд орж ирэх муу эсвэл хачин жигтэй бодол, зураглалууд намайг тавгүйтүүлдэг.</ItemStemFullText>
+<ItemStemFullText>Толгойд орж ирэх муу эсвэл хачин жигтэй бодол, зураглалууд намайг тавгүйтүүлдэг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2947</ItemStemID>
@@ -3102,7 +3102,7 @@ casa</ItemStemFullText>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>29</ItemStemConceptID>
-<ItemStemFullText>Тодорхой шалтгаан байхгүй байхад гэнэт амьсгаа авч чадахгүй байгаа юм шиг мэдрэмж надад төрдөг.</ItemStemFullText>
+<ItemStemFullText>Тодорхой шалтгаан байхгүй байхад гэнэт амьсгаа авч чадахгүй байгаа юм шиг мэдрэмж надад төрдөг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2951</ItemStemID>
@@ -3130,14 +3130,14 @@ casa</ItemStemFullText>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>32</ItemStemConceptID>
-<ItemStemFullText>Тайван бус, айж түгшсэн мэдрэмжээсээ сургуульруугаа явахад хүндрэлтэй байдаг.</ItemStemFullText>
+<ItemStemFullText>Тайван бус, айж түгшсэн мэдрэмжээсээ сургуульруугаа явахад хүндрэлтэй байдаг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2955</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>16</ItemStemConceptID>
-<ItemStemFullText>Надад аливаа зүйлсийг хийх эрч хүч байдаггүй.</ItemStemFullText>
+<ItemStemFullText>Надад аливаа зүйлсийг хийх эрч хүч байдаггүй</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2956</ItemStemID>
@@ -3172,98 +3172,98 @@ casa</ItemStemFullText>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>34</ItemStemConceptID>
-<ItemStemFullText>Надад асуудал тулгарах үед миний зүрх маш хурдан цохилдог.</ItemStemFullText>
+<ItemStemFullText>Надад асуудал тулгарах үед миний зүрх маш хурдан цохилдог</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2961</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>5</ItemStemConceptID>
-<ItemStemFullText>Би тодорхой бодож, сэтгэж чаддаггүй.</ItemStemFullText>
+<ItemStemFullText>Би тодорхой бодож, сэтгэж чаддаггүй</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2962</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>30</ItemStemConceptID>
-<ItemStemFullText>Би ямар ч шалтгаангүй байхад чичэрч эсвэл салганаж эхэлдэг.</ItemStemFullText>
+<ItemStemFullText>Би ямар ч шалтгаангүй байхад чичэрч эсвэл салганаж эхэлдэг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2963</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>43</ItemStemConceptID>
-<ItemStemFullText>Би надад ямар нэгэн муу зүйл тохиолдох вий гэж санаа зовдог.</ItemStemFullText>
+<ItemStemFullText>Би надад ямар нэгэн муу зүйл тохиолдох вий гэж санаа зовдог</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2964</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>33</ItemStemConceptID>
-<ItemStemFullText>Надад ямар нэгэн асуудал тулгарахад чичирдэг.</ItemStemFullText>
+<ItemStemFullText>Надад ямар нэгэн асуудал тулгарахад чичирдэг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2965</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>15</ItemStemConceptID>
-<ItemStemFullText>Би өөрийгөө үнэ цэнэгүй гэж мэдэрдэг.</ItemStemFullText>
+<ItemStemFullText>Би өөрийгөө үнэ цэнэгүй гэж мэдэрдэг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2966</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>36</ItemStemConceptID>
-<ItemStemFullText>Би алдаа гаргахаас санаа зовдог.</ItemStemFullText>
+<ItemStemFullText>Би алдаа гаргахаас санаа зовдог</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2967</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>20</ItemStemConceptID>
-<ItemStemFullText>Би ямар нэгэн муу зүйл болохыг зогсоохын тулд өвөрмөц зүйл (тоо эсвэл үг) бодох хэрэгтэй болдог.</ItemStemFullText>
+<ItemStemFullText>Би ямар нэгэн муу зүйл болохыг зогсоохын тулд өвөрмөц зүйл (тоо эсвэл үг) бодох хэрэгтэй болдог</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2968</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>44</ItemStemConceptID>
-<ItemStemFullText>Би бусад хүмүүс миний тухай юу гэж боддог бол гэж санаа зовдог.</ItemStemFullText>
+<ItemStemFullText>Би бусад хүмүүс миний тухай юу гэж боддог бол гэж санаа зовдог</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2969</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>1</ItemStemConceptID>
-<ItemStemFullText>Би хүн ихтэй газарт (худалдааны төв, кино театр, автобус, хүн ихтэй тоглоомын төв) байхаас айдаг.</ItemStemFullText>
+<ItemStemFullText>Би хүн ихтэй газарт (худалдааны төв, кино театр, автобус, хүн ихтэй тоглоомын төв) байхаас айдаг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2970</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>28</ItemStemConceptID>
-<ItemStemFullText>Би гэнэт ямар ч шалтгаангүй маш их айдаг.</ItemStemFullText>
+<ItemStemFullText>Би гэнэт ямар ч шалтгаангүй маш их айдаг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2971</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>38</ItemStemConceptID>
-<ItemStemFullText>Би юу болох гэж байгаа бол гэж санаа зовдог.</ItemStemFullText>
+<ItemStemFullText>Би юу болох гэж байгаа бол гэж санаа зовдог</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2972</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>27</ItemStemConceptID>
-<ItemStemFullText>Ямар ч шалтгаангүй гэнэт миний толгой эргэж, ухаан алддаг.</ItemStemFullText>
+<ItemStemFullText>Ямар ч шалтгаангүй гэнэт миний толгой эргэж, ухаан алддаг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2973</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>31</ItemStemConceptID>
-<ItemStemFullText>Би үхлийн тухай боддог.</ItemStemFullText>
+<ItemStemFullText>Би үхлийн тухай боддог</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2974</ItemStemID>
@@ -3277,77 +3277,77 @@ casa</ItemStemFullText>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>22</ItemStemConceptID>
-<ItemStemFullText>Миний зүрх ямар ч шалтгаангүй маш хурдан цохилж эхэлдэг.</ItemStemFullText>
+<ItemStemFullText>Миний зүрх ямар ч шалтгаангүй маш хурдан цохилж эхэлдэг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2976</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>9</ItemStemConceptID>
-<ItemStemFullText>Надад хөдөлгөөн хийхийг хүсэхгүй байгаа мэт мэдрэмж төрдөг.</ItemStemFullText>
+<ItemStemFullText>Надад хөдөлгөөн хийхийг хүсэхгүй байгаа мэт мэдрэмж төрдөг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2977</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>47</ItemStemConceptID>
-<ItemStemFullText>Надад айх ямар нэгэн зүйл байхгүй байхад гэнэт айх мэдрэмж төрөх вий гэж санаа зовдог.</ItemStemFullText>
+<ItemStemFullText>Надад айх ямар нэгэн зүйл байхгүй байхад гэнэт айх мэдрэмж төрөх вий гэж санаа зовдог</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2978</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>19</ItemStemConceptID>
-<ItemStemFullText>Би зарим зүйлийг (гараа угаах, цэвэрлэх, эд зүйлсийг тодорхой дараалалаар тавих) дахин дахин давтаж хийдэг.</ItemStemFullText>
+<ItemStemFullText>Би зарим зүйлийг (гараа угаах, цэвэрлэх, эд зүйлсийг тодорхой дараалалаар тавих) дахин дахин давтаж хийдэг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2979</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>2</ItemStemConceptID>
-<ItemStemFullText>Би бусад хүмүүсийн өмнө өөрийгөө тэнэгтэх вий гэж айдаг.</ItemStemFullText>
+<ItemStemFullText>Би бусад хүмүүсийн өмнө өөрийгөө тэнэгтэх вий гэж айдаг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2980</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>18</ItemStemConceptID>
-<ItemStemFullText>Би муу зүйл тохиолдохоос сэргийлж зарим зүйлийг зөв хийх ёстой байдаг.</ItemStemFullText>
+<ItemStemFullText>Би муу зүйл тохиолдохоос сэргийлж зарим зүйлийг зөв хийх ёстой байдаг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2981</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>40</ItemStemConceptID>
-<ItemStemFullText>Би шөнө орондоо ороод санаа зовдог.</ItemStemFullText>
+<ItemStemFullText>Би шөнө орондоо ороод санаа зовдог</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2982</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>25</ItemStemConceptID>
-<ItemStemFullText>Би гэрээс гадуур хонох үед айгаад байдаг.</ItemStemFullText>
+<ItemStemFullText>Би гэрээс гадуур хонох үед айгаад байдаг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2983</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>1</Informant>
 <ItemStemConceptID>11</ItemStemConceptID>
-<ItemStemFullText>Би тайван бус байдаг.</ItemStemFullText>
+<ItemStemFullText>Би тайван бус байдаг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2984</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>37</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхэд аливаа зүйлсд санаа зовдог.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхэд аливаа зүйлсд санаа зовдог</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2985</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>12</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхдэд гунигтай эсвэл хоосон мэдрэмж төрдөг.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхдэд гунигтай эсвэл хоосон мэдрэмж төрдөг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2986</ItemStemID>
@@ -3403,7 +3403,7 @@ casa</ItemStemFullText>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>4</ItemStemConceptID>
-<ItemStemFullText>Толгойд нь орж ирэх муу эсвэл хачин жигтэй бодол, зураглалууд миний хүүхдийг тавгүйтүүлдэг.</ItemStemFullText>
+<ItemStemFullText>Толгойд нь орж ирэх муу эсвэл хачин жигтэй бодол, зураглалууд миний хүүхдийг тавгүйтүүлдэг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2994</ItemStemID>
@@ -3431,7 +3431,7 @@ casa</ItemStemFullText>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>29</ItemStemConceptID>
-<ItemStemFullText>Тодорхой шалтгаан байхгүй байхад гэнэт амьсгаа авч чадахгүй байгаа юм шиг мэдрэмж миний хүүхдэд төрдөг.</ItemStemFullText>
+<ItemStemFullText>Тодорхой шалтгаан байхгүй байхад гэнэт амьсгаа авч чадахгүй байгаа юм шиг мэдрэмж миний хүүхдэд төрдөг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>2998</ItemStemID>
@@ -3459,7 +3459,7 @@ casa</ItemStemFullText>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>32</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхэд тайван бус, айж түгшсэн мэдрэмжээсээ болоод өглөө сургуульруугаа явахад нь хүндрэлтэй байдаг.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхэд тайван бус, айж түгшсэн мэдрэмжээсээ болоод өглөө сургуульруугаа явахад нь хүндрэлтэй байдаг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3002</ItemStemID>
@@ -3501,7 +3501,7 @@ casa</ItemStemFullText>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>34</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхдэд асуудал тулгарах үед зүрх нь маш хурдан цохилдог.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхдэд асуудал тулгарах үед зүрх нь маш хурдан цохилдог</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3008</ItemStemID>
@@ -3515,84 +3515,84 @@ casa</ItemStemFullText>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>30</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхэд ямар ч шалтгаангүй байхад чичэрч эсвэл салганаж эхэлдэг.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхэд ямар ч шалтгаангүй байхад чичэрч эсвэл салганаж эхэлдэг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3010</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>43</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхэд өөрт нь ямар нэгэн муу зүйл тохиолдох вий гэж санаа зовдог.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхэд өөрт нь ямар нэгэн муу зүйл тохиолдох вий гэж санаа зовдог</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3011</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>33</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхдэд ямар нэгэн асуудал тулгарахад чичирдэг.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхдэд ямар нэгэн асуудал тулгарахад чичирдэг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3012</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>15</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхэд өөрийгөө үнэ цэнэгүй гэж мэдэрдэг.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхэд өөрийгөө үнэ цэнэгүй гэж мэдэрдэг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3013</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>36</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхэд алдаа гаргахаас санаа зовдог.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхэд алдаа гаргахаас санаа зовдог</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3014</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>20</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхэд ямар нэгэн муу зүйл болохыг зогсоохын тулд өвөрмөц зүйл (тоо эсвэл үг) бодох хэрэгтэй болдог.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхэд ямар нэгэн муу зүйл болохыг зогсоохын тулд өвөрмөц зүйл (тоо эсвэл үг) бодох хэрэгтэй болдог</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3015</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>44</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхэд бусад хүмүүс түүний тухай юу гэж боддог бол гэж санаа зовдог.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхэд бусад хүмүүс түүний тухай юу гэж боддог бол гэж санаа зовдог</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3016</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>1</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхэд хүн ихтэй газар (худалдааны төв, кино театр, автобус, хүн ихтэй тоглоомын төв) байхаас айдаг.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхэд хүн ихтэй газар (худалдааны төв, кино театр, автобус, хүн ихтэй тоглоомын төв) байхаас айдаг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3017</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>28</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхэд гэнэт ямар ч шалтгаангүй маш их айдаг.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхэд гэнэт ямар ч шалтгаангүй маш их айдаг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3018</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>38</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхэд юу болох гэж байгаа бол гэж санаа зовдог.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхэд юу болох гэж байгаа бол гэж санаа зовдог</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3019</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>27</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхэд ямар ч шалтгаангүй гэнэт толгой нь эргэж, ухаан алддаг.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхэд ямар ч шалтгаангүй гэнэт толгой нь эргэж, ухаан алддаг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3020</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>31</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхэд үхлийн тухай боддог.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхэд үхлийн тухай боддог</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3021</ItemStemID>
@@ -3606,63 +3606,721 @@ casa</ItemStemFullText>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>22</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхдийн зүрх ямар ч шалтгаангүй маш хурдан цохилж эхэлдэг.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхдийн зүрх ямар ч шалтгаангүй маш хурдан цохилж эхэлдэг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3023</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>9</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхдэд хөдөлгөөн хийхийг хүсэхгүй байгаа мэт мэдрэмж төрдөг.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхдэд хөдөлгөөн хийхийг хүсэхгүй байгаа мэт мэдрэмж төрдөг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3024</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>47</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхэд айх ямар нэгэн зүйл байхгүй байхад гэнэт айх мэдрэмж төрөх вий гэж санаа зовдог.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхэд айх ямар нэгэн зүйл байхгүй байхад гэнэт айх мэдрэмж төрөх вий гэж санаа зовдог</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3025</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>19</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхэд зарим зүйлийг (гараа угаах, цэвэрлэх, эд зүйлсийг тодорхой дараалалаар тавих) дахин дахин давтаж хийдэг.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхэд зарим зүйлийг (гараа угаах, цэвэрлэх, эд зүйлсийг тодорхой дараалалаар тавих) дахин дахин давтаж хийдэг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3026</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>2</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхэд бусад хүмүүсийн өмнө өөрийгөө тэнэгтэх вий гэж айдаг.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхэд бусад хүмүүсийн өмнө өөрийгөө тэнэгтэх вий гэж айдаг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3027</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>18</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхэд муу зүйл тохиолдохоос сэргийлж зарим зүйлийг зөв хийх ёстой байдаг.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхэд муу зүйл тохиолдохоос сэргийлж зарим зүйлийг зөв хийх ёстой байдаг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3028</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>40</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхэд шөнө орондоо ороод санаа зовдог.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхэд шөнө орондоо ороод санаа зовдог</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3029</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>25</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхэд гэрээс гадуур хонох үед айгаад байдаг.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхэд гэрээс гадуур хонох үед айгаад байдаг</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3030</ItemStemID>
 <ItemStemLanguage>38</ItemStemLanguage>
 <Informant>2</Informant>
 <ItemStemConceptID>11</ItemStemConceptID>
-<ItemStemFullText>Миний хүүхэд тайван бус байдаг.</ItemStemFullText>
+<ItemStemFullText>Миний хүүхэд тайван бус байдаг</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3031</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>37</ItemStemConceptID>
+<ItemStemFullText>मला गोष्टींची काळजी वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3032</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>12</ItemStemConceptID>
+<ItemStemFullText>मला उदास किंवा अर्थहीन (रिकामे) वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3033</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>35</ItemStemConceptID>
+<ItemStemFullText>कोणतीही अडचण आली की माझ्या पोटात काहीतरी वेगळीच जाणीव होते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3034</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>45</ItemStemConceptID>
+<ItemStemFullText>माझ्या हातून एखादी गोष्ट जेव्हा नीट पार पडत नाही तेव्हा मला काळजी वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3035</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>7</ItemStemConceptID>
+<ItemStemFullText>घरी एकट राहण्याची वेळ आली तर मला भिती वाटेल. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3036</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>10</ItemStemConceptID>
+<ItemStemFullText>आता मला कशातच मजा वाटत नाही.  </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3037</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>26</ItemStemConceptID>
+<ItemStemFullText>मला परीक्षा देण्याची वेळ आली की  मला भिती वाटते. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3038</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>14</ItemStemConceptID>
+<ItemStemFullText>कोणी माझ्यावर रागावले आहे असे मला वाटले की  मला काळजी वाटते. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3039</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>8</ItemStemConceptID>
+<ItemStemFullText>आई वडिलांपासून लांब जाण्याची मला काळजी वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3040</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>4</ItemStemConceptID>
+<ItemStemFullText>माझ्या डोक्यात येणाऱ्या वाईट किंवा मूर्खपणाच्या विचारांमुळे किंवा (कल्पना) चित्रांमुळे मला त्रास होतो.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3041</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>21</ItemStemConceptID>
+<ItemStemFullText>मला झोपायला त्रास होतो.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3042</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>46</ItemStemConceptID>
+<ItemStemFullText>मी शाळेच्या अभ्यासात नापास होईन याची मला काळजी वाटते</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3043</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>42</ItemStemConceptID>
+<ItemStemFullText>माझ्या कुटुंबातील एखाद्या व्यक्तीबाबत काहीतरी भयंकर / भयानक घडेल याची मला काळजी वाटते. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3044</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>29</ItemStemConceptID>
+<ItemStemFullText>कोणतेही कारण नसतांना अचानक मला असे वाटते की  मला श्वास घेता येत नाही.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3045</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>17</ItemStemConceptID>
+<ItemStemFullText>मला भुकेच्या बाबतीत समस्या आहे.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3046</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>23</ItemStemConceptID>
+<ItemStemFullText>मला एखदे काम मी व्यवस्थित केले आहे किंवा नाही हे सतत तपासायाला लागते, जसे की लाईटचे बटन / स्वीच बंद केला आहे की नाही किंवा दाराला कुलूप  नीट लावले आहे की नाही.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3047</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>24</ItemStemConceptID>
+<ItemStemFullText>मला एकट्याने झोपायची वेळ आली तर मला भिती वाटते.       </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3048</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>32</ItemStemConceptID>
+<ItemStemFullText>सकाळी शाळेत जाताना मला त्रास होतो कारण मला काळजी वाटते किंवा भिती  वाटत असते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3049</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>16</ItemStemConceptID>
+<ItemStemFullText>माझ्यामध्ये काही करण्याची शक्ती नाही.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3050</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>41</ItemStemConceptID>
+<ItemStemFullText>मी मूर्ख दिसेन की काय याची मला काळजी वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3051</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>13</ItemStemConceptID>
+<ItemStemFullText>मी खूपच थकून गेलो आहे / गेले आहे.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3052</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>39</ItemStemConceptID>
+<ItemStemFullText>माझ्याबाबत काहीतरी वाईट गोष्टी घडतील याची मला चिंता / काळजी वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3053</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>6</ItemStemConceptID>
+<ItemStemFullText>मी माझ्या डोक्यातून वाईट किंवा मूर्खपणाचे विचार काढू शकत नाही.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3054</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>34</ItemStemConceptID>
+<ItemStemFullText>कोणताही कठीण प्रसंग आला की माझ्या छातीत धडधडते. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3055</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>5</ItemStemConceptID>
+<ItemStemFullText>मी सुस्पष्टपणे  विचार करू शकत नाही.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3056</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>30</ItemStemConceptID>
+<ItemStemFullText>कोणतेही कारण नसताना  मी अचानक थरथर कापायला लागतो/लागते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3057</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>43</ItemStemConceptID>
+<ItemStemFullText>माझ्याबारोबर  काहीतरी वाईट घडेल याची मला काळजी /चिंता वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3058</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>33</ItemStemConceptID>
+<ItemStemFullText>मला काही समस्या आली तर मी अस्वस्थ होतो/होते , थरथर कापतो/ कापते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3059</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>15</ItemStemConceptID>
+<ItemStemFullText>मला अर्थहीन वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3060</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>36</ItemStemConceptID>
+<ItemStemFullText>माझ्या कडून  चुका होतील / मी चुका करेन याची मला काळजी वाटते.  </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3061</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>20</ItemStemConceptID>
+<ItemStemFullText>काही वाईट गोष्टी घडू नयेत म्हणून मला विशिष्ट विचार करावे लागतात जसे की, आकडे किंवा विशिष्ठ शब्द.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3062</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>44</ItemStemConceptID>
+<ItemStemFullText>माझ्याबद्दल इतर लोक काय विचार करतील याची मला चिंता / काळजी वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3063</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>1</ItemStemConceptID>
+<ItemStemFullText>मला गर्दीच्या ठिकाणी असण्याची  भिती वाटते जसे की सिनेमागृह, बसचा प्रवास, शॉपिंग सेन्टर्स किंवा खेळाचे मैदान इत्यादी.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3064</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>28</ItemStemConceptID>
+<ItemStemFullText>कोणतेही कारण नसतांना मला अचानक खूप भिती वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3065</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>38</ItemStemConceptID>
+<ItemStemFullText>आता काय होईल याची मला काळजी वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3066</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>27</ItemStemConceptID>
+<ItemStemFullText>कोणतेही कारण नसतांना मला अचानकच चक्कर येते किंवा गरगरते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3067</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>31</ItemStemConceptID>
+<ItemStemFullText>मी मृत्यूबद्दल विचार करते /करतो.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3068</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>3</ItemStemConceptID>
+<ItemStemFullText>मला माझ्या वर्गासमोर बोलण्याची वेळ आली तर भिती वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3069</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>22</ItemStemConceptID>
+<ItemStemFullText>कोणतेही कारण नसतांना अचानक माझे  हृदय वेगाने धडधडू लागते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3070</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>9</ItemStemConceptID>
+<ItemStemFullText>मला जागचे हालूच नये असे वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3071</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>47</ItemStemConceptID>
+<ItemStemFullText>घाबरण्यासारखे कोणतेही कारण नसतांना मला भिती वाटेल की काय याची मला काळजी वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3072</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>19</ItemStemConceptID>
+<ItemStemFullText>मला काही गोष्टी पुन्हा पुन्हा कराव्या लागतात जसे कि, हात धुणे, साफसफाई करणे किंवा गोष्टी विशिष्ठ क्रमाने लावून ठेवणे.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3073</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>2</ItemStemConceptID>
+<ItemStemFullText>लोकांसमोर मी काहीतरी मूर्खपणा करेन की काय याची मला भिती वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3074</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>18</ItemStemConceptID>
+<ItemStemFullText>काहीतरी वाईट घडू नये म्हणून मला काही गोष्टी अत्यंत अचूकपणे कराव्या लागतात.   </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3075</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>40</ItemStemConceptID>
+<ItemStemFullText>रात्री झोपायला जाताना मला काळजी वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3076</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>25</ItemStemConceptID>
+<ItemStemFullText>मला माझ्या घरापासून रात्रभर लांब राहण्याची वेळ आली तर भिती वाटेल.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3077</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>11</ItemStemConceptID>
+<ItemStemFullText>मला अस्वस्थ वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3078</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>37</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला गोष्टींची काळजी वाटते. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3079</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>12</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला उदास किंवा अर्थहीन (रिकामे) वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3080</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>35</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला जेव्हा एखादी समस्या असते तेव्हा त्याच्या /तिच्या  पोटात काहीतरी वेगळीच जाणीव होते. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3081</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>45</ItemStemConceptID>
+<ItemStemFullText>जेव्हा एखादी गोष्ट माझ्या मुलाला/मुलीला नीट जमत नाहीये असे वाटते तेव्हा त्याला/तिला  काळजी वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3082</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>7</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला घरी एकटे राहण्याची भिती वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3083</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>10</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला आता कशातच मजा/गंमत वाटत नाही. </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3084</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>26</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला परीक्षेची भिती वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3085</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>14</ItemStemConceptID>
+<ItemStemFullText>जेव्हा माझ्या मुलाला/मुलीला असे वाटते  की कोणीतरी त्याच्यावर  /तिच्यावर चिडले आहे तेव्हा त्याला/तिला काळजी वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3086</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>8</ItemStemConceptID>
+<ItemStemFullText>माझ्यापासून दूर राहण्याची माझ्या मुलाला/मुलीला भिती वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3087</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>4</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला त्याच्या /तिच्या  मनात येणाऱ्या वाईट किंवा मुर्खतेच्या विचारांचा किंवा (कल्पना) चित्रांचा त्रास होतो.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3088</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>21</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला झोपेचा त्रास आहे.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3089</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>46</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला शाळेतील अभ्यास नीट  जमेल की नाही याची काळजी वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3090</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>42</ItemStemConceptID>
+<ItemStemFullText>माझ्या कुटुंबातील एखाद्या व्यक्तीबाबत काहीतरी भयंकर / भयानक घडेल याची माझ्या मुलाला/मुलीला  काळजी वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3091</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>29</ItemStemConceptID>
+<ItemStemFullText>कोणतेही कारण नसतांना माझ्या मुलाला/मुलीला अचानकच  असे वाटते की  त्याला/तिला श्वास घेता येत नाही.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3092</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>17</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला  भुकेच्या बाबतीत समस्या आहे.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3093</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>23</ItemStemConceptID>
+<ItemStemFullText>एखदे काम आपण व्यवस्थित केले आहे किंवा नाही हे सतत माझ्या मुलाला/मुलीला तपासायाला लागते, जसे की लाईटचे बटन / स्वीच बंद केला आहे की नाही किंवा दाराला कुलूप  नीट लावले आहे कि नाही.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3094</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>24</ItemStemConceptID>
+<ItemStemFullText>एकट्याने झोपायची वेळ आली तर माझ्या मुलाला/मुलीला  भिती वाटते.  </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3095</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>32</ItemStemConceptID>
+<ItemStemFullText>सकाळी शाळेत जाताना माझ्या मुलाला/मुलीला  त्रास होतो कारण त्याला/तिला  काळजी वाटते असते किंवा भिती  वाटत असते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3096</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>16</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलामध्ये /मुलीमध्ये  काही करण्याची शक्ती नाही.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3097</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>41</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला तो/ती मूर्ख दिसेल की काय याबाबत त्याला/तिला  काळजी वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3098</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>13</ItemStemConceptID>
+<ItemStemFullText>माझा मुलगा/मुलगी   खूपच थकून गेला/ गेली  आहे.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3099</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>39</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला त्याच्या /तिच्या  बाबत  काहीतरी वाईट गोष्टी घडतील याची चिंता / काळजी वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3100</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>6</ItemStemConceptID>
+<ItemStemFullText>माझा मुलगा/मुलगी  त्याच्या /तिच्या डोक्यातून वाईट किंवा मूर्खपणाचे विचार काढू शकत नाही.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3101</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>34</ItemStemConceptID>
+<ItemStemFullText>कोणताही कठीण प्रसंग आला की माझ्या मुलाच्या/मुलीच्या  छातीतली धडधड वाढते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3102</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>5</ItemStemConceptID>
+<ItemStemFullText>माझा मुलगा/मुलगी   सुस्पष्टपणे  विचार करू शकत नाही.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3103</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>30</ItemStemConceptID>
+<ItemStemFullText>कोणतेही कारण नसताना  माझा मुलगा/मुलगी  अचानक थरथर कापायला लागतो/लागते .</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3104</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>43</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला त्याच्या /तिच्या बरोबर  काहीतरी वाईट घडेल याची   काळजी /चिंता वाटते</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3105</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>33</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला काही समस्या आली तर तो/ती अस्वस्थ होऊन थरथर कापतो /कापते .</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3106</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>15</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला  अर्थहीन वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3107</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>36</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाकडून / मुली कडून  चुका होतील याची त्याला/तिला काळजी वाटते.  </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3108</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>20</ItemStemConceptID>
+<ItemStemFullText>काही वाईट गोष्टी घडू नयेत म्हणून माझ्या मुलाला/मुलीला विशिष्ट विचार करावे लागतात जसे की, आकडे किंवा विशिष्ठ शब्द.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3109</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>44</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला त्याच्याबद्दल/तिच्याबद्दल  इतर लोक काय विचार करतील याची चिंता / काळजी वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3110</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>1</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला गर्दीच्या ठिकाणी असण्याची  भिती वाटते जसे की सिनेमागृह, बसचा प्रवास, शॉपिंग सेन्टर्स किंवा खेळाचे मैदान इत्यादी.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3111</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>28</ItemStemConceptID>
+<ItemStemFullText>कोणतेही कारण नसतांना माझ्या मुलाला/मुलीला अचानक खूप भिती वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3112</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>38</ItemStemConceptID>
+<ItemStemFullText>आता काय होईल याची माझ्या मुलाला/मुलीला काळजी वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3113</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>27</ItemStemConceptID>
+<ItemStemFullText>कोणतेही कारण नसतांना माझ्या मुलाला/मुलीला  अचानकच चक्कर येते किंवा गरगरते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3114</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>31</ItemStemConceptID>
+<ItemStemFullText>माझा मुलगा/मुलगी   मृत्यूबद्दल विचार करतो /करते .</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3115</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>3</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलावर/ मुलीवर जर वर्गासमोर बोलण्याची वेळ आली तर त्याला/तिला   भिती वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3116</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>22</ItemStemConceptID>
+<ItemStemFullText>कोणतेही कारण नसतांना अचानक माझ्या मुलाच्या /मुलीच्या हृदय वेगाने धडधडू लागते</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3117</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>9</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला  जागचे हालूच नये असे वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3118</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>47</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला  घाबरण्यासारखे कोणतेही कारण नसतांना भिती वाटेल की काय, याची काळजी वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3119</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>19</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला  काही गोष्टी पुन्हा पुन्हा कराव्या लागतात जसे कि, हात धुणे, साफसफाई करणे किंवा गोष्टी विशिष्ठ क्रमाने लावून ठेवणे.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3120</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>2</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला लोकांसमोर तो/ती काहीतरी मूर्खपणा करेल की काय याची भिती वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3121</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>18</ItemStemConceptID>
+<ItemStemFullText>काहीतरी वाईट घडू नये म्हणून माझ्या मुलाला/मुलीला  काही गोष्टी अत्यंत अचूकपणे कराव्या लागतात.   </ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3122</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>40</ItemStemConceptID>
+<ItemStemFullText>रात्री झोपायला जाताना माझ्या मुलाला/मुलीला  काळजी वाटते.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3123</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>25</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला घरापासून रात्रभर लांब राहण्याची वेळ आली तर भिती वाटेल.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3124</ItemStemID>
+<ItemStemLanguage>40</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>11</ItemStemConceptID>
+<ItemStemFullText>माझ्या मुलाला/मुलीला  अस्वस्थ वाटते.</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>294</ItemStemID>
@@ -20547,5 +21205,1321 @@ overnatte hjemmefra</ItemStemFullText>
 <Informant>4</Informant>
 <ItemStemConceptID>99</ItemStemConceptID>
 <ItemStemFullText>Feeling afraid, as if something awful might happen</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3125</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>37</ItemStemConceptID>
+<ItemStemFullText>Бринем око разних ствари</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3126</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>12</ItemStemConceptID>
+<ItemStemFullText>Осећам се тужно или празно</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3127</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>35</ItemStemConceptID>
+<ItemStemFullText>Када имам неки проблем, онда имам чудан осећај у стомаку</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3128</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>45</ItemStemConceptID>
+<ItemStemFullText>Бринем се када мислим да сам био/ла лош/а у нечему</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3129</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>7</ItemStemConceptID>
+<ItemStemFullText>Плашио/ла бих се да будем сам/а код куће</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3130</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>10</ItemStemConceptID>
+<ItemStemFullText>Ништа ми више није забавно</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3131</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>26</ItemStemConceptID>
+<ItemStemFullText>Уплашим се када треба да имам неки тест</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3266</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>37</ItemStemConceptID>
+<ItemStemFullText>Trẻ lo lắng về mọi thứ</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3267</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>12</ItemStemConceptID>
+<ItemStemFullText>Trẻ cảm thấy buồn bã hoặc trống rỗng</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3268</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>35</ItemStemConceptID>
+<ItemStemFullText>Khi trẻ gặp một vấn đề, trẻ có cảm giác khó chịu trong dạ dày của mình</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3269</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>45</ItemStemConceptID>
+<ItemStemFullText>Trẻ lo lắng khi nghĩ rằng mình đã làm điều gì đó không tốt</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3270</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>7</ItemStemConceptID>
+<ItemStemFullText>Trẻ sẽ cảm thấy sợ khi phải ở nhà một mình</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3271</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>10</ItemStemConceptID>
+<ItemStemFullText>Không còn điều gì vui vẻ đối với trẻ nữa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3272</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>26</ItemStemConceptID>
+<ItemStemFullText>Trẻ cảm thấy sợ hãi khi phải làm bài kiểm tra</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3273</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>14</ItemStemConceptID>
+<ItemStemFullText>Trẻ cảm thấy lo lắng khi nghĩ rằng có ai đó đang tức giận với mình</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3274</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>8</ItemStemConceptID>
+<ItemStemFullText>Trẻ lo lắng khi phải xa tôi</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3275</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>4</ItemStemConceptID>
+<ItemStemFullText>Trẻ bị làm phiền bởi những suy nghĩ hoặc hình ảnh xấu hoặc ngớ ngẩn trong tâm trí của mình</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3276</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>21</ItemStemConceptID>
+<ItemStemFullText>Trẻ bị khó ngủ</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3277</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>46</ItemStemConceptID>
+<ItemStemFullText>Trẻ lo lắng rằng mình sẽ làm bài tập ở trường rất kém</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3278</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>42</ItemStemConceptID>
+<ItemStemFullText>Trẻ lo rằng điều gì đó khủng khiếp sẽ xảy ra với người thân trong gia đình</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3279</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>29</ItemStemConceptID>
+<ItemStemFullText>Trẻ đột nhiên cảm thấy như thể mình bị khó thở mà không rõ lý do</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3280</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>17</ItemStemConceptID>
+<ItemStemFullText>Trẻ có vấn đề với cảm giác thèm ăn của mình</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3281</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>23</ItemStemConceptID>
+<ItemStemFullText>Trẻ cứ phải kiểm tra xem mình đã làm đúng chưa (như tắt công tắc chưa hoặc đã khóa cửa chưa)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3282</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>24</ItemStemConceptID>
+<ItemStemFullText>Trẻ cảm thấy sợ phải ngủ một mình</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3283</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>32</ItemStemConceptID>
+<ItemStemFullText>Trẻ gặp khó khăn khi đến trường vào buổi sáng vì cảm giác căng thẳng hoặc sợ hãi</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3284</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>16</ItemStemConceptID>
+<ItemStemFullText>Trẻ không còn năng lượng cho mọi việc</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3285</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>41</ItemStemConceptID>
+<ItemStemFullText>Trẻ lo lắng mình có thể trông thật ngớ ngẩn</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3286</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>13</ItemStemConceptID>
+<ItemStemFullText>Trẻ cảm thấy rất mệt mỏi</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3287</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>39</ItemStemConceptID>
+<ItemStemFullText>Trẻ lo lắng vì những điều tồi tệ có thể xảy ra với mình</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3288</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>6</ItemStemConceptID>
+<ItemStemFullText>Trẻ dường như không thể loại bỏ những suy nghĩ xấu hay ngớ ngẩn ra khỏi đầu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3289</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>34</ItemStemConceptID>
+<ItemStemFullText>Khi trẻ gặp vấn đề, tim trẻ đập rất nhanh</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3290</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>5</ItemStemConceptID>
+<ItemStemFullText>Trẻ không thể suy nghĩ rõ ràng thông suốt</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3291</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>30</ItemStemConceptID>
+<ItemStemFullText>Trẻ đột nhiên run rẩy hoặc run lên mà không rõ lý do</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3292</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>43</ItemStemConceptID>
+<ItemStemFullText>Trẻ lo rằng chuyện gì đó tồi tệ sẽ xảy ra với mình</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3293</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>33</ItemStemConceptID>
+<ItemStemFullText>Khi trẻ gặp vấn đề, trẻ cảm thấy run rẩy</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3294</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>15</ItemStemConceptID>
+<ItemStemFullText>Trẻ cảm thấy mình vô dụng</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3295</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>36</ItemStemConceptID>
+<ItemStemFullText>Trẻ lo lắng về việc mình sẽ mắc sai lầm</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3296</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>20</ItemStemConceptID>
+<ItemStemFullText>Trẻ phải nghĩ đến những điều đặc biệt (như con số hoặc từ ngữ nào đó) để ngăn những điều tồi tệ xảy ra</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3297</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>44</ItemStemConceptID>
+<ItemStemFullText>Trẻ lo lắng về việc người khác nghĩ gì về mình</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3298</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>1</ItemStemConceptID>
+<ItemStemFullText>Trẻ sợ hãi khi ở nơi đông người (như trung tâm thương mại, rạp chiếu phim, xe buýt, sân chơi đông đúc)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3299</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>28</ItemStemConceptID>
+<ItemStemFullText>Đột nhiên trẻ cảm thấy thực sự sợ hãi mà không rõ lý do</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3300</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>38</ItemStemConceptID>
+<ItemStemFullText>Trẻ lo lắng về những gì sẽ xảy ra</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3301</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>27</ItemStemConceptID>
+<ItemStemFullText>Trẻ đột nhiên cảm thấy chóng mặt hoặc muốn ngất xỉu mà không rõ lý do</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3302</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>31</ItemStemConceptID>
+<ItemStemFullText>Trẻ nghĩ về cái chết</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3303</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>3</ItemStemConceptID>
+<ItemStemFullText>Trẻ cảm thấy sợ nếu trẻ phải nói trước lớp</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3304</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>22</ItemStemConceptID>
+<ItemStemFullText>Tim trẻ đột nhiên đập quá nhanh mà không rõ lý do</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3305</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>9</ItemStemConceptID>
+<ItemStemFullText>Trẻ cảm thấy như thể trẻ không muốn cử động</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3306</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>47</ItemStemConceptID>
+<ItemStemFullText>Trẻ lo lắng rằng mình sẽ đột nhiên cảm thấy sợ hãi dù không có gì đáng sợ cả</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3307</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>19</ItemStemConceptID>
+<ItemStemFullText>Trẻ cứ phải làm một số việc lặp đi lặp lại (như rửa tay, dọn dẹp hoặc sắp xếp mọi thứ theo thứ tự nhất định)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3308</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>2</ItemStemConceptID>
+<ItemStemFullText>Trẻ cảm thấy lo sợ rằng mình sẽ làm điều ngu ngốc trước mặt người khác</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3309</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>18</ItemStemConceptID>
+<ItemStemFullText>Trẻ cứ phải làm một số việc theo đúng cách để tránh những chuyện tồi tệ xảy ra</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3310</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>40</ItemStemConceptID>
+<ItemStemFullText>Trẻ lo lắng khi đi ngủ vào ban đêm</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3311</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>25</ItemStemConceptID>
+<ItemStemFullText>Trẻ cảm thấy sợ hãi nếu phải xa nhà qua đêm</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3312</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>11</ItemStemConceptID>
+<ItemStemFullText>Trẻ cảm thấy bồn chồn</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3132</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>14</ItemStemConceptID>
+<ItemStemFullText>Бринем се када мислим да је неко љут на мене</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3133</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>8</ItemStemConceptID>
+<ItemStemFullText>Плашим се да будем далеко од својих родитеља</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3134</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>4</ItemStemConceptID>
+<ItemStemFullText>Узнемиравају ме лоше или чудне мисли и слике у мојој глави</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3135</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>21</ItemStemConceptID>
+<ItemStemFullText>Имам проблема са спавањем</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3136</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>46</ItemStemConceptID>
+<ItemStemFullText>Бринем се да ћу урадити лоше задатке на часу</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3137</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>42</ItemStemConceptID>
+<ItemStemFullText>Бринем се да ће се десити нешто лоше некоме у мојој породици</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3138</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>29</ItemStemConceptID>
+<ItemStemFullText>Одједном осећам као да не могу да дишем без икаквог разлога</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3139</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>17</ItemStemConceptID>
+<ItemStemFullText>Имам пробелема са апетитом</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3140</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>23</ItemStemConceptID>
+<ItemStemFullText>Морам стално да проверавам да ли сам све урадио/ла како треба (на пример, да ли је прекидач искључен или да ли су врата закључана)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3141</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>24</ItemStemConceptID>
+<ItemStemFullText>Плашим се ако морам да спавам сам/а</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3142</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>32</ItemStemConceptID>
+<ItemStemFullText>Плашим се да идем у школу јер се осећам нервозно или уплашено</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3143</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>16</ItemStemConceptID>
+<ItemStemFullText>Немам енергије да радим ствари</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3144</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>41</ItemStemConceptID>
+<ItemStemFullText>Бринем се да бих могао/ла да испаднем смешан/а другима</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3145</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>13</ItemStemConceptID>
+<ItemStemFullText>Много сам уморан/а</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3146</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>39</ItemStemConceptID>
+<ItemStemFullText>Бринем се да ће ми се дешавати лоше ствари</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3147</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>6</ItemStemConceptID>
+<ItemStemFullText>Не могу да се ослободим лоших или чудних мисли из главе</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3148</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>34</ItemStemConceptID>
+<ItemStemFullText>Када имам неки проблем, срце ми брзо куца</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3149</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>5</ItemStemConceptID>
+<ItemStemFullText>Не могу да мислим јасно</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3150</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>30</ItemStemConceptID>
+<ItemStemFullText>Одједном почнем да дрхтим или се тресем без икаквог разлога</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3151</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>43</ItemStemConceptID>
+<ItemStemFullText>Бринем да ће ми се десити нешто лоше</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3152</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>33</ItemStemConceptID>
+<ItemStemFullText>Када имам неки проблем, осећам да дрхтим</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3153</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>15</ItemStemConceptID>
+<ItemStemFullText>Осећам се безвредно</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3154</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>36</ItemStemConceptID>
+<ItemStemFullText>Бринем се да не правим грешке</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3155</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>20</ItemStemConceptID>
+<ItemStemFullText>Морам да мислим о одређеним мислима (као бројеви или речи) да бих спечио/ла да се деси нешто лоше</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3156</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>44</ItemStemConceptID>
+<ItemStemFullText>Бринем се шта други људи мисле о мени</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3157</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>1</ItemStemConceptID>
+<ItemStemFullText>Плашим се да будем на местима где има пуно људи (као тржни центри, биоскопи, аутобуси, пуна игралишта)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3158</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>28</ItemStemConceptID>
+<ItemStemFullText>Одједном се осећам јако уплашено без икаквог разлога</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3159</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>38</ItemStemConceptID>
+<ItemStemFullText>Бринем се шта ће се десити</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3160</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>27</ItemStemConceptID>
+<ItemStemFullText>Одједном ми се заврти у глави без икаквог разлога</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3161</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>31</ItemStemConceptID>
+<ItemStemFullText>Размишљам о смрти</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3162</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>3</ItemStemConceptID>
+<ItemStemFullText>Уплашим се када треба да причам пред целим разредом</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3163</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>22</ItemStemConceptID>
+<ItemStemFullText>Моје срце одједном почне пребрзо да куца без икаквог разлога</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3164</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>9</ItemStemConceptID>
+<ItemStemFullText>Чини ми се као да не желим да се покрећем</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3165</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>47</ItemStemConceptID>
+<ItemStemFullText>Бринем се да ћу изненада имати осећај страха, иако нема чега да се плашим</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3166</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>19</ItemStemConceptID>
+<ItemStemFullText>Морам да радим неке ствари изнова и изнова (као што је прање руку, чишћење или ређање ствари по неко редоследу)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3167</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>2</ItemStemConceptID>
+<ItemStemFullText>Плашим се да ћу испасти будала пред другима</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3168</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>18</ItemStemConceptID>
+<ItemStemFullText>Морам да радим неке ствари на одређени начин да бих спречио/ла да се десе лоше ствари</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3169</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>40</ItemStemConceptID>
+<ItemStemFullText>Бринем се када идем у кревет ноћу</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3170</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>25</ItemStemConceptID>
+<ItemStemFullText>Био/ла бих уплашен/а када бих морао/ла да преспавам ван куће</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3171</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>11</ItemStemConceptID>
+<ItemStemFullText>Осећам немир</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3172</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>37</ItemStemConceptID>
+<ItemStemFullText>Моје дете брине око разних ствари</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3173</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>12</ItemStemConceptID>
+<ItemStemFullText>Моје дете се осећа тужно или празно</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3174</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>35</ItemStemConceptID>
+<ItemStemFullText>Када моје дете има неки проблем, онда има чудан осећај у стомаку</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3175</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>45</ItemStemConceptID>
+<ItemStemFullText>Моје дете се брине када мисли да је било лоше у нечему</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3176</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>7</ItemStemConceptID>
+<ItemStemFullText>Моје дете се плаши да остане само код куће</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3177</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>10</ItemStemConceptID>
+<ItemStemFullText>Мом детету ништа више није забавно</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3178</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>26</ItemStemConceptID>
+<ItemStemFullText>Моје дете се уплаши када треба да има неки тест</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3179</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>14</ItemStemConceptID>
+<ItemStemFullText>Моје дете се брине када мисли да је неко љут на њу/њега</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3180</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>8</ItemStemConceptID>
+<ItemStemFullText>Моје дете се плаши да буде одвојено од нас</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3181</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>4</ItemStemConceptID>
+<ItemStemFullText>Моје дете узнемиравају лоше или чудне мисли и слике у његовој/њеној глави</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3182</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>21</ItemStemConceptID>
+<ItemStemFullText>Моје дете има проблема са спавањем</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3183</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>46</ItemStemConceptID>
+<ItemStemFullText>Моје дете се брине да ће урадити лоше задатке на часу</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3184</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>42</ItemStemConceptID>
+<ItemStemFullText>Моје дете се брине да ће се десити нешто лоше некоме у нашој породици</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3185</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>29</ItemStemConceptID>
+<ItemStemFullText>Моје дете се одједном осећа као да не може да дише без неког разлога</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3186</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>17</ItemStemConceptID>
+<ItemStemFullText>Моје дете има пробелема са апетитом</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3187</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>23</ItemStemConceptID>
+<ItemStemFullText>Моје дете мора стално да проверава да ли је све урадило како треба (на пример, да ли је прекидач искључен или да ли су врата закључана)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3188</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>24</ItemStemConceptID>
+<ItemStemFullText>Моје дете се плаши да спава само</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3189</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>32</ItemStemConceptID>
+<ItemStemFullText>Моје дете се плаши да иде у школу јер се осећа нервозно или уплашено</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3190</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>16</ItemStemConceptID>
+<ItemStemFullText>Моје дете нема енергије да ради ствари</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3191</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>41</ItemStemConceptID>
+<ItemStemFullText>Моје дете се брине да би могало да испадне смешано другима</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3192</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>13</ItemStemConceptID>
+<ItemStemFullText>Моје дете је много уморно</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3193</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>39</ItemStemConceptID>
+<ItemStemFullText>Моје дете се брине да ће му/јој се дешавати лоше ствари</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3194</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>6</ItemStemConceptID>
+<ItemStemFullText>Моје дете не може да се ослободи лоших или чудних мисли из своје главе</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3195</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>34</ItemStemConceptID>
+<ItemStemFullText>Када моје дете има неки проблем, срце му/јој брзо куца</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3196</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>5</ItemStemConceptID>
+<ItemStemFullText>Моје дете не може да мисли јасно</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3197</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>30</ItemStemConceptID>
+<ItemStemFullText>Моје дете одједном почне да дрхти или се тресе и без неког разлога</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3198</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>43</ItemStemConceptID>
+<ItemStemFullText>Моје дете брине да ће му/јој се десити нешто лоше</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3199</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>33</ItemStemConceptID>
+<ItemStemFullText>Када имам неки проблем, моје дете осећа да дрхти</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3200</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>15</ItemStemConceptID>
+<ItemStemFullText>Моје дете се осећа безвредно</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3201</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>36</ItemStemConceptID>
+<ItemStemFullText>Моје дете брине да ће правити грешке</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3202</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>20</ItemStemConceptID>
+<ItemStemFullText>Моје дете мора да мисли о одређеним мислима (као бројеви или речи) да би спечио да се деси нешто лоше</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3203</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>44</ItemStemConceptID>
+<ItemStemFullText>Моје дете се брине шта други људи мисле о њему/њој</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3204</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>1</ItemStemConceptID>
+<ItemStemFullText>Моје дете се плаши да буде на местима где има пуно људи (као тржни центри, биоскопи, аутобуси, пуна игралишта)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3205</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>28</ItemStemConceptID>
+<ItemStemFullText>Моје дете се одједном осећам јако уплашено без икаквог разлога</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3206</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>38</ItemStemConceptID>
+<ItemStemFullText>Моје дете се брине шта ће се десити</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3207</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>27</ItemStemConceptID>
+<ItemStemFullText>Мом детету се одједном заврти у глави када за то нема разлога</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3208</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>31</ItemStemConceptID>
+<ItemStemFullText>Моје дете размишља о смрти</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3209</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>3</ItemStemConceptID>
+<ItemStemFullText>Моје дете се уплаши када треба да прича пред целим разредом</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3210</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>22</ItemStemConceptID>
+<ItemStemFullText>Мом детету изненада почне срце пребрзо да куца без икаквог разлога</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3211</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>9</ItemStemConceptID>
+<ItemStemFullText>Моје дете изгледа као да не жели да се покреће</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3212</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>47</ItemStemConceptID>
+<ItemStemFullText>Моје дете се брине да ће изненада имати осећај страха, иако нема чега да се плашим</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3213</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>19</ItemStemConceptID>
+<ItemStemFullText>Моје дете мора да ради неке ствари изнова и изнова (као што је прање руку, чишћење или ређање ствари по неко редоследу)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3214</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>2</ItemStemConceptID>
+<ItemStemFullText>Моје дете се плаши да ће испасти будала пред другима</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3215</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>18</ItemStemConceptID>
+<ItemStemFullText>Моје дете мора да ради неке ствари на одређени начин да би спречио/ла да се десе лоше ствари</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3216</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>40</ItemStemConceptID>
+<ItemStemFullText>Моје дете се брине када иде у кревет ноћу</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3217</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>25</ItemStemConceptID>
+<ItemStemFullText>Моје дете би било уплашено када би морало да преспава ван куће</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3218</ItemStemID>
+<ItemStemLanguage>27</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>11</ItemStemConceptID>
+<ItemStemFullText>Моје дете осећа немир</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3219</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>37</ItemStemConceptID>
+<ItemStemFullText>Em lo lắng về mọi thứ</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3220</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>12</ItemStemConceptID>
+<ItemStemFullText>Em cảm thấy buồn bã hoặc trống rỗng</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3221</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>35</ItemStemConceptID>
+<ItemStemFullText>Khi em gặp một vấn đề, em có cảm giác khó chịu trong dạ dày của mình</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3222</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>45</ItemStemConceptID>
+<ItemStemFullText>Em lo lắng khi nghĩ rằng mình đã làm điều gì đó không tốt</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3223</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>7</ItemStemConceptID>
+<ItemStemFullText>Em sẽ cảm thấy sợ khi phải ở nhà một mình</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3224</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>10</ItemStemConceptID>
+<ItemStemFullText>Không còn điều gì vui vẻ nữa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3225</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>26</ItemStemConceptID>
+<ItemStemFullText>Em cảm thấy sợ hãi khi phải làm bài kiểm tra</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3226</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>14</ItemStemConceptID>
+<ItemStemFullText>Em cảm thấy lo lắng khi nghĩ rằng có ai đó đang tức giận với em</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3227</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>8</ItemStemConceptID>
+<ItemStemFullText>Em lo lắng về việc phải xa bố mẹ của mình</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3228</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>4</ItemStemConceptID>
+<ItemStemFullText>Em bị làm phiền bởi những suy nghĩ hoặc hình ảnh xấu hoặc ngớ ngẩn trong tâm trí của em</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3229</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>21</ItemStemConceptID>
+<ItemStemFullText>Em bị khó ngủ</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3230</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>46</ItemStemConceptID>
+<ItemStemFullText>Em lo lắng rằng em sẽ làm bài tập ở trường rất kém</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3231</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>42</ItemStemConceptID>
+<ItemStemFullText>Em lo rằng điều gì đó khủng khiếp sẽ xảy ra với người thân trong gia đình</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3232</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>29</ItemStemConceptID>
+<ItemStemFullText>Em đột nhiên cảm thấy như thể em bị khó thở mà không rõ lý do</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3233</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>17</ItemStemConceptID>
+<ItemStemFullText>Em có vấn đề với cảm giác thèm ăn của mình</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3234</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>23</ItemStemConceptID>
+<ItemStemFullText>Em cứ phải kiểm tra xem em đã làm đúng chưa (như tắt công tắc chưa hoặc đã khóa cửa chưa)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3235</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>24</ItemStemConceptID>
+<ItemStemFullText>Em cảm thấy sợ hãi nếu phải ngủ một mình</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3236</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>32</ItemStemConceptID>
+<ItemStemFullText>Em gặp khó khăn khi đến trường vào buổi sáng vì em cảm thấy lo lắng hoặc sợ hãi</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3237</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>16</ItemStemConceptID>
+<ItemStemFullText>Em không còn năng lượng cho mọi việc</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3238</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>41</ItemStemConceptID>
+<ItemStemFullText>Em lo lắng mình có thể trông thật ngớ ngẩn</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3239</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>13</ItemStemConceptID>
+<ItemStemFullText>Em cảm thấy rất mệt mỏi</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3240</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>39</ItemStemConceptID>
+<ItemStemFullText>Em lo lắng vì những điều tồi tệ có thể xảy ra với em</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3241</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>6</ItemStemConceptID>
+<ItemStemFullText>Em dường như không thể loại bỏ những suy nghĩ xấu hay ngớ ngẩn ra khỏi đầu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3242</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>34</ItemStemConceptID>
+<ItemStemFullText>Khi em gặp vấn đề, tim em đập rất nhanh</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3243</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>5</ItemStemConceptID>
+<ItemStemFullText>Em không thể suy nghĩ rõ ràng thông suốt</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3244</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>30</ItemStemConceptID>
+<ItemStemFullText>Em đột nhiên run rẩy hoặc run lên mà không rõ lý do</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3245</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>43</ItemStemConceptID>
+<ItemStemFullText>Em lo rằng chuyện gì đó tồi tệ sẽ xảy ra với mình</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3246</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>33</ItemStemConceptID>
+<ItemStemFullText>Khi em gặp vấn đề, em cảm thấy run rẩy</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3247</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>15</ItemStemConceptID>
+<ItemStemFullText>Em cảm thấy mình vô dụng</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3248</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>36</ItemStemConceptID>
+<ItemStemFullText>Em lo lắng về việc mình sẽ mắc sai lầm</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3249</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>20</ItemStemConceptID>
+<ItemStemFullText>Em phải nghĩ đến những điều đặc biệt (như con số hoặc từ ngữ nào đó) để ngăn những điều tồi tệ xảy ra</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3250</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>44</ItemStemConceptID>
+<ItemStemFullText>Em lo lắng về việc người khác nghĩ gì về mình</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3251</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>1</ItemStemConceptID>
+<ItemStemFullText>Em sợ hãi khi ở nơi đông người (như trung tâm thương mại, rạp chiếu phim, xe buýt, sân chơi đông đúc)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3252</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>28</ItemStemConceptID>
+<ItemStemFullText>Đột nhiên em cảm thấy thực sự sợ hãi mà không rõ lý do</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3253</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>38</ItemStemConceptID>
+<ItemStemFullText>Em lo lắng về những gì sẽ xảy ra</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3254</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>27</ItemStemConceptID>
+<ItemStemFullText>Em đột nhiên cảm thấy chóng mặt hoặc muốn ngất xỉu mà không rõ lý do</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3255</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>31</ItemStemConceptID>
+<ItemStemFullText>Em nghĩ về cái chết</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3256</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>3</ItemStemConceptID>
+<ItemStemFullText>Em cảm thấy sợ nếu em phải nói trước lớp</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3257</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>22</ItemStemConceptID>
+<ItemStemFullText>Tim em đột nhiên đập quá nhanh mà không rõ lý do</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3258</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>9</ItemStemConceptID>
+<ItemStemFullText>Em cảm thấy như thể em không muốn cử động</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3259</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>47</ItemStemConceptID>
+<ItemStemFullText>Em lo lắng rằng mình sẽ đột nhiên cảm thấy sợ hãi dù không có gì đáng sợ cả</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3260</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>19</ItemStemConceptID>
+<ItemStemFullText>Em cứ phải làm một số việc lặp đi lặp lại (như rửa tay, dọn dẹp hoặc sắp xếp mọi thứ theo thứ tự nhất định)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3261</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>2</ItemStemConceptID>
+<ItemStemFullText>Em cảm thấy lo sợ rằng mình sẽ làm điều ngu ngốc trước mặt người khác</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3262</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>18</ItemStemConceptID>
+<ItemStemFullText>Em cứ phải làm một số việc theo đúng cách để tránh những chuyện tồi tệ xảy ra</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3263</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>40</ItemStemConceptID>
+<ItemStemFullText>Em lo lắng khi đi ngủ vào ban đêm</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3264</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>25</ItemStemConceptID>
+<ItemStemFullText>Em cảm thấy sợ hãi nếu em phải xa nhà qua đêm</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3265</ItemStemID>
+<ItemStemLanguage>39</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>11</ItemStemConceptID>
+<ItemStemFullText>Em cảm thấy bồn chồn</ItemStemFullText>
 </_x0032_1_ItemStems>
 </dataroot>
