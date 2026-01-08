@@ -999,17 +999,131 @@ _:bnodeComponentDatatype550 a schema:DataType .
 
 _:bnodeComponentDatatype551 a schema:DataType .
 
+_:bnodeComponentDatatype552 a schema:DataType .
+
+_:bnodeComponentDatatype553 a schema:DataType .
+
+_:bnodeComponentDatatype554 a schema:DataType .
+
+_:bnodeComponentDatatype555 a schema:DataType .
+
+_:bnodeComponentDatatype556 a schema:DataType .
+
+_:bnodeComponentDatatype557 a schema:DataType .
+
+_:bnodeComponentDatatype558 a schema:DataType .
+
+_:bnodeComponentDatatype559 a schema:DataType .
+
 _:bnodeComponentDatatype56 a schema:DataType .
+
+_:bnodeComponentDatatype560 a schema:DataType .
+
+_:bnodeComponentDatatype561 a schema:DataType .
+
+_:bnodeComponentDatatype562 a schema:DataType .
+
+_:bnodeComponentDatatype563 a schema:DataType .
+
+_:bnodeComponentDatatype564 a schema:DataType .
+
+_:bnodeComponentDatatype565 a schema:DataType .
+
+_:bnodeComponentDatatype566 a schema:DataType .
+
+_:bnodeComponentDatatype567 a schema:DataType .
+
+_:bnodeComponentDatatype568 a schema:DataType .
+
+_:bnodeComponentDatatype569 a schema:DataType .
 
 _:bnodeComponentDatatype57 a schema:DataType .
 
+_:bnodeComponentDatatype570 a schema:DataType .
+
+_:bnodeComponentDatatype571 a schema:DataType .
+
+_:bnodeComponentDatatype572 a schema:DataType .
+
+_:bnodeComponentDatatype573 a schema:DataType .
+
+_:bnodeComponentDatatype574 a schema:DataType .
+
+_:bnodeComponentDatatype575 a schema:DataType .
+
+_:bnodeComponentDatatype576 a schema:DataType .
+
+_:bnodeComponentDatatype577 a schema:DataType .
+
+_:bnodeComponentDatatype578 a schema:DataType .
+
+_:bnodeComponentDatatype579 a schema:DataType .
+
 _:bnodeComponentDatatype58 a schema:DataType .
 
+_:bnodeComponentDatatype580 a schema:DataType .
+
+_:bnodeComponentDatatype581 a schema:DataType .
+
+_:bnodeComponentDatatype582 a schema:DataType .
+
+_:bnodeComponentDatatype583 a schema:DataType .
+
+_:bnodeComponentDatatype584 a schema:DataType .
+
+_:bnodeComponentDatatype585 a schema:DataType .
+
+_:bnodeComponentDatatype586 a schema:DataType .
+
+_:bnodeComponentDatatype587 a schema:DataType .
+
+_:bnodeComponentDatatype588 a schema:DataType .
+
+_:bnodeComponentDatatype589 a schema:DataType .
+
 _:bnodeComponentDatatype59 a schema:DataType .
+
+_:bnodeComponentDatatype590 a schema:DataType .
+
+_:bnodeComponentDatatype591 a schema:DataType .
+
+_:bnodeComponentDatatype592 a schema:DataType .
+
+_:bnodeComponentDatatype593 a schema:DataType .
+
+_:bnodeComponentDatatype594 a schema:DataType .
+
+_:bnodeComponentDatatype595 a schema:DataType .
+
+_:bnodeComponentDatatype596 a schema:DataType .
+
+_:bnodeComponentDatatype597 a schema:DataType .
+
+_:bnodeComponentDatatype598 a schema:DataType .
+
+_:bnodeComponentDatatype599 a schema:DataType .
 
 _:bnodeComponentDatatype6 a schema:DataType .
 
 _:bnodeComponentDatatype60 a schema:DataType .
+
+_:bnodeComponentDatatype600 a schema:DataType .
+
+_:bnodeComponentDatatype601 a schema:DataType .
+
+_:bnodeComponentDatatype602 a schema:DataType .
+
+_:bnodeComponentDatatype603 a schema:DataType .
+
+_:bnodeComponentDatatype604 a schema:DataType .
+
+_:bnodeComponentDatatype605 a schema:DataType .
+
+_:bnodeComponentDatatype606 a schema:DataType .
+
+_:bnodeComponentDatatype607 a schema:DataType .
+
+_:bnodeComponentDatatype608 a schema:DataType .
 
 _:bnodeComponentDatatype61 a schema:DataType .
 
@@ -1491,11 +1605,12 @@ _:bnodeComponentPosition163 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasValue 4;
   sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/36> .
 
-_:bnodeComponentPosition164 a sio:OrdinalPosition, sio:SIO_000613;
+_:bnodeComponentPosition164 a sio:OrdinalPosition;
   sio:SIO_000300 3;
   sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/36>;
   sio:hasValue 3;
-  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/36> .
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/36>;
+  a sio:SIO_000613 .
 
 _:bnodeComponentPosition165 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 1;
@@ -2495,8 +2610,8 @@ _:bnodeComponentPosition327 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/73>;
   sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/73> .
 
-_:bnodeComponentPosition328 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 3;
+_:bnodeComponentPosition328 sio:SIO_000300 3;
+  a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/73>;
   sio:hasValue 3;
   sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/73> .
@@ -2551,9 +2666,9 @@ _:bnodeComponentPosition336 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/75>;
   sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/75> .
 
-_:bnodeComponentPosition337 sio:SIO_000300 3;
+_:bnodeComponentPosition337 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 3;
   sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/75>;
-  a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasValue 3;
   sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/75> .
 
@@ -3493,10 +3608,10 @@ _:bnodeComponentPosition504 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasValue 2;
   sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/137> .
 
-_:bnodeComponentPosition505 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 1;
+_:bnodeComponentPosition505 sio:SIO_000300 1;
   sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/137>;
   sio:hasValue 1;
+  a sio:OrdinalPosition, sio:SIO_000613;
   sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/137> .
 
 _:bnodeComponentPosition506 a sio:OrdinalPosition, sio:SIO_000613;
@@ -3649,7 +3764,11 @@ _:bnodeComponentPosition528 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasValue 3;
   sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/113> .
 
-_:bnodeComponentPosition529 a sio:OrdinalPosition, sio:SIO_000613 .
+_:bnodeComponentPosition529 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 2;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/166>;
+  sio:hasValue 2;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/166> .
 
 _:bnodeComponentPosition53 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 2;
@@ -3657,7 +3776,11 @@ _:bnodeComponentPosition53 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasValue 2;
   sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/12> .
 
-_:bnodeComponentPosition530 a sio:OrdinalPosition, sio:SIO_000613 .
+_:bnodeComponentPosition530 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 1;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/166>;
+  sio:hasValue 1;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/166> .
 
 _:bnodeComponentPosition531 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/97>;
@@ -3764,8 +3887,10 @@ _:bnodeComponentPosition548 a sio:OrdinalPosition, sio:SIO_000613;
   sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/149> .
 
 _:bnodeComponentPosition549 a sio:OrdinalPosition, sio:SIO_000613;
-  sio:SIO_000300 1;
-  sio:hasValue 1 .
+  sio:SIO_000300 3;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/166>;
+  sio:hasValue 3;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/166> .
 
 _:bnodeComponentPosition55 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 4;
@@ -3773,9 +3898,65 @@ _:bnodeComponentPosition55 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasValue 4;
   sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/12> .
 
-_:bnodeComponentPosition550 a sio:OrdinalPosition, sio:SIO_000613 .
+_:bnodeComponentPosition550 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 3;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/166>;
+  sio:hasValue 3;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/166> .
 
-_:bnodeComponentPosition551 a sio:OrdinalPosition, sio:SIO_000613 .
+_:bnodeComponentPosition551 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 1;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/168>;
+  sio:hasValue 1;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/168> .
+
+_:bnodeComponentPosition552 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 2;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/168>;
+  sio:hasValue 2;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/168> .
+
+_:bnodeComponentPosition553 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 3;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/168>;
+  sio:hasValue 3;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/168> .
+
+_:bnodeComponentPosition554 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 3;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/168>;
+  sio:hasValue 3;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/168> .
+
+_:bnodeComponentPosition555 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 0;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/168>;
+  sio:hasValue 0;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/168> .
+
+_:bnodeComponentPosition556 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 0;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/166>;
+  sio:hasValue 0;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/166> .
+
+_:bnodeComponentPosition557 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 0;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/167>;
+  sio:hasValue 0;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/167> .
+
+_:bnodeComponentPosition558 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 0;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/169>;
+  sio:hasValue 0;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/169> .
+
+_:bnodeComponentPosition559 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 2;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/167>;
+  sio:hasValue 2;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/167> .
 
 _:bnodeComponentPosition56 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 3;
@@ -3783,11 +3964,131 @@ _:bnodeComponentPosition56 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasValue 3;
   sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/12> .
 
+_:bnodeComponentPosition560 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 2;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/169>;
+  sio:hasValue 2;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/169> .
+
+_:bnodeComponentPosition561 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 1;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/167>;
+  sio:hasValue 1;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/167> .
+
+_:bnodeComponentPosition562 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 1;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/169>;
+  sio:hasValue 1;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/169> .
+
+_:bnodeComponentPosition563 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 3;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/167>;
+  sio:hasValue 3;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/167> .
+
+_:bnodeComponentPosition564 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 3;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/169>;
+  sio:hasValue 3;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/169> .
+
+_:bnodeComponentPosition565 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 4;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/167>;
+  sio:hasValue 4;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/167> .
+
+_:bnodeComponentPosition566 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 4;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/169>;
+  sio:hasValue 4;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/169> .
+
+_:bnodeComponentPosition567 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 4;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/167>;
+  sio:hasValue 4;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/167> .
+
+_:bnodeComponentPosition568 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 4;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/169>;
+  sio:hasValue 4;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/169> .
+
+_:bnodeComponentPosition569 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 2;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/109>;
+  sio:hasValue 2;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/109> .
+
 _:bnodeComponentPosition57 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 1;
   sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/13>;
   sio:hasValue 1;
   sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/13> .
+
+_:bnodeComponentPosition570 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 1;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/109>;
+  sio:hasValue 1;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/109> .
+
+_:bnodeComponentPosition571 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 3;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/109>;
+  sio:hasValue 3;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/109> .
+
+_:bnodeComponentPosition572 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 2;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/141>;
+  sio:hasValue 2;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/141> .
+
+_:bnodeComponentPosition573 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 1;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/141>;
+  sio:hasValue 1;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/141> .
+
+_:bnodeComponentPosition574 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 3;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/141>;
+  sio:hasValue 3;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/141> .
+
+_:bnodeComponentPosition575 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 2;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/110>;
+  sio:hasValue 2;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/110> .
+
+_:bnodeComponentPosition576 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 1;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/110>;
+  sio:hasValue 1;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/110> .
+
+_:bnodeComponentPosition577 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 4;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/110>;
+  sio:hasValue 4;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/110> .
+
+_:bnodeComponentPosition578 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 3;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/110>;
+  sio:hasValue 3;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/110> .
+
+_:bnodeComponentPosition579 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 2;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/142>;
+  sio:hasValue 2;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/142> .
 
 _:bnodeComponentPosition58 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 2;
@@ -3795,9 +4096,129 @@ _:bnodeComponentPosition58 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasValue 2;
   sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/13> .
 
+_:bnodeComponentPosition580 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 1;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/142>;
+  sio:hasValue 1;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/142> .
+
+_:bnodeComponentPosition581 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 4;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/142>;
+  sio:hasValue 4;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/142> .
+
+_:bnodeComponentPosition582 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 3;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/142>;
+  sio:hasValue 3;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/142> .
+
+_:bnodeComponentPosition583 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 0;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/109>;
+  sio:hasValue 0;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/109> .
+
+_:bnodeComponentPosition584 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 0;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/110>;
+  sio:hasValue 0;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/110> .
+
+_:bnodeComponentPosition585 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 0;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/141>;
+  sio:hasValue 0;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/141> .
+
+_:bnodeComponentPosition586 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 0;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/142>;
+  sio:hasValue 0;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/142> .
+
+_:bnodeComponentPosition587 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 1;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/162>;
+  sio:hasValue 1;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/162> .
+
+_:bnodeComponentPosition588 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 2;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/162>;
+  sio:hasValue 2;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/162> .
+
+_:bnodeComponentPosition589 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 3;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/162>;
+  sio:hasValue 3;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/162> .
+
 _:bnodeComponentPosition59 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/13>;
   sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/13> .
+
+_:bnodeComponentPosition590 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 3;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/162>;
+  sio:hasValue 3;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/162> .
+
+_:bnodeComponentPosition591 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 0;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/162>;
+  sio:hasValue 0;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/162> .
+
+_:bnodeComponentPosition592 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 1;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/163>;
+  sio:hasValue 1;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/163> .
+
+_:bnodeComponentPosition593 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 2;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/163>;
+  sio:hasValue 2;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/163> .
+
+_:bnodeComponentPosition594 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 3;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/163>;
+  sio:hasValue 3;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/163> .
+
+_:bnodeComponentPosition595 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 3;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/163>;
+  sio:hasValue 3;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/163> .
+
+_:bnodeComponentPosition596 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 4;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/163>;
+  sio:hasValue 4;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/163> .
+
+_:bnodeComponentPosition597 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 0;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/163>;
+  sio:hasValue 0;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/163> .
+
+_:bnodeComponentPosition598 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 1;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/164>;
+  sio:hasValue 1;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/164> .
+
+_:bnodeComponentPosition599 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 2;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/164>;
+  sio:hasValue 2;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/164> .
 
 _:bnodeComponentPosition6 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 3;
@@ -3810,6 +4231,60 @@ _:bnodeComponentPosition60 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/13>;
   sio:hasValue 3;
   sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/13> .
+
+_:bnodeComponentPosition600 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 3;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/164>;
+  sio:hasValue 3;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/164> .
+
+_:bnodeComponentPosition601 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 3;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/164>;
+  sio:hasValue 3;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/164> .
+
+_:bnodeComponentPosition602 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 0;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/164>;
+  sio:hasValue 0;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/164> .
+
+_:bnodeComponentPosition603 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 1;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/165>;
+  sio:hasValue 1;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/165> .
+
+_:bnodeComponentPosition604 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 2;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/165>;
+  sio:hasValue 2;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/165> .
+
+_:bnodeComponentPosition605 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 4;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/165>;
+  sio:hasValue 4;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/165> .
+
+_:bnodeComponentPosition606 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 4;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/165>;
+  sio:hasValue 4;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/165> .
+
+_:bnodeComponentPosition607 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 3;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/165>;
+  sio:hasValue 3;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/165> .
+
+_:bnodeComponentPosition608 a sio:OrdinalPosition, sio:SIO_000613;
+  sio:SIO_000300 0;
+  sio:SIO_000668 <http://purl.org/twc/poem/individual/instrument/165>;
+  sio:hasValue 0;
+  sio:inRelationTo <http://purl.org/twc/poem/individual/instrument/165> .
 
 _:bnodeComponentPosition61 a sio:OrdinalPosition, sio:SIO_000613;
   sio:SIO_000300 1;
@@ -4118,9 +4593,11 @@ _:bnodeComponentPosition99 a sio:OrdinalPosition, sio:SIO_000613;
   sio:hasAttribute _:bnodeComponentDatatype112, _:bnodeComponentPosition112;
   rdfs:label "日期:" .
 
-<http://purl.org/twc/poem/individual/component/113> a vstoi:Component;
-  sio:SIO_000008 _:bnodeComponentDatatype113, _:bnodeComponentPosition113;
-  sio:hasAttribute _:bnodeComponentDatatype113, _:bnodeComponentPosition113;
+<http://purl.org/twc/poem/individual/component/113> sio:SIO_000008 _:bnodeComponentDatatype113,
+    _:bnodeComponentPosition113;
+  sio:hasAttribute _:bnodeComponentDatatype113;
+  a vstoi:Component;
+  sio:hasAttribute _:bnodeComponentPosition113;
   rdfs:label "第  页" .
 
 <http://purl.org/twc/poem/individual/component/114> a vstoi:Component;
@@ -4972,8 +5449,9 @@ eða röng svör""" .
   sio:hasAttribute _:bnodeComponentDatatype264, _:bnodeComponentPosition264;
   rdfs:label "이름" .
 
-<http://purl.org/twc/poem/individual/component/265> a vstoi:Component;
-  sio:SIO_000008 _:bnodeComponentDatatype265, _:bnodeComponentPosition265;
+<http://purl.org/twc/poem/individual/component/265> sio:SIO_000008 _:bnodeComponentDatatype265;
+  a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentPosition265;
   sio:hasAttribute _:bnodeComponentDatatype265, _:bnodeComponentPosition265;
   rdfs:label "날짜" .
 
@@ -5324,10 +5802,9 @@ gale svar.""" .
   sio:hasAttribute _:bnodeComponentDatatype326, _:bnodeComponentPosition326;
   rdfs:label "Data: " .
 
-<http://purl.org/twc/poem/individual/component/327> sio:SIO_000008 _:bnodeComponentDatatype327,
-    _:bnodeComponentPosition327;
+<http://purl.org/twc/poem/individual/component/327> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype327, _:bnodeComponentPosition327;
   sio:hasAttribute _:bnodeComponentDatatype327, _:bnodeComponentPosition327;
-  a vstoi:Component;
   rdfs:label "Strona" .
 
 <http://purl.org/twc/poem/individual/component/328> a vstoi:Component;
@@ -6184,9 +6661,8 @@ Onyesha kadi ya kurekodi majibu, eleza maana ya kila laini/mstari. Rekodi nambar
   sio:hasAttribute _:bnodeComponentDatatype483, _:bnodeComponentPosition483;
   rdfs:label "নামঃ" .
 
-<http://purl.org/twc/poem/individual/component/484> sio:SIO_000008 _:bnodeComponentDatatype484,
-    _:bnodeComponentPosition484;
-  a vstoi:Component;
+<http://purl.org/twc/poem/individual/component/484> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype484, _:bnodeComponentPosition484;
   sio:hasAttribute _:bnodeComponentDatatype484, _:bnodeComponentPosition484;
   rdfs:label "Over the last two weeks, how often have you been bothered by the following problems?" .
 
@@ -6437,7 +6913,8 @@ Onyesha kadi ya kurekodi majibu, eleza maana ya kila laini/mstari. Rekodi nambar
 
 <http://purl.org/twc/poem/individual/component/529> a vstoi:Component;
   sio:SIO_000008 _:bnodeComponentDatatype529, _:bnodeComponentPosition529;
-  sio:hasAttribute _:bnodeComponentDatatype529, _:bnodeComponentPosition529 .
+  sio:hasAttribute _:bnodeComponentDatatype529, _:bnodeComponentPosition529;
+  rdfs:label "दिनांक" .
 
 <http://purl.org/twc/poem/individual/component/53> a vstoi:Component;
   sio:SIO_000008 _:bnodeComponentDatatype53, _:bnodeComponentPosition53;
@@ -6446,7 +6923,8 @@ Onyesha kadi ya kurekodi majibu, eleza maana ya kila laini/mstari. Rekodi nambar
 
 <http://purl.org/twc/poem/individual/component/530> a vstoi:Component;
   sio:SIO_000008 _:bnodeComponentDatatype530, _:bnodeComponentPosition530;
-  sio:hasAttribute _:bnodeComponentDatatype530, _:bnodeComponentPosition530 .
+  sio:hasAttribute _:bnodeComponentDatatype530, _:bnodeComponentPosition530;
+  rdfs:label "नाव" .
 
 <http://purl.org/twc/poem/individual/component/531> a vstoi:Component;
   sio:SIO_000008 _:bnodeComponentDatatype531, _:bnodeComponentPosition531;
@@ -6545,7 +7023,8 @@ Onyesha kadi ya kurekodi majibu, eleza maana ya kila laini/mstari. Rekodi nambar
 
 <http://purl.org/twc/poem/individual/component/549> a vstoi:Component;
   sio:SIO_000008 _:bnodeComponentDatatype549, _:bnodeComponentPosition549;
-  sio:hasAttribute _:bnodeComponentDatatype549, _:bnodeComponentPosition549 .
+  sio:hasAttribute _:bnodeComponentDatatype549, _:bnodeComponentPosition549;
+  rdfs:label "खालील प्रत्येक विधानाला दिलेल्या पर्यायांमधून (उदा. कधीच नाही, कधीकधी, वारंवार, नेहमीच) तुमच्यासाठी योग्य असलेला पर्याय निवडा व त्याच्या भोवती वर्तुळ करा." .
 
 <http://purl.org/twc/poem/individual/component/55> a vstoi:Component;
   sio:SIO_000008 _:bnodeComponentDatatype55, _:bnodeComponentPosition55;
@@ -6554,31 +7033,275 @@ Onyesha kadi ya kurekodi majibu, eleza maana ya kila laini/mstari. Rekodi nambar
 
 <http://purl.org/twc/poem/individual/component/550> a vstoi:Component;
   sio:SIO_000008 _:bnodeComponentDatatype550, _:bnodeComponentPosition550;
-  sio:hasAttribute _:bnodeComponentDatatype550, _:bnodeComponentPosition550 .
+  sio:hasAttribute _:bnodeComponentDatatype550, _:bnodeComponentPosition550;
+  rdfs:label "खालील प्रत्येक विधानाला दिलेल्या पर्यायांमधून (उदा. कधीच नाही, कधीकधी, वारंवार, नेहमीच) तुमच्यासाठी योग्य असलेला पर्याय निवडा व त्याच्या भोवती वर्तुळ करा." .
 
 <http://purl.org/twc/poem/individual/component/551> a vstoi:Component;
   sio:SIO_000008 _:bnodeComponentDatatype551, _:bnodeComponentPosition551;
-  sio:hasAttribute _:bnodeComponentDatatype551, _:bnodeComponentPosition551 .
+  sio:hasAttribute _:bnodeComponentDatatype551, _:bnodeComponentPosition551;
+  rdfs:label "नाव" .
+
+<http://purl.org/twc/poem/individual/component/552> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype552, _:bnodeComponentPosition552;
+  sio:hasAttribute _:bnodeComponentDatatype552, _:bnodeComponentPosition552;
+  rdfs:label "दिनांक" .
+
+<http://purl.org/twc/poem/individual/component/553> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype553, _:bnodeComponentPosition553;
+  sio:hasAttribute _:bnodeComponentDatatype553, _:bnodeComponentPosition553;
+  rdfs:label "खालील प्रत्येक विधानाला दिलेल्या पर्यायांमधून (उदा. कधीच नाही, कधीकधी, वारंवार, नेहमीच) तुमच्यासाठी योग्य असलेला पर्याय निवडा व त्याच्या भोवती वर्तुळ करा." .
+
+<http://purl.org/twc/poem/individual/component/554> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype554, _:bnodeComponentPosition554;
+  sio:hasAttribute _:bnodeComponentDatatype554, _:bnodeComponentPosition554;
+  rdfs:label "खालील प्रत्येक विधानाला दिलेल्या पर्यायांमधून (उदा. कधीच नाही, कधीकधी, वारंवार, नेहमीच) तुमच्यासाठी योग्य असलेला पर्याय निवडा व त्याच्या भोवती वर्तुळ करा." .
+
+<http://purl.org/twc/poem/individual/component/555> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype555, _:bnodeComponentPosition555;
+  sio:hasAttribute _:bnodeComponentDatatype555, _:bnodeComponentPosition555;
+  rdfs:label "पान" .
+
+<http://purl.org/twc/poem/individual/component/556> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype556, _:bnodeComponentPosition556;
+  sio:hasAttribute _:bnodeComponentDatatype556, _:bnodeComponentPosition556;
+  rdfs:label "पान" .
+
+<http://purl.org/twc/poem/individual/component/557> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype557, _:bnodeComponentPosition557;
+  sio:hasAttribute _:bnodeComponentDatatype557, _:bnodeComponentPosition557;
+  rdfs:label "पान" .
+
+<http://purl.org/twc/poem/individual/component/558> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype558, _:bnodeComponentPosition558;
+  sio:hasAttribute _:bnodeComponentDatatype558, _:bnodeComponentPosition558;
+  rdfs:label "पान" .
+
+<http://purl.org/twc/poem/individual/component/559> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype559, _:bnodeComponentPosition559;
+  sio:hasAttribute _:bnodeComponentDatatype559, _:bnodeComponentPosition559;
+  rdfs:label "दिनांक" .
 
 <http://purl.org/twc/poem/individual/component/56> a vstoi:Component;
   sio:SIO_000008 _:bnodeComponentDatatype56, _:bnodeComponentPosition56;
   sio:hasAttribute _:bnodeComponentDatatype56, _:bnodeComponentPosition56;
   rdfs:label "Mit forhold til barnet:" .
 
+<http://purl.org/twc/poem/individual/component/560> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype560, _:bnodeComponentPosition560;
+  sio:hasAttribute _:bnodeComponentDatatype560, _:bnodeComponentPosition560;
+  rdfs:label "दिनांक" .
+
+<http://purl.org/twc/poem/individual/component/561> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype561, _:bnodeComponentPosition561;
+  sio:hasAttribute _:bnodeComponentDatatype561, _:bnodeComponentPosition561;
+  rdfs:label "नाव" .
+
+<http://purl.org/twc/poem/individual/component/562> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype562, _:bnodeComponentPosition562;
+  sio:hasAttribute _:bnodeComponentDatatype562, _:bnodeComponentPosition562;
+  rdfs:label "नाव" .
+
+<http://purl.org/twc/poem/individual/component/563> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype563, _:bnodeComponentPosition563;
+  sio:hasAttribute _:bnodeComponentDatatype563, _:bnodeComponentPosition563;
+  rdfs:label "मुला/मुली बरोबर नातं" .
+
+<http://purl.org/twc/poem/individual/component/564> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype564, _:bnodeComponentPosition564;
+  sio:hasAttribute _:bnodeComponentDatatype564, _:bnodeComponentPosition564;
+  rdfs:label "मुला/मुली बरोबर नातं" .
+
+<http://purl.org/twc/poem/individual/component/565> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype565, _:bnodeComponentPosition565;
+  sio:hasAttribute _:bnodeComponentDatatype565, _:bnodeComponentPosition565;
+  rdfs:label "खालील प्रत्येक विधानाला दिलेल्या पर्यायांमधून (उदा. कधीच नाही, कधीकधी, वारंवार, नेहमीच ) तुमच्या मुला/मुली साठी योग्य असलेला पर्याय निवडावा व त्याच्या भोवती वर्तुळ करा." .
+
+<http://purl.org/twc/poem/individual/component/566> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype566, _:bnodeComponentPosition566;
+  sio:hasAttribute _:bnodeComponentDatatype566, _:bnodeComponentPosition566;
+  rdfs:label "खालील प्रत्येक विधानाला दिलेल्या पर्यायांमधून (उदा. कधीच नाही, कधीकधी, वारंवार, नेहमीच ) तुमच्या मुला/मुली साठी योग्य असलेला पर्याय निवडावा व त्याच्या भोवती वर्तुळ करा." .
+
+<http://purl.org/twc/poem/individual/component/567> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype567, _:bnodeComponentPosition567;
+  sio:hasAttribute _:bnodeComponentDatatype567, _:bnodeComponentPosition567;
+  rdfs:label "खालील प्रत्येक विधानाला दिलेल्या पर्यायांमधून (उदा. कधीच नाही, कधीकधी, वारंवार, नेहमीच ) तुमच्या मुला/मुली साठी योग्य असलेला पर्याय निवडावा व त्याच्या भोवती वर्तुळ करा." .
+
+<http://purl.org/twc/poem/individual/component/568> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype568, _:bnodeComponentPosition568;
+  sio:hasAttribute _:bnodeComponentDatatype568, _:bnodeComponentPosition568;
+  rdfs:label "खालील प्रत्येक विधानाला दिलेल्या पर्यायांमधून (उदा. कधीच नाही, कधीकधी, वारंवार, नेहमीच ) तुमच्या मुला/मुली साठी योग्य असलेला पर्याय निवडावा व त्याच्या भोवती वर्तुळ करा." .
+
+<http://purl.org/twc/poem/individual/component/569> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype569, _:bnodeComponentPosition569;
+  sio:hasAttribute _:bnodeComponentDatatype569, _:bnodeComponentPosition569;
+  rdfs:label "Датум" .
+
 <http://purl.org/twc/poem/individual/component/57> a vstoi:Component;
   sio:SIO_000008 _:bnodeComponentDatatype57, _:bnodeComponentPosition57;
   sio:hasAttribute _:bnodeComponentDatatype57, _:bnodeComponentPosition57;
   rdfs:label "Nom/ID:" .
+
+<http://purl.org/twc/poem/individual/component/570> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype570, _:bnodeComponentPosition570;
+  sio:hasAttribute _:bnodeComponentDatatype570, _:bnodeComponentPosition570;
+  rdfs:label "Име/ИД" .
+
+<http://purl.org/twc/poem/individual/component/571> sio:SIO_000008 _:bnodeComponentDatatype571,
+    _:bnodeComponentPosition571;
+  sio:hasAttribute _:bnodeComponentDatatype571;
+  a vstoi:Component;
+  sio:hasAttribute _:bnodeComponentPosition571;
+  rdfs:label "Молимо те да заокружиш реч која показује колико често ти се свака од ових ствари дешава. Немa тачних или погрешних одговора." .
+
+<http://purl.org/twc/poem/individual/component/572> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype572, _:bnodeComponentPosition572;
+  sio:hasAttribute _:bnodeComponentDatatype572, _:bnodeComponentPosition572;
+  rdfs:label "Датум" .
+
+<http://purl.org/twc/poem/individual/component/573> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype573, _:bnodeComponentPosition573;
+  sio:hasAttribute _:bnodeComponentDatatype573, _:bnodeComponentPosition573;
+  rdfs:label "Име/ИД" .
+
+<http://purl.org/twc/poem/individual/component/574> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype574, _:bnodeComponentPosition574;
+  sio:hasAttribute _:bnodeComponentDatatype574, _:bnodeComponentPosition574;
+  rdfs:label "Молимо те да заокружиш реч која показује колико често ти се свака од ових ствари дешава. Нема тачних или погрешних одговора." .
+
+<http://purl.org/twc/poem/individual/component/575> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype575, _:bnodeComponentPosition575;
+  sio:hasAttribute _:bnodeComponentDatatype575, _:bnodeComponentPosition575;
+  rdfs:label "Датум" .
+
+<http://purl.org/twc/poem/individual/component/576> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype576, _:bnodeComponentPosition576;
+  sio:hasAttribute _:bnodeComponentDatatype576, _:bnodeComponentPosition576;
+  rdfs:label "Име/ИД" .
+
+<http://purl.org/twc/poem/individual/component/577> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype577, _:bnodeComponentPosition577;
+  sio:hasAttribute _:bnodeComponentDatatype577, _:bnodeComponentPosition577;
+  rdfs:label "Молим вас, заокружите реч која показује колико често се свака од ових ствари дешава вашем детету." .
+
+<http://purl.org/twc/poem/individual/component/578> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype578, _:bnodeComponentPosition578;
+  sio:hasAttribute _:bnodeComponentDatatype578, _:bnodeComponentPosition578;
+  rdfs:label "Однос са дететом" .
+
+<http://purl.org/twc/poem/individual/component/579> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype579, _:bnodeComponentPosition579;
+  sio:hasAttribute _:bnodeComponentDatatype579, _:bnodeComponentPosition579;
+  rdfs:label "Датум" .
 
 <http://purl.org/twc/poem/individual/component/58> a vstoi:Component;
   sio:SIO_000008 _:bnodeComponentDatatype58, _:bnodeComponentPosition58;
   sio:hasAttribute _:bnodeComponentDatatype58, _:bnodeComponentPosition58;
   rdfs:label "Date:" .
 
+<http://purl.org/twc/poem/individual/component/580> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype580, _:bnodeComponentPosition580;
+  sio:hasAttribute _:bnodeComponentDatatype580, _:bnodeComponentPosition580;
+  rdfs:label "Име/ИД" .
+
+<http://purl.org/twc/poem/individual/component/581> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype581, _:bnodeComponentPosition581;
+  sio:hasAttribute _:bnodeComponentDatatype581, _:bnodeComponentPosition581;
+  rdfs:label "Молим вас, заокружите реч која показује колико често се свака од ових ствари дешава вашем детету." .
+
+<http://purl.org/twc/poem/individual/component/582> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype582, _:bnodeComponentPosition582;
+  sio:hasAttribute _:bnodeComponentDatatype582, _:bnodeComponentPosition582;
+  rdfs:label "Однос са дететом" .
+
+<http://purl.org/twc/poem/individual/component/583> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype583, _:bnodeComponentPosition583;
+  sio:hasAttribute _:bnodeComponentDatatype583, _:bnodeComponentPosition583;
+  rdfs:label "Страна" .
+
+<http://purl.org/twc/poem/individual/component/584> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype584, _:bnodeComponentPosition584;
+  sio:hasAttribute _:bnodeComponentDatatype584, _:bnodeComponentPosition584;
+  rdfs:label "Страна" .
+
+<http://purl.org/twc/poem/individual/component/585> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype585, _:bnodeComponentPosition585;
+  sio:hasAttribute _:bnodeComponentDatatype585, _:bnodeComponentPosition585;
+  rdfs:label "Страна" .
+
+<http://purl.org/twc/poem/individual/component/586> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype586, _:bnodeComponentPosition586;
+  sio:hasAttribute _:bnodeComponentDatatype586, _:bnodeComponentPosition586;
+  rdfs:label "Страна" .
+
+<http://purl.org/twc/poem/individual/component/587> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype587, _:bnodeComponentPosition587;
+  sio:hasAttribute _:bnodeComponentDatatype587, _:bnodeComponentPosition587;
+  rdfs:label "Họ tên/Mã" .
+
+<http://purl.org/twc/poem/individual/component/588> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype588, _:bnodeComponentPosition588;
+  sio:hasAttribute _:bnodeComponentDatatype588, _:bnodeComponentPosition588;
+  rdfs:label "Ngày" .
+
+<http://purl.org/twc/poem/individual/component/589> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype589, _:bnodeComponentPosition589;
+  sio:hasAttribute _:bnodeComponentDatatype589, _:bnodeComponentPosition589;
+  rdfs:label "Vui lòng khoanh tròn một từ biểu thị mức độ thường xuyên mà mỗi điều dưới đây xảy ra với bạn. Không có câu trả lời đúng hay sai." .
+
 <http://purl.org/twc/poem/individual/component/59> a vstoi:Component;
   sio:SIO_000008 _:bnodeComponentDatatype59, _:bnodeComponentPosition59;
   sio:hasAttribute _:bnodeComponentDatatype59, _:bnodeComponentPosition59;
   rdfs:label "Page" .
+
+<http://purl.org/twc/poem/individual/component/590> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype590, _:bnodeComponentPosition590;
+  sio:hasAttribute _:bnodeComponentDatatype590, _:bnodeComponentPosition590;
+  rdfs:label "Vui lòng chọn một từ biểu thị mức độ thường xuyên mà mỗi điều dưới đây xảy ra với bạn. Không có câu trả lời đúng hay sai." .
+
+<http://purl.org/twc/poem/individual/component/591> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype591, _:bnodeComponentPosition591;
+  sio:hasAttribute _:bnodeComponentDatatype591, _:bnodeComponentPosition591;
+  rdfs:label "Trang" .
+
+<http://purl.org/twc/poem/individual/component/592> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype592, _:bnodeComponentPosition592;
+  sio:hasAttribute _:bnodeComponentDatatype592, _:bnodeComponentPosition592;
+  rdfs:label "Họ tên/Mã" .
+
+<http://purl.org/twc/poem/individual/component/593> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype593, _:bnodeComponentPosition593;
+  sio:hasAttribute _:bnodeComponentDatatype593, _:bnodeComponentPosition593;
+  rdfs:label "Ngày" .
+
+<http://purl.org/twc/poem/individual/component/594> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype594, _:bnodeComponentPosition594;
+  sio:hasAttribute _:bnodeComponentDatatype594, _:bnodeComponentPosition594;
+  rdfs:label "Vui lòng khoanh tròn một từ biểu thị mức độ thường xuyên mà mỗi điều dưới đây xảy ra với con bạn." .
+
+<http://purl.org/twc/poem/individual/component/595> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype595, _:bnodeComponentPosition595;
+  sio:hasAttribute _:bnodeComponentDatatype595, _:bnodeComponentPosition595;
+  rdfs:label "Vui lòng chọn một từ biểu thị mức độ thường xuyên mà mỗi điều dưới đây xảy ra với con bạn." .
+
+<http://purl.org/twc/poem/individual/component/596> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype596, _:bnodeComponentPosition596;
+  sio:hasAttribute _:bnodeComponentDatatype596, _:bnodeComponentPosition596;
+  rdfs:label "Mối quan hệ với trẻ" .
+
+<http://purl.org/twc/poem/individual/component/597> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype597, _:bnodeComponentPosition597;
+  sio:hasAttribute _:bnodeComponentDatatype597, _:bnodeComponentPosition597;
+  rdfs:label "Trang" .
+
+<http://purl.org/twc/poem/individual/component/598> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype598, _:bnodeComponentPosition598;
+  sio:hasAttribute _:bnodeComponentDatatype598, _:bnodeComponentPosition598;
+  rdfs:label "Họ tên/Mã" .
+
+<http://purl.org/twc/poem/individual/component/599> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype599, _:bnodeComponentPosition599;
+  sio:hasAttribute _:bnodeComponentDatatype599, _:bnodeComponentPosition599;
+  rdfs:label "Ngày" .
 
 <http://purl.org/twc/poem/individual/component/6> a vstoi:Component;
   sio:SIO_000008 _:bnodeComponentDatatype6, _:bnodeComponentPosition6;
@@ -6589,6 +7312,51 @@ Onyesha kadi ya kurekodi majibu, eleza maana ya kila laini/mstari. Rekodi nambar
   sio:SIO_000008 _:bnodeComponentDatatype60, _:bnodeComponentPosition60;
   sio:hasAttribute _:bnodeComponentDatatype60, _:bnodeComponentPosition60;
   rdfs:label "Cochez le mot qui montre avec quelle fréquence chacune de ces choses vous arrivent. Il n’y a pas de bonnes ou de mauvaises réponses." .
+
+<http://purl.org/twc/poem/individual/component/600> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype600, _:bnodeComponentPosition600;
+  sio:hasAttribute _:bnodeComponentDatatype600, _:bnodeComponentPosition600;
+  rdfs:label "Vui lòng khoanh tròn một từ biểu thị mức độ thường xuyên mà mỗi điều dưới đây xảy ra với bạn. Không có câu trả lời đúng hay sai." .
+
+<http://purl.org/twc/poem/individual/component/601> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype601, _:bnodeComponentPosition601;
+  sio:hasAttribute _:bnodeComponentDatatype601, _:bnodeComponentPosition601;
+  rdfs:label "Vui lòng chọn một từ biểu thị mức độ thường xuyên mà mỗi điều dưới đây xảy ra với bạn. Không có câu trả lời đúng hay sai." .
+
+<http://purl.org/twc/poem/individual/component/602> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype602, _:bnodeComponentPosition602;
+  sio:hasAttribute _:bnodeComponentDatatype602, _:bnodeComponentPosition602;
+  rdfs:label "Trang" .
+
+<http://purl.org/twc/poem/individual/component/603> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype603, _:bnodeComponentPosition603;
+  sio:hasAttribute _:bnodeComponentDatatype603, _:bnodeComponentPosition603;
+  rdfs:label "Họ tên/Mã" .
+
+<http://purl.org/twc/poem/individual/component/604> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype604, _:bnodeComponentPosition604;
+  sio:hasAttribute _:bnodeComponentDatatype604, _:bnodeComponentPosition604;
+  rdfs:label "Ngày" .
+
+<http://purl.org/twc/poem/individual/component/605> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype605, _:bnodeComponentPosition605;
+  sio:hasAttribute _:bnodeComponentDatatype605, _:bnodeComponentPosition605;
+  rdfs:label "Vui lòng khoanh tròn một từ biểu thị mức độ thường xuyên mà mỗi điều dưới đây xảy ra với con bạn." .
+
+<http://purl.org/twc/poem/individual/component/606> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype606, _:bnodeComponentPosition606;
+  sio:hasAttribute _:bnodeComponentDatatype606, _:bnodeComponentPosition606;
+  rdfs:label "Vui lòng chọn một từ biểu thị mức độ thường xuyên mà mỗi điều dưới đây xảy ra với con bạn." .
+
+<http://purl.org/twc/poem/individual/component/607> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype607, _:bnodeComponentPosition607;
+  sio:hasAttribute _:bnodeComponentDatatype607, _:bnodeComponentPosition607;
+  rdfs:label "Mối quan hệ với trẻ" .
+
+<http://purl.org/twc/poem/individual/component/608> a vstoi:Component;
+  sio:SIO_000008 _:bnodeComponentDatatype608, _:bnodeComponentPosition608;
+  sio:hasAttribute _:bnodeComponentDatatype608, _:bnodeComponentPosition608;
+  rdfs:label "Trang" .
 
 <http://purl.org/twc/poem/individual/component/61> a vstoi:Component;
   sio:SIO_000008 _:bnodeComponentDatatype61, _:bnodeComponentPosition61;

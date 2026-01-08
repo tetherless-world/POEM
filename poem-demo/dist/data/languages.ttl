@@ -144,10 +144,18 @@
   rdfs:label "Mongolian";
   skos:notation "MN" .
 
+<http://purl.org/twc/poem/individual/language/39> a sio:Language, sio:SIO_000104;
+  rdfs:label "Vietnamese";
+  skos:notation "VI" .
+
 <http://purl.org/twc/poem/individual/language/4> a sio:Language, sio:SIO_000104;
   schema:countryCode "DK";
   rdfs:label "Danish";
   skos:notation "DA" .
+
+<http://purl.org/twc/poem/individual/language/40> a sio:Language, sio:SIO_000104;
+  rdfs:label "Marathi";
+  skos:notation "MR" .
 
 <http://purl.org/twc/poem/individual/language/5> a sio:Language, sio:SIO_000104;
   schema:countryCode "NL";
