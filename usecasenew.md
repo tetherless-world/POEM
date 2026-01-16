@@ -13,29 +13,13 @@ The following document outlines questions that the usage of POEM should enable t
 
 ### Ontology Use Cases
 
-Below are example ontology use cases. Click each item to expand a short placeholder description.
+Below are example ontology use cases — expand any item to view a short description of how the ontology supports that scenario.
 
 <details>
         <summary><strong>UC01: Clinical Service: Assessment</strong></summary>
         <p>Finding the most appropriate assessment for a specific patient and context based on conditions measured, available languages and norms, provenance, and metrics showing primary utility and exposing strength of evidence; elucidating instrument usage instructions, target subject and respondent, and what an instrument measures.</p>
 </details>
 
-
-<script>
-document.addEventListener('DOMContentLoaded', function(){
-        function openFromHash(){
-                var id = location.hash ? location.hash.substring(1) : '';
-                if(!id) return;
-                var el = document.getElementById(id);
-                if(el && el.tagName && el.tagName.toLowerCase() === 'details'){
-                        el.open = true;
-                        try{ el.scrollIntoView({behavior: 'smooth', block: 'start'}); }catch(e){ el.scrollIntoView(); }
-                }
-        }
-        window.addEventListener('hashchange', openFromHash);
-        openFromHash();
-});
-</script>
 <details>
         <summary><strong>UC02: Clinical Service: Monitoring</strong></summary>
         <p>Finding the most appropriate assessment for a specific patient and context, which may include reuse of initial questionnaires and scales, or establishing confidence in a shorter assessment for ease of repeated use; elucidating instrument usage instructions, target subject and respondent, and what an instrument measures.</p>
