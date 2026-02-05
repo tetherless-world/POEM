@@ -11,12 +11,11 @@
 <xsd:element name="_x0032_0_Items">
 <xsd:annotation>
 <xsd:appinfo>
-<od:index index-name="CodebookID" index-key="CodebookID " primary="no" unique="no" clustered="no" order="asc"/>
 <od:index index-name="ItemID" index-key="ItemID " primary="no" unique="no" clustered="no" order="asc"/>
 <od:index index-name="ItemStemID" index-key="ItemStemID " primary="no" unique="no" clustered="no" order="asc"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="1"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAD4woW5gpZCQ5CkjER3cTelAAAAAHQ1AtgWcOZAAAAAAAAAAAAyADAA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAD4woW5gpZCQ5CkjER3cTelAAAAAL9A/LQReOZAAAAAAAAAAAAyADAA
 XwBJAHQAZQBtAHMAAAAAAAAANVqV2LBq5k2mH/LYpdypXQcAAAD4woW5gpZCQ5Ck
 jER3cTelSQB0AGUAbQBJAEQAAAAAAAAAamEwn5FEWUmOPHA3PJFQNwAAAAA8/qmE
 WWzmQAAAAAAAAAAAOQAwAF8ATABhAG4AZwB1AGEAZwBlAHMAAAAAAAAAqzGNj41l
@@ -24,23 +23,23 @@ ek6dzObekJJSUAcAAABqYTCfkURZSY48cDc8kVA3TABhAG4AZwB1AGEAZwBlAEkA
 RAAAAAAAAABztXL5XNjsQLxZVgslSjlFBwAAAGphMJ+RRFlJjjxwNzyRUDdMAGEA
 bgBnAHUAYQBnAGUAAAAAAAAAm3VzBQzgGEKoDxPAobSjHAcAAAD4woW5gpZCQ5Ck
 jER3cTelTABhAG4AZwB1AGEAZwBlAAAAAAAAAAWH30kZ3MJCmkFpwk32+RYAAAAA
-cdG2t69r5kAAAAAAAAAAADkAMQBfAFIAZQBzAHAAbwBuAGQAZQBuAHQAAAAAAAAA
-8EP3O1IYREWloR6q+Wxp1gcAAAAFh99JGdzCQppBacJN9vkWUgBlAHMAcABvAG4A
-ZABlAG4AdABJAEQAAAAAAAAAnSpVaSnv9UqEXob+QcwBRgcAAAAFh99JGdzCQppB
-acJN9vkWUgBlAHMAcABvAG4AZABlAG4AdAAAAAAAAACd6l56+Df9RqFecqggAj5F
-BwAAAPjChbmClkJDkKSMRHdxN6VJAG4AZgBvAHIAbQBhAG4AdAAAAAAAAADoZ/Ox
-DMSvQKX8fi2Rbro4AAAAAJTjAL3OcOZAAAAAAAAAAAAyADEAXwBJAHQAZQBtAFMA
-dABlAG0AcwAAAAAAAAA2JQAfNH28QJ1oqeaMDMxoBwAAAOhn87EMxK9Apfx+LZFu
-ujhJAHQAZQBtAFMAdABlAG0ASQBEAAAAAAAAAB+LCQJwG2FMtrii4alZcGMHAAAA
-6GfzsQzEr0Cl/H4tkW66OEkAdABlAG0AUwB0AGUAbQBGAHUAbABsAFQAZQB4AHQA
-AAAAAAAAome/WW3/YU+amQJU+ij8+wcAAAD4woW5gpZCQ5CkjER3cTelSQB0AGUA
-bQBTAHQAZQBtAEkARAAAAAAAAAC7WlCHcswaQaxJopgMJEZ3AAAAAFROGFO1cOZA
-AAAAAAAAAAAzADAAXwBDAG8AZABlAGIAbwBvAGsAcwAAAAAAAADuWeMTXz0aTZ10
-PoU/j78lBwAAALtaUIdyzBpBrEmimAwkRndDAG8AZABlAGIAbwBvAGsASQBEAAAA
-AAAAAIS3xmKKVchEsHRU0/9496kHAAAAu1pQh3LMGkGsSaKYDCRGd0MAbwBkAGUA
-YgBvAG8AawBOAGEAbQBlAAAAAAAAAMzx2VNpgEZLic5OD/GGfDkHAAAA+MKFuYKW
-QkOQpIxEd3E3pUMAbwBkAGUAYgBvAG8AawBJAEQAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAwAAAAFAAAAAAAAAAAAAAAAAAAAAAA=
+UrnYHvR35kAAAAAAAAAAADkAMQBfAEkAbgBmAG8AcgBtAGEAbgB0AAAAAAAAAPBD
+9ztSGERFpaEeqvlsadYHAAAABYffSRncwkKaQWnCTfb5FkkAbgBmAG8AcgBtAGEA
+bgB0AEkARAAAAAAAAACdKlVpKe/1SoRehv5BzAFGBwAAAAWH30kZ3MJCmkFpwk32
++RZJAG4AZgBvAHIAbQBhAG4AdAAAAAAAAACd6l56+Df9RqFecqggAj5FBwAAAPjC
+hbmClkJDkKSMRHdxN6VJAG4AZgBvAHIAbQBhAG4AdAAAAAAAAADoZ/OxDMSvQKX8
+fi2Rbro4AAAAADQGnJDSeOZAAAAAAAAAAAAyADEAXwBJAHQAZQBtAFMAdABlAG0A
+cwAAAAAAAAA2JQAfNH28QJ1oqeaMDMxoBwAAAOhn87EMxK9Apfx+LZFuujhJAHQA
+ZQBtAFMAdABlAG0ASQBEAAAAAAAAAB+LCQJwG2FMtrii4alZcGMHAAAA6GfzsQzE
+r0Cl/H4tkW66OEkAdABlAG0AUwB0AGUAbQBGAHUAbABsAFQAZQB4AHQAAAAAAAAA
+ome/WW3/YU+amQJU+ij8+wcAAAD4woW5gpZCQ5CkjER3cTelSQB0AGUAbQBTAHQA
+ZQBtAEkARAAAAAAAAAC7WlCHcswaQaxJopgMJEZ3AAAAAFROGFO1cOZAAAAAAAAA
+AAAzADAAXwBDAG8AZABlAGIAbwBvAGsAcwAAAAAAAADuWeMTXz0aTZ10PoU/j78l
+BwAAALtaUIdyzBpBrEmimAwkRndDAG8AZABlAGIAbwBvAGsASQBEAAAAAAAAAIS3
+xmKKVchEsHRU0/9496kHAAAAu1pQh3LMGkGsSaKYDCRGd0MAbwBkAGUAYgBvAG8A
+awBOAGEAbQBlAAAAAAAAAMzx2VNpgEZLic5OD/GGfDkHAAAA+MKFuYKWQkOQpIxE
+d3E3pUMAbwBkAGUAYgBvAG8AawBJAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwA
+AAAFAAAAAAAAAAAAAAAAAAAAAAA=
 "/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
 <od:tableProperty name="DisplayViewsOnSharePointSite" type="2" value="1"/>
@@ -60,7 +59,6 @@ AAAAAAwAAAAFAAAAAAAAAAAAAAAAAAAAAAA=
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
 <od:tableProperty name="GUID" type="9" value="+MKFuYKWQkOQpIxEd3E3pQ==
 "/>
-<od:tableProperty name="Filter" type="12" value="(Lookup_CodebookID.CodebookName Not In (&quot;4.0-item-Agreement-English&quot;,&quot;4.0-item-Agreement-Norwegian&quot;,&quot;4.0-item-Agreement-Spanish&quot;) Or Lookup_CodebookID.CodebookName Is Null)"/>
 <od:tableProperty name="OrderBy" type="12" value="[20_Items].[ItemID]"/>
 </xsd:appinfo>
 </xsd:annotation>
@@ -125,7 +123,7 @@ AAAAAAwAAAAFAAAAAAAAAAAAAAAAAAAAAAA=
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
 <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"/>
-<od:fieldProperty name="RowSource" type="12" value="SELECT [91_Respondent].[RespondentID], [91_Respondent].[Respondent] FROM 91_Respondent ORDER BY [RespondentID]; "/>
+<od:fieldProperty name="RowSource" type="12" value="SELECT [91_Informant].[InformantID], [91_Informant].[Informant] FROM 91_Informant ORDER BY [InformantID]; "/>
 <od:fieldProperty name="BoundColumn" type="3" value="1"/>
 <od:fieldProperty name="ColumnCount" type="3" value="2"/>
 <od:fieldProperty name="ColumnHeads" type="1" value="0"/>

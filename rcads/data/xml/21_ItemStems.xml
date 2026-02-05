@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="21_ItemStems.xsd" generated="2025-12-11T11:50:54">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="21_ItemStems.xsd" generated="2026-02-03T10:50:39">
 <_x0032_1_ItemStems>
 <ItemStemID>2735</ItemStemID>
 <ItemStemLanguage>30</ItemStemLanguage>
@@ -16219,7 +16219,7 @@ estómago</ItemStemFullText>
 <ItemStemID>163</ItemStemID>
 <ItemStemLanguage>9</ItemStemLanguage>
 <Informant>2</Informant>
-<ItemStemConceptID>43</ItemStemConceptID>
+<ItemStemConceptID>39</ItemStemConceptID>
 <ItemStemFullText>Mein Kind macht sich Sorgen, dass ihm schlimme Dinge zustoßen.</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
@@ -21583,6 +21583,1322 @@ overnatte hjemmefra</ItemStemFullText>
 <Informant>2</Informant>
 <ItemStemConceptID>11</ItemStemConceptID>
 <ItemStemFullText>Trẻ cảm thấy bồn chồn</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3313</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>37</ItemStemConceptID>
+<ItemStemFullText>Mi preoccupo</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3314</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>12</ItemStemConceptID>
+<ItemStemFullText>Mi sento triste o vuoto/a</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3315</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>35</ItemStemConceptID>
+<ItemStemFullText>Quando ho un problema, provo una strana sensazione allo stomaco</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3316</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>45</ItemStemConceptID>
+<ItemStemFullText>Mi preoccupo quando penso di aver fatto male qualcosa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3317</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>7</ItemStemConceptID>
+<ItemStemFullText>Ho paura di stare da solo/a a casa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3318</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>10</ItemStemConceptID>
+<ItemStemFullText>Niente è più divertente per me</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3319</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>26</ItemStemConceptID>
+<ItemStemFullText>Ho paura quando devo fare una prova</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3320</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>14</ItemStemConceptID>
+<ItemStemFullText>Mi preoccupo quando penso che qualcuno sia arrabbiato con me</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3321</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>8</ItemStemConceptID>
+<ItemStemFullText>Mi preoccupa l&apos;idea di essere lontano/a dai miei genitori</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3322</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>4</ItemStemConceptID>
+<ItemStemFullText>Sono infastidito/a da pensieri cattivi o sciocchi o immagini nella mia mente</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3323</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>21</ItemStemConceptID>
+<ItemStemFullText>Ho problemi a dormire</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3324</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>46</ItemStemConceptID>
+<ItemStemFullText>Sono preoccupato/a che quel che devo fare a scuola andrà male</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3325</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>42</ItemStemConceptID>
+<ItemStemFullText>Sono preoccupato/a che qualcosa di terribile accadrà a qualcuno della mia famiglia</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3326</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>29</ItemStemConceptID>
+<ItemStemFullText>Mi sento improvvisamente come se non riuscissi a respirare, anche quando non ce n&apos;è nessun motivo</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3327</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>17</ItemStemConceptID>
+<ItemStemFullText>Ho problemi di appetito</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3328</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>23</ItemStemConceptID>
+<ItemStemFullText>Devo continuare a controllare di aver fatto le cose nel modo giusto (ad esempio, che l’interruttore sia spento o la porta sia chiusa)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3329</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>24</ItemStemConceptID>
+<ItemStemFullText>Ho paura di dormire da solo</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3330</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>32</ItemStemConceptID>
+<ItemStemFullText>Ho problemi ad andare a scuola la mattina perché mi sento nervoso/a o spaventato/a</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3331</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>16</ItemStemConceptID>
+<ItemStemFullText>Non ho energia per fare le cose</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3332</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>41</ItemStemConceptID>
+<ItemStemFullText>Mi preoccupo di poter sembrare sciocco/a</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3333</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>13</ItemStemConceptID>
+<ItemStemFullText>Sono molto stanco/a</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3334</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>39</ItemStemConceptID>
+<ItemStemFullText>Sono preoccupato/a che mi capiteranno delle cose brutte</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3335</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>6</ItemStemConceptID>
+<ItemStemFullText>Sembra che io non riesca a togliermi dalla testa pensieri brutti o sciocchi</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3336</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>34</ItemStemConceptID>
+<ItemStemFullText>Quando ho un problema, il mio cuore batte molto velocemente</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3337</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>5</ItemStemConceptID>
+<ItemStemFullText>Non riesco a pensare in modo lucido</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3338</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>30</ItemStemConceptID>
+<ItemStemFullText>Improvvisamente inizio a tremare o ad agitarmi</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3339</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>43</ItemStemConceptID>
+<ItemStemFullText>Mi preoccupo che mi possa accadere qualcosa di brutto</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3340</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>33</ItemStemConceptID>
+<ItemStemFullText>Quando ho un problema, mi sento tremare</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3341</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>15</ItemStemConceptID>
+<ItemStemFullText>Mi sento inutile</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3342</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>36</ItemStemConceptID>
+<ItemStemFullText>Fare errori mi preoccupa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3343</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>20</ItemStemConceptID>
+<ItemStemFullText>Devo pensare cose particolari (ad esempio numeri o parole) per impedire che succedano cose brutte</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3344</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>44</ItemStemConceptID>
+<ItemStemFullText>Mi preoccupa quello che gli altri pensano di me</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3345</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>1</ItemStemConceptID>
+<ItemStemFullText>Ho paura di stare in posti affollati (come centri commerciali, cinema, autobus, parchi giochi affollati)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3346</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>28</ItemStemConceptID>
+<ItemStemFullText>All’improvviso mi sento davvero spaventato/a senza alcuna ragione</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3347</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>38</ItemStemConceptID>
+<ItemStemFullText>Mi preoccupo di quello che sta per succedere</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3348</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>27</ItemStemConceptID>
+<ItemStemFullText>Improvvisamente svengo o mi sento intontito/a quando non ce n&apos;è motivo</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3349</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>31</ItemStemConceptID>
+<ItemStemFullText>Penso alla morte</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3350</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>3</ItemStemConceptID>
+<ItemStemFullText>Ho paura se devo parlare di fronte alla mia classe</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3351</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>22</ItemStemConceptID>
+<ItemStemFullText>Il mio cuore improvvisamente inizia a battere troppo velocemente senza alcuna ragione</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3352</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>9</ItemStemConceptID>
+<ItemStemFullText>Mi sento come se non volessi muovermi</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3353</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>47</ItemStemConceptID>
+<ItemStemFullText>Mi preoccupo di provare all’improvviso una sensazione di paura quando non c’è nulla di cui essere spaventati</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3354</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>19</ItemStemConceptID>
+<ItemStemFullText>Ci sono alcune cose che devo fare più e più volte (come lavarmi le mani, pulire o mettere le cose in un certo ordine)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3355</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>2</ItemStemConceptID>
+<ItemStemFullText>Ho paura di rendermi ridicolo/a davanti agli altri</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3356</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>18</ItemStemConceptID>
+<ItemStemFullText>Devo fare alcune cose nella maniera giusta per impedire che succedano cose brutte</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3357</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>40</ItemStemConceptID>
+<ItemStemFullText>Sono preoccupato/a quando vado a letto la sera</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3358</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>25</ItemStemConceptID>
+<ItemStemFullText>Avrei paura se dovessi stare fuori di casa la notte</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3359</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>11</ItemStemConceptID>
+<ItemStemFullText>Mi sento irrequieto/a</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3360</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>37</ItemStemConceptID>
+<ItemStemFullText>Si preoccupa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3361</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>12</ItemStemConceptID>
+<ItemStemFullText>Si sente triste o vuoto/a</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3362</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>35</ItemStemConceptID>
+<ItemStemFullText>Quando ha un problema, prova una strana sensazione allo stomaco</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3363</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>45</ItemStemConceptID>
+<ItemStemFullText>Si preoccupa quando pensa di aver fatto male qualcosa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3364</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>7</ItemStemConceptID>
+<ItemStemFullText>Ha paura di stare da solo a casa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3365</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>10</ItemStemConceptID>
+<ItemStemFullText>Niente più lo/la diverte tanto</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3366</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>26</ItemStemConceptID>
+<ItemStemFullText>Ha paura quando deve fare una prova</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3367</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>14</ItemStemConceptID>
+<ItemStemFullText>Si preoccupa quando pensa che qualcuno sia arrabbiato con lui/lei</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3368</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>8</ItemStemConceptID>
+<ItemStemFullText>Lo/la preoccupa l&apos;idea di essere lontano/a da lei (genitore o caregiver)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3369</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>4</ItemStemConceptID>
+<ItemStemFullText>È infastidito da pensieri cattivi o sciocchi o immagini nella sua mente</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3370</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>21</ItemStemConceptID>
+<ItemStemFullText>Ha problemi a dormire</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3371</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>46</ItemStemConceptID>
+<ItemStemFullText>È preoccupato/a di andare male a scuola</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3372</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>42</ItemStemConceptID>
+<ItemStemFullText>Si preoccupa che qualcosa di terribile accadrà a qualcuno della famiglia</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3373</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>29</ItemStemConceptID>
+<ItemStemFullText>Si sente improvvisamente come se non riuscisse a respirare, anche quando non ce n&apos;è nessun motivo</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3374</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>17</ItemStemConceptID>
+<ItemStemFullText>Ha problemi di appetito</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3375</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>23</ItemStemConceptID>
+<ItemStemFullText>Deve continuare a controllare di aver fatto le cose nel modo giusto (ad esempio, che l’interruttore sia spento o la porta sia chiusa)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3376</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>24</ItemStemConceptID>
+<ItemStemFullText>Ha paura di dormire da solo</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3377</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>32</ItemStemConceptID>
+<ItemStemFullText>Ha problemi ad andare a scuola la mattina perché si sente nervoso o spaventato</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3378</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>16</ItemStemConceptID>
+<ItemStemFullText>Non ha energia per fare le cose</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3379</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>41</ItemStemConceptID>
+<ItemStemFullText>Si preoccupa di poter sembrare sciocco/a</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3380</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>13</ItemStemConceptID>
+<ItemStemFullText>È molto stanco</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3381</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>39</ItemStemConceptID>
+<ItemStemFullText>Si preoccupa che gli/le accadano cose brutte</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3382</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>6</ItemStemConceptID>
+<ItemStemFullText>Sembra non riuscire a togliersi dalla testa pensieri brutti o sciocchi</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3383</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>34</ItemStemConceptID>
+<ItemStemFullText>Quando ha un problema, il suo cuore batte molto velocemente</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3384</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>5</ItemStemConceptID>
+<ItemStemFullText>Non riesce a pensare in modo lucido</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3385</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>30</ItemStemConceptID>
+<ItemStemFullText>Inizia improvvisamente a tremare o agitarsi quando non c’è n’ è alcun motivo</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3386</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>43</ItemStemConceptID>
+<ItemStemFullText>Si preoccupa che gli/le capiti qualcosa di brutto</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3387</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>33</ItemStemConceptID>
+<ItemStemFullText>Quando il mio bambino/ragazzo ha un problema, si sente tremare</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3388</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>15</ItemStemConceptID>
+<ItemStemFullText>Si sente inutile</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3389</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>36</ItemStemConceptID>
+<ItemStemFullText>Fare errori lo/la preoccupa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3390</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>20</ItemStemConceptID>
+<ItemStemFullText>Deve pensare a cose particolari (ad esempio numeri o parole) per impedire che succedano cose brutte</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3391</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>44</ItemStemConceptID>
+<ItemStemFullText>Si preoccupa di quello che gli altri pensano di lui/lei</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3392</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>1</ItemStemConceptID>
+<ItemStemFullText>Ha paura di stare in posti affollati (come centri commerciali, cinema, autobus, parchi giochi affollati)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3393</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>28</ItemStemConceptID>
+<ItemStemFullText>All’improvviso si sentirà davvero spaventato senza alcuna ragione</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3394</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>38</ItemStemConceptID>
+<ItemStemFullText>Si preoccupa di quello che sta per succedere</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3395</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>27</ItemStemConceptID>
+<ItemStemFullText>Improvvisamente sviene o si sente intontito/a quando non ce n&apos;è motivo</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3396</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>31</ItemStemConceptID>
+<ItemStemFullText>Pensa alla morte</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3397</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>3</ItemStemConceptID>
+<ItemStemFullText>Ha paura se deve parlare di fronte alla classe</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3398</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>22</ItemStemConceptID>
+<ItemStemFullText>Il cuore del mio bambino/ragazzo improvvisamente inizia a battere troppo velocemente senza alcuna ragione</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3399</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>9</ItemStemConceptID>
+<ItemStemFullText>Si sente come se non volesse muoversi</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3400</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>47</ItemStemConceptID>
+<ItemStemFullText>Si preoccupa di provare all’improvviso una sensazione di paura quando non c’è nulla di cui essere spaventati</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3401</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>19</ItemStemConceptID>
+<ItemStemFullText>Ci sono alcune cose che deve fare più e più volte (come lavarsi le mani, pulire o mettere le cose in un certo ordine)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3402</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>2</ItemStemConceptID>
+<ItemStemFullText>Ha paura di rendersi ridicolo/a davanti agli altri</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3403</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>18</ItemStemConceptID>
+<ItemStemFullText>Deve fare alcune cose nella maniera giusta per impedire che succedano cose brutte</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3404</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>40</ItemStemConceptID>
+<ItemStemFullText>È preoccupato/a quando va a letto la sera</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3405</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>25</ItemStemConceptID>
+<ItemStemFullText>Avrebbe paura se dovesse stare fuori di casa la notte</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3406</ItemStemID>
+<ItemStemLanguage>36</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>11</ItemStemConceptID>
+<ItemStemFullText>Si sente irrequieto</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3407</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>37</ItemStemConceptID>
+<ItemStemFullText>Ngizikhathaza ngezinto</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3408</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>12</ItemStemConceptID>
+<ItemStemFullText>Ngizizwa ngidabukile noma ngingenalutho</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3409</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>35</ItemStemConceptID>
+<ItemStemFullText>Uma nginenkinga, ngiba nomuzwa engingawuqondi kahle esiswini sami</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3410</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>45</ItemStemConceptID>
+<ItemStemFullText>Ngiyakhathazeka uma ngicabanga ukuthi kukhona okungalungile engikwenzile</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3411</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>7</ItemStemConceptID>
+<ItemStemFullText>Ngangizizwa ngisaba ukuba ngedwa ekhaya</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3412</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>10</ItemStemConceptID>
+<ItemStemFullText>Akusekho okungijabulisa kakhulu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3413</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>26</ItemStemConceptID>
+<ItemStemFullText>Ngizizwa ngisaba uma kufanele ngiyohlola</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3414</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>14</ItemStemConceptID>
+<ItemStemFullText>Ngizizwa ngikhathazekile uma ngicabanga ukuthi kukhona ongithukuthelele</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3415</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>8</ItemStemConceptID>
+<ItemStemFullText>Ngikhathazekile ngokuba kude nomzali wami</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3416</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>4</ItemStemConceptID>
+<ItemStemFullText>Ngikhathazwa imicabango emibi noma engasile noma izithombe ngaphakathi engqondweni yami</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3417</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>21</ItemStemConceptID>
+<ItemStemFullText>Nginenkinga yokulala</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3418</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>46</ItemStemConceptID>
+<ItemStemFullText>Ngikhathazekile ngokuthi ngizokwenza kabi emsebenzini wami wesikole</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3419</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>42</ItemStemConceptID>
+<ItemStemFullText>Ngikhathazwa ukuthi kukhona into embi ezokwenzeka kumuntu osemndenini wami</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3420</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>29</ItemStemConceptID>
+<ItemStemFullText>Ngivele ngizwe sengathi angikwazi ukuphefumula ngokungenasizathu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3421</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>17</ItemStemConceptID>
+<ItemStemFullText>Nginenkinga nesifiso sokudla</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3422</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>23</ItemStemConceptID>
+<ItemStemFullText>Kufanele ngihlale ngibheka ukuthi ngenze izinto ngendlela efanele (njengokuthi iswishi ivaliwe, noma umnyango ukhiyiwe)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3423</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>24</ItemStemConceptID>
+<ItemStemFullText>Ngizizwa ngisaba uma kufanele ngilale ngedwa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3424</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>32</ItemStemConceptID>
+<ItemStemFullText>Nginenkinga yokuya esikoleni ekuseni ngoba ngizizwa nginovalo noma ngesaba</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3425</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>16</ItemStemConceptID>
+<ItemStemFullText>Anginawo amandla okwenza izinto</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3426</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>41</ItemStemConceptID>
+<ItemStemFullText>Ngikhathazekile ngokuthi ngingase ngibukeke ngiyisiwula</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3427</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>13</ItemStemConceptID>
+<ItemStemFullText>Ngikhathele kakhulu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3428</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>39</ItemStemConceptID>
+<ItemStemFullText>Ngikhathazekile ngokuthi izinto ezimbi zizokwenzeka kimi</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3429</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>6</ItemStemConceptID>
+<ItemStemFullText>Angiboni ngikhipha imicabango emibi noma engasile ekhanda lami</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3430</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>34</ItemStemConceptID>
+<ItemStemFullText>Uma nginenkinga, inhliziyo yami ishaya kakhulu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3431</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>5</ItemStemConceptID>
+<ItemStemFullText>Angikwazi ukucabanga kahle</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3432</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>30</ItemStemConceptID>
+<ItemStemFullText>Ngivele ngithuthumele noma ngiqhaqhazele lapho kungekho isizathu salokhu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3433</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>43</ItemStemConceptID>
+<ItemStemFullText>Ngikhathazekile ngokuthi kukhona okubi okuzokwenzeka kimi</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3434</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>33</ItemStemConceptID>
+<ItemStemFullText>Uma nginenkinga, ngizizwa ngiqhaqhazela</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3435</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>15</ItemStemConceptID>
+<ItemStemFullText>Ngizizwa ngingento yalutho</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3436</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>36</ItemStemConceptID>
+<ItemStemFullText>Ngiyakhathazeka ngokwenza amaphutha</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3437</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>20</ItemStemConceptID>
+<ItemStemFullText>Kufanele ngicabange ngemicabango ekhethekile (njengezinombolo noma amazwi) ukuvimba izinto ezimbi ukuthi zenzeke</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3438</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>44</ItemStemConceptID>
+<ItemStemFullText>Ngiyakhathazeka ngokuthi abanye abantu bacabangani ngami</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3439</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>1</ItemStemConceptID>
+<ItemStemFullText>Ngesaba ukuba sendaweni egcwele abantu (njengasezinxanxatheleni zezitolo, emibukisweni, amabhasi, izinkundla zokudlala ezimatasa)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3440</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>28</ItemStemConceptID>
+<ItemStemFullText>Ngokuphazima kweso ngizizwa ngisaba ngempela ngaphandle kwesizathu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3441</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>38</ItemStemConceptID>
+<ItemStemFullText>Ngikhathazekile ngokuzokwenzeka</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3442</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>27</ItemStemConceptID>
+<ItemStemFullText>Ngivele ngibe nesiyezi noma ngiquleke lapho kungekho isizathu salokhu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3443</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>31</ItemStemConceptID>
+<ItemStemFullText>Ngicabanga ngokufa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3444</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>3</ItemStemConceptID>
+<ItemStemFullText>Ngizizwa ngisaba uma kufanele ngikhulume phambi kwekilasi lami</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3445</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>22</ItemStemConceptID>
+<ItemStemFullText>Inhliziyo yami ivele ishaye ngokushesha ngaphandle kwesizathu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3446</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>9</ItemStemConceptID>
+<ItemStemFullText>Ngizwa sengathi angifuni ukunyakaza</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3447</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>47</ItemStemConceptID>
+<ItemStemFullText>Ngikhathazeka ngokuthi ngizothola ngokuzumayo umuzwa wokwesaba lapho kungenasidingo sokwesaba</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3448</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>19</ItemStemConceptID>
+<ItemStemFullText>Kufanele ngenze ezinye izinto ngokuphindaphindiwe (njengokugeza  izandla zami, ukuhlanza noma ukubeka izinto ngokulandelana okuthile)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3449</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>2</ItemStemConceptID>
+<ItemStemFullText>Ngizizwa ngisaba ukuthi ngizozenza isilima phambi</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3450</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>18</ItemStemConceptID>
+<ItemStemFullText>Kufanele ngenze ezinye izinto ngendlela efanele ukuze ngivimbele</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3451</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>40</ItemStemConceptID>
+<ItemStemFullText>Ngiyakhathazeka uma ngilala ebusuku</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3452</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>25</ItemStemConceptID>
+<ItemStemFullText>Ngingazizwa nginovalo uma kufanele ngiqhele ekhaya ebusuku</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3453</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>11</ItemStemConceptID>
+<ItemStemFullText>Ngizizwa ngingahlaliseki</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3454</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>37</ItemStemConceptID>
+<ItemStemFullText>Ingane yami ikhathazeka ngezinto</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3455</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>12</ItemStemConceptID>
+<ItemStemFullText>Ingane yami izizwa idabukile noma ingenalutho</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3456</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>35</ItemStemConceptID>
+<ItemStemFullText>Uma ingane yami inenkinga, ithola okuhlekisayo ezwa esiswini sakhe</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3457</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>45</ItemStemConceptID>
+<ItemStemFullText>Ingane yami iyakhathazeka uma icabanga ukuthi ikwenzile kabi kokuthile</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3458</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>7</ItemStemConceptID>
+<ItemStemFullText>Ingane yami izizwa isaba ukuba yedwa ekhaya</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3459</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>10</ItemStemConceptID>
+<ItemStemFullText>Ayisekho into emnandi enganeni yami</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3460</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>26</ItemStemConceptID>
+<ItemStemFullText>Ingane yami izizwa yethukile lapho ihlola</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3461</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>14</ItemStemConceptID>
+<ItemStemFullText>Ingane yami iyakhathazeka uma icabanga ukuthi kukhona umuntu amthukuthelele</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3462</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>8</ItemStemConceptID>
+<ItemStemFullText>Ingane yami ikhathazekile ngokuba kude nami</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3463</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>4</ItemStemConceptID>
+<ItemStemFullText>Ingane yami ihlushwa imicabango emibi noma engasile noma izithombe engqondweni yakhe</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3464</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>21</ItemStemConceptID>
+<ItemStemFullText>Ingane yami inenkinga yokulala</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3465</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>46</ItemStemConceptID>
+<ItemStemFullText>Ingane yami ikhathazekile ngokwenza kabi emsebenzini wesikole</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3466</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>42</ItemStemConceptID>
+<ItemStemFullText>Ingane yami ikhathazekile ngokuthi kukhona okubi okuzokwenzeka othile emndenini</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3467</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>29</ItemStemConceptID>
+<ItemStemFullText>Ingane yami ivele ibe sengathi ayikwazi ukuphefumula lapho singekho isizathu salokhu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3468</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>17</ItemStemConceptID>
+<ItemStemFullText>Ingane yami inezinkinga ngesifiso sayo sokudla</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3469</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>23</ItemStemConceptID>
+<ItemStemFullText>Ingane yami kufanele ihlale ibheka ukuthi isikwenzile izinto zilungile (njengokungathi iswishi ivaliwe, noma umnyango ukhiyiwe)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3470</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>24</ItemStemConceptID>
+<ItemStemFullText>Ingane yami izizwa isaba ukulala yodwa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3471</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>32</ItemStemConceptID>
+<ItemStemFullText>Ingane yami inenkinga yokuya esikoleni ekuseni ngenxa yokuzwa uvalo noma ukwesaba</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3472</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>16</ItemStemConceptID>
+<ItemStemFullText>Ingane yami ayinawo amandla ezinto</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3473</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>41</ItemStemConceptID>
+<ItemStemFullText>Ingane yami ikhathazekile ngokubukeka isilima</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3474</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>13</ItemStemConceptID>
+<ItemStemFullText>Ingane yami ikhathele kakhulu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3475</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>39</ItemStemConceptID>
+<ItemStemFullText>Ingane yami ikhathazekile ngokuthi kuzokwenzeka izinto ezimbi kuye</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3476</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>6</ItemStemConceptID>
+<ItemStemFullText>Ingane yami ayibonakali ikhipha imicabango emibi noma engasile ikhanda lakhe</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3477</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>34</ItemStemConceptID>
+<ItemStemFullText>Uma ingane yami inenkinga, inhliziyo yayo ishaya ngokushesha ngempela</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3478</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>5</ItemStemConceptID>
+<ItemStemFullText>Ingane yami ayikwazi ukucabanga kahle</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3479</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>30</ItemStemConceptID>
+<ItemStemFullText>Ingane yami ivele iqale ukuthuthumela noma ukuqhaqhazela lapho asikho isizathu salokhu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3480</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>43</ItemStemConceptID>
+<ItemStemFullText>Ingane yami ikhathazekile ngokuthi kukhona okubi okuzokwenzekakuye</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3481</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>33</ItemStemConceptID>
+<ItemStemFullText>Uma ingane yami inenkinga, izizwa iqhaqhazela</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3482</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>15</ItemStemConceptID>
+<ItemStemFullText>Ingane yami izizwa ingelutho</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3483</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>36</ItemStemConceptID>
+<ItemStemFullText>Ingane yami ikhathazeka ngokwenza amaphutha</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3484</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>20</ItemStemConceptID>
+<ItemStemFullText>Ingane yami kufanele icabange ngemicabango ekhethekile (njengezinombolo noma amagama) ukuvimba izinto ezimbi ukuthi zenzeke</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3485</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>44</ItemStemConceptID>
+<ItemStemFullText>Ingane yami ikhathazeka ngokuthi abanye abantu bacabangani ngayo</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3486</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>1</ItemStemConceptID>
+<ItemStemFullText>Ingane yami yesaba ukuba sendaweni egcwele abantu (like izindawo zokuthenga, amamuvi, amabhasi, izinkundla zokudlala ezimatasa)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3487</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>28</ItemStemConceptID>
+<ItemStemFullText>Kusenjalo ingane yami izozizwa isaba impela cha isizathu nhlobo</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3488</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>38</ItemStemConceptID>
+<ItemStemFullText>Ingane yami ikhathazekile ngokuthi kuzokwenzekani</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3489</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>27</ItemStemConceptID>
+<ItemStemFullText>Ingane yami iba nesiyezi noma iquleke kungazelelwe lapho akusona isizathu salokhu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3490</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>31</ItemStemConceptID>
+<ItemStemFullText>Ingane yami icabanga ngokufa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3491</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>3</ItemStemConceptID>
+<ItemStemFullText>Ingane yami iyesaba uma kufanele ikhulume phambi kwayo ikilasi</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3492</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>22</ItemStemConceptID>
+<ItemStemFullText>Inhliziyo yengane yami ivele ishaye ngokushesha ngaphandle kwesizathu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3493</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>9</ItemStemConceptID>
+<ItemStemFullText>Ingane yami izwa sengathi ayifuni ukunyakaza</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3494</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>47</ItemStemConceptID>
+<ItemStemFullText>Ingane yami ikhathazekile ngokuthi izothola a umuzwa wokwesaba lapho kungekho lutho okumelwe lwesabe</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3495</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>19</ItemStemConceptID>
+<ItemStemFullText>Ingane yami kufanele yenze ezinye izinto ngokuphindaphindiwe (njenge ukugeza izandla, ukuhlanza, noma ukuhlela izinto ngendlela ethile)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3496</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>2</ItemStemConceptID>
+<ItemStemFullText>Ingane yami izizwa isaba ukuthi izokwenza isilima yena phambi kwabantu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3497</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>18</ItemStemConceptID>
+<ItemStemFullText>Ingane yami kufanele yenze ezinye izinto ngendlela efanele ukumisa izinto ezimbi ukuthi zingenzeki</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3498</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>40</ItemStemConceptID>
+<ItemStemFullText>Ingane yami iyakhathazeka uma ilele ebusuku</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3499</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>25</ItemStemConceptID>
+<ItemStemFullText>Ingane yami ingazizwa isaba uma kufanele ingahambi kusuka ekhaya ebusuku</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3500</ItemStemID>
+<ItemStemLanguage>41</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>11</ItemStemConceptID>
+<ItemStemFullText>Ingane yami izizwa ingaphumuli</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3132</ItemStemID>
