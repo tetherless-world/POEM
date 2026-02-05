@@ -157,6 +157,10 @@
   rdfs:label "Marathi";
   skos:notation "MR" .
 
+<http://purl.org/twc/poem/individual/language/41> a sio:Language, sio:SIO_000104;
+  rdfs:label "Zulu";
+  skos:notation "ZU" .
+
 <http://purl.org/twc/poem/individual/language/5> a sio:Language, sio:SIO_000104;
   schema:countryCode "NL";
   rdfs:label "Dutch";
