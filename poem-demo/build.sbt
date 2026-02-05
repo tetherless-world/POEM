@@ -16,7 +16,7 @@ scalaVersion := "3.3.7"
 libraryDependencies += guice
 
 // https://mvnrepository.com/artifact/org.apache.jena/jena-arq
-libraryDependencies += "org.apache.jena" % "jena-arq" % "5.6.0"
+libraryDependencies += "org.apache.jena" % "jena-arq" % "6.0.0"
 
 // https://mvnrepository.com/artifact/org.webjars/bootstrap
 libraryDependencies += "org.webjars" % "bootstrap" % "5.3.8"
@@ -34,40 +34,40 @@ libraryDependencies += "org.webjars.npm" % "choices.js" % "11.1.0"
 libraryDependencies += "com.google.code.gson" % "gson" % "2.13.2"
 
 // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
-libraryDependencies += "com.fasterxml.jackson.core" % "jackson-databind" % "2.20.1"
+libraryDependencies += "com.fasterxml.jackson.core" % "jackson-databind" % "2.21.0"
 
 // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
-libraryDependencies += "com.fasterxml.jackson.core" % "jackson-core" % "2.20.1"
+libraryDependencies += "com.fasterxml.jackson.core" % "jackson-core" % "2.21.0"
 
 // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations
-libraryDependencies += "com.fasterxml.jackson.core" % "jackson-annotations" % "2.20"
+libraryDependencies += "com.fasterxml.jackson.core" % "jackson-annotations" % "2.21"
 
 // https://mvnrepository.com/artifact/com.fasterxml.jackson.module/jackson-module-scala
-libraryDependencies += "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.20.1"
+libraryDependencies += "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.21.0"
 
 // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
 libraryDependencies += "org.apache.poi" % "poi-ooxml" % "5.5.1"
 
 // https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-base
-libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-base" % "8.6.1"
+libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-base" % "8.6.3"
 
 // https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-structures-r5
-libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-r5" % "8.6.1"
+libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-r5" % "8.6.3"
 
 // https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-structures-r4b
-libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-r4b" % "8.6.1"
+libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-r4b" % "8.6.3"
 
 // https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-structures-r4
-libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-r4" % "8.6.1"
+libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-r4" % "8.6.3"
 
 // https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-structures-dstu3
-libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-dstu3" % "8.6.1"
+libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-dstu3" % "8.6.3"
 
 // https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-structures-dstu2
-libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-dstu2" % "8.6.1"
+libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-dstu2" % "8.6.3"
 
 // https://mvnrepository.com/artifact/com.openai/openai-java
-libraryDependencies += "com.openai" % "openai-java" % "4.14.0"
+libraryDependencies += "com.openai" % "openai-java" % "4.17.0"
 
 // https://mvnrepository.com/artifact/org.json/json
 libraryDependencies += "org.json" % "json" % "20251224"
