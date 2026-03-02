@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.vite/
+.next/
+
+# Python envs
+.venv/
+venv/
+.env
+
+# Logs
+*.log
