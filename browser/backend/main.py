@@ -1,8 +1,23 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, APIRouter, Request
 from fastapi.middleware.cors import CORSMiddleware
+from poem.loader import load_dataset
+from pathlib import Path
+from contextlib import asynccontextmanager
+from rdflib import URIRef
+from typing import Any
+from rdflib.namespace import RDFS
+from api.routes import router
+DATA_DIR: Path = Path(__file__).parent / "data"
 
-app: FastAPI = FastAPI()
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    POEM  = load_dataset(DATA_DIR)
+    app.state.POEM = POEM
 
+    yield
+
+app: FastAPI = FastAPI(lifespan = lifespan)
+app.include_router(router)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173"],
@@ -14,3 +29,10 @@ app.add_middleware(
 @app.get("/api/health")
 def health() -> dict[str, str]:
     return {"status": "ok"}
+@app.get("/instruments")
+def get_instruments(request: Request):
+    instrument_graph =  request.app.state.POEM.graph(URIRef("urn:poem:file:instruments.ttl"))
+    res = []
+    for s in instrument_graph.subjects():
+        res.append(s)
+    return res

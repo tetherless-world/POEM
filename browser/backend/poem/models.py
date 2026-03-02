@@ -9,6 +9,7 @@ class Ref(Node):
 class Language(Node):
     notation: Optional[str] = None
     country_code: Optional[str] = None
+
 class InstrumentCollection(Node):
     definition: Optional[str] = None
     instruments: List[Ref] = []
@@ -28,12 +29,13 @@ class Item(Node):
 class item_stem(Node):
     item_stem_concept: List[Ref] = []
 
-class scale(Node):
+class Scale(Node):
     notation: Optional[str] = None
 
-class agent(Node):
+class Agent(Node):
     person: Optional[Ref] = None
-class activity(Node):
+
+class Activity(Node):
     methods: List[Ref] = []
     used: List[Ref] = []
     generated: Optional[Ref]

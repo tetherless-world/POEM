@@ -1,7 +1,6 @@
 import { Search, BookOpen } from "lucide-react";
 import MeasureCard, { type measureProps } from "../components/measureCard";
 import { Frown, ClipboardCheck } from "lucide-react";
-import Footer from "../components/footer";
 import { Link } from "react-router-dom";
 const measureCards: measureProps[] = [{name:"Depression Measures", description:"Standardized tools for measuring depression", count: 100, Icon: Frown}, {name: "Anxiety Measures", description: "Standardized tools for measuring anxiety", count: 100, Icon: ClipboardCheck }]
 export default function Home() {

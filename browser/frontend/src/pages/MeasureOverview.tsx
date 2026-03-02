@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 export default function MeasureOveriew() {
   return (
     <div>
@@ -62,20 +63,20 @@ export default function MeasureOveriew() {
               <button className="bg-slate-500 text-white rounded-3xl shadow-lg hover:bg-slate-600 text-xl px-5 py-3 trasition duration-300 ease-in-out hover:scale-110">
                 Anxiety
               </button>
-              <button className="bg-gray-500 text-white shadow-lg hover:bg-gray-600 text-lg p-2 trasition duration-300 ease-in-out hover:scale-110 rounded-sm">
+              <Link to="/measures/rcads"className="bg-gray-500 text-white shadow-lg hover:bg-gray-600 text-lg p-2 trasition duration-300 ease-in-out hover:scale-110 rounded-sm">
                 RCADS
-              </button>
-              <button className="bg-gray-500 text-white shadow-lg hover:bg-gray-600 text-lg p-2 trasition duration-300 ease-in-out hover:scale-110 rounded-sm">
-                GAD
-              </button>
+              </Link>
+              <Link to="/measures/gad7" className="bg-gray-500 text-white shadow-lg hover:bg-gray-600 text-lg p-2 trasition duration-300 ease-in-out hover:scale-110 rounded-sm">
+                GAD-7
+              </Link>
             </div>
             <div className="flex flex-col items-center space-y-8">
               <button className="bg-slate-500 text-white rounded-3xl shadow-lg hover:bg-slate-600 text-xl px-5 py-3 trasition duration-300 ease-in-out hover:scale-110">
                 Depression
               </button>
-              <button className="bg-gray-500 text-white shadow-lg hover:bg-gray-600 text-lg p-2 trasition duration-300 ease-in-out hover:scale-110 w-fit rounded-sm">
+              <Link to = "/measures/rcads" className="bg-gray-500 text-white shadow-lg hover:bg-gray-600 text-lg p-2 trasition duration-300 ease-in-out hover:scale-110 w-fit rounded-sm">
                 RCADS
-              </button>
+              </Link>
             </div>
           </div>
         </div>
