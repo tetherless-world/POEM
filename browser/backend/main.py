@@ -29,10 +29,3 @@ app.add_middleware(
 @app.get("/api/health")
 def health() -> dict[str, str]:
     return {"status": "ok"}
-@app.get("/instruments")
-def get_instruments(request: Request):
-    instrument_graph =  request.app.state.POEM.graph(URIRef("urn:poem:file:instruments.ttl"))
-    res = []
-    for s in instrument_graph.subjects():
-        res.append(s)
-    return res

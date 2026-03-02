@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 export default function MeasureOveriew() {
   return (
     <div>
@@ -44,39 +44,106 @@ export default function MeasureOveriew() {
           <h2 className="text-3xl">Mental Health Tree</h2>
           <p>click any node to explore</p>
         </div>
-        <div className="max-w-6xl mx-auto bg-white rounded-2xl border-2 border-gray-200 shadow-xl p-12">
-          <div>
-            <button className="bg-amber-500 text-white rounded-3xl shadow-lg hover:bg-amber-600 text-xl p-5 transition duration-300 ease-in-out hover:scale-110">
-              Mental Health Measures
-            </button>
-          </div>
-          <div className="flex justify-center gap-12 mt-12">
-            <div className="flex flex-col items-center space-y-8">
-              <button className="bg-slate-500 text-white rounded-3xl shadow-lg hover:bg-slate-600 text-xl px-5 py-3 trasition duration-300 ease-in-out hover:scale-110">
-                Treatments
-              </button>
-              <button className="bg-gray-500 text-white shadow-lg hover:bg-gray-600 text-lg p-2 trasition duration-300 ease-in-out hover:scale-110 rounded-sm">
-                MTT
+        <div className=" relative max-w-6xl mx-auto bg-white rounded-2xl border-2 border-gray-200 shadow-xl p-12">
+          <svg
+            className="pointer-events-none absolute inset-0 h-full w-full"
+            viewBox="0 0 1000 500"
+            preserveAspectRatio="none"
+          >
+            <line
+              x1="500"
+              y1="90"
+              x2="500"
+              y2="180"
+              stroke="#CBD5E1"
+              strokeWidth="4"
+            />
+            <line
+              x1="350"
+              y1="180"
+              x2="650"
+              y2="180"
+              stroke="#CBD5E1"
+              strokeWidth="4"
+            />
+            <line
+              x1="350"
+              y1="180"
+              x2="350"
+              y2="300"
+              stroke="#CBD5E1"
+              strokeWidth="4"
+            />
+            <line
+              x1="500"
+              y1="180"
+              x2="500"
+              y2="400"
+              stroke="#CBD5E1"
+              strokeWidth="4"
+            />
+            <line
+              x1="650"
+              y1="180"
+              x2="650"
+              y2="400"
+              stroke="#CBD5E1"
+              strokeWidth="4"
+            />
+          </svg>
+
+          <div className="relative ">
+            <div>
+              <button className="bg-amber-500 text-white rounded-3xl shadow-lg hover:bg-amber-600 text-xl p-5 transition duration-300 ease-in-out hover:scale-110">
+                Mental Health Measures
               </button>
             </div>
-            <div className="flex flex-col items-center space-y-8">
-              <button className="bg-slate-500 text-white rounded-3xl shadow-lg hover:bg-slate-600 text-xl px-5 py-3 trasition duration-300 ease-in-out hover:scale-110">
-                Anxiety
-              </button>
-              <Link to="/measures/rcads"className="bg-gray-500 text-white shadow-lg hover:bg-gray-600 text-lg p-2 trasition duration-300 ease-in-out hover:scale-110 rounded-sm">
-                RCADS
-              </Link>
-              <Link to="/measures/gad7" className="bg-gray-500 text-white shadow-lg hover:bg-gray-600 text-lg p-2 trasition duration-300 ease-in-out hover:scale-110 rounded-sm">
-                GAD-7
-              </Link>
-            </div>
-            <div className="flex flex-col items-center space-y-8">
-              <button className="bg-slate-500 text-white rounded-3xl shadow-lg hover:bg-slate-600 text-xl px-5 py-3 trasition duration-300 ease-in-out hover:scale-110">
-                Depression
-              </button>
-              <Link to = "/measures/rcads" className="bg-gray-500 text-white shadow-lg hover:bg-gray-600 text-lg p-2 trasition duration-300 ease-in-out hover:scale-110 w-fit rounded-sm">
-                RCADS
-              </Link>
+            <div className="flex justify-center gap-12 mt-12">
+              <div className="flex flex-col items-center space-y-8">
+                <button className="bg-slate-500 text-white rounded-3xl shadow-lg hover:bg-slate-600 text-xl px-5 py-3 trasition duration-300 ease-in-out hover:scale-110">
+                  Treatments
+                </button>
+                <Link
+                  to="/measures/mtt"
+                  className="bg-gray-500 text-white shadow-lg hover:bg-gray-600 text-lg p-2 trasition duration-300 ease-in-out hover:scale-110 rounded-sm"
+                >
+                  MTT
+                </Link>
+              </div>
+              <div className="flex flex-col items-center space-y-8">
+                <button className="bg-slate-500 text-white rounded-3xl shadow-lg hover:bg-slate-600 text-xl px-5 py-3 trasition duration-300 ease-in-out hover:scale-110">
+                  Anxiety
+                </button>
+                <Link
+                  to="/measures/rcads"
+                  className="bg-gray-500 text-white shadow-lg hover:bg-gray-600 text-lg p-2 trasition duration-300 ease-in-out hover:scale-110 rounded-sm"
+                >
+                  RCADS
+                </Link>
+                <Link
+                  to="/measures/gad7"
+                  className="bg-gray-500 text-white shadow-lg hover:bg-gray-600 text-lg p-2 trasition duration-300 ease-in-out hover:scale-110 rounded-sm"
+                >
+                  GAD-7
+                </Link>
+              </div>
+              <div className="flex flex-col items-center space-y-8">
+                <button className="bg-slate-500 text-white rounded-3xl shadow-lg hover:bg-slate-600 text-xl px-5 py-3 trasition duration-300 ease-in-out hover:scale-110">
+                  Depression
+                </button>
+                <Link
+                  to="/measures/rcads"
+                  className="bg-gray-500 text-white shadow-lg hover:bg-gray-600 text-lg p-2 trasition duration-300 ease-in-out hover:scale-110 w-fit rounded-sm"
+                >
+                  RCADS
+                </Link>
+                <Link
+                  to="/measures/phq"
+                  className="bg-gray-500 text-white shadow-lg hover:bg-gray-600 text-lg p-2 trasition duration-300 ease-in-out hover:scale-110 w-fit rounded-sm"
+                >
+                  PHQ
+                </Link>
+              </div>
             </div>
           </div>
         </div>

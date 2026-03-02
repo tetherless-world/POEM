@@ -21,3 +21,16 @@ def gad(POEM: Dataset = Depends(get_POEM)):
     languages = getTotalLanguages(POEM, "GAD")
     itemConcepts = getInstrumentItemConcepts(POEM, "GAD-7 GAD-7")
     return {"count": count, "languages":languages, "itemConcepts": itemConcepts}
+@router.get("/mtt")
+def mtt(POEM: Dataset = Depends(get_POEM)):
+    count = getTotalInstruments(POEM, "MTT")
+    languages = getTotalLanguages(POEM, "MTT")
+    itemConcepts = getInstrumentItemConcepts(POEM, "MTT-35-Y-EN-1 MTT-35-CG-EN-1")
+    return {"count": count, "languages":languages, "itemConcepts": itemConcepts}
+@router.get("/phq")
+def mtt(POEM: Dataset = Depends(get_POEM)):
+    count = getTotalInstruments(POEM, "PHQ")
+    languages = getTotalLanguages(POEM, "PHQ")
+    itemConcepts = getInstrumentItemConcepts(POEM, "PHQ-9-A-EN PHQ-9-A-EN")
+    return {"count": count, "languages":languages, "itemConcepts": itemConcepts}
+
