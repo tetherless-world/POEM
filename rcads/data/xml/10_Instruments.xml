@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="10_Instruments.xsd" generated="2026-02-03T10:49:51">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="10_Instruments.xsd" generated="2026-02-26T10:30:16">
 <_x0031_0_Instruments>
 <InstrumentID>1</InstrumentID>
 <InstrumentName>RCADS-47-Y-EN</InstrumentName>
@@ -1208,8 +1208,7 @@
 <InstrumentFamily>1</InstrumentFamily>
 <Language>27</Language>
 <Informant>1</Informant>
-<Annotation>No items</Annotation>
-<Deprecated>1</Deprecated>
+<Deprecated>0</Deprecated>
 <Authorized>0</Authorized>
 <ReadRighttoLeft>0</ReadRighttoLeft>
 <Unavailable_x0028_NotGenerated_x0029_>0</Unavailable_x0028_NotGenerated_x0029_>
@@ -1220,8 +1219,7 @@
 <InstrumentFamily>1</InstrumentFamily>
 <Language>27</Language>
 <Informant>2</Informant>
-<Annotation>No items</Annotation>
-<Deprecated>1</Deprecated>
+<Deprecated>0</Deprecated>
 <Authorized>0</Authorized>
 <ReadRighttoLeft>0</ReadRighttoLeft>
 <Unavailable_x0028_NotGenerated_x0029_>0</Unavailable_x0028_NotGenerated_x0029_>
@@ -1338,8 +1336,7 @@
 <InstrumentFamily>1</InstrumentFamily>
 <Language>29</Language>
 <Informant>1</Informant>
-<Annotation>No items</Annotation>
-<Deprecated>1</Deprecated>
+<Deprecated>0</Deprecated>
 <Authorized>0</Authorized>
 <ReadRighttoLeft>0</ReadRighttoLeft>
 <Unavailable_x0028_NotGenerated_x0029_>0</Unavailable_x0028_NotGenerated_x0029_>
@@ -1399,7 +1396,7 @@
 <Language>28</Language>
 <Informant>2</Informant>
 <Annotation>Not yet generated</Annotation>
-<Deprecated>1</Deprecated>
+<Deprecated>0</Deprecated>
 <Authorized>0</Authorized>
 <ReadRighttoLeft>0</ReadRighttoLeft>
 <Unavailable_x0028_NotGenerated_x0029_>1</Unavailable_x0028_NotGenerated_x0029_>
@@ -1750,9 +1747,8 @@
 <InstrumentFamily>1</InstrumentFamily>
 <Language>1</Language>
 <Informant>2</Informant>
-<Annotation>gender neutral version. Needs to be entered</Annotation>
-<Deprecated>1</Deprecated>
-<Authorized>0</Authorized>
+<Deprecated>0</Deprecated>
+<Authorized>1</Authorized>
 <ReadRighttoLeft>0</ReadRighttoLeft>
 <Unavailable_x0028_NotGenerated_x0029_>0</Unavailable_x0028_NotGenerated_x0029_>
 </_x0031_0_Instruments>
@@ -1762,9 +1758,8 @@
 <InstrumentFamily>1</InstrumentFamily>
 <Language>1</Language>
 <Informant>2</Informant>
-<Annotation>gender neutral version. Needs to be entered</Annotation>
-<Deprecated>1</Deprecated>
-<Authorized>0</Authorized>
+<Deprecated>0</Deprecated>
+<Authorized>1</Authorized>
 <ReadRighttoLeft>0</ReadRighttoLeft>
 <Unavailable_x0028_NotGenerated_x0029_>0</Unavailable_x0028_NotGenerated_x0029_>
 </_x0031_0_Instruments>
@@ -1774,9 +1769,8 @@
 <InstrumentFamily>1</InstrumentFamily>
 <Language>34</Language>
 <Informant>1</Informant>
-<Annotation>needs to be entered</Annotation>
-<Deprecated>1</Deprecated>
-<Authorized>0</Authorized>
+<Deprecated>0</Deprecated>
+<Authorized>1</Authorized>
 <ReadRighttoLeft>0</ReadRighttoLeft>
 <Unavailable_x0028_NotGenerated_x0029_>0</Unavailable_x0028_NotGenerated_x0029_>
 </_x0031_0_Instruments>
@@ -1786,21 +1780,20 @@
 <InstrumentFamily>1</InstrumentFamily>
 <Language>34</Language>
 <Informant>2</Informant>
-<Annotation>needs to be entered</Annotation>
-<Deprecated>1</Deprecated>
-<Authorized>0</Authorized>
+<Deprecated>0</Deprecated>
+<Authorized>1</Authorized>
 <ReadRighttoLeft>0</ReadRighttoLeft>
 <Unavailable_x0028_NotGenerated_x0029_>0</Unavailable_x0028_NotGenerated_x0029_>
 </_x0031_0_Instruments>
 <_x0031_0_Instruments>
 <InstrumentID>160</InstrumentID>
-<InstrumentName>RCADS-25-Y-NY</InstrumentName>
+<InstrumentName>RCADS-25-Y-NY-1</InstrumentName>
 <InstrumentFamily>1</InstrumentFamily>
 <Language>34</Language>
 <Informant>1</Informant>
-<Annotation>needs to be entered</Annotation>
+<Annotation>Inconsistent codebook response option</Annotation>
 <Deprecated>1</Deprecated>
-<Authorized>0</Authorized>
+<Authorized>1</Authorized>
 <ReadRighttoLeft>0</ReadRighttoLeft>
 <Unavailable_x0028_NotGenerated_x0029_>0</Unavailable_x0028_NotGenerated_x0029_>
 </_x0031_0_Instruments>
@@ -1810,9 +1803,8 @@
 <InstrumentFamily>1</InstrumentFamily>
 <Language>34</Language>
 <Informant>2</Informant>
-<Annotation>needs to be entered</Annotation>
-<Deprecated>1</Deprecated>
-<Authorized>0</Authorized>
+<Deprecated>0</Deprecated>
+<Authorized>1</Authorized>
 <ReadRighttoLeft>0</ReadRighttoLeft>
 <Unavailable_x0028_NotGenerated_x0029_>0</Unavailable_x0028_NotGenerated_x0029_>
 </_x0031_0_Instruments>
@@ -1932,7 +1924,7 @@
 <InstrumentFamily>1</InstrumentFamily>
 <Language>41</Language>
 <Informant>1</Informant>
-<Deprecated>1</Deprecated>
+<Deprecated>0</Deprecated>
 <Authorized>1</Authorized>
 <ReadRighttoLeft>0</ReadRighttoLeft>
 <Unavailable_x0028_NotGenerated_x0029_>0</Unavailable_x0028_NotGenerated_x0029_>
@@ -1943,7 +1935,7 @@
 <InstrumentFamily>1</InstrumentFamily>
 <Language>41</Language>
 <Informant>2</Informant>
-<Deprecated>1</Deprecated>
+<Deprecated>0</Deprecated>
 <Authorized>1</Authorized>
 <ReadRighttoLeft>0</ReadRighttoLeft>
 <Unavailable_x0028_NotGenerated_x0029_>0</Unavailable_x0028_NotGenerated_x0029_>
@@ -1954,7 +1946,7 @@
 <InstrumentFamily>1</InstrumentFamily>
 <Language>41</Language>
 <Informant>1</Informant>
-<Deprecated>1</Deprecated>
+<Deprecated>0</Deprecated>
 <Authorized>1</Authorized>
 <ReadRighttoLeft>0</ReadRighttoLeft>
 <Unavailable_x0028_NotGenerated_x0029_>0</Unavailable_x0028_NotGenerated_x0029_>
@@ -1965,7 +1957,18 @@
 <InstrumentFamily>1</InstrumentFamily>
 <Language>41</Language>
 <Informant>2</Informant>
-<Deprecated>1</Deprecated>
+<Deprecated>0</Deprecated>
+<Authorized>1</Authorized>
+<ReadRighttoLeft>0</ReadRighttoLeft>
+<Unavailable_x0028_NotGenerated_x0029_>0</Unavailable_x0028_NotGenerated_x0029_>
+</_x0031_0_Instruments>
+<_x0031_0_Instruments>
+<InstrumentID>176</InstrumentID>
+<InstrumentName>RCADS-25-Y-NY-2</InstrumentName>
+<InstrumentFamily>1</InstrumentFamily>
+<Language>34</Language>
+<Informant>1</Informant>
+<Deprecated>0</Deprecated>
 <Authorized>1</Authorized>
 <ReadRighttoLeft>0</ReadRighttoLeft>
 <Unavailable_x0028_NotGenerated_x0029_>0</Unavailable_x0028_NotGenerated_x0029_>

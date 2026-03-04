@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="21_ItemStems.xsd" generated="2026-02-03T10:50:39">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="21_ItemStems.xsd" generated="2026-02-26T10:30:54">
 <_x0032_1_ItemStems>
 <ItemStemID>2735</ItemStemID>
 <ItemStemLanguage>30</ItemStemLanguage>
@@ -22899,6 +22899,1126 @@ overnatte hjemmefra</ItemStemFullText>
 <Informant>2</Informant>
 <ItemStemConceptID>11</ItemStemConceptID>
 <ItemStemFullText>Ingane yami izizwa ingaphumuli</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3501</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>37</ItemStemConceptID>
+<ItemStemFullText>Ndimadandaula za zinthu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3502</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>12</ItemStemConceptID>
+<ItemStemFullText>Ndimamva kukhumudwa kapena kupelewera.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3503</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>35</ItemStemConceptID>
+<ItemStemFullText>Ndikakhala ndi vuto,ndimamva zachilendo mmimba mwanga</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3504</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>45</ItemStemConceptID>
+<ItemStemFullText>Ndimadangdaula ndikaganiza kuti sinachite bwino pa chinachake</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3505</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>7</ItemStemConceptID>
+<ItemStemFullText>Nditha kuchita mantha kukhala ndekha pakhomo</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3506</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>10</ItemStemConceptID>
+<ItemStemFullText>Palibe chimwe chimndisangalatsa masiku ano</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3507</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>26</ItemStemConceptID>
+<ItemStemFullText>Ndimachita mantha ndikafuna kulemba mayeso</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3508</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>14</ItemStemConceptID>
+<ItemStemFullText>Ndimadandaula ndikaganiza kuti munthu wina wandikwiyira</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3509</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>8</ItemStemConceptID>
+<ItemStemFullText>Ndimadandaula ndikakhala kutali ndi makolo anga</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3510</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>4</ItemStemConceptID>
+<ItemStemFullText>Ndimavutika ndi Maganizo kapena zithunzithunzi zoyipa kapena zopanda pake mmaganizo mwanga</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3511</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>21</ItemStemConceptID>
+<ItemStemFullText>Ndimavutika kugona</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3512</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>46</ItemStemConceptID>
+<ItemStemFullText>Ndimadandaula kuti sindichita bwino ku sukulu.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3513</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>42</ItemStemConceptID>
+<ItemStemFullText>Ndimadandaula kuti chinachake choyipa chichitikira wa kiubanja kwathu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3514</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>29</ItemStemConceptID>
+<ItemStemFullText>Pena ndimabanika popanda chifukwa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3515</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>17</ItemStemConceptID>
+<ItemStemFullText>Ndili ndi vuto la chilakolako cha chakudya</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3516</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>23</ItemStemConceptID>
+<ItemStemFullText>Ndimabwereza bwereza kuona ngati ndapanga zinthu molondola(ngati magetsi ndazimitsidwa kapena chitseko chatsekedwa )</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3517</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>24</ItemStemConceptID>
+<ItemStemFullText>Ndimaopa ndikakhala ndigona ndekha</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3518</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>32</ItemStemConceptID>
+<ItemStemFullText>Ndimavutika kupita ku sukulu mmawa chifukwa ndimaopa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3519</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>16</ItemStemConceptID>
+<ItemStemFullText>Ndiibe mphamvu yopanga zinthu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3520</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>41</ItemStemConceptID>
+<ItemStemFullText>Ndimadandaula kuti ndioneka opusa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3521</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>13</ItemStemConceptID>
+<ItemStemFullText>Ndimatopa kwamnbiri</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3522</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>39</ItemStemConceptID>
+<ItemStemFullText>Ndimaopa kuti zinthu zoipa zindichitikira</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3523</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>6</ItemStemConceptID>
+<ItemStemFullText>ndimakanika kuchotsa Maganizo oyipa kapena opanda pake mmaganizo mwanga</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3524</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>34</ItemStemConceptID>
+<ItemStemFullText>Ndikakhala ndi vuto mtima wanga umathamanga</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3525</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>5</ItemStemConceptID>
+<ItemStemFullText>Sindikuganiza bwino bwino</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3526</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>30</ItemStemConceptID>
+<ItemStemFullText>Ndimangoyamba kunjenjemera popanda chifukwa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3527</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>43</ItemStemConceptID>
+<ItemStemFullText>Ndimaopa kuti china chake choyipa chindichitikira</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3528</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>33</ItemStemConceptID>
+<ItemStemFullText>Ndikakhala ndi vuto ndimanjenjemera/sindikhazikika</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3529</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>15</ItemStemConceptID>
+<ItemStemFullText>Ndimadzimva kusafunikira</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3530</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>36</ItemStemConceptID>
+<ItemStemFullText>Ndimadaula kuti ndilakwitsa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3531</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>20</ItemStemConceptID>
+<ItemStemFullText>Ndimayika Maganizo anga pa chinachake (monga ma nambala kapena mawu) kuletsa zinthu zoyipa kuti zisachtike</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3532</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>44</ItemStemConceptID>
+<ItemStemFullText>Ndimadandaula zomwe anthu akundiganizira.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3533</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>1</ItemStemConceptID>
+<ItemStemFullText>Ndimachita mantha kukhala pa malo a gulu (monga malo amalonda, kanema, mu basi, malo osewelela)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3534</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>28</ItemStemConceptID>
+<ItemStemFullText>Nimangoyamba kuoanga mantha popanda chifukwa cheni cheni</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3535</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>38</ItemStemConceptID>
+<ItemStemFullText>Ndimadandaula pa zomwe zingachitike</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3536</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>27</ItemStemConceptID>
+<ItemStemFullText>Ndimamva chizungulire apena kukomoka popanda chifukwa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3537</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>31</ItemStemConceptID>
+<ItemStemFullText>Ndimganiza za imfa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3538</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>3</ItemStemConceptID>
+<ItemStemFullText>Ndimachita mantha kulankhula kwa ana anzanga mkalasi</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3539</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>22</ItemStemConceptID>
+<ItemStemFullText>Mtima wanga umangoyamba kuthamanga kwambiri popanda chifukwa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3540</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>9</ItemStemConceptID>
+<ItemStemFullText>Ndimamva ngati sindikufuna kuyenda</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3541</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>47</ItemStemConceptID>
+<ItemStemFullText>ndimadandaula kuti ndikhala ndi mantha popanda chowopsa chilichonse</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3542</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>19</ItemStemConceptID>
+<ItemStemFullText>Ndimachita zinthu mobwereza bwereza (monga kusamba manja, kukonza kapena kuyika zinthu mwandondomeko)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3543</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>2</ItemStemConceptID>
+<ItemStemFullText>ndimachita mantha kuti ndizichititsa manyazi pa maso pa anthu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3544</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>18</ItemStemConceptID>
+<ItemStemFullText>Ndimamayenela kuchita zinthu zina moyenela kuti ndiletse zinthu zoyipa kuchitika</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3545</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>40</ItemStemConceptID>
+<ItemStemFullText>Ndimadandaula ndikamagona usiku</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3546</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>25</ItemStemConceptID>
+<ItemStemFullText>Nditha kuchita mantha nditakhala kuti sindinagone kunyumba</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3547</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>11</ItemStemConceptID>
+<ItemStemFullText>Sindimakhazikika</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3548</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>37</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amadandaula za zinthu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3549</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>12</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amamva kukhumudwa kapena kupelewela.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3550</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>35</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga akakhala ndi vuto amamva zachilendo mmimba mwake</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3551</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>45</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amadandaula akaganizila kuti sanachite bwino pa chinachake</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3552</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>7</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amachita mantha akakhala ekha khomo</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3553</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>10</ItemStemConceptID>
+<ItemStemFullText>Palibe chomwe chikumamusangalatsaso mwana wanga pano.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3554</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>26</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amachita mantha akamalemba mayeso</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3555</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>14</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amadandaula akamaganizila kuti munthu wina wamukwiyila</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3556</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>8</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amadandaula akakhala kutali nane</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3557</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>4</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amavutisidwa ndi maganizo kapena zithunzithunzi zopanda pake mmaganizo ake</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3558</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>21</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amavutika kugona.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3559</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>46</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amadandaula pa kusachita bwino ku sukulu.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3560</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>42</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amadandaula kuti chinthu choopysa chitha kuchitkila anthu apabanja pathu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3561</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>29</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amava ngati akubanika popanda chifukwa cheni cheni.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3562</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>17</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga ali ndi vuto ndi chilako lako cha chakudya</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3563</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>23</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amabwereza bwereza ngati wapanga zinthu molondola(ngati magetsi wazimitsidwa kapena chitseko chatsekedwa )</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3564</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>24</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amachita mantha kugona ekha</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3565</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>32</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amavutika kupita ku sukulu m’mawa chifukwa amachita mantha</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3566</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>16</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga alibe mphavu yopanga zinthu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3567</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>41</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amadandaula za kuoneka opusa.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3568</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>13</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amakhala otopa kwambiri</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3569</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>39</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amadandaula kuti zinthu zoyipa zimuchitikila</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3570</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>6</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amakanika kuchosa maganizo oyipa kapena opanda pake mmaganizo mwake.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3571</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>34</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga akakhala ndi vuto mtima wake umathamanga.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3572</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>5</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga sakuganiza bwino bwino</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3573</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>30</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amangoyamba kunjenjemela opanda chifukwa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3574</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>43</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amadandaula kuti chinachake choyipa chimuchitikila.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3575</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>33</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga akakhala ndi vuto amanjenjemera/sakhazikika</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3576</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>15</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amadzimva kusafunikila</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3577</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>36</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amadandaula kuti apanga zolakwika</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3578</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>20</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amayika Maganizo pa chinachake (monga ma nambala kapena mawu) kuletsa zinthu zoyipa kuti zisachitike</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3579</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>44</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amadandaula pa zomwe anthu akumuganizila.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3580</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>1</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amakhala ndi mantha kukhala malo agulu la anthu (monga malo amalonda, kanema, mu basi, malo osewelela)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3581</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>28</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amangoyamba kupanga mantha popanda chifukwa cheni cheni</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3582</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>38</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amadandaula pa zomwe zingachitike</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3583</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>27</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amangoyamba kumva chizungulire kapena kukomoka popanda chifukwa.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3584</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>31</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amaganiza za imfa</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3585</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>3</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amachita mantha akati alankhule kwa ana anzake mkalasi</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3586</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>22</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga mtima wake umangoyamba kuthamanga kwambiri popanda chifukwa cheni cheni</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3587</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>9</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amamva ngati sakufuna kuyenda</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3588</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>47</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amadandaula kuti akhala ndi mantha pamene palibe chowopsya chilichonse</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3589</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>19</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amachita zinthu mobwereza bwereza (monga kusamba manja, kukonza kapena kuyika zinthu mwandondomeko)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3590</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>2</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amachita mantha kuti azichitisa manyazi pamaso pa anthu</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3591</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>18</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amayenela kuchita zinthu zina moyenela kuti aletse zinthu zoyipa kuchitika</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3592</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>40</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga amadandaula akakhala malo ake ogona usiku</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3593</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>25</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga atha kuchita mantha atakhala kuti sanagone kunyumba</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3594</ItemStemID>
+<ItemStemLanguage>34</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>11</ItemStemConceptID>
+<ItemStemFullText>Mwana wanga samakhazikika</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3595</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>37</ItemStemConceptID>
+<ItemStemFullText>আমি বিভিন্ন বিষয়ে চিন্তিত থাকি</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3596</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>12</ItemStemConceptID>
+<ItemStemFullText>আমি দুঃখ বা শূণ্যতা অনুভব করি</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3597</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>35</ItemStemConceptID>
+<ItemStemFullText>When my child has a problem, they get a funny feeling in their stomach</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3598</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>45</ItemStemConceptID>
+<ItemStemFullText>My child worries when they think they have done poorly at something</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3599</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>35</ItemStemConceptID>
+<ItemStemFullText>ঝামেলায় পড়লে আমার পেটে অস্বস্তি লাগে</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3600</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>45</ItemStemConceptID>
+<ItemStemFullText>কোন কাজে খারাপ করেছি এমনটা ভাবলে আমি চিন্তায় পড়ে যাই</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3601</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>7</ItemStemConceptID>
+<ItemStemFullText>বাসায় একা থাকতে ভয় পাই</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3602</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>14</ItemStemConceptID>
+<ItemStemFullText>My child worries when they think someone is angry with them</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3603</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>10</ItemStemConceptID>
+<ItemStemFullText>কিছুই আর আগের মত ততটা আনন্দময় লাগে না</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3604</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>4</ItemStemConceptID>
+<ItemStemFullText>My child is bothered by bad or silly thoughts or pictures in their mind</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3605</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>26</ItemStemConceptID>
+<ItemStemFullText>যখন আমার কোন পরীক্ষা দিতে হয়, তখন আমি ভয় পাই</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3606</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>14</ItemStemConceptID>
+<ItemStemFullText>কেউ আমার প্রতি রাগ করলে, আমি চিন্তায় পড়ে যাই</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3607</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>8</ItemStemConceptID>
+<ItemStemFullText>বাবা-মা থেকে দূরে থাকলে আমি চিন্তিত হই</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3608</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>29</ItemStemConceptID>
+<ItemStemFullText>My child suddenly feels as if they can&apos;t breathe when there is no reason for this</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3609</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>17</ItemStemConceptID>
+<ItemStemFullText>My child has problems with their appetite</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3610</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>23</ItemStemConceptID>
+<ItemStemFullText>My child has to keep checking that they have done things right (like the switch is off, or the door is locked)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3611</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>24</ItemStemConceptID>
+<ItemStemFullText>My child feels scared to sleep on their own</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3612</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>4</ItemStemConceptID>
+<ItemStemFullText>আমার মনে খারাপ অথবা অযৌক্তিক চিন্তা অথবা ছবি দ্বারা আমি বিরক্ত হই</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3613</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>21</ItemStemConceptID>
+<ItemStemFullText>আমার ঘুমের সমস্যা হয়</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3614</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>46</ItemStemConceptID>
+<ItemStemFullText>আমার ভয় লাগে যে, আমি লেখাপড়ায় খারাপ করবো</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3615</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>42</ItemStemConceptID>
+<ItemStemFullText>আমার ভয় হয় যে, আমার পরিবারের কারো প্রতি খারাপ কিছু ঘটবে</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3616</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>39</ItemStemConceptID>
+<ItemStemFullText>My child worries that bad things will happen to them</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3617</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>6</ItemStemConceptID>
+<ItemStemFullText>My child can&apos;t seem to get bad or silly thoughts out of their head.</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3618</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>34</ItemStemConceptID>
+<ItemStemFullText>When my child has a problem, their heart beats really fast</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3619</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>29</ItemStemConceptID>
+<ItemStemFullText>হঠাৎ করে কারন ছাড়াই শ্বাস-প্রশ্বাস নিতে অসুবিধা হচ্ছে বলে আমি অনুভব করি</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3620</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>17</ItemStemConceptID>
+<ItemStemFullText>আমার খাবার রুচির সমস্যা আছে</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3621</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>43</ItemStemConceptID>
+<ItemStemFullText>My child worries that something bad will happen to them</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3622</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>33</ItemStemConceptID>
+<ItemStemFullText>When my child has a problem, they feel shaky</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3623</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>23</ItemStemConceptID>
+<ItemStemFullText>আমি কোন কিছু সঠিকভাবে করেছি কিনা তা বারবার দেখতে হয় (যেমন সুইচ বন্ধ বা দরজা বন্ধ করেছি কিনা)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3624</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>24</ItemStemConceptID>
+<ItemStemFullText>একা ঘুমাতে আমার ভয় লাগে</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3625</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>32</ItemStemConceptID>
+<ItemStemFullText>সকালে স্কুলে যাওয়ার সময় আমার দুঃশ্চিন্তা ও ভয়ের কারনে সমস্যা হয়</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3626</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>44</ItemStemConceptID>
+<ItemStemFullText>My child worries what other people think of them</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3627</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>16</ItemStemConceptID>
+<ItemStemFullText>আমি কোন কাজে শক্তি পাই না</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3628</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>41</ItemStemConceptID>
+<ItemStemFullText>মানুষ আমাকে বোকা ভাবতে পারে বলে আমি ভয় পাই</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3629</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>13</ItemStemConceptID>
+<ItemStemFullText>আমি অনেক ক্লান্ত</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3630</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>39</ItemStemConceptID>
+<ItemStemFullText>আমি ভয় পাই যে, আমার প্রতি খারাপ কিছু ঘটবে</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3631</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>6</ItemStemConceptID>
+<ItemStemFullText>আমি আমার মাথা থেকে খারাপ বা তুচ্ছ চিন্তা সরাতে পারি না মনে হচ্ছে</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3632</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>3</ItemStemConceptID>
+<ItemStemFullText>My child feels afraid if they have to talk in front of the class</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3633</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>34</ItemStemConceptID>
+<ItemStemFullText>সমস্যায় পড়লে আমার হৃদস্পন্দন বেশ দ্রুত হয়</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3634</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>9</ItemStemConceptID>
+<ItemStemFullText>My child feels like they don&apos;t want to move</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3635</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>47</ItemStemConceptID>
+<ItemStemFullText>My child worries that they will suddenly get a scared feeling when there is nothing to be afraid of</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3636</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>5</ItemStemConceptID>
+<ItemStemFullText>আমি সঠিকভাবে চিন্তা করতে পারি না</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3637</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>2</ItemStemConceptID>
+<ItemStemFullText>My child feels afraid that they will make a fool of themself in front of people</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3638</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>30</ItemStemConceptID>
+<ItemStemFullText>কোন কারণ ছাড়াই আমি হঠাৎ করে কাঁপতে থাকি</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3639</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>43</ItemStemConceptID>
+<ItemStemFullText>আমি ভয় পাই যে, আমার সাথে খারাপ কিছু হবে</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3640</ItemStemID>
+<ItemStemLanguage>1</ItemStemLanguage>
+<Informant>2</Informant>
+<ItemStemConceptID>25</ItemStemConceptID>
+<ItemStemFullText>My child would feel scared if they had to stay away from home overnight</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3641</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>33</ItemStemConceptID>
+<ItemStemFullText>সমস্যায় পড়লে আমি দ্বিধান্বিত হয়ে যাই</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3642</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>15</ItemStemConceptID>
+<ItemStemFullText>আমার নিজেকে মূল্যহীন মনে হয়</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3643</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>36</ItemStemConceptID>
+<ItemStemFullText>আমি দুশ্চিন্তা করি আমার ভুল করা নিয়ে</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3644</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>20</ItemStemConceptID>
+<ItemStemFullText>খারাপ ঘটনা ঘটা বন্ধ করতে আমাকে নির্দিষ্ট ধরনের চিন্তা করতে হয় (যেমন সংখ্যা বা শব্দ)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3645</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>44</ItemStemConceptID>
+<ItemStemFullText>অন্য মানুষ আমার সম্পর্কে কেমন ভাবে তা নিয়ে আমি চিন্তিত থাকি</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3646</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>1</ItemStemConceptID>
+<ItemStemFullText>আমি মানুষের ভীড়ে যেতে ভয় পাই (যেমন শপিং সেন্টার, সিনেমা হল, বিপণী বিতান, বাসে, ব্যস্ত খেলার মাঠে)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3647</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>28</ItemStemConceptID>
+<ItemStemFullText>হঠাৎ করে আমি কোন কারণ ছাড়াই ভয় পাই</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3648</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>38</ItemStemConceptID>
+<ItemStemFullText>আমি দুশ্চিন্তা করি কি ঘটতে যাচ্ছে</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3649</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>27</ItemStemConceptID>
+<ItemStemFullText>কোন কারণ ছাড়াই আমার হঠাৎ মাথা ঘুরায়/নিস্তেজ হয়ে যাই</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3650</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>31</ItemStemConceptID>
+<ItemStemFullText>আমি মৃত্যু সম্বন্ধে চিন্তা করি</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3651</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>3</ItemStemConceptID>
+<ItemStemFullText>আমার শ্রেণীকক্ষে সবার সামনে কথা বলতে ভয় পাই</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3652</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>22</ItemStemConceptID>
+<ItemStemFullText>কোন কারণ ছাড়াই আমার হৃদস্পন্দন হঠাৎ বেড়ে যায়</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3653</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>9</ItemStemConceptID>
+<ItemStemFullText>আমি অনুভব করি আমি স্থান পরিবর্তন করতে চাই না</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3654</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>47</ItemStemConceptID>
+<ItemStemFullText>কোন কারণ ছাড়াই আমি হঠাৎ ভয় পেয়ে যাব বলে আমি চিন্তিত থাকি</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3655</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>19</ItemStemConceptID>
+<ItemStemFullText>আমাকে বার বার একই কাজ করতে হয় (যেমন বার বার হাত ধোয়া, পরিষ্কার করা অথবা কোন কিছু নির্দিষ্ট নিয়মে রাখা)</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3656</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>2</ItemStemConceptID>
+<ItemStemFullText>মানুষের সামনে আমি নিজেকে বোকায় পরিণত করবো বলে আমার ভয় লাগে</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3657</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>18</ItemStemConceptID>
+<ItemStemFullText>খারাপ কিছু ঘটা বন্ধ করতে আমাকে নির্দিষ্ট নিয়ম মেনে কিছু করতে হয়</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3658</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>40</ItemStemConceptID>
+<ItemStemFullText>রাতে ঘুমাতে গেলে আমার ভয় লাগে</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3659</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>25</ItemStemConceptID>
+<ItemStemFullText>আমি ভয় অনুভব করতাম যদি আমাকে রাতে বাড়ি থেকে দূরে থাকতে হতো</ItemStemFullText>
+</_x0032_1_ItemStems>
+<_x0032_1_ItemStems>
+<ItemStemID>3660</ItemStemID>
+<ItemStemLanguage>29</ItemStemLanguage>
+<Informant>1</Informant>
+<ItemStemConceptID>11</ItemStemConceptID>
+<ItemStemFullText>আমার অস্থির লাগে</ItemStemFullText>
 </_x0032_1_ItemStems>
 <_x0032_1_ItemStems>
 <ItemStemID>3132</ItemStemID>
