@@ -5,6 +5,8 @@ instruments: str = "urn:poem:file:instruments.ttl"
 languages: str = "urn:poem:file:languages.ttl"
 items: str = "urn:poem:file:items.ttl"
 itemStems:  str = "urn:poem:file:itemStems.ttl"
+scale_instruments: str = "urn:poem:file:scalesInstrument.ttl"
+scales: str = "urn:poem:file:scales.ttl"
 def getTotalInstruments(POEM: Dataset, name: str):
     name = Literal(name).n3()
     query = f"""
@@ -67,3 +69,16 @@ def getInstrumentItemConcepts(POEM: Dataset, name: str):
     """
     return  {"youth": list([row.r for row in POEM.query(query1)]), "caregiver": list([row.r for row in POEM.query(query2)])}
 
+def getScales(POEM: Dataset, name: str):
+    name = Literal(name).n3()
+    scales_query = f"""
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    PREFIX sio: <http://semanticscience.org/resource/>
+    SELECT DISTINCT ?s
+    WHERE{{
+        GRAPH <{instruments}> {{?su rdfs:label {name}}}
+        GRAPH <{scale_instruments}> {{ ?su ?p ?o .}}
+        GRAPH <{scales}> {{?o rdfs:label ?s .}}
+    }}
+    """ 
+    return list([row.s for row in POEM.query(scales_query)])

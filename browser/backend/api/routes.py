@@ -2,7 +2,7 @@ from fastapi import APIRouter, Request, Depends
 from rdflib import Graph
 from rdflib import Dataset
 from api.deps import get_POEM
-from poem.query import getTotalInstruments, getTotalLanguages, getInstrumentItemConcepts
+from poem.query import getTotalInstruments, getTotalLanguages, getInstrumentItemConcepts, getScales
 router = APIRouter()
 
 @router.get("/api/debug/graphs")
@@ -14,7 +14,9 @@ def rcads(POEM: Dataset = Depends(get_POEM) ):
     count = getTotalInstruments(POEM,"RCADS")
     languages = getTotalLanguages(POEM, "RCADS")
     itemConcepts= getInstrumentItemConcepts(POEM, "RCADS-47-Y-EN RCADS-47-CG-EN")
-    return {"count": count, "languages": languages, "itemConcepts": itemConcepts}
+    scales = getScales(POEM, "RCADS-47-CG-EN")
+    print(scales)
+    return {"count": count, "languages": languages, "itemConcepts": itemConcepts, "scales": scales}
 @router.get("/gad7")
 def gad(POEM: Dataset = Depends(get_POEM)):
     count = getTotalInstruments(POEM,"GAD")
@@ -26,11 +28,13 @@ def mtt(POEM: Dataset = Depends(get_POEM)):
     count = getTotalInstruments(POEM, "MTT")
     languages = getTotalLanguages(POEM, "MTT")
     itemConcepts = getInstrumentItemConcepts(POEM, "MTT-35-Y-EN-1 MTT-35-CG-EN-1")
-    return {"count": count, "languages":languages, "itemConcepts": itemConcepts}
+    scales = getScales(POEM, "MTT-35-CG-EN-1")
+    return {"count": count, "languages":languages, "itemConcepts": itemConcepts, "scales": scales}
 @router.get("/phq")
 def mtt(POEM: Dataset = Depends(get_POEM)):
     count = getTotalInstruments(POEM, "PHQ")
     languages = getTotalLanguages(POEM, "PHQ")
     itemConcepts = getInstrumentItemConcepts(POEM, "PHQ-9-A-EN PHQ-9-A-EN")
-    return {"count": count, "languages":languages, "itemConcepts": itemConcepts}
+    scales = getScales(POEM, "PHQ-9-A-EN")
+    return {"count": count, "languages":languages, "itemConcepts": itemConcepts, "scales": scales}
 
