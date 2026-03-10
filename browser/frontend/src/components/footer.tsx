@@ -10,6 +10,6 @@ export default function Footer()
             <p> Broswer for mental health instruments to make assessment easier for
             researchers and clinicians.</p>
         </div>
-        <div className="flex"><Github/></div>
+        <a href= "https://github.com/tetherless-world/POEM"className="flex"><Github/></a>
     </footer>)
 }

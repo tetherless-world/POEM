@@ -1,14 +1,15 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import CountBox from "../../components/countBox";
 import Scales from "../../components/Scales";
+
 type Params = {
   id: string;
 };
 const descriptions: Record<string, String> = {
   rcads:
-    "The Revised Children's Anxiety and Depression Scale (RCADS) measures the reported frequency of various symptoms of anxiety and low mood.",
-  gad7: "The GAD-7 (General Anxiety Disorder-7) measures severity of anxiety",
+    "The Revised Children's Anxiety and Depression Scale (RCADS) instruments the reported frequency of various symptoms of anxiety and low mood.",
+  gad: "The GAD-7 (General Anxiety Disorder-7) instruments severity of anxiety",
   mtt: "The My Thoughts about Therapy instrument (MTT) is a 35-item questionnaire with 5 subscales,each with 7 items, that represent the multidimensional REACH framework for characterizingtreatment engagement",
   phq: "The Patient Health Questionnaire-9 (PHQ-9) is a widely used, 9-question self-administered tool for screening and assessing the severity of depression in adults.",
 };
@@ -18,8 +19,7 @@ export default function InstrumentPage() {
   const [name, setName] = useState("");
   const [instrumentCount, setInstrumentCount] = useState(0);
   const [languageCount, setLanguageCount] = useState(0);
-  const [caregiver, setCaregiver] = useState([""]);
-  const [youth, setYouth] = useState([""]);
+
   const [scales, setScales] = useState([""]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -32,8 +32,6 @@ export default function InstrumentPage() {
         const data = await res.json();
         setInstrumentCount(data.count);
         setLanguageCount(data.languages);
-        setCaregiver(data.itemConcepts.caregiver);
-        setYouth(data.itemConcepts.youth);
         if(data.scales !== undefined && data.scales.length > 0){ 
           setScales(data.scales);
         }
@@ -63,13 +61,14 @@ export default function InstrumentPage() {
           </h1>
 
           <p className="mt-5 text-base md:text-lg text-white/90 max-w-3xl  leading-relaxed">
-            {descriptions[name]}
-          </p>
-        </div>
-      </section>
-      <section className="mx-auto">
+                {descriptions[name]}
+              </p>
+            </div>
+          </section>
+          <section className="mx-auto mt-12">
+            <div className="flex justify-center "><Link to={`/instruments/list/${id}`} className="trasition duration-300 ease-in-out hover:scale-105 text-center text-2xl mb-12 shadow-md hover:shadow-2xl p-2 rounded-2xl">Instrument List</Link></div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-auto mt-12">
-          <CountBox count={instrumentCount} description="total instruments" />
+          <CountBox count={instrumentCount} description="total  instruments" />
           <CountBox count={languageCount} description="total languages" />
         </div>
       </section>
@@ -77,14 +76,14 @@ export default function InstrumentPage() {
         {adultInstruments.includes(name) ? (
           <div className="text-center">
             <h2 className="text-2xl font-bold">Respondent</h2>{" "}
-            <p className="shadow-md hover:shadow-2xl p-3  rounded-2xl">Adult</p>{" "}
+            <p className="shadow-md hover:shadow-2xl mt-12 p-3  trasition duration-300 ease-in-out hover:scale-105 rounded-2xl">Adult</p>{" "}
           </div>
         ) : (
           <div className="text-center">
-            <h2 className="text-2xl font-bold">Respondents</h2> <div className="flex justify-center gap-2" >
-            <p className="shadow-md hover:shadow-2xl text-xl p-3 rounded-2xl">Youth</p>
+            <h2 className="text-2xl font-bold">Respondents</h2> <div className="flex justify-center gap-2 mt-12" >
+            <p className="shadow-md hover:shadow-2xl text-xl p-3 trasition duration-300 ease-in-out hover:scale-105  rounded-2xl">Youth</p>
 
-            <p className="shadow-md hover:shadow-2xl text-xl p-3 rounded-2xl">Caregiver</p>
+            <p className="shadow-md hover:shadow-2xl text-xl p-3  trasition duration-300 ease-in-out hover:scale-105 rounded-2xl">Caregiver</p>
             </div>
           </div>
         )}

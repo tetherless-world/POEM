@@ -1,17 +1,17 @@
 import type { LucideIcon } from "lucide-react";
 
-export type measureProps = {
+export type instrumentProps = {
   name: string;
   description: string;
   count: number;
   Icon?: LucideIcon;
 };
-export default function MeasureCard({
+export default function InstrumentSection({
   name,
   description,
   count,
   Icon,
-}: measureProps) {
+}: instrumentProps) {
   return (
     <div className="border-2 shadow-xl hover:shadow-2xl rounded-xl space-y-5">
       <div className="h-3 rounded-t-xl bg-gradient-to-r from-amber-500/80 to-amber-600/80 ">

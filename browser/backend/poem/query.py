@@ -4,6 +4,7 @@ instrumentsCollections: str = "urn:poem:file:instrumentCollections.ttl"
 instruments: str = "urn:poem:file:instruments.ttl"
 languages: str = "urn:poem:file:languages.ttl"
 items: str = "urn:poem:file:items.ttl"
+informants: str = "urn:poem:file:informants.ttl"
 itemStems:  str = "urn:poem:file:itemStems.ttl"
 scale_instruments: str = "urn:poem:file:scalesInstrument.ttl"
 scales: str = "urn:poem:file:scales.ttl"
@@ -82,3 +83,32 @@ def getScales(POEM: Dataset, name: str):
     }}
     """ 
     return list([row.s for row in POEM.query(scales_query)])
+def getAllInstruments(POEM: Dataset, name: str):
+    name = Literal(name.upper()).n3()
+    query = f"""
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sio: <http://semanticscience.org/resource/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT DISTINCT ?label ?lang ?i
+WHERE {{
+    GRAPH <{instrumentsCollections}> {{?s rdfs:label {name} }}
+    GRAPH <{instrumentsCollections}> {{?s sio:SIO_000059 ?o.}}
+    GRAPH <{instruments}> {{?o rdfs:label ?label .}}
+    GRAPH <{instruments}> {{?o sio:SIO_000008 ?l .}}
+    GRAPH <{instruments}> {{?o sio:SIO_000008 ?in .}}
+    GRAPH <{languages}> {{?l rdfs:label ?lang .}}
+    GRAPH <{informants}> {{?in rdfs:label ?i .}}
+    GRAPH <{instruments}> {{?o owl:deprecated 0.}}
+    }}
+"""
+    return list([{"name": row.label, "lang": row.lang, "informant": row.i, "count": int(row.label.split('-')[1])} for row in POEM.query(query)])
+def getAllScales(POEM: Dataset):
+    query = f"""
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sio: <http://semanticscience.org/resource/>
+SELECT DISTINCT ?label
+WHERE {{
+    GRAPH <{scales}> {{?s rdfs:label ?label .}}
+    }}
+"""
+    return list([row.label for row in POEM.query(query)])

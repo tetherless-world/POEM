@@ -7,7 +7,7 @@ export default function NavBar() {
 
             <div className="flex items-center gap-3">
                 <h2 className="text-xl font-semibold text-gray-800 whitespace-nowrap">
-                    <span className="text-amber-500">Poem</span> Mental Health Measures
+                    <span className="text-amber-500">Poem</span> Mental Health instruments
                 </h2>
             </div>
 
@@ -16,7 +16,7 @@ export default function NavBar() {
                 <a className="hover:text-gray-900 transition" href="#">About</a>
                 <a className="hover:text-gray-900 transition" href="#">User Guide</a>
                 <a className="hover:text-gray-900 transition" href="#">Glossary</a>
-                <NavLink to="measureoverview" className="hover:text-gray-900 transition" >Measures</NavLink>
+                <NavLink to="instrumentoverview" className="hover:text-gray-900 transition" >Instruments</NavLink>
                 <a className="hover:text-gray-900 transition" href="#">Contribute</a>
                 <a className="hover:text-gray-900 transition" href="#">Contact Us</a>
             </nav>

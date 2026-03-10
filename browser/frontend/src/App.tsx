@@ -4,8 +4,10 @@ import { Routes, Route} from "react-router-dom"
 import Home from "./pages/Home";
 import NavBar from './components/Navbar';
 import Footer from './components/footer';
-import MeasureOveriew from './pages/MeasureOverview';
-import InstrumentPage from './pages/measures/InstrumentPage';
+import InstrumentOverview from './pages/InstrumentOverview';
+import InstrumentPage from './pages/instruments/InstrumentPage';
+import InstrumentList from './pages/instruments/list/page';
+import Scales from './pages/Scales';
 export default function App() {
   return (
     <div className='flex flex-col min-h-screen'>
@@ -14,8 +16,10 @@ export default function App() {
     <Routes>
       
       <Route path = "/" element = {<Home />} />
-      <Route path = "measureoverview" element = {<MeasureOveriew/>} />
-      <Route path="/measures/:id" element={<InstrumentPage />} />
+      <Route path = "instrumentoverview" element = {<InstrumentOverview/>} />
+      <Route path="/instruments/:id" element={<InstrumentPage />} />
+      <Route path="/instruments/list/:id" element={<InstrumentList />} />
+      <Route path ="/scales" element={<Scales />} />
     </Routes>
     </main>
      <Footer/>

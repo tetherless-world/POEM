@@ -1,6 +1,5 @@
 export default function RespondentQuestions({ youth, caregiver }: { youth: string[]; caregiver: string[] }) {
-   return 
-     ( <section className="flex justify-center gap-6 mt-12 mx-auto">
+   return  ( <section className="flex justify-center gap-6 mt-12 mx-auto">
         <div className="text-md">
           <h2 className="font-bold text-lg text-center">Youth Questions</h2>
           <div className="flex flex-col gap-y-6">
@@ -22,4 +21,4 @@ export default function RespondentQuestions({ youth, caregiver }: { youth: strin
           </div>
         </div>
       </section> )
-     |
+     }

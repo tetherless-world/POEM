@@ -2,7 +2,7 @@ from fastapi import APIRouter, Request, Depends
 from rdflib import Graph
 from rdflib import Dataset
 from api.deps import get_POEM
-from poem.query import getTotalInstruments, getTotalLanguages, getInstrumentItemConcepts, getScales
+from poem.query import getTotalInstruments, getTotalLanguages, getInstrumentItemConcepts, getScales, getAllInstruments, getAllScales
 router = APIRouter()
 
 @router.get("/api/debug/graphs")
@@ -15,9 +15,8 @@ def rcads(POEM: Dataset = Depends(get_POEM) ):
     languages = getTotalLanguages(POEM, "RCADS")
     itemConcepts= getInstrumentItemConcepts(POEM, "RCADS-47-Y-EN RCADS-47-CG-EN")
     scales = getScales(POEM, "RCADS-47-CG-EN")
-    print(scales)
     return {"count": count, "languages": languages, "itemConcepts": itemConcepts, "scales": scales}
-@router.get("/gad7")
+@router.get("/gad")
 def gad(POEM: Dataset = Depends(get_POEM)):
     count = getTotalInstruments(POEM,"GAD")
     languages = getTotalLanguages(POEM, "GAD")
@@ -38,3 +37,11 @@ def mtt(POEM: Dataset = Depends(get_POEM)):
     scales = getScales(POEM, "PHQ-9-A-EN")
     return {"count": count, "languages":languages, "itemConcepts": itemConcepts, "scales": scales}
 
+@router.get("/instruments/{name}")
+def get_instruments(POEM: Dataset = Depends(get_POEM), name: str = "RCADS"):
+    instruments = getAllInstruments(POEM, name)
+    return {"instruments": instruments}
+@router.get("/scales")
+def get_scales(POEM: Dataset = Depends(get_POEM)):
+    scales = getAllScales(POEM)
+    return {"scales": scales}
