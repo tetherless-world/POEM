@@ -1,0 +1,28 @@
+services:
+  browser-backend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile-browser-backend
+    image: poem-browser-backend:latest
+    container_name: poem-browser-backend
+    ports:
+      - "8000:8000"
+    networks:
+      - browser-net
+
+  browser-frontend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile-browser-frontend
+    image: poem-browser-frontend:latest
+    container_name: poem-browser-frontend
+    depends_on:
+      - browser-backend
+    ports:
+      - "8080:80"
+    networks:
+      - browser-net
+
+networks:
+  browser-net:
+    driver: bridge
