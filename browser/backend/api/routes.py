@@ -1,8 +1,10 @@
+from unicodedata import name
+
 from fastapi import APIRouter, Request, Depends
 from rdflib import Graph
 from rdflib import Dataset
 from api.deps import get_POEM
-from poem.query import getTotalInstruments, getTotalLanguages, getInstrumentItemConcepts, getScales, getAllInstruments, getAllScales
+from poem.query import get_instrument, get_items, getTotalInstruments, getTotalLanguages, getInstrumentItemConcepts, getScales, getAllInstruments, getAllScales, get_components
 router = APIRouter()
 
 @router.get("/api/debug/graphs")
@@ -45,3 +47,10 @@ def get_instruments(POEM: Dataset = Depends(get_POEM), name: str = "RCADS"):
 def get_scales(POEM: Dataset = Depends(get_POEM)):
     scales = getAllScales(POEM)
     return {"scales": scales}
+
+@router.get("/instrument/individual/{instrument}")
+def get_instrument_details(POEM: Dataset = Depends(get_POEM), instrument: str = "RCADS-47-Y-EN RCADS-47-CG-EN"):
+    items = get_items(POEM, instrument)
+    components = get_components(POEM, instrument)
+    instrumentR = get_instrument(POEM, instrument)
+    return {  "items": items, "components": components, "instrument": instrumentR}

@@ -6,8 +6,10 @@ languages: str = "urn:poem:file:languages.ttl"
 items: str = "urn:poem:file:items.ttl"
 informants: str = "urn:poem:file:informants.ttl"
 itemStems:  str = "urn:poem:file:itemStems.ttl"
+itemStemConcepts: str = "urn:poem:file:itemStemConcepts.ttl"
 scale_instruments: str = "urn:poem:file:scalesInstrument.ttl"
 scales: str = "urn:poem:file:scales.ttl"
+components: str = "urn:poem:file:components.ttl"
 def getTotalInstruments(POEM: Dataset, name: str):
     name = Literal(name).n3()
     query = f"""
@@ -112,3 +114,44 @@ WHERE {{
     }}
 """
     return list([row.label for row in POEM.query(query)])
+def get_items(POEM: Dataset, name: str):
+    name = Literal(name).n3()
+    query = f"""    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    PREFIX sio: <http://semanticscience.org/resource/>
+    SELECT DISTINCT ?label
+    WHERE {{
+        GRAPH <{instruments}> {{?su rdfs:label {name}}}
+        GRAPH <{instruments}> {{ ?su sio:SIO_000059 ?o .}}
+        GRAPH <{items}> {{ ?o sio:SIO_000253 ?c .}}
+        GRAPH <{itemStems}> {{?c rdfs:label ?label .}}
+    }}
+    """
+    return list([row.label for row in POEM.query(query)])
+def get_instrument(POEM: Dataset, name: str):
+    name = Literal(name).n3()
+    query = f"""PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sio: <http://semanticscience.org/resource/>
+SELECT DISTINCT ?language ?informant
+WHERE {{    
+    GRAPH <{instruments}> {{?su rdfs:label {name}}}
+    GRAPH <{instruments}> {{ ?su sio:SIO_000008 ?l .}}
+    GRAPH <{instruments}> {{ ?su sio:SIO_000008 ?in .}}
+    GRAPH <{languages}> {{?l rdfs:label ?language .}}
+    GRAPH <{informants}> {{?in rdfs:label ?informant .}}
+    }}
+"""
+    res = POEM.query(query)
+    for row in res:
+        return {"language": row.language, "informant": row.informant}
+    return None
+def get_components(POEM: Dataset, name: str):
+    name = Literal(name).n3()
+    query = f"""PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sio: <http://semanticscience.org/resource/>
+SELECT DISTINCT ?component
+WHERE {{
+    GRAPH <{instruments}> {{?su rdfs:label {name}}}
+    GRAPH <{instruments}> {{ ?su sio:SIO_000059 ?c.}}
+    GRAPH <{components}> {{?c rdfs:label ?component .}}
+    }} """
+    return list([row.component for row in POEM.query(query)])

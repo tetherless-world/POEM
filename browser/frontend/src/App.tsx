@@ -7,6 +7,7 @@ import Footer from './components/footer';
 import InstrumentOverview from './pages/InstrumentOverview';
 import InstrumentPage from './pages/instruments/InstrumentPage';
 import InstrumentList from './pages/instruments/list/page';
+import IndividualInstrumentPage from './pages/instruments/individual/page';
 import Scales from './pages/Scales';
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <Route path="/instruments/:id" element={<InstrumentPage />} />
       <Route path="/instruments/list/:id" element={<InstrumentList />} />
       <Route path ="/scales" element={<Scales />} />
+      <Route path= "/instruments/individual/:id" element={<IndividualInstrumentPage />} />
     </Routes>
     </main>
      <Footer/>

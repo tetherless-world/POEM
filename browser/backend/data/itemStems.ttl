@@ -16127,11 +16127,125 @@ moest zijn""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/11>;
   rdfs:label "Ingane yami izizwa ingaphumuli" .
 
+<http://purl.org/twc/poem/individual/itemStem/3501> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  rdfs:label "Ndimadandaula za zinthu" .
+
+<http://purl.org/twc/poem/individual/itemStem/3502> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  rdfs:label "Ndimamva kukhumudwa kapena kupelewera." .
+
+<http://purl.org/twc/poem/individual/itemStem/3503> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  rdfs:label "Ndikakhala ndi vuto,ndimamva zachilendo mmimba mwanga" .
+
+<http://purl.org/twc/poem/individual/itemStem/3504> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  rdfs:label "Ndimadangdaula ndikaganiza kuti sinachite bwino pa chinachake" .
+
+<http://purl.org/twc/poem/individual/itemStem/3505> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  rdfs:label "Nditha kuchita mantha kukhala ndekha pakhomo" .
+
+<http://purl.org/twc/poem/individual/itemStem/3506> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  rdfs:label "Palibe chimwe chimndisangalatsa masiku ano" .
+
+<http://purl.org/twc/poem/individual/itemStem/3507> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  rdfs:label "Ndimachita mantha ndikafuna kulemba mayeso" .
+
+<http://purl.org/twc/poem/individual/itemStem/3508> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  rdfs:label "Ndimadandaula ndikaganiza kuti munthu wina wandikwiyira" .
+
+<http://purl.org/twc/poem/individual/itemStem/3509> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  rdfs:label "Ndimadandaula ndikakhala kutali ndi makolo anga" .
+
 <http://purl.org/twc/poem/individual/itemStem/351> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#EST>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
   rdfs:label "Mu laps muretseb, et temaga juhtuvad halvad asjad" .
+
+<http://purl.org/twc/poem/individual/itemStem/3510> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  rdfs:label "Ndimavutika ndi Maganizo kapena zithunzithunzi zoyipa kapena zopanda pake mmaganizo mwanga" .
+
+<http://purl.org/twc/poem/individual/itemStem/3511> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  rdfs:label "Ndimavutika kugona" .
+
+<http://purl.org/twc/poem/individual/itemStem/3512> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  rdfs:label "Ndimadandaula kuti sindichita bwino ku sukulu." .
+
+<http://purl.org/twc/poem/individual/itemStem/3513> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  rdfs:label "Ndimadandaula kuti chinachake choyipa chichitikira wa kiubanja kwathu" .
+
+<http://purl.org/twc/poem/individual/itemStem/3514> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  rdfs:label "Pena ndimabanika popanda chifukwa" .
+
+<http://purl.org/twc/poem/individual/itemStem/3515> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  rdfs:label "Ndili ndi vuto la chilakolako cha chakudya" .
+
+<http://purl.org/twc/poem/individual/itemStem/3516> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  rdfs:label "Ndimabwereza bwereza kuona ngati ndapanga zinthu molondola(ngati magetsi ndazimitsidwa kapena chitseko chatsekedwa )" .
+
+<http://purl.org/twc/poem/individual/itemStem/3517> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  rdfs:label "Ndimaopa ndikakhala ndigona ndekha" .
+
+<http://purl.org/twc/poem/individual/itemStem/3518> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  rdfs:label "Ndimavutika kupita ku sukulu mmawa chifukwa ndimaopa" .
+
+<http://purl.org/twc/poem/individual/itemStem/3519> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  rdfs:label "Ndiibe mphamvu yopanga zinthu" .
 
 <http://purl.org/twc/poem/individual/itemStem/352> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#EST>;
@@ -16139,11 +16253,131 @@ moest zijn""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/6>;
   rdfs:label "Mu laps ei saa kuidagi halbu ja rumalaid mõtteid peast välja" .
 
+<http://purl.org/twc/poem/individual/itemStem/3520> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  rdfs:label "Ndimadandaula kuti ndioneka opusa" .
+
+<http://purl.org/twc/poem/individual/itemStem/3521> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  rdfs:label "Ndimatopa kwamnbiri" .
+
+<http://purl.org/twc/poem/individual/itemStem/3522> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  rdfs:label "Ndimaopa kuti zinthu zoipa zindichitikira" .
+
+<http://purl.org/twc/poem/individual/itemStem/3523> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  rdfs:label "ndimakanika kuchotsa Maganizo oyipa kapena opanda pake mmaganizo mwanga" .
+
+<http://purl.org/twc/poem/individual/itemStem/3524> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  rdfs:label "Ndikakhala ndi vuto mtima wanga umathamanga" .
+
+<http://purl.org/twc/poem/individual/itemStem/3525> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  rdfs:label "Sindikuganiza bwino bwino" .
+
+<http://purl.org/twc/poem/individual/itemStem/3526> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  rdfs:label "Ndimangoyamba kunjenjemera popanda chifukwa" .
+
+<http://purl.org/twc/poem/individual/itemStem/3527> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  rdfs:label "Ndimaopa kuti china chake choyipa chindichitikira" .
+
+<http://purl.org/twc/poem/individual/itemStem/3528> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  rdfs:label "Ndikakhala ndi vuto ndimanjenjemera/sindikhazikika" .
+
+<http://purl.org/twc/poem/individual/itemStem/3529> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  rdfs:label "Ndimadzimva kusafunikira" .
+
 <http://purl.org/twc/poem/individual/itemStem/353> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#EST>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/34>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/34>;
   rdfs:label "Kui mu lapsel on probleem, lööb ta süda väga kiiresti" .
+
+<http://purl.org/twc/poem/individual/itemStem/3530> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  rdfs:label "Ndimadaula kuti ndilakwitsa" .
+
+<http://purl.org/twc/poem/individual/itemStem/3531> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  rdfs:label "Ndimayika Maganizo anga pa chinachake (monga ma nambala kapena mawu) kuletsa zinthu zoyipa kuti zisachtike" .
+
+<http://purl.org/twc/poem/individual/itemStem/3532> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  rdfs:label "Ndimadandaula zomwe anthu akundiganizira." .
+
+<http://purl.org/twc/poem/individual/itemStem/3533> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  rdfs:label "Ndimachita mantha kukhala pa malo a gulu (monga malo amalonda, kanema, mu basi, malo osewelela)" .
+
+<http://purl.org/twc/poem/individual/itemStem/3534> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  rdfs:label "Nimangoyamba kuoanga mantha popanda chifukwa cheni cheni" .
+
+<http://purl.org/twc/poem/individual/itemStem/3535> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  rdfs:label "Ndimadandaula pa zomwe zingachitike" .
+
+<http://purl.org/twc/poem/individual/itemStem/3536> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  rdfs:label "Ndimamva chizungulire apena kukomoka popanda chifukwa" .
+
+<http://purl.org/twc/poem/individual/itemStem/3537> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  rdfs:label "Ndimganiza za imfa" .
+
+<http://purl.org/twc/poem/individual/itemStem/3538> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  rdfs:label "Ndimachita mantha kulankhula kwa ana anzanga mkalasi" .
+
+<http://purl.org/twc/poem/individual/itemStem/3539> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  rdfs:label "Mtima wanga umangoyamba kuthamanga kwambiri popanda chifukwa" .
 
 <http://purl.org/twc/poem/individual/itemStem/354> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#EST>;
@@ -16151,11 +16385,131 @@ moest zijn""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
   rdfs:label "Mu laps ei suuda selgelt mõelda" .
 
+<http://purl.org/twc/poem/individual/itemStem/3540> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  rdfs:label "Ndimamva ngati sindikufuna kuyenda" .
+
+<http://purl.org/twc/poem/individual/itemStem/3541> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  rdfs:label "ndimadandaula kuti ndikhala ndi mantha popanda chowopsa chilichonse" .
+
+<http://purl.org/twc/poem/individual/itemStem/3542> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  rdfs:label "Ndimachita zinthu mobwereza bwereza (monga kusamba manja, kukonza kapena kuyika zinthu mwandondomeko)" .
+
+<http://purl.org/twc/poem/individual/itemStem/3543> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  rdfs:label "ndimachita mantha kuti ndizichititsa manyazi pa maso pa anthu" .
+
+<http://purl.org/twc/poem/individual/itemStem/3544> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  rdfs:label "Ndimamayenela kuchita zinthu zina moyenela kuti ndiletse zinthu zoyipa kuchitika" .
+
+<http://purl.org/twc/poem/individual/itemStem/3545> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  rdfs:label "Ndimadandaula ndikamagona usiku" .
+
+<http://purl.org/twc/poem/individual/itemStem/3546> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  rdfs:label "Nditha kuchita mantha nditakhala kuti sindinagone kunyumba" .
+
+<http://purl.org/twc/poem/individual/itemStem/3547> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  rdfs:label "Sindimakhazikika" .
+
+<http://purl.org/twc/poem/individual/itemStem/3548> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  rdfs:label "Mwana wanga amadandaula za zinthu" .
+
+<http://purl.org/twc/poem/individual/itemStem/3549> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  rdfs:label "Mwana wanga amamva kukhumudwa kapena kupelewela." .
+
 <http://purl.org/twc/poem/individual/itemStem/355> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#EST>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
   rdfs:label "Mu laps hakkab ootamatult värisema või vappuma, kuigi selleks pole mingit põhjust" .
+
+<http://purl.org/twc/poem/individual/itemStem/3550> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  rdfs:label "Mwana wanga akakhala ndi vuto amamva zachilendo mmimba mwake" .
+
+<http://purl.org/twc/poem/individual/itemStem/3551> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  rdfs:label "Mwana wanga amadandaula akaganizila kuti sanachite bwino pa chinachake" .
+
+<http://purl.org/twc/poem/individual/itemStem/3552> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  rdfs:label "Mwana wanga amachita mantha akakhala ekha khomo" .
+
+<http://purl.org/twc/poem/individual/itemStem/3553> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  rdfs:label "Palibe chomwe chikumamusangalatsaso mwana wanga pano." .
+
+<http://purl.org/twc/poem/individual/itemStem/3554> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  rdfs:label "Mwana wanga amachita mantha akamalemba mayeso" .
+
+<http://purl.org/twc/poem/individual/itemStem/3555> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  rdfs:label "Mwana wanga amadandaula akamaganizila kuti munthu wina wamukwiyila" .
+
+<http://purl.org/twc/poem/individual/itemStem/3556> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  rdfs:label "Mwana wanga amadandaula akakhala kutali nane" .
+
+<http://purl.org/twc/poem/individual/itemStem/3557> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  rdfs:label "Mwana wanga amavutisidwa ndi maganizo kapena zithunzithunzi zopanda pake mmaganizo ake" .
+
+<http://purl.org/twc/poem/individual/itemStem/3558> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  rdfs:label "Mwana wanga amavutika kugona." .
+
+<http://purl.org/twc/poem/individual/itemStem/3559> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  rdfs:label "Mwana wanga amadandaula pa kusachita bwino ku sukulu." .
 
 <http://purl.org/twc/poem/individual/itemStem/356> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#EST>;
@@ -16163,11 +16517,131 @@ moest zijn""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
   rdfs:label "Mu laps muretseb, et temaga võib juhtuda midagi halba" .
 
+<http://purl.org/twc/poem/individual/itemStem/3560> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  rdfs:label "Mwana wanga amadandaula kuti chinthu choopysa chitha kuchitkila anthu apabanja pathu" .
+
+<http://purl.org/twc/poem/individual/itemStem/3561> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  rdfs:label "Mwana wanga amava ngati akubanika popanda chifukwa cheni cheni." .
+
+<http://purl.org/twc/poem/individual/itemStem/3562> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  rdfs:label "Mwana wanga ali ndi vuto ndi chilako lako cha chakudya" .
+
+<http://purl.org/twc/poem/individual/itemStem/3563> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  rdfs:label "Mwana wanga amabwereza bwereza ngati wapanga zinthu molondola(ngati magetsi wazimitsidwa kapena chitseko chatsekedwa )" .
+
+<http://purl.org/twc/poem/individual/itemStem/3564> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  rdfs:label "Mwana wanga amachita mantha kugona ekha" .
+
+<http://purl.org/twc/poem/individual/itemStem/3565> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  rdfs:label "Mwana wanga amavutika kupita ku sukulu m’mawa chifukwa amachita mantha" .
+
+<http://purl.org/twc/poem/individual/itemStem/3566> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  rdfs:label "Mwana wanga alibe mphavu yopanga zinthu" .
+
+<http://purl.org/twc/poem/individual/itemStem/3567> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  rdfs:label "Mwana wanga amadandaula za kuoneka opusa." .
+
+<http://purl.org/twc/poem/individual/itemStem/3568> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  rdfs:label "Mwana wanga amakhala otopa kwambiri" .
+
+<http://purl.org/twc/poem/individual/itemStem/3569> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  rdfs:label "Mwana wanga amadandaula kuti zinthu zoyipa zimuchitikila" .
+
 <http://purl.org/twc/poem/individual/itemStem/357> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#EST>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/33>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/33>;
   rdfs:label "Kui mu lapsel on probleem, siis ta tunneb, nagu väriseks" .
+
+<http://purl.org/twc/poem/individual/itemStem/3570> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  rdfs:label "Mwana wanga amakanika kuchosa maganizo oyipa kapena opanda pake mmaganizo mwake." .
+
+<http://purl.org/twc/poem/individual/itemStem/3571> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  rdfs:label "Mwana wanga akakhala ndi vuto mtima wake umathamanga." .
+
+<http://purl.org/twc/poem/individual/itemStem/3572> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  rdfs:label "Mwana wanga sakuganiza bwino bwino" .
+
+<http://purl.org/twc/poem/individual/itemStem/3573> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  rdfs:label "Mwana wanga amangoyamba kunjenjemela opanda chifukwa" .
+
+<http://purl.org/twc/poem/individual/itemStem/3574> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  rdfs:label "Mwana wanga amadandaula kuti chinachake choyipa chimuchitikila." .
+
+<http://purl.org/twc/poem/individual/itemStem/3575> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  rdfs:label "Mwana wanga akakhala ndi vuto amanjenjemera/sakhazikika" .
+
+<http://purl.org/twc/poem/individual/itemStem/3576> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  rdfs:label "Mwana wanga amadzimva kusafunikila" .
+
+<http://purl.org/twc/poem/individual/itemStem/3577> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  rdfs:label "Mwana wanga amadandaula kuti apanga zolakwika" .
+
+<http://purl.org/twc/poem/individual/itemStem/3578> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  rdfs:label "Mwana wanga amayika Maganizo pa chinachake (monga ma nambala kapena mawu) kuletsa zinthu zoyipa kuti zisachitike" .
+
+<http://purl.org/twc/poem/individual/itemStem/3579> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  rdfs:label "Mwana wanga amadandaula pa zomwe anthu akumuganizila." .
 
 <http://purl.org/twc/poem/individual/itemStem/358> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#EST>;
@@ -16175,11 +16649,131 @@ moest zijn""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
   rdfs:label "Mu laps tunneb end väärtusetuna" .
 
+<http://purl.org/twc/poem/individual/itemStem/3580> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  rdfs:label "Mwana wanga amakhala ndi mantha kukhala malo agulu la anthu (monga malo amalonda, kanema, mu basi, malo osewelela)" .
+
+<http://purl.org/twc/poem/individual/itemStem/3581> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  rdfs:label "Mwana wanga amangoyamba kupanga mantha popanda chifukwa cheni cheni" .
+
+<http://purl.org/twc/poem/individual/itemStem/3582> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  rdfs:label "Mwana wanga amadandaula pa zomwe zingachitike" .
+
+<http://purl.org/twc/poem/individual/itemStem/3583> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  rdfs:label "Mwana wanga amangoyamba kumva chizungulire kapena kukomoka popanda chifukwa." .
+
+<http://purl.org/twc/poem/individual/itemStem/3584> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  rdfs:label "Mwana wanga amaganiza za imfa" .
+
+<http://purl.org/twc/poem/individual/itemStem/3585> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  rdfs:label "Mwana wanga amachita mantha akati alankhule kwa ana anzake mkalasi" .
+
+<http://purl.org/twc/poem/individual/itemStem/3586> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  rdfs:label "Mwana wanga mtima wake umangoyamba kuthamanga kwambiri popanda chifukwa cheni cheni" .
+
+<http://purl.org/twc/poem/individual/itemStem/3587> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  rdfs:label "Mwana wanga amamva ngati sakufuna kuyenda" .
+
+<http://purl.org/twc/poem/individual/itemStem/3588> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  rdfs:label "Mwana wanga amadandaula kuti akhala ndi mantha pamene palibe chowopsya chilichonse" .
+
+<http://purl.org/twc/poem/individual/itemStem/3589> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  rdfs:label "Mwana wanga amachita zinthu mobwereza bwereza (monga kusamba manja, kukonza kapena kuyika zinthu mwandondomeko)" .
+
 <http://purl.org/twc/poem/individual/itemStem/359> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#EST>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
   rdfs:label "Mu laps muretseb vigade tegemise pärast" .
+
+<http://purl.org/twc/poem/individual/itemStem/3590> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  rdfs:label "Mwana wanga amachita mantha kuti azichitisa manyazi pamaso pa anthu" .
+
+<http://purl.org/twc/poem/individual/itemStem/3591> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  rdfs:label "Mwana wanga amayenela kuchita zinthu zina moyenela kuti aletse zinthu zoyipa kuchitika" .
+
+<http://purl.org/twc/poem/individual/itemStem/3592> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  rdfs:label "Mwana wanga amadandaula akakhala malo ake ogona usiku" .
+
+<http://purl.org/twc/poem/individual/itemStem/3593> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  rdfs:label "Mwana wanga atha kuchita mantha atakhala kuti sanagone kunyumba" .
+
+<http://purl.org/twc/poem/individual/itemStem/3594> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#NYA>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  rdfs:label "Mwana wanga samakhazikika" .
+
+<http://purl.org/twc/poem/individual/itemStem/3595> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/37>;
+  rdfs:label "আমি বিভিন্ন বিষয়ে চিন্তিত থাকি" .
+
+<http://purl.org/twc/poem/individual/itemStem/3596> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/12>;
+  rdfs:label "আমি দুঃখ বা শূণ্যতা অনুভব করি" .
+
+<http://purl.org/twc/poem/individual/itemStem/3597> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  rdfs:label "When my child has a problem, they get a funny feeling in their stomach" .
+
+<http://purl.org/twc/poem/individual/itemStem/3598> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  rdfs:label "My child worries when they think they have done poorly at something" .
+
+<http://purl.org/twc/poem/individual/itemStem/3599> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/35>;
+  rdfs:label "ঝামেলায় পড়লে আমার পেটে অস্বস্তি লাগে" .
 
 <http://purl.org/twc/poem/individual/itemStem/36> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
@@ -16193,11 +16787,131 @@ moest zijn""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/20>;
   rdfs:label "Mu laps peab mõtlema kindlaid mõtteid (näiteks numbreid või sõnu), et ei juhtuks halbu asju" .
 
+<http://purl.org/twc/poem/individual/itemStem/3600> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/45>;
+  rdfs:label "কোন কাজে খারাপ করেছি এমনটা ভাবলে আমি চিন্তায় পড়ে যাই" .
+
+<http://purl.org/twc/poem/individual/itemStem/3601> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/7>;
+  rdfs:label "বাসায় একা থাকতে ভয় পাই" .
+
+<http://purl.org/twc/poem/individual/itemStem/3602> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  rdfs:label "My child worries when they think someone is angry with them" .
+
+<http://purl.org/twc/poem/individual/itemStem/3603> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/10>;
+  rdfs:label "কিছুই আর আগের মত ততটা আনন্দময় লাগে না" .
+
+<http://purl.org/twc/poem/individual/itemStem/3604> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  rdfs:label "My child is bothered by bad or silly thoughts or pictures in their mind" .
+
+<http://purl.org/twc/poem/individual/itemStem/3605> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/26>;
+  rdfs:label "যখন আমার কোন পরীক্ষা দিতে হয়, তখন আমি ভয় পাই" .
+
+<http://purl.org/twc/poem/individual/itemStem/3606> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/14>;
+  rdfs:label "কেউ আমার প্রতি রাগ করলে, আমি চিন্তায় পড়ে যাই" .
+
+<http://purl.org/twc/poem/individual/itemStem/3607> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/8>;
+  rdfs:label "বাবা-মা থেকে দূরে থাকলে আমি চিন্তিত হই" .
+
+<http://purl.org/twc/poem/individual/itemStem/3608> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  rdfs:label "My child suddenly feels as if they can't breathe when there is no reason for this" .
+
+<http://purl.org/twc/poem/individual/itemStem/3609> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  rdfs:label "My child has problems with their appetite" .
+
 <http://purl.org/twc/poem/individual/itemStem/361> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#EST>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
   rdfs:label "Mu laps muretseb selle pärast, mida teised inimesed temast mõtlevad" .
+
+<http://purl.org/twc/poem/individual/itemStem/3610> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  rdfs:label "My child has to keep checking that they have done things right (like the switch is off, or the door is locked)" .
+
+<http://purl.org/twc/poem/individual/itemStem/3611> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  rdfs:label "My child feels scared to sleep on their own" .
+
+<http://purl.org/twc/poem/individual/itemStem/3612> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/4>;
+  rdfs:label "আমার মনে খারাপ অথবা অযৌক্তিক চিন্তা অথবা ছবি দ্বারা আমি বিরক্ত হই" .
+
+<http://purl.org/twc/poem/individual/itemStem/3613> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/21>;
+  rdfs:label "আমার ঘুমের সমস্যা হয়" .
+
+<http://purl.org/twc/poem/individual/itemStem/3614> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/46>;
+  rdfs:label "আমার ভয় লাগে যে, আমি লেখাপড়ায় খারাপ করবো" .
+
+<http://purl.org/twc/poem/individual/itemStem/3615> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/42>;
+  rdfs:label "আমার ভয় হয় যে, আমার পরিবারের কারো প্রতি খারাপ কিছু ঘটবে" .
+
+<http://purl.org/twc/poem/individual/itemStem/3616> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  rdfs:label "My child worries that bad things will happen to them" .
+
+<http://purl.org/twc/poem/individual/itemStem/3617> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  rdfs:label "My child can't seem to get bad or silly thoughts out of their head." .
+
+<http://purl.org/twc/poem/individual/itemStem/3618> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  rdfs:label "When my child has a problem, their heart beats really fast" .
+
+<http://purl.org/twc/poem/individual/itemStem/3619> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/29>;
+  rdfs:label "হঠাৎ করে কারন ছাড়াই শ্বাস-প্রশ্বাস নিতে অসুবিধা হচ্ছে বলে আমি অনুভব করি" .
 
 <http://purl.org/twc/poem/individual/itemStem/362> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#EST>;
@@ -16205,11 +16919,131 @@ moest zijn""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
   rdfs:label "Mu laps kardab olla rahvarohketes kohtades (näiteks kaubanduskeskustes, kinos, bussides, mänguväljakutel)" .
 
+<http://purl.org/twc/poem/individual/itemStem/3620> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/17>;
+  rdfs:label "আমার খাবার রুচির সমস্যা আছে" .
+
+<http://purl.org/twc/poem/individual/itemStem/3621> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  rdfs:label "My child worries that something bad will happen to them" .
+
+<http://purl.org/twc/poem/individual/itemStem/3622> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  rdfs:label "When my child has a problem, they feel shaky" .
+
+<http://purl.org/twc/poem/individual/itemStem/3623> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/23>;
+  rdfs:label "আমি কোন কিছু সঠিকভাবে করেছি কিনা তা বারবার দেখতে হয় (যেমন সুইচ বন্ধ বা দরজা বন্ধ করেছি কিনা)" .
+
+<http://purl.org/twc/poem/individual/itemStem/3624> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/24>;
+  rdfs:label "একা ঘুমাতে আমার ভয় লাগে" .
+
+<http://purl.org/twc/poem/individual/itemStem/3625> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/32>;
+  rdfs:label "সকালে স্কুলে যাওয়ার সময় আমার দুঃশ্চিন্তা ও ভয়ের কারনে সমস্যা হয়" .
+
+<http://purl.org/twc/poem/individual/itemStem/3626> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  rdfs:label "My child worries what other people think of them" .
+
+<http://purl.org/twc/poem/individual/itemStem/3627> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/16>;
+  rdfs:label "আমি কোন কাজে শক্তি পাই না" .
+
+<http://purl.org/twc/poem/individual/itemStem/3628> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/41>;
+  rdfs:label "মানুষ আমাকে বোকা ভাবতে পারে বলে আমি ভয় পাই" .
+
+<http://purl.org/twc/poem/individual/itemStem/3629> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/13>;
+  rdfs:label "আমি অনেক ক্লান্ত" .
+
 <http://purl.org/twc/poem/individual/itemStem/363> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#EST>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/28>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
   rdfs:label "Mu laps tunneb ootamatult hirmu ilma mingi põhjuseta" .
+
+<http://purl.org/twc/poem/individual/itemStem/3630> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/39>;
+  rdfs:label "আমি ভয় পাই যে, আমার প্রতি খারাপ কিছু ঘটবে" .
+
+<http://purl.org/twc/poem/individual/itemStem/3631> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/6>;
+  rdfs:label "আমি আমার মাথা থেকে খারাপ বা তুচ্ছ চিন্তা সরাতে পারি না মনে হচ্ছে" .
+
+<http://purl.org/twc/poem/individual/itemStem/3632> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  rdfs:label "My child feels afraid if they have to talk in front of the class" .
+
+<http://purl.org/twc/poem/individual/itemStem/3633> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/34>;
+  rdfs:label "সমস্যায় পড়লে আমার হৃদস্পন্দন বেশ দ্রুত হয়" .
+
+<http://purl.org/twc/poem/individual/itemStem/3634> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  rdfs:label "My child feels like they don't want to move" .
+
+<http://purl.org/twc/poem/individual/itemStem/3635> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  rdfs:label "My child worries that they will suddenly get a scared feeling when there is nothing to be afraid of" .
+
+<http://purl.org/twc/poem/individual/itemStem/3636> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/5>;
+  rdfs:label "আমি সঠিকভাবে চিন্তা করতে পারি না" .
+
+<http://purl.org/twc/poem/individual/itemStem/3637> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  rdfs:label "My child feels afraid that they will make a fool of themself in front of people" .
+
+<http://purl.org/twc/poem/individual/itemStem/3638> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/30>;
+  rdfs:label "কোন কারণ ছাড়াই আমি হঠাৎ করে কাঁপতে থাকি" .
+
+<http://purl.org/twc/poem/individual/itemStem/3639> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/43>;
+  rdfs:label "আমি ভয় পাই যে, আমার সাথে খারাপ কিছু হবে" .
 
 <http://purl.org/twc/poem/individual/itemStem/364> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#EST>;
@@ -16217,17 +17051,143 @@ moest zijn""" .
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
   rdfs:label "Mu laps muretseb selle pärast, mis võib juhtuda" .
 
+<http://purl.org/twc/poem/individual/itemStem/3640> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#ENG>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  rdfs:label "My child would feel scared if they had to stay away from home overnight" .
+
+<http://purl.org/twc/poem/individual/itemStem/3641> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/33>;
+  rdfs:label "সমস্যায় পড়লে আমি দ্বিধান্বিত হয়ে যাই" .
+
+<http://purl.org/twc/poem/individual/itemStem/3642> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/15>;
+  rdfs:label "আমার নিজেকে মূল্যহীন মনে হয়" .
+
+<http://purl.org/twc/poem/individual/itemStem/3643> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/36>;
+  rdfs:label "আমি দুশ্চিন্তা করি আমার ভুল করা নিয়ে" .
+
+<http://purl.org/twc/poem/individual/itemStem/3644> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/20>;
+  rdfs:label "খারাপ ঘটনা ঘটা বন্ধ করতে আমাকে নির্দিষ্ট ধরনের চিন্তা করতে হয় (যেমন সংখ্যা বা শব্দ)" .
+
+<http://purl.org/twc/poem/individual/itemStem/3645> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/44>;
+  rdfs:label "অন্য মানুষ আমার সম্পর্কে কেমন ভাবে তা নিয়ে আমি চিন্তিত থাকি" .
+
+<http://purl.org/twc/poem/individual/itemStem/3646> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/1>;
+  rdfs:label "আমি মানুষের ভীড়ে যেতে ভয় পাই (যেমন শপিং সেন্টার, সিনেমা হল, বিপণী বিতান, বাসে, ব্যস্ত খেলার মাঠে)" .
+
+<http://purl.org/twc/poem/individual/itemStem/3647> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/28>;
+  rdfs:label "হঠাৎ করে আমি কোন কারণ ছাড়াই ভয় পাই" .
+
+<http://purl.org/twc/poem/individual/itemStem/3648> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/38>;
+  rdfs:label "আমি দুশ্চিন্তা করি কি ঘটতে যাচ্ছে" .
+
+<http://purl.org/twc/poem/individual/itemStem/3649> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
+  rdfs:label "কোন কারণ ছাড়াই আমার হঠাৎ মাথা ঘুরায়/নিস্তেজ হয়ে যাই" .
+
 <http://purl.org/twc/poem/individual/itemStem/365> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#EST>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/27>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/27>;
   rdfs:label "Mu lapsel hakkab pea ootamatult ringi käima või ta tunneb nõrkust, ehkki selleks pole põhjust" .
 
+<http://purl.org/twc/poem/individual/itemStem/3650> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
+  rdfs:label "আমি মৃত্যু সম্বন্ধে চিন্তা করি" .
+
+<http://purl.org/twc/poem/individual/itemStem/3651> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/3>;
+  rdfs:label "আমার শ্রেণীকক্ষে সবার সামনে কথা বলতে ভয় পাই" .
+
+<http://purl.org/twc/poem/individual/itemStem/3652> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/22>;
+  rdfs:label "কোন কারণ ছাড়াই আমার হৃদস্পন্দন হঠাৎ বেড়ে যায়" .
+
+<http://purl.org/twc/poem/individual/itemStem/3653> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/9>;
+  rdfs:label "আমি অনুভব করি আমি স্থান পরিবর্তন করতে চাই না" .
+
+<http://purl.org/twc/poem/individual/itemStem/3654> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/47>;
+  rdfs:label "কোন কারণ ছাড়াই আমি হঠাৎ ভয় পেয়ে যাব বলে আমি চিন্তিত থাকি" .
+
+<http://purl.org/twc/poem/individual/itemStem/3655> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/19>;
+  rdfs:label "আমাকে বার বার একই কাজ করতে হয় (যেমন বার বার হাত ধোয়া, পরিষ্কার করা অথবা কোন কিছু নির্দিষ্ট নিয়মে রাখা)" .
+
+<http://purl.org/twc/poem/individual/itemStem/3656> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/2>;
+  rdfs:label "মানুষের সামনে আমি নিজেকে বোকায় পরিণত করবো বলে আমার ভয় লাগে" .
+
+<http://purl.org/twc/poem/individual/itemStem/3657> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/18>;
+  rdfs:label "খারাপ কিছু ঘটা বন্ধ করতে আমাকে নির্দিষ্ট নিয়ম মেনে কিছু করতে হয়" .
+
+<http://purl.org/twc/poem/individual/itemStem/3658> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/40>;
+  rdfs:label "রাতে ঘুমাতে গেলে আমার ভয় লাগে" .
+
+<http://purl.org/twc/poem/individual/itemStem/3659> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/25>;
+  rdfs:label "আমি ভয় অনুভব করতাম যদি আমাকে রাতে বাড়ি থেকে দূরে থাকতে হতো" .
+
 <http://purl.org/twc/poem/individual/itemStem/366> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#EST>;
   sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/31>;
   sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/31>;
   rdfs:label "Mu laps mõtleb surmast" .
+
+<http://purl.org/twc/poem/individual/itemStem/3660> a vstoi:ItemStem;
+  dc:language <http://www.fao.org/aims/aos/languagecode.owl#BEN>;
+  sio:SIO_000253 <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  sio:hasSource <http://purl.org/twc/poem/individual/itemStemConcept/11>;
+  rdfs:label "আমার অস্থির লাগে" .
 
 <http://purl.org/twc/poem/individual/itemStem/367> a vstoi:ItemStem;
   dc:language <http://www.fao.org/aims/aos/languagecode.owl#EST>;

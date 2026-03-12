@@ -319,8 +319,39 @@
 
 <http://purl.org/twc/poem/individual/codebook/40> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/156>, <http://purl.org/twc/poem/individual/responseOption/157>,
+    <http://purl.org/twc/poem/individual/responseOption/158>, <http://purl.org/twc/poem/individual/responseOption/159>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/156>, <http://purl.org/twc/poem/individual/responseOption/157>,
+    <http://purl.org/twc/poem/individual/responseOption/158>, <http://purl.org/twc/poem/individual/responseOption/159>;
   rdfs:label "4.0-item-Frequency-Zulu" .
+
+<http://purl.org/twc/poem/individual/codebook/41> a vstoi:Codebook;
+  sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/160>, <http://purl.org/twc/poem/individual/responseOption/161>,
+    <http://purl.org/twc/poem/individual/responseOption/162>, <http://purl.org/twc/poem/individual/responseOption/163>;
+  sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/160>, <http://purl.org/twc/poem/individual/responseOption/161>,
+    <http://purl.org/twc/poem/individual/responseOption/162>, <http://purl.org/twc/poem/individual/responseOption/163>;
+  rdfs:label "4.0-item-Frequency-Chichewa" .
+
+<http://purl.org/twc/poem/individual/codebook/42> a vstoi:Codebook;
+  sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/160>, <http://purl.org/twc/poem/individual/responseOption/161>,
+    <http://purl.org/twc/poem/individual/responseOption/163>, <http://purl.org/twc/poem/individual/responseOption/164>;
+  sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/160>, <http://purl.org/twc/poem/individual/responseOption/161>,
+    <http://purl.org/twc/poem/individual/responseOption/163>, <http://purl.org/twc/poem/individual/responseOption/164>;
+  rdfs:label "4.1-item-Frequency-Chichewa" .
+
+<http://purl.org/twc/poem/individual/codebook/43> a vstoi:Codebook;
+  sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
+  sio:SIO_000059 <http://purl.org/twc/poem/individual/responseOption/165>, <http://purl.org/twc/poem/individual/responseOption/166>,
+    <http://purl.org/twc/poem/individual/responseOption/167>, <http://purl.org/twc/poem/individual/responseOption/168>;
+  sio:hasAttribute <http://purl.org/twc/poem/individual/experience/1>;
+  sio:hasMember <http://purl.org/twc/poem/individual/responseOption/165>, <http://purl.org/twc/poem/individual/responseOption/166>,
+    <http://purl.org/twc/poem/individual/responseOption/167>, <http://purl.org/twc/poem/individual/responseOption/168>;
+  rdfs:label "4.0-item-Frequency-Bengali" .
 
 <http://purl.org/twc/poem/individual/codebook/5> a vstoi:Codebook;
   sio:SIO_000008 <http://purl.org/twc/poem/individual/experience/1>;
