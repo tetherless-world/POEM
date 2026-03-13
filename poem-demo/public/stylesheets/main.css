@@ -1,0 +1,15 @@
+.card.panel-disabled {
+  opacity: 0.55;
+  filter: grayscale(35%);
+}
+
+.card.panel-disabled .choices,
+.card.panel-disabled .btn,
+.card.panel-disabled a {
+  pointer-events: none;
+}
+
+.card.panel-disabled .card-title::after {
+  content: " (Unavailable)";
+  font-size: 0.8em;
+}

@@ -193,6 +193,14 @@
     }
 
     document.addEventListener('DOMContentLoaded', function() {
+      var disabledPanels = document.querySelectorAll('.panel-disabled');
+      for (var p = 0; p < disabledPanels.length; ++p) {
+        var panelInputs = disabledPanels[p].querySelectorAll('input, select, textarea, button');
+        for (var j = 0; j < panelInputs.length; ++j) {
+          panelInputs[j].disabled = true;
+        }
+      }
+
       var queries = document.querySelectorAll('[data-trigger]');
       for (var i = 0; i < queries.length; ++i) {
         var element = queries[i];
