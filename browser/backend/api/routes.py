@@ -4,7 +4,7 @@ from fastapi import APIRouter, Request, Depends
 from rdflib import Graph
 from rdflib import Dataset
 from api.deps import get_POEM
-from poem.query import get_instrument, get_items, getTotalInstruments, getTotalLanguages, getInstrumentItemConcepts, getScales, getAllInstruments, getAllScales, get_components
+from poem.query import get_instrument, get_instruments_by_scales, get_items, getTotalInstruments, getTotalLanguages, getInstrumentItemConcepts, getScales, getAllInstruments, getAllScales, get_components
 router = APIRouter()
 
 @router.get("/api/debug/graphs")
@@ -54,3 +54,9 @@ def get_instrument_details(POEM: Dataset = Depends(get_POEM), instrument: str = 
     components = get_components(POEM, instrument)
     instrumentR = get_instrument(POEM, instrument)
     return {  "items": items, "components": components, "instrument": instrumentR}
+@router.get("/all_instruments_by_scale")
+def get_instruments_by_scale(POEM: Dataset = Depends(get_POEM)):
+    scales = getAllScales(POEM)
+    instruments_by_scale= get_instruments_by_scales(POEM, scales)
+    result = {"scales":instruments_by_scale}
+    return result

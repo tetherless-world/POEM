@@ -1,5 +1,43 @@
 import { Link } from "react-router-dom";
+import {  useEffect, useState } from "react";
+import Tree from "../components/Tree";
+type Node = {
+  name: string;
+  children: Node[];
+};
+function createTree(data: any): Node[] {
+  if (data === null || data === undefined) return [];
+  if(typeof data === "string") {
+    return [{name: data, children: []}];
+  }
+  if(Array.isArray(data)) {
+    return data.flatMap(createTree);
+  }
+  if(typeof data === "object") {
+    return Object.entries(data).map(([key, value]) => ({
+      name: key,
+      children: createTree(value),
+    }));
+  }
+  return [];
+}
+
 export default function InstrumentOveriew() {
+  const [treeData, setTreeData] = useState<Node[]>([]);
+  const fetchTreeData = async () => {
+    try {
+      const res = await fetch("http://localhost:8000/all_instruments_by_scale");
+      const data = await res.json();
+      let newTreeData: Node[] | undefined = createTree(data);
+      setTreeData(newTreeData || [{ name: "No data", children: undefined }]);
+      console.log("Fetched tree data:", data);
+    } catch (error) {
+      console.error("Error fetching tree data:", error);
+    }
+  };
+  useEffect(() => {
+    fetchTreeData();
+  }, []);
   return (
     <div>
       {" "}
@@ -20,7 +58,7 @@ export default function InstrumentOveriew() {
           <h2 className="text-slate-700 text-7xl font-bold">169</h2>
           <p className="text-lg mt-2">Available Instruments</p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-12 justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 justify-items-center">
           <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl trasition duration-300 ease-in-out hover:scale-105 border-2 border-gray-200">
             <h3 className="text-4xl font-bold text-slate-600">38</h3>
             <p>Languages Available</p>
@@ -28,14 +66,6 @@ export default function InstrumentOveriew() {
           <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl trasition duration-300 ease-in-out hover:scale-105 border-2 border-gray-200">
             <h3 className="text-4xl font-bold text-slate-600">3</h3>
             <p>Instrument Families</p>
-          </div>
-          <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl trasition duration-300 ease-in-out hover:scale-105 border-2 border-gray-200">
-            <h3 className="text-4xl font-bold text-slate-600">20k</h3>
-            <p>Validated Populations</p>
-          </div>
-          <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl trasition duration-300 ease-in-out hover:scale-105">
-            <h3 className="text-4xl font-bold text-slate-600">50k+</h3>
-            <p>Research Citations</p>
           </div>
         </div>
       </section>
@@ -148,31 +178,34 @@ export default function InstrumentOveriew() {
           </div>
         </div>
       </section>
+      <section  className="mx-auto text-sm">
+        <Tree node={{ name: "Mental Health Instruments", children: treeData }} />
+      </section>
       <section className="text-center mt-12 space-y-4 mx-auto w-1/2 ">
         <h2 className="text-3xl ">Common Instrument Families</h2>
         <p className="">
-          Each instrument family contains different versions designed for specific
-          use cases
+          Each instrument family contains different versions designed for
+          specific use cases
         </p>
         <div className="border-2 border-amber-500 text-left text-amber-900 px-5 py-3 bg-gradient-to-r from-amber-500/80 to-amber-600/80 rounded-xl">
           <h3 className="font-bold">Common Instruments</h3>
           <p>
-            A instrument family groups related instruments that assess the same or
-            closely related mental health constructs (e.g., depression, anxiety,
-            well-being). Families may include full-length instruments, short
-            forms, revised editions, and validated language adaptations designed
-            for different populations and research contexts. Within POEM,
-            instruments are represented as structured entities that explicitly link
-            instruments to their items, scales, constructs, versions, and
-            supporting evidence. This structured representation enables users to
-            explore relationships across instruments, compare instruments assessing
-            similar constructs, and trace the provenance of adaptations and
-            revisions. By organizing psychometric instruments into coherent
-            families and modeling their internal structure, POEM supports
-            semantic search, reproducibility, and interoperability across
-            research studies and digital systems. This approach advances the
-            discoverability and responsible reuse of mental health instruments in
-            both clinical and research settings.
+            A instrument family groups related instruments that assess the same
+            or closely related mental health constructs (e.g., depression,
+            anxiety, well-being). Families may include full-length instruments,
+            short forms, revised editions, and validated language adaptations
+            designed for different populations and research contexts. Within
+            POEM, instruments are represented as structured entities that
+            explicitly link instruments to their items, scales, constructs,
+            versions, and supporting evidence. This structured representation
+            enables users to explore relationships across instruments, compare
+            instruments assessing similar constructs, and trace the provenance
+            of adaptations and revisions. By organizing psychometric instruments
+            into coherent families and modeling their internal structure, POEM
+            supports semantic search, reproducibility, and interoperability
+            across research studies and digital systems. This approach advances
+            the discoverability and responsible reuse of mental health
+            instruments in both clinical and research settings.
           </p>
         </div>
       </section>

@@ -49,14 +49,26 @@ export default function IndividualInstrumentPage()
         </div>
             </div>
         </section>
-        <section className = "mt-12">
+        <section className = "mt-12 flex gap-12 justify-center mx-auto">
+            <div>
             <h2 className = "text-2xl text-center text-bold text-slate-600 font-bold">Items</h2>
+
             {items && items.map((item: any, index: number) => (
                 <div key={index} className="mx-auto mt-12 p-6 rounded-2xl bg-white shadow-md hover:shadow-xl trasition duration-200 ease-in-out hover:scale-105 max-w-4xl">
                     <p className="text-lg">{`${index + 1}. ${item}`}</p>
                 </div>
             ))}
+            </div>
+            <div>
 
+            <h2 className = "text-2xl text-center text-bold text-slate-600 font-bold">Components</h2>
+
+            {components && components.map((component: any, index: number) => (
+                <div key={index} className="mx-auto mt-12 p-6 rounded-2xl bg-white shadow-md hover:shadow-xl trasition duration-200 ease-in-out hover:scale-105 max-w-4xl">
+                    <p className="text-lg">{`${index + 1}. ${component}`}</p>
+                </div>
+            ))}
+            </div>
         </section>
     </div>)
 }
