@@ -155,3 +155,23 @@ WHERE {{
     GRAPH <{components}> {{?c rdfs:label ?component .}}
     }} """
     return list([row.component for row in POEM.query(query)])
+def get_instruments_by_scales(POEM: Dataset, scales_list: list[str]):
+    scale_names = [Literal(name).n3() for name in scales_list]
+    res = {}
+    for scale in scale_names:
+        query = f"""PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX sio: <http://semanticscience.org/resource/>
+    SELECT DISTINCT ?label
+    WHERE {{
+        GRAPH <{scales}> {{?s rdfs:label {scale} .}}
+        GRAPH <{scale_instruments}> {{ ?o ?p ?s .}}
+        GRAPH <{instrumentsCollections}> {{?su sio:SIO_000059 ?o .}}
+        GRAPH <{instrumentsCollections}> {{?su rdfs:label ?label .}}
+     
+    }}"""
+        labels = list([str(row.label) for row in POEM.query(query)])
+        for label in labels:
+            if label not in res:
+                res[label] = set()
+            res[label].add(str(scale).strip("\""))
+    return {label: list(scales) for label, scales in res.items()}
