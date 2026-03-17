@@ -1,5 +1,106 @@
 // @import "lib/bootstrap/less/bootstrap.less";
 
+:root {
+  --poem-bg: #f4f8fa;
+  --poem-surface: #ffffff;
+  --poem-surface-strong: #eaf3f7;
+  --poem-text: #102a43;
+  --poem-muted: #52606d;
+  --poem-border: #d9e2ec;
+  --poem-primary: #0d5f78;
+  --poem-primary-hover: #084c61;
+  --poem-secondary: #1f7a8c;
+}
+
+.poem-app {
+  background: linear-gradient(180deg, #f7fbfd 0%, var(--poem-bg) 52%, #eff6f9 100%);
+  color: var(--poem-text);
+}
+
+.poem-nav {
+  background-color: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--poem-border);
+}
+
+.poem-nav .navbar-brand {
+  color: var(--poem-text);
+  letter-spacing: 0.02em;
+}
+
+.poem-nav .nav-link {
+  color: var(--poem-muted);
+}
+
+.poem-nav .nav-link.active,
+.poem-nav .nav-link:hover,
+.poem-nav .nav-link:focus {
+  color: var(--poem-primary);
+}
+
+.hero-card {
+  background: linear-gradient(145deg, #f9fdff 0%, #eef6fa 100%);
+  border: 1px solid var(--poem-border);
+  border-radius: 1rem;
+  box-shadow: 0 10px 28px rgba(16, 42, 67, 0.08);
+  padding: 2rem;
+}
+
+.eyebrow {
+  color: var(--poem-secondary);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.hero-title {
+  font-size: clamp(1.75rem, 3.1vw, 2.45rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.9rem;
+}
+
+.hero-copy {
+  color: var(--poem-muted);
+  font-size: 1.05rem;
+  line-height: 1.55;
+  margin-bottom: 1.3rem;
+}
+
+.proof-chip {
+  background-color: var(--poem-surface);
+  border: 1px solid var(--poem-border);
+  border-radius: 999px;
+  color: var(--poem-primary);
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.35rem 0.8rem;
+}
+
+.summary-card {
+  background: linear-gradient(160deg, #ffffff 0%, var(--poem-surface-strong) 100%);
+  border: 1px solid var(--poem-border);
+  border-radius: 1rem;
+  box-shadow: 0 8px 22px rgba(16, 42, 67, 0.06);
+}
+
+.summary-card p,
+.summary-card li {
+  color: var(--poem-muted);
+}
+
+.summary-card ul {
+  padding-left: 1rem;
+}
+
+.section-title {
+  color: var(--poem-text);
+  font-size: 1.45rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
 .card > form {
   display: flex;
   flex-direction: column;
@@ -10,18 +111,84 @@
   flex: 1 1 auto;
 }
 
-.card.panel-disabled {
-  opacity: 0.55;
-  filter: grayscale(35%);
+.query-card {
+  background-color: var(--poem-surface);
+  border: 1px solid var(--poem-border);
+  border-radius: 0.9rem;
+  box-shadow: 0 6px 18px rgba(16, 42, 67, 0.05);
 }
 
-.card.panel-disabled .choices,
-.card.panel-disabled .btn,
-.card.panel-disabled a {
-  pointer-events: none;
+.query-card .card-title {
+  color: var(--poem-text);
+  font-size: 1.2rem;
 }
 
-.card.panel-disabled .card-title::after {
-  content: " (Unavailable)";
-  font-size: 0.8em;
+.query-card .card-text {
+  color: var(--poem-muted);
+}
+
+.query-card .card-footer {
+  background-color: #f7fbfd;
+  border-top: 1px solid var(--poem-border);
+}
+
+.roadmap-card {
+  background: linear-gradient(165deg, #fff8eb 0%, #fff2db 100%);
+  border: 1px solid #ecd8b1;
+  border-radius: 0.9rem;
+  box-shadow: 0 6px 18px rgba(52, 39, 13, 0.08);
+}
+
+.roadmap-card .card-title {
+  color: #473119;
+}
+
+.roadmap-card .card-text {
+  color: #6f522f;
+}
+
+.roadmap-label {
+  background-color: #ffeed1;
+  border: 1px solid #efcf91;
+  border-radius: 999px;
+  color: #744f1d;
+  display: inline-block;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.7rem;
+  padding: 0.22rem 0.55rem;
+  text-transform: uppercase;
+}
+
+.publisher-card .card-title {
+  color: var(--poem-primary);
+}
+
+.btn-primary {
+  background-color: var(--poem-primary);
+  border-color: var(--poem-primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--poem-primary-hover);
+  border-color: var(--poem-primary-hover);
+}
+
+.btn-outline-primary {
+  border-color: var(--poem-primary);
+  color: var(--poem-primary);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: var(--poem-primary);
+  border-color: var(--poem-primary);
+}
+
+@media (max-width: 991.98px) {
+  .hero-card {
+    padding: 1.35rem;
+  }
 }
