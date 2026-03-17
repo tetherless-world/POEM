@@ -1,3 +1,0 @@
-access ask poem proxy:
-  title: 'Access ASK POEM proxy endpoint'
-  description: 'Allow users to access the ASK POEM reverse proxy.'

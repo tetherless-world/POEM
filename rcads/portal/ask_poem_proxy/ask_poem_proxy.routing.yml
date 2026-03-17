@@ -5,7 +5,7 @@ ask_poem_proxy.proxy:
     _title: 'ASK POEM proxy'
     proxy_path: ''
   requirements:
-    _permission: 'access ask poem proxy'
+    _access: 'TRUE'
     proxy_path: '.*'
   methods: [GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS]
   options:
@@ -21,7 +21,7 @@ ask_poem_proxy.proxy_resource:
     _title: 'ASK POEM proxy resource'
     proxy_path: ''
   requirements:
-    _permission: 'access ask poem proxy'
+    _access: 'TRUE'
   methods: [GET, HEAD]
   options:
     no_cache: true
@@ -33,7 +33,7 @@ ask_poem_proxy.proxy_query:
     _title: 'ASK POEM proxy query compatibility route'
     proxy_path: 'query'
   requirements:
-    _permission: 'access ask poem proxy'
+    _access: 'TRUE'
   methods: [GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS]
   options:
     no_cache: true
