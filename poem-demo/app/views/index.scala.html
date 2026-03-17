@@ -51,6 +51,7 @@
                 or display a clever tagline!</p>
         </div>
     </div> -->
+    <h2 class="my-4">Competency questions</h2>
     <!-- Content Row-->
     <div class="row gx-4 gx-lg-5">
         <div class="col-md-4 mb-5">
@@ -177,40 +178,6 @@
             </div>
         </div>
         <div class="col-md-4 mb-5">
-            <div class="card h-100">
-                <form id="queryForm5" action="/fhir" method="get">
-                    <div class="card-body">
-                        <div class="form-group" hidden>
-                            <input type="hidden" class="form-control" name="format" value="json">
-                        </div>
-                        <div class="form-group">
-                            <h2 class="card-title">FHIR Export</h2>
-                            <p class="card-text">Instrument:</p>
-                            <select class="form-control" data-trigger name="uri">
-                                @for(instrument <- instruments) {
-                                    <option value="@instrument.getUri()">@instrument.getLabel()</option>
-                                }
-                            </select>
-                            <p class="card-text">FHIR Version:</p>
-                            <select class="form-control" data-trigger name="version">
-                                <option value="r3">R3</option>
-                                <option value="r4">R4</option>
-                                <option value="r4b">R4B</option>
-                                <option value="r5">R5</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <button type="submit" class="btn btn-primary btn-sm">Ask POEM</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <hr>
-    </div>
-    <!-- Content Row-->
-    <div class="row gx-4 gx-lg-5">
-        <div class="col-md-4 mb-5">
             <div class="card h-100 panel-disabled">
                 <form id="queryForm6">
                     <div class="card-body">
@@ -233,6 +200,9 @@
                 </form>
             </div>
         </div>
+    </div>
+    <!-- Content Row-->
+    <div class="row gx-4 gx-lg-5">
         <div class="col-md-4 mb-5">
             <div class="card h-100 panel-disabled">
                 <form id="queryForm7">
@@ -279,10 +249,6 @@
                 </form>
             </div>
         </div>
-        <hr>
-    </div>
-    <!-- Content Row-->
-    <div class="row gx-4 gx-lg-5">
         <div class="col-md-4 mb-5">
             <div class="card h-100 panel-disabled">
                 <form id="queryForm9">
@@ -306,13 +272,48 @@
                 </form>
             </div>
         </div>
+    </div>
+
+    <h2 class="my-4">Instrument publishers</h2>
+    <!-- Content Row-->
+    <div class="row gx-4 gx-lg-5">
+        <div class="col-md-4 mb-5">
+            <div class="card h-100">
+                <form id="queryForm5" action="/fhir" method="get">
+                    <div class="card-body">
+                        <div class="form-group" hidden>
+                            <input type="hidden" class="form-control" name="format" value="json">
+                        </div>
+                        <div class="form-group">
+                            <h2 class="card-title">FHIR Export</h2>
+                            <p class="card-text">Export the selected instrument in a FHIR-compliant format for integration with electronic health record systems and clinical workflows.</p>
+                            <select class="form-control" data-trigger name="uri">
+                                @for(instrument <- instruments) {
+                                    <option value="@instrument.getUri()">@instrument.getLabel()</option>
+                                }
+                            </select>
+                            <p class="card-text">FHIR Version:</p>
+                            <select class="form-control" data-trigger name="version">
+                                <option value="r3">R3</option>
+                                <option value="r4">R4</option>
+                                <option value="r4b">R4B</option>
+                                <option value="r5">R5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary btn-sm">Ask POEM</button>
+                    </div>
+                </form>
+            </div>
+        </div>
         <div class="col-md-4 mb-5">
             <div class="card h-100">
                 <form id="queryForm10" action="/excel" method="get">
                     <div class="card-body">
                         <div class="form-group">
                             <h2 class="card-title">XLSX Export</h2>
-                            <p class="card-text">Instrument:</p>
+                            <p class="card-text">Export the selected instrument as a structured Excel file for easy inspection, sharing, and offline use.</p>
                             <select class="form-control" data-trigger name="uri">
                                 @for(instrument <- instruments) {
                                     <option value="@instrument.getUri()">@instrument.getLabel()</option>
@@ -326,8 +327,6 @@
                 </form>
             </div>
         </div>
-        
-        <hr>
     </div>
 </div>
 }
