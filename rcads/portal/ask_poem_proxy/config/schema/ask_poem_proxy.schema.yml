@@ -1,0 +1,13 @@
+ask_poem_proxy.settings:
+  type: config_object
+  label: 'ASK POEM proxy settings'
+  mapping:
+    proxy_base_path:
+      type: string
+      label: 'Proxy base path'
+    upstream_base_url:
+      type: string
+      label: 'Upstream base URL'
+    auth_header:
+      type: string
+      label: 'Authorization header value'

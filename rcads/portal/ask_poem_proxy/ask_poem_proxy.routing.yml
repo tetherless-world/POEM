@@ -1,0 +1,49 @@
+ask_poem_proxy.proxy:
+  path: '/ask-poem/{proxy_path}'
+  defaults:
+    _controller: '\Drupal\ask_poem_proxy\Controller\ProxyController::proxy'
+    _title: 'ASK POEM proxy'
+    proxy_path: ''
+  requirements:
+    _permission: 'access ask poem proxy'
+    proxy_path: '.*'
+  methods: [GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS]
+  options:
+    no_cache: true
+    parameters:
+      proxy_path:
+        type: path
+
+ask_poem_proxy.proxy_resource:
+  path: '/ask-poem-resource'
+  defaults:
+    _controller: '\Drupal\ask_poem_proxy\Controller\ProxyController::proxy'
+    _title: 'ASK POEM proxy resource'
+    proxy_path: ''
+  requirements:
+    _permission: 'access ask poem proxy'
+  methods: [GET, HEAD]
+  options:
+    no_cache: true
+
+ask_poem_proxy.proxy_query:
+  path: '/query'
+  defaults:
+    _controller: '\Drupal\ask_poem_proxy\Controller\ProxyController::proxy'
+    _title: 'ASK POEM proxy query compatibility route'
+    proxy_path: 'query'
+  requirements:
+    _permission: 'access ask poem proxy'
+  methods: [GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS]
+  options:
+    no_cache: true
+
+ask_poem_proxy.settings:
+  path: '/admin/config/services/ask-poem-proxy'
+  defaults:
+    _form: '\Drupal\ask_poem_proxy\Form\ProxySettingsForm'
+    _title: 'ASK POEM proxy'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: true

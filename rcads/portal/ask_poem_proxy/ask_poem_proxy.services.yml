@@ -1,0 +1,6 @@
+services:
+  ask_poem_proxy.route_subscriber:
+    class: Drupal\ask_poem_proxy\Routing\ProxyRouteSubscriber
+    arguments: ['@config.factory']
+    tags:
+      - { name: event_subscriber }
