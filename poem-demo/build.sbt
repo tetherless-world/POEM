@@ -28,7 +28,7 @@ libraryDependencies += "org.webjars" % "jquery" % "3.7.1"
 libraryDependencies += "org.webjars" % "jquery-form" % "4.2.2"
 
 // https://mvnrepository.com/artifact/org.webjars.npm/choices.js
-libraryDependencies += "org.webjars.npm" % "choices.js" % "11.1.0"
+libraryDependencies += "org.webjars.npm" % "choices.js" % "11.2.1"
 
 // https://mvnrepository.com/artifact/com.google.code.gson/gson
 libraryDependencies += "com.google.code.gson" % "gson" % "2.13.2"
@@ -67,7 +67,7 @@ libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-dstu3" % "8.8.
 libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-dstu2" % "8.8.0"
 
 // https://mvnrepository.com/artifact/com.openai/openai-java
-libraryDependencies += "com.openai" % "openai-java" % "4.26.0"
+libraryDependencies += "com.openai" % "openai-java" % "4.28.0"
 
 // https://mvnrepository.com/artifact/org.json/json
 libraryDependencies += "org.json" % "json" % "20251224"
