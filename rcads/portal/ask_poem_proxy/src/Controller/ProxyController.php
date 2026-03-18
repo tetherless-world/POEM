@@ -31,6 +31,11 @@ class ProxyController extends ControllerBase {
   private const PROXY_RESOURCE_SUFFIX = '-resource';
 
   /**
+   * Compatibility route used for form submissions targeting /query.
+   */
+  private const QUERY_COMPAT_ROUTE_BASE = '/query';
+
+  /**
    * Internal query key used to carry proxied path values.
    */
   private const INTERNAL_PATH_QUERY_KEY = '_ap_path';
@@ -374,15 +379,16 @@ class ProxyController extends ControllerBase {
     $proxy_route_base = $this->getConfiguredProxyRouteBase();
     $proxy_prefix = rtrim($request->getBasePath(), '/') . $proxy_route_base;
     $resource_prefix = rtrim($request->getBasePath(), '/') . $this->buildResourceRouteBase($proxy_route_base);
+    $query_proxy_prefix = rtrim($request->getBasePath(), '/') . self::QUERY_COMPAT_ROUTE_BASE;
 
     if (in_array($mime, ['text/html', 'application/xhtml+xml'], TRUE)) {
       $body = $this->ensureHtmlBaseHref($body, $request, $effective_proxy_path);
-      $body = $this->rewriteHtmlAttributes($body, $proxy_prefix, $resource_prefix);
-      $body = $this->rewriteSrcsetAttributes($body, $proxy_prefix, $resource_prefix);
-      $body = $this->rewriteCssUrls($body, $proxy_prefix, $resource_prefix);
+      $body = $this->rewriteHtmlAttributes($body, $proxy_prefix, $resource_prefix, $query_proxy_prefix);
+      $body = $this->rewriteSrcsetAttributes($body, $proxy_prefix, $resource_prefix, $query_proxy_prefix);
+      $body = $this->rewriteCssUrls($body, $proxy_prefix, $resource_prefix, $query_proxy_prefix);
     }
     elseif ($mime === 'text/css') {
-      $body = $this->rewriteCssUrls($body, $proxy_prefix, $resource_prefix);
+      $body = $this->rewriteCssUrls($body, $proxy_prefix, $resource_prefix, $query_proxy_prefix);
     }
 
     return $body;
@@ -391,10 +397,10 @@ class ProxyController extends ControllerBase {
   /**
    * Rewrites href/src/action/poster attributes containing root-relative paths.
    */
-  protected function rewriteHtmlAttributes(string $body, string $proxy_prefix, string $resource_prefix): string {
+  protected function rewriteHtmlAttributes(string $body, string $proxy_prefix, string $resource_prefix, string $query_proxy_prefix): string {
     $result = preg_replace_callback(
       '/\b(href|src|action|poster)\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s"\'>]+))/i',
-      function (array $matches) use ($proxy_prefix, $resource_prefix): string {
+      function (array $matches) use ($proxy_prefix, $resource_prefix, $query_proxy_prefix): string {
         $quote = '';
         $value = '';
 
@@ -410,7 +416,7 @@ class ProxyController extends ControllerBase {
           $value = $matches[4];
         }
 
-        $value = $this->rewriteRootRelativeUrl($value, $proxy_prefix, $resource_prefix);
+        $value = $this->rewriteRootRelativeUrl($value, $proxy_prefix, $resource_prefix, $query_proxy_prefix);
         if ($quote !== '') {
           return $matches[1] . '=' . $quote . $value . $quote;
         }
@@ -425,10 +431,10 @@ class ProxyController extends ControllerBase {
   /**
    * Rewrites root-relative URLs within srcset attributes.
    */
-  protected function rewriteSrcsetAttributes(string $body, string $proxy_prefix, string $resource_prefix): string {
+  protected function rewriteSrcsetAttributes(string $body, string $proxy_prefix, string $resource_prefix, string $query_proxy_prefix): string {
     $result = preg_replace_callback(
       '/\bsrcset\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s"\'>]+))/i',
-      function (array $matches) use ($proxy_prefix, $resource_prefix): string {
+      function (array $matches) use ($proxy_prefix, $resource_prefix, $query_proxy_prefix): string {
         $quote = '';
         $raw = '';
         if (isset($matches[1]) && $matches[1] !== '') {
@@ -452,7 +458,7 @@ class ProxyController extends ControllerBase {
           $parts = preg_split('/\s+/', $entry, 2);
           $url = $parts[0] ?? '';
           $descriptor = $parts[1] ?? '';
-          $rewritten = $this->rewriteRootRelativeUrl($url, $proxy_prefix, $resource_prefix);
+          $rewritten = $this->rewriteRootRelativeUrl($url, $proxy_prefix, $resource_prefix, $query_proxy_prefix);
           $entries[$index] = trim($rewritten . ' ' . $descriptor);
         }
 
@@ -518,11 +524,11 @@ class ProxyController extends ControllerBase {
   /**
    * Rewrites root-relative URLs used inside CSS url(...) tokens.
    */
-  protected function rewriteCssUrls(string $body, string $proxy_prefix, string $resource_prefix): string {
+  protected function rewriteCssUrls(string $body, string $proxy_prefix, string $resource_prefix, string $query_proxy_prefix): string {
     $result = preg_replace_callback(
       '/url\(\s*(["\']?)([^)"\']+)\1\s*\)/i',
-      function (array $matches) use ($proxy_prefix, $resource_prefix): string {
-        $url = $this->rewriteRootRelativeUrl($matches[2], $proxy_prefix, $resource_prefix);
+      function (array $matches) use ($proxy_prefix, $resource_prefix, $query_proxy_prefix): string {
+        $url = $this->rewriteRootRelativeUrl($matches[2], $proxy_prefix, $resource_prefix, $query_proxy_prefix);
         return 'url(' . $matches[1] . $url . $matches[1] . ')';
       },
       $body
@@ -533,7 +539,7 @@ class ProxyController extends ControllerBase {
   /**
    * Rewrites a URL if it starts at root and is not already proxied.
    */
-  protected function rewriteRootRelativeUrl(string $url, string $proxy_prefix, string $resource_prefix): string {
+  protected function rewriteRootRelativeUrl(string $url, string $proxy_prefix, string $resource_prefix, string $query_proxy_prefix): string {
     $parts = parse_url($url);
     if ($parts === FALSE) {
       return $url;
@@ -556,7 +562,18 @@ class ProxyController extends ControllerBase {
       return $url;
     }
 
-    if ($this->shouldRouteViaQueryProxy($path)) {
+    if ($path === $query_proxy_prefix || str_starts_with($path, $query_proxy_prefix . '/')) {
+      return $url;
+    }
+
+    $external_override = $this->getExternalLinkOverride($path);
+    if ($external_override !== NULL) {
+      $rewritten = $external_override;
+    }
+    elseif ($path === '/query') {
+      $rewritten = $query_proxy_prefix;
+    }
+    elseif ($this->shouldRouteViaQueryProxy($path)) {
       $rewritten = $resource_prefix . '?' . self::INTERNAL_PATH_QUERY_KEY . '=' . rawurlencode($path);
     }
     else {
@@ -575,6 +592,19 @@ class ProxyController extends ControllerBase {
     }
 
     return $rewritten;
+  }
+
+  /**
+   * Returns external URL overrides for known top-level links.
+   */
+  protected function getExternalLinkOverride(string $path): ?string {
+    $normalized = strtolower(rtrim($path, '/'));
+
+    return match ($normalized) {
+      '/poem' => 'https://tetherless-world.github.io/POEM/',
+      '/github', '/tetherless-world/poem' => 'https://github.com/tetherless-world/POEM',
+      default => NULL,
+    };
   }
 
   /**
@@ -645,7 +675,7 @@ class ProxyController extends ControllerBase {
     $path = preg_replace('#/+#', '/', $path) ?? self::DEFAULT_PROXY_ROUTE_BASE;
     $path = rtrim($path, '/');
 
-    if ($path === '' || !preg_match('/^\/[a-z0-9\/_-]+$/i', $path) || $path === '/query') {
+    if ($path === '' || !preg_match('/^\/[a-z0-9\/_-]+$/i', $path) || $path === self::QUERY_COMPAT_ROUTE_BASE) {
       return self::DEFAULT_PROXY_ROUTE_BASE;
     }
 

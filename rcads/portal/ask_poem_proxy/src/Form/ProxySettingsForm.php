@@ -16,6 +16,11 @@ class ProxySettingsForm extends ConfigFormBase {
   private const DEFAULT_PROXY_BASE_PATH = '/ask-poem';
 
   /**
+   * Reserved compatibility route.
+   */
+  private const QUERY_COMPAT_PATH = '/query';
+
+  /**
    * {@inheritdoc}
    */
   public function getFormId(): string {
@@ -74,8 +79,8 @@ class ProxySettingsForm extends ConfigFormBase {
       return;
     }
 
-    if ($proxy_base_path === '/query') {
-      $form_state->setErrorByName('proxy_base_path', (string) $this->t('The path /query is reserved by the compatibility route.'));
+    if ($proxy_base_path === self::QUERY_COMPAT_PATH) {
+      $form_state->setErrorByName('proxy_base_path', (string) $this->t('The path %path is reserved by the compatibility route.', ['%path' => self::QUERY_COMPAT_PATH]));
       return;
     }
 

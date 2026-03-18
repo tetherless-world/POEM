@@ -25,7 +25,14 @@ The module forwards the incoming HTTP method, request path, query string, and
 body to the configured upstream URL and streams the upstream response back to
 the client.
 
+Proxy routes are configured as public (`_access: 'TRUE'`) so both anonymous
+and authenticated users can access them.
+
 For static assets that may be intercepted by web-server extension handling
 (`.js`, `.css`, images, fonts), the module rewrites links to
 `/{proxy-base-path}-resource?_ap_path=/original/path` so those requests are still
 processed by Drupal and proxied upstream.
+
+The proxy also normalizes known top-level links:
+- `/POEM` -> `https://tetherless-world.github.io/POEM/`
+- `/github` -> `https://github.com/tetherless-world/POEM`

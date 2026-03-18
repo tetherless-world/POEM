@@ -17,6 +17,11 @@ class ProxyRouteSubscriber extends RouteSubscriberBase {
   private const DEFAULT_PROXY_BASE_PATH = '/ask-poem';
 
   /**
+   * Reserved compatibility route.
+   */
+  private const QUERY_COMPAT_PATH = '/query';
+
+  /**
    * Proxy resource suffix.
    */
   private const RESOURCE_SUFFIX = '-resource';
@@ -66,7 +71,7 @@ class ProxyRouteSubscriber extends RouteSubscriberBase {
     $path = preg_replace('#/+#', '/', $path) ?? self::DEFAULT_PROXY_BASE_PATH;
     $path = rtrim($path, '/');
 
-    if ($path === '' || !preg_match('/^\/[a-z0-9\/_-]+$/i', $path) || $path === '/query') {
+    if ($path === '' || !preg_match('/^\/[a-z0-9\/_-]+$/i', $path) || $path === self::QUERY_COMPAT_PATH) {
       return self::DEFAULT_PROXY_BASE_PATH;
     }
 
