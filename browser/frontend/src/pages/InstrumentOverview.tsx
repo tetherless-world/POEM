@@ -64,7 +64,7 @@ export default function InstrumentOveriew() {
             <p>Languages Available</p>
           </div>
           <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl trasition duration-300 ease-in-out hover:scale-105 border-2 border-gray-200">
-            <h3 className="text-4xl font-bold text-slate-600">3</h3>
+            <h3 className="text-4xl font-bold text-slate-600">4</h3>
             <p>Instrument Families</p>
           </div>
         </div>
@@ -151,7 +151,7 @@ export default function InstrumentOveriew() {
                   RCADS
                 </Link>
                 <Link
-                  to="/instruments/gad7"
+                  to="/instruments/gad"
                   className="bg-gray-500 text-white shadow-lg hover:bg-gray-600 text-lg p-2 trasition duration-300 ease-in-out hover:scale-110 rounded-sm"
                 >
                   GAD-7
@@ -209,16 +209,14 @@ export default function InstrumentOveriew() {
           </p>
         </div>
       </section>
-      <section className="mt-12 mx-auto max-w-6xl">
-        <div className="shadow-xl">
+      <section className="mt-12 mx-auto max-w-6xl flex flex-col gap-12">
+        <div className="shadow-xl rounded-b-3xl">
           <div className="flex justify-between items-center p-4 bg-gradient-to-r rounded-t-3xl from-amber-600/80 to-yellow-600/80 text-white">
             <div>
               <h2 className="text-2xl font bold">RCADS family</h2>
               <p>Revised Child Anxiety and Depression Scale</p>
             </div>
-            <div className="border border-gray-300 rounded-md">
-              <button className="bg-amber-500/30 p-2">View All Versions</button>
-            </div>
+              <Link to = "/instruments/rcads" className="bg-amber-500/30 hover:bg-amber-600/30 border border-gray-300 rounded-md p-2">Family Overview</Link>
           </div>
           <div className="border-b-2 border-gray-100 p-5">
             <p>
@@ -232,10 +230,13 @@ export default function InstrumentOveriew() {
               <div className="space-y-1 w-full">
                 <div className="flex items-center  justify-between">
                   <div>
-                    <h4 className="text-xl">
+                    <h4 className="text-xl flex space-x-0.5">
                       RCADS-25{" "}
+                       <span className="font-normal text-xs text-blue-700 px-2 py-1 bg-blue-300 rounded-3xl">
+                        Youth
+                      </span>
                       <span className="font-normal text-xs text-green-700 px-2 py-1 bg-green-300 rounded-3xl">
-                        v1
+                        English
                       </span>
                     </h4>
                   </div>
@@ -251,9 +252,9 @@ export default function InstrumentOveriew() {
                   <p>Comprehensive 25 item depression and anxiety tool</p>
                 </div>
                 <div className="flex justify-end rounded-md ">
-                  <button className="border border-gray-300 rounded-md px-2 py-1">
+                  <Link to = "/instruments/individual/RCADS-25-Y-EN" className="border hover:bg-gray-300 border-gray-300 rounded-md px-2 py-1">
                     view details
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -261,10 +262,13 @@ export default function InstrumentOveriew() {
               <div className="space-y-1 w-full">
                 <div className="flex items-center  justify-between">
                   <div>
-                    <h4 className="text-xl">
+                    <h4 className="text-xl flex space-x-0.5">
                       RCADS-47{" "}
+                       <span className="font-normal text-xs text-blue-700 px-2 py-1 bg-blue-300 rounded-3xl">
+                        Caregiver
+                      </span>
                       <span className=" font-normal text-xs text-green-700 px-2 py-1 bg-green-300 rounded-3xl">
-                        v1
+                        English
                       </span>
                     </h4>
                   </div>
@@ -280,9 +284,188 @@ export default function InstrumentOveriew() {
                   <p>Full 47 item depression and anxiety tool</p>
                 </div>
                 <div className="flex justify-end rounded-md">
-                  <button className="border border-gray-300 rounded-md px-2 py-1">
+                  <Link to = "/instruments/individual/RCADS-47-CG-EN" className="border hover:bg-gray-300 border-gray-300 rounded-md px-2 py-1">
                     view details
-                  </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="shadow-xl rounded-b-3xl">
+          <div className="flex justify-between items-center p-4 bg-gradient-to-r rounded-t-3xl from-amber-600/80 to-yellow-600/80 text-white">
+            <div>
+              <h2 className="text-2xl font bold">MTT Family</h2>
+              <p>My Thoughts About Therapy</p>
+            </div>
+              <Link to = "/instruments/mtt" className="bg-amber-500/30 hover:bg-amber-600/30 border border-gray-300 rounded-md p-2">Family Overview</Link>
+          </div>
+          <div className="border-b-2 border-gray-100 p-5">
+            <p>
+              A youth and caregiver diagnostic for assessing client engagment during therapy.
+            </p>
+          </div>
+          <h3 className="m-5 text-xl">Latest versions</h3>
+          <div className="flex gap-6 p-5">
+            <div className="flex-1 border border-gray-200 rounded-2xl hover:shadow-lg p-3 mx-auto bg-gray-300/20">
+              <div className="space-y-1 w-full">
+                <div className="flex items-center  justify-between">
+                  <div>
+                    <h4 className="text-xl flex space-x-0.5">
+                      MTT-35{" "}
+                      <span className="font-normal text-xs text-blue-700 px-2 py-1 bg-blue-300 rounded-3xl">
+                        Youth 
+                      </span>
+                       <span className="font-normal text-xs text-green-700 px-2 py-1 bg-green-300 rounded-3xl">
+                        English
+                      </span>
+                    </h4>
+                  </div>
+                  <div className="text-right text-sm text-gray-400">
+                    <p>35 items</p>
+                    <p>15 min</p>
+                  </div>
+                </div>
+                <div className="text-gray-500">
+                  <p>Full Screening</p>
+                </div>
+                <div className="text-gray-900">
+                  <p>Full 35 item therapy tool</p>
+                </div>
+                <div className="flex justify-end rounded-md ">
+                  <Link  to = "/instruments/individual/MTT-35-Y-EN-2"className="border border-gray-300 hover:bg-gray-300 rounded-md px-2 py-1">
+                    view details
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="flex-1 border border-gray-200 rounded-2xl hover:shadow-lg p-3 mx-auto bg-gray-300/20">
+              <div className="space-y-1 w-full">
+                <div className="flex items-center  justify-between">
+                  <div>
+                    <h4 className="text-xl flex space-x-0.5">
+                      MTT-35{" "}
+                      <span className=" font-normal text-xs text-blue-700 px-2 py-1 bg-blue-300 rounded-3xl">
+                        Caregiver
+                      </span>
+                       <span className="font-normal text-xs text-green-700 px-2 py-1 bg-green-300 rounded-3xl">
+                        English 
+                      </span>
+                    </h4>
+                  </div>
+                  <div className="text-right text-sm text-gray-400">
+                    <p>35 items</p>
+                    <p>15 min</p>
+                  </div>
+                </div>
+                <div className="text-gray-500">
+                  <p>Full Screening</p>
+                </div>
+                <div className="text-gray-900">
+                  <p>Full 35 item therapy tool</p>
+                </div>
+                <div className="flex justify-end rounded-md">
+                  <Link to = "/instruments/MTT-35-CG-EN-2" className="border hover:bg-gray-300 border-gray-300 rounded-md px-2 py-1">
+                    view details
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+           <div className="shadow-xl rounded-b-3xl">
+          <div className="flex justify-between items-center p-4 bg-gradient-to-r rounded-t-3xl from-amber-600/80 to-yellow-600/80 text-white">
+            <div>
+              <h2 className="text-2xl font bold">PHQ Family</h2>
+              <p>Patient Health Questionnaire</p>
+            </div>
+              <Link to = "/instruments/phq" className="bg-amber-500/30 hover:bg-amber-600/30 border border-gray-300 rounded-md p-2">Family Overview</Link>
+          </div>
+          <div className="border-b-2 border-gray-100 p-5">
+            <p>
+              An adult questionnaire used to diagonse the serverity of depression.
+            </p>
+          </div>
+          <h3 className="m-5 text-xl">Latest versions</h3>
+          <div className="flex gap-6 p-5">
+            <div className="flex-1 border border-gray-200 rounded-2xl hover:shadow-lg p-3 mx-auto bg-gray-300/20">
+              <div className="space-y-1 w-full">
+                <div className="flex items-center  justify-between">
+                  <div>
+                    <h4 className="text-xl flex space-x-0.5">
+                      PHQ-9{" "}
+                      <span className="font-normal text-xs text-blue-700 px-2 py-1 bg-blue-300 rounded-3xl">
+                        Adult 
+                      </span>
+                       <span className="font-normal text-xs text-green-700 px-2 py-1 bg-green-300 rounded-3xl">
+                        English
+                      </span>
+                    </h4>
+                  </div>
+                  <div className="text-right text-sm text-gray-400">
+                    <p>9 items</p>
+                    <p>5 min</p>
+                  </div>
+                </div>
+                <div className="text-gray-500">
+                  <p>Full Screening</p>
+                </div>
+                <div className="text-gray-900">
+                  <p>9 item health tool</p>
+                </div>
+                <div className="flex justify-end rounded-md ">
+                  <Link  to = "/instruments/individual/PHQ-9-A-EN"className="border border-gray-300 hover:bg-gray-300 rounded-md px-2 py-1">
+                    view details
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div className="shadow-xl rounded-b-3xl">
+          <div className="flex justify-between items-center p-4 bg-gradient-to-r rounded-t-3xl from-amber-600/80 to-yellow-600/80 text-white">
+            <div>
+              <h2 className="text-2xl font bold">GAD Family</h2>
+              <p>Generelized Anxiety Disorder-7</p>
+            </div>
+              <Link to = "/instruments/gad" className="bg-amber-500/30 hover:bg-amber-600/30 border border-gray-300 rounded-md p-2">Family Overview</Link>
+          </div>
+          <div className="border-b-2 border-gray-100 p-5">
+            <p>
+              An adult questionnaire used to diagonse the serverity of anxiety.
+            </p>
+          </div>
+          <h3 className="m-5 text-xl">Latest version</h3>
+          <div className="flex gap-6 p-5">
+            <div className="flex-1 border border-gray-200 rounded-2xl hover:shadow-lg p-3 mx-auto bg-gray-300/20">
+              <div className="space-y-1 w-full">
+                <div className="flex items-center  justify-between">
+                  <div>
+                    <h4 className="text-xl flex space-x-0.5">
+                      GAD-7{" "}
+                      <span className="font-normal text-xs text-blue-700 px-2 py-1 bg-blue-300 rounded-3xl">
+                        Adult 
+                      </span>
+                       <span className="font-normal text-xs text-green-700 px-2 py-1 bg-green-300 rounded-3xl">
+                        English
+                      </span>
+                    </h4>
+                  </div>
+                  <div className="text-right text-sm text-gray-400">
+                    <p>7 items</p>
+                    <p>5 min</p>
+                  </div>
+                </div>
+                <div className="text-gray-500">
+                  <p>Full Screening</p>
+                </div>
+                <div className="text-gray-900">
+                  <p>7 item health tool</p>
+                </div>
+                <div className="flex justify-end rounded-md ">
+                  <Link  to = "/instruments/individual/GAD-7"className="border border-gray-300 hover:bg-gray-300 rounded-md px-2 py-1">
+                    view details
+                  </Link>
                 </div>
               </div>
             </div>
