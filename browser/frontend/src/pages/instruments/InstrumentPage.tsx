@@ -68,8 +68,8 @@ export default function InstrumentPage() {
           <section className="mx-auto mt-12">
             <div className="flex justify-center "><Link to={`/instruments/list/${id}`} className="trasition duration-300 ease-in-out hover:scale-105 text-center text-2xl mb-12 shadow-md hover:shadow-2xl p-2 rounded-2xl">Instrument List</Link></div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-auto mt-12">
-          <CountBox count={instrumentCount} description="total  instruments" />
-          <CountBox count={languageCount} description="total languages" />
+          <CountBox count={instrumentCount} description="Total Instruments in Family" />
+          <CountBox count={languageCount} description="Total Languages in Family" />
         </div>
       </section>
       <section className="flex justify-center gap-6 mt-12 mx-auto">

@@ -1,5 +1,15 @@
+import os
+from dotenv import load_dotenv
 from rdflib import Dataset, URIRef, Literal
+import httpx
+from bs4 import BeautifulSoup
 
+import requests
+import json
+load_dotenv()
+
+
+OPEN_ROUTER_API_KEY = os.getenv("OPEN_ROUTER_KEY")
 instrumentsCollections: str = "urn:poem:file:instrumentCollections.ttl"
 instruments: str = "urn:poem:file:instruments.ttl"
 languages: str = "urn:poem:file:languages.ttl"
@@ -175,3 +185,50 @@ def get_instruments_by_scales(POEM: Dataset, scales_list: list[str]):
                 res[label] = set()
             res[label].add(str(scale).strip("\""))
     return {label: list(scales) for label, scales in res.items()}
+
+def ai_summary(text: str) -> str:
+    response = requests.post(
+  url="https://openrouter.ai/api/v1/chat/completions",
+  headers={
+    "Authorization": "Bearer " + OPEN_ROUTER_API_KEY,
+    "Content-Type": "application/json",
+  },
+  data=json.dumps({
+    "model": "stepfun/step-3.5-flash:free",
+    "messages": [
+        {
+          "role": "user",
+          "content": f"""You are analyzing content from the Psychometric Ontology of Experiences and Measures (POEM).
+
+POEM models:
+- assessment instruments
+- constructs (latent variables)
+- relationships between instruments, respondents, and measures
+
+Your task:
+- Summarize the page
+- Identify any instruments or constructs mentioned
+- Explain relationships if present
+- Keep it clear and structured
+
+Page Content:
+{text}"""
+        }
+      ],
+    "reasoning": {"enabled": True}
+  })
+)
+# Extract the assistant message with reasoning_details
+    response = response.json()
+    response = response['choices'][0]['message']
+    return response.get('content')
+def extract_text(html: str) -> str:
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in soup(["script", "style", "nav", "footer"]):
+        tag.decompose()
+    text: str = soup.get_text(separator=" ", strip=True)
+    return text[:8000] 
+async def fetch_html(url: str) -> str:
+    async with httpx.AsyncClient() as client:
+        response = await client.get(url)
+        return response.text
