@@ -207,6 +207,8 @@
           allowHTML: true,
           placeholderValue: 'Select...',
           searchPlaceholderValue: 'Type to search',
+          searchFields: ['label'],
+          searchResultLimit: -1,
         });
       }
     });
