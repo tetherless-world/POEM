@@ -179,9 +179,15 @@
     });
 
     var onSuccess = function(data) {
-        var myData = JSON.parse(data)
+        var response = JSON.parse(data)
+        var myData = Array.isArray(response) ? response : (response.data || [])
         var listgroup = $('#listgroup');
         listgroup.empty();
+        if (!Array.isArray(response) && response.message) {
+            let messageItem = $('<div class="list-group-item text-muted"></div>').text(response.message)
+            listgroup.append(messageItem)
+            return
+        }
         myData.forEach( function (value, index, array) {
             let lgi = $('<div class="list-group-item"><span class="badge badge-primary">1</span> ' + value.label + '</div>')
             listgroup.append(lgi)
