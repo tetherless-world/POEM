@@ -10,6 +10,7 @@ use GuzzleHttp\Exception\RequestException;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\Cookie;
+use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\StreamedResponse;
@@ -76,6 +77,10 @@ class ProxyController extends ControllerBase {
     $upstream_base_url = trim((string) $config->get('upstream_base_url'));
     $proxy_path = $this->resolveProxyPath($request, $proxy_path);
     $forward_query_string = $this->buildForwardQueryString($request);
+
+    if ($this->shouldRedirectProxyRootToTrailingSlash($request, $proxy_path)) {
+      return new RedirectResponse($this->buildTrailingSlashRedirectUrl($request), 308);
+    }
 
     if ($upstream_base_url === '') {
       throw new HttpException(500, (string) $this->t('ASK POEM proxy upstream URL is not configured.'));
@@ -513,12 +518,9 @@ class ProxyController extends ControllerBase {
       return $proxy_prefix . $effective_proxy_path;
     }
 
-    $directory = dirname($effective_proxy_path);
-    if ($directory === '.' || $directory === DIRECTORY_SEPARATOR) {
-      return $proxy_prefix . '/';
-    }
-
-    return $proxy_prefix . rtrim(str_replace('\\', '/', $directory), '/') . '/';
+    // Use the full proxied document URL so fragment-only links continue to
+    // target the current page instead of resolving against the parent path.
+    return $proxy_prefix . $effective_proxy_path;
   }
 
   /**
@@ -649,6 +651,31 @@ class ProxyController extends ControllerBase {
     }
 
     return http_build_query($query, '', '&', PHP_QUERY_RFC3986);
+  }
+
+  /**
+   * Returns whether the proxy root should redirect to its trailing-slash form.
+   */
+  protected function shouldRedirectProxyRootToTrailingSlash(Request $request, string $proxy_path): bool {
+    if ($proxy_path !== '') {
+      return FALSE;
+    }
+
+    return $request->getPathInfo() === $this->getConfiguredProxyRouteBase();
+  }
+
+  /**
+   * Builds the canonical trailing-slash URL for the proxy root.
+   */
+  protected function buildTrailingSlashRedirectUrl(Request $request): string {
+    $target = rtrim($request->getBasePath(), '/') . $this->getConfiguredProxyRouteBase() . '/';
+    $query = $request->getQueryString();
+
+    if (is_string($query) && $query !== '') {
+      $target .= '?' . $query;
+    }
+
+    return $target;
   }
 
   /**
