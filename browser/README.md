@@ -24,7 +24,7 @@ Windows: venv\Scripts\activate
 pip install -r requirements.txt  
 uvicorn main:app --reload   
 Runs on http://127.0.0.1:8000
-
-In order to ge the ai summary to work you need an api key from open router
+## AI setup
+In order to ge the ai summary to work you need an api key from [open router](https://openrouter.ai/workspaces/default/keys) 
 After getting your api key create a .env file in the backend folder and put your key in the file like this:
 OPEN_ROUTER_KEY = YOUR_API_KEY
