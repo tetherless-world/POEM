@@ -15,7 +15,7 @@ export default function NavBar() {
                 <NavLink to ="/"  className="hover:text-gray-900 transition" >Home</NavLink>
                 <a className="hover:text-gray-900 transition" href="#">About</a>
                 <a className="hover:text-gray-900 transition" href="#">User Guide</a>
-                <a className="hover:text-gray-900 transition" href="#">Glossary</a>
+                <a className="hover:text-gray-900 transition" href="/Glossary">Glossary</a>
                 <NavLink to="instrumentoverview" className="hover:text-gray-900 transition" >Instruments</NavLink>
                 <a className="hover:text-gray-900 transition" href="#">Contribute</a>
                 <a className="hover:text-gray-900 transition" href="#">Contact Us</a>
