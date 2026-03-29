@@ -20,10 +20,10 @@ export default function App() {
     <Routes>
       
       <Route path = "/" element = {<Home />} />
-      <Route path = "instrumentoverview" element = {<InstrumentOverview/>} />
+      <Route path = "/instruments" element = {<InstrumentOverview/>} />
       <Route path="/instruments/:id" element={<InstrumentPage />} />
       <Route path="/instruments/list/:id" element={<InstrumentList />} />
-      <Route path ="/scales" element={<Scales />} />
+      <Route path ="/Scales" element={<Scales />} />
       <Route path= "/instruments/individual/:id" element={<IndividualInstrumentPage />} />
       <Route path = "/Glossary" element = {<Glossary/>} />
     </Routes>
