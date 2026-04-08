@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import CountBox from "../../components/countBox";
 import Scales from "../../components/Scales";
+import { apiFetch } from "../../api/api";
 
 type Params = {
   id: string;
@@ -28,7 +29,7 @@ export default function InstrumentPage() {
   useEffect(() => {
     const getInstrumentInfo = async () => {
       try {
-        const res = await fetch(`http://127.0.0.1:8000/${name}`);
+        const res = await apiFetch(`/${name}`);
         const data = await res.json();
         setInstrumentCount(data.count);
         setLanguageCount(data.languages);

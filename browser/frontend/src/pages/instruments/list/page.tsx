@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";    
 import InstrumentCard from "../../../components/instrumentCard";
+import { apiFetch } from "../../../api/api";
 type Params = {
   id: string;
 };
@@ -10,7 +11,7 @@ const { id } = useParams<Params>();
 const [instruments, setInstruments] = useState([]);
 const getInstrumentsList = async () => { 
     try {
-        const res = await fetch(`http://127.0.0.1:8000/instruments/${id}`);
+        const res = await apiFetch(`/instruments/${id}`);
         const data = await res.json();
         setInstruments(data.instruments);
         console.log(data);

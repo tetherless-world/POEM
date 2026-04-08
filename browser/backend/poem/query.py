@@ -220,6 +220,9 @@ Page Content:
 )
 # Extract the assistant message with reasoning_details
     response = response.json()
+    print(response)
+    if 'choices' not in response:
+        return "Summary not available right now try again later"
     response = response['choices'][0]['message']
     return response.get('content')
 def extract_text(html: str) -> str:
@@ -232,3 +235,4 @@ async def fetch_html(url: str) -> str:
     async with httpx.AsyncClient() as client:
         response = await client.get(url)
         return response.text
+    

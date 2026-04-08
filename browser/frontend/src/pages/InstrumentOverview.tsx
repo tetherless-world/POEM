@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import {  useEffect, useState } from "react";
 import Tree from "../components/Tree";
+import { apiFetch } from "../api/api";
 type Node = {
   name: string;
   children: Node[];
@@ -26,7 +27,7 @@ export default function InstrumentOveriew() {
   const [treeData, setTreeData] = useState<Node[]>([]);
   const fetchTreeData = async () => {
     try {
-      const res = await fetch("http://localhost:8000/all_instruments_by_scale");
+      const res = await apiFetch("/all_instruments_by_scale");
       const data = await res.json();
       let newTreeData: Node[] | undefined = createTree(data);
       setTreeData(newTreeData || [{ name: "No data", children: undefined }]);

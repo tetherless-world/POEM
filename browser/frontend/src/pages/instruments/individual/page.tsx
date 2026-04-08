@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import { apiFetch } from "../../../api/api";
 type Params = {
   id: string;
 };
@@ -15,7 +16,7 @@ export default function IndividualInstrumentPage()
         const fetchData = async () => {
             try {
                 loading && setLoading(true);
-                const res = await fetch(`http://127.0.0.1:8000/instrument/individual/${id}`);
+                const res = await apiFetch(`/instrument/individual/${id}`);
                 const data = await res.json();
                 setInstrument(data.instrument);
                 setItems(data.items);

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
+import { apiFetch } from "../api/api";
 export default function SummarizePage() {
   const [isOpen, setIsOpen] = useState(false);
   const [summary, setSummary] = useState("");
@@ -20,7 +21,7 @@ export default function SummarizePage() {
     try{
     console.log("summary running");
     if (summary !== "") return;
-    const res = await fetch("http://localhost:8000/ai_summary", {
+    const res = await apiFetch("/ai_summary", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

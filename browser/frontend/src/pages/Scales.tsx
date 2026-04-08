@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
+import { apiFetch } from "../api/api";
 export default function Scales() {
     const [scales, setScales] = useState<string[]>([]);
     const getScales = async () => {
         try {
-            const res = await fetch("http://127.0.0.1:8000/scales");
+            const res = await apiFetch("/scales");
             const data = await res.json();
             setScales(data.scales);
             console.log(data);

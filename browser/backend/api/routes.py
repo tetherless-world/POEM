@@ -18,7 +18,7 @@ from poem.query import (
     get_components,
     ai_summary,
     fetch_html,
-    extract_text
+    extract_text,
 )
 
 router = APIRouter()
@@ -116,3 +116,7 @@ async def get_ai_summary(req: Request):
     summary = ai_summary(text)
     print(summary)
     return {"summary": summary}
+
+@router.post("/search/{query}")
+async def search(query):
+    results = search_query(query)
