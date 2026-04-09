@@ -13,7 +13,6 @@ import utils.POEMModel;
 public class Language extends models.Resource {
     private String notation;
     private String countryCode;
-    private String label;
 
     public Language(String notation, String countryCode) {
         this.notation = notation;
@@ -40,18 +39,11 @@ public class Language extends models.Resource {
     }
 
     public String getLabelWithCountry() {
+        String label = getLabel();
         if (countryCode == null || countryCode.isEmpty()) {
             return label != null ? label : notation;
         }
         return (label != null ? label : notation) + " (" + countryCode + ")";
-    }
-
-    public String getLabel() {
-        return label;
-    }
-
-    public void setLabel(String label) {
-        this.label = label;
     }
 
     public static List<Language> getAll() {
