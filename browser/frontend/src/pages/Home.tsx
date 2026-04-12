@@ -105,7 +105,7 @@ useEffect(() => {
           <Link  to = "/instruments" className="px-3 py-2 gap-2 flex transition-all duration-200 bg-amber-400 hover:bg-amber-500 shadow-xl hover:shadow-2xl justify-between items-center">
             Discover Instruments<BookOpen />
           </Link >
-          <button className="p-3 border border-white transition-all duration-200 hover:bg-slate-600 ">Learn More</button>
+          <Link className="p-3 border border-white transition-all duration-200 hover:bg-slate-600" to = "/Glossary">Learn More</Link>
         </div>
       </section>
       <section className="mx-auto mt-12 ">
@@ -117,7 +117,7 @@ useEffect(() => {
         </div>
       </section>
      <section className="mx-auto mt-12 mb-12 flex justify-center">
-      <Link to="/scales" className="text-2xl text-center p-3 border hover:bg-gray-50">Scales</Link>
+      <Link to="/scales" className="text-2xl bg-amber-500  text-white px-4 py-2 shadow-lg hover:bg-amber-600 transition duration-300 ease-in-out">Scales</Link>
       </section>
     </div>
   );
