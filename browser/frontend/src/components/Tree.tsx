@@ -10,11 +10,11 @@ export default function Tree({ node }: { node: Node }) {
 
       {/* Node */}
       {instruments.includes(node.name) ? (
-        <Link to={`/instruments/list/${node.name}`} className="px-2 py-1 bg-amber-500 text-white rounded-lg shadow hover:bg-amber-600 transition duration-300 ease-in-out">
+        <Link to={`/instruments/list/${node.name}`} className="px-2 py-1 bg-amber-500 text-white shadow hover:bg-amber-600 transition duration-300 ease-in-out">
           {node.name}
         </Link>
       ) : (
-      <div className="px-2 py-1 bg-amber-500 text-white rounded-lg shadow">
+      <div className="px-2 py-1 bg-amber-500 text-white shadow">
         {node.name}
       </div> )}
 

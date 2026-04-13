@@ -13,8 +13,8 @@ export default function InstrumentSection({
   Icon,
 }: instrumentProps) {
   return (
-    <div className="border-2 shadow-xl hover:shadow-2xl rounded-xl space-y-5">
-      <div className="h-3 rounded-t-xl bg-gradient-to-r from-amber-500/80 to-amber-600/80 ">
+    <div className="border-2 shadow-xl hover:shadow-2xl space-y-5">
+      <div className="h-3 bg-amber-500 ">
       </div>
       <div className="p-3">
         <div className="flex justify-between">

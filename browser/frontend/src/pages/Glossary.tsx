@@ -111,7 +111,7 @@ const terms = [
         </h1>
     <div className="flex flex-col text-md">
         {terms.map((term) => (
-  <div className="rounded-md shadow-md mx-auto w-10/12 hover:shadow-xl  p-6 border-2 border-gray-200 mt-12 transition duration-300 ease-in-out "key={term.term}>
+  <div className="rounded-none shadow-md mx-auto w-10/12 hover:shadow-xl p-6 border-2 border-gray-200 mt-12 transition duration-300 ease-in-out" key={term.term}>
     <div className="flex justify-between">
       <h2 className="text-2xl font-bold text-slate-600">{term.term}</h2>
       <p>{term.category}</p>
