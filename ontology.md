@@ -41,4 +41,4 @@ Each Response Option to an Item indicates some Symptom Experience; e.g. in Quest
 | Semanticscience Integrated Ontology     | sio    | [https://semanticscience.org/ontology/sio.owl](https://semanticscience.org/ontology/sio.owl) |
 
 [poem-current]: https://raw.githubusercontent.com/tetherless-world/POEM/main/POEM.rdf
-[poem-rcads-current]: https://raw.githubusercontent.com/tetherless-world/POEM/main/POEM-RCADS.rdf
+[poem-rcads-current]: https://github.com/tetherless-world/POEM/tree/main/poem-demo/dist/data
