@@ -13,12 +13,12 @@ export default function NavBar() {
 
             <nav className="hidden md:flex items-center gap-6 text-sm text-gray-600">
                 <NavLink to ="/"  className="hover:text-gray-900 transition" >Home</NavLink>
-                <a className="hover:text-gray-900 transition" href="#">About</a>
-                <a className="hover:text-gray-900 transition" href="#">User Guide</a>
+             {/*   <a className="hover:text-gray-900 transition" href="#">About</a>*/}
+              {/*<a className="hover:text-gray-900 transition" href="#">User Guide</a> */}
                 <NavLink className="hover:text-gray-900 transition" to="/Glossary">Glossary</NavLink>
                 <NavLink  className="hover:text-gray-900 transition" to="/instruments" >Instruments</NavLink>
-                <a className="hover:text-gray-900 transition" href="#">Contribute</a>
-                <a className="hover:text-gray-900 transition" href="#">Contact Us</a>
+                {/*<a className="hover:text-gray-900 transition" href="#">Contribute</a>*/}
+               {/* <a className="hover:text-gray-900 transition" href="#">Contact Us</a> */}
             </nav>
 
 

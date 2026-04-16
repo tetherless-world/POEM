@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
-import {  useEffect, useState } from "react";
-import Tree from "../components/Tree";
-import { apiFetch } from "../api/api";
-type Node = {
+
+/*type Node = {
   name: string;
   children: Node[];
 };
+
 function createTree(data: any): Node[] {
   if (data === null || data === undefined) return [];
   if(typeof data === "string") {
@@ -21,10 +20,10 @@ function createTree(data: any): Node[] {
     }));
   }
   return [];
-}
+}*/
 
 export default function InstrumentOveriew() {
-  const [treeData, setTreeData] = useState<Node[]>([]);
+  /*const [treeData, setTreeData] = useState<Node[]>([]);
   const fetchTreeData = async () => {
     try {
       const res = await apiFetch("/all_instruments_by_scale");
@@ -38,7 +37,7 @@ export default function InstrumentOveriew() {
   };
   useEffect(() => {
     fetchTreeData();
-  }, []);
+  }, []);*/
   return (
     <div>
       {" "}
@@ -179,9 +178,10 @@ export default function InstrumentOveriew() {
           </div>
         </div>
       </section>
+      {/*
       <section  className="mx-auto mt-12 text-sm">
         <Tree node={{ name: "Mental Health Instruments", children: treeData }} />
-      </section>
+      </section> */}
       <section className="text-center mt-12 space-y-4 mx-auto w-1/2 ">
         <h2 className="text-3xl ">Common Instrument Families</h2>
         <p className="">

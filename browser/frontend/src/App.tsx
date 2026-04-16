@@ -9,16 +9,15 @@ import InstrumentPage from './pages/instruments/InstrumentPage';
 import InstrumentList from './pages/instruments/list/page';
 import IndividualInstrumentPage from './pages/instruments/individual/page';
 import Scales from './pages/Scales';
-import SummarizePage from './components/SummarizePage';
 import Glossary from './pages/Glossary';
 export default function App() {
   return (
     <div className='flex flex-col min-h-screen'>
     <NavBar />
-    <main className='w-full grow mx-auto'>
-          <SummarizePage/>
+    <main className='w-full grow mx-auto m-0'>
+          {/*<SummarizePage/>*/}
     <Routes>
-      
+       
       <Route path = "/" element = {<Home />} />
       <Route path = "/instruments" element = {<InstrumentOverview/>} />
       <Route path="/instruments/:id" element={<InstrumentPage />} />
