@@ -36,9 +36,9 @@ Each Response Option to an Item indicates some Symptom Experience; e.g. in Quest
 
 | Ontology                                | Prefix | Resource                                                                                     |
 |-----------------------------------------|--------|----------------------------------------------------------------------------------------------|
-| Human-Aware Science Ontology            | hasco  | [https://hadatac.org/ont/hasco/hasco-V1.2.ttl](https://hadatac.org/ont/hasco/hasco-V1.2.ttl)       |
-| Virtual Solar Terrestrial Observatory   | vsto   | [https://hadatac.org/ont/vstoi/0.6/](https://hadatac.org/ont/vstoi/0.6)       |
+| Human-Aware Science Ontology            | hasco  | [https://hadatac.org/ont/hasco/hasco-V1.4.ttl](https://hadatac.org/ont/hasco/hasco-V1.4.ttl), [[Alternative]](https://github.com/tetherless-world/POEM/blob/main/ontology/hasco-V1.4.ttl) |
+| Virtual Solar Terrestrial Observatory   | vsto   | [https://hadatac.org/ont/vstoi/0.9/](https://hadatac.org/ont/vstoi/0.9), [[Alternative]](https://github.com/tetherless-world/POEM/blob/main/ontology/vsto-i.ttl) |
 | Semanticscience Integrated Ontology     | sio    | [https://semanticscience.org/ontology/sio.owl](https://semanticscience.org/ontology/sio.owl) |
 
 [poem-current]: https://raw.githubusercontent.com/tetherless-world/POEM/main/POEM.rdf
-[poem-rcads-current]: https://raw.githubusercontent.com/tetherless-world/POEM/main/POEM-RCADS.rdf
+[poem-rcads-current]: https://github.com/tetherless-world/POEM/tree/main/poem-demo/dist/data

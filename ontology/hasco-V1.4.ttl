@@ -1,0 +1,1376 @@
+# baseURI: http://hadatac.org/ont/hasco/
+# imports: http://datashapes.org/graphql
+# imports: http://hadatac.org/ont/vstoi
+# imports: http://purl.obolibrary.org/obo/uo.owl
+# imports: http://semanticscience.org/ontology/sio.owl
+# imports: http://topbraid.org/teamworkconstraints
+# imports: http://www.w3.org/2004/02/skos/core
+# imports: http://www.w3.org/TR/prov-o/
+# prefix: hasco
+
+@base          <http://hadatac.org/ont/hasco/> .
+@prefix hasco: <http://hadatac.org/ont/hasco/> .
+@prefix metadata: <http://topbraid.org/metadata#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix teamwork: <http://topbraid.org/teamwork#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix edg: <http://edg.topbraid.solutions/model/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+hasco:QualityValue  rdfs:label  "Quality Value" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000138> .
+
+hasco:Cohort  rdfs:label  "cohort" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000620> .
+
+hasco:QuantityVariable
+        rdfs:label       "Quantity Variable" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000138> .
+
+<http://semanticscience.org/resource/SIO_000052>
+        rdfs:subClassOf  hasco:Attribute .
+
+hasco:QualityVariable
+        rdfs:label       "Quality Variable" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000138> .
+
+<http://semanticscience.org/resource/SIO_000016>
+        owl:equivalentClass  <http://www.w3.org/ns/prov#Role> .
+
+hasco:StudyIndicator  rdfs:label  "Study Indicator" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:Indicator .
+
+hasco:SampleIndicator
+        rdfs:label       "Sample Indicator" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:Indicator .
+
+hasco:Study  rdfs:label  "study" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://www.w3.org/ns/prov#Activity> .
+
+hasco:Immunoassay  rdfs:label  "Immunoassay" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:AnalyticalMethod .
+
+<http://www.w3.org/ns/prov#Location>
+        rdfs:subClassOf  <http://www.w3.org/ns/prov#Entity> .
+
+hasco:MassSpectrometry
+        rdfs:label       "Mass Spectrometry" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:Spectrometry ;
+        rdfs:comment     "Mass spectrometry (MS) is an analytical technique that ionizes chemical species and sorts the ions based on their mass to charge ratio. In simpler terms, a mass spectrum measures the masses within a sample. (Wikipedia)" .
+
+hasco:TandemMassSpectrometry
+        rdfs:label       "Tandem Mass Spectrometry" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:MassSpectrometry .
+
+<http://semanticscience.org/resource/SIO_000006>
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  owl:Thing .
+
+hasco:Chromatography  rdfs:label  "Chromatography" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:AnalyticalMethod .
+
+hasco:ScienceIndicator
+        rdfs:label       "Science Indicator" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:Indicator .
+
+hasco:Indicator  rdfs:label  "Indicator" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  owl:Thing .
+
+hasco:CohortStudy  rdfs:label  "cohort study" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:LongitudinalStudy ;
+        <http://www.w3.org/ns/prov#definition>  "In a cohort study there is a passive follow-up of a group of people and a documentation of relevant characteristics or events related to this group of people." .
+
+<http://semanticscience.org/resource/SIO_000005>
+        rdfs:subClassOf  hasco:Attribute .
+
+hasco:AnalyticalMethod
+        rdfs:label       "Analytical Method" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:Method .
+
+hasco:Spectroscopy  rdfs:label  "Spectroscopy" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:AnalyticalMethod .
+
+<http://semanticscience.org/resource/SIO_001049>
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:StudyStep .
+
+<http://semanticscience.org/resource/SIO_000614>
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://www.w3.org/ns/prov#Entity> .
+
+skos:altLabel  rdf:type  owl:AnnotationProperty .
+
+<http://www.w3.org/ns/prov#Activity>
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000006> .
+
+<http://hadatac.org/ont/vstoi#perspectiveOf>
+        rdfs:subPropertyOf  <http://www.w3.org/ns/prov#specializationOf> .
+
+<http://www.w3.org/ns/prov#InstantaneousEvent>
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000006> .
+
+<http://purl.obolibrary.org/obo/UO_0000046>
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_001018> .
+
+hasco:ComputationalExperiment
+        rdfs:label       "computational experiment" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:DataAcquisition .
+
+hasco:DataAcquisition
+        rdfs:label       "data acquisition" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://www.w3.org/ns/prov#Activity> ;
+        rdfs:subClassOf  hasco:StudyStep ;
+        rdfs:comment     "Process of using instruments to collect data values for attributes of objects of interest. A data acquisition process is composed of a set of data acquisition actions where the the operating procedures for performing the data acquisition actions are exactly the same." .
+
+hasco:SubjectStudy  rdfs:label  "subject study" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:Study .
+
+<http://semanticscience.org/resource/SIO_000340>
+        rdfs:subClassOf  hasco:Attribute .
+
+hasco:Attribute  rdfs:label  "Attribute" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://www.w3.org/ns/prov#Entity> .
+
+<http://www.w3.org/ns/prov#KeyEntityPair>
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000069> .
+
+hasco:LongitudinalStudy
+        rdfs:label       "longitudinal study" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:ObservationalStudy ;
+        <http://www.w3.org/ns/prov#definition>  "a type of observational study an in which data is gathered for the same entities of interest repeatedly over a period of time." .
+
+<http://www.w3.org/ns/prov#definition>
+        rdf:type  owl:AnnotationProperty .
+
+hasco:ObservationalStudy
+        rdfs:label        "observational study" ;
+        rdf:type          owl:Class ;
+        rdfs:subClassOf   hasco:Study ;
+        owl:disjointWith  hasco:ExperimentalStudy ;
+        <http://www.w3.org/ns/prov#definition>  "An observational study draws inferences from a sample to a population where the independent variable is not under the control of the researcher because of ethical concerns or logistical constraints" .
+
+hasco:hasStep  rdfs:label  "has step" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:range   hasco:StudyStep ;
+        rdfs:domain  hasco:Study .
+
+hasco:StudyStep  rdfs:label  "study step" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://www.w3.org/ns/prov#Activity> .
+
+<http://semanticscience.org/resource/SIO_000056>
+        rdfs:subClassOf  <http://www.w3.org/ns/prov#Location> ;
+        rdfs:subClassOf  hasco:Attribute .
+
+hasco:hasIntellectualPropertyRights
+        rdfs:label          "has intellectual property rights" ;
+        rdf:type            owl:DatatypeProperty ;
+        rdfs:subPropertyOf  hasco:hasDataSetPolicyAttribute .
+
+hasco:hasDataSetPolicyAttribute
+        rdfs:label          "has data set policy attribute" ;
+        rdf:type            owl:DatatypeProperty ;
+        rdfs:subPropertyOf  hasco:isDataSetAttribute .
+
+<http://hadatac.org/ont/vstoi#Platform>
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000019> .
+
+hasco:hasTimedRoute  rdfs:label  "has timed route" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:range   hasco:TimedRoute ;
+        rdfs:domain  <http://hadatac.org/ont/vstoi#Platform> .
+
+hasco:TimedRoute  rdfs:label  "Timed Route" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000414> .
+
+hasco:Observation  rdfs:label  "Observation" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:DataAcquisition ;
+        rdfs:comment     "A data acquisition where agents directly or indirectly involved with the acquisition do not perform any form of intervention to the entities of interest." .
+
+hasco:hasParameterValue
+        rdfs:label  "has parameter value" ;
+        rdf:type    owl:DatatypeProperty ;
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/PATO_0001574>
+        rdfs:label       "flow rate" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_001365> .
+
+<http://purl.obolibrary.org/obo/PATO_0001745>
+        rdfs:label       "radiation absorbed dose" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://purl.obolibrary.org/obo/PATO_0001744> .
+
+<http://purl.obolibrary.org/obo/PATO_0001744>
+        rdfs:label       "radiation exposure" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000258> .
+
+hasco:Maker  rdfs:label  "Maker" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://www.w3.org/ns/prov#Organization> .
+
+<http://www.w3.org/ns/prov#Organization>
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  owl:Thing .
+
+hasco:hasMaker  rdfs:label  "has maker" ;
+        rdf:type    owl:ObjectProperty ;
+        rdfs:range  hasco:Maker .
+
+<http://purl.obolibrary.org/obo/PATO_0001674>
+        rdfs:label       "catalytic (activity) concentration" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_001088> .
+
+<http://hadatac.org/ont/vstoi#InstrumentOperatingMode>
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000510> .
+
+<http://purl.obolibrary.org/obo/PATO_0001461>
+        rdfs:label       "surface tension" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000044> .
+
+hasco:hasDataSetStorageAttribute
+        rdfs:label          "has data set storage attribute" ;
+        rdf:type            owl:DatatypeProperty ;
+        rdfs:subPropertyOf  hasco:isDataSetAttribute .
+
+hasco:isDataSetAttribute
+        rdfs:label  "is data set attribute" ;
+        rdf:type    owl:DatatypeProperty .
+
+hasco:hasXUnit  rdfs:label  "has X unit" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:domain  <http://hadatac.org/ont/vstoi#Platform> .
+
+hasco:hasPerspectiveCharacteristic
+        rdfs:label   "has perspective characteristic" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:domain  <http://hadatac.org/ont/vstoi#SensingPerspective> .
+
+<http://hadatac.org/ont/vstoi#SensingPerspective>
+        rdfs:label           "Sensing Perspective" ;
+        rdfs:subClassOf      <http://hadatac.org/ont/vstoi#Detector> ;
+        owl:equivalentClass  _:b0 .
+
+hasco:hasBackupFrequency
+        rdfs:label          "has backup frequency" ;
+        rdf:type            owl:DatatypeProperty ;
+        rdfs:subPropertyOf  hasco:hasDataSetStorageAttribute .
+
+hasco:DataAcquisitionAction
+        rdfs:label       "Data Acquisition Action" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://www.w3.org/ns/prov#Activity> .
+
+<http://purl.obolibrary.org/obo/PATO_0001035>
+        rdfs:label       "force" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000258> .
+
+hasco:GC-MS  rdfs:label  "Gas-chromatography Mass-Spectrometry" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:TandemMassSpectrometry .
+
+<http://semanticscience.org/resource/SIO_000648>
+        rdfs:subClassOf  <http://www.w3.org/ns/prov#Entity> .
+
+<http://www.w3.org/ns/prov#Entity>
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000000> .
+
+hasco:isPIConfirmed  rdfs:label  "is PI confirmed" ;
+        rdf:type     owl:DatatypeProperty ;
+        rdfs:range   xsd:boolean ;
+        rdfs:domain  hasco:PossibleValue .
+
+hasco:PossibleValue  rdfs:label  "Possible Value" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_001259> .
+
+<http://purl.obolibrary.org/obo/PATO_0001682>
+        rdfs:label       "magnetism" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000258> .
+
+hasco:MatchingCollection
+        rdfs:label                "Matching Collection" ;
+        rdf:type                  owl:Class ;
+        rdfs:subClassOf           hasco:ObjectCollection ;
+        rdfs:comment              "Collection of matching objects" ;
+        hasco:hasLabelFragment    "mathes" ;
+        hasco:hasAcronym          "MATCH" ;
+        hasco:hasStudyObjectType  hasco:StudyObjectMatching .
+
+hasco:hasLabelFragment
+        rdfs:label          "has label fragment" ;
+        rdf:type            owl:DatatypeProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" .
+
+hasco:hasAcronym  rdfs:label  "has acronym" ;
+        rdf:type            owl:DatatypeProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" .
+
+hasco:hasStudyObjectType
+        rdfs:label          "has study object type" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" .
+
+hasco:StudyObjectMatching
+        rdfs:label       "matching" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:StudyObject .
+
+hasco:ObjectCollection
+        rdfs:label                "Object Collection" ;
+        rdf:type                  owl:Class ;
+        rdfs:subClassOf           owl:Thing ;
+        rdfs:comment              "A collection of samples including other sample collections" ;
+        hasco:hasLabelFragment    "object" ;
+        hasco:hasAcronym          "OBJ" ;
+        hasco:hasStudyObjectType  hasco:StudyObjectType .
+
+hasco:hasAttributeReference
+        rdfs:label     "has attribute reference" ;
+        rdf:type       owl:ObjectProperty ;
+        owl:inverseOf  hasco:isAttributeReferenceOf .
+
+hasco:isAttributeReferenceOf
+        rdfs:label     "is attribute reference of" ;
+        rdf:type       owl:ObjectProperty ;
+        rdfs:range     <http://hadatac.org/ont/vstoi#Dataset> ;
+        owl:inverseOf  hasco:hasAttributeReference .
+
+hasco:LocationCollection
+        rdfs:label                "Location Collection" ;
+        rdf:type                  owl:Class ;
+        rdfs:subClassOf           hasco:ObjectCollection ;
+        rdfs:comment              "Collection of coordinates and/or names locations of a physical region of interest" ;
+        hasco:hasLabelFragment    "at" ;
+        hasco:hasAcronym          "LOC" ;
+        hasco:hasStudyObjectType  <http://semanticscience.org/resource/SIO_000328> .
+
+hasco:matchesWith  rdfs:label  "matches" ;
+        rdf:type    owl:ObjectProperty ;
+        rdfs:range  hasco:StudyObjectMatching .
+
+<http://www.w3.org/ns/prov#Influence>
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000006> .
+
+hasco:hasPossibleValue
+        rdfs:label     "has possible value" ;
+        rdf:type       owl:ObjectProperty ;
+        rdfs:range     hasco:PossibleValue ;
+        rdfs:domain    _:b1 ;
+        owl:inverseOf  hasco:isPossibleValueOf .
+
+hasco:isPossibleValueOf
+        rdfs:label     "is possible value of" ;
+        rdf:type       owl:ObjectProperty ;
+        rdfs:range     _:b2 ;
+        rdfs:domain    hasco:PossibleValue ;
+        owl:inverseOf  hasco:hasPossibleValue .
+
+<http://purl.obolibrary.org/obo/PATO_0001740>
+        rdfs:label       "activity (of a radionuclide)" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000258> .
+
+<http://purl.obolibrary.org/obo/PATO_0001022>
+        rdfs:label       "impulse" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000258> .
+
+<http://hadatac.org/ont/vstoi#Detector>
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000776> .
+
+<http://hadatac.org/ont/vstoi#DetectorStem>
+        rdf:type         owl:Class ;
+        rdfs:subClassOf <http://semanticscience.org/resource/SIO_000776> .
+
+_:b0    rdf:type             owl:Restriction ;
+        owl:someValuesFrom   <http://hadatac.org/ont/vstoi#Detector> ;
+        owl:onProperty       <http://hadatac.org/ont/vstoi#perspectiveOf> ;
+        owl:equivalentClass  <http://hadatac.org/ont/vstoi#SensingPerspective> .
+
+<http://hadatac.org/ont/vstoi#Dataset>
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://www.w3.org/ns/prov#Entity> .
+
+<http://purl.obolibrary.org/obo/PATO_0000008>
+        rdfs:subClassOf      <http://semanticscience.org/resource/SIO_001365> ;
+        owl:equivalentClass  <http://semanticscience.org/resource/SIO_001368> .
+
+hasco:Spectrometry  rdfs:label  "Spectrometry" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:AnalyticalMethod .
+
+hasco:hasSecondCoordinateCharacteristic
+        rdfs:label   "has second coordinate characteristic" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:domain  <http://hadatac.org/ont/vstoi#Platform> .
+
+hasco:hasAction  rdfs:label  "has action" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:range   hasco:DataAcquisitionAction ;
+        rdfs:domain  hasco:DataAcquisition .
+
+<http://purl.obolibrary.org/obo/PATO_0001414>
+        rdfs:label       "catalytic activity" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000258> .
+
+hasco:RandomizedExperimentalStudy
+        rdfs:label       "randomized experimental study" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:ExperimentalStudy ;
+        <http://www.w3.org/ns/prov#definition>  "Randomized experiments allow the greatest reliability and validity of statistical estimates of treatment effects. Increased reliability and validity comes from randomization, which involves randomly allocating experimental units across treatment groups." .
+
+hasco:ExperimentalStudy
+        rdfs:label        "experimental study" ;
+        rdf:type          owl:Class ;
+        rdfs:subClassOf   hasco:Study ;
+        owl:disjointWith  hasco:ObservationalStudy ;
+        <http://www.w3.org/ns/prov#definition>  "a method of research in which there are two kinds of variables. The independent variable is manipulated by the experimenter, and the dependent variable is measured" .
+
+hasco:hasStorageMedia
+        rdfs:label          "has storage media" ;
+        rdf:type            owl:DatatypeProperty ;
+        rdfs:subPropertyOf  hasco:hasDataSetStorageAttribute .
+
+<http://semanticscience.org/resource/SIO_000956>
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  owl:Thing .
+
+hasco:InstrumentPerspective
+        rdfs:label       "Instrument Perspective" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://hadatac.org/ont/vstoi#Instrument> .
+
+<http://hadatac.org/ont/vstoi#Instrument>
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000776> .
+
+<http://semanticscience.org/resource/SIO_001051>
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:StudyStep .
+
+<http://purl.obolibrary.org/obo/PATO_0001464>
+        rdfs:label       "electric potential" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000442> .
+
+hasco:StudyObject  rdfs:label  "study object" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/Resource/SIO_000648> .
+
+hasco:hasYUnit  rdfs:label  "has Y unit" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:domain  <http://hadatac.org/ont/vstoi#Platform> .
+
+hasco:ConfigurationFile
+        rdfs:label       "Configuration File" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://www.w3.org/ns/prov#Entity> .
+
+<http://purl.obolibrary.org/obo/PATO_0001756>
+        rdfs:label       "heat conductivity" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000258> .
+
+hasco:DataVisualizationActivity
+        rdfs:label       "data visualization activity" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_001051> .
+
+<http://purl.obolibrary.org/obo/PATO_0001351>
+        rdfs:label       "area density" ;
+        rdfs:subClassOf  <http://purl.obolibrary.org/obo/PATO_0001019> .
+
+<http://purl.obolibrary.org/obo/PATO_0001309>
+        rdfs:label       "duration" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000417> .
+
+hasco:Method  rdfs:label  "Method" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://www.w3.org/ns/prov#Activity> .
+
+hasco:hasThirdCoordinateCharacteristic
+        rdfs:label   "has third coordinate characteristic" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:domain  <http://hadatac.org/ont/vstoi#Platform> .
+
+hasco:hasMedia  rdfs:label  "has media" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:domain  <http://hadatac.org/ont/vstoi#Instrument> .
+
+hasco:hasCodeValue  rdfs:label  "has code value" ;
+        rdf:type     owl:DatatypeProperty ;
+        rdfs:range   rdfs:Literal ;
+        rdfs:domain  hasco:PossibleValue .
+
+<http://purl.obolibrary.org/obo/PATO_0001025>
+        rdfs:label       "pressure" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000258> .
+
+hasco:hasBackupResponsibility
+        rdfs:label          "has backup responsibility" ;
+        rdf:type            owl:DatatypeProperty ;
+        rdfs:subPropertyOf  hasco:hasDataSetPolicyAttribute .
+
+hasco:hasContext  rdfs:label  "has context" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:range   <http://hadatac.org/ont/vstoi#Deployment> ;
+        rdfs:domain  hasco:DataAcquisition .
+
+<http://hadatac.org/ont/vstoi#Deployment>
+        rdfs:subClassOf  <http://www.w3.org/ns/prov#Activity> .
+
+<http://purl.obolibrary.org/obo/PATO_0000992>
+        rdfs:label       "viscosity" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000048> .
+
+hasco:Microscopy  rdfs:label  "Microscopy" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:AnalyticalMethod .
+
+hasco:hasPosition  rdfs:label  "has position" ;
+        rdf:type    owl:DatatypeProperty ;
+        rdfs:range  xsd:integer .
+
+hasco:hasStorageFormat
+        rdfs:label          "has storage format" ;
+        rdf:type            owl:DatatypeProperty ;
+        rdfs:subPropertyOf  hasco:hasDataSetStorageAttribute .
+
+<http://purl.obolibrary.org/obo/PATO_0001709>
+        rdfs:label           "2-D extent" ;
+        rdfs:subClassOf      <http://semanticscience.org/resource/SIO_000037> ;
+        owl:equivalentClass  <http://semanticscience.org/resource/SIO_000044> .
+
+hasco:CrossSectionalStudy
+        rdfs:label       "cross-sectional study" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:ObservationalStudy ;
+        <http://www.w3.org/ns/prov#definition>  "a type of observational study that involves the analysis of data collected from a population, or a representative subset, at one specific point in time." .
+
+<http://purl.obolibrary.org/obo/PATO_0001680>
+        rdfs:label       "molar volume" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000049> .
+
+hasco:hasFirstCoordinateCharacteristic
+        rdfs:label   "has first coordinate characteristic" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:domain  <http://hadatac.org/ont/vstoi#Platform> .
+
+<http://purl.obolibrary.org/obo/PATO_0001296>
+        rdfs:label       "light quantity" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000257> .
+
+hasco:hasRelatedPolicy
+        rdfs:label          "has related policy" ;
+        rdf:type            owl:DatatypeProperty ;
+        rdfs:subPropertyOf  hasco:hasDataSetPolicyAttribute .
+
+hasco:supportProject  rdfs:label  "support project" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:range   hasco:Project ;
+        rdfs:domain  hasco:Study .
+
+hasco:Project  rdfs:label  "project" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000006> .
+
+hasco:TimeCollection  rdfs:label  "Time Collection" ;
+        rdf:type                  owl:Class ;
+        rdfs:subClassOf           hasco:ObjectCollection ;
+        rdfs:comment              "Time Collection" ;
+        hasco:hasLabelFragment    "at" ;
+        hasco:hasAcronym          "TIME" ;
+        hasco:hasStudyObjectType  <http://semanticscience.org/resource/SIO_000417> .
+
+<http://hadatac.org/ont/vstoi#hasMeasuredCharacteristic>
+        rdfs:label   "has measured characteristic" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:domain  <http://hadatac.org/ont/vstoi#Detector> .
+
+<http://purl.obolibrary.org/obo/PATO_0001717>
+        rdfs:label       "radiation emitting intensity quality" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://purl.obolibrary.org/obo/PATO_0001299> .
+
+<http://purl.obolibrary.org/obo/PATO_0001299>
+        rdfs:label       "radiation quality" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000026> .
+
+hasco:isMatchingMember
+        rdfs:label   "is matching member" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:range   hasco:StudyObjectMatching ;
+        rdfs:domain  hasco:StudyObject .
+
+<http://www.w3.org/ns/prov#Role>
+        rdfs:subClassOf      <http://semanticscience.org/resource/SIO_000340> ;
+        owl:equivalentClass  <http://semanticscience.org/resource/SIO_000016> .
+
+<http://purl.obolibrary.org/obo/PATO_0001746>
+        rdfs:label       "radiation equivalent dose" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://purl.obolibrary.org/obo/PATO_0001744> ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_001019> .
+
+<http://purl.obolibrary.org/obo/PATO_0001028>
+        rdfs:label       "acceleration" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000258> .
+
+hasco:Measuring  rdfs:label  "Measuring" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:DataAcquisitionAction .
+
+<http://semanticscience.org/resource/SIO_000620>
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  owl:Thing .
+
+hasco:SampleCollection
+        rdfs:label                "Sample Collection" ;
+        rdf:type                  owl:Class ;
+        rdfs:subClassOf           hasco:ObjectCollection ;
+        rdfs:comment              "collection of material elements sampled from a region of interest or from other samples" ;
+        hasco:hasLabelFragment    "sample" ;
+        hasco:hasAcronym          "SPL" ;
+        hasco:hasStudyObjectType  <http://semanticscience.org/resource/SIO_001050> .
+
+hasco:hasFirstCoordinateUnit
+        rdfs:label   "has first coordinate unit" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:domain  <http://hadatac.org/ont/vstoi#Platform> .
+
+hasco:SubjectGroup  rdfs:label    "Subject Group" ;
+        rdf:type                  owl:Class ;
+        rdfs:subClassOf           hasco:ObjectCollection ;
+        rdfs:comment              "A group of human subjects" ;
+        hasco:hasLabelFragment    "subject" ;
+        hasco:hasAcronym          "SUBJ" ;
+        hasco:hasStudyObjectType  <http://semanticscience.org/resource/SIO_000485> .
+
+<http://purl.obolibrary.org/obo/UO_0000000>
+        rdf:type             owl:Class ;
+        rdfs:subClassOf      <http://semanticscience.org/resource/SIO_000052> ;
+        owl:equivalentClass  <http://semanticscience.org/resource/SIO_000074> .
+
+hasco:Eliciting  rdfs:label  "Eliciting" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:DataAcquisitionAction .
+
+hasco:ClassEntryPoint  rdfs:label  "Class Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  owl:Thing .
+
+hasco:AnnotationEntryPoint  rdfs:label  "Annotation Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:ClassEntryPoint .
+
+hasco:AttributeEntryPoint  rdfs:label  "Attribute Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:ClassEntryPoint .
+
+hasco:CodebookEntryPoint  rdfs:label  "Codebook Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:ClassEntryPoint .
+
+hasco:ComponentStemEntryPoint  rdfs:label  "Component Stem Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:ClassEntryPoint .
+
+hasco:ComponentEntryPoint  rdfs:label  "Component Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:ClassEntryPoint .
+
+hasco:ComponentAttributeEntryPoint  rdfs:label  "Component Attribute Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:ClassEntryPoint .
+
+hasco:EntityEntryPoint  rdfs:label  "Entity Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:ClassEntryPoint .
+
+hasco:GroupEntryPoint  rdfs:label  "Group Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:ClassEntryPoint .
+
+hasco:InstrumentEntryPoint  rdfs:label  "Instrument Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:ClassEntryPoint .
+
+hasco:OrganizationEntryPoint  rdfs:label  "Organization Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:ClassEntryPoint .
+
+hasco:PersonEntryPoint  rdfs:label  "Person Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:ClassEntryPoint .
+
+hasco:PlaceEntryPoint  rdfs:label  "PlaceEntry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:ClassEntryPoint .
+
+hasco:PlatformEntryPoint  rdfs:label  "Platform Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:EntryPoint .
+
+hasco:WorkflowStemEntryPoint  rdfs:label  "Workflow Stem Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:ClassEntryPoint .
+
+hasco:QuestionnaireEntryPoint  rdfs:label  "Questionnaire Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:ClassEntryPoint .
+
+hasco:ResponseOptionEntryPoint  rdfs:label  "Response Option Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:ClassEntryPoint .
+
+hasco:StudyEntryPoint  rdfs:label  "Study Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:ClassEntryPoint .
+
+hasco:TaskEntryPoint  rdfs:label  "Task Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:ClassEntryPoint .
+
+hasco:TaskTemporalDependencyEntryPoint  rdfs:label  "Task Temporal Dependency Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:EntryPoint .
+
+hasco:InstanceEntryPoint  rdfs:label  "Instance Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  owl:Thing .
+
+hasco:ComponentInstanceEntryPoint  rdfs:label  "Component Instance Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:InstanceEntryPoint .
+
+hasco:InstrumentInstanceEntryPoint  rdfs:label  "Instrument Instance Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:InstanceEntryPoint .
+
+hasco:PlatformInstanceEntryPoint  rdfs:label  "Platform Instance Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:InstanceEntryPoint .
+
+hasco:UnitInstanceEntryPoint  rdfs:label  "Unit Instance Entry Point" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:InstanceEntryPoint .
+
+hasco:recordedIn  rdfs:label  "recorded in" ;
+        rdf:type    owl:ObjectProperty ;
+        rdfs:range  <http://hadatac.org/ont/vstoi#Dataset> .
+
+<http://www.w3.org/ns/prov#Person>
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  owl:Thing .
+
+hasco:hasDataSetTimeAttribute
+        rdfs:label          "has data set time attribute" ;
+        rdf:type            owl:DatatypeProperty ;
+        rdfs:subPropertyOf  hasco:isDataSetAttribute .
+
+<http://purl.obolibrary.org/obo/PATO_0001428>
+        rdfs:label  "medium acidity" .
+
+hasco:hasReportingDateTime
+        rdfs:label          "has reporting date time" ;
+        rdf:type            owl:DatatypeProperty ;
+        rdfs:subPropertyOf  hasco:hasDataSetTimeAttribute .
+
+<http://purl.obolibrary.org/obo/PATO_0001023>
+        rdfs:label       "momentum" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000258> .
+
+hasco:EmpiricalExperiment
+        rdfs:label       "empirical experiment" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:DataAcquisition ;
+        rdfs:comment     "A data acquisition where agents directly or indirectly involved with the acquisition may  perform interventions to the entities of interest." .
+
+hasco:StudyObjectType
+        rdfs:label       "Study Object Type" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  owl:Class .
+
+hasco:hasCreatingDateTime
+        rdfs:label          "has creating date time" ;
+        rdf:type            owl:DatatypeProperty ;
+        rdfs:subPropertyOf  hasco:hasDataSetTimeAttribute .
+
+hasco:LimitOfDetection
+        rdfs:label       "Limit of Detection" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_001088> ;
+        rdfs:comment     "The lowest quantity of a substance that can be distinguished from the absence of that substance (a blank value) with a stated confidence level (generally 99%). The detection limit is estimated from the mean of the blank, the standard deviation of the blank and some confidence factor. Another consideration that affects the detection limit is the accuracy of the model used to predict concentration from the raw analytical signal." .
+
+<http://purl.obolibrary.org/obo/PATO_0001757>
+        rdfs:label       "electrical conductivity" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000258> .
+
+<http://purl.obolibrary.org/obo/PATO_0001352>
+        rdfs:label       "linear density" ;
+        rdfs:subClassOf  <http://purl.obolibrary.org/obo/PATO_0001019> .
+
+hasco:originalID  rdfs:label  "original ID" ;
+        rdf:type    owl:DatatypeProperty ;
+        rdfs:range  xsd:string .
+
+hasco:hasThirdCoordinate
+        rdfs:label  "has third coordinate" ;
+        rdf:type    owl:DatatypeProperty .
+
+hasco:hasConcern  rdfs:label  "has concern" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:range   <http://semanticscience.org/resource/SIO_000614> ;
+        rdfs:domain  hasco:Study .
+
+<http://purl.obolibrary.org/obo/PATO_0000146>
+        rdfs:label       "temperature" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000052> .
+
+hasco:hasAnticipatedDataVolume
+        rdfs:label          "has anticipated data volume" ;
+        rdf:type            owl:DatatypeProperty ;
+        rdfs:subPropertyOf  hasco:hasDataSetStorageAttribute .
+
+<http://purl.obolibrary.org/obo/PATO_0000125>
+        rdfs:subClassOf      <http://semanticscience.org/resource/SIO_000037> ;
+        owl:equivalentClass  <http://semanticscience.org/resource/SIO_000279> .
+
+hasco:hasImage  rdfs:label  "has image" ;
+        rdf:type    owl:DatatypeProperty ;
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/PATO_0001026>
+        rdfs:label       "work" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000258> .
+
+<http://purl.obolibrary.org/obo/PATO_0000033>
+        rdfs:subClassOf      <http://semanticscience.org/resource/SIO_000048> ;
+        owl:equivalentClass  <http://semanticscience.org/resource/SIO_001088> .
+
+hasco:hasSecondCoordinateUnit
+        rdfs:label   "has second coordinate unit" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:domain  <http://hadatac.org/ont/vstoi#Platform> .
+
+hasco:isDataSetOf  rdfs:label  "is data set of" ;
+        rdf:type       owl:ObjectProperty ;
+        rdfs:range     hasco:Study ;
+        rdfs:domain    <http://hadatac.org/ont/vstoi#Dataset> ;
+        owl:inverseOf  hasco:hasDataSet .
+
+<http://purl.obolibrary.org/obo/PATO_0000133>
+        rdfs:subClassOf      <http://semanticscience.org/resource/SIO_000056> ;
+        owl:equivalentClass  <http://semanticscience.org/resource/SIO_000057> .
+
+<http://purl.obolibrary.org/obo/PATO_0001710>
+        rdfs:label           "3-D extent" ;
+        rdfs:subClassOf      <http://semanticscience.org/resource/SIO_000037> ;
+        owl:equivalentClass  <http://semanticscience.org/resource/SIO_000048> .
+
+<http://purl.obolibrary.org/obo/PATO_0001681>
+        rdfs:label       "molar mass" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000279> .
+
+hasco:FieldStudy  rdfs:label  "field study" ;
+        rdf:type          owl:Class ;
+        rdfs:subClassOf   hasco:Study ;
+        owl:disjointWith  hasco:LaboratoryStudy .
+
+hasco:LaboratoryStudy
+        rdfs:label        "laboratory study" ;
+        rdf:type          owl:Class ;
+        rdfs:subClassOf   hasco:Study ;
+        owl:disjointWith  hasco:FieldStudy .
+
+hasco:hasOperatingTemperatureUnit
+        rdfs:label   "has operating temperature unit" ;
+        rdf:type     owl:ObjectProperty ;
+        rdf:type     owl:FunctionalProperty ;
+        rdfs:domain  <http://hadatac.org/ont/vstoi#Platform> .
+
+<http://purl.obolibrary.org/obo/PATO_0001021>
+        rdfs:label       "energy" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000258> .
+
+<http://purl.obolibrary.org/obo/PATO_0001718>
+        rdfs:label       "luminance" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://purl.obolibrary.org/obo/PATO_0001296> .
+
+hasco:Simulating  rdfs:label  "simulating" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:DataAcquisitionAction .
+
+hasco:hasThirdCoordinateUnit
+        rdfs:label   "has third coordinate unit" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:domain  <http://hadatac.org/ont/vstoi#Platform> .
+
+hasco:CodeEliciting  rdfs:label  "code eliciting" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:Eliciting .
+
+<http://purl.obolibrary.org/obo/PATO_0000128>
+        rdfs:label       "weight" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000037> .
+
+<http://purl.obolibrary.org/obo/PATO_0001413>
+        rdfs:label       "angular velocity" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_001369> .
+
+<http://purl.obolibrary.org/obo/PATO_0001747>
+        rdfs:label       "radiation effective dose" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://purl.obolibrary.org/obo/PATO_0001744> ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_001020> .
+
+hasco:hasParameterName
+        rdfs:label  "has parameter name" ;
+        rdf:type    owl:DatatypeProperty ;
+        rdfs:range  xsd:string .
+
+hasco:hasSecondCoordinate
+        rdfs:label  "has second coordinate" ;
+        rdf:type    owl:DatatypeProperty .
+
+hasco:hasReference  rdfs:label  "has reference" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:range   hasco:VirtualColumn ;
+        rdfs:domain  hasco:ObjectCollection .
+
+hasco:hasEmbargoPeriod
+        rdfs:label          "has embargo period" ;
+        rdf:type            owl:DatatypeProperty ;
+        rdfs:subPropertyOf  hasco:hasDataSetTimeAttribute .
+
+hasco:isGroupMember  rdfs:label  "is group member" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:range   hasco:SOCGroup ;
+        rdfs:domain  hasco:StudyObject .
+
+hasco:SOCGroup  rdfs:label  "group" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://semanticscience.org/Resource/SIO_000648> .
+
+hasco:hasGroupId  rdfs:label  "has group ID" ;
+        rdf:type    owl:DatatypeProperty ;
+        rdfs:range  xsd:string .
+
+hasco:hasRetentionPeriod
+        rdfs:label          "has retention period" ;
+        rdf:type            owl:DatatypeProperty ;
+        rdfs:subPropertyOf  hasco:hasDataSetTimeAttribute .
+
+<http://purl.obolibrary.org/obo/PATO_0001350>
+        rdfs:label       "angular acceleration" ;
+        rdfs:subClassOf  <http://purl.obolibrary.org/obo/PATO_0001028> .
+
+hasco:hasResponseTimeUnit
+        rdfs:label   "has response time unit" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:domain  <http://hadatac.org/ont/vstoi#SensingPerspective> .
+
+<http://purl.obolibrary.org/obo/PATO_0000044>
+        rdfs:subClassOf      <http://semanticscience.org/resource/SIO_001365> ;
+        owl:equivalentClass  <http://semanticscience.org/resource/SIO_001367> .
+
+<http://purl.obolibrary.org/obo/PATO_0001521>
+        rdfs:label       "sound amplitude" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000052> .
+
+hasco:SubjectInterview
+        rdfs:label       "subject interview" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:DataAcquisition .
+
+hasco:hasDataSet  rdfs:label  "has data set" ;
+        rdf:type       owl:ObjectProperty ;
+        owl:inverseOf  hasco:isDataSetOf .
+
+<http://purl.obolibrary.org/obo/PATO_0000165>
+        rdfs:label       "time" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000258> .
+
+<http://hadatac.org/ont/vstoi#Observatory>
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000019> .
+
+<http://purl.obolibrary.org/obo/PATO_0001024>
+        rdfs:label       "power" ;
+        rdfs:subClassOf  <http://semanticscience.org/resource/SIO_000258> .
+
+hasco:hasLicence  rdfs:label  "has license" ;
+        rdf:type            owl:DatatypeProperty ;
+        rdfs:subPropertyOf  hasco:hasDataSetPolicyAttribute .
+
+hasco:Configurator  rdfs:label  "Configurator" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://www.w3.org/ns/prov#Person> .
+
+hasco:hasFirstCoordinate
+        rdfs:label  "has first coordinate" ;
+        rdf:type    owl:DatatypeProperty .
+
+hasco:hasZUnit  rdfs:label  "has Z unit" ;
+        rdf:type     owl:ObjectProperty ;
+        rdfs:domain  <http://hadatac.org/ont/vstoi#Platform> .
+
+hasco:ValueEliciting  rdfs:label  "value eliciting" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:Eliciting .
+
+hasco:LC-MS  rdfs:label  "Liquid-chromatography Mass-Spectrometry" ;
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  hasco:TandemMassSpectrometry .
+
+hasco:isMemberOf  rdfs:label  "is member of" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          _:b3 .
+
+hasco:hasObjectScope  rdfs:label  "has object scope" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" .
+
+hasco:hasTimeObjectScope
+        rdfs:label          "has time object scope" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          <http://semanticscience.org/resource/SIO_000417> .
+
+hasco:otherFor  rdfs:label  "other for" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          owl:Class ;
+        rdfs:domain         hasco:PossibleValue .
+
+hasco:hasVariable  rdfs:label  "has variable" ;
+        rdf:type            owl:DatatypeProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          xsd:string ;
+        rdfs:domain         hasco:PossibleValue .
+
+hasco:hasCodeLabel  rdfs:label  "has code label" ;
+        rdf:type            owl:DatatypeProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          xsd:string ;
+        rdfs:domain         hasco:PossibleValue .
+
+hasco:hasCode  rdfs:label   "has code" ;
+        rdf:type            owl:DatatypeProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          xsd:string ;
+        rdfs:domain         hasco:PossibleValue .
+
+hasco:hasClass  rdfs:label  "has class" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          owl:Class ;
+        rdfs:domain         hasco:PossibleValue .
+
+hasco:VirtualColumn  rdfs:label  "Virtual Column" ;
+        rdf:type            owl:Class ;
+        rdfs:subClassOf     owl:Thing ;
+        skos:editorialNote  "Term not in HASCO v1.0" .
+
+hasco:hasSOCReference
+        rdfs:label          "has SOC reference" ;
+        rdf:type            owl:DatatypeProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          xsd:string ;
+        rdfs:domain         hasco:VirtualColumn .
+
+hasco:hasGroundingLabel
+        rdfs:label          "has grounding label" ;
+        rdf:type            owl:DatatypeProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          xsd:string ;
+        rdfs:domain         hasco:VirtualColumn .
+
+hasco:isDataAcquisitionOf
+        rdfs:label          "is data acquisition of" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          hasco:Study ;
+        rdfs:domain         hasco:DataAcquisition .
+
+hasco:hasSchema  rdfs:label  "has schema" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          hasco:DASchema ;
+        rdfs:domain         hasco:DataAcquisition .
+
+hasco:hasDeployment  rdfs:label  "has deployment" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          <http://hadatac.org/ont/vstoi#Deployment> ;
+        rdfs:domain         hasco:DataAcquisition .
+
+hasco:hasSource  rdfs:label  "has source" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" .
+
+hasco:hasEvent  rdfs:label  "has event" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          hasco:DASchemaObject ;
+        rdfs:domain         hasco:DASchemaAttribute .
+
+hasco:isVirtual  rdfs:label  "is virtual?" ;
+        rdf:type            owl:DatatypeProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          xsd:boolean ;
+        rdfs:domain         _:b4 .
+
+hasco:DASchemaAttribute
+        rdfs:label          "DA Schema Attribute" ;
+        rdf:type            owl:Class ;
+        rdfs:subClassOf     owl:Thing ;
+        skos:editorialNote  "Term not in HASCO v1.0" .
+
+hasco:isAttributeOf  rdfs:label  "is attribute of" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          hasco:DASchemaObject ;
+        rdfs:domain         hasco:DASchemaAttribute .
+
+hasco:Relation  rdfs:label  "Relation" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          owl:ObjectProperty ;
+        rdfs:domain         _:b5 .
+
+hasco:partOfSchema  rdfs:label  "part of schema" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          hasco:DASchema ;
+        rdfs:domain         _:b6 .
+
+hasco:hasEntity  rdfs:label  "has entity" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          _:b7 ;
+        rdfs:domain         _:b8 .
+
+hasco:hasUnit  rdfs:label   "has unit" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          <http://semanticscience.org/resource/SIO_000074> ;
+        rdfs:domain         hasco:DASchemaAttribute .
+
+hasco:hasAttribute  rdfs:label  "has attribute" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          rdf:List ;
+        rdfs:domain         hasco:DASchemaObject .
+
+hasco:inRelationToLabel
+        rdfs:label          "in relation to label" ;
+        rdf:type            owl:DatatypeProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          xsd:string ;
+        rdfs:domain         hasco:DASchemaObject .
+
+hasco:hasRole  rdfs:label   "has role" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          owl:Class ;
+        rdfs:domain         hasco:DASchemaObject .
+
+hasco:DASchemaObject  rdfs:label  "DA Schema Object" ;
+        rdf:type            owl:Class ;
+        rdfs:subClassOf     owl:Thing ;
+        skos:editorialNote  "Term not in HASCO v1.0" .
+
+hasco:DASchema  rdfs:label  "DA Schema" ;
+        rdf:type            owl:Class ;
+        rdfs:subClassOf     owl:Thing ;
+        skos:editorialNote  "Term not in HASCO v1.0" .
+
+hasco:hasVersion  rdfs:label  "has version" ;
+        rdf:type            owl:DatatypeProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          xsd:string ;
+        rdfs:domain         hasco:DASchema .
+
+hasco:hasVirtualColumn
+        rdfs:label          "has virtual column" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          hasco:VirtualColumn ;
+        rdfs:domain         hasco:Study .
+
+hasco:hasId  rdfs:label     "has id" ;
+        rdf:type            owl:DatatypeProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          xsd:string ;
+        rdfs:domain         hasco:Study .
+
+hasco:hasAgent  rdfs:label  "has agent" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          <http://www.w3.org/ns/prov#Person> ;
+        rdfs:domain         hasco:Study .
+
+hasco:hasInstitution  rdfs:label  "has institution" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          <http://www.w3.org/ns/prov#Organization> ;
+        rdfs:domain         hasco:Study .
+
+hasco:hasRoleLabel  rdfs:label  "has role label" ;
+        rdf:type            owl:DatatypeProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          xsd:string ;
+        rdfs:domain         _:b9 .
+
+hasco:hasScope  rdfs:label  "has scope" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          hasco:ObjectCollection ;
+        rdfs:domain         hasco:ObjectCollection .
+
+hasco:hasLastCounter  rdfs:label  "has last counter" ;
+        rdf:type            owl:DatatypeProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          xsd:int ;
+        rdfs:domain         hasco:ObjectCollection .
+
+hasco:hasTimeScope  rdfs:label  "has time scope" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" ;
+        rdfs:range          hasco:TimeCollection ;
+        rdfs:domain         hasco:SampleCollection .
+
+hasco:unknownEntity  rdfs:label  "unknown entity" ;
+        rdf:type            owl:ObjectProperty ;
+        skos:editorialNote  "Term not in HASCO v1.0" .
+
+_:b10   rdf:rest   rdf:nil ;
+        rdf:first  hasco:QuantityVariable .
+
+_:b8    rdf:type     owl:Class ;
+        owl:unionOf  _:b11 .
+
+_:b7    rdf:type     owl:Class ;
+        owl:unionOf  _:b12 .
+
+_:b13   rdf:rest   rdf:nil ;
+        rdf:first  hasco:DASchemaAttribute .
+
+_:b11   rdf:rest   _:b13 ;
+        rdf:first  hasco:DASchemaObject .
+
+_:b12   rdf:rest   _:b10 ;
+        rdf:first  hasco:QualityVariable .
+
+_:b6    rdf:type     owl:Class ;
+        owl:unionOf  _:b14 .
+
+_:b14   rdf:rest   _:b15 ;
+        rdf:first  hasco:DASchemaObject .
+
+_:b15   rdf:rest   rdf:nil ;
+        rdf:first  hasco:DASchemaAttribute .
+
+_:b16   rdf:rest   _:b17 ;
+        rdf:first  hasco:ObjectCollection .
+
+_:b3    rdf:type     owl:Class ;
+        owl:unionOf  _:b16 .
+
+_:b17   rdf:rest   rdf:nil ;
+        rdf:first  hasco:Study .
+
+_:b18   rdf:rest   _:b19 ;
+        rdf:first  hasco:DASchemaAttribute .
+
+_:b5    rdf:type     owl:Class ;
+        owl:unionOf  _:b18 .
+
+_:b19   rdf:rest   rdf:nil ;
+        rdf:first  hasco:DASchemaObject .
+
+_:b1    rdf:type     owl:Class ;
+        owl:unionOf  _:b20 .
+
+_:b21   rdf:rest   rdf:nil ;
+        rdf:first  hasco:DASchemaObject .
+
+_:b20   rdf:rest   _:b21 ;
+        rdf:first  hasco:DASchemaAttribute .
+
+_:b22   rdf:rest   _:b23 ;
+        rdf:first  hasco:DASchemaObject .
+
+_:b2    rdf:type     owl:Class ;
+        owl:unionOf  _:b22 .
+
+_:b23   rdf:rest   rdf:nil ;
+        rdf:first  hasco:DASchemaAttribute .
+
+_:b9    rdf:type     owl:Class ;
+        owl:unionOf  _:b24 .
+
+_:b25   rdf:rest   rdf:nil ;
+        rdf:first  hasco:DASchemaObject .
+
+_:b24   rdf:rest   _:b25 ;
+        rdf:first  hasco:ObjectCollection .
+
+_:b4    rdf:type     owl:Class ;
+        owl:unionOf  _:b26 .
+
+_:b26   rdf:rest   _:b27 ;
+        rdf:first  hasco:DASchemaObject .
+
+_:b27   rdf:rest   rdf:nil ;
+        rdf:first  hasco:DASchemaAttribute .
+
+hasco:  owl:imports      <http://hadatac.org/ont/vstoi> ;
+        owl:imports      <http://www.w3.org/TR/prov-o/> ;
+        owl:imports      <http://topbraid.org/teamworkconstraints> ;
+        owl:imports      <http://www.w3.org/2004/02/skos/core> ;
+        owl:imports      <http://purl.obolibrary.org/obo/uo.owl> ;
+        owl:imports      <http://semanticscience.org/ontology/sio.owl> ;
+        owl:versionIRI   hasco:1.4 ;
+        rdf:type         teamwork:Vocabulary ;
+        metadata:status  metadata:UnderDevelopmentStatus ;
+        rdfs:label       "HASCO Ontology v1.4" ;
+        owl:imports      <http://datashapes.org/graphql> ;
+        <http://topbraid.org/swa#defaultNamespace>  "http://hadatac.org/ont/hasco/" ;
+        rdf:type         <http://teamwork.topbraidlive.org/ontologyprojects#Ontology> ;
+        rdf:type         owl:Ontology ;
+        edg:subjectArea  <urn:x-tb-governance:HHEAR_Ontology> .
