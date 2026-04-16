@@ -18,7 +18,7 @@ export default function Scales() {
     return (
         <div className="flex flex-col gap-6 items-center mt-12 "> <h2 className="text-3xl font-bold text-slate-600">Scales</h2>
         {scales.map((scale, index) => (
-          <p key={index} className="shadow-md hover:shadow-2xl w-10/12 text-xl p-5 m-2 rounded-xl transition duration-300 ease-in-out hover:scale-105 ">
+          <p key={index} className="shadow-md hover:shadow-2xl w-10/12 text-xl p-5 m-2  border-2 border-gray-200 transition duration-300 ease-in-out hover:scale-105 ">
             {scale }</p>
         ))}
         </div>

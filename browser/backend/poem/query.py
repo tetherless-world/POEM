@@ -3,9 +3,11 @@ from dotenv import load_dotenv
 from rdflib import Dataset, URIRef, Literal
 import httpx
 from bs4 import BeautifulSoup
-
+from poem.generate_search import generate_txt, place_into_buckets, search
 import requests
 import json
+from rapidfuzz import process, fuzz
+
 load_dotenv()
 
 
@@ -20,7 +22,7 @@ itemStemConcepts: str = "urn:poem:file:itemStemConcepts.ttl"
 scale_instruments: str = "urn:poem:file:scalesInstrument.ttl"
 scales: str = "urn:poem:file:scales.ttl"
 components: str = "urn:poem:file:components.ttl"
-def getTotalInstruments(POEM: Dataset, name: str):
+def get_total_instruments(POEM: Dataset, name: str):
     name = Literal(name).n3()
     query = f"""
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -36,7 +38,7 @@ def getTotalInstruments(POEM: Dataset, name: str):
     for row in res:
         return int(row['count'])
     return 0
-def getTotalLanguages(POEM: Dataset, name: str):
+def get_total_languages(POEM: Dataset, name: str):
     name = Literal(name).n3()
     query = f"""
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -54,7 +56,7 @@ def getTotalLanguages(POEM: Dataset, name: str):
     for row in res:
         return int(row['count'])
     return 0
-def getInstrumentItemConcepts(POEM: Dataset, name: str):
+def get_instrument_item_concepts(POEM: Dataset, name: str):
     group = name.split()
     youth = Literal(group[0]).n3()
     caregiver = Literal(group[1]).n3()
@@ -82,7 +84,7 @@ def getInstrumentItemConcepts(POEM: Dataset, name: str):
     """
     return  {"youth": list([row.r for row in POEM.query(query1)]), "caregiver": list([row.r for row in POEM.query(query2)])}
 
-def getScales(POEM: Dataset, name: str):
+def get_scales(POEM: Dataset, name: str):
     name = Literal(name).n3()
     scales_query = f"""
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -95,7 +97,7 @@ def getScales(POEM: Dataset, name: str):
     }}
     """ 
     return list([row.s for row in POEM.query(scales_query)])
-def getAllInstruments(POEM: Dataset, name: str):
+def get_all_instruments_from_family(POEM: Dataset, name: str):
     name = Literal(name.upper()).n3()
     query = f"""
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -114,7 +116,7 @@ WHERE {{
     }}
 """
     return list([{"name": row.label, "lang": row.lang, "informant": row.i, "count": int(row.label.split('-')[1])} for row in POEM.query(query)])
-def getAllScales(POEM: Dataset):
+def get_all_scales(POEM: Dataset):
     query = f"""
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sio: <http://semanticscience.org/resource/>
@@ -236,3 +238,18 @@ async def fetch_html(url: str) -> str:
         response = await client.get(url)
         return response.text
     
+def get_all_instruments(POEM: Dataset):
+    query = f"""PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sio: <http://semanticscience.org/resource/>
+SELECT DISTINCT ?label
+WHERE {{    
+    GRAPH <{instruments}> {{?i rdfs:label ?label}}
+    }}
+"""
+    res = POEM.query(query)
+    labels = set()
+    for row in res:
+        labels.add(str(row.label))
+    return labels
+def search_query(query: str,buckets):
+    return search(query,buckets)
