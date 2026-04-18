@@ -5,8 +5,8 @@ services:
       dockerfile: docker/Dockerfile-browser-backend
     image: poem-browser-backend:latest
     container_name: poem-browser-backend
-    ports:
-      - "8000:8000"
+    expose:
+    - "8000"
     networks:
       - browser-net
 

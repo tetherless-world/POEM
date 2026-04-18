@@ -140,17 +140,18 @@
       exampleModal.addEventListener('show.bs.modal', event => {
         // Button that triggered the modal
         const button = event.relatedTarget
-        // Extract info from data-bs-* attributes
-        const recipient = button.getAttribute('data-bs-whatever')
-        // If necessary, you could initiate an Ajax request here
-        // and then do the updating in a callback.
-  
-        // Update the modal's content.
         const modalTitle = exampleModal.querySelector('.modal-title')
-        //const modalBodyInput = exampleModal.querySelector('.modal-body input')
-  
-        modalTitle.textContent = `${recipient}`
-        //modalBodyInput.value = recipient
+        let title = 'Query results'
+
+        if (button) {
+          const queryCard = button.closest('.card')
+          const queryCardTitle = queryCard ? queryCard.querySelector('.card-title') : null
+          if (queryCardTitle) {
+            title = `${queryCardTitle.textContent.trim()} results`
+          }
+        }
+
+        modalTitle.textContent = title
       })
     }
     // js-docs-end varying-modal-content
@@ -178,9 +179,15 @@
     });
 
     var onSuccess = function(data) {
-        var myData = JSON.parse(data)
+        var response = JSON.parse(data)
+        var myData = Array.isArray(response) ? response : (response.data || [])
         var listgroup = $('#listgroup');
         listgroup.empty();
+        if (!Array.isArray(response) && response.message) {
+            let messageItem = $('<div class="list-group-item text-muted"></div>').text(response.message)
+            listgroup.append(messageItem)
+            return
+        }
         myData.forEach( function (value, index, array) {
             let lgi = $('<div class="list-group-item"><span class="badge badge-primary">1</span> ' + value.label + '</div>')
             listgroup.append(lgi)
@@ -193,14 +200,6 @@
     }
 
     document.addEventListener('DOMContentLoaded', function() {
-      var disabledPanels = document.querySelectorAll('.panel-disabled');
-      for (var p = 0; p < disabledPanels.length; ++p) {
-        var panelInputs = disabledPanels[p].querySelectorAll('input, select, textarea, button');
-        for (var j = 0; j < panelInputs.length; ++j) {
-          panelInputs[j].disabled = true;
-        }
-      }
-
       var queries = document.querySelectorAll('[data-trigger]');
       for (var i = 0; i < queries.length; ++i) {
         var element = queries[i];
@@ -208,6 +207,8 @@
           allowHTML: true,
           placeholderValue: 'Select...',
           searchPlaceholderValue: 'Type to search',
+          searchFields: ['label'],
+          searchResultLimit: -1,
         });
       }
     });

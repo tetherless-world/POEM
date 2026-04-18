@@ -1,0 +1,6 @@
+ask_poem_proxy.settings:
+  title: 'ASK POEM proxy'
+  description: 'Configure the ASK POEM reverse proxy.'
+  route_name: ask_poem_proxy.settings
+  parent: system.admin_config_services
+  weight: 101

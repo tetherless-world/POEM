@@ -2,7 +2,7 @@ import { Github } from "lucide-react";
 
 export default function Footer()
 {
-    return (<footer className="border-t bg-gray-200 p-5 mt-12">
+    return (<footer className="border-t bg-gray-200 p-5">
         <div className="">
         <h2 className="bold text-2xl">Psychometric Ontology of Experiences and Measures</h2>
         </div>

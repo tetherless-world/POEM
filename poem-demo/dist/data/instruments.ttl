@@ -529,7 +529,7 @@
     <http://purl.org/twc/poem/individual/item/607>, <http://purl.org/twc/poem/individual/item/608>,
     <http://purl.org/twc/poem/individual/item/611>;
   sio:hasAttribute <http://purl.org/twc/poem/individual/informant/1>, <http://purl.org/twc/poem/individual/language/4>;
-  sio:hasMember <http://purl.org/twc/poem/individual/component/48>, <http://purl.org/twc/poem/individual/component/49>,
+  sio:hasMember <http:/purl.org/twc/poem/individual/component/48>, <http://purl.org/twc/poem/individual/component/49>,
     <http://purl.org/twc/poem/individual/component/50>, <http://purl.org/twc/poem/individual/component/51>,
     <http://purl.org/twc/poem/individual/item/566>, <http://purl.org/twc/poem/individual/item/568>,
     <http://purl.org/twc/poem/individual/item/569>, <http://purl.org/twc/poem/individual/item/570>,

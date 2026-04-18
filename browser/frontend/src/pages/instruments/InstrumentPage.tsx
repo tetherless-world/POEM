@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import CountBox from "../../components/countBox";
 import Scales from "../../components/Scales";
+import { apiFetch } from "../../api/api";
 
 type Params = {
   id: string;
@@ -28,7 +29,7 @@ export default function InstrumentPage() {
   useEffect(() => {
     const getInstrumentInfo = async () => {
       try {
-        const res = await fetch(`http://127.0.0.1:8000/${name}`);
+        const res = await apiFetch(`/${name}`);
         const data = await res.json();
         setInstrumentCount(data.count);
         setLanguageCount(data.languages);
@@ -46,7 +47,7 @@ export default function InstrumentPage() {
   if (loading) {
     return (
       <div className="flex items-center justify-center h-screen ">
-        <p className="p-5 rounded-xl bg-gradient-to-r from-amber-400 to-amber-500 ">
+        <p className="p-5 bg-gradient-to-r from-amber-400 to-amber-500 ">
           Loading...
         </p>
       </div>
@@ -66,24 +67,24 @@ export default function InstrumentPage() {
             </div>
           </section>
           <section className="mx-auto mt-12">
-            <div className="flex justify-center "><Link to={`/instruments/list/${id}`} className="trasition duration-300 ease-in-out hover:scale-105 text-center text-2xl mb-12 shadow-md hover:shadow-2xl p-2 rounded-2xl">Instrument List</Link></div>
+            <div className="flex justify-center "><Link to={`/instruments/list/${id}`} className="trasition duration-300 ease-in-out hover:scale-105 text-center  border-2 border-gray-200 text-2xl mb-12 shadow-md hover:shadow-2xl p-2">Instrument List</Link></div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-auto mt-12">
-          <CountBox count={instrumentCount} description="total  instruments" />
-          <CountBox count={languageCount} description="total languages" />
+          <CountBox count={instrumentCount} description="Total Instruments in Family" />
+          <CountBox count={languageCount} description="Total Languages in Family" />
         </div>
       </section>
       <section className="flex justify-center gap-6 mt-12 mx-auto">
         {adultInstruments.includes(name) ? (
           <div className="text-center">
             <h2 className="text-2xl font-bold">Respondent</h2>{" "}
-            <p className="shadow-md hover:shadow-2xl mt-12 p-3  trasition duration-300 ease-in-out hover:scale-105 rounded-2xl">Adult</p>{" "}
+            <p className="shadow-md hover:shadow-2xl mt-12 p-3  border-2 border-gray-200 trasition duration-300 ease-in-out hover:scale-105">Adult</p>{" "}
           </div>
         ) : (
           <div className="text-center">
             <h2 className="text-2xl font-bold">Respondents</h2> <div className="flex justify-center gap-2 mt-12" >
-            <p className="shadow-md hover:shadow-2xl text-xl p-3 trasition duration-300 ease-in-out hover:scale-105  rounded-2xl">Youth</p>
+            <p className="shadow-md hover:shadow-2xl text-xl p-3  border-2 border-gray-200 trasition duration-300 ease-in-out hover:scale-105">Youth</p>
 
-            <p className="shadow-md hover:shadow-2xl text-xl p-3  trasition duration-300 ease-in-out hover:scale-105 rounded-2xl">Caregiver</p>
+            <p className="shadow-md hover:shadow-2xl text-xl p-3   border-2 border-gray-200 trasition duration-300 ease-in-out hover:scale-105">Caregiver</p>
             </div>
           </div>
         )}

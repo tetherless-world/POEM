@@ -1,0 +1,3 @@
+proxy_base_path: '/ask-poem'
+upstream_base_url: 'https://example.org'
+auth_header: ''

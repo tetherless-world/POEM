@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.google.gson.Gson;
 import com.google.inject.Inject;
 
@@ -14,6 +15,7 @@ import models.Instrument;
 import models.ItemConcept;
 import models.QuestionnaireScale;
 import play.data.Form;
+import play.libs.Json;
 import play.mvc.*;
 
 import static play.libs.Scala.asScala;
@@ -40,35 +42,43 @@ public class HomeController extends Controller {
     public Result query(Http.Request request) {
         Form<Query> queryForm = formFactory.form(Query.class);
         Query query = queryForm.bindFromRequest(request).get();
-        System.out.println(query.getQuery());
-        System.out.println(query.getParameter());
-        if (query.getQuery().equals("query0")) {
+        String queryName = query.getQuery();
+
+        if (queryName.equals("query0")) {
             Instrument instrument = Instrument.getByUri(query.getParameter());
             List<QuestionnaireScale> scales = QuestionnaireScale.getByInstrument(instrument);
-            return ok(new Gson().toJson(scales));
-        } else if (query.getQuery().equals("query1")) {
+            return ok(listResponse(scales, "No scales found for this instrument."));
+        } else if (queryName.equals("query1")) {
             QuestionnaireScale scale = QuestionnaireScale.getByUri(query.getParameter());
             List<ItemConcept> itemConcepts = ItemConcept.getByScale(scale);
-            return ok(new Gson().toJson(itemConcepts));
-        } else if (query.getQuery().equals("query2")) {
-            //Instrument instrument = Instrument.getByUri(query.getParameter());
+            return ok(listResponse(itemConcepts, "No item concepts found for this scale."));
+        } else if (queryName.equals("query2")) {
             List<Instrument> sources = Instrument.getSource(query.getParameter());
-            return ok(new Gson().toJson(sources));
-        } else if (query.getQuery().equals("query3")) {
-            //Instrument instrument = Instrument.getByUri(query.getParameter());
+            return ok(listResponse(sources, "No source instruments found for this instrument."));
+        } else if (queryName.equals("query3")) {
             List<Instrument> targets = Instrument.getTarget(query.getParameter());
-            return ok(new Gson().toJson(targets));
-        } else if (query.getQuery().equals("query4")) {
+            return ok(listResponse(targets, "No target instruments found for this instrument."));
+        } else if (queryName.equals("query4")) {
             Instrument instrument0 = Instrument.getByUri(query.getParameter());
             Instrument instrument1 = Instrument.getByUri(query.getParameter1());
             List<ItemConcept> itemConcepts = ItemConcept.getByInstruments(instrument0, instrument1);
-            return ok(new Gson().toJson(itemConcepts));
-        } else if (query.getQuery().equals("query9")) {
+            return ok(listResponse(itemConcepts, "The two instruments do not share any item concepts."));
+        } else if (queryName.equals("query9")) {
             List<Instrument> targets = Instrument.getTarget(query.getParameter());
-            return ok(new Gson().toJson(targets));
+            return ok(listResponse(targets, "No target instruments found for this instrument."));
         }
         List<String> places = Arrays.asList("Buenos Aires", "Córdoba", "La Plata");
         return ok(new Gson().toJson(places));
+    }
+
+    private String listResponse(List<?> results, String emptyMessage) {
+        if (results == null || results.isEmpty()) {
+            ObjectNode response = Json.newObject();
+            response.put("message", emptyMessage);
+            response.set("data", Json.newArray());
+            return response.toString();
+        }
+        return new Gson().toJson(results);
     }
 
     public Result excel(String uri) {

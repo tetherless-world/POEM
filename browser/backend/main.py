@@ -7,13 +7,15 @@ from rdflib import URIRef
 from typing import Any
 from rdflib.namespace import RDFS
 from api.routes import router
+from poem.generate_search import load_buckets
 DATA_DIR: Path = Path(__file__).parent / "data"
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     POEM  = load_dataset(DATA_DIR)
+    buckets = load_buckets(POEM)
     app.state.POEM = POEM
-
+    app.state.buckets = buckets
     yield
 
 app: FastAPI = FastAPI(lifespan = lifespan)
