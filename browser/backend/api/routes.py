@@ -21,6 +21,7 @@ from poem.query import (
     ai_summary,
     fetch_html,
     extract_text,
+    search_query_small,
     search_query
 )
 
@@ -123,6 +124,10 @@ async def get_ai_summary(req: Request):
     print(summary)
     return {"summary": summary}
 
+@router.post("/search_small/{query}")
+async def search_small(query, buckets = Depends(get_buckets)):
+    results = search_query_small(query, buckets)
+    return results
 @router.post("/search/{query}")
 async def search(query, buckets = Depends(get_buckets)):
     results = search_query(query, buckets)

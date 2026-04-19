@@ -7,6 +7,7 @@ import copy
 class Item(TypedDict):
     name: str
     path: str
+    type: str
 
 INSTRUMENTS = {
     "rcads": {
@@ -88,18 +89,20 @@ def place_into_buckets(all_data) -> Dict:
     for key, paths in e.items():
         name: str = key.lower()
 
-        for bucket_name, bucket_data in instrument_buckets.items():
-            if any(keyword in name for keyword in bucket_data["keywords"]):
-                bucket_data["items"].append({
-                    "name": name,
-                    "path": paths[0],
-                    "type": "base"
-                })
-                bucket_data["items"].append({
-                    "name": f"{name}-list",
-                    "path": paths[1],
-                    "type": "list"
-                })
+        if name in instrument_buckets:
+            bucket = instrument_buckets[name]
+
+            bucket["items"].append({
+            "name": name,
+            "path": paths[0],
+            "type": "base"
+        })
+
+            bucket["items"].append({
+            "name": f"{name}-list",
+            "path": paths[1],
+            "type": "list"
+        })
 
     return instrument_buckets
 
@@ -125,13 +128,13 @@ def fuzzy_search_items(query: str, items: List[Item]) -> List[Tuple[Item, float]
         query,
         choices,
         scorer=fuzz.partial_ratio,
-        limit=10
+        limit = None
     )
 
     output: List[Tuple[Item, float]] = []
 
     for name, score, idx in results:
-        if score > 75:
+        if score > 60:
             output.append((items[idx], score))
 
     return output
@@ -142,7 +145,7 @@ def type_boost(item_type: str) -> int:
     if item_type == "list":
         return 30
     return 0  # variants
-def search(query: str, buckets: Dict) -> List[Dict]:
+def search(query: str, buckets: Dict, limit: int) -> List[Dict]:
     bucket_scores = score_buckets(query, buckets)
 
     sorted_buckets = sorted(
@@ -160,7 +163,13 @@ def search(query: str, buckets: Dict) -> List[Dict]:
         items = buckets[bucket_name]["items"]
 
         fuzzy_results = fuzzy_search_items(query, items)
-
+        if bucket_score > 0 and not fuzzy_results:
+            for item in items:
+                results.append({
+            "name": item["name"],
+            "path": item["path"],
+            "score": bucket_score * 10 + type_boost(item["type"])
+        })
         for item, score in fuzzy_results:
             boosted_score = score + (bucket_score * 10)
             boosted_score += type_boost(item["type"]) 
@@ -178,7 +187,13 @@ def search(query: str, buckets: Dict) -> List[Dict]:
             all_items.extend(data["items"])
 
         fallback = fuzzy_search_items(query, all_items)
-
+        if bucket_score > 0 and not fuzzy_results:
+            for item in items:
+                results.append({
+            "name": item["name"],
+            "path": item["path"],
+            "score": bucket_score * 10 + type_boost(item["type"])
+        })
         for item, score in fallback:
             results.append({
                 "name": item["name"],
@@ -186,6 +201,6 @@ def search(query: str, buckets: Dict) -> List[Dict]:
                 "score": score
             })
 
-    return sorted(results, key=lambda x: x["score"], reverse=True)
+    return sorted(results, key=lambda x: x["score"], reverse=True)[:limit]
 def load_buckets(POEM):
     return place_into_buckets(generate_txt(POEM))

@@ -251,5 +251,7 @@ WHERE {{
     for row in res:
         labels.add(str(row.label))
     return labels
-def search_query(query: str,buckets):
-    return search(query,buckets)
+def search_query_small(query: str,buckets):
+    return search(query,buckets, 5)
+def search_query(query: str, buckets):
+    return search(query, buckets, 30)

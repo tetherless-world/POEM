@@ -10,6 +10,7 @@ import InstrumentList from './pages/instruments/list/page';
 import IndividualInstrumentPage from './pages/instruments/individual/page';
 import Scales from './pages/Scales';
 import Glossary from './pages/Glossary';
+import Search from './pages/Search';
 export default function App() {
   return (
     <div className='flex flex-col min-h-screen'>
@@ -25,6 +26,7 @@ export default function App() {
       <Route path ="/Scales" element={<Scales />} />
       <Route path= "/instruments/individual/:id" element={<IndividualInstrumentPage />} />
       <Route path = "/Glossary" element = {<Glossary/>} />
+      <Route path = "/Search/" element = {<Search/>} /> 
     </Routes>
     </main>
      <Footer/>
