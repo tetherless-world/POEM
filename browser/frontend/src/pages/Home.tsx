@@ -1,8 +1,9 @@
 import { Search, BookOpen } from "lucide-react";
-
-/*import { Frown, ClipboardCheck } from "lucide-react";*/
+import InstrumentSection, {type instrumentProps } from "../components/instrumentSection"
+import { Frown, ClipboardCheck } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { apiFetch } from "../api/api";
 
 export type Page = {
   title: string;
@@ -10,8 +11,13 @@ export type Page = {
   description: string;
   keywords: string[];
 };
+export type apiRes = {
+  name: string;
+  path: string;
+  score: number;
+}
 
-export const pages: Page[] = [
+export const staticPages: Page[] = [
   {
     title: "Glossary",
     path: "/glossary",
@@ -31,7 +37,7 @@ export const pages: Page[] = [
     keywords: ["composite scale", "subscale"],
   },
 ];
-/*
+
 const instrumentCards: instrumentProps[] = [
   {
     name: "Depression instruments",
@@ -45,8 +51,27 @@ const instrumentCards: instrumentProps[] = [
     count: 100,
     Icon: ClipboardCheck,
   },
-]; */
+]; 
 export default function Home() {
+
+    
+  
+  async function searchGraphSmall(query: string){
+    const q = query.toLowerCase();
+    try{
+      const res = await(apiFetch(`/search_small/${q}`,{
+        method: "POST"
+      }))
+      const data = await res.json();
+      const convertToPages: Page[]  = data.map((page: apiRes): Page  => {
+     return {title: page.name, path: page.path, description: "", keywords: []}
+    });
+      return convertToPages;
+    }catch(err){
+      console.error(err);
+      return [];
+    }
+  }
   function searchPages(query: string, pages: Page[]): Page[] {
     const q = query.toLowerCase();
     return pages
@@ -73,9 +98,27 @@ export default function Home() {
       setResults([]);
       return;
     }
+     const runSearch = async (): Promise<void> => {
+    const res = searchPages(query, staticPages);
+    const seen = new Set();
+    const uniqueRes = res.filter(item => {
+      const isDup = seen.has(item.path);
+      seen.add(item.path);
+      return !isDup;
+    })
+    setResults(uniqueRes);
 
-    const res = searchPages(query, pages);
-    setResults(res);
+    const apiSearch = await searchGraphSmall(query);
+    const updatedUnique = apiSearch.filter(item => {
+      const isDup = seen.has(item.path);
+      seen.add(item.path);
+      return !isDup;
+    })
+    setResults((prev: Page[]): Page[] => {
+      return [...prev, ...updatedUnique];
+    });
+  };
+  runSearch();
   }, [query]);
   return (
     <div className="w-full ">
@@ -107,7 +150,7 @@ export default function Home() {
               value={query}
               onChange={handleChnage}
             />
-            <button className="p-2 rounded-4xl transition-all duration-200 bg-amber-400 hover:bg-amber-500">
+            <button type= "button" onClick = {() => navigate(`/search?q=${query}`)} className="p-2 rounded-4xl transition-all duration-200 bg-amber-400 hover:bg-amber-500">
               <Search />
             </button>
           </form>
@@ -138,15 +181,9 @@ export default function Home() {
           >
             Learn More
           </Link>
-          <Link
-            to="/scales"
-            className="text-2xl bg-amber-500  text-white px-4 py-2 shadow-lg hover:bg-amber-600 transition duration-300 ease-in-out"
-          >
-            Scales
-          </Link>
         </div>
       </section>
-      {/*
+      
       <section className="mx-auto mt-12 ">
         <h2 className="text-3xl text-center mx-auto">Jump into instruments</h2>
         <div className="flex mx-auto justify-evenly items-center mt-12">
@@ -161,7 +198,7 @@ export default function Home() {
           className="text-2xl bg-amber-500  text-white px-4 py-2 shadow-lg hover:bg-amber-600 transition duration-300 ease-in-out">
           Scales
         </Link>
-      </section> */}
+      </section> 
     </div>
   );
 }
