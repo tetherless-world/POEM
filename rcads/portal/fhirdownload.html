@@ -2,6 +2,35 @@
     Digital Administration Resources
 </h1>
 <p>
+    Please find information and resources below for administering the RCADS digitally.
+</p>
+<p>
+    RCADS questionnaires are given an official label that follows this format: RCADS - [Instrument Length] - [Respondent] - [Language Code] - [Country Code] - [Version Number].
+</p>
+<ul>
+    <li>
+        Instrument Length: Either 47-items or 25-items, shortened to 47 or 25, respectively.
+    </li>
+    <li>
+        Respondent: Either Youth or Caregiver, abbreviated to Y or CG, respectively.
+    </li>
+    <li>
+        Language: We use the internationally standardized ISO 639 language codes, which you can find here: <a href="https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes">https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes</a>
+    </li>
+    <li>
+        Country: We use the internationally standardized ISO 3166 country codes, which you can find here: <a href="https://en.wikipedia.org/wiki/ISO_3166-1">https://en.wikipedia.org/wiki/ISO_3166-1</a>
+    </li>
+    <li>
+        Version Number: This is assigned by the RCADS team when it has been established that more than one version exists. We aim to assign version numbers in the chronological order they were created.
+    </li>
+</ul>
+<p>
+    <em>Some versions of the RCADS may not be available within the below resources. As our team receives and converts RCADS versions into an interoperable data format, the below drop-down lists will be updated.&nbsp;</em>
+</p>
+<h2>
+    FHIR
+</h2>
+<p>
     An Electronic Health Record (EHR) is a digital version of a patient’s medical history, maintained by healthcare providers.
 </p>
 <p>
@@ -11,18 +40,12 @@
     You can find more information about FHIR here: https://www.hl7.org/fhir/overview.html
 </p>
 <p>
-    Below, you will find a JSON file generator for every supported version of the RCADS. If you would like to download a PDF file, please go to the Downloads page.
+    Below, you will find a JSON file generator for every supported version of the RCADS. If you would like to download a PDF file, please go to the <a href="/versions">PDF page</a> under the Downloads tab.
 </p>
 <p>
     Please select the version of the RCADS you would like to administer as well as the FHIR version.
 </p>
-<form id="fhir" action="http://129.153.140.160:9000/fhir" method="get">
-    <div class="card-body">
-        &nbsp;
-    </div>
-    <div class="card-footer">
-        &nbsp;
-    </div>
+<form id="fhir" action="/rcads-proxy/download" method="get">
     <table class="table">
         <thead>
             <tr>
@@ -45,27 +68,77 @@
                 <td>
                     <div class="form-group">
                         <select class="form-control" id="language-select" data-trigger="" name="language">
-                                                                                                                                                                                                                                                                            <option>Loading languages...</option>
-                                                                                                                                                                                                                                                                        </select>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <option>Loading languages...</option>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </select>
                     </div>
                 </td>
                 <td>
                     <div class="form-group" hidden="">
-                        <input class="form-control" type="hidden" name="format" value="json">
+                        <input class="form-control" type="hidden" name="format" value="json"> <input class="form-control" type="hidden" name="filename" value="RCADS-FHIR">
                     </div>
                     <div class="form-group">
                         <select class="form-control" id="questionnaire-select" data-trigger="" name="uri">
-                                                                                                                                                                                                                                                                            <option>Loading questionnaires...</option>
-                                                                                                                                                                                                                                                                        </select>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <option>Loading questionnaires...</option>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </select>
                     </div>
                 </td>
                 <td>
                     <select class="form-control" data-trigger="" name="version">
-                                                                                                                                                                                                                                <option value="r3">R3</option>
-                                                                                                                                                                                                                                <option value="r4">R4</option>
-                                                                                                                                                                                                                                <option value="r4b">R4B</option>
-                                                                                                                                                                                                                                <option value="r5">R5</option>
-                                                                                                                                                                                                                            </select>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <option value="r3">R3</option>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <option value="r4">R4</option>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <option value="r4b">R4B</option>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <option value="r5">R5</option>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </select>
+                </td>
+                <td>
+                    <button class="btn btn-primary btn-sm" type="submit">Download</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+<h2>
+    Non-FHIR
+</h2>
+<p>
+    For non-FHIR-compliant EHR systems, we provide Excel files that contain all components of the RCADS that appear on the PDF version. Unlike the JSON files above, the Excel files do not contain response option values for scoring the RCADS. For this information, please see our <a href="/manualscoring">Manual Scoring Page</a>.
+</p>
+<p>
+    Please select the version of the RCADS you would like to administer.
+</p>
+<form id="xlsx" action="/rcads-proxy/download" method="get">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Language
+                </th>
+                <th>
+                    Questionnaire
+                </th>
+                <th>
+                    Download
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div class="form-group">
+                        <select class="form-control" id="language-select-xlsx" data-trigger="" name="language">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <option>Loading languages...</option>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </select>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group" hidden="">
+                        <input class="form-control" type="hidden" name="format" value="xlsx"> <input class="form-control" type="hidden" name="filename" value="RCADS-XLSX">
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="questionnaire-select-xlsx" data-trigger="" name="uri">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <option>Loading questionnaires...</option>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </select>
+                    </div>
                 </td>
                 <td>
                     <button class="btn btn-primary btn-sm" type="submit">Download</button>
@@ -79,7 +152,9 @@ document.addEventListener('DOMContentLoaded', function() {
   let allLanguages = [];
   let allQuestionnaires = [];
   const languageSelect = document.getElementById('language-select');
+  const languageSelectXlsx = document.getElementById('language-select-xlsx');
   const questionnaireSelect = document.getElementById('questionnaire-select');
+  const questionnaireSelectXlsx = document.getElementById('questionnaire-select-xlsx');
   
   // Load both JSON files
   Promise.all([
@@ -94,35 +169,45 @@ document.addEventListener('DOMContentLoaded', function() {
   .catch(error => {
     console.error('Error loading data:', error);
     languageSelect.innerHTML = '<option value="">Error loading languages</option>';
+    languageSelectXlsx.innerHTML = '<option value="">Error loading languages</option>';
   });
   
-  function populateLanguageSelector() {
-    // Get unique language codes from questionnaires
-    const availableLanguageCodes = [...new Set(allQuestionnaires.map(q => q.language))];
-    
-    // Filter languages to only show those that have questionnaires available
-    const availableLanguages = allLanguages.filter(lang => 
-      availableLanguageCodes.includes(lang.value)
-    );
-    
-    languageSelect.innerHTML = '<option value="">- Select a language -</option>';
-    
-    availableLanguages.forEach(language => {
-      const option = document.createElement('option');
-      option.value = language.value;
-      
-      // Use labelInLanguage if available and not empty, otherwise use label only
-      const displayLabel = language.labelInLanguage && language.labelInLanguage.trim() !== '' 
-        ? `${language.label} (${language.labelInLanguage})` 
-        : language.label;
-      
-      option.textContent = displayLabel;
-      languageSelect.appendChild(option);
-    });
-    
-    // Enable language selector
-    languageSelect.disabled = false;
-  }
+function populateLanguageSelector() {
+  const availableLanguageCodes = [...new Set(allQuestionnaires.map(q => q.language))];
+  const labelFor = (language) =>
+    language.labelInLanguage && language.labelInLanguage.trim() !== ''
+      ? `${language.label} (${language.labelInLanguage})`
+      : language.label;
+  const availableLanguages = allLanguages.filter(lang =>
+    availableLanguageCodes.includes(lang.value)
+  );
+  const englishFirst = [];
+  const otherLanguages = [];
+  availableLanguages.forEach(language => {
+    const displayLabel = labelFor(language);
+    if (displayLabel.toLowerCase().startsWith('english (us)')) {
+      englishFirst.push({ language, displayLabel });
+    } else {
+      otherLanguages.push({ language, displayLabel });
+    }
+  });
+  otherLanguages.sort((a, b) =>
+    a.displayLabel.localeCompare(b.displayLabel, undefined, { sensitivity: 'base' })
+  );
+  const orderedLanguages = englishFirst.concat(otherLanguages);
+  languageSelect.innerHTML = '<option value="">- Select a language -</option>';
+  languageSelectXlsx.innerHTML = '<option value="">- Select a language -</option>';
+  orderedLanguages.forEach(({ language, displayLabel }) => {
+    const option = document.createElement('option');
+    option.value = language.value;
+    option.textContent = displayLabel;
+    const optionXlsx = option.cloneNode(true);
+    languageSelect.appendChild(option);
+    languageSelectXlsx.appendChild(optionXlsx);
+  });
+  languageSelect.disabled = false;
+  languageSelectXlsx.disabled = false;
+}
   
   function populateQuestionnaireSelector(selectedLanguageCode) {
     // Filter questionnaires by exact language code match
@@ -150,6 +235,32 @@ document.addEventListener('DOMContentLoaded', function() {
     // Enable questionnaire selector
     questionnaireSelect.disabled = false;
   }
+  function populateQuestionnaireSelectorXlsx(selectedLanguageCode) {
+    // Filter questionnaires by exact language code match
+    const filteredQuestionnaires = allQuestionnaires.filter(q => 
+      q.language === selectedLanguageCode
+    );
+    
+    questionnaireSelectXlsx.innerHTML = '<option value="">- Select a questionnaire -</option>';
+    
+    if (filteredQuestionnaires.length === 0) {
+      const option = document.createElement('option');
+      option.value = '';
+      option.textContent = 'No questionnaires available for this language';
+      option.disabled = true;
+      questionnaireSelectXlsx.appendChild(option);
+    } else {
+      filteredQuestionnaires.forEach(questionnaire => {
+        const option = document.createElement('option');
+        option.value = questionnaire.value;
+        option.textContent = questionnaire.label;
+        questionnaireSelectXlsx.appendChild(option);
+      });
+    }
+    
+    // Enable questionnaire selector
+    questionnaireSelectXlsx.disabled = false;
+  }
   
   // Language selector change event
   languageSelect.addEventListener('change', function() {
@@ -160,6 +271,16 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
       questionnaireSelect.innerHTML = '<option value="">Please select a language first</option>';
       questionnaireSelect.disabled = true;
+    }
+  });
+  languageSelectXlsx.addEventListener('change', function() {
+    const selectedLanguageCode = this.value;
+    
+    if (selectedLanguageCode) {
+      populateQuestionnaireSelectorXlsx(selectedLanguageCode);
+    } else {
+      questionnaireSelectXlsx.innerHTML = '<option value="">Please select a language first</option>';
+      questionnaireSelectXlsx.disabled = true;
     }
   });
   
@@ -173,10 +294,18 @@ document.addEventListener('DOMContentLoaded', function() {
       console.log('Selected language:', languageSelect.value);
       console.log('Language details:', selectedLanguage);
       console.log('Questionnaire details:', selectedQuestionnaire);
+    }
+  });
+  
+  questionnaireSelectXlsx.addEventListener('change', function() {
+    if (this.value) {
+      const selectedLanguage = allLanguages.find(lang => lang.value === languageSelectXlsx.value);
+      const selectedQuestionnaire = allQuestionnaires.find(q => q.value === this.value);
       
-      // Add your logic here for what happens when user selects a questionnaire
-      // Example: redirect to questionnaire page with language parameter
-      // window.location.href = `/questionnaire/${this.value}?lang=${languageSelect.value}`;
+      console.log('Selected questionnaire:', this.value);
+      console.log('Selected language:', languageSelect.value);
+      console.log('Language details:', selectedLanguage);
+      console.log('Questionnaire details:', selectedQuestionnaire);
     }
   });
 });
