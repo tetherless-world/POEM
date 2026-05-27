@@ -148,165 +148,145 @@
     </table>
 </form>
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+(function() {
+function initRcadsDownloads() {
   let allLanguages = [];
   let allQuestionnaires = [];
   const languageSelect = document.getElementById('language-select');
   const languageSelectXlsx = document.getElementById('language-select-xlsx');
   const questionnaireSelect = document.getElementById('questionnaire-select');
   const questionnaireSelectXlsx = document.getElementById('questionnaire-select-xlsx');
-  
-  // Load both JSON files
+
+  if (!languageSelect || !languageSelectXlsx || !questionnaireSelect || !questionnaireSelectXlsx) {
+    return;
+  }
+  if (languageSelect.getAttribute('data-rcads-downloads-initialized') === 'true') {
+    return;
+  }
+  languageSelect.setAttribute('data-rcads-downloads-initialized', 'true');
+
   Promise.all([
-    fetch('/sites/default/files/languages.json').then(response => response.json()),
-    fetch('/sites/default/files/questionnaires.json').then(response => response.json())
+    fetch('/sites/default/files/languages.json').then(response => {
+      if (!response.ok) {
+        throw new Error('Unable to load languages.json');
+      }
+      return response.json();
+    }),
+    fetch('/sites/default/files/questionnaires.json').then(response => {
+      if (!response.ok) {
+        throw new Error('Unable to load questionnaires.json');
+      }
+      return response.json();
+    })
   ])
   .then(([languagesData, questionnairesData]) => {
     allLanguages = languagesData;
     allQuestionnaires = questionnairesData;
-    populateLanguageSelector();
+    populateLanguageSelectors();
   })
   .catch(error => {
     console.error('Error loading data:', error);
     languageSelect.innerHTML = '<option value="">Error loading languages</option>';
     languageSelectXlsx.innerHTML = '<option value="">Error loading languages</option>';
   });
-  
-function populateLanguageSelector() {
-  const availableLanguageCodes = [...new Set(allQuestionnaires.map(q => q.language))];
-  const labelFor = (language) =>
-    language.labelInLanguage && language.labelInLanguage.trim() !== ''
-      ? `${language.label} (${language.labelInLanguage})`
-      : language.label;
-  const availableLanguages = allLanguages.filter(lang =>
-    availableLanguageCodes.includes(lang.value)
-  );
-  const englishFirst = [];
-  const otherLanguages = [];
-  availableLanguages.forEach(language => {
-    const displayLabel = labelFor(language);
-    if (displayLabel.toLowerCase().startsWith('english (us)')) {
-      englishFirst.push({ language, displayLabel });
-    } else {
-      otherLanguages.push({ language, displayLabel });
-    }
-  });
-  otherLanguages.sort((a, b) =>
-    a.displayLabel.localeCompare(b.displayLabel, undefined, { sensitivity: 'base' })
-  );
-  const orderedLanguages = englishFirst.concat(otherLanguages);
-  languageSelect.innerHTML = '<option value="">- Select a language -</option>';
-  languageSelectXlsx.innerHTML = '<option value="">- Select a language -</option>';
-  orderedLanguages.forEach(({ language, displayLabel }) => {
-    const option = document.createElement('option');
-    option.value = language.value;
-    option.textContent = displayLabel;
-    const optionXlsx = option.cloneNode(true);
-    languageSelect.appendChild(option);
-    languageSelectXlsx.appendChild(optionXlsx);
-  });
-  languageSelect.disabled = false;
-  languageSelectXlsx.disabled = false;
-}
-  
-  function populateQuestionnaireSelector(selectedLanguageCode) {
-    // Filter questionnaires by exact language code match
-    const filteredQuestionnaires = allQuestionnaires.filter(q => 
-      q.language === selectedLanguageCode
+
+  function orderedLanguages() {
+    const english = [];
+    const otherLanguages = [];
+
+    allLanguages.forEach(language => {
+      const displayLabel = language.label || language.value;
+      const optionData = { value: language.value, label: displayLabel };
+
+      if (language.value === 'en-us' || displayLabel.toLowerCase().startsWith('english')) {
+        english.push(optionData);
+      } else {
+        otherLanguages.push(optionData);
+      }
+    });
+
+    otherLanguages.sort((a, b) =>
+      a.label.localeCompare(b.label, undefined, { sensitivity: 'base' })
     );
-    
-    questionnaireSelect.innerHTML = '<option value="">- Select a questionnaire -</option>';
-    
+
+    return english.concat(otherLanguages);
+  }
+
+  function populateLanguageSelectors() {
+    languageSelect.innerHTML = '<option value="">- Select a language -</option>';
+    languageSelectXlsx.innerHTML = '<option value="">- Select a language -</option>';
+
+    orderedLanguages().forEach(language => {
+      const option = document.createElement('option');
+      option.value = language.value;
+      option.textContent = language.label;
+      const optionXlsx = option.cloneNode(true);
+      languageSelect.appendChild(option);
+      languageSelectXlsx.appendChild(optionXlsx);
+    });
+
+    languageSelect.disabled = false;
+    languageSelectXlsx.disabled = false;
+    questionnaireSelect.innerHTML = '<option value="">Please select a language first</option>';
+    questionnaireSelectXlsx.innerHTML = '<option value="">Please select a language first</option>';
+    questionnaireSelect.disabled = true;
+    questionnaireSelectXlsx.disabled = true;
+  }
+
+  function populateQuestionnaireSelector(select, selectedLanguageCode) {
+    const filteredQuestionnaires = allQuestionnaires.filter(questionnaire =>
+      questionnaire.language === selectedLanguageCode
+    );
+
+    select.innerHTML = '<option value="">- Select a questionnaire -</option>';
+
     if (filteredQuestionnaires.length === 0) {
       const option = document.createElement('option');
       option.value = '';
       option.textContent = 'No questionnaires available for this language';
       option.disabled = true;
-      questionnaireSelect.appendChild(option);
+      select.appendChild(option);
     } else {
       filteredQuestionnaires.forEach(questionnaire => {
         const option = document.createElement('option');
         option.value = questionnaire.value;
         option.textContent = questionnaire.label;
-        questionnaireSelect.appendChild(option);
+        select.appendChild(option);
       });
     }
-    
-    // Enable questionnaire selector
-    questionnaireSelect.disabled = false;
+
+    select.disabled = false;
   }
-  function populateQuestionnaireSelectorXlsx(selectedLanguageCode) {
-    // Filter questionnaires by exact language code match
-    const filteredQuestionnaires = allQuestionnaires.filter(q => 
-      q.language === selectedLanguageCode
-    );
-    
-    questionnaireSelectXlsx.innerHTML = '<option value="">- Select a questionnaire -</option>';
-    
-    if (filteredQuestionnaires.length === 0) {
-      const option = document.createElement('option');
-      option.value = '';
-      option.textContent = 'No questionnaires available for this language';
-      option.disabled = true;
-      questionnaireSelectXlsx.appendChild(option);
-    } else {
-      filteredQuestionnaires.forEach(questionnaire => {
-        const option = document.createElement('option');
-        option.value = questionnaire.value;
-        option.textContent = questionnaire.label;
-        questionnaireSelectXlsx.appendChild(option);
-      });
-    }
-    
-    // Enable questionnaire selector
-    questionnaireSelectXlsx.disabled = false;
-  }
-  
-  // Language selector change event
+
   languageSelect.addEventListener('change', function() {
-    const selectedLanguageCode = this.value;
-    
-    if (selectedLanguageCode) {
-      populateQuestionnaireSelector(selectedLanguageCode);
+    if (this.value) {
+      populateQuestionnaireSelector(questionnaireSelect, this.value);
     } else {
       questionnaireSelect.innerHTML = '<option value="">Please select a language first</option>';
       questionnaireSelect.disabled = true;
     }
   });
+
   languageSelectXlsx.addEventListener('change', function() {
-    const selectedLanguageCode = this.value;
-    
-    if (selectedLanguageCode) {
-      populateQuestionnaireSelectorXlsx(selectedLanguageCode);
+    if (this.value) {
+      populateQuestionnaireSelector(questionnaireSelectXlsx, this.value);
     } else {
       questionnaireSelectXlsx.innerHTML = '<option value="">Please select a language first</option>';
       questionnaireSelectXlsx.disabled = true;
     }
   });
-  
-  // Questionnaire selector change event
-  questionnaireSelect.addEventListener('change', function() {
-    if (this.value) {
-      const selectedLanguage = allLanguages.find(lang => lang.value === languageSelect.value);
-      const selectedQuestionnaire = allQuestionnaires.find(q => q.value === this.value);
-      
-      console.log('Selected questionnaire:', this.value);
-      console.log('Selected language:', languageSelect.value);
-      console.log('Language details:', selectedLanguage);
-      console.log('Questionnaire details:', selectedQuestionnaire);
-    }
-  });
-  
-  questionnaireSelectXlsx.addEventListener('change', function() {
-    if (this.value) {
-      const selectedLanguage = allLanguages.find(lang => lang.value === languageSelectXlsx.value);
-      const selectedQuestionnaire = allQuestionnaires.find(q => q.value === this.value);
-      
-      console.log('Selected questionnaire:', this.value);
-      console.log('Selected language:', languageSelect.value);
-      console.log('Language details:', selectedLanguage);
-      console.log('Questionnaire details:', selectedQuestionnaire);
-    }
-  });
-});
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initRcadsDownloads);
+} else {
+  initRcadsDownloads();
+}
+
+if (window.Drupal && window.Drupal.behaviors) {
+  window.Drupal.behaviors.rcadsDownloads = {
+    attach: initRcadsDownloads
+  };
+}
+})();
 </script>
