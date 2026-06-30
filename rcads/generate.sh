@@ -7,6 +7,8 @@ echo "Instrument Collections..."
 java -jar rmlmapper-8.1.0-r380-all.jar -m rml-instrumentCollections.ttl -o ../poem-demo/dist/data/instrumentCollections.ttl -s turtle
 echo "Informants..."
 java -jar rmlmapper-8.1.0-r380-all.jar -m rml-informants.ttl -o ../poem-demo/dist/data/informants.ttl -s turtle
+echo "Sections..."
+java -jar rmlmapper-8.1.0-r380-all.jar -m rml-sections.ttl -o ../poem-demo/dist/data/sections.ttl -s turtle
 echo "ItemStemConcepts..."
 java -jar rmlmapper-8.1.0-r380-all.jar -m rml-itemStemConcepts.ttl -o ../poem-demo/dist/data/itemStemConcepts.ttl -s turtle
 echo "ItemStems..."
