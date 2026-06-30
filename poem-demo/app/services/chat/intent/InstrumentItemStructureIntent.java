@@ -34,16 +34,18 @@ public record InstrumentItemStructureIntent(String instrumentUri) implements Cha
             WHERE {
               VALUES ?instrument { <%s> }
 
-              ?instrument sio:SIO_000059 ?item .
+              ?instrument sio:SIO_000059+ ?section .
+              ?section sio:SIO_000059 ?item .
               ?item a vstoi:Item .
               OPTIONAL { ?item sio:hasSource ?itemStem }
               OPTIONAL { ?itemStem rdfs:label ?stemLabel }
 
               OPTIONAL {
                 ?item sio:SIO_000008 ?orderNode .
-                ?orderNode sio:SIO_000668 ?instrument ;
+                ?orderNode sio:SIO_000668 ?section ;
                            sio:SIO_000300 ?order .
               }
+
             }
             ORDER BY ?order ?item
             """.formatted(instrumentUri);

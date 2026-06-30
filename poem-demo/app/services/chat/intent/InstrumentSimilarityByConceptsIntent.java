@@ -34,12 +34,15 @@ public record InstrumentSimilarityByConceptsIntent(List<String> instrumentUris) 
         return """
             PREFIX sio:  <http://semanticscience.org/resource/>
             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            PREFIX vstoi: <http://purl.org/twc/vstoi/>
 
             SELECT DISTINCT ?concept ?conceptLabel
             WHERE {
               VALUES (?instrumentA ?instrumentB) { (<%s> <%s>) }
-              ?instrumentA sio:SIO_000059 ?itemA .
-              ?instrumentB sio:SIO_000059 ?itemB .
+              ?instrumentA sio:SIO_000059+ ?itemA .
+              ?instrumentB sio:SIO_000059+ ?itemB .
+              ?itemA a vstoi:Item .
+              ?itemB a vstoi:Item .
               ?itemA sio:hasSource ?stemA .
               ?itemB sio:hasSource ?stemB .
               ?stemA sio:SIO_000253 ?concept .

@@ -80,15 +80,21 @@ public class Item extends models.Resource {
             SELECT ?item ?label ?pos
             WHERE {
                 ?instrument a poem:PsychometricQuestionnaire .
-                ?instrument sio:SIO_000059 ?item .
+                ?instrument sio:SIO_000059+ ?section .
+                ?section sio:SIO_000059 ?item .
                 ?item a vstoi:Item .
                 ?item sio:SIO_000253/rdfs:label ?label .
                 ?item sio:SIO_000008 ?position .
                 ?position a sio:SIO_000613 .
-                ?position sio:SIO_000668 ?instrument .
+                ?position sio:SIO_000668 ?section .
                 ?position sio:SIO_000300 ?pos .
+                OPTIONAL {
+                    ?section sio:SIO_000008 ?sectionPosition .
+                    ?sectionPosition a sio:SIO_000613 ;
+                                     sio:SIO_000300 ?sectionPos .
+                }
             }
-            ORDER BY ?pos
+            ORDER BY ?sectionPos ?pos
         """);
         query.setIri("instrument", instrumentUri);
         List<Item> items = new ArrayList<Item>();

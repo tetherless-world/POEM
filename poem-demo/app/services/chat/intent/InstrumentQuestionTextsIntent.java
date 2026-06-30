@@ -28,17 +28,20 @@ public record InstrumentQuestionTextsIntent(String instrumentUri) implements Cha
         return """
             PREFIX sio:   <http://semanticscience.org/resource/>
             PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+            PREFIX vstoi: <http://purl.org/twc/vstoi/>
 
             SELECT DISTINCT ?order ?item ?itemStem ?stemLabel ?stemLanguage
             WHERE {
               VALUES ?instrument { <%s> }
 
-              ?instrument sio:SIO_000059 ?item .
+              ?instrument sio:SIO_000059+ ?section .
+              ?section sio:SIO_000059 ?item .
+              ?item a vstoi:Item .
               ?item sio:hasSource ?itemStem .
 
               OPTIONAL {
                 ?item sio:SIO_000008 ?orderNode .
-                ?orderNode sio:SIO_000668 ?instrument ;
+                ?orderNode sio:SIO_000668 ?section ;
                            sio:SIO_000300 ?order .
               }
 

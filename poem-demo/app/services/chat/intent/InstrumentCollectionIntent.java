@@ -52,8 +52,8 @@ public record InstrumentCollectionIntent(String collectionUri) implements ChatIn
               FILTER(CONTAINS(STR(?memberInstrument), "/instrument/"))
 
               OPTIONAL {
-                ?memberInstrument sio:SIO_000059 ?memberItemForCount .
-                FILTER(CONTAINS(STR(?memberItemForCount), "/item/"))
+                ?memberInstrument sio:SIO_000059+ ?memberItemForCount .
+                ?memberItemForCount a vstoi:Item .
               }
 
               OPTIONAL {
@@ -77,8 +77,8 @@ public record InstrumentCollectionIntent(String collectionUri) implements ChatIn
               }
 
               OPTIONAL {
-                ?memberInstrument sio:SIO_000059 ?memberItemForScale .
-                FILTER(CONTAINS(STR(?memberItemForScale), "/item/"))
+                ?memberInstrument sio:SIO_000059+ ?memberItemForScale .
+                ?memberItemForScale a vstoi:Item .
                 ?memberItemForScale sio:SIO_000253 ?itemStem .
                 ?itemStem sio:SIO_000253 ?itemConcept .
                 ?scale sio:SIO_000059 ?itemConcept .

@@ -79,8 +79,8 @@ public record ListInstrumentsIntent(List<String> collectionUris,
             query.append("  VALUES ?scaleRequired { ")
                  .append(scaleUris.stream().map(uri -> "<" + uri + ">").collect(Collectors.joining(" ")))
                  .append(" }\n")
-                 .append("  ?instrument sio:SIO_000059 ?itemForScaleFilter .\n")
-                 .append("  FILTER(CONTAINS(STR(?itemForScaleFilter), \"/item/\"))\n")
+                 .append("  ?instrument sio:SIO_000059+ ?itemForScaleFilter .\n")
+                 .append("  ?itemForScaleFilter a vstoi:Item .\n")
                  .append("  ?itemForScaleFilter sio:SIO_000253 ?stemFilter .\n")
                  .append("  ?stemFilter sio:SIO_000253 ?conceptFilter .\n")
                  .append("  ?scaleRequired sio:SIO_000059 ?conceptFilter .\n\n");
@@ -105,8 +105,8 @@ public record ListInstrumentsIntent(List<String> collectionUris,
              .append("        ) AS ?languageDisplay)\n")
              .append("  }\n\n")
              .append("  OPTIONAL {\n")
-             .append("    ?instrument sio:SIO_000059 ?item .\n")
-             .append("    FILTER(CONTAINS(STR(?item), \"/item/\"))\n")
+             .append("    ?instrument sio:SIO_000059+ ?item .\n")
+             .append("    ?item a vstoi:Item .\n")
              .append("  }\n")
              .append("}\n")
              .append("GROUP BY ?instrument\n");

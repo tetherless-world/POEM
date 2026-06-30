@@ -40,10 +40,15 @@ public class ItemConcept extends models.Resource {
             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
             PREFIX prov: <http://www.w3.org/ns/prov#>
             PREFIX sio: <http://semanticscience.org/resource/>
+            PREFIX vstoi: <http://purl.org/twc/vstoi/>
             SELECT ?itemConcept
             WHERE {
-                <%s> sio:SIO_000059/sio:SIO_000253/sio:SIO_000253 ?itemConcept .
-                <%s> sio:SIO_000059/sio:SIO_000253/sio:SIO_000253 ?itemConcept .
+                <%s> sio:SIO_000059+ ?item0 .
+                <%s> sio:SIO_000059+ ?item1 .
+                ?item0 a vstoi:Item ;
+                       sio:SIO_000253/sio:SIO_000253 ?itemConcept .
+                ?item1 a vstoi:Item ;
+                       sio:SIO_000253/sio:SIO_000253 ?itemConcept .
             }
         """, instrument0.getUri(), instrument1.getUri());
         

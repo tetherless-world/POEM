@@ -34,7 +34,8 @@ public record InstrumentResponseOptionsIntent(String instrumentUri) implements C
             WHERE {
               VALUES ?instrument { <%s> }
 
-              ?instrument sio:SIO_000059 ?item .
+              ?instrument sio:SIO_000059+ ?item .
+              ?item a vstoi:Item .
               ?item sio:SIO_000008 ?codebook .
               ?codebook a vstoi:Codebook ;
                         sio:SIO_000008 ?experience ;

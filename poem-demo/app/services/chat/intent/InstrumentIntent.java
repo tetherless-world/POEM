@@ -61,8 +61,8 @@ public record InstrumentIntent(String instrumentUri) implements ChatIntent {
                 OPTIONAL { ?informant rdfs:label ?informantLabel }
               }
               OPTIONAL {
-                ?instrument sio:SIO_000059 ?itemForCount .
-                FILTER(CONTAINS(STR(?itemForCount), "/item/"))
+                ?instrument sio:SIO_000059+ ?itemForCount .
+                ?itemForCount a vstoi:Item .
               }
             }
             GROUP BY ?instrument

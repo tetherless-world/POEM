@@ -28,11 +28,15 @@ public record ConceptInstrumentUsageIntent(String conceptUri) implements ChatInt
         return """
             PREFIX sio:  <http://semanticscience.org/resource/>
             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            PREFIX poem: <http://purl.org/twc/poem/>
+            PREFIX vstoi: <http://purl.org/twc/vstoi/>
 
             SELECT DISTINCT ?instrument ?instrumentLabel
             WHERE {
               VALUES ?concept { <%s> }
-              ?instrument sio:SIO_000059 ?item .
+              ?instrument a poem:PsychometricQuestionnaire .
+              ?instrument sio:SIO_000059+ ?item .
+              ?item a vstoi:Item .
               ?item sio:hasSource ?itemStem .
               ?itemStem sio:SIO_000253 ?concept .
               OPTIONAL { ?instrument rdfs:label ?instrumentLabel }

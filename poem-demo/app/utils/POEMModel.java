@@ -16,6 +16,7 @@ public class POEMModel {
         "instrumentItemMap.ttl",
         "instruments.ttl",
         "instrumentCollections.ttl",
+        "sections.ttl",
         "items.ttl",
         "itemStemConcepts.ttl",
         "itemStems.ttl",

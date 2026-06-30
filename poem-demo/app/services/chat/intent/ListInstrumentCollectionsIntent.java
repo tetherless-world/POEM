@@ -47,6 +47,7 @@ public record ListInstrumentCollectionsIntent(List<String> languageUris,
              .append("PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n")
              .append("PREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n")
              .append("PREFIX sio:  <http://semanticscience.org/resource/>\n")
+             .append("PREFIX vstoi: <http://purl.org/twc/vstoi/>\n")
              .append("SELECT ?collection\n")
              .append("       (SAMPLE(?label) AS ?collectionLabel)\n")
              .append("       (SAMPLE(?definition) AS ?collectionDefinition)\n")
@@ -76,8 +77,8 @@ public record ListInstrumentCollectionsIntent(List<String> languageUris,
                  .append(" }\n")
                  .append("  ?collection sio:SIO_000059 ?instrumentForScale .\n")
                  .append("  FILTER(CONTAINS(STR(?instrumentForScale), \"/instrument/\"))\n")
-                 .append("  ?instrumentForScale sio:SIO_000059 ?itemForScale .\n")
-                 .append("  FILTER(CONTAINS(STR(?itemForScale), \"/item/\"))\n")
+                 .append("  ?instrumentForScale sio:SIO_000059+ ?itemForScale .\n")
+                 .append("  ?itemForScale a vstoi:Item .\n")
                  .append("  ?itemForScale sio:SIO_000253 ?stemForScale .\n")
                  .append("  ?stemForScale sio:SIO_000253 ?conceptForScale .\n")
                  .append("  ?scaleCollectionFilter sio:SIO_000059 ?conceptForScale .\n\n");

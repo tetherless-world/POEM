@@ -34,11 +34,13 @@ public record InstrumentExperienceComparisonIntent(List<String> instrumentUris) 
         return """
             PREFIX sio:  <http://semanticscience.org/resource/>
             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            PREFIX vstoi: <http://purl.org/twc/vstoi/>
 
             SELECT DISTINCT ?instrument ?experience ?experienceLabel
             WHERE {
               VALUES ?instrument { <%s> <%s> }
-              ?instrument sio:SIO_000059 ?item .
+              ?instrument sio:SIO_000059+ ?item .
+              ?item a vstoi:Item .
               ?item sio:SIO_000008 ?codebook .
               ?codebook sio:SIO_000008 ?experience .
               OPTIONAL { ?experience rdfs:label ?experienceLabel }

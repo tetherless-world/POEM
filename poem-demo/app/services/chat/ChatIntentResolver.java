@@ -223,8 +223,8 @@ public class ChatIntentResolver {
             }
         }
 
-        // Heuristic for generic scale questions (always triggers for matching phrases)
-        if (containsAny(normalised, "psychometric scale", "psychometric scales", "list scales", "what are scales", "show scales", "which scales", "scale list")) {
+        // Heuristic for generic scale questions without a matched instrument.
+        if (instruments.isEmpty() && containsAny(normalised, "psychometric scale", "psychometric scales", "list scales", "what are scales", "scale list")) {
             return Optional.of(new services.chat.intent.ListScalesIntent(List.of(), List.of(), 0));
         }
 
