@@ -9,6 +9,7 @@
 @prefix : <http://example.org/rules/> .
 @prefix schema: <http://schema.org/> .
 @prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix poem: <http://purl.org/twc/poem/> .
 @prefix vstoi: <http://purl.org/twc/vstoi/> .
 @prefix sio: <http://semanticscience.org/resource/> .
@@ -22,9 +23,16 @@
 
 :TriplesMap2 a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "data/xml/23_InstrumentItemMap.xml";
+    rml:source "data/xml/23_ItemSectionMap.xml";
     rml:referenceFormulation ql:XPath;
-    rml:iterator "/dataroot/_x0032_3_InstrumentItemMap"
+    rml:iterator "/dataroot/_x0032_3_ItemSectionMap[SectionID and ItemID and ItemPosition]"
+  ].
+
+:TriplesMap3 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/23_ItemSectionMap.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0032_3_ItemSectionMap[ItemID and ItemDisplayNumber]"
   ].
 
 :TriplesMap rr:subjectMap [
@@ -32,8 +40,12 @@
 ].
 
 :TriplesMap2 rr:subjectMap [
-  rr:template "bnodeItem{InstrumentItemID}";
+  rr:template "bnodeItemSectionPosition{SectionItemID}";
   rr:termType rr:BlankNode;
+].
+
+:TriplesMap3 rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/item/{ItemID}"
 ].
 
 :TriplesMap2 rr:predicateObjectMap [
@@ -64,17 +76,24 @@
 
 :TriplesMap2 rr:predicateObjectMap [
   rr:predicate sio:inRelationTo;
-  rr:objectMap [ rr:template "http://purl.org/twc/poem/individual/instrument/{InstrumentID}" ];
+  rr:objectMap [ rr:template "http://purl.org/twc/poem/individual/section/{SectionID}" ];
 ].
 
 :TriplesMap2 rr:predicateObjectMap [
   rr:predicate sio:SIO_000668;
-  rr:objectMap [ rr:template "http://purl.org/twc/poem/individual/instrument/{InstrumentID}" ];
+  rr:objectMap [ rr:template "http://purl.org/twc/poem/individual/section/{SectionID}" ];
 ].
 
 :TriplesMap rr:predicateObjectMap [
   rr:predicate rdf:type;
   rr:objectMap [ rr:constant vstoi:Item ];
+].
+
+:TriplesMap3 rr:predicateObjectMap [
+  rr:predicate skos:notation;
+  rr:objectMap [
+    rml:reference "ItemDisplayNumber"
+  ];
 ].
 
 :TriplesMap rr:predicateObjectMap [

@@ -1,0 +1,233 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://example.org/rules/> .
+@prefix schema: <http://schema.org/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix poem: <http://purl.org/twc/poem/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+
+:SectionTriplesMap a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/24_Sections.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0032_4_Sections"
+  ].
+
+:SectionParentSectionTriplesMap a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/24_Sections.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0032_4_Sections[ParentSectionID]"
+  ].
+
+:SectionPositionParentSectionTriplesMap a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/24_Sections.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0032_4_Sections[SectionPosition and ParentSectionID]"
+  ].
+
+:SectionPositionParentInstrumentTriplesMap a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/24_Sections.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0032_4_Sections[SectionPosition and ParentInstrumentID]"
+  ].
+
+:SectionItemTriplesMap a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "data/xml/23_ItemSectionMap.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/dataroot/_x0032_3_ItemSectionMap[SectionID and ItemID]"
+  ].
+
+:SectionTriplesMap rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/section/{SectionID}"
+].
+
+:SectionParentSectionTriplesMap rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/section/{ParentSectionID}"
+].
+
+:SectionPositionParentSectionTriplesMap rr:subjectMap [
+  rr:template "bnodeSectionPosition{SectionID}";
+  rr:termType rr:BlankNode;
+].
+
+:SectionPositionParentInstrumentTriplesMap rr:subjectMap [
+  rr:template "bnodeSectionPosition{SectionID}";
+  rr:termType rr:BlankNode;
+].
+
+:SectionItemTriplesMap rr:subjectMap [
+  rr:template "http://purl.org/twc/poem/individual/section/{SectionID}"
+].
+
+:SectionTriplesMap rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant poem:QuestionnaireSection ];
+].
+
+:SectionTriplesMap rr:predicateObjectMap [
+  rr:predicate rdfs:label;
+  rr:objectMap [
+    rml:reference "SectionName"
+  ];
+].
+
+:SectionParentSectionTriplesMap rr:predicateObjectMap [
+  rr:predicate sio:hasMember;
+  rr:objectMap [
+    rr:template "http://purl.org/twc/poem/individual/section/{SectionID}"
+  ];
+].
+
+:SectionParentSectionTriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000059;
+  rr:objectMap [
+    rr:template "http://purl.org/twc/poem/individual/section/{SectionID}"
+  ];
+].
+
+:SectionItemTriplesMap rr:predicateObjectMap [
+  rr:predicate sio:hasMember;
+  rr:objectMap [
+    rr:template "http://purl.org/twc/poem/individual/item/{ItemID}"
+  ];
+].
+
+:SectionItemTriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000059;
+  rr:objectMap [
+    rr:template "http://purl.org/twc/poem/individual/item/{ItemID}"
+  ];
+].
+
+:SectionTriplesMap rr:predicateObjectMap [
+  rr:predicate sio:hasAttribute;
+  rr:objectMap [
+    rr:parentTriplesMap :SectionPositionParentSectionTriplesMap;
+    rr:joinCondition [
+      rr:child "SectionID";
+      rr:parent "SectionID";
+    ];
+  ];
+].
+
+:SectionTriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000008;
+  rr:objectMap [
+    rr:parentTriplesMap :SectionPositionParentSectionTriplesMap;
+    rr:joinCondition [
+      rr:child "SectionID";
+      rr:parent "SectionID";
+    ];
+  ];
+].
+
+:SectionTriplesMap rr:predicateObjectMap [
+  rr:predicate sio:hasAttribute;
+  rr:objectMap [
+    rr:parentTriplesMap :SectionPositionParentInstrumentTriplesMap;
+    rr:joinCondition [
+      rr:child "SectionID";
+      rr:parent "SectionID";
+    ];
+  ];
+].
+
+:SectionTriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000008;
+  rr:objectMap [
+    rr:parentTriplesMap :SectionPositionParentInstrumentTriplesMap;
+    rr:joinCondition [
+      rr:child "SectionID";
+      rr:parent "SectionID";
+    ];
+  ];
+].
+
+:SectionPositionParentSectionTriplesMap rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant sio:OrdinalPosition ];
+].
+
+:SectionPositionParentSectionTriplesMap rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant sio:SIO_000613 ];
+].
+
+:SectionPositionParentSectionTriplesMap rr:predicateObjectMap [
+  rr:predicate sio:hasValue;
+  rr:objectMap [
+    rml:reference "SectionPosition";
+    rr:datatype xsd:positiveInteger
+  ];
+].
+
+:SectionPositionParentSectionTriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000300;
+  rr:objectMap [
+    rml:reference "SectionPosition";
+    rr:datatype xsd:positiveInteger
+  ];
+].
+
+:SectionPositionParentSectionTriplesMap rr:predicateObjectMap [
+  rr:predicate sio:inRelationTo;
+  rr:objectMap [
+    rr:template "http://purl.org/twc/poem/individual/section/{ParentSectionID}"
+  ];
+].
+
+:SectionPositionParentSectionTriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000668;
+  rr:objectMap [
+    rr:template "http://purl.org/twc/poem/individual/section/{ParentSectionID}"
+  ];
+].
+
+:SectionPositionParentInstrumentTriplesMap rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant sio:OrdinalPosition ];
+].
+
+:SectionPositionParentInstrumentTriplesMap rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant sio:SIO_000613 ];
+].
+
+:SectionPositionParentInstrumentTriplesMap rr:predicateObjectMap [
+  rr:predicate sio:hasValue;
+  rr:objectMap [
+    rml:reference "SectionPosition";
+    rr:datatype xsd:positiveInteger
+  ];
+].
+
+:SectionPositionParentInstrumentTriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000300;
+  rr:objectMap [
+    rml:reference "SectionPosition";
+    rr:datatype xsd:positiveInteger
+  ];
+].
+
+:SectionPositionParentInstrumentTriplesMap rr:predicateObjectMap [
+  rr:predicate sio:inRelationTo;
+  rr:objectMap [
+    rr:template "http://purl.org/twc/poem/individual/instrument/{ParentInstrumentID}"
+  ];
+].
+
+:SectionPositionParentInstrumentTriplesMap rr:predicateObjectMap [
+  rr:predicate sio:SIO_000668;
+  rr:objectMap [
+    rr:template "http://purl.org/twc/poem/individual/instrument/{ParentInstrumentID}"
+  ];
+].
