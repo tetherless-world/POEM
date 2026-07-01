@@ -10,6 +10,7 @@
 @prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix poem: <http://purl.org/twc/poem/> .
 @prefix sio: <http://semanticscience.org/resource/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 :SectionTriplesMap a rr:TriplesMap;
   rml:logicalSource [
@@ -75,6 +76,13 @@
 
 :SectionTriplesMap rr:predicateObjectMap [
   rr:predicate rdfs:label;
+  rr:objectMap [
+    rml:reference "SectionDisplay"
+  ];
+].
+
+:SectionTriplesMap rr:predicateObjectMap [
+  rr:predicate skos:notation;
   rr:objectMap [
     rml:reference "SectionName"
   ];
