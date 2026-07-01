@@ -213,13 +213,13 @@
   sio:SIO_000059 <http://purl.org/twc/poem/individual/instrument/106>, <http://purl.org/twc/poem/individual/instrument/181>,
     <http://purl.org/twc/poem/individual/instrument/182>, <http://purl.org/twc/poem/individual/instrument/183>,
     <http://purl.org/twc/poem/individual/instrument/184>, <http://purl.org/twc/poem/individual/instrument/185>,
-    <http://purl.org/twc/poem/individual/instrument/186>, <http://purl.org/twc/poem/individual/instrument/187>,
-    <http://purl.org/twc/poem/individual/instrument/188>;
+    <http://purl.org/twc/poem/individual/instrument/187>, <http://purl.org/twc/poem/individual/instrument/188>,
+    <http://purl.org/twc/poem/individual/instrument/193>;
   sio:hasMember <http://purl.org/twc/poem/individual/instrument/106>, <http://purl.org/twc/poem/individual/instrument/181>,
     <http://purl.org/twc/poem/individual/instrument/182>, <http://purl.org/twc/poem/individual/instrument/183>,
     <http://purl.org/twc/poem/individual/instrument/184>, <http://purl.org/twc/poem/individual/instrument/185>,
-    <http://purl.org/twc/poem/individual/instrument/186>, <http://purl.org/twc/poem/individual/instrument/187>,
-    <http://purl.org/twc/poem/individual/instrument/188>;
+    <http://purl.org/twc/poem/individual/instrument/187>, <http://purl.org/twc/poem/individual/instrument/188>,
+    <http://purl.org/twc/poem/individual/instrument/193>;
   rdfs:label "PHQ";
   skos:definition "Patient Health Questionnaire";
   skos:notation "PHQ" .
