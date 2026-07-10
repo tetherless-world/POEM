@@ -44,7 +44,7 @@ public class ResponseOption extends models.Resource {
             PREFIX poem: <http://purl.org/twc/poem/>
             PREFIX vstoi: <http://purl.org/twc/vstoi/>
             PREFIX sio: <http://semanticscience.org/resource/>
-            SELECT ?responseOption ?label ?pos ?val
+            SELECT DISTINCT ?responseOption ?label ?pos ?val
             WHERE {
                 ?responseOption a vstoi:ResponseOption .
                 ?codebook a vstoi:Codebook .

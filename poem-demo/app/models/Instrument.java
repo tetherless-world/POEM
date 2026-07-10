@@ -76,7 +76,7 @@ public class Instrument extends models.Resource {
         Resource resource = model.getResource(uri);
         instrument.setUri(resource.getURI());
         instrument.setLabel(resource.getProperty(RDFS.label).getString());
-        instrument.setItems(Item.getByInstrument(resource.getURI()));
+        //instrument.setItems(Item.getByInstrument(resource.getURI()));
         instrument.setComponents(Component.getByInstrument(resource.getURI()));
         instrument.setLanguage(Language.getByInstrument(resource.getURI()));
         if (resource.getProperty(OWL.deprecated) != null) {
