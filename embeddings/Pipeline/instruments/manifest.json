@@ -1,0 +1,2210 @@
+[
+{
+"hash": "25bd4c3c7ac15aa8b9602a30b47ba90070becc7268301b2e68ac42e7f49f218d",
+"file": "GAD-7_25bd4c3c7ac1.npy"
+},
+{
+"hash": "4727bb1c5e9d13db2d72d45b448253e3693a164d113395848bd12cc5937b1833",
+"file": "MTT-35-CG-EN-1_4727bb1c5e9d.npy"
+},
+{
+"hash": "af9d60ec8ebca417f9c21609260c1b7ef2dba7c336d4c2a90239288c77d31633",
+"file": "MTT-35-CG-EN-1_af9d60ec8ebc.npy"
+},
+{
+"hash": "1c17506e1eae34f6b7ed7916895c3f516894ef2e0b1253c0587eb776031675a0",
+"file": "MTT-35-CG-EN-1_1c17506e1eae.npy"
+},
+{
+"hash": "eae011be086bfc51975c8f3c4ba3e1e1df21926bd166be3ddca0c2af849c7383",
+"file": "MTT-35-CG-EN-1_eae011be086b.npy"
+},
+{
+"hash": "b267fbd1441a120598e023681401357b71907bfab267b7e124b5d80a6c897964",
+"file": "MTT-35-CG-EN-1_b267fbd1441a.npy"
+},
+{
+"hash": "ef8d61281ade16aa3d381785144a59ddc82bcbe7777b6f732c5c1534df5b571f",
+"file": "MTT-35-CG-EN-1_ef8d61281ade.npy"
+},
+{
+"hash": "add818ff201452fa04b9225f294207757b4ef20023d297ea7a6965303b0ee13c",
+"file": "MTT-35-CG-EN-1_add818ff2014.npy"
+},
+{
+"hash": "1b3e5f456da2ebefd4eb0b51d671bd158a3df8c87d9ff34e6edf2eb99f833334",
+"file": "MTT-35-CG-EN-1_1b3e5f456da2.npy"
+},
+{
+"hash": "ae3777fec78a9bc571eac0216c35da3a6fc531da51cbee07b7aebf02c8c8fe5d",
+"file": "MTT-35-CG-EN-1_ae3777fec78a.npy"
+},
+{
+"hash": "1e42685478d01c5bc48ecc2e7f4ea3910b447ff55cba406dd49dba8829be55a0",
+"file": "MTT-35-CG-EN-1_1e42685478d0.npy"
+},
+{
+"hash": "d2aa0da253d32f7e83a42d5078871365d1ea62754de1f5d83ea6350521529629",
+"file": "MTT-35-CG-EN-1_d2aa0da253d3.npy"
+},
+{
+"hash": "e9a7f72a1e1cd9f4c767aca1468dce1d23c208989f3bd6683f31188d768cc2b5",
+"file": "MTT-35-CG-EN-1_e9a7f72a1e1c.npy"
+},
+{
+"hash": "aeb30f716c5e96d7bd3f335520515a27d30a623270b25b797285ce29209c2920",
+"file": "MTT-35-CG-EN-1_aeb30f716c5e.npy"
+},
+{
+"hash": "d2a7809d3e128f8ba37bc12ead6506f957b709f7d620c04dbec88e9d3a2af30b",
+"file": "MTT-35-CG-EN-1_d2a7809d3e12.npy"
+},
+{
+"hash": "adbc914a662cf58b272abf314913b769e63e4a3a681be824fdfbd93785443ae5",
+"file": "MTT-35-CG-EN-1_adbc914a662c.npy"
+},
+{
+"hash": "5cd4654d3a9dda2ddddb8cdacecb89be589143856df8bc55fbe0c263e3368bfc",
+"file": "MTT-35-CG-EN-1_5cd4654d3a9d.npy"
+},
+{
+"hash": "a70e2053b4491439a6aaa6deaebaa197141a48aad35dbad2834a25bcd7a7a78a",
+"file": "MTT-35-CG-EN-1_a70e2053b449.npy"
+},
+{
+"hash": "bfebb02767c6991f3c9b4d4ea50eedd19b40a390cd36fb664701d3f8dc0333eb",
+"file": "MTT-35-CG-EN-1_bfebb02767c6.npy"
+},
+{
+"hash": "6727945bdc6c4fbfdd193d72aeb97d5dae474cd261f4f2feb6efeb8af46fd424",
+"file": "MTT-35-CG-EN-1_6727945bdc6c.npy"
+},
+{
+"hash": "d2c3f4b8abf70d7f1d750897b13a354a35f0522c85a9ee3848aedb299141aec7",
+"file": "MTT-35-CG-EN-1_d2c3f4b8abf7.npy"
+},
+{
+"hash": "95fa0ba7c371b15db135e07521e6cc59cfe9e0859eb1c8cc6244eec2316c8866",
+"file": "MTT-35-CG-EN-1_95fa0ba7c371.npy"
+},
+{
+"hash": "cf56471072072ad573dd57125842936d6b42982da56e6a387f3b5fbae5910f6c",
+"file": "MTT-35-CG-EN-1_cf5647107207.npy"
+},
+{
+"hash": "580f641f7a0afe6f062b0cf9b79360e55bbef4e9e74469c622e004764abf7714",
+"file": "MTT-35-CG-EN-1_580f641f7a0a.npy"
+},
+{
+"hash": "f943edfffa48ed73691e91a85ca9ccbfdf8eee9eb433362401dbd745e44c2979",
+"file": "MTT-35-CG-EN-1_f943edfffa48.npy"
+},
+{
+"hash": "6e7ae9d214626810462544370249e3efd82dc910e0185d8d94c3d46d73369303",
+"file": "MTT-35-CG-EN-1_6e7ae9d21462.npy"
+},
+{
+"hash": "259f3871ec0acf39fe5c9dd3d6aff44c35c2852569356c71319f927a47d6fdf4",
+"file": "MTT-35-CG-EN-1_259f3871ec0a.npy"
+},
+{
+"hash": "a18cb44c726ad0ccce5ae1b1b32ddb08ba33c5a5c2a775a9d44008dca9a1d696",
+"file": "MTT-35-CG-EN-1_a18cb44c726a.npy"
+},
+{
+"hash": "aa65e53cba9a76b3352a91b265b6560c18c25e9542fda9888219bc1ecd024e5b",
+"file": "MTT-35-CG-EN-1_aa65e53cba9a.npy"
+},
+{
+"hash": "7da2d641773f13dd816764a6b4b9603463c184d4de71e5dea8e4ad887986e111",
+"file": "MTT-35-CG-EN-1_7da2d641773f.npy"
+},
+{
+"hash": "ecb51c4c77b517dfc7e2e8c631c7a73fc97bbdc62aba9404a71b5769f5c2b1de",
+"file": "MTT-35-CG-EN-1_ecb51c4c77b5.npy"
+},
+{
+"hash": "db2e358615e902d0f2c211c3812fc4c1d8d6f03c9b891a5cdc730692c6300432",
+"file": "MTT-35-CG-EN-1_db2e358615e9.npy"
+},
+{
+"hash": "2338348e321dd897a6912771a54253bf60d21b1bd60397bdd99ae76334b36615",
+"file": "MTT-35-CG-EN-1_2338348e321d.npy"
+},
+{
+"hash": "452759e030fdd5865c9ae4c6d90a4679f7657b9ebbe64c748754e582d45a33a9",
+"file": "MTT-35-CG-EN-1_452759e030fd.npy"
+},
+{
+"hash": "88d84fc8e5d2dc199a92081bd1065328526a92fafdca1acb357eb5b9c62efd45",
+"file": "MTT-35-CG-EN-1_88d84fc8e5d2.npy"
+},
+{
+"hash": "eca62b64e50f813e60e5c5febe27d2258b2fdee920ce1abc59196fe0acc147c2",
+"file": "MTT-35-CG-EN-1_eca62b64e50f.npy"
+},
+{
+"hash": "ce01efe79580813bc227220a25547845539bb5a183f7521cc2ce0ac3f1ff9b22",
+"file": "MTT-35-CG-EN-2_ce01efe79580.npy"
+},
+{
+"hash": "aa2edd627efe2d19185dcc57a0551cf6ddd7788407a931ea92b9f580d7f2d36c",
+"file": "MTT-35-CG-EN-2_aa2edd627efe.npy"
+},
+{
+"hash": "b8f5fda506d21ad341e018a1c5fee5d8fdff711aede863bf503d95020e387022",
+"file": "MTT-35-CG-EN-2_b8f5fda506d2.npy"
+},
+{
+"hash": "170246433479c0aaa0df8f5f6abfd4679aa145c7f8d240c3f0369da281b68f3d",
+"file": "MTT-35-CG-EN-2_170246433479.npy"
+},
+{
+"hash": "76ad992114390f83cf6b9ece901e001411c2c6eef057deb99943616fd76b7622",
+"file": "MTT-35-CG-EN-2_76ad99211439.npy"
+},
+{
+"hash": "545beb636577f185f78a9e74c6df6a56ef90882920eb61da02b227df21340383",
+"file": "MTT-35-CG-EN-2_545beb636577.npy"
+},
+{
+"hash": "fa7d42da0a20211104c8e3f0c6a8bda60e8eb1bc3b70fc30629a393400b79834",
+"file": "MTT-35-CG-EN-2_fa7d42da0a20.npy"
+},
+{
+"hash": "419fb09052c4f8734a83ee6af6407581b53328c7bebe476fb6ebbe19db39a2db",
+"file": "MTT-35-CG-EN-2_419fb09052c4.npy"
+},
+{
+"hash": "2c4fe50e8da4903e96c82b4ffc97aa3566d3758678de3fb02ea5934e1404ffcf",
+"file": "MTT-35-CG-EN-2_2c4fe50e8da4.npy"
+},
+{
+"hash": "5df1aae073f94da1514f68cdb702613f095ae75540d1334674da1e9a06a88e87",
+"file": "MTT-35-CG-EN-2_5df1aae073f9.npy"
+},
+{
+"hash": "66f284e1487653e21e31b9a65475f02dbb9ba1e521565faa28bd2fc4ea5e2c94",
+"file": "MTT-35-CG-EN-2_66f284e14876.npy"
+},
+{
+"hash": "80325a7efee7c5a745e0f51e1fb0c248a0f0595d860f9dd7e8c2d00be4f34eb5",
+"file": "MTT-35-CG-EN-2_80325a7efee7.npy"
+},
+{
+"hash": "8253baf365b9ab1ea54a0a436dda0cf30bb828b1f37f79628e8f10ec88785271",
+"file": "MTT-35-CG-EN-2_8253baf365b9.npy"
+},
+{
+"hash": "3e2004cd470e8cc0598193cef24ddefde446dfc3afc96e85d1c169fa21bd484a",
+"file": "MTT-35-CG-EN-2_3e2004cd470e.npy"
+},
+{
+"hash": "15e56a445a479ca281563e4e96a5fe35ff7f0a20c13e9b67c83769155ec9f53a",
+"file": "MTT-35-CG-EN-2_15e56a445a47.npy"
+},
+{
+"hash": "3802aa0ff185fbe4dfb533f6743f5ad722e6a434289c2a63f8e7141b2138ea29",
+"file": "MTT-35-CG-EN-2_3802aa0ff185.npy"
+},
+{
+"hash": "1e4ad4a4f3d61bf9a0d7482a8d9ac018b523f9553d4f6e815fda60da82d14043",
+"file": "MTT-35-CG-EN-2_1e4ad4a4f3d6.npy"
+},
+{
+"hash": "b5a53ba7e94d599d05487de007319acb1df7941b64a432af09a48b0bfe4339d7",
+"file": "MTT-35-CG-EN-2_b5a53ba7e94d.npy"
+},
+{
+"hash": "b4c3bad881749126e12491311d9566287233be99e3e221296aa4f5c31562cca3",
+"file": "MTT-35-CG-EN-2_b4c3bad88174.npy"
+},
+{
+"hash": "58accb450d62e293f15e394b173c80b73b5434be0af981c28869d50106d214a0",
+"file": "MTT-35-CG-EN-2_58accb450d62.npy"
+},
+{
+"hash": "7cd14150308701be28e9ce133bee9745d8bcc843d34e7af3b253211c920d3e31",
+"file": "MTT-35-CG-EN-2_7cd141503087.npy"
+},
+{
+"hash": "cbab801e7d954d0ccb30b88372ff0db7b34334539997969da3d4ce1034f0780e",
+"file": "MTT-35-CG-EN-2_cbab801e7d95.npy"
+},
+{
+"hash": "3ac428d6d8ace5fec9bd780f8f40fa37fba6b6d6386e28ee800dc8642462caa0",
+"file": "MTT-35-CG-EN-2_3ac428d6d8ac.npy"
+},
+{
+"hash": "1d31b5d8f9e48ceb28a05574af3c795caf35294e6e877eeecb73c50a05111a9f",
+"file": "MTT-35-CG-EN-2_1d31b5d8f9e4.npy"
+},
+{
+"hash": "29b0f6bb335a51cb34e46e04ed195345c27426d4c09f7e5802be2a47faeda0ac",
+"file": "MTT-35-CG-EN-2_29b0f6bb335a.npy"
+},
+{
+"hash": "e799d0cc793f770f8d851a3effcf96671bf253bf804eb309af03abcabd9552ca",
+"file": "MTT-35-CG-EN-2_e799d0cc793f.npy"
+},
+{
+"hash": "1cce76d405a751f35c6fb9c9f6b07a10153d4a771397cb2bb916937531083951",
+"file": "MTT-35-CG-EN-2_1cce76d405a7.npy"
+},
+{
+"hash": "85e1d1047de4cd63f47d1fe6dc176b694425d4891b569ddd7ba22163c33033af",
+"file": "MTT-35-CG-EN-2_85e1d1047de4.npy"
+},
+{
+"hash": "9b9d2089bfda8f9fec98ca115607829049e4be425325c320bb16ca8ac5706c36",
+"file": "MTT-35-CG-EN-2_9b9d2089bfda.npy"
+},
+{
+"hash": "2597daf5a99666065d1e74487b82b5678b761aa56ce2c0c95ef2e0676de645a9",
+"file": "MTT-35-CG-EN-2_2597daf5a996.npy"
+},
+{
+"hash": "0c7a21996a87370411cd5d639fd87b5218fe0ade8a91eccfcf9903f38499d40c",
+"file": "MTT-35-CG-EN-2_0c7a21996a87.npy"
+},
+{
+"hash": "a7d054f63b73ae8a7ed50bf6618791f3eb3874bed48ed679d7a9c5abd3e61875",
+"file": "MTT-35-CG-EN-2_a7d054f63b73.npy"
+},
+{
+"hash": "bed3d5c5d5db2018d70fee00891d108247846dfdd4b4c52f88a99f0e99d8361d",
+"file": "MTT-35-CG-EN-2_bed3d5c5d5db.npy"
+},
+{
+"hash": "f7723b99521ce13317da30e5cfd3581afdc0444e2581efc4408f5c738678f293",
+"file": "MTT-35-CG-EN-2_f7723b99521c.npy"
+},
+{
+"hash": "901827f41e500aadb2325b3b63bd1f885124c6151e1122026d39decdfcf8faa6",
+"file": "MTT-35-CG-EN-2_901827f41e50.npy"
+},
+{
+"hash": "170007ed84de83e2df78d96f26dd86b8fafe9d604ca4bc93fc4676e22f8b187f",
+"file": "MTT-35-CG-EN-3_170007ed84de.npy"
+},
+{
+"hash": "f387fee8a8dab425f8aec70ce8015df2c4b29fe306023792467e4a318c63ede0",
+"file": "MTT-35-CG-EN-3_f387fee8a8da.npy"
+},
+{
+"hash": "639f78de3ee7573b4af8abd02642cf5ad379bb27f91d6f821cc5e13687974983",
+"file": "MTT-35-CG-EN-3_639f78de3ee7.npy"
+},
+{
+"hash": "abc1a11884ee7d4b8f8535e148d7f8b8dbd94845b750dc8c4716db05953b6033",
+"file": "MTT-35-CG-EN-3_abc1a11884ee.npy"
+},
+{
+"hash": "10d780c18fcf76887d2da9dbc76b6ad9e8eaa9928118756cad4d939472e31a1e",
+"file": "MTT-35-CG-EN-3_10d780c18fcf.npy"
+},
+{
+"hash": "72741b54db8bee79456659a75b158498aaf486f3c4d441773e09a6f4290e190c",
+"file": "MTT-35-CG-EN-3_72741b54db8b.npy"
+},
+{
+"hash": "54fc0e00fbd6d1e1d80d081fe22795bd47e5025586ee094077c4f77ec511e112",
+"file": "MTT-35-CG-EN-3_54fc0e00fbd6.npy"
+},
+{
+"hash": "e1e7e935ab8150c3ff70d6921cca130ad78eba59a558c39e523bc9ee530ccc5d",
+"file": "MTT-35-CG-EN-3_e1e7e935ab81.npy"
+},
+{
+"hash": "a174a3da35c28604a6a456272c00fa2271441b0f80a08eeeedcd4bed7b85e5b9",
+"file": "MTT-35-CG-EN-3_a174a3da35c2.npy"
+},
+{
+"hash": "0f586eade6466bf97c798d73d741ce7a5cd68e01c71c370b40f3a08266254f4b",
+"file": "MTT-35-CG-EN-3_0f586eade646.npy"
+},
+{
+"hash": "e72f817642c698d15087d3dff3a8ee691bf28f46c2c90336e82f75cb1ade7c46",
+"file": "MTT-35-CG-EN-3_e72f817642c6.npy"
+},
+{
+"hash": "6f1bf519a7264e18a0a277832ddd6a65f7797b27971fc1f552310d2fd77cee83",
+"file": "MTT-35-CG-EN-3_6f1bf519a726.npy"
+},
+{
+"hash": "3795c86aa0381fe088ea638a7bf105ae382e8b73e16c9d4b9e4c31f10a4365e6",
+"file": "MTT-35-CG-EN-3_3795c86aa038.npy"
+},
+{
+"hash": "4da1b78d645385c1f62f8e38a3af857fa938d350a9e8495cce5921b79c3b5a58",
+"file": "MTT-35-CG-EN-3_4da1b78d6453.npy"
+},
+{
+"hash": "88442540f322caa28fcbb6fb99a18d5b8ab0488caa05f4a4ed06c246cbe2f70e",
+"file": "MTT-35-CG-EN-3_88442540f322.npy"
+},
+{
+"hash": "40c4ba389e0005b76903a79c9b92196be6271b9045e2b6379b6de30b1dbff5c0",
+"file": "MTT-35-CG-EN-3_40c4ba389e00.npy"
+},
+{
+"hash": "789585038f3aad9e3d4558be9235478da52c55f8347a30453d793708c2bb85db",
+"file": "MTT-35-CG-EN-3_789585038f3a.npy"
+},
+{
+"hash": "4f42fe6a24a8ad7e52aa43d11d1ffc9db95a1fd54157b752f48024ef01ce4a5a",
+"file": "MTT-35-CG-EN-3_4f42fe6a24a8.npy"
+},
+{
+"hash": "5640960a322b877107e1e375692a6056264d2767272262c09f235720d9c7b0e7",
+"file": "MTT-35-CG-EN-3_5640960a322b.npy"
+},
+{
+"hash": "15983230d5fb252984534713065e641ea240c7872013626d690aa05a58837d81",
+"file": "MTT-35-CG-EN-3_15983230d5fb.npy"
+},
+{
+"hash": "80e80fd96ec7f46db670d7b11939a6bece1bf7eb2bbce1d7a64c75e34e826976",
+"file": "MTT-35-CG-EN-3_80e80fd96ec7.npy"
+},
+{
+"hash": "31d6b2c800a300391c50a486f5118d393fb80187e5cc5f339402fc3329f6874e",
+"file": "MTT-35-CG-EN-3_31d6b2c800a3.npy"
+},
+{
+"hash": "5740ab4e7a6c2e50f65b9ad171f40dc8092da1016c1e40ce3a74c73233b0533a",
+"file": "MTT-35-CG-EN-3_5740ab4e7a6c.npy"
+},
+{
+"hash": "6d164d8127b8f60983575d5d53eef2c0944bf72fd408d5a2acd7d07a42e58af2",
+"file": "MTT-35-CG-EN-3_6d164d8127b8.npy"
+},
+{
+"hash": "db6bc4cddd8d01a8f5b139f0b687b706a4df8e7a5d62357e0ccd8e3a862fc9f3",
+"file": "MTT-35-CG-EN-3_db6bc4cddd8d.npy"
+},
+{
+"hash": "9ad9883bb88ee70a0f0c802cf19f1964365a6c9b72321d7eba9b182abdacabdb",
+"file": "MTT-35-CG-EN-3_9ad9883bb88e.npy"
+},
+{
+"hash": "4efe782b837eb49e8e4d81dc451692fa8785beca49a8683bd31789c146557457",
+"file": "MTT-35-CG-EN-3_4efe782b837e.npy"
+},
+{
+"hash": "f3de246af846083e5d80135835852c8f6f5b28097394c4297571a4cdaaa2e178",
+"file": "MTT-35-CG-EN-3_f3de246af846.npy"
+},
+{
+"hash": "4bc8586394558607d70e9d0f803a44a178e63bce47025bf0146c7f6759da67e5",
+"file": "MTT-35-CG-EN-3_4bc858639455.npy"
+},
+{
+"hash": "c489593b665c8872db6cd740fb0b793f577af2c1bd674084fca3fedb226f60ac",
+"file": "MTT-35-CG-EN-3_c489593b665c.npy"
+},
+{
+"hash": "59b792270b83d92bf73378f5b470bb57a6bcdfb4e35d8a570e45e563a74dbcb9",
+"file": "MTT-35-CG-EN-3_59b792270b83.npy"
+},
+{
+"hash": "5daad90e2f3ad7f3c9b420aaaca2ebf4458b5f751e2c98e789805480c4525e6d",
+"file": "MTT-35-CG-EN-3_5daad90e2f3a.npy"
+},
+{
+"hash": "338fd32a70c6bb1e35948b60db595f7c1fc70719833cb85032d9e1357018c6c6",
+"file": "MTT-35-CG-EN-3_338fd32a70c6.npy"
+},
+{
+"hash": "0ce25d544d056391f34ceaa1af6803a1c77a737232010e4d4cb54a42eee5e238",
+"file": "MTT-35-CG-EN-3_0ce25d544d05.npy"
+},
+{
+"hash": "c90f462f7f429de43ce9c0c3a43f6fae9bc1583cd45f8aca612e6bc6602f53cd",
+"file": "MTT-35-CG-EN-3_c90f462f7f42.npy"
+},
+{
+"hash": "4798ee19c81d552b06e2ed76e211026c94e9612abcc408e8e8bb5bc769cf96a1",
+"file": "MTT-35-CG-ES-1_4798ee19c81d.npy"
+},
+{
+"hash": "56a729d52e9f504f8f4b7479d0315c43bc334a90c9a02af0201bb542beed83ea",
+"file": "MTT-35-CG-ES-2_56a729d52e9f.npy"
+},
+{
+"hash": "537e80e050c3dffbc9453b48fed1a639a44e8e81ccc61b52b50669a48bc0bef0",
+"file": "MTT-35-CG-NO_537e80e050c3.npy"
+},
+{
+"hash": "a7b22ea3a50c7dd88b4c913e6c40551f3d715f48ed3f29a6fa283b23751fe345",
+"file": "MTT-35-Y-EN-1_a7b22ea3a50c.npy"
+},
+{
+"hash": "ad4a422430e67f18729c1d7b863abeec6c3c665196136c79c4db2839c5968ec7",
+"file": "MTT-35-Y-EN-1_ad4a422430e6.npy"
+},
+{
+"hash": "1f1ef83e2bba9dc01e43744cc4d8324621beb1b258ac002a6edf051298d8efe9",
+"file": "MTT-35-Y-EN-1_1f1ef83e2bba.npy"
+},
+{
+"hash": "38b27a7c6f33092d6368e1654612131535a6a559f8b1d3ab01d5e4a798ec21bc",
+"file": "MTT-35-Y-EN-1_38b27a7c6f33.npy"
+},
+{
+"hash": "789e3d0221c8b2321e4539b08972e62cfec991ea5a5c5981aefbaccb16290653",
+"file": "MTT-35-Y-EN-1_789e3d0221c8.npy"
+},
+{
+"hash": "00a36ee4749e738383e1e4024fe2fa404b96d098c6ec909bc186f43d73dfcafc",
+"file": "MTT-35-Y-EN-1_00a36ee4749e.npy"
+},
+{
+"hash": "a055c222c4a8adf5b560f7e7fff5c9e8b7c43b62bbcf7db71fb1fabd5feaa385",
+"file": "MTT-35-Y-EN-1_a055c222c4a8.npy"
+},
+{
+"hash": "e4ab95d8f5ee2caab75f83a75db785b904a34e262d3d2836f7d0e040b3d4d8f2",
+"file": "MTT-35-Y-EN-1_e4ab95d8f5ee.npy"
+},
+{
+"hash": "dc26994e57757210e220e587a07686dd655fcf9232e6a2fe079ef17540047735",
+"file": "MTT-35-Y-EN-1_dc26994e5775.npy"
+},
+{
+"hash": "9d8a43aedce6c4f45b0b9a48399c916aa8e710ccec560c9847874fbca0003bb6",
+"file": "MTT-35-Y-EN-1_9d8a43aedce6.npy"
+},
+{
+"hash": "7272fc238989e485a2acedda58fbef6d0af546ddd5fe4e50304fb5534be39d87",
+"file": "MTT-35-Y-EN-1_7272fc238989.npy"
+},
+{
+"hash": "c23c31cf19735c5254cbbbfcf7c2cb89a50bf93204afb14b676982cccf10b533",
+"file": "MTT-35-Y-EN-1_c23c31cf1973.npy"
+},
+{
+"hash": "a3ddad196daa6e1edb321d790e2effc19d264655f31fd85aacfcb975f5d46bdd",
+"file": "MTT-35-Y-EN-1_a3ddad196daa.npy"
+},
+{
+"hash": "3d67fc34e31e00c01301209a081bd8680448e6073a9846995b068808bc690367",
+"file": "MTT-35-Y-EN-1_3d67fc34e31e.npy"
+},
+{
+"hash": "673f759b64918546a721e1a453448149f47f0ad083067a0193927377aec7ddc2",
+"file": "MTT-35-Y-EN-1_673f759b6491.npy"
+},
+{
+"hash": "11bf10295b1ebb7a8a4c095181dd22661dfa7c8c8f2cf147b1bd31dd4418a212",
+"file": "MTT-35-Y-EN-1_11bf10295b1e.npy"
+},
+{
+"hash": "01bc48f50a4d40f9e9955a25b0b079dc6c779e7f65efc6b2b90111928ccb2e5f",
+"file": "MTT-35-Y-EN-1_01bc48f50a4d.npy"
+},
+{
+"hash": "9d8580b2de44fb1b21a0cfbeba4064dc07c29a9c7bf70e265a7af5eeecf47de0",
+"file": "MTT-35-Y-EN-1_9d8580b2de44.npy"
+},
+{
+"hash": "49b862129c007ca0f76f50265f332fe4b12686fa723296e2fc5efbe662b3d00c",
+"file": "MTT-35-Y-EN-1_49b862129c00.npy"
+},
+{
+"hash": "e1da0a68c78a402c3ac35e5f076f81ee7e196710c4267dbe6fc6e9f8c11384b6",
+"file": "MTT-35-Y-EN-1_e1da0a68c78a.npy"
+},
+{
+"hash": "fe9b06b15b28b102b5e015e169bde48ea9e552a22ee4de923f42b8efc34e6628",
+"file": "MTT-35-Y-EN-1_fe9b06b15b28.npy"
+},
+{
+"hash": "4c29d78549dac9cc6e7460aa49e3a0be6fdd457d110d0078ebc0139b8006186d",
+"file": "MTT-35-Y-EN-1_4c29d78549da.npy"
+},
+{
+"hash": "0481a600042f10f91ee1117766d7dfb5b5312756f9ea90c06133c0ba4fd80e37",
+"file": "MTT-35-Y-EN-1_0481a600042f.npy"
+},
+{
+"hash": "7c39ee5fb36bda88dc3671cf89998f22411082aa79a43b9fa45a3b8c54d99ed5",
+"file": "MTT-35-Y-EN-1_7c39ee5fb36b.npy"
+},
+{
+"hash": "123c27f1414029ba95d914d14c86fbee7179a75f95fc3372c4d5930d62850aed",
+"file": "MTT-35-Y-EN-1_123c27f14140.npy"
+},
+{
+"hash": "8561923798eb9ae3e7a610a3acaac7c519ac56def503949120e1491b5f5eaeef",
+"file": "MTT-35-Y-EN-1_8561923798eb.npy"
+},
+{
+"hash": "417c3f73dccc7f0312878913d24806ae04b3dbd8ec58b0b27e81724e96a65b99",
+"file": "MTT-35-Y-EN-1_417c3f73dccc.npy"
+},
+{
+"hash": "8d1daf554f847c2382589b7de874aa6ffcd34f89f0d7abab60b0aee168d55159",
+"file": "MTT-35-Y-EN-1_8d1daf554f84.npy"
+},
+{
+"hash": "1f3dd4785adc33e1239cd7bab4f29b404738ba824ea35f569746b62f54be34cd",
+"file": "MTT-35-Y-EN-1_1f3dd4785adc.npy"
+},
+{
+"hash": "985ebbf33edabe1fac25ea0932fea027df707465547f3e28b8cd7b10610a61ee",
+"file": "MTT-35-Y-EN-1_985ebbf33eda.npy"
+},
+{
+"hash": "054c9651cbd4bf0e7f628ee34a50464a5a9115e1315dcb1f673683444d355332",
+"file": "MTT-35-Y-EN-1_054c9651cbd4.npy"
+},
+{
+"hash": "0d668d3b9eef2e6723ad9d393863774c8b2fb3f2cc75c822ddff3e993c58449c",
+"file": "MTT-35-Y-EN-1_0d668d3b9eef.npy"
+},
+{
+"hash": "b21cc2a4bbc95c6160d0088c524de545013e1e58785402d4493f19c6a0a687b4",
+"file": "MTT-35-Y-EN-1_b21cc2a4bbc9.npy"
+},
+{
+"hash": "e95c73fc963887393edff75e81ce21c798e53d703cbd4148f8e60b18c9aca9bf",
+"file": "MTT-35-Y-EN-1_e95c73fc9638.npy"
+},
+{
+"hash": "a08e19ba18e101b764ec95004f6667f2dd0cad75a47e214a64f0eac96c83a947",
+"file": "MTT-35-Y-EN-1_a08e19ba18e1.npy"
+},
+{
+"hash": "03de827e2b4b7a75906aa534a1c3b0283008b9f9de791ca7fde144837cef8d7f",
+"file": "MTT-35-Y-EN-2_03de827e2b4b.npy"
+},
+{
+"hash": "1849a7c831c85731318126f2a864ec450df9001c5ee7ba46c9f9d4e16b1318da",
+"file": "MTT-35-Y-EN-2_1849a7c831c8.npy"
+},
+{
+"hash": "a6adb9b3e8babc355e5954ef7f6faa33e6f2da9268fb13c5fb93560924579f33",
+"file": "MTT-35-Y-EN-2_a6adb9b3e8ba.npy"
+},
+{
+"hash": "b89db902b9598459ad7bccf55409027bb9460301dde1695f60d17b39b8ca4364",
+"file": "MTT-35-Y-EN-2_b89db902b959.npy"
+},
+{
+"hash": "e282823f82c55700584314575d4d28fa3f8aa433d49aa79a5adcc385a64df18c",
+"file": "MTT-35-Y-EN-2_e282823f82c5.npy"
+},
+{
+"hash": "dca7c7871809ac91203140b28e12f2f5ba0d31d4e5fae051910ecd041c556a5f",
+"file": "MTT-35-Y-EN-2_dca7c7871809.npy"
+},
+{
+"hash": "a415447ec6adad0e5b6d7004908a98ed92c9a011c1ed088a95dcd91e1a83bc5a",
+"file": "MTT-35-Y-EN-2_a415447ec6ad.npy"
+},
+{
+"hash": "e54ff7e3b89a38bdf3736c0c673dc88949ef34879ce1fcc0521e45fe5b863013",
+"file": "MTT-35-Y-EN-2_e54ff7e3b89a.npy"
+},
+{
+"hash": "e051135f5977519434094fdba67552b5514884025736a020391911ebf23cb26f",
+"file": "MTT-35-Y-EN-2_e051135f5977.npy"
+},
+{
+"hash": "80e1e550eaf6563262ab5b354448c177fd421d6a906cc8decd7fea233302a9ad",
+"file": "MTT-35-Y-EN-2_80e1e550eaf6.npy"
+},
+{
+"hash": "eaf5d2644c13e12af79de08eee4e5404c9bfc41025b104e4b98183cf56f72f14",
+"file": "MTT-35-Y-EN-2_eaf5d2644c13.npy"
+},
+{
+"hash": "4c6b4019f2fe28cb4355950fd3ee8c2a83203cb672647a9dda5a5102fe55a7e7",
+"file": "MTT-35-Y-EN-2_4c6b4019f2fe.npy"
+},
+{
+"hash": "9657c887dd207d98c8d2628b75719c1f11a3994dab882ecd7ff8bf6df4853bf6",
+"file": "MTT-35-Y-EN-2_9657c887dd20.npy"
+},
+{
+"hash": "397bb5a69a68c2efc0792efd5c04bbad76d0458837d9e23e3f5b4c36febf07e9",
+"file": "MTT-35-Y-EN-2_397bb5a69a68.npy"
+},
+{
+"hash": "62c2b65573d4ad03669367d2f54554b1646e9a83ca8b6f9260f26bd44d2f8ff6",
+"file": "MTT-35-Y-EN-2_62c2b65573d4.npy"
+},
+{
+"hash": "ddfc8e619f934eb1a90941b80311022e2b83c7c3e4700d0bae4c1af78f105ef3",
+"file": "MTT-35-Y-EN-2_ddfc8e619f93.npy"
+},
+{
+"hash": "f5d94d9d50599b253819ab98a4d9e8d2536caf7e264e39e14a5179b8a4990194",
+"file": "MTT-35-Y-EN-2_f5d94d9d5059.npy"
+},
+{
+"hash": "a5cf9eecb35617e8ee7ffeb113e4766c5cb1f65e3c22d5ba94efcd6a4fbbfb3a",
+"file": "MTT-35-Y-EN-2_a5cf9eecb356.npy"
+},
+{
+"hash": "4a9cc7bc63a6914f4f868a9df67abee9343b3ba12878fa86ff53158995c6f131",
+"file": "MTT-35-Y-EN-2_4a9cc7bc63a6.npy"
+},
+{
+"hash": "6b5e8e137fbef3ae63cba35affc646784241f6bf6697028b35d5307d8f8e5f1b",
+"file": "MTT-35-Y-EN-2_6b5e8e137fbe.npy"
+},
+{
+"hash": "cb406184a3a7beb2d0c1f58f8484632a4b187f378816f8c3c78a20ae24b66d3f",
+"file": "MTT-35-Y-EN-2_cb406184a3a7.npy"
+},
+{
+"hash": "af0f17430b0cf0ce12cb0bc7b2acecdf9fc451a4030829a5664a935d18e76de9",
+"file": "MTT-35-Y-EN-2_af0f17430b0c.npy"
+},
+{
+"hash": "7a748d8d5342628a0d23bf2a675ea45fd0a445eec614ecc1d3675d3c9ce4df45",
+"file": "MTT-35-Y-EN-2_7a748d8d5342.npy"
+},
+{
+"hash": "da437b310b7c280afb60eb741e906e87aaad455a52da7d3b18d0c5f3699c279c",
+"file": "MTT-35-Y-EN-2_da437b310b7c.npy"
+},
+{
+"hash": "2fee9e707a529e1a709a49bacbe5eff64e724def28fd8e739af20270cdcaaed5",
+"file": "MTT-35-Y-EN-2_2fee9e707a52.npy"
+},
+{
+"hash": "8773f5266edb6d835aa20f07b922bc941059fee2c822a92345ba1e147196c32c",
+"file": "MTT-35-Y-EN-2_8773f5266edb.npy"
+},
+{
+"hash": "ba357bde286c6ad8caafaa2f9b638277bbe0f89865e5a461a95b8c30e1d70a71",
+"file": "MTT-35-Y-EN-2_ba357bde286c.npy"
+},
+{
+"hash": "f61b4a909a6f8fa705cdd5ff22c332bb772677c0dba799987015204be6368086",
+"file": "MTT-35-Y-EN-2_f61b4a909a6f.npy"
+},
+{
+"hash": "da0480842b8f506da5fb0b75c43df8418625d5dc6773763a8d286f093c1563ef",
+"file": "MTT-35-Y-EN-2_da0480842b8f.npy"
+},
+{
+"hash": "f8332e1cf7b9fd55332d6db1b8de648453b46228c45c761a1965db666ba02a17",
+"file": "MTT-35-Y-EN-2_f8332e1cf7b9.npy"
+},
+{
+"hash": "8a669da657b225b973adbc08fcba8970b91c33eafe57b606575fbb39a18fb998",
+"file": "MTT-35-Y-EN-2_8a669da657b2.npy"
+},
+{
+"hash": "7bd9fd24d6603a20b2fccfb2d89c798c22eab3626ceb05f5d86a481bc87127eb",
+"file": "MTT-35-Y-EN-2_7bd9fd24d660.npy"
+},
+{
+"hash": "6cc25e4a01923075f8b59ee950d9c97152652dd7ba30a65f1ce2a4122883b7c3",
+"file": "MTT-35-Y-EN-2_6cc25e4a0192.npy"
+},
+{
+"hash": "3735b94ef7fa5d4dca478accef182ad765813b2746310bbcfa2d2a9b4279f8fe",
+"file": "MTT-35-Y-EN-2_3735b94ef7fa.npy"
+},
+{
+"hash": "b825104c03bf637aeea9f61afa618daadf328a08e2450e0db809511283c42f61",
+"file": "MTT-35-Y-EN-2_b825104c03bf.npy"
+},
+{
+"hash": "91302371a0fc31d7111f1f2ac01c8efb84b10b751c121cc375e417dee268de36",
+"file": "MTT-35-Y-ES-1_91302371a0fc.npy"
+},
+{
+"hash": "94bc704203292cc3820c8a0bfadc15b41ae31324a2a854b45ebe3442e90fa064",
+"file": "MTT-35-Y-ES-2_94bc70420329.npy"
+},
+{
+"hash": "bb20f79c1a755e88af68427428e714eeb27a3bd6c0b1d06134e45ada767709a3",
+"file": "MTT-35-Y-NO_bb20f79c1a75.npy"
+},
+{
+"hash": "04574df5b5db3036da1964ac5c791fd791ab957d953d6d4108e3fc21c9ffb093",
+"file": "PHQ-9-A-EN_04574df5b5db.npy"
+},
+{
+"hash": "d5b68496f7a8b1595e23724d5de695e7228e193eaa90dd47dde1a977f244a3ee",
+"file": "PHQ-9-A-EN_d5b68496f7a8.npy"
+},
+{
+"hash": "dc7e45bea5601a241e388898b3dc984f886dbbdc76cb888a5f3c21c9e786fd1a",
+"file": "PHQ-9-A-EN_dc7e45bea560.npy"
+},
+{
+"hash": "57cd9c0dd39da699cd922362891fea62ed2d6564f7379caa884aea68eaf5db95",
+"file": "PHQ-9-A-EN_57cd9c0dd39d.npy"
+},
+{
+"hash": "35c59076a584b5f378c41b2808d0a39314488f4c128a30bfe023129250da1f6d",
+"file": "PHQ-9-A-EN_35c59076a584.npy"
+},
+{
+"hash": "40c4ffe9db3d5bed152c61d842132d36af2577d16f0c9d6fa87d5441429b4e4b",
+"file": "PHQ-9-A-EN_40c4ffe9db3d.npy"
+},
+{
+"hash": "80d90731750a81dda27fc8e3481d764f152bdffc75140223796fdd75e77858b1",
+"file": "PHQ-9-A-EN_80d90731750a.npy"
+},
+{
+"hash": "a61696e3feb96210c07f5b17a3301585817ccc0bfe0dad5fcbf0602716673588",
+"file": "PHQ-9-A-EN_a61696e3feb9.npy"
+},
+{
+"hash": "c6f101bd6da00510e71b236d37729c36bc8a9060e57a788d7d13d4bfce0dd31a",
+"file": "PHQ-9-A-EN_c6f101bd6da0.npy"
+},
+{
+"hash": "e4df8a090c0c98fd6a6dcda923f7bc2a4014e0487e48e2703285bedcfc6e5638",
+"file": "RCADS-25-CG-AR_e4df8a090c0c.npy"
+},
+{
+"hash": "10093e62801f53674facdb60b7be631cdef102c109cc520f186216f2e08cba21",
+"file": "RCADS-25-CG-BN_10093e62801f.npy"
+},
+{
+"hash": "75d5cd6d7f6c3a369cfbc8e053bea55ca8602693c88b7c693662d61f55b6e5a7",
+"file": "RCADS-25-CG-CH-HANS_75d5cd6d7f6c.npy"
+},
+{
+"hash": "2e091da4349b68e95a43d384d18ad94b12d10197714ad8a0ab466886a34c539d",
+"file": "RCADS-25-CG-DA_2e091da4349b.npy"
+},
+{
+"hash": "ca3860cf83dfa27596bd429148aa36c2e2248d146b4f81aa309a02204bfede73",
+"file": "RCADS-25-CG-DE_ca3860cf83df.npy"
+},
+{
+"hash": "55f580f5d084e3da2cc014d90d15bfa88304c809900a51fbdb3f7ebe5f7fb767",
+"file": "RCADS-25-CG-EL_55f580f5d084.npy"
+},
+{
+"hash": "ad65c300a4b557d228f3f373b033a043fa71bf1c0496e8acff6ab4797e39c9b6",
+"file": "RCADS-25-CG-EN_ad65c300a4b5.npy"
+},
+{
+"hash": "374979d50bf8ba73257da88d1a165860a6a17d9edc6251b47ad30fbd58a7a997",
+"file": "RCADS-25-CG-EN_374979d50bf8.npy"
+},
+{
+"hash": "43643b6a456e7351f96eead73cc5c413fae8ff500eac24969f55a743fbcf493e",
+"file": "RCADS-25-CG-EN_43643b6a456e.npy"
+},
+{
+"hash": "dd439177706cc889052847d2c2322b5dfcb58ae49b616b22b54df069c9c19db6",
+"file": "RCADS-25-CG-EN_dd439177706c.npy"
+},
+{
+"hash": "490f75b214c0102d26d86a05f3f355229242a6a5bc5c5303e05519a7ddc5e25f",
+"file": "RCADS-25-CG-EN_490f75b214c0.npy"
+},
+{
+"hash": "4e0958a522ef87f497a326f456081125d2f1679b31dbdad7a9ab9395c888cf86",
+"file": "RCADS-25-CG-EN_4e0958a522ef.npy"
+},
+{
+"hash": "c5e473c8a9ae5b2cd1913d78b8681fb50fa0d2f54b8ca8086363d9594e1e3f28",
+"file": "RCADS-25-CG-EN_c5e473c8a9ae.npy"
+},
+{
+"hash": "d51ec6766c3dd37555a1e53c8623f49c97171dbe6bb1b82c5e2cfdb29ca0ae4a",
+"file": "RCADS-25-CG-EN_d51ec6766c3d.npy"
+},
+{
+"hash": "bdb78de183acb4bd343bcd60a2b0f8ba71eb1d3f95457ee652f1dddc86826b24",
+"file": "RCADS-25-CG-EN_bdb78de183ac.npy"
+},
+{
+"hash": "4a0788a75953549dde9972e733a081cafabc6211e95ddb98ae0801d4b656deca",
+"file": "RCADS-25-CG-EN_4a0788a75953.npy"
+},
+{
+"hash": "dfba1136f724e58993069e6ce024ac3f65ff9f92f9f5dc4e6f8d3ec0124fb855",
+"file": "RCADS-25-CG-EN_dfba1136f724.npy"
+},
+{
+"hash": "e4dfc09fbb39629f219e31ddebd8ba40db499c2d4ba118a7a1e3421daf14db43",
+"file": "RCADS-25-CG-EN_e4dfc09fbb39.npy"
+},
+{
+"hash": "e887f0c21bdbf76b708aacc81fb3080972a143dec63780b74b222004fccc130d",
+"file": "RCADS-25-CG-EN_e887f0c21bdb.npy"
+},
+{
+"hash": "946f2342b9dbc26225bf466e46bdcd865bd70f85ad1a57a37be99c5cd58384c7",
+"file": "RCADS-25-CG-EN_946f2342b9db.npy"
+},
+{
+"hash": "03040ad9acf75a90b83b366c420f6019845a14b3208bd96f5091bd11c0b74e06",
+"file": "RCADS-25-CG-EN_03040ad9acf7.npy"
+},
+{
+"hash": "8addaaccb34061c0ed85fe5d44c900b264a02011e2085ebb05ae8542d77ac052",
+"file": "RCADS-25-CG-EN_8addaaccb340.npy"
+},
+{
+"hash": "dad9f41cbb798668eb8a41ac819f8b047ee96aac750313945c7aedecdebdee14",
+"file": "RCADS-25-CG-EN_dad9f41cbb79.npy"
+},
+{
+"hash": "36a975e39be1b77175c1b06ea7d30366ee4de3fc0da9702f780ec9ee51685b53",
+"file": "RCADS-25-CG-EN_36a975e39be1.npy"
+},
+{
+"hash": "b3313ee077b986fbed7ebf28bdc33a225d388c0d3439450ccb3ff2215ce37c25",
+"file": "RCADS-25-CG-EN_b3313ee077b9.npy"
+},
+{
+"hash": "b44965493b340e709c2ced410b44e5c013a7390e0d3246b32354973c61d06ff8",
+"file": "RCADS-25-CG-EN_b44965493b34.npy"
+},
+{
+"hash": "97f94ac8db015e4d1de62532983d72c2348f6c165a909c69f32ec542796b905a",
+"file": "RCADS-25-CG-EN_97f94ac8db01.npy"
+},
+{
+"hash": "9b19f9a1b8574a36dd65485fd59323fe6c87146d3d0630f4c589be869f52acf4",
+"file": "RCADS-25-CG-EN_9b19f9a1b857.npy"
+},
+{
+"hash": "4a13939be2710c8bb4fe98d118948db3c57d33dbfeb18983dc18d6f32d16b958",
+"file": "RCADS-25-CG-EN_4a13939be271.npy"
+},
+{
+"hash": "77c0a11a131f5079ccbce6030d833877b3da87260fffdc1fed213bd1467606c3",
+"file": "RCADS-25-CG-EN_77c0a11a131f.npy"
+},
+{
+"hash": "148ed3b296580babf1d4bc9a6558879844a2358911658ff2605e279ab5d8aab8",
+"file": "RCADS-25-CG-EN_148ed3b29658.npy"
+},
+{
+"hash": "bbe2f667e76feb5ff4d8a2b2e88164efc19c2923e4a62ba90f4d7cdd11a924da",
+"file": "RCADS-25-CG-EN-2_bbe2f667e76f.npy"
+},
+{
+"hash": "c343c52fe07d72a935aadc280b1fffcf5c90aeb51c012e508acdbf8645a548d1",
+"file": "RCADS-25-CG-EN-2_c343c52fe07d.npy"
+},
+{
+"hash": "74f359a1c2b461f40d9a4ef5d947eaa4e52976f93d0ceb99f7988afaafdbecdb",
+"file": "RCADS-25-CG-EN-2_74f359a1c2b4.npy"
+},
+{
+"hash": "e2ebb43fa8a6c246f43b582ff92c8f6415202fe6a79e08e167e3e7fe9864f700",
+"file": "RCADS-25-CG-EN-2_e2ebb43fa8a6.npy"
+},
+{
+"hash": "cc2eebaea3ac19f9c9abed13a138ab1ce2fa319a7b8404ce752c9774c596a7d1",
+"file": "RCADS-25-CG-EN-2_cc2eebaea3ac.npy"
+},
+{
+"hash": "468d1a69efb585f52aaa07cd3c476d05cb41eb27004a08f6bcbeaf72f18b206d",
+"file": "RCADS-25-CG-EN-2_468d1a69efb5.npy"
+},
+{
+"hash": "fddba36048d6a296123c75efdfbf6dd344b7520f03c8d9ec3524b2802e4a6f15",
+"file": "RCADS-25-CG-EN-2_fddba36048d6.npy"
+},
+{
+"hash": "7c6054f371c24a593012b437a8013dd9710786bc2fd5172e0cf56610ed9a9762",
+"file": "RCADS-25-CG-EN-2_7c6054f371c2.npy"
+},
+{
+"hash": "e7da73708d0f36e861ecb28aab9bafe6b30d0dd349ca955ee6fb181607740f51",
+"file": "RCADS-25-CG-EN-2_e7da73708d0f.npy"
+},
+{
+"hash": "b351f4162395c3d9914007c1d6628ed186b77f344802eff5ae18d7343d4d4da7",
+"file": "RCADS-25-CG-EN-2_b351f4162395.npy"
+},
+{
+"hash": "8c43cd202e1c5dce586ff8faa9b7aafd123516af41db48657766347800ccd3f7",
+"file": "RCADS-25-CG-EN-2_8c43cd202e1c.npy"
+},
+{
+"hash": "e85775737c6ba01cfd93ef5a2b740411de1766734a3ccca16ef4c2cfd3373ca4",
+"file": "RCADS-25-CG-EN-2_e85775737c6b.npy"
+},
+{
+"hash": "cb7d97132ba71a63dcada8ebe25856c68c0fe6241e48090168efc062f9c68f4e",
+"file": "RCADS-25-CG-EN-2_cb7d97132ba7.npy"
+},
+{
+"hash": "5e564b4998f865bb664e2a3af272f3ce75d8ab85305ce27bf51ecbf0d7adc5ff",
+"file": "RCADS-25-CG-EN-2_5e564b4998f8.npy"
+},
+{
+"hash": "0c7211ba3297f3bc2fe6a60343fddf1b6824853eb38b7860d30dbed49bb094f7",
+"file": "RCADS-25-CG-EN-2_0c7211ba3297.npy"
+},
+{
+"hash": "dceded53342cb6458c1f0c62ec87b06851cf8db8c7b174c5e0195c7c04abc44c",
+"file": "RCADS-25-CG-EN-2_dceded53342c.npy"
+},
+{
+"hash": "0f8154c95d64c74f3ad152610579973270198993b7c5216dc04da669d3752e55",
+"file": "RCADS-25-CG-EN-2_0f8154c95d64.npy"
+},
+{
+"hash": "9f6a3a6dd126d23e9567a30cd7e7275da6b75184a25f9d8a8b5ef88c4a4dd0ff",
+"file": "RCADS-25-CG-ES_9f6a3a6dd126.npy"
+},
+{
+"hash": "066c690bfe85c7aa4d54f7eba710948841034c3a512bc81521ac634b55f4f569",
+"file": "RCADS-25-CG-ET_066c690bfe85.npy"
+},
+{
+"hash": "b2f027115e490a48849c7adaad0265bda58a39b9c2762aedc4a7af1cfad8924c",
+"file": "RCADS-25-CG-FA_b2f027115e49.npy"
+},
+{
+"hash": "d89eb2b0a081f89be03f8f7f125c57d4dab6ae36415fabfd352d37a81ab2dfa4",
+"file": "RCADS-25-CG-FI_d89eb2b0a081.npy"
+},
+{
+"hash": "058cbf46de8295a023fb10aff217602cb5d9e6f8515e83ad5dd428629c6fcde8",
+"file": "RCADS-25-CG-FR_058cbf46de82.npy"
+},
+{
+"hash": "a9473e50ae2ab1fa8ec0d6f6480e87101e5f463af3484a4a1230cf21926a77c1",
+"file": "RCADS-25-CG-FR-CA-1_a9473e50ae2a.npy"
+},
+{
+"hash": "d4c6653482cb15980af1344c859fb122e1ede93820557d3c542315f8d0de5c07",
+"file": "RCADS-25-CG-FR-FR-1_d4c6653482cb.npy"
+},
+{
+"hash": "4c4cb9cf2a0a990483f77dd3198b383cb02e2e88794f796beca20b85b77c9336",
+"file": "RCADS-25-CG-HI_4c4cb9cf2a0a.npy"
+},
+{
+"hash": "ac5d330d4dee51a4283d7ed6247ec22e4cce8e7ad30b42c10ad8b726e2cdf3fe",
+"file": "RCADS-25-CG-HU_ac5d330d4dee.npy"
+},
+{
+"hash": "be268607cc0f6f5f24b6e55dd9824aeffabcaccf91912ac0f9450364cb6bfbf0",
+"file": "RCADS-25-CG-IS_be268607cc0f.npy"
+},
+{
+"hash": "18504834aefa49cb8717ba223f011bd3db33347a9dd5d0694314ff65f716eb7c",
+"file": "RCADS-25-CG-IT_18504834aefa.npy"
+},
+{
+"hash": "7ad47a366399d6f1d87646a5d9982e5154c907ce8e16f0614cd6ce6077be40d7",
+"file": "RCADS-25-CG-JA_7ad47a366399.npy"
+},
+{
+"hash": "10d8adc2fe4add4a3f90b7b88ff3a9e3d05735c9387b5098de913b392b8c8423",
+"file": "RCADS-25-CG-KO_10d8adc2fe4a.npy"
+},
+{
+"hash": "663e5c88560fde7eb4f4f0d3a79a1e4dec10c02f09442ac7f958e67c26d2e8f7",
+"file": "RCADS-25-CG-LT_663e5c88560f.npy"
+},
+{
+"hash": "99f8a78043f696ade5f1adc7123ad954c1f67ba455dac4dbf77831f417080d8a",
+"file": "RCADS-25-CG-MN_99f8a78043f6.npy"
+},
+{
+"hash": "d0c7cf3b854ecce72e2c9afd1ce2c1baa000a341c087701139e67eb4a772c620",
+"file": "RCADS-25-CG-MR_d0c7cf3b854e.npy"
+},
+{
+"hash": "aaa0241ecf57abb1d5847304d67fd2f3f309b9139624b1d3524be58424e60e04",
+"file": "RCADS-25-CG-MS_aaa0241ecf57.npy"
+},
+{
+"hash": "f9737ae7926e188a63efe087d8ffe95777fd729343f3836d067281c9ff5dc2d8",
+"file": "RCADS-25-CG-NL_f9737ae7926e.npy"
+},
+{
+"hash": "ac3dc3776efc341aaf73652e2b1c908d628cbc4e4db6091368be9deeb9d69489",
+"file": "RCADS-25-CG-NO_ac3dc3776efc.npy"
+},
+{
+"hash": "9494a6f2a4757cf0ab63cde0415b319f61709d1609c9c9fc60d23516baea39df",
+"file": "RCADS-25-CG-NY_9494a6f2a475.npy"
+},
+{
+"hash": "afcd67540a475fce6c531c437d762deecc98e95d2c76f879a301695eff2a4d70",
+"file": "RCADS-25-CG-PA_afcd67540a47.npy"
+},
+{
+"hash": "066c930676b9d34b537750105d2b14a69ecb6de8a69b9f110eab3a4c0ed71bbc",
+"file": "RCADS-25-CG-PL_066c930676b9.npy"
+},
+{
+"hash": "afd02f61e26e5f50ecf7322985ec4d8dc1772cfc38bf1ab7e878ab71df1de328",
+"file": "RCADS-25-CG-PT_afd02f61e26e.npy"
+},
+{
+"hash": "cbaf026011137fc3a28927855835fe924b561274806eb334e6ae999f75f851a0",
+"file": "RCADS-25-CG-SL_cbaf02601113.npy"
+},
+{
+"hash": "5df96c72be6f1ff39ba0c9ea60a1fae96176d3db3ec5272440148e1cc102516a",
+"file": "RCADS-25-CG-SR_5df96c72be6f.npy"
+},
+{
+"hash": "64e998fc6358b8c76659e43ffb786baa0b58f7cdb4ee32133104b5cac5b47a8f",
+"file": "RCADS-25-CG-SV_64e998fc6358.npy"
+},
+{
+"hash": "28271cb68c6abe8e4fc2c849f2e1e9532c846ab8ada1895e14fec8b1da3e770f",
+"file": "RCADS-25-CG-TR_28271cb68c6a.npy"
+},
+{
+"hash": "425a44af0d2d4427e7528cec439dfe7ea1ed2c6073bde70b2710d4e7887c3197",
+"file": "RCADS-25-CG-UR_425a44af0d2d.npy"
+},
+{
+"hash": "6ccec4d5d94f799498b735a8408d1414f679e7acc3c003237e0e9ed623506c67",
+"file": "RCADS-25-CG-VI_6ccec4d5d94f.npy"
+},
+{
+"hash": "991a730c0061a46df7a1ea18462fcdf488fd0fea52569d419eec02dab9010e83",
+"file": "RCADS-25-CG-ZH-HANS_991a730c0061.npy"
+},
+{
+"hash": "8c1ab2274d57ad9104664ee5bd1aab9660a226406235cb758940960f9f8f05fa",
+"file": "RCADS-25-CG-ZH-HANT_8c1ab2274d57.npy"
+},
+{
+"hash": "b3f3b5bcdd336f7720c1ec9d7514fb16539fb8f5c1061c7b3db2b5260cdd6268",
+"file": "RCADS-25-CG-ZU_b3f3b5bcdd33.npy"
+},
+{
+"hash": "0bebe08b85b5069d9b6a425c6ab5cd27d7ae8dfab851edc5fc34fc43799963c8",
+"file": "RCADS-25-Y-AR_0bebe08b85b5.npy"
+},
+{
+"hash": "14d1348d7409e038ffe7cfa86602786c93a56b8bfcf2bd9b591af8d664437076",
+"file": "RCADS-25-Y-BN_14d1348d7409.npy"
+},
+{
+"hash": "7b37bf4e781f796cef4a01e205b0f9e0302cdd545cdbaf4d689b068ebc8ab48b",
+"file": "RCADS-25-Y-CH-HANS_7b37bf4e781f.npy"
+},
+{
+"hash": "e7c8e277542fd459745cfa507ad00d698e2de3510898f0e640e6b6f315cb598b",
+"file": "RCADS-25-Y-DA_e7c8e277542f.npy"
+},
+{
+"hash": "9ed218916d5ba51177f981e5b76e1546d2a091bf67773e5dd197ff0edad07131",
+"file": "RCADS-25-Y-DE_9ed218916d5b.npy"
+},
+{
+"hash": "a66f80548b0a118d099d337bf45e064651e4bfed46e183dc3bc57d84a8ef9dc2",
+"file": "RCADS-25-Y-EL_a66f80548b0a.npy"
+},
+{
+"hash": "8610b49c710b7ff53b57f01d989d7b2f179a312ed63c9823b6ccc86853796184",
+"file": "RCADS-25-Y-EN_8610b49c710b.npy"
+},
+{
+"hash": "44547512a7df80b50ad002530baea83f5874e0a101b0f11826bba9a7891c5b96",
+"file": "RCADS-25-Y-EN_44547512a7df.npy"
+},
+{
+"hash": "71bc9cb7054fffad47b93e55f582e6f92d60b36f5477a6508fff5c5559bf6b54",
+"file": "RCADS-25-Y-EN_71bc9cb7054f.npy"
+},
+{
+"hash": "8745c58e2f21df4ffe1b9894a58f32554e52010324d274926474c12535ff818a",
+"file": "RCADS-25-Y-EN_8745c58e2f21.npy"
+},
+{
+"hash": "1fe26ff07e2fca93f0506a5211dc225e2659124520f37848c80af0ae4a1dec84",
+"file": "RCADS-25-Y-EN_1fe26ff07e2f.npy"
+},
+{
+"hash": "877f9a81b4865c8ac8c93ebb06fc57a208eb9c187ea792132e3a745bd83d25bb",
+"file": "RCADS-25-Y-EN_877f9a81b486.npy"
+},
+{
+"hash": "d5844ed769874141f3c3b4abddf8bcd7f778bf279f6b4916d071ba2099ab6cf2",
+"file": "RCADS-25-Y-EN_d5844ed76987.npy"
+},
+{
+"hash": "f3a4dd5c9acb12b66095a64c61d5e03210e7ae7b645165dfd94fa30c6d44008a",
+"file": "RCADS-25-Y-EN_f3a4dd5c9acb.npy"
+},
+{
+"hash": "af36924e25cdbecd010c708e6def58f3c7e0995033220f191766bacad71e0a6c",
+"file": "RCADS-25-Y-EN_af36924e25cd.npy"
+},
+{
+"hash": "70ca50778ab6977f118ed300d8d57a8bd4e6b78320edfa703d1ea42e3b13944c",
+"file": "RCADS-25-Y-EN_70ca50778ab6.npy"
+},
+{
+"hash": "ad3f05970d418b779ac13b63f7fa16cba7b2a5a051a31ed8a2e1e64228d495e3",
+"file": "RCADS-25-Y-EN_ad3f05970d41.npy"
+},
+{
+"hash": "84520f419004ad7060adcfb105f6fdc9787b728a6160fd7b7668458a922ce2f4",
+"file": "RCADS-25-Y-EN_84520f419004.npy"
+},
+{
+"hash": "763f982392a00e21949c6dd667d491550e12e565392ec9afbb5e0ec9923c7dbc",
+"file": "RCADS-25-Y-EN_763f982392a0.npy"
+},
+{
+"hash": "f7b9ce920a840bbd34f09bac97d9e7aeb4348641b1f1f08feca3fd44aab001a8",
+"file": "RCADS-25-Y-EN_f7b9ce920a84.npy"
+},
+{
+"hash": "9c17e3ba6f6b230a4dfb1f63f2ddaef167e721730bfed927f4e294d6f02303c2",
+"file": "RCADS-25-Y-EN_9c17e3ba6f6b.npy"
+},
+{
+"hash": "00d23abbabd906cc3c0b602847658ff9e7068fb9c4c5d40b6183789b8fdbcfb3",
+"file": "RCADS-25-Y-EN_00d23abbabd9.npy"
+},
+{
+"hash": "108b1e17d1a53f980f7ebbfa032a26019c27ea1658793d20b1468f0c7c3a1ae7",
+"file": "RCADS-25-Y-EN_108b1e17d1a5.npy"
+},
+{
+"hash": "55d5d9a04337c2168aa00aa67a18918f7b48f247aad57e8249ba129ac190391d",
+"file": "RCADS-25-Y-EN_55d5d9a04337.npy"
+},
+{
+"hash": "fb8e20f5ad723ccc1bbe47461a8e11747840eb0079c298d2a6d747f801d90184",
+"file": "RCADS-25-Y-EN_fb8e20f5ad72.npy"
+},
+{
+"hash": "6f4b7d6313ef4ae3d81f13996ca329da360dc150c27a463f029e0d7866ba9e0d",
+"file": "RCADS-25-Y-EN_6f4b7d6313ef.npy"
+},
+{
+"hash": "37893fdb3e128db2a337d1cbabf57fc98785112d8c4bf057cbbc6b0851c24836",
+"file": "RCADS-25-Y-EN_37893fdb3e12.npy"
+},
+{
+"hash": "806f29801e55b9b400c56ef180a2e51843ab0e7b8f7ecc792b0672f91cff0d12",
+"file": "RCADS-25-Y-EN_806f29801e55.npy"
+},
+{
+"hash": "8e750e4a8d2edf2c07baccea0a5c9cb695a0744c92596975b3517c62402c2f75",
+"file": "RCADS-25-Y-EN_8e750e4a8d2e.npy"
+},
+{
+"hash": "25b60b5da019dde2e6c0beb9e35cac55dda945216702b4b78add18693c319786",
+"file": "RCADS-25-Y-EN_25b60b5da019.npy"
+},
+{
+"hash": "2b25a308b639afdad6efdcf25aa8695a67b588c5c1d2c7866b0d1bba2bc09fde",
+"file": "RCADS-25-Y-EN_2b25a308b639.npy"
+},
+{
+"hash": "7205f1fd9df000fa0eba09129381326b51eec269a79aff0611335762dc362aa6",
+"file": "RCADS-25-Y-ES_7205f1fd9df0.npy"
+},
+{
+"hash": "6b34e9e4b8bf44e6b306310a7526569fe52e18cc7d51d890d85e17adb339356d",
+"file": "RCADS-25-Y-ET_6b34e9e4b8bf.npy"
+},
+{
+"hash": "79383ca24a9f7d1f11f0bf8ff9122c7f5cbd5ec5e83302f0f63b6651898d6d06",
+"file": "RCADS-25-Y-FA_79383ca24a9f.npy"
+},
+{
+"hash": "ae59b45567d6ffeabca3378893a7132ba6db929fdcf1da60bb91c19589739a77",
+"file": "RCADS-25-Y-FI_ae59b45567d6.npy"
+},
+{
+"hash": "a3712e0fd310e5ac7c83d28e910ba26b396064f20be2b8dedbc9db2086ba5e32",
+"file": "RCADS-25-Y-FR_a3712e0fd310.npy"
+},
+{
+"hash": "1d9676b39dc3079c050497011c1f69281001b3cec14af82e45cd515c334472a7",
+"file": "RCADS-25-Y-FR-CA-1_1d9676b39dc3.npy"
+},
+{
+"hash": "b463a586d896aabff12bceab7ad54e40ff379aa4e0432719c3109b3821acca2a",
+"file": "RCADS-25-Y-FR-CA-2_b463a586d896.npy"
+},
+{
+"hash": "efc6703187009d932f4ca8e560c96c42174fd7d91cc45ebff98031aba8b0a09b",
+"file": "RCADS-25-Y-FR-FR-1_efc670318700.npy"
+},
+{
+"hash": "72782fe8e66f569945cef5557e80d71b58715c619b37e7787cbfc01e961c8c8c",
+"file": "RCADS-25-Y-FR-FR-2_72782fe8e66f.npy"
+},
+{
+"hash": "b62f945c6be60cdd15cfd39a38949ec4511a11aecba2b0ba71311d08f79b41c0",
+"file": "RCADS-25-Y-HI-1_b62f945c6be6.npy"
+},
+{
+"hash": "a0a69dade72fe3869884c15128300e3873ca814a2ed8db57da7ea37d9cfe329c",
+"file": "RCADS-25-Y-HI-2_a0a69dade72f.npy"
+},
+{
+"hash": "3825710c77b586c5b6c91d32f78dd3a26a46ecc36d37ca8a8537208da649e69b",
+"file": "RCADS-25-Y-HU_3825710c77b5.npy"
+},
+{
+"hash": "a50d8a55a167f075068c401f6572df274837a21046f695c05ba7380b11918adb",
+"file": "RCADS-25-Y-IS_a50d8a55a167.npy"
+},
+{
+"hash": "0ece51d815147ad97e3759c4043b9751e416165dc114ae2109c3beee8ca6ce3e",
+"file": "RCADS-25-Y-IT_0ece51d81514.npy"
+},
+{
+"hash": "24a46c0db82e054c6db76d5c4a9f5f8838a9685e2b6355f2e943b9e7f1b78ee4",
+"file": "RCADS-25-Y-JA_24a46c0db82e.npy"
+},
+{
+"hash": "452a3ac87f5d1ed8edb3ba32f00444f859da154704f9553e91c7edb9df9d6ec0",
+"file": "RCADS-25-Y-KO_452a3ac87f5d.npy"
+},
+{
+"hash": "03e82eddff749f22294e5d242e91c2d2fe4bfd37195e92cc879155f6e8c7aad5",
+"file": "RCADS-25-Y-LT_03e82eddff74.npy"
+},
+{
+"hash": "c907f1f6bef56a77b9b4d9ad6d52d02ad8b08c9e45738090d560d16dd1fd8f51",
+"file": "RCADS-25-Y-MN_c907f1f6bef5.npy"
+},
+{
+"hash": "abaedaa650efd1d2aae474036619a164b6cdc4e767d4bfebaecfb3cfc4000716",
+"file": "RCADS-25-Y-MR_abaedaa650ef.npy"
+},
+{
+"hash": "bcfd0164b7779e7b12299c926349507ea5dac84c53814201d70c31b14b2486c9",
+"file": "RCADS-25-Y-MS_bcfd0164b777.npy"
+},
+{
+"hash": "ca55aa58f44814f6e33ba196ff18f17e269007c2cb00c449d74ea5b4a4020744",
+"file": "RCADS-25-Y-NL_ca55aa58f448.npy"
+},
+{
+"hash": "563b86301e558b623fdc6ce746c0edfe9aa4a15d9419923b67ce53ce3c0355fc",
+"file": "RCADS-25-Y-NO_563b86301e55.npy"
+},
+{
+"hash": "f688640b7e28cf8bff1b0ad72acad89f5b1c4eb60a709f0c9946a4b57d075542",
+"file": "RCADS-25-Y-NY-1_f688640b7e28.npy"
+},
+{
+"hash": "b87bac621693cdafb2f1de286d6a1a8c850fe89955afa26dd8f3cfe916dfed2d",
+"file": "RCADS-25-Y-NY-2_b87bac621693.npy"
+},
+{
+"hash": "3c916e0b96f3b9b77b96b01f6d7c569d20b751acab3ec6a509f5c11c2892b9da",
+"file": "RCADS-25-Y-PA_3c916e0b96f3.npy"
+},
+{
+"hash": "660d9b2cfad4b0e8b9a567c8cfbb9ad5422cfb50fa4326a8333af626dbc1c737",
+"file": "RCADS-25-Y-PL_660d9b2cfad4.npy"
+},
+{
+"hash": "f36a0f4aca6ee4883fbbf850fa7bc910fb7e49bfd58d8f019686f84288540b4a",
+"file": "RCADS-25-Y-PT_f36a0f4aca6e.npy"
+},
+{
+"hash": "477bf02b9e609914781a462f6fafa1a090065853ebf7452b38785d94b034eebb",
+"file": "RCADS-25-Y-PT-BR_477bf02b9e60.npy"
+},
+{
+"hash": "e6f57bc8213a20c59ab0fdf61cbe65dc6fecbf17401cc7c99f0ef7ae23a3273d",
+"file": "RCADS-25-Y-SL_e6f57bc8213a.npy"
+},
+{
+"hash": "52a6ac572930d22b5c25c082fe4df0da4bf6c15f7db49956bda18280a48dcb68",
+"file": "RCADS-25-Y-SR_52a6ac572930.npy"
+},
+{
+"hash": "98f3dc282c06f6d21b85a48d13641fa79e50f367e5c59c1e1e668af7c0b1ae79",
+"file": "RCADS-25-Y-SV_98f3dc282c06.npy"
+},
+{
+"hash": "1910bc343a0ee546c9c7c10e5660a4fa2b0e742eff7c8120f29035c718756f0e",
+"file": "RCADS-25-Y-TR_1910bc343a0e.npy"
+},
+{
+"hash": "d4f17702c148e43c252daafd13f40d90572fa8027e3cfa02ebfe080570abf9e7",
+"file": "RCADS-25-Y-UR_d4f17702c148.npy"
+},
+{
+"hash": "c7c2de002a603e26bc1bf39006b99ba38ee3dfa20b7f258c45e123aac882c5e6",
+"file": "RCADS-25-Y-VI_c7c2de002a60.npy"
+},
+{
+"hash": "0ce25f8107459b4faf8244a968a71374d5cc0a3faad7cde6361e9af10e6f0f73",
+"file": "RCADS-25-Y-ZH-HANS_0ce25f810745.npy"
+},
+{
+"hash": "6f967b92a9c4278ea4ff59d5821945a582fbf5f6f28411500fdfa4aa7f1e8d5a",
+"file": "RCADS-25-Y-ZH-HANT_6f967b92a9c4.npy"
+},
+{
+"hash": "fd40bd9dc0a47e9e821366a761155b16da50d991dae2dc85d100354ad407ee68",
+"file": "RCADS-25-Y-ZU_fd40bd9dc0a4.npy"
+},
+{
+"hash": "f9ec5f0155685013f1b74e8d864b97d196eaebf0363198c1feadd9de4fddefa8",
+"file": "RCADS-35-Y-EN_f9ec5f015568.npy"
+},
+{
+"hash": "3793972b4d058611390db89a5241c1cd41303b7b43df5ac07de37b776495fb3b",
+"file": "RCADS-35-Y-SW_3793972b4d05.npy"
+},
+{
+"hash": "fe928b8357a417013e4b7d31205a697872af02d817ebf8e5a66aa39ab227e861",
+"file": "RCADS-47-CG-AR_fe928b8357a4.npy"
+},
+{
+"hash": "ae0def83f058dddeea3a34f8c2246266e5324f8b4a5bb50ef15e1eeead5ab47e",
+"file": "RCADS-47-CG-BN_ae0def83f058.npy"
+},
+{
+"hash": "6a519e20304f8a17c97e10357e2281d17c7c6c1e3448fe7774b43105fa419ca7",
+"file": "RCADS-47-CG-CH-HANS_6a519e20304f.npy"
+},
+{
+"hash": "3c8d78d3318448bd33f76729f630744ec1cba246714fce4ea14d118f76b67298",
+"file": "RCADS-47-CG-DA_3c8d78d33184.npy"
+},
+{
+"hash": "e69d394aaf570e3401fedfc746faa186f5828a1116b7501494f7b4fdb9fb14e9",
+"file": "RCADS-47-CG-DE_e69d394aaf57.npy"
+},
+{
+"hash": "c73cf5a567507c78ae8632338deacbf6cd2ce75fce7c6429aaa8a8d6fac7930e",
+"file": "RCADS-47-CG-EL_c73cf5a56750.npy"
+},
+{
+"hash": "dc7198166d36df3af0d32bc30d20d498ea08989efb12273b958c4f438facf667",
+"file": "RCADS-47-CG-EN_dc7198166d36.npy"
+},
+{
+"hash": "93887792dc2f53c4e2c8e4d1160c9db4e118ad3464de6c8c5fff6a991eb0efbf",
+"file": "RCADS-47-CG-EN_93887792dc2f.npy"
+},
+{
+"hash": "64c2c4157e583f4f203af4f28ed822e4e9df7b01a5a5a4d7f992bbbead79e1a3",
+"file": "RCADS-47-CG-EN_64c2c4157e58.npy"
+},
+{
+"hash": "c640dd166e190efb70fcf85c123d95913401bb54b886dc1874a64c60d09142c9",
+"file": "RCADS-47-CG-EN_c640dd166e19.npy"
+},
+{
+"hash": "a0c4df13717e2f8ced418e7b9d0e2abcddb74c1b9c71561b36df44fff952129a",
+"file": "RCADS-47-CG-EN_a0c4df13717e.npy"
+},
+{
+"hash": "55a5d8b9cd062384ffd38d0fe4244af1ac1272c0a7c95e0750d71ebe1854ab7a",
+"file": "RCADS-47-CG-EN_55a5d8b9cd06.npy"
+},
+{
+"hash": "5245bdcc77c81bee434469e44b1246b3937d6ac62e102886ed73d6bf57766e5c",
+"file": "RCADS-47-CG-EN_5245bdcc77c8.npy"
+},
+{
+"hash": "014aff1bc542da49f61aabeafbaf59a883ac0b1bc84b85cfd6d0469dc085cb58",
+"file": "RCADS-47-CG-EN_014aff1bc542.npy"
+},
+{
+"hash": "aaf37f93782b7adb13ed3117517a371a41a6ad44cd97283dab712b00b39d76e9",
+"file": "RCADS-47-CG-EN_aaf37f93782b.npy"
+},
+{
+"hash": "d4949e37ba9d12aee0bfeea9cef498767cf07598498251f113dd9806074d6544",
+"file": "RCADS-47-CG-EN_d4949e37ba9d.npy"
+},
+{
+"hash": "36fac89ec7063eea99ccc4ee85340c7203cc004f7b56924ea308d330315ff5c2",
+"file": "RCADS-47-CG-EN_36fac89ec706.npy"
+},
+{
+"hash": "211677429d10e4fa73debfdcb3ec4d9fa1409db49172b526204b6f3a00d896a3",
+"file": "RCADS-47-CG-EN_211677429d10.npy"
+},
+{
+"hash": "24f2f0d99fa63e19f1d117db69093eeffdda057bd651c831f281057d2091b410",
+"file": "RCADS-47-CG-EN_24f2f0d99fa6.npy"
+},
+{
+"hash": "6f8af4cd1bc5d6b1e2a3949edd6cb7a5ebbf03b2dd9c518670327ff5c09e1ec4",
+"file": "RCADS-47-CG-EN_6f8af4cd1bc5.npy"
+},
+{
+"hash": "e5fc5c1e5c86098c1d4e57e56b14157fc5b47ace302c0ed69bc03246abfac27f",
+"file": "RCADS-47-CG-EN_e5fc5c1e5c86.npy"
+},
+{
+"hash": "fa57a1d6e6dae04630e53673e273a9a747b10e56b829283383864db9bfd8c2df",
+"file": "RCADS-47-CG-EN_fa57a1d6e6da.npy"
+},
+{
+"hash": "07166098174e59ad6acde50b28e797ecc15071f17ba997c8d7298f5c42c5df2f",
+"file": "RCADS-47-CG-EN_07166098174e.npy"
+},
+{
+"hash": "dcde8a8a3bd52e7f1082a781af67fc935aaf6e7ade6cab6be657893f4f986ec1",
+"file": "RCADS-47-CG-EN_dcde8a8a3bd5.npy"
+},
+{
+"hash": "9f3ed1316b80b528a16c68e7726fc3207231e31c1ec9a9eb0353585030772700",
+"file": "RCADS-47-CG-EN_9f3ed1316b80.npy"
+},
+{
+"hash": "51daed7526ce1136e3b79cfe2a06876c245dd26bfb23a3117f39b347ff8a60cc",
+"file": "RCADS-47-CG-EN_51daed7526ce.npy"
+},
+{
+"hash": "0d934455afc8b6f99b67090dc855d78e5e30ce51b913810c0d48718c4d9616cf",
+"file": "RCADS-47-CG-EN_0d934455afc8.npy"
+},
+{
+"hash": "cf25f04e849af199bdf460f7949c82de865f28dd2b03c383af5e8f68edc1f21a",
+"file": "RCADS-47-CG-EN_cf25f04e849a.npy"
+},
+{
+"hash": "b66ac7337d817d4527f28ee2d1a7f67a3c8c44ee963e58a41c700ae98c1a5e13",
+"file": "RCADS-47-CG-EN_b66ac7337d81.npy"
+},
+{
+"hash": "9016fe818ab81adb0b48afc522cbfda8f6dabde1f58515bf8d990902b209c53a",
+"file": "RCADS-47-CG-EN_9016fe818ab8.npy"
+},
+{
+"hash": "1793778bebcabd7361a3b22832ddb5a0b6bf40193bc2b4e9466d55e56a0bc7b4",
+"file": "RCADS-47-CG-EN_1793778bebca.npy"
+},
+{
+"hash": "002ee603a1c1c655386e314cfd4d1c4ce12ddef25e196f89ef7db0776238d14f",
+"file": "RCADS-47-CG-EN_002ee603a1c1.npy"
+},
+{
+"hash": "1b6b23cc0b0e45960955afef0e23efefc0c698f35ba0c33d9233cd2f585c2c63",
+"file": "RCADS-47-CG-EN_1b6b23cc0b0e.npy"
+},
+{
+"hash": "67d93c8ca286c03e2d6975951da9fac5dccb048a2cc2ce893ab7b346009e5762",
+"file": "RCADS-47-CG-EN_67d93c8ca286.npy"
+},
+{
+"hash": "ba6e664ca37adbfcdff6f0d84579e6ef0652c91c3bb3dceb0ea5799d9ec96a56",
+"file": "RCADS-47-CG-EN_ba6e664ca37a.npy"
+},
+{
+"hash": "9a7b01528206610001a2d81d0ba75599884d1d90a6cf685ae128d626e46d802f",
+"file": "RCADS-47-CG-EN_9a7b01528206.npy"
+},
+{
+"hash": "a092053b7ce6e971878287c61b9c0d9b475857cf424fb2b591a102bb3a8f33d3",
+"file": "RCADS-47-CG-EN_a092053b7ce6.npy"
+},
+{
+"hash": "883c2e2f57a03767091c9f847485d96304ee8358264390d372df69765704ab22",
+"file": "RCADS-47-CG-EN_883c2e2f57a0.npy"
+},
+{
+"hash": "9b5f2944f843fa023e5fc975226f991a5965c3b85c6bd3e1967e4ee4977e02f2",
+"file": "RCADS-47-CG-EN_9b5f2944f843.npy"
+},
+{
+"hash": "525847611836cbd6af998b10326fc0c35f77bda61d81d0ab97eefadd3cf8dd60",
+"file": "RCADS-47-CG-EN_525847611836.npy"
+},
+{
+"hash": "086129302cfee69dd3a81c8fbfbdb322bf34cdd63bdaf5b8c58c0565aebbedd4",
+"file": "RCADS-47-CG-EN_086129302cfe.npy"
+},
+{
+"hash": "98e5452d45ee79ccc49c59680c7e7592f9324be60f5d6ba70465777000468854",
+"file": "RCADS-47-CG-EN_98e5452d45ee.npy"
+},
+{
+"hash": "02ccf90e6161221e7d24869ca982eb517b48702c7302f649bc0381389e075de9",
+"file": "RCADS-47-CG-EN_02ccf90e6161.npy"
+},
+{
+"hash": "618c767bb2c692ba93ee90fd03d0f2515c9348225b964f933236ddef40fa61eb",
+"file": "RCADS-47-CG-EN_618c767bb2c6.npy"
+},
+{
+"hash": "789cf4dc71dc5bf66182eb2e1a495d5538cc8ac27b614793f6c83adcb7bdb01b",
+"file": "RCADS-47-CG-EN_789cf4dc71dc.npy"
+},
+{
+"hash": "44967853e3ad22fac8d18a4ab4870a9f8243fed4cf958091e00c924ef592be5a",
+"file": "RCADS-47-CG-EN_44967853e3ad.npy"
+},
+{
+"hash": "eb95aba4cdd55b992f669899035eb74bc166e201adc115aa75253ed665b70eff",
+"file": "RCADS-47-CG-EN_eb95aba4cdd5.npy"
+},
+{
+"hash": "31962b68887ad6e55abfda4f2d4ff8d7fd0553c462a3752265fdf850ac6342c2",
+"file": "RCADS-47-CG-EN_31962b68887a.npy"
+},
+{
+"hash": "78cf1a566aae8b5ee523d538e298401e8daee2bde6877aa5e902c9091437f93a",
+"file": "RCADS-47-CG-EN_78cf1a566aae.npy"
+},
+{
+"hash": "54cce870e32238a261b30989c1b458c0f8f23519662123d6cd735dbdde73e8f7",
+"file": "RCADS-47-CG-EN_54cce870e322.npy"
+},
+{
+"hash": "dafe86669f1c92a4a4575bc41ab85ec6f3a3ef77bba513ea4cad2013b073ab2e",
+"file": "RCADS-47-CG-EN_dafe86669f1c.npy"
+},
+{
+"hash": "946c9a793f54694fbe4d3b2132f9c974ecde80cd70c86d1b72344bebf5ac42f2",
+"file": "RCADS-47-CG-EN_946c9a793f54.npy"
+},
+{
+"hash": "0d3208fdb2ded263b4ff2e9a432181a4d9bb5a3a8908b5549d928453ce17baee",
+"file": "RCADS-47-CG-EN_0d3208fdb2de.npy"
+},
+{
+"hash": "3adc16911ee7989a48cdfa7b9d27f6ef2ae7b7db67f23a29a0a2093efe7b3fc2",
+"file": "RCADS-47-CG-EN-2_3adc16911ee7.npy"
+},
+{
+"hash": "cdebd3e8c571f35cd17366aecdfc54bca1347f6768caa47c4fb1a75f9c01ec44",
+"file": "RCADS-47-CG-EN-2_cdebd3e8c571.npy"
+},
+{
+"hash": "a1d7b8774f93610b42aaa932e768e8fb5c3bfcb26d5d40aef740844ada9814b7",
+"file": "RCADS-47-CG-EN-2_a1d7b8774f93.npy"
+},
+{
+"hash": "acb95df924488bb48be87468ba069b5005ef03d50f3510450c0fdfb34b6b8839",
+"file": "RCADS-47-CG-EN-2_acb95df92448.npy"
+},
+{
+"hash": "32128b2a990276cafbf3ac181177403dfbabe76e2f3a85d20cbf55b57e406206",
+"file": "RCADS-47-CG-EN-2_32128b2a9902.npy"
+},
+{
+"hash": "1a07a8d1ff7d47ae3155c22bfe6dd15724203c00a7d48d271b2249862f24ee58",
+"file": "RCADS-47-CG-EN-2_1a07a8d1ff7d.npy"
+},
+{
+"hash": "20668e676458fc5e725792893e38a365f8754a05add1ac16f10ff97cafa82071",
+"file": "RCADS-47-CG-EN-2_20668e676458.npy"
+},
+{
+"hash": "75d4456e6e7452bc830f4d8e7445406645ec436c5f862cc5cf2cb3b72b4d2946",
+"file": "RCADS-47-CG-EN-2_75d4456e6e74.npy"
+},
+{
+"hash": "68a64b3862f2e421efca669123da45e42dbea143f41945270d1dfb34e45f1dca",
+"file": "RCADS-47-CG-EN-2_68a64b3862f2.npy"
+},
+{
+"hash": "ca5db62eda3065fd0ee0b65a4300eaf4e216c91dc8eeb517d8c43e7029e4f398",
+"file": "RCADS-47-CG-EN-2_ca5db62eda30.npy"
+},
+{
+"hash": "6fe6d91163d875bd0c0474af041041e26dac584fb8bf4ba84f466513a060f0e5",
+"file": "RCADS-47-CG-EN-2_6fe6d91163d8.npy"
+},
+{
+"hash": "a5a328ab10c15b745115754ae49d95d401176f8b2b93a2c7e428b5694b933e49",
+"file": "RCADS-47-CG-EN-2_a5a328ab10c1.npy"
+},
+{
+"hash": "48af2e111c149f2ee6766359a7e15fe19798a97775118e7c13c6059833b0da19",
+"file": "RCADS-47-CG-EN-2_48af2e111c14.npy"
+},
+{
+"hash": "4bdf8d517a43242d89816cef9c16071d1fcd5c859faa5d30e2b131946858e637",
+"file": "RCADS-47-CG-EN-2_4bdf8d517a43.npy"
+},
+{
+"hash": "b2c9879d2feb84e512fa8a463b5233a82364a4ebdc538b8fcbeb671a2c488210",
+"file": "RCADS-47-CG-EN-2_b2c9879d2feb.npy"
+},
+{
+"hash": "0447162b7508364b1f39b3950105586020373e414f0d13c661bad6ef7835ff35",
+"file": "RCADS-47-CG-EN-2_0447162b7508.npy"
+},
+{
+"hash": "26236374492d907a9a96e9908cfe8ae197e7875f2f43a5293b46bc64d4181c4e",
+"file": "RCADS-47-CG-EN-2_26236374492d.npy"
+},
+{
+"hash": "990e02a3b4d47f690e286049277519e30d426b68bf8aafebd3b2653f8024cd39",
+"file": "RCADS-47-CG-EN-2_990e02a3b4d4.npy"
+},
+{
+"hash": "92c56307a1966518cfbb3ebde49f06559718e7db01e866c40f68a513b73866a7",
+"file": "RCADS-47-CG-EN-2_92c56307a196.npy"
+},
+{
+"hash": "11502d8b34d29f4b83608c3731b339d41c5dc60065b4c558ed5551a6e3bce8e4",
+"file": "RCADS-47-CG-EN-2_11502d8b34d2.npy"
+},
+{
+"hash": "defb4ec11061e7f87fdcb089ea85e56f783b7b4235b94ce1a1546230d714bc0a",
+"file": "RCADS-47-CG-EN-2_defb4ec11061.npy"
+},
+{
+"hash": "a9de6ce9ff3b681171a409bc91e4e0a702a2abef22024b9b053c7dbc9e7743d5",
+"file": "RCADS-47-CG-EN-2_a9de6ce9ff3b.npy"
+},
+{
+"hash": "ba47ca65366980768e8fb89dbb16a5063e941d782afe5701e0bf2f12306e9a27",
+"file": "RCADS-47-CG-EN-2_ba47ca653669.npy"
+},
+{
+"hash": "1bbbd34aba5f96c69031449547dbde6eb302b61e710b9f40223816a30fccb908",
+"file": "RCADS-47-CG-EN-2_1bbbd34aba5f.npy"
+},
+{
+"hash": "29f7a3ca5404879ec578902cef513767c045b38fb38daff9bd22dc803c8c13fa",
+"file": "RCADS-47-CG-EN-2_29f7a3ca5404.npy"
+},
+{
+"hash": "07e43dd18a65ec9645bebcdd6eacd54cb2c5ecd3dd1dfc85a4b8f82f8455b1b1",
+"file": "RCADS-47-CG-EN-2_07e43dd18a65.npy"
+},
+{
+"hash": "a306531836ebf5075fe06435e9d415578859a6414e65159f5c93ca02cb39930d",
+"file": "RCADS-47-CG-EN-2_a306531836eb.npy"
+},
+{
+"hash": "a255819a13e0d5912c6deb19f1fef29146a21bf1f474e6dea0bf3cfe6221c3fe",
+"file": "RCADS-47-CG-EN-2_a255819a13e0.npy"
+},
+{
+"hash": "64c4f8da11ebd2bc6d84accaebd21db2f8d9519b31aee81c9ca9ac27b320a0f9",
+"file": "RCADS-47-CG-ES_64c4f8da11eb.npy"
+},
+{
+"hash": "8cd28864352eef69d8c3fc01c2ad3e869169e74ac215140a65fce58bdd32a764",
+"file": "RCADS-47-CG-ET_8cd28864352e.npy"
+},
+{
+"hash": "af16b6372508cf24cc8b7d635ec76244f08848c810a80f36222d0306463928ae",
+"file": "RCADS-47-CG-FA_af16b6372508.npy"
+},
+{
+"hash": "228628cd86b01dab4f8ca10c4578380e490db5f3105a05e87ec1228162ad69b9",
+"file": "RCADS-47-CG-FI_228628cd86b0.npy"
+},
+{
+"hash": "36473366d1f20520a7e302cfe3db2d14865e4709f51ec9c61518b28aae7791f0",
+"file": "RCADS-47-CG-FR_36473366d1f2.npy"
+},
+{
+"hash": "edca367514f547c8c0faa924dcf8000092aa6a853a8c0cebbddcae3b0d143081",
+"file": "RCADS-47-CG-FR-1_edca367514f5.npy"
+},
+{
+"hash": "25986763c6c5115424d93f2372b543f894f07ed6ff3d3b01489415f829b4a1c3",
+"file": "RCADS-47-CG-FR-2_25986763c6c5.npy"
+},
+{
+"hash": "c818c3e7773ef3f7d2d0e8d6f044e0df8ae026dfc1a652180315469fdd2a6abc",
+"file": "RCADS-47-CG-FR-3_c818c3e7773e.npy"
+},
+{
+"hash": "7513d6a15ffa4a19e46c23c8ce8d72d945b265ec9a5d78be277dc092f0c5c019",
+"file": "RCADS-47-CG-FR-CA-1_7513d6a15ffa.npy"
+},
+{
+"hash": "4d4918859721f9b6187e8e7ea4c38edadce49c206e02c6c2fd395f13b727e58b",
+"file": "RCADS-47-CG-HI_4d4918859721.npy"
+},
+{
+"hash": "e47079fd462ea28000fa57de9e0307f3816c0bb75190c4fdce5935d7a38a13e4",
+"file": "RCADS-47-CG-HU_e47079fd462e.npy"
+},
+{
+"hash": "924bf23b60b9e570409c238a4843e6198049edde8158a6090564f4c1931dc1b1",
+"file": "RCADS-47-CG-IS_924bf23b60b9.npy"
+},
+{
+"hash": "c850ee1c8d8e98d6ce8d1b3b14b9f08e158a4d2f65c19a3ded7123c286b0ea84",
+"file": "RCADS-47-CG-IT_c850ee1c8d8e.npy"
+},
+{
+"hash": "71787c6ac0960e99c8456312b9faaea738b58cca35946b9dd12cfd2f309bbdfd",
+"file": "RCADS-47-CG-JA_71787c6ac096.npy"
+},
+{
+"hash": "fdc199cba538fa394fdb0970dfa870ff693796b6af8e3397b263ba4e2c006642",
+"file": "RCADS-47-CG-JA-1_fdc199cba538.npy"
+},
+{
+"hash": "8a5b5e2d3888fb999421b111c90f1fb7a1f02ab9f9a70fb881e646014b7880c0",
+"file": "RCADS-47-CG-JA-2_8a5b5e2d3888.npy"
+},
+{
+"hash": "16397ee15a85271d7f1c8fe451f583d65fa4d75d8b1b5f64fcc0448a1d0ab160",
+"file": "RCADS-47-CG-KO_16397ee15a85.npy"
+},
+{
+"hash": "47fe085a84bddd15bef927a4f7c1452aa3da91e255f1af6f439ece6fa45258d3",
+"file": "RCADS-47-CG-LT_47fe085a84bd.npy"
+},
+{
+"hash": "b34c44f6ed86d0e850b5839942501bfbf084bfc447fcab8d2b28cf2e277ae110",
+"file": "RCADS-47-CG-MN_b34c44f6ed86.npy"
+},
+{
+"hash": "9cf1763cb9b9137f1f77b382f256da189ab19490272ee2131ab54dea5bd9e8bc",
+"file": "RCADS-47-CG-MR_9cf1763cb9b9.npy"
+},
+{
+"hash": "546049eea3d97b491f73c4cb4b4958f01d2678b67305f73351c429ebf138ae4b",
+"file": "RCADS-47-CG-MS_546049eea3d9.npy"
+},
+{
+"hash": "a8fd7f628a55504328103736ce507bb76d0fe889eeaf5eaa0b602d06bc46e603",
+"file": "RCADS-47-CG-NL_a8fd7f628a55.npy"
+},
+{
+"hash": "983e85ba5f58213a65dcbf1003815d2a4c817bdcfed2b754d3bdd3bc463774cb",
+"file": "RCADS-47-CG-NO_983e85ba5f58.npy"
+},
+{
+"hash": "d4373de666fe3c55a9774b58304db2b4cc1f7a827ae36106882c003023030e47",
+"file": "RCADS-47-CG-NO-1_d4373de666fe.npy"
+},
+{
+"hash": "bb5557bb72869830796849b4093411f4208dc99cd7d8c4fd5fc3fa37956ffa5c",
+"file": "RCADS-47-CG-NO-2_bb5557bb7286.npy"
+},
+{
+"hash": "ecc48513bd68698a4c803f4f839f20e9375b8581725174a7e5ab325d7d9ca6c4",
+"file": "RCADS-47-CG-NY_ecc48513bd68.npy"
+},
+{
+"hash": "78cb3b5385bf5c8d513d809d7db1866c709169ac4307a7cd0ab6fd233be25f66",
+"file": "RCADS-47-CG-PA_78cb3b5385bf.npy"
+},
+{
+"hash": "361728236027f3f8700c1ce14eaa618fc5d922b5ce58f2800774e9465df43240",
+"file": "RCADS-47-CG-PL_361728236027.npy"
+},
+{
+"hash": "6ec6ad1bc7087a6700126ed4962ab8baebd18a78b6ed867a8033ed32ba96c402",
+"file": "RCADS-47-CG-PT_6ec6ad1bc708.npy"
+},
+{
+"hash": "302f48f76c9c80a5307a4edb8c05ca78aeb22502f0cc429bf8e2a3b38bdbf6a1",
+"file": "RCADS-47-CG-SL_302f48f76c9c.npy"
+},
+{
+"hash": "8251bac7c5937b5a01ce6cddb2fbb89ddb2b7555d2d12803eb731af457733996",
+"file": "RCADS-47-CG-SR_8251bac7c593.npy"
+},
+{
+"hash": "d2c70bbcbc4fd3717326dbe6239f232b85d3f80305afde199f61e205b5615155",
+"file": "RCADS-47-CG-SV_d2c70bbcbc4f.npy"
+},
+{
+"hash": "908c59f53cb9c1f817a56222abda0b4cb85d288c8e725405f9b32e2a740cab5a",
+"file": "RCADS-47-CG-SV-1_908c59f53cb9.npy"
+},
+{
+"hash": "fc5645f5ee1e9459b81d2fc612bf189e7a3373244adf1b6b5817ee8c6c74d399",
+"file": "RCADS-47-CG-SV-2_fc5645f5ee1e.npy"
+},
+{
+"hash": "66d04f7dbfa639f1cf0f3e668e9583c39996ea0cce383ef675ac23667f8b7d5e",
+"file": "RCADS-47-CG-TR_66d04f7dbfa6.npy"
+},
+{
+"hash": "4d134ee2eae227a0b33ae610950342e3f1d26eef71dd69dc6cd264762c0b8f9b",
+"file": "RCADS-47-CG-UR_4d134ee2eae2.npy"
+},
+{
+"hash": "03304defb14ec51ef9fde825765038ad4e87a4e8fa3118059f8b79c83855c75f",
+"file": "RCADS-47-CG-VI_03304defb14e.npy"
+},
+{
+"hash": "c266e02013e7f8bb066598028767ec1fc8269a815727bc7686625d05c9b80b42",
+"file": "RCADS-47-CG-ZH-HANS_c266e02013e7.npy"
+},
+{
+"hash": "323e45ac967d5b1b0c1ead436bc3e884c884bfa7d5569e70ee4fe00611cff528",
+"file": "RCADS-47-CG-ZH-HANT_323e45ac967d.npy"
+},
+{
+"hash": "bd886c7105a6ec511fe4d4d62023e87eb9ffe75cb433d40581a97a0ca4c380c6",
+"file": "RCADS-47-CG-ZU_bd886c7105a6.npy"
+},
+{
+"hash": "bb5c4bc1486c9cc1e87cf28cc56c1a68991833472035cc5d45e7efef67a17a56",
+"file": "RCADS-47-Y-AR_bb5c4bc1486c.npy"
+},
+{
+"hash": "c2c37eecb2f0fb20db3b14d2d7ae55a3c16ea82608638881c152c7e6010dead7",
+"file": "RCADS-47-Y-BN_c2c37eecb2f0.npy"
+},
+{
+"hash": "4069dec354e3db8ae14e2ebc6d6a5902f002bb9b2af83daef15086b994f5af4a",
+"file": "RCADS-47-Y-CH-HANS_4069dec354e3.npy"
+},
+{
+"hash": "89605a48f6b71260caf20e0d3dec11a3115c66a957145fbab49649423be19ff2",
+"file": "RCADS-47-Y-DA_89605a48f6b7.npy"
+},
+{
+"hash": "8fd828fafcddd7322af053883edc34736b3492dd73b8a5a0a77695b1be9cb6a0",
+"file": "RCADS-47-Y-DE_8fd828fafcdd.npy"
+},
+{
+"hash": "3c0a54d7b677e63294b9cf8bab41d519e98233b6e243e50493b1faa61dcda433",
+"file": "RCADS-47-Y-EL_3c0a54d7b677.npy"
+},
+{
+"hash": "731ba1a187e5483e152a4f8427f9e9cb42ee49ce35346d7f6ca47ce5c6811566",
+"file": "RCADS-47-Y-EN_731ba1a187e5.npy"
+},
+{
+"hash": "8df4817daa76b6ea5f5a9cf9c3ebe9555e13cfa100a61589d66ee39e1cbf6ce0",
+"file": "RCADS-47-Y-EN_8df4817daa76.npy"
+},
+{
+"hash": "d6d129229d3698bde19606868ae9d5eacff648e6ef2f441cc11aaab091aad413",
+"file": "RCADS-47-Y-EN_d6d129229d36.npy"
+},
+{
+"hash": "b302a80bf45a2e8074c13296476470a5c306d6e8998b3fd98362369cb6ace5e3",
+"file": "RCADS-47-Y-EN_b302a80bf45a.npy"
+},
+{
+"hash": "eeb0901b4d505b2d60d9a28743afdd121888adc8ec45f91705b6c1b88200c3e4",
+"file": "RCADS-47-Y-EN_eeb0901b4d50.npy"
+},
+{
+"hash": "f35e89e708ad43faff55d66bc4d28dfb3d62e06d3b1ebba17adc0d268b6a65ef",
+"file": "RCADS-47-Y-EN_f35e89e708ad.npy"
+},
+{
+"hash": "576d220e57717245e56b1f04e72cc3c8711e89c1b5547e378db80dfb9ce14710",
+"file": "RCADS-47-Y-EN_576d220e5771.npy"
+},
+{
+"hash": "1d40683604eb6e7189f11faafc37ecf39cbf9366a4b26279d659ef270eb9c0b2",
+"file": "RCADS-47-Y-EN_1d40683604eb.npy"
+},
+{
+"hash": "671d69699cd0e659d5fd7eb1077d66c1857a64e94e0c54e9be03dade76553052",
+"file": "RCADS-47-Y-EN_671d69699cd0.npy"
+},
+{
+"hash": "f12be44c6329b8154a2f83ec190d87890f6ad49245f0d27544044dca7437e862",
+"file": "RCADS-47-Y-EN_f12be44c6329.npy"
+},
+{
+"hash": "892f1bb8d502e8a7faa9513b9d2ccee189bafb5d3095c2448dd753257e4e5e0c",
+"file": "RCADS-47-Y-EN_892f1bb8d502.npy"
+},
+{
+"hash": "401c0c39e631d364c11d465a9899475da489716d139443c78d9173568bc7f8d2",
+"file": "RCADS-47-Y-EN_401c0c39e631.npy"
+},
+{
+"hash": "ac4841022ffa75d852ff68753e4f88cd45f863c757b790b66f5b42ac0ec28288",
+"file": "RCADS-47-Y-EN_ac4841022ffa.npy"
+},
+{
+"hash": "72016226e1a91d2c16368bb3afb1caff75e6fd8309286d18811c57736776e3c8",
+"file": "RCADS-47-Y-EN_72016226e1a9.npy"
+},
+{
+"hash": "4451cc549f997a196d2a0c8c0c73d9f89efa5b061fc8f2ece8aa0c9ab30db089",
+"file": "RCADS-47-Y-EN_4451cc549f99.npy"
+},
+{
+"hash": "3abf0884d36a2de7357bdaa1563c879d63337ed27bdcf6273b3ba5f047e88c02",
+"file": "RCADS-47-Y-EN_3abf0884d36a.npy"
+},
+{
+"hash": "45b89ad4feb48591d617ede5e5f15a6dfa941122e06ce0b27822493e0a4475d3",
+"file": "RCADS-47-Y-EN_45b89ad4feb4.npy"
+},
+{
+"hash": "46054b546241cec7de52dd57ece0b06bec7276debde3ed7add8bbc0860162cfc",
+"file": "RCADS-47-Y-EN_46054b546241.npy"
+},
+{
+"hash": "9ba907bd5185b859c71f96335d02b591b6ec091c62aafa21c2a455dc00d38fa0",
+"file": "RCADS-47-Y-EN_9ba907bd5185.npy"
+},
+{
+"hash": "aa10b44d9559671c19174565fc03412e8213bd8f2bb55de0602c49cb1595e906",
+"file": "RCADS-47-Y-EN_aa10b44d9559.npy"
+},
+{
+"hash": "b571d208909e1ab36e4d1a1c703bf71dd2ab4bc5b08b6c86c423b961ccc32f42",
+"file": "RCADS-47-Y-EN_b571d208909e.npy"
+},
+{
+"hash": "2fb40dc3756b80dbd12545a33ed5808f20f188d9b730e54411d50b3f7f3e4e70",
+"file": "RCADS-47-Y-EN_2fb40dc3756b.npy"
+},
+{
+"hash": "a1dbe013cf4b43ee50151469632d8dbdb882b0790b06745cccfd39f88da65ece",
+"file": "RCADS-47-Y-EN_a1dbe013cf4b.npy"
+},
+{
+"hash": "94388c94bb29f14fb54c826a8dc1f7fecb70545796871631da4bc99aa5f2b001",
+"file": "RCADS-47-Y-EN_94388c94bb29.npy"
+},
+{
+"hash": "58c7bbdc85219aa799d5b562597d1bce23f8875ab5729ccb37e69288bc3ffc65",
+"file": "RCADS-47-Y-EN_58c7bbdc8521.npy"
+},
+{
+"hash": "e8ad9c648f788741b57c8f39545a8fbcfaed857d34bf46f690aa4914f6afd5f2",
+"file": "RCADS-47-Y-EN_e8ad9c648f78.npy"
+},
+{
+"hash": "8c05a770008e56b2e5650d23e247083ca6d4686348147c9ca84b56a7f230af5b",
+"file": "RCADS-47-Y-EN_8c05a770008e.npy"
+},
+{
+"hash": "066314a00d2f7c8afdc8c67c0ea84113986ce10ea9ea90d277faacc0428f3402",
+"file": "RCADS-47-Y-EN_066314a00d2f.npy"
+},
+{
+"hash": "bdc9231d51ce3f749b78b1c7e23272ab66fd23fb2da03e987d10267cf085a931",
+"file": "RCADS-47-Y-EN_bdc9231d51ce.npy"
+},
+{
+"hash": "845a993b7fb2d4424fd8080ac5f4fe0b80ff5707b1cc6fdbeb4ebec3070a04fa",
+"file": "RCADS-47-Y-EN_845a993b7fb2.npy"
+},
+{
+"hash": "27b9ebf72c4809a45a310a965fd0540d40719a3233f793c37bc6242b0db6c26e",
+"file": "RCADS-47-Y-EN_27b9ebf72c48.npy"
+},
+{
+"hash": "931384d02175de78080d0ce6b73ccd0f4d58fd79183b044b1f6a3ece3471bcb6",
+"file": "RCADS-47-Y-EN_931384d02175.npy"
+},
+{
+"hash": "04beee09aa98f97e0a735bdf842cafaee0dde0a135e903cf5946c18844143c26",
+"file": "RCADS-47-Y-EN_04beee09aa98.npy"
+},
+{
+"hash": "d5bbba9ca3e7243dee6d662202385f2cca0c7f35774598f6cf8844cd70d74f33",
+"file": "RCADS-47-Y-EN_d5bbba9ca3e7.npy"
+},
+{
+"hash": "9b13efa118f250f870b61a1ecea246d1899edcdc32c42b5a1f962d9b59ac99aa",
+"file": "RCADS-47-Y-EN_9b13efa118f2.npy"
+},
+{
+"hash": "0975001964ee1c7fbb6f1bfa8f6184200aeffeb9adcd7c50f79e8436c79c5cee",
+"file": "RCADS-47-Y-EN_0975001964ee.npy"
+},
+{
+"hash": "85953d9a51b2fdebb1ad64dba885780b55d7ce9c63f819711119d26296ddabab",
+"file": "RCADS-47-Y-EN_85953d9a51b2.npy"
+},
+{
+"hash": "44ef1a0cb9da36d8a561e5c028b7c76c39dee892a5a99e60b77152608ddf2d49",
+"file": "RCADS-47-Y-EN_44ef1a0cb9da.npy"
+},
+{
+"hash": "d93c12b7432deec639f62b207257f70c2f02bd3b2eac5937e8a016af399c4292",
+"file": "RCADS-47-Y-EN_d93c12b7432d.npy"
+},
+{
+"hash": "465019350959bffd17efea907bdd2b2aacc92250cc7b3c933673130ff7d017a1",
+"file": "RCADS-47-Y-EN_465019350959.npy"
+},
+{
+"hash": "f0854901c80c7a7973973643c3dccccc87cbba9bf56f882f54390cd7e02de612",
+"file": "RCADS-47-Y-EN_f0854901c80c.npy"
+},
+{
+"hash": "f3848196eafdde2c2655c3091710697787dba57ce5700b322bbbb39db3308083",
+"file": "RCADS-47-Y-EN_f3848196eafd.npy"
+},
+{
+"hash": "45ae95154a325f9fa03b5872914c25b197ef6d7cea5dca499d28bc7c71a92230",
+"file": "RCADS-47-Y-EN_45ae95154a32.npy"
+},
+{
+"hash": "3a83e9beda936fc341d5dd7152ce3dcfc16d0a65d0b1fdd9cb865df589c9eec5",
+"file": "RCADS-47-Y-EN_3a83e9beda93.npy"
+},
+{
+"hash": "b946df9fd5db4f5ff0283dcdc3bb65336cf98cab713ff898631f912759bc6993",
+"file": "RCADS-47-Y-EN_b946df9fd5db.npy"
+},
+{
+"hash": "f42d225f066c53f2f0eea3776eec7bd14ad8c7b6a6aab589224edaa6bb529758",
+"file": "RCADS-47-Y-EN_f42d225f066c.npy"
+},
+{
+"hash": "0ceea783d92c8fe5ed6b22904bd4aee164714405674e93896a90e87353f89c83",
+"file": "RCADS-47-Y-EN_0ceea783d92c.npy"
+},
+{
+"hash": "831253e25d2185a7aeec443967c0b34a09992640b7c82b053715c4ca9824108e",
+"file": "RCADS-47-Y-ES_831253e25d21.npy"
+},
+{
+"hash": "f77e94e5649ac3dba9c338738eb09257ae0ffc0b8cc42e1d49bbceaa10ee46f6",
+"file": "RCADS-47-Y-ET_f77e94e5649a.npy"
+},
+{
+"hash": "f54f7e0b8b2f780081bec1b63813abdbcf5eba2aab13238e84e67298ce63c8b0",
+"file": "RCADS-47-Y-FA_f54f7e0b8b2f.npy"
+},
+{
+"hash": "9d397946c65788cfc98caa7ff3b7428042ba6d68894189b3db6b6bf6e4e5645c",
+"file": "RCADS-47-Y-FI_9d397946c657.npy"
+},
+{
+"hash": "d6c92136ea10e5e98281251bd9ecbed16a64357c1c5fdc70ddf3a3b41f66ab3f",
+"file": "RCADS-47-Y-FR_d6c92136ea10.npy"
+},
+{
+"hash": "282faa34447219d0c25f250ada35ef91a93ff68200551ce280be3d4f9b03b2ee",
+"file": "RCADS-47-Y-FR-FR-1_282faa344472.npy"
+},
+{
+"hash": "8479844c01df505149827ec75a582aa1c9c4867fb76b3a0ad870c3602bd1fcfd",
+"file": "RCADS-47-Y-FR-FR-2_8479844c01df.npy"
+},
+{
+"hash": "8bb5f461081fc27692dc7b819d33e206035036badcbef7c41db2783d3fee18fb",
+"file": "RCADS-47-Y-HI_8bb5f461081f.npy"
+},
+{
+"hash": "b58d4850f85b748890b9888ba0ca703cfbf6259d900d278d089fc40f014b248c",
+"file": "RCADS-47-Y-HU_b58d4850f85b.npy"
+},
+{
+"hash": "4ff2beda223dc38e06ec0172115eb524f4ce43115658d83903ca1db27ffe5b27",
+"file": "RCADS-47-Y-IS_4ff2beda223d.npy"
+},
+{
+"hash": "be985eed42d7efe803055d7a5ba8035155e11e37419e26a6ade2adb5f56b7f02",
+"file": "RCADS-47-Y-IT_be985eed42d7.npy"
+},
+{
+"hash": "b21d78599c19baa75542461b3a4fc5e0f47489fd6850b9ad11b0f739ee76cf6d",
+"file": "RCADS-47-Y-JA_b21d78599c19.npy"
+},
+{
+"hash": "669ed77604d10b01de26725daf76929e26b352ac79a4f194be5d7db37a653f90",
+"file": "RCADS-47-Y-JA-1_669ed77604d1.npy"
+},
+{
+"hash": "380e590b0e092963e7649b4aca0b288299682b7b9c529580d4f8927aa61d3428",
+"file": "RCADS-47-Y-JA-2_380e590b0e09.npy"
+},
+{
+"hash": "0d2d66f2be683f3764dd52a55eb4ba96e4f8593092bf722068706ccd81782c0a",
+"file": "RCADS-47-Y-KO_0d2d66f2be68.npy"
+},
+{
+"hash": "0e28c238b0768ac67b2655a28941cd0482a27734666192b4117279191eab6bb7",
+"file": "RCADS-47-Y-LT_0e28c238b076.npy"
+},
+{
+"hash": "4e49f9d617137a04b3ecd44fb3742fccc6c99feb88e4abdeb32c0695c80d3354",
+"file": "RCADS-47-Y-MN_4e49f9d61713.npy"
+},
+{
+"hash": "46da384b790d8be4c907c6183ac660d7284be47abfaa321cfc896c3476b1fc2f",
+"file": "RCADS-47-Y-MR_46da384b790d.npy"
+},
+{
+"hash": "9dbd0c3261454988ca1a5331f94ab6fdaddba6a8698a2250079d33841e3d02cc",
+"file": "RCADS-47-Y-MS_9dbd0c326145.npy"
+},
+{
+"hash": "26f2d1a9a0c828677fa8d8c2cf6694f70cea8e1a5a093895384b84062c9b632f",
+"file": "RCADS-47-Y-NL_26f2d1a9a0c8.npy"
+},
+{
+"hash": "754f72fe0b6801395f0154b9e542d43e59df58d94641b39661feee26e2bc7615",
+"file": "RCADS-47-Y-NO_754f72fe0b68.npy"
+},
+{
+"hash": "7b51014f2079624527ece3089eefc69f49c0aa5ab62cbed97c2b7f05e5f4c241",
+"file": "RCADS-47-Y-NO-1_7b51014f2079.npy"
+},
+{
+"hash": "7710ae6db1a783a47600f506e746b6a60926256def1b034bb283c10cb164e0eb",
+"file": "RCADS-47-Y-NO-2_7710ae6db1a7.npy"
+},
+{
+"hash": "a92ccad471782cf7671b0cda8bf621a5c8914bdd7928a51225f163e933b57dea",
+"file": "RCADS-47-Y-NY_a92ccad47178.npy"
+},
+{
+"hash": "062c6e45492c6741faac1ee06a1360dbbe1237e2bc9dbeb10c5d446c0727b9d3",
+"file": "RCADS-47-Y-PA_062c6e45492c.npy"
+},
+{
+"hash": "6fc8cadee4f6f1efa33413d60962240e832e3824457287e5270107461a91394d",
+"file": "RCADS-47-Y-PL_6fc8cadee4f6.npy"
+},
+{
+"hash": "1972b39219964c1b23116162cfe6ed605842cb31cb3133a6ad09f38808e90573",
+"file": "RCADS-47-Y-PT_1972b3921996.npy"
+},
+{
+"hash": "bc21c267958841240006b1b8934cc63ad9f82ef508bb82a9f475151d8be7dbbd",
+"file": "RCADS-47-Y-PT-BR_bc21c2679588.npy"
+},
+{
+"hash": "1150f07eb01496e8b7586e7dad06b68bfebb2af0e14ae6fa631c3f1de0f04a51",
+"file": "RCADS-47-Y-SL_1150f07eb014.npy"
+},
+{
+"hash": "d81c6501df64b654e04edd66bd9ba356c916b6e2836206772f9b1f6ca2b27694",
+"file": "RCADS-47-Y-SR_d81c6501df64.npy"
+},
+{
+"hash": "0d84c8cca673f6cbc46a3b03edf80b6d947e2e02c4bd76d88ff2df55c5d2587b",
+"file": "RCADS-47-Y-SV_0d84c8cca673.npy"
+},
+{
+"hash": "963064c12278f2df32cb62aded99edbc4b9bc2f547bd22a36515a18c6fc36f06",
+"file": "RCADS-47-Y-TR_963064c12278.npy"
+},
+{
+"hash": "3cecd3435f12e822eaceb74f01ee048c2c07083311e3566a4ddedf0ddf4b2f2b",
+"file": "RCADS-47-Y-UR_3cecd3435f12.npy"
+},
+{
+"hash": "5cd60917df1ddcaf2d809f58bedab98168280d858c747386e8102c89607c2a06",
+"file": "RCADS-47-Y-VI_5cd60917df1d.npy"
+},
+{
+"hash": "c07f566095be16414aee1168221d99627c1c5969a9f33a079f14153defbdefc2",
+"file": "RCADS-47-Y-ZH-HANS-1_c07f566095be.npy"
+},
+{
+"hash": "84fbe327c384cfc07b507ece32ed05056a8e7ad85e4aba1206173320945c99a3",
+"file": "RCADS-47-Y-ZH-HANT_84fbe327c384.npy"
+},
+{
+"hash": "d995b667c0ed858b8c4d1242b153c9ab64bba377e73f75234115e135635e188b",
+"file": "RCADS-47-Y-ZU_d995b667c0ed.npy"
+}
+]

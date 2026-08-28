@@ -1,0 +1,46 @@
+# The MCP server as a container, wired to the local Milvus stack. Meant to be
+# merged with milvus-compose.yml via multiple -f flags -- this file alone will
+# fail to validate, since `depends_on.standalone` only resolves once Compose
+# merges both files into one project graph:
+#
+#   docker compose -f embeddings/docker/milvus-compose.yml \
+#                   -f embeddings/docker/mcp-compose.yml up -d --build
+#
+# Stop:  docker compose -f embeddings/docker/milvus-compose.yml -f embeddings/docker/mcp-compose.yml down
+#
+# The POEM RDF graph lives one level above embeddings/ and can't be baked into
+# the image (see MCP/Dockerfile) -- the repo root (../..  relative to this
+# file, i.e. embeddings/docker/../..) is bind-mounted read-only instead, and
+# POEM_PROJECT_ROOT points the graph loader at that mount. See MCP.md
+# "Container deployment" for the full rationale.
+#
+# No network/VPN to the RPI embedding server from inside a container? Override
+# EMBED_BASE_URL / EMBED_MODEL below to point at any other OpenAI-compatible
+# endpoint (get_statements needs no network at all either way).
+services:
+  mcp:
+    build:
+      context: ..
+      dockerfile: MCP/Dockerfile
+    image: poem-mcp:latest
+    container_name: poem-mcp
+    restart: unless-stopped
+    environment:
+      MCP_TRANSPORT: http
+      MCP_HOST: 0.0.0.0
+      MCP_PORT: "8100"
+      VECTOR_BACKEND: milvus
+      MILVUS_URI: http://milvus-standalone:19530
+      MILVUS_SKIP_ENSURE: "1"
+      POEM_PROJECT_ROOT: /data/repo
+      # Off the RPI network? Uncomment and point at a reachable embedder:
+      # EMBED_BASE_URL: http://host.docker.internal:1234/v1
+      # EMBED_MODEL: nomic-embed-text
+    volumes:
+      - ../..:/data/repo:ro
+    ports:
+      - "8100:8100"
+    depends_on:
+      standalone:
+        condition: service_healthy
+    # HEALTHCHECK is inherited from the image (MCP/Dockerfile); no override needed.

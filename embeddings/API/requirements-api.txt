@@ -1,0 +1,22 @@
+# POEM Semantic Search REST API (FastAPI) — dependencies.
+#
+# Install into a Python >=3.10 environment that also has the shared search stack.
+# The MCP venv (embeddings/MCP/.venv-mcp) already satisfies everything except
+# FastAPI, so in practice you only need `pip install fastapi` there.
+#
+#   <py3.10+>/python.exe -m pip install -r embeddings/API/requirements-api.txt
+#
+# Behind an SSL-intercepting network, add:
+#   --trusted-host pypi.org --trusted-host files.pythonhosted.org
+
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# Shared search stack (same as MCP/requirements-mcp.txt) — pulled in transitively
+# by poem_core; listed here so this file stands alone.
+numpy>=1.24.0
+openai>=1.0.0
+rdflib>=6.0.0
+
+# Optional: only used when VECTOR_BACKEND=milvus (otherwise the numpy backend runs).
+pymilvus>=2.4.0

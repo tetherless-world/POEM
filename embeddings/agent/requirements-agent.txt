@@ -1,0 +1,16 @@
+# POEM chat agent (Phase 2) — dependencies.
+#
+# All three ship with the MCP venvs (MCP/.venv-mcp, or the per-device venv that
+# MCP/setup_lmstudio.ps1 creates at %LOCALAPPDATA%\POEM\mcp-venv), so no install
+# is needed there. For a fresh env:
+#   <py3.10+>/python.exe -m pip install -r embeddings/agent/requirements-agent.txt
+# Behind an SSL-intercepting network, add:
+#   --trusted-host pypi.org --trusted-host files.pythonhosted.org
+#
+# Note: the default (MCP) transport also spawns ../MCP/mcp_server.py, whose own
+# deps are requirements-mcp.txt — covered automatically when you run the agent
+# with one of the MCP venvs above.
+
+openai>=1.0.0     # OpenAI-compatible chat client (works with Ollama / LM Studio / vLLM)
+fastmcp>=3.0.0    # MCP client: spawns mcp_server.py over stdio (default transport)
+httpx>=0.24.0     # rest mode only: calls the POEM REST API (/search, /statements)

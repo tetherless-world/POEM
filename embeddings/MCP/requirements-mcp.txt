@@ -1,0 +1,23 @@
+# Requirements for the MCP server (embeddings/MCP/mcp_server.py).
+# Install in a dedicated Python >= 3.10 virtual environment (FastMCP needs 3.10+).
+#
+# Blessed setup also installs the shared core package (poem_core):
+#     pip install -e embeddings              # core + runtime deps
+#     pip install -e "embeddings[mcp,milvus]"  # + fastmcp + pymilvus
+#
+# Upper bounds are set to the next major version to avoid a silent breaking
+# change; kept in sync with pyproject.toml's [mcp]/[milvus] extras, which the
+# Dockerfile installs from directly (this file is the path for
+# setup_lmstudio.ps1's manual per-device venv). No full lockfile -- this
+# environment's PyPI cert-trust issues make pip-compile-style generation
+# unreliable; version ranges are the safer, faster option.
+fastmcp>=3.4.2,<4.0.0
+numpy>=2.0.0,<3.0.0
+openai>=2.0.0,<3.0.0
+# get_statements / id-label resolution query the POEM RDF graph (the same TTLs
+# the Pipeline reads).
+rdflib>=6.0.0,<8.0.0
+# Default vector backend is the external Milvus server (VECTOR_BACKEND=milvus).
+# pymilvus is the client; without it (or with no server reachable) the store
+# falls back to the in-process numpy backend automatically.
+pymilvus>=3.0.0,<4.0.0

@@ -1,0 +1,183 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-9.0.3, pluggy-1.6.0 -- C:\Users\Armaan\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Armaan\Desktop\POEM
+plugins: anyio-4.12.1
+collecting ... collected 68 items
+
+embeddings/test_search_similarity.py::TestSimilarityMetrics::test_cosine_identical_vectors PASSED [  1%]
+embeddings/test_search_similarity.py::TestSimilarityMetrics::test_cosine_orthogonal_vectors PASSED [  2%]
+embeddings/test_search_similarity.py::TestSimilarityMetrics::test_cosine_opposite_vectors PASSED [  4%]
+embeddings/test_search_similarity.py::TestSimilarityMetrics::test_cosine_ranking_order PASSED [  5%]
+embeddings/test_search_similarity.py::TestSimilarityMetrics::test_cosine_output_shape PASSED [  7%]
+embeddings/test_search_similarity.py::TestSimilarityMetrics::test_cosine_range PASSED [  8%]
+embeddings/test_search_similarity.py::TestSimilarityMetrics::test_dot_product_value PASSED [ 10%]
+embeddings/test_search_similarity.py::TestSimilarityMetrics::test_dot_product_zero PASSED [ 11%]
+embeddings/test_search_similarity.py::TestSimilarityMetrics::test_dot_product_ranking PASSED [ 13%]
+embeddings/test_search_similarity.py::TestSimilarityMetrics::test_dot_product_output_shape PASSED [ 14%]
+embeddings/test_search_similarity.py::TestSimilarityMetrics::test_euclidean_identical_is_zero PASSED [ 16%]
+embeddings/test_search_similarity.py::TestSimilarityMetrics::test_euclidean_returns_nonpositive PASSED [ 17%]
+embeddings/test_search_similarity.py::TestSimilarityMetrics::test_euclidean_ranking_order PASSED [ 19%]
+embeddings/test_search_similarity.py::TestSimilarityMetrics::test_euclidean_output_shape PASSED [ 20%]
+embeddings/test_search_similarity.py::TestSimilarityMetrics::test_manhattan_identical_is_zero PASSED [ 22%]
+embeddings/test_search_similarity.py::TestSimilarityMetrics::test_manhattan_returns_nonpositive PASSED [ 23%]
+embeddings/test_search_similarity.py::TestSimilarityMetrics::test_manhattan_ranking_order PASSED [ 25%]
+embeddings/test_search_similarity.py::TestSimilarityMetrics::test_manhattan_output_shape PASSED [ 26%]
+embeddings/test_search_similarity.py::TestSimilarityMetrics::test_all_metrics_agree_on_top1 PASSED [ 27%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_gad7_returns_instrument PASSED [ 29%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_rcads25_youth_returns_instrument PASSED [ 30%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_phq9_returns_instrument PASSED [ 32%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_mtt_caregiver_returns_instrument PASSED [ 33%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_rcads47_returns_instrument PASSED [ 35%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_youth_self_report_returns_instrument FAILED [ 36%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_caregiver_version_returns_instrument PASSED [ 38%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_spanish_language_returns_instrument FAILED [ 39%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_norwegian_language_returns_instrument PASSED [ 41%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_social_phobia_returns_scale PASSED [ 42%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_ocd_returns_scale PASSED [ 44%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_separation_anxiety_returns_scale PASSED [ 45%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_major_depressive_disorder_returns_scale PASSED [ 47%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_total_anxiety_returns_scale PASSED [ 48%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_panic_disorder_returns_scale PASSED [ 50%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_homework_scale_returns_scale FAILED [ 51%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_attendance_scale_returns_scale FAILED [ 52%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_generalized_anxiety_disorder_scale PASSED [ 54%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_relationship_scale_returns_scale PASSED [ 55%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_depression_total_returns_scale PASSED [ 57%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_expectancy_scale_returns_scale PASSED [ 58%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_rcads_collection PASSED [ 60%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_mtt_collection FAILED [ 61%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_phq_collection FAILED [ 63%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_gad_collection PASSED [ 64%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_item_afraid_crowded_places FAILED [ 66%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_item_cannot_concentrate FAILED [ 67%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_item_actively_participate PASSED [ 69%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_item_therapy_necessary PASSED [ 70%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_item_afraid_talk_in_class FAILED [ 72%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_item_worries_mistakes FAILED [ 73%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_item_scared_test FAILED [ 75%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_item_part_of_team PASSED [ 76%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_item_follow_recommendations PASSED [ 77%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_item_comfortable_asking_questions PASSED [ 79%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_item_worries_what_others_think FAILED [ 80%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_item_help_choose_goals PASSED [ 82%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_anxiety_and_depression_combined PASSED [ 83%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_child_mental_health_self_report PASSED [ 85%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_caregiver_therapeutic_alliance PASSED [ 86%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_multilingual_instruments FAILED [ 88%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_psychometric_questionnaire_generic PASSED [ 89%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_therapist_child_family PASSED [ 91%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_depression_self_report_child PASSED [ 92%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_panic_separation_anxiety PASSED [ 94%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_all_metrics_return_results PASSED [ 95%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_cosine_scores_in_valid_range PASSED [ 97%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_euclidean_scores_nonpositive PASSED [ 98%]
+embeddings/test_search_similarity.py::TestSearchQueries::test_manhattan_scores_nonpositive PASSED [100%]
+
+================================== FAILURES ===================================
+_________ TestSearchQueries.test_youth_self_report_returns_instrument _________
+embeddings\test_search_similarity.py:266: in test_youth_self_report_returns_instrument
+    assert top == "instruments"
+E   AssertionError: assert 'scales' == 'instruments'
+E     
+E     - instruments
+E     + scales
+_________ TestSearchQueries.test_spanish_language_returns_instrument __________
+embeddings\test_search_similarity.py:274: in test_spanish_language_returns_instrument
+    assert top == "instruments"
+E   AssertionError: assert 'scales' == 'instruments'
+E     
+E     - instruments
+E     + scales
+_____________ TestSearchQueries.test_homework_scale_returns_scale _____________
+embeddings\test_search_similarity.py:310: in test_homework_scale_returns_scale
+    assert top == "scales"
+E   AssertionError: assert 'instruments' == 'scales'
+E     
+E     - scales
+E     + instruments
+____________ TestSearchQueries.test_attendance_scale_returns_scale ____________
+embeddings\test_search_similarity.py:314: in test_attendance_scale_returns_scale
+    assert top == "scales"
+E   AssertionError: assert 'instruments' == 'scales'
+E     
+E     - scales
+E     + instruments
+____________________ TestSearchQueries.test_mtt_collection ____________________
+embeddings\test_search_similarity.py:342: in test_mtt_collection
+    assert top == "collections"
+E   AssertionError: assert 'instruments' == 'collections'
+E     
+E     - collections
+E     + instruments
+____________________ TestSearchQueries.test_phq_collection ____________________
+embeddings\test_search_similarity.py:346: in test_phq_collection
+    assert top == "collections"
+E   AssertionError: assert 'instruments' == 'collections'
+E     
+E     - collections
+E     + instruments
+______________ TestSearchQueries.test_item_afraid_crowded_places ______________
+embeddings\test_search_similarity.py:358: in test_item_afraid_crowded_places
+    assert top == "instruments"
+E   AssertionError: assert 'scales' == 'instruments'
+E     
+E     - instruments
+E     + scales
+_______________ TestSearchQueries.test_item_cannot_concentrate ________________
+embeddings\test_search_similarity.py:362: in test_item_cannot_concentrate
+    assert top == "instruments"
+E   AssertionError: assert 'scales' == 'instruments'
+E     
+E     - instruments
+E     + scales
+______________ TestSearchQueries.test_item_afraid_talk_in_class _______________
+embeddings\test_search_similarity.py:376: in test_item_afraid_talk_in_class
+    assert top == "instruments"
+E   AssertionError: assert 'scales' == 'instruments'
+E     
+E     - instruments
+E     + scales
+________________ TestSearchQueries.test_item_worries_mistakes _________________
+embeddings\test_search_similarity.py:380: in test_item_worries_mistakes
+    assert top == "instruments"
+E   AssertionError: assert 'scales' == 'instruments'
+E     
+E     - instruments
+E     + scales
+___________________ TestSearchQueries.test_item_scared_test ___________________
+embeddings\test_search_similarity.py:384: in test_item_scared_test
+    assert top == "instruments"
+E   AssertionError: assert 'scales' == 'instruments'
+E     
+E     - instruments
+E     + scales
+____________ TestSearchQueries.test_item_worries_what_others_think ____________
+embeddings\test_search_similarity.py:403: in test_item_worries_what_others_think
+    assert top == "instruments"
+E   AssertionError: assert 'scales' == 'instruments'
+E     
+E     - instruments
+E     + scales
+_______________ TestSearchQueries.test_multilingual_instruments _______________
+embeddings\test_search_similarity.py:427: in test_multilingual_instruments
+    assert top == "instruments"
+E   AssertionError: assert 'collections' == 'instruments'
+E     
+E     - instruments
+E     + collections
+=========================== short test summary info ===========================
+FAILED embeddings/test_search_similarity.py::TestSearchQueries::test_youth_self_report_returns_instrument
+FAILED embeddings/test_search_similarity.py::TestSearchQueries::test_spanish_language_returns_instrument
+FAILED embeddings/test_search_similarity.py::TestSearchQueries::test_homework_scale_returns_scale
+FAILED embeddings/test_search_similarity.py::TestSearchQueries::test_attendance_scale_returns_scale
+FAILED embeddings/test_search_similarity.py::TestSearchQueries::test_mtt_collection
+FAILED embeddings/test_search_similarity.py::TestSearchQueries::test_phq_collection
+FAILED embeddings/test_search_similarity.py::TestSearchQueries::test_item_afraid_crowded_places
+FAILED embeddings/test_search_similarity.py::TestSearchQueries::test_item_cannot_concentrate
+FAILED embeddings/test_search_similarity.py::TestSearchQueries::test_item_afraid_talk_in_class
+FAILED embeddings/test_search_similarity.py::TestSearchQueries::test_item_worries_mistakes
+FAILED embeddings/test_search_similarity.py::TestSearchQueries::test_item_scared_test
+FAILED embeddings/test_search_similarity.py::TestSearchQueries::test_item_worries_what_others_think
+FAILED embeddings/test_search_similarity.py::TestSearchQueries::test_multilingual_instruments
+======================== 13 failed, 55 passed in 6.21s ========================

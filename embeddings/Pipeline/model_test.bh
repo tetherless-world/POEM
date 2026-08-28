@@ -1,0 +1,11 @@
+$env:EMBED_MODEL = "text-embedding-nomic-embed-text-v1.5"
+python embeddings/generate_embeddings.py
+python embeddings/evaluate_search.py 
+
+$env:EMBED_MODEL = "text-embedding-embeddinggemma-300m-qat"
+python embeddings/generate_embeddings.py
+python embeddings/evaluate_search.py 
+
+$env:EMBED_MODEL = "jina-embeddings-v4-text-retrieval"
+python embeddings/generate_embeddings.py
+python embeddings/evaluate_search.py 
