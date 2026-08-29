@@ -1,3 +1,14 @@
 .DS_Store
 .vscode
 catalog-v001.xml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Milvus / MinIO / etcd runtime data (docker volumes)
+embeddings/docker/volumes/

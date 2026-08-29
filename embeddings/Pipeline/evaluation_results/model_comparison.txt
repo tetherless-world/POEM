@@ -1,0 +1,40 @@
+﻿POEM Model Comparison -- 2026-05-28 08:46:10
+
+MODEL: gpt-oss:latest -- SKIPPED (endpoint test failed: FAIL Error code: 501 - {'error': {'message': 'this model does not support embeddings', 'type': 'api_error', 'param': None, 'code': None}})
+========================================================================
+
+MODEL: qwen3-embedding:latest  |  dim: 4096
+
+--- SCOPED (each query searched within its expected section) ---
+========================================================================
+SUMMARY
+------------------------------------------------------------------------
+Average section breakdown across ALL queries:
+  instruments : 45.2%
+  scales      : 44.8%
+  collections : 10.0%
+
+Average match% by expected section type:
+  collections : 100.0%  (5 queries)
+  instruments : 100.0%  (20 queries)
+  scales      : 100.0%  (20 queries)
+
+--- UNSCOPED (all sections searched together) ---
+========================================================================
+SUMMARY
+------------------------------------------------------------------------
+Average section breakdown across ALL queries:
+  instruments : 49.9%
+  scales      : 26.0%
+  collections : 24.1%
+
+Average match% by expected section type:
+  collections : 80.0%  (5 queries)
+  instruments : 62.5%  (20 queries)
+  scales      : 47.7%  (20 queries)
+
+========================================================================
+
+MODEL: gpt-oss:120b -- SKIPPED (endpoint test failed: FAIL Error code: 501 - {'error': {'message': 'this model does not support embeddings', 'type': 'api_error', 'param': None, 'code': None}})
+========================================================================
+

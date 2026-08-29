@@ -1,0 +1,87 @@
+# Milvus Standalone — external vector engine for POEM search (separate process).
+#
+# Brings up Milvus 2.4 Standalone (etcd + minio + standalone) listening on
+# localhost:19530, which is what VECTOR_BACKEND=milvus / MILVUS_URI targets by
+# default. Works on Windows/macOS/Linux (unlike embedded Milvus Lite).
+#
+# Start:   docker compose -f embeddings/docker/milvus-compose.yml up -d
+# Health:  docker compose -f embeddings/docker/milvus-compose.yml ps
+# Stop:    docker compose -f embeddings/docker/milvus-compose.yml down
+# Wipe:    docker compose -f embeddings/docker/milvus-compose.yml down -v
+#
+# Data persists in ./volumes (next to this file) via the bind mounts below. The
+# POEM collections are (re)built into memory from the canonical .npy vectors at
+# server startup, so this on-disk state is rebuildable — "in memory first".
+#
+# All three services use `restart: unless-stopped` so that once the Docker
+# daemon comes up (including after a reboot, if Docker Desktop is set to start
+# at sign-in — see MILVUS.md §10), the stack restarts itself without needing a
+# manual `up -d`. `poem_core/docker_preflight.py` (invoked automatically from
+# vector_store.get_store() and the docker/ scripts) covers the remaining case
+# where Docker Desktop itself isn't running yet.
+services:
+  etcd:
+    container_name: milvus-etcd
+    image: quay.io/coreos/etcd:v3.5.5
+    restart: unless-stopped
+    environment:
+      - ETCD_AUTO_COMPACTION_MODE=revision
+      - ETCD_AUTO_COMPACTION_RETENTION=1000
+      - ETCD_QUOTA_BACKEND_BYTES=4294967296
+      - ETCD_SNAPSHOT_COUNT=50000
+    volumes:
+      - ${DOCKER_VOLUME_DIRECTORY:-.}/volumes/etcd:/etcd
+    command: etcd -advertise-client-urls=http://127.0.0.1:2379 -listen-client-urls http://0.0.0.0:2379 --data-dir /etcd
+    healthcheck:
+      test: ["CMD", "etcdctl", "endpoint", "health"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+
+  minio:
+    container_name: milvus-minio
+    image: minio/minio:RELEASE.2023-03-20T20-16-18Z
+    restart: unless-stopped
+    environment:
+      MINIO_ACCESS_KEY: minioadmin
+      MINIO_SECRET_KEY: minioadmin
+    ports:
+      - "9001:9001"
+      - "9000:9000"
+    volumes:
+      - ${DOCKER_VOLUME_DIRECTORY:-.}/volumes/minio:/minio_data
+    command: minio server /minio_data --console-address ":9001"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+
+  standalone:
+    container_name: milvus-standalone
+    image: milvusdb/milvus:v2.4.13
+    command: ["milvus", "run", "standalone"]
+    restart: unless-stopped
+    security_opt:
+      - seccomp:unconfined
+    environment:
+      ETCD_ENDPOINTS: etcd:2379
+      MINIO_ADDRESS: minio:9000
+    volumes:
+      - ${DOCKER_VOLUME_DIRECTORY:-.}/volumes/milvus:/var/lib/milvus
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9091/healthz"]
+      interval: 30s
+      start_period: 90s
+      timeout: 20s
+      retries: 3
+    ports:
+      - "19530:19530"   # gRPC / SDK endpoint (MILVUS_URI)
+      - "9091:9091"     # health/metrics
+    depends_on:
+      - "etcd"
+      - "minio"
+
+networks:
+  default:
+    name: milvus

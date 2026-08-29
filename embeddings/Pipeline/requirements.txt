@@ -1,0 +1,16 @@
+# POEM embeddings Pipeline dependencies.
+#
+# Blessed setup installs the shared core package (poem_core) from pyproject.toml:
+#     pip install -e embeddings              # core + runtime deps
+#     pip install -e "embeddings[milvus]"    # + Milvus client
+#     pip install -e "embeddings[dev]"       # + pytest
+# These pins mirror that for ad-hoc / non-editable installs.
+openai>=1.0.0
+numpy>=1.24.0
+rdflib>=6.0.0
+pytest>=7.0.0
+# Default vector backend is the external Milvus server (VECTOR_BACKEND=milvus;
+# see embeddings/docker/milvus-compose.yml). pymilvus is the client. Without it,
+# or if the server is unreachable, the store falls back to the in-process numpy
+# backend automatically, so this remains effectively optional.
+pymilvus>=2.4.0

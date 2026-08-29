@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poem-embeddings"
+version = "0.1.0"
+description = "POEM semantic-search core: config, embedding client, metrics, corpus loader, RDF graph loader, and pluggable vector store (numpy / external Milvus)."
+readme = "MAIN.md"
+# NOTE: this floor (3.8) is for the *base* package only (poem_core + the
+# Pipeline scripts, which still run under Python 3.8 -- see TESTING.md's
+# `tutorial_env`). The `mcp` extra below pulls in fastmcp, which itself
+# requires Python >= 3.10; `pip install -e ".[mcp]"` must be run under a
+# >=3.10 interpreter (the shipped .venv-mcp uses 3.12). Standard pyproject
+# metadata has no way to express a per-extra requires-python, so this is
+# documented here and in MCP/MCP.md's Prerequisites section instead.
+requires-python = ">=3.8"
+dependencies = [
+    "openai>=2.0.0,<3.0.0",
+    "numpy>=2.0.0,<3.0.0",
+    "rdflib>=6.0.0,<8.0.0",
+]
+
+[project.optional-dependencies]
+# External Milvus vector backend (VECTOR_BACKEND=milvus).
+milvus = ["pymilvus>=3.0.0,<4.0.0"]
+# MCP server (Python >= 3.10 -- see the NOTE above requires-python).
+mcp = ["fastmcp>=3.4.2,<4.0.0"]
+dev = ["pytest>=7.0.0,<10.0.0"]
+
+[tool.setuptools]
+# The shared core package. The Pipeline/ and MCP/ entry scripts re-export from it.
+packages = ["poem_core"]
+
+[tool.pytest.ini_options]
+# "slow" marks tests that spawn a real mcp_server.py subprocess (each redoes
+# the full ~778-vector corpus + 142k-triple RDF graph load, ~15-30s apiece) --
+# see TESTING.md "Fast vs. full test runs". Registered here so `-m slow` /
+# `-m "not slow"` don't warn about an unknown marker.
+markers = [
+    "slow: spawns a real mcp_server.py subprocess; excluded by `-m \"not slow\"`",
+]

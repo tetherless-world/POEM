@@ -1,0 +1,1074 @@
+POEM Search Evaluation
+Date       : 2026-05-28 08:47:27
+Queries    : 50
+Mode       : section-scoped
+Top-k search (before dedup): 20
+Top-k unique (reported)    : 5
+
+========================================================================
+Query: "English instrument"  [expected: instruments  |  searched: instruments only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ] ✓  score=+0.4598  (raw # 1)
+       Entity : PHQ-9-A-EN
+       Preview: PHQ-9-A-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: psyc...
+  # 2  [instruments ] ✓  score=+0.4570  (raw # 2)
+       Entity : GAD-7
+       Preview: GAD-7. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has attribu...
+  # 3  [instruments ] ✓  score=+0.4167  (raw # 4)
+       Entity : RCADS-25-Y-ZH-HANT
+       Preview: RCADS-25-Y-ZH-HANT. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   ...
+  # 4  [instruments ] ✓  score=+0.4129  (raw # 7)
+       Entity : RCADS-47-Y-ZH-HANT
+       Preview: RCADS-47-Y-ZH-HANT. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   ...
+  # 5  [instruments ] ✓  score=+0.4065  (raw # 9)
+       Entity : RCADS-35-Y-EN
+       Preview: RCADS-35-Y-EN. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has...
+
+  Section breakdown: instruments: 100%  |  scales: 0%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Youth instrument"  [expected: instruments  |  searched: instruments only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ] ✓  score=+0.5296  (raw # 1)
+       Entity : RCADS-35-Y-SW
+       Preview: RCADS-35-Y-SW. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has...
+  # 2  [instruments ] ✓  score=+0.5260  (raw # 2)
+       Entity : RCADS-25-Y-BN
+       Preview: RCADS-25-Y-BN. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has...
+  # 3  [instruments ] ✓  score=+0.5238  (raw # 3)
+       Entity : RCADS-47-Y-MR
+       Preview: RCADS-47-Y-MR. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has...
+  # 4  [instruments ] ✓  score=+0.5231  (raw # 4)
+       Entity : RCADS-25-Y-SR
+       Preview: RCADS-25-Y-SR. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has...
+  # 5  [instruments ] ✓  score=+0.5215  (raw # 5)
+       Entity : RCADS-47-Y-HI
+       Preview: RCADS-47-Y-HI. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has...
+
+  Section breakdown: instruments: 100%  |  scales: 0%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Depression instrument"  [expected: instruments  |  searched: instruments only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ] ✓  score=+0.7991  (raw # 1)
+       Entity : PHQ-9-A-EN
+       Preview: PHQ-9-A-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: psyc...
+  # 2  [instruments ] ✓  score=+0.7237  (raw #10)
+       Entity : GAD-7
+       Preview: GAD-7. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has attribu...
+  # 3  [instruments ] ✓  score=+0.7001  (raw #11)
+       Entity : RCADS-25-Y-EN
+       Preview: RCADS-25-Y-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+  # 4  [instruments ] ✓  score=+0.6964  (raw #12)
+       Entity : RCADS-25-Y-LT
+       Preview: RCADS-25-Y-LT. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+  # 5  [instruments ] ✓  score=+0.6945  (raw #13)
+       Entity : RCADS-25-Y-SV
+       Preview: RCADS-25-Y-SV. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+
+  Section breakdown: instruments: 100%  |  scales: 0%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Anxiety questionnaire"  [expected: instruments  |  searched: instruments only]
+(top 3 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ] ✓  score=+0.7486  (raw # 1)
+       Entity : RCADS-47-Y-EN
+       Preview: RCADS-47-Y-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+  # 2  [instruments ] ✓  score=+0.7475  (raw # 2)
+       Entity : GAD-7
+       Preview: GAD-7. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has attribu...
+  # 3  [instruments ] ✓  score=+0.7256  (raw #17)
+       Entity : RCADS-25-Y-EN
+       Preview: RCADS-25-Y-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+
+  Section breakdown: instruments: 100%  |  scales: 0%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "caregiver instrument"  [expected: instruments  |  searched: instruments only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ] ✓  score=+0.7501  (raw # 1)
+       Entity : RCADS-25-CG-LT
+       Preview: RCADS-25-CG-LT. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+  # 2  [instruments ] ✓  score=+0.7450  (raw # 2)
+       Entity : RCADS-25-CG-BN
+       Preview: RCADS-25-CG-BN. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - ha...
+  # 3  [instruments ] ✓  score=+0.7437  (raw # 3)
+       Entity : RCADS-25-CG-PT
+       Preview: RCADS-25-CG-PT. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+  # 4  [instruments ] ✓  score=+0.7427  (raw # 4)
+       Entity : RCADS-47-CG-PT
+       Preview: RCADS-47-CG-PT. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+  # 5  [instruments ] ✓  score=+0.7414  (raw # 5)
+       Entity : RCADS-25-CG-AR
+       Preview: RCADS-25-CG-AR. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+
+  Section breakdown: instruments: 100%  |  scales: 0%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "teacher instrument"  [expected: instruments  |  searched: instruments only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ] ✓  score=+0.4845  (raw # 1)
+       Entity : MTT-35-Y-EN-2
+       Preview: MTT-35-Y-EN-2. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+  # 2  [instruments ] ✓  score=+0.4802  (raw # 2)
+       Entity : MTT-35-CG-EN-3
+       Preview: MTT-35-CG-EN-3. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+  # 3  [instruments ] ✓  score=+0.4709  (raw # 3)
+       Entity : MTT-35-CG-EN-2
+       Preview: MTT-35-CG-EN-2. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+  # 4  [instruments ] ✓  score=+0.4702  (raw # 4)
+       Entity : GAD-7
+       Preview: GAD-7. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has attribu...
+  # 5  [instruments ] ✓  score=+0.4638  (raw # 5)
+       Entity : MTT-35-Y-ES-1
+       Preview: MTT-35-Y-ES-1. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+
+  Section breakdown: instruments: 100%  |  scales: 0%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "adult questionnaire"  [expected: instruments  |  searched: instruments only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ] ✓  score=+0.8252  (raw # 1)
+       Entity : GAD-7
+       Preview: GAD-7. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has attribu...
+  # 2  [instruments ] ✓  score=+0.7625  (raw # 2)
+       Entity : PHQ-9-A-EN
+       Preview: PHQ-9-A-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: psyc...
+  # 3  [instruments ] ✓  score=+0.6860  (raw # 9)
+       Entity : RCADS-25-CG-LT
+       Preview: RCADS-25-CG-LT. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+  # 4  [instruments ] ✓  score=+0.6800  (raw #11)
+       Entity : RCADS-25-Y-ZH-HANT
+       Preview: RCADS-25-Y-ZH-HANT. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   ...
+  # 5  [instruments ] ✓  score=+0.6794  (raw #12)
+       Entity : RCADS-25-CG-BN
+       Preview: RCADS-25-CG-BN. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - ha...
+
+  Section breakdown: instruments: 100%  |  scales: 0%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "child questionnaire"  [expected: instruments  |  searched: instruments only]
+(top 4 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ] ✓  score=+0.6833  (raw # 1)
+       Entity : RCADS-47-CG-EN-2
+       Preview: RCADS-47-CG-EN-2. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - ...
+  # 2  [instruments ] ✓  score=+0.6727  (raw # 3)
+       Entity : RCADS-25-CG-EN-2
+       Preview: RCADS-25-CG-EN-2. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - ...
+  # 3  [instruments ] ✓  score=+0.6608  (raw #14)
+       Entity : GAD-7
+       Preview: GAD-7. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has attribu...
+  # 4  [instruments ] ✓  score=+0.6534  (raw #20)
+       Entity : MTT-35-CG-EN-3
+       Preview: MTT-35-CG-EN-3. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+
+  Section breakdown: instruments: 100%  |  scales: 0%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "PHQ-9"  [expected: instruments  |  searched: instruments only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ] ✓  score=+0.8129  (raw # 1)
+       Entity : PHQ-9-A-EN
+       Preview: PHQ-9-A-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: psyc...
+  # 2  [instruments ] ✓  score=+0.7194  (raw #10)
+       Entity : GAD-7
+       Preview: GAD-7. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has attribu...
+  # 3  [instruments ] ✓  score=+0.6462  (raw #11)
+       Entity : RCADS-25-CG-EN
+       Preview: RCADS-25-CG-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+  # 4  [instruments ] ✓  score=+0.6413  (raw #12)
+       Entity : RCADS-25-Y-EN
+       Preview: RCADS-25-Y-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+  # 5  [instruments ] ✓  score=+0.6361  (raw #14)
+       Entity : RCADS-25-CG-SL
+       Preview: RCADS-25-CG-SL. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+
+  Section breakdown: instruments: 100%  |  scales: 0%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "GAD-7"  [expected: instruments  |  searched: instruments only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ] ✓  score=+0.7729  (raw # 1)
+       Entity : GAD-7
+       Preview: GAD-7. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has attribu...
+  # 2  [instruments ] ✓  score=+0.7207  (raw # 2)
+       Entity : PHQ-9-A-EN
+       Preview: PHQ-9-A-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: psyc...
+  # 3  [instruments ] ✓  score=+0.6756  (raw # 8)
+       Entity : RCADS-47-Y-EN
+       Preview: RCADS-47-Y-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+  # 4  [instruments ] ✓  score=+0.6676  (raw #13)
+       Entity : RCADS-47-Y-SV
+       Preview: RCADS-47-Y-SV. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+  # 5  [instruments ] ✓  score=+0.6664  (raw #16)
+       Entity : RCADS-47-Y-KO
+       Preview: RCADS-47-Y-KO. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+
+  Section breakdown: instruments: 100%  |  scales: 0%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "RCADS-25"  [expected: instruments  |  searched: instruments only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ] ✓  score=+0.7324  (raw # 1)
+       Entity : RCADS-25-Y-BN
+       Preview: RCADS-25-Y-BN. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has...
+  # 2  [instruments ] ✓  score=+0.7271  (raw # 2)
+       Entity : RCADS-25-Y-ZU
+       Preview: RCADS-25-Y-ZU. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has...
+  # 3  [instruments ] ✓  score=+0.7267  (raw # 3)
+       Entity : RCADS-25-Y-SR
+       Preview: RCADS-25-Y-SR. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has...
+  # 4  [instruments ] ✓  score=+0.7259  (raw # 4)
+       Entity : RCADS-25-Y-MR
+       Preview: RCADS-25-Y-MR. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has...
+  # 5  [instruments ] ✓  score=+0.7230  (raw # 5)
+       Entity : RCADS-25-CG-LT
+       Preview: RCADS-25-CG-LT. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+
+  Section breakdown: instruments: 100%  |  scales: 0%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "RCADS-47"  [expected: instruments  |  searched: instruments only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ] ✓  score=+0.6560  (raw # 1)
+       Entity : RCADS-47-Y-BN
+       Preview: RCADS-47-Y-BN. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has...
+  # 2  [instruments ] ✓  score=+0.6463  (raw # 2)
+       Entity : RCADS-47-CG-JA
+       Preview: RCADS-47-CG-JA. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+  # 3  [instruments ] ✓  score=+0.6461  (raw # 3)
+       Entity : RCADS-47-Y-MR
+       Preview: RCADS-47-Y-MR. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has...
+  # 4  [instruments ] ✓  score=+0.6436  (raw # 4)
+       Entity : RCADS-47-Y-ZU
+       Preview: RCADS-47-Y-ZU. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has...
+  # 5  [instruments ] ✓  score=+0.6386  (raw # 5)
+       Entity : RCADS-47-CG-LT
+       Preview: RCADS-47-CG-LT. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+
+  Section breakdown: instruments: 100%  |  scales: 0%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "MTT-35"  [expected: instruments  |  searched: instruments only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ] ✓  score=+0.6235  (raw # 1)
+       Entity : MTT-35-Y-NO
+       Preview: MTT-35-Y-NO. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has a...
+  # 2  [instruments ] ✓  score=+0.6139  (raw # 2)
+       Entity : MTT-35-Y-ES-2
+       Preview: MTT-35-Y-ES-2. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+  # 3  [instruments ] ✓  score=+0.6078  (raw # 3)
+       Entity : MTT-35-CG-NO
+       Preview: MTT-35-CG-NO. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has ...
+  # 4  [instruments ] ✓  score=+0.6058  (raw # 4)
+       Entity : MTT-35-CG-ES-2
+       Preview: MTT-35-CG-ES-2. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+  # 5  [instruments ] ✓  score=+0.5741  (raw # 5)
+       Entity : MTT-35-CG-ES-1
+       Preview: MTT-35-CG-ES-1. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+
+  Section breakdown: instruments: 100%  |  scales: 0%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "RCADS questionnaire"  [expected: instruments  |  searched: instruments only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ] ✓  score=+0.7840  (raw # 1)
+       Entity : RCADS-25-CG-LT
+       Preview: RCADS-25-CG-LT. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+  # 2  [instruments ] ✓  score=+0.7784  (raw # 2)
+       Entity : RCADS-25-CG-FR
+       Preview: RCADS-25-CG-FR. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+  # 3  [instruments ] ✓  score=+0.7740  (raw # 3)
+       Entity : RCADS-25-CG-EN
+       Preview: RCADS-25-CG-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+  # 4  [instruments ] ✓  score=+0.7717  (raw # 4)
+       Entity : RCADS-47-CG-LT
+       Preview: RCADS-47-CG-LT. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+  # 5  [instruments ] ✓  score=+0.7714  (raw # 5)
+       Entity : RCADS-25-CG-PT
+       Preview: RCADS-25-CG-PT. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+
+  Section breakdown: instruments: 100%  |  scales: 0%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "MTT questionnaire"  [expected: instruments  |  searched: instruments only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ] ✓  score=+0.7961  (raw # 1)
+       Entity : MTT-35-CG-ES-2
+       Preview: MTT-35-CG-ES-2. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+  # 2  [instruments ] ✓  score=+0.7873  (raw # 2)
+       Entity : MTT-35-CG-ES-1
+       Preview: MTT-35-CG-ES-1. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+  # 3  [instruments ] ✓  score=+0.7836  (raw # 3)
+       Entity : MTT-35-CG-NO
+       Preview: MTT-35-CG-NO. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has ...
+  # 4  [instruments ] ✓  score=+0.7642  (raw # 4)
+       Entity : MTT-35-Y-NO
+       Preview: MTT-35-Y-NO. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has a...
+  # 5  [instruments ] ✓  score=+0.7639  (raw # 5)
+       Entity : MTT-35-Y-ES-2
+       Preview: MTT-35-Y-ES-2. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+
+  Section breakdown: instruments: 100%  |  scales: 0%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "patient health questionnaire"  [expected: instruments  |  searched: instruments only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ] ✓  score=+0.7152  (raw # 1)
+       Entity : GAD-7
+       Preview: GAD-7. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has attribu...
+  # 2  [instruments ] ✓  score=+0.7019  (raw # 2)
+       Entity : PHQ-9-A-EN
+       Preview: PHQ-9-A-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: psyc...
+  # 3  [instruments ] ✓  score=+0.6296  (raw #11)
+       Entity : RCADS-25-CG-LT
+       Preview: RCADS-25-CG-LT. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+  # 4  [instruments ] ✓  score=+0.6281  (raw #12)
+       Entity : MTT-35-Y-EN-1
+       Preview: MTT-35-Y-EN-1. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+  # 5  [instruments ] ✓  score=+0.6279  (raw #13)
+       Entity : RCADS-25-CG-PT
+       Preview: RCADS-25-CG-PT. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+
+  Section breakdown: instruments: 100%  |  scales: 0%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "therapeutic alliance instrument"  [expected: instruments  |  searched: instruments only]
+(top 2 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ] ✓  score=+0.6663  (raw # 1)
+       Entity : MTT-35-Y-EN-1
+       Preview: MTT-35-Y-EN-1. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+  # 2  [instruments ] ✓  score=+0.6292  (raw #10)
+       Entity : MTT-35-CG-EN-1
+       Preview: MTT-35-CG-EN-1. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+
+  Section breakdown: instruments: 100%  |  scales: 0%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "OCD instrument"  [expected: instruments  |  searched: instruments only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ] ✓  score=+0.5111  (raw # 1)
+       Entity : GAD-7
+       Preview: GAD-7. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has attribu...
+  # 2  [instruments ] ✓  score=+0.5068  (raw # 2)
+       Entity : PHQ-9-A-EN
+       Preview: PHQ-9-A-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: psyc...
+  # 3  [instruments ] ✓  score=+0.4991  (raw # 3)
+       Entity : RCADS-47-Y-EN
+       Preview: RCADS-47-Y-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+  # 4  [instruments ] ✓  score=+0.4948  (raw # 4)
+       Entity : RCADS-47-CG-EN
+       Preview: RCADS-47-CG-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+  # 5  [instruments ] ✓  score=+0.4930  (raw # 5)
+       Entity : RCADS-47-Y-KO
+       Preview: RCADS-47-Y-KO. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+
+  Section breakdown: instruments: 100%  |  scales: 0%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Spanish questionnaire"  [expected: instruments  |  searched: instruments only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ] ✓  score=+0.6467  (raw # 1)
+       Entity : GAD-7
+       Preview: GAD-7. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has attribu...
+  # 2  [instruments ] ✓  score=+0.6034  (raw # 2)
+       Entity : PHQ-9-A-EN
+       Preview: PHQ-9-A-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: psyc...
+  # 3  [instruments ] ✓  score=+0.5716  (raw # 4)
+       Entity : RCADS-25-CG-ZH-HANT
+       Preview: RCADS-25-CG-ZH-HANT. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire  ...
+  # 4  [instruments ] ✓  score=+0.5709  (raw # 5)
+       Entity : RCADS-25-Y-ZH-HANT
+       Preview: RCADS-25-Y-ZH-HANT. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   ...
+  # 5  [instruments ] ✓  score=+0.5692  (raw # 6)
+       Entity : RCADS-47-CG-ZH-HANT
+       Preview: RCADS-47-CG-ZH-HANT. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire  ...
+
+  Section breakdown: instruments: 100%  |  scales: 0%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Chinese questionnaire"  [expected: instruments  |  searched: instruments only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ] ✓  score=+0.6351  (raw # 1)
+       Entity : GAD-7
+       Preview: GAD-7. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - has attribu...
+  # 2  [instruments ] ✓  score=+0.6103  (raw # 2)
+       Entity : RCADS-25-Y-ZH-HANT
+       Preview: RCADS-25-Y-ZH-HANT. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   ...
+  # 3  [instruments ] ✓  score=+0.6066  (raw # 3)
+       Entity : RCADS-47-Y-ZH-HANT
+       Preview: RCADS-47-Y-ZH-HANT. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   ...
+  # 4  [instruments ] ✓  score=+0.5945  (raw # 4)
+       Entity : PHQ-9-A-EN
+       Preview: PHQ-9-A-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: psyc...
+  # 5  [instruments ] ✓  score=+0.5811  (raw # 5)
+       Entity : RCADS-25-CG-ZH-HANT
+       Preview: RCADS-25-CG-ZH-HANT. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire  ...
+
+  Section breakdown: instruments: 100%  |  scales: 0%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Anxiety"  [expected: scales  |  searched: scales only]
+(top 3 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ] ✓  score=+0.6422  (raw # 1)
+       Entity : Total Anxiety (37.1)
+       Preview: Total Anxiety (37.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+  # 2  [scales      ] ✓  score=+0.6183  (raw # 8)
+       Entity : Total Anxiety (15.1)
+       Preview: Total Anxiety (15.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+  # 3  [scales      ] ✓  score=+0.6088  (raw #20)
+       Entity : Total Anxiety and Depression (47.1)
+       Preview: Total Anxiety and Depression (47.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionna...
+
+  Section breakdown: instruments: 0%  |  scales: 100%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Depression"  [expected: scales  |  searched: scales only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ] ✓  score=+0.6104  (raw # 1)
+       Entity : Depression (9.1)
+       Preview: Depression (9.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+  # 2  [scales      ] ✓  score=+0.5672  (raw # 8)
+       Entity : Major Depressive Disorder (10.1)
+       Preview: Major Depressive Disorder (10.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire...
+  # 3  [scales      ] ✓  score=+0.5629  (raw # 9)
+       Entity : Total Anxiety and Depression (47.1)
+       Preview: Total Anxiety and Depression (47.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionna...
+  # 4  [scales      ] ✓  score=+0.5616  (raw #10)
+       Entity : Total Depression (5.1)
+       Preview: Total Depression (5.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   -...
+  # 5  [scales      ] ✓  score=+0.5483  (raw #19)
+       Entity : Total Anxiety and Depression (25.1)
+       Preview: Total Anxiety and Depression (25.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionna...
+
+  Section breakdown: instruments: 0%  |  scales: 100%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Social phobia"  [expected: scales  |  searched: scales only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ] ✓  score=+0.7059  (raw # 1)
+       Entity : Social Phobia (9.1)
+       Preview: Social Phobia (9.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - ha...
+  # 2  [scales      ] ✓  score=+0.6194  (raw #10)
+       Entity : Separation Anxiety Disorder (7.1)
+       Preview: Separation Anxiety Disorder (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnair...
+  # 3  [scales      ] ✓  score=+0.5901  (raw #11)
+       Entity : Total Anxiety (15.1)
+       Preview: Total Anxiety (15.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+  # 4  [scales      ] ✓  score=+0.5838  (raw #12)
+       Entity : Total Anxiety (37.1)
+       Preview: Total Anxiety (37.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+  # 5  [scales      ] ✓  score=+0.5586  (raw #16)
+       Entity : Total Anxiety and Depression (47.1)
+       Preview: Total Anxiety and Depression (47.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionna...
+
+  Section breakdown: instruments: 0%  |  scales: 100%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "OCD"  [expected: scales  |  searched: scales only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ] ✓  score=+0.6612  (raw # 1)
+       Entity : Obsessive Compulsive Disorder (6.1)
+       Preview: Obsessive Compulsive Disorder (6.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionna...
+  # 2  [scales      ] ✓  score=+0.5122  (raw # 7)
+       Entity : Total Anxiety (37.1)
+       Preview: Total Anxiety (37.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+  # 3  [scales      ] ✓  score=+0.5117  (raw # 8)
+       Entity : Total Anxiety (15.1)
+       Preview: Total Anxiety (15.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+  # 4  [scales      ] ✓  score=+0.5027  (raw # 9)
+       Entity : Generalized Anxiety Disorder (6.1)
+       Preview: Generalized Anxiety Disorder (6.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnai...
+  # 5  [scales      ] ✓  score=+0.5022  (raw #10)
+       Entity : Total Anxiety and Depression (47.1)
+       Preview: Total Anxiety and Depression (47.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionna...
+
+  Section breakdown: instruments: 0%  |  scales: 100%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Panic disorder"  [expected: scales  |  searched: scales only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ] ✓  score=+0.6808  (raw # 1)
+       Entity : Panic Disorder (9.1)
+       Preview: Panic Disorder (9.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+  # 2  [scales      ] ✓  score=+0.5677  (raw #10)
+       Entity : Separation Anxiety Disorder (7.1)
+       Preview: Separation Anxiety Disorder (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnair...
+  # 3  [scales      ] ✓  score=+0.5381  (raw #11)
+       Entity : Total Anxiety (37.1)
+       Preview: Total Anxiety (37.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+  # 4  [scales      ] ✓  score=+0.5377  (raw #12)
+       Entity : Generalized Anxiety Disorder (6.1)
+       Preview: Generalized Anxiety Disorder (6.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnai...
+  # 5  [scales      ] ✓  score=+0.5271  (raw #16)
+       Entity : Total Anxiety (15.1)
+       Preview: Total Anxiety (15.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+
+  Section breakdown: instruments: 0%  |  scales: 100%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Separation anxiety"  [expected: scales  |  searched: scales only]
+(top 4 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ] ✓  score=+0.7084  (raw # 1)
+       Entity : Separation Anxiety Disorder (7.1)
+       Preview: Separation Anxiety Disorder (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnair...
+  # 2  [scales      ] ✓  score=+0.6118  (raw # 8)
+       Entity : Total Anxiety (37.1)
+       Preview: Total Anxiety (37.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+  # 3  [scales      ] ✓  score=+0.5881  (raw # 9)
+       Entity : Total Anxiety and Depression (47.1)
+       Preview: Total Anxiety and Depression (47.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionna...
+  # 4  [scales      ] ✓  score=+0.5631  (raw #11)
+       Entity : Total Anxiety (15.1)
+       Preview: Total Anxiety (15.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+
+  Section breakdown: instruments: 0%  |  scales: 100%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Generalized anxiety disorder"  [expected: scales  |  searched: scales only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ] ✓  score=+0.6803  (raw # 1)
+       Entity : Generalized Anxiety Disorder (6.1)
+       Preview: Generalized Anxiety Disorder (6.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnai...
+  # 2  [scales      ] ✓  score=+0.5683  (raw # 7)
+       Entity : Total Anxiety (37.1)
+       Preview: Total Anxiety (37.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+  # 3  [scales      ] ✓  score=+0.5590  (raw # 9)
+       Entity : Separation Anxiety Disorder (7.1)
+       Preview: Separation Anxiety Disorder (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnair...
+  # 4  [scales      ] ✓  score=+0.5590  (raw #10)
+       Entity : Total Anxiety (15.1)
+       Preview: Total Anxiety (15.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+  # 5  [scales      ] ✓  score=+0.5554  (raw #12)
+       Entity : Panic Disorder (9.1)
+       Preview: Panic Disorder (9.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+
+  Section breakdown: instruments: 0%  |  scales: 100%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Major depressive disorder"  [expected: scales  |  searched: scales only]
+(top 4 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ] ✓  score=+0.6805  (raw # 1)
+       Entity : Major Depressive Disorder (10.1)
+       Preview: Major Depressive Disorder (10.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire...
+  # 2  [scales      ] ✓  score=+0.5995  (raw #11)
+       Entity : Depression (9.1)
+       Preview: Depression (9.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+  # 3  [scales      ] ✓  score=+0.5600  (raw #17)
+       Entity : Total Depression (5.1)
+       Preview: Total Depression (5.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   -...
+  # 4  [scales      ] ✓  score=+0.5519  (raw #20)
+       Entity : Total Anxiety and Depression (47.1)
+       Preview: Total Anxiety and Depression (47.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionna...
+
+  Section breakdown: instruments: 0%  |  scales: 100%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Obsessive compulsive disorder"  [expected: scales  |  searched: scales only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ] ✓  score=+0.6884  (raw # 1)
+       Entity : Obsessive Compulsive Disorder (6.1)
+       Preview: Obsessive Compulsive Disorder (6.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionna...
+  # 2  [scales      ] ✓  score=+0.4987  (raw # 7)
+       Entity : Total Anxiety (37.1)
+       Preview: Total Anxiety (37.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+  # 3  [scales      ] ✓  score=+0.4956  (raw # 8)
+       Entity : Total Anxiety and Depression (47.1)
+       Preview: Total Anxiety and Depression (47.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionna...
+  # 4  [scales      ] ✓  score=+0.4953  (raw # 9)
+       Entity : Total Anxiety (15.1)
+       Preview: Total Anxiety (15.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+  # 5  [scales      ] ✓  score=+0.4897  (raw #10)
+       Entity : Total Anxiety and Depression (25.1)
+       Preview: Total Anxiety and Depression (25.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionna...
+
+  Section breakdown: instruments: 0%  |  scales: 100%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Total anxiety"  [expected: scales  |  searched: scales only]
+(top 3 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ] ✓  score=+0.6929  (raw # 1)
+       Entity : Total Anxiety (37.1)
+       Preview: Total Anxiety (37.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+  # 2  [scales      ] ✓  score=+0.6906  (raw # 3)
+       Entity : Total Anxiety (15.1)
+       Preview: Total Anxiety (15.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+  # 3  [scales      ] ✓  score=+0.6839  (raw # 6)
+       Entity : Total Anxiety (20.1)
+       Preview: Total Anxiety (20.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+
+  Section breakdown: instruments: 0%  |  scales: 100%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Total depression"  [expected: scales  |  searched: scales only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ] ✓  score=+0.6002  (raw # 1)
+       Entity : Total Depression (5.1)
+       Preview: Total Depression (5.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   -...
+  # 2  [scales      ] ✓  score=+0.5738  (raw # 2)
+       Entity : Depression (9.1)
+       Preview: Depression (9.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+  # 3  [scales      ] ✓  score=+0.5715  (raw # 3)
+       Entity : Total Anxiety and Depression (47.1)
+       Preview: Total Anxiety and Depression (47.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionna...
+  # 4  [scales      ] ✓  score=+0.5561  (raw # 8)
+       Entity : Total Anxiety and Depression (25.1)
+       Preview: Total Anxiety and Depression (25.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionna...
+  # 5  [scales      ] ✓  score=+0.5397  (raw #18)
+       Entity : Major Depressive Disorder (10.1)
+       Preview: Major Depressive Disorder (10.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire...
+
+  Section breakdown: instruments: 0%  |  scales: 100%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Total anxiety and depression"  [expected: scales  |  searched: scales only]
+(top 2 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ] ✓  score=+0.7131  (raw # 1)
+       Entity : Total Anxiety and Depression (47.1)
+       Preview: Total Anxiety and Depression (47.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionna...
+  # 2  [scales      ] ✓  score=+0.6893  (raw #17)
+       Entity : Total Anxiety and Depression (25.1)
+       Preview: Total Anxiety and Depression (25.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionna...
+
+  Section breakdown: instruments: 0%  |  scales: 100%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Therapeutic relationship"  [expected: scales  |  searched: scales only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ] ✓  score=+0.5310  (raw # 1)
+       Entity : Relationship (7.1)
+       Preview: Relationship (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has...
+  # 2  [scales      ] ✓  score=+0.4811  (raw # 6)
+       Entity : Expectancy (7.1)
+       Preview: Expectancy (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+  # 3  [scales      ] ✓  score=+0.4684  (raw # 9)
+       Entity : Homework (7.1)
+       Preview: Homework (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has mem...
+  # 4  [scales      ] ✓  score=+0.4438  (raw #13)
+       Entity : Clarity (7.1)
+       Preview: Clarity (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has memb...
+  # 5  [scales      ] ✓  score=+0.4392  (raw #15)
+       Entity : Attendance (7.1)
+       Preview: Attendance (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+
+  Section breakdown: instruments: 0%  |  scales: 100%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Treatment expectancy"  [expected: scales  |  searched: scales only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ] ✓  score=+0.6512  (raw # 1)
+       Entity : Expectancy (7.1)
+       Preview: Expectancy (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+  # 2  [scales      ] ✓  score=+0.4910  (raw # 8)
+       Entity : Depression (9.1)
+       Preview: Depression (9.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+  # 3  [scales      ] ✓  score=+0.4855  (raw # 9)
+       Entity : Attendance (7.1)
+       Preview: Attendance (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+  # 4  [scales      ] ✓  score=+0.4812  (raw #10)
+       Entity : Total Anxiety and Depression (25.1)
+       Preview: Total Anxiety and Depression (25.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionna...
+  # 5  [scales      ] ✓  score=+0.4802  (raw #11)
+       Entity : Homework (7.1)
+       Preview: Homework (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has mem...
+
+  Section breakdown: instruments: 0%  |  scales: 100%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Treatment attendance"  [expected: scales  |  searched: scales only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ] ✓  score=+0.6584  (raw # 1)
+       Entity : Attendance (7.1)
+       Preview: Attendance (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+  # 2  [scales      ] ✓  score=+0.5086  (raw # 8)
+       Entity : Homework (7.1)
+       Preview: Homework (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has mem...
+  # 3  [scales      ] ✓  score=+0.4806  (raw # 9)
+       Entity : Relationship (7.1)
+       Preview: Relationship (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has...
+  # 4  [scales      ] ✓  score=+0.4640  (raw #11)
+       Entity : Expectancy (7.1)
+       Preview: Expectancy (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+  # 5  [scales      ] ✓  score=+0.4454  (raw #14)
+       Entity : Depression (9.1)
+       Preview: Depression (9.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+
+  Section breakdown: instruments: 0%  |  scales: 100%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Homework completion"  [expected: scales  |  searched: scales only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ] ✓  score=+0.4508  (raw # 1)
+       Entity : Homework (7.1)
+       Preview: Homework (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has mem...
+  # 2  [scales      ] ✓  score=+0.4494  (raw # 2)
+       Entity : Attendance (7.1)
+       Preview: Attendance (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+  # 3  [scales      ] ✓  score=+0.4092  (raw #11)
+       Entity : Expectancy (7.1)
+       Preview: Expectancy (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+  # 4  [scales      ] ✓  score=+0.4077  (raw #13)
+       Entity : Total Anxiety (37.1)
+       Preview: Total Anxiety (37.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+  # 5  [scales      ] ✓  score=+0.4013  (raw #14)
+       Entity : Clarity (7.1)
+       Preview: Clarity (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has memb...
+
+  Section breakdown: instruments: 0%  |  scales: 100%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Therapy clarity"  [expected: scales  |  searched: scales only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ] ✓  score=+0.6540  (raw # 1)
+       Entity : Clarity (7.1)
+       Preview: Clarity (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has memb...
+  # 2  [scales      ] ✓  score=+0.5364  (raw # 8)
+       Entity : Expectancy (7.1)
+       Preview: Expectancy (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+  # 3  [scales      ] ✓  score=+0.5155  (raw #11)
+       Entity : Homework (7.1)
+       Preview: Homework (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has mem...
+  # 4  [scales      ] ✓  score=+0.5106  (raw #14)
+       Entity : Relationship (7.1)
+       Preview: Relationship (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has...
+  # 5  [scales      ] ✓  score=+0.4997  (raw #16)
+       Entity : Attendance (7.1)
+       Preview: Attendance (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+
+  Section breakdown: instruments: 0%  |  scales: 100%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "questionnaire scale"  [expected: scales  |  searched: scales only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ] ✓  score=+0.6800  (raw # 1)
+       Entity : Relationship (7.1)
+       Preview: Relationship (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has...
+  # 2  [scales      ] ✓  score=+0.6728  (raw # 2)
+       Entity : Homework (7.1)
+       Preview: Homework (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has mem...
+  # 3  [scales      ] ✓  score=+0.6699  (raw # 3)
+       Entity : Attendance (7.1)
+       Preview: Attendance (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+  # 4  [scales      ] ✓  score=+0.6519  (raw #10)
+       Entity : Expectancy (7.1)
+       Preview: Expectancy (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+  # 5  [scales      ] ✓  score=+0.6344  (raw #20)
+       Entity : Clarity (7.1)
+       Preview: Clarity (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has memb...
+
+  Section breakdown: instruments: 0%  |  scales: 100%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "notation SP"  [expected: scales  |  searched: scales only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ] ✓  score=+0.4413  (raw # 1)
+       Entity : Attendance (7.1)
+       Preview: Attendance (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+  # 2  [scales      ] ✓  score=+0.4412  (raw # 2)
+       Entity : Social Phobia (9.1)
+       Preview: Social Phobia (9.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - ha...
+  # 3  [scales      ] ✓  score=+0.4392  (raw # 3)
+       Entity : Clarity (7.1)
+       Preview: Clarity (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has memb...
+  # 4  [scales      ] ✓  score=+0.4378  (raw # 4)
+       Entity : Homework (7.1)
+       Preview: Homework (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has mem...
+  # 5  [scales      ] ✓  score=+0.4333  (raw # 5)
+       Entity : Expectancy (7.1)
+       Preview: Expectancy (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+
+  Section breakdown: instruments: 0%  |  scales: 100%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "notation GAD"  [expected: scales  |  searched: scales only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ] ✓  score=+0.4822  (raw # 1)
+       Entity : Generalized Anxiety Disorder (6.1)
+       Preview: Generalized Anxiety Disorder (6.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnai...
+  # 2  [scales      ] ✓  score=+0.4424  (raw # 7)
+       Entity : Homework (7.1)
+       Preview: Homework (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has mem...
+  # 3  [scales      ] ✓  score=+0.4404  (raw # 9)
+       Entity : Attendance (7.1)
+       Preview: Attendance (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+  # 4  [scales      ] ✓  score=+0.4343  (raw #10)
+       Entity : Clarity (7.1)
+       Preview: Clarity (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has memb...
+  # 5  [scales      ] ✓  score=+0.4335  (raw #12)
+       Entity : Expectancy (7.1)
+       Preview: Expectancy (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+
+  Section breakdown: instruments: 0%  |  scales: 100%  |  collections: 0%  →  match%: 100%
+
+========================================================================
+Query: "Instrument collection"  [expected: collections  |  searched: collections only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [collections ] ✓  score=+0.8288  (raw # 1)
+       Entity : 2
+       Preview: 2. Attributes include:   - instance of: Instrument Collection   - has member count: 0
+  # 2  [collections ] ✓  score=+0.7086  (raw # 2)
+       Entity : PSWQ-C
+       Preview: PSWQ-C. Attributes include:   - instance of: Instrument Collection   - instance of: NamedIndividual   - instance of: ...
+  # 3  [collections ] ✓  score=+0.6283  (raw # 3)
+       Entity : GAD
+       Preview: GAD. Attributes include:   - instance of: Instrument Collection   - has member count: 1   - has member with unrecogni...
+  # 4  [collections ] ✓  score=+0.6211  (raw # 4)
+       Entity : 3
+       Preview: 3. Attributes include:   - instance of: Instrument Collection   - has member count: 9   - has instrument family: MTT-...
+  # 5  [collections ] ✓  score=+0.6046  (raw # 5)
+       Entity : 4
+       Preview: 4. Attributes include:   - instance of: Instrument Collection   - has member count: 1   - has instrument family: PHQ-...
+
+  Section breakdown: instruments: 0%  |  scales: 0%  |  collections: 100%  →  match%: 100%
+
+========================================================================
+Query: "Group of instruments"  [expected: collections  |  searched: collections only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [collections ] ✓  score=+0.7747  (raw # 1)
+       Entity : 2
+       Preview: 2. Attributes include:   - instance of: Instrument Collection   - has member count: 0
+  # 2  [collections ] ✓  score=+0.6451  (raw # 2)
+       Entity : PSWQ-C
+       Preview: PSWQ-C. Attributes include:   - instance of: Instrument Collection   - instance of: NamedIndividual   - instance of: ...
+  # 3  [collections ] ✓  score=+0.5907  (raw # 3)
+       Entity : 3
+       Preview: 3. Attributes include:   - instance of: Instrument Collection   - has member count: 9   - has instrument family: MTT-...
+  # 4  [collections ] ✓  score=+0.5790  (raw # 4)
+       Entity : GAD
+       Preview: GAD. Attributes include:   - instance of: Instrument Collection   - has member count: 1   - has member with unrecogni...
+  # 5  [collections ] ✓  score=+0.5572  (raw # 5)
+       Entity : PHQ
+       Preview: PHQ. Attributes include:   - instance of: Instrument Collection   - instance of: NamedIndividual   - instance of: ins...
+
+  Section breakdown: instruments: 0%  |  scales: 0%  |  collections: 100%  →  match%: 100%
+
+========================================================================
+Query: "Collection of questionnaires"  [expected: collections  |  searched: collections only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [collections ] ✓  score=+0.6692  (raw # 1)
+       Entity : PHQ
+       Preview: PHQ. Attributes include:   - instance of: Instrument Collection   - instance of: NamedIndividual   - instance of: ins...
+  # 2  [collections ] ✓  score=+0.6196  (raw # 2)
+       Entity : 4
+       Preview: 4. Attributes include:   - instance of: Instrument Collection   - has member count: 1   - has instrument family: PHQ-...
+  # 3  [collections ] ✓  score=+0.6095  (raw # 3)
+       Entity : RCADS
+       Preview: RCADS. Attributes include:   - instance of: Instrument Collection   - instance of: NamedIndividual   - instance of: i...
+  # 4  [collections ] ✓  score=+0.5906  (raw # 4)
+       Entity : GAD
+       Preview: GAD. Attributes include:   - instance of: Instrument Collection   - has member count: 1   - has member with unrecogni...
+  # 5  [collections ] ✓  score=+0.5875  (raw # 5)
+       Entity : 1
+       Preview: 1. Attributes include:   - instance of: Instrument Collection   - has member count: 111   - has instrument family: RC...
+
+  Section breakdown: instruments: 0%  |  scales: 0%  |  collections: 100%  →  match%: 100%
+
+========================================================================
+Query: "multilingual instrument set"  [expected: collections  |  searched: collections only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [collections ] ✓  score=+0.7374  (raw # 1)
+       Entity : 2
+       Preview: 2. Attributes include:   - instance of: Instrument Collection   - has member count: 0
+  # 2  [collections ] ✓  score=+0.6596  (raw # 2)
+       Entity : 3
+       Preview: 3. Attributes include:   - instance of: Instrument Collection   - has member count: 9   - has instrument family: MTT-...
+  # 3  [collections ] ✓  score=+0.6342  (raw # 3)
+       Entity : 1
+       Preview: 1. Attributes include:   - instance of: Instrument Collection   - has member count: 111   - has instrument family: RC...
+  # 4  [collections ] ✓  score=+0.6278  (raw # 4)
+       Entity : MTT
+       Preview: MTT. Attributes include:   - instance of: Instrument Collection   - instance of: NamedIndividual   - instance of: ins...
+  # 5  [collections ] ✓  score=+0.6273  (raw # 5)
+       Entity : PHQ
+       Preview: PHQ. Attributes include:   - instance of: Instrument Collection   - instance of: NamedIndividual   - instance of: ins...
+
+  Section breakdown: instruments: 0%  |  scales: 0%  |  collections: 100%  →  match%: 100%
+
+========================================================================
+Query: "instrument set RCADS"  [expected: collections  |  searched: collections only]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [collections ] ✓  score=+0.6998  (raw # 1)
+       Entity : RCADS
+       Preview: RCADS. Attributes include:   - instance of: Instrument Collection   - instance of: NamedIndividual   - instance of: i...
+  # 2  [collections ] ✓  score=+0.6692  (raw # 2)
+       Entity : 1
+       Preview: 1. Attributes include:   - instance of: Instrument Collection   - has member count: 111   - has instrument family: RC...
+  # 3  [collections ] ✓  score=+0.5516  (raw # 3)
+       Entity : 2
+       Preview: 2. Attributes include:   - instance of: Instrument Collection   - has member count: 0
+  # 4  [collections ] ✓  score=+0.5500  (raw # 4)
+       Entity : GAD
+       Preview: GAD. Attributes include:   - instance of: Instrument Collection   - has member count: 1   - has member with unrecogni...
+  # 5  [collections ] ✓  score=+0.4970  (raw # 5)
+       Entity : PHQ
+       Preview: PHQ. Attributes include:   - instance of: Instrument Collection   - instance of: NamedIndividual   - instance of: ins...
+
+  Section breakdown: instruments: 0%  |  scales: 0%  |  collections: 100%  →  match%: 100%
+
+========================================================================
+Query: "afraid of being in crowded places"  [no expectation  |  searched: all sections]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ]  score=+0.6694  (raw # 1)
+       Entity : Total Anxiety (15.1)
+       Preview: Total Anxiety (15.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+  # 2  [scales      ]  score=+0.6642  (raw # 2)
+       Entity : Total Anxiety (37.1)
+       Preview: Total Anxiety (37.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+  # 3  [scales      ]  score=+0.6510  (raw # 3)
+       Entity : Separation Anxiety Disorder (7.1)
+       Preview: Separation Anxiety Disorder (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnair...
+  # 4  [instruments ]  score=+0.6441  (raw # 4)
+       Entity : RCADS-47-Y-EN
+       Preview: RCADS-47-Y-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+  # 5  [instruments ]  score=+0.6383  (raw # 5)
+       Entity : RCADS-25-Y-EN
+       Preview: RCADS-25-Y-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+
+  Section breakdown: instruments: 40%  |  scales: 60%  |  collections: 0%
+
+========================================================================
+Query: "feels nothing is much fun anymore"  [no expectation  |  searched: all sections]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [instruments ]  score=+0.5536  (raw # 1)
+       Entity : PHQ-9-A-EN
+       Preview: PHQ-9-A-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: psyc...
+  # 2  [scales      ]  score=+0.5484  (raw # 2)
+       Entity : Total Anxiety and Depression (47.1)
+       Preview: Total Anxiety and Depression (47.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionna...
+  # 3  [scales      ]  score=+0.5292  (raw # 3)
+       Entity : Total Anxiety and Depression (25.1)
+       Preview: Total Anxiety and Depression (25.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionna...
+  # 4  [instruments ]  score=+0.5168  (raw # 5)
+       Entity : RCADS-47-CG-EN-2
+       Preview: RCADS-47-CG-EN-2. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - ...
+  # 5  [scales      ]  score=+0.5051  (raw # 7)
+       Entity : Depression (9.1)
+       Preview: Depression (9.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+
+  Section breakdown: instruments: 40%  |  scales: 60%  |  collections: 0%
+
+========================================================================
+Query: "worries about mistakes"  [no expectation  |  searched: all sections]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ]  score=+0.6483  (raw # 1)
+       Entity : Total Anxiety (37.1)
+       Preview: Total Anxiety (37.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - h...
+  # 2  [instruments ]  score=+0.6314  (raw # 2)
+       Entity : RCADS-47-CG-EN-2
+       Preview: RCADS-47-CG-EN-2. Attributes include:   - instance of: Questionnaire   - instance of: psychometric questionnaire   - ...
+  # 3  [scales      ]  score=+0.6143  (raw # 3)
+       Entity : Social Phobia (9.1)
+       Preview: Social Phobia (9.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - ha...
+  # 4  [scales      ]  score=+0.6054  (raw # 4)
+       Entity : Total Anxiety and Depression (47.1)
+       Preview: Total Anxiety and Depression (47.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionna...
+  # 5  [instruments ]  score=+0.5810  (raw # 5)
+       Entity : RCADS-47-Y-EN
+       Preview: RCADS-47-Y-EN. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+
+  Section breakdown: instruments: 40%  |  scales: 60%  |  collections: 0%
+
+========================================================================
+Query: "I actively participate"  [no expectation  |  searched: all sections]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ]  score=+0.5835  (raw # 1)
+       Entity : Homework (7.1)
+       Preview: Homework (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has mem...
+  # 2  [scales      ]  score=+0.5398  (raw # 2)
+       Entity : Attendance (7.1)
+       Preview: Attendance (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has m...
+  # 3  [instruments ]  score=+0.5396  (raw # 3)
+       Entity : MTT-35-Y-EN-1
+       Preview: MTT-35-Y-EN-1. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+  # 4  [instruments ]  score=+0.5340  (raw # 4)
+       Entity : MTT-35-Y-EN-2
+       Preview: MTT-35-Y-EN-2. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+  # 5  [instruments ]  score=+0.5312  (raw # 5)
+       Entity : MTT-35-CG-EN-3
+       Preview: MTT-35-CG-EN-3. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+
+  Section breakdown: instruments: 60%  |  scales: 40%  |  collections: 0%
+
+========================================================================
+Query: "counselor understands my culture"  [no expectation  |  searched: all sections]
+(top 5 unique entities from top-20 raw results)
+------------------------------------------------------------------------
+  # 1  [scales      ]  score=+0.7102  (raw # 1)
+       Entity : Relationship (7.1)
+       Preview: Relationship (7.1). Attributes include:   - instance of: NamedIndividual   - instance of: questionnaire scale   - has...
+  # 2  [instruments ]  score=+0.6818  (raw # 2)
+       Entity : MTT-35-Y-EN-2
+       Preview: MTT-35-Y-EN-2. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+  # 3  [instruments ]  score=+0.6684  (raw # 3)
+       Entity : MTT-35-CG-EN-2
+       Preview: MTT-35-CG-EN-2. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+  # 4  [instruments ]  score=+0.6520  (raw # 4)
+       Entity : MTT-35-Y-EN-1
+       Preview: MTT-35-Y-EN-1. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: p...
+  # 5  [instruments ]  score=+0.6393  (raw # 5)
+       Entity : MTT-35-CG-EN-1
+       Preview: MTT-35-CG-EN-1. Attributes include:   - instance of: NamedIndividual   - instance of: Questionnaire   - instance of: ...
+
+  Section breakdown: instruments: 80%  |  scales: 20%  |  collections: 0%
+
+========================================================================
+SUMMARY
+------------------------------------------------------------------------
+Average section breakdown across ALL queries:
+  instruments : 45.2%
+  scales      : 44.8%
+  collections : 10.0%
+
+Average match% by expected section type:
+  collections : 100.0%  (5 queries)
+  instruments : 100.0%  (20 queries)
+  scales      : 100.0%  (20 queries)

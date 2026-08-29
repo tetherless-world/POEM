@@ -1,0 +1,18 @@
+# Build context for embeddings/MCP/Dockerfile is this folder (embeddings/).
+# The Dockerfile only COPYs poem_core/, MCP/, pyproject.toml, MAIN.md, and the
+# three corpus section folders under Pipeline/ -- everything below is excluded
+# to keep the build-context upload small. Not itself the correctness boundary
+# (the Dockerfile's explicit COPY list is), just a size/speed optimization.
+
+MCP/.venv-mcp/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+.pytest_cache/
+*.egg-info/
+docker/volumes/
+Pipeline/cli_query_results/
+Pipeline/evaluation_results/
+Pipeline/test_results.txt
+manuals/
+presentation/
