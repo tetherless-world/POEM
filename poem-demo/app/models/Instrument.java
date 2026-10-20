@@ -48,74 +48,79 @@ public class Instrument extends models.Resource {
     }
 
     public static List<Instrument> getAll() {
-        List<Instrument> instruments = new ArrayList<Instrument>();
-        Model model = POEMModel.getModel();
-        ResIterator iter = model.listSubjectsWithProperty(RDF.type, ResourceFactory.createResource("http://purl.org/twc/poem/PsychometricQuestionnaire"));
-        while (iter.hasNext()) {
-            Resource r = iter.nextResource();
-            Instrument instrument = new Instrument();
-            instrument.setUri(r.getURI());
-            model.listObjectsOfProperty(r, RDFS.label).forEachRemaining(label -> {
-                instrument.setLabel(label.asLiteral().getString());
-            });
-            instrument.setLanguage(Language.getByInstrument(r.getURI()));
-             if (r.getProperty(OWL.deprecated) != null) {
-                 instrument.setDeprecated(r.getProperty(OWL.deprecated).getInt());
-             } else {
-                 instrument.setDeprecated(0);
-             }
-            instruments.add(instrument);
+        try (var transaction = POEMModel.readTransaction()) {
+            List<Instrument> instruments = new ArrayList<Instrument>();
+            Model model = POEMModel.getModel();
+            ResIterator iter = model.listSubjectsWithProperty(RDF.type, ResourceFactory.createResource("http://purl.org/twc/poem/PsychometricQuestionnaire"));
+            while (iter.hasNext()) {
+                Resource r = iter.nextResource();
+                Instrument instrument = new Instrument();
+                instrument.setUri(r.getURI());
+                model.listObjectsOfProperty(r, RDFS.label).forEachRemaining(label -> {
+                    instrument.setLabel(label.asLiteral().getString());
+                });
+                instrument.setLanguage(Language.getByInstrument(r.getURI()));
+                 if (r.getProperty(OWL.deprecated) != null) {
+                     instrument.setDeprecated(r.getProperty(OWL.deprecated).getInt());
+                 } else {
+                     instrument.setDeprecated(0);
+                 }
+                instruments.add(instrument);
+            }
+            return instruments;
         }
-        return instruments;
     }
 
     public static Instrument getByUri(String uri) {
-        System.out.println("Instrument.getByUri: " + uri);
-        Instrument instrument = new Instrument();
-        Model model = POEMModel.getModel();
-        Resource resource = model.getResource(uri);
-        instrument.setUri(resource.getURI());
-        instrument.setLabel(resource.getProperty(RDFS.label).getString());
-        //instrument.setItems(Item.getByInstrument(resource.getURI()));
-        instrument.setComponents(Component.getByInstrument(resource.getURI()));
-        instrument.setLanguage(Language.getByInstrument(resource.getURI()));
-        if (resource.getProperty(OWL.deprecated) != null) {
-            instrument.setDeprecated(resource.getProperty(OWL.deprecated).getInt());
-        } else {
-            instrument.setDeprecated(0);
+        try (var transaction = POEMModel.readTransaction()) {
+            System.out.println("Instrument.getByUri: " + uri);
+            Instrument instrument = new Instrument();
+            Model model = POEMModel.getModel();
+            Resource resource = model.getResource(uri);
+            instrument.setUri(resource.getURI());
+            instrument.setLabel(resource.getProperty(RDFS.label).getString());
+            //instrument.setItems(Item.getByInstrument(resource.getURI()));
+            instrument.setComponents(Component.getByInstrument(resource.getURI()));
+            instrument.setLanguage(Language.getByInstrument(resource.getURI()));
+            if (resource.getProperty(OWL.deprecated) != null) {
+                instrument.setDeprecated(resource.getProperty(OWL.deprecated).getInt());
+            } else {
+                instrument.setDeprecated(0);
+            }
+            return instrument;
         }
-        return instrument;
     }
 
     public static List<Instrument> getSource(String uri) {
-        List<Instrument> instruments = new ArrayList<Instrument>();
-        Model model = POEMModel.getModel();
-        String queryString = String.format("""
-            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-            PREFIX prov: <http://www.w3.org/ns/prov#>
-            SELECT ?source
-            WHERE {
-                ?activity prov:generated <%s> .
-                ?activity prov:used ?source .
-            }
-        """, uri);
-        System.out.println(queryString);
-        Query query = QueryFactory.create(queryString);
+        try (var transaction = POEMModel.readTransaction()) {
+            List<Instrument> instruments = new ArrayList<Instrument>();
+            String queryString = String.format("""
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX prov: <http://www.w3.org/ns/prov#>
+                SELECT ?source
+                WHERE {
+                    ?activity prov:generated <%s> .
+                    ?activity prov:used ?source .
+                }
+            """, uri);
+            System.out.println(queryString);
+            Query query = QueryFactory.create(queryString);
 
-        try (QueryExecution qexec = QueryExecutionFactory.create(query, model)) {
-            ResultSet results = qexec.execSelect();
-            for ( ; results.hasNext() ; )
-            {
-                QuerySolution soln = results.nextSolution() ;
-                Resource r = soln.getResource("source") ; // Get a result variable - must be a resource
-                Instrument i = new Instrument();
-                i.setUri(r.asResource().getURI());
-                i.setLabel(r.asResource().getProperty(RDFS.label).getString());
-                instruments.add(i);
+            try (QueryExecution qexec = QueryExecutionFactory.create(query, POEMModel.getDataset())) {
+                ResultSet results = qexec.execSelect();
+                for ( ; results.hasNext() ; )
+                {
+                    QuerySolution soln = results.nextSolution() ;
+                    Resource r = soln.getResource("source") ; // Get a result variable - must be a resource
+                    Instrument i = new Instrument();
+                    i.setUri(r.asResource().getURI());
+                    i.setLabel(r.asResource().getProperty(RDFS.label).getString());
+                    instruments.add(i);
+                }
             }
+
+            return instruments;
         }
-
-        return instruments;
     }
 
     public static List<Instrument> getSource(Instrument instrument) {
@@ -123,34 +128,35 @@ public class Instrument extends models.Resource {
     }
 
     public static List<Instrument> getTarget(String uri) {
-        List<Instrument> instruments = new ArrayList<Instrument>();
-        Model model = POEMModel.getModel();
-        String queryString = String.format("""
-            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-            PREFIX prov: <http://www.w3.org/ns/prov#>
-            SELECT ?target
-            WHERE {
-                ?activity prov:used <%s> .
-                ?activity prov:generated ?target .
-            }
-        """, uri);
-        System.out.println(queryString);
-        Query query = QueryFactory.create(queryString);
+        try (var transaction = POEMModel.readTransaction()) {
+            List<Instrument> instruments = new ArrayList<Instrument>();
+            String queryString = String.format("""
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX prov: <http://www.w3.org/ns/prov#>
+                SELECT ?target
+                WHERE {
+                    ?activity prov:used <%s> .
+                    ?activity prov:generated ?target .
+                }
+            """, uri);
+            System.out.println(queryString);
+            Query query = QueryFactory.create(queryString);
 
-        try (QueryExecution qexec = QueryExecutionFactory.create(query, model)) {
-            ResultSet results = qexec.execSelect();
-            for ( ; results.hasNext() ; )
-            {
-                QuerySolution soln = results.nextSolution() ;
-                Resource r = soln.getResource("target") ; // Get a result variable - must be a resource
-                Instrument i = new Instrument();
-                i.setUri(r.asResource().getURI());
-                i.setLabel(r.asResource().getProperty(RDFS.label).getString());
-                instruments.add(i);
+            try (QueryExecution qexec = QueryExecutionFactory.create(query, POEMModel.getDataset())) {
+                ResultSet results = qexec.execSelect();
+                for ( ; results.hasNext() ; )
+                {
+                    QuerySolution soln = results.nextSolution() ;
+                    Resource r = soln.getResource("target") ; // Get a result variable - must be a resource
+                    Instrument i = new Instrument();
+                    i.setUri(r.asResource().getURI());
+                    i.setLabel(r.asResource().getProperty(RDFS.label).getString());
+                    instruments.add(i);
+                }
             }
+
+            return instruments;
         }
-
-        return instruments;
     }
 
     public static List<Instrument> getTarget(Instrument instrument) {
@@ -162,22 +168,24 @@ public class Instrument extends models.Resource {
     }
 
     public List<String> getInformantUris() {
-        List<String> informants = new ArrayList<>();
-        Model model = POEMModel.getModel();
-        var attributes = model.listObjectsOfProperty(model.getResource(getUri()),
-            ResourceFactory.createProperty("http://semanticscience.org/resource/SIO_000008"));
-        try {
-            while (attributes.hasNext()) {
-                var attribute = attributes.next();
-                if (attribute.isURIResource() && attribute.asResource().hasProperty(RDF.type,
-                        ResourceFactory.createResource("http://purl.org/twc/vstoi/Informant"))) {
-                    informants.add(attribute.asResource().getURI());
+        try (var transaction = POEMModel.readTransaction()) {
+            List<String> informants = new ArrayList<>();
+            Model model = POEMModel.getModel();
+            var attributes = model.listObjectsOfProperty(model.getResource(getUri()),
+                ResourceFactory.createProperty("http://semanticscience.org/resource/SIO_000008"));
+            try {
+                while (attributes.hasNext()) {
+                    var attribute = attributes.next();
+                    if (attribute.isURIResource() && attribute.asResource().hasProperty(RDF.type,
+                            ResourceFactory.createResource("http://purl.org/twc/vstoi/Informant"))) {
+                        informants.add(attribute.asResource().getURI());
+                    }
                 }
+            } finally {
+                attributes.close();
             }
-        } finally {
-            attributes.close();
+            return informants;
         }
-        return informants;
     }
 
     public void setLanguage(Language language) {

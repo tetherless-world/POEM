@@ -10,7 +10,6 @@ import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.query.QueryFactory;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
-import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Resource;
 import play.Logger;
 import services.chat.classifier.IntentClassifier;
@@ -432,47 +431,48 @@ public class ChatIntentResolver {
     }
 
     private static List<ResourceEntry> buildInstrumentCollectionIndex() {
-        List<ResourceEntry> entries = new ArrayList<>();
-        String queryText = """
-            PREFIX poem: <http://purl.org/twc/poem/>
-            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-            PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+        try (var transaction = POEMModel.readTransaction()) {
+            List<ResourceEntry> entries = new ArrayList<>();
+            String queryText = """
+                PREFIX poem: <http://purl.org/twc/poem/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-            SELECT ?collection ?label ?definition
-            WHERE {
-              ?collection a poem:InstrumentCollection .
-              OPTIONAL { ?collection rdfs:label ?label }
-              OPTIONAL { ?collection skos:definition ?definition }
-            }
-        """;
+                SELECT ?collection ?label ?definition
+                WHERE {
+                  ?collection a poem:InstrumentCollection .
+                  OPTIONAL { ?collection rdfs:label ?label }
+                  OPTIONAL { ?collection skos:definition ?definition }
+                }
+            """;
 
-        Model model = POEMModel.getModel();
-        Query query = QueryFactory.create(queryText);
-        try (QueryExecution qexec = QueryExecutionFactory.create(query, model)) {
-            ResultSet results = qexec.execSelect();
-            while (results.hasNext()) {
-                QuerySolution sol = results.next();
-                Resource resource = sol.getResource("collection");
-                String uri = resource.getURI();
-                String label = sol.contains("label") ? sol.getLiteral("label").getString() : uri;
-                Set<String> tokens = new LinkedHashSet<>();
-                for (String variant : generateVariants(label)) {
-                    tokens.addAll(tokenize(variant));
+            Query query = QueryFactory.create(queryText);
+            try (QueryExecution qexec = QueryExecutionFactory.create(query, POEMModel.getDataset())) {
+                ResultSet results = qexec.execSelect();
+                while (results.hasNext()) {
+                    QuerySolution sol = results.next();
+                    Resource resource = sol.getResource("collection");
+                    String uri = resource.getURI();
+                    String label = sol.contains("label") ? sol.getLiteral("label").getString() : uri;
+                    Set<String> tokens = new LinkedHashSet<>();
+                    for (String variant : generateVariants(label)) {
+                        tokens.addAll(tokenize(variant));
+                    }
+                    if (sol.contains("definition")) {
+                        tokens.addAll(basicTokens(sol.getLiteral("definition").getString()));
+                    }
+                    tokens.add("collection");
+                    tokens.add("collections");
+                    tokens.add("family");
+                    tokens.add("families");
+                    tokens.add("instrumentcollection");
+                    tokens.add("instrumentfamily");
+                    entries.add(new ResourceEntry(label, uri, tokens));
                 }
-                if (sol.contains("definition")) {
-                    tokens.addAll(basicTokens(sol.getLiteral("definition").getString()));
-                }
-                tokens.add("collection");
-                tokens.add("collections");
-                tokens.add("family");
-                tokens.add("families");
-                tokens.add("instrumentcollection");
-                tokens.add("instrumentfamily");
-                entries.add(new ResourceEntry(label, uri, tokens));
             }
+            entries.sort(Comparator.comparing(e -> e.label().toLowerCase(Locale.ROOT)));
+            return entries;
         }
-        entries.sort(Comparator.comparing(e -> e.label().toLowerCase(Locale.ROOT)));
-        return entries;
     }
 
     private static List<ResourceEntry> buildInstrumentIndex() {

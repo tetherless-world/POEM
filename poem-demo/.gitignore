@@ -1,5 +1,6 @@
 logs
 target
+/tdb2/
 /.bsp
 /.idea
 /.idea_modules

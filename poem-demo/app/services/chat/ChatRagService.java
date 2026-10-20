@@ -239,7 +239,7 @@ public class ChatRagService {
     }
 
     private String describeLanguage(String uri, String labelPrefix) {
-        try {
+        try (var transaction = POEMModel.readTransaction()) {
             Model model = POEMModel.getModel();
             Resource resource = model.getResource(uri);
             if (resource != null) {
@@ -257,7 +257,7 @@ public class ChatRagService {
     }
 
     private String fetchLabel(String uri) {
-        try {
+        try (var transaction = POEMModel.readTransaction()) {
             Model model = POEMModel.getModel();
             Resource resource = model.getResource(uri);
             if (resource != null && resource.hasProperty(RDFS.label)) {
@@ -270,7 +270,7 @@ public class ChatRagService {
     }
 
     private String fetchDefinition(String uri) {
-        try {
+        try (var transaction = POEMModel.readTransaction()) {
             Model model = POEMModel.getModel();
             Resource resource = model.getResource(uri);
             if (resource != null && resource.hasProperty(SKOS.definition)) {

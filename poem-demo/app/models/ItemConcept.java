@@ -20,53 +20,56 @@ import utils.POEMModel;
 
 public class ItemConcept extends models.Resource {
     public static List<ItemConcept> getByScale(QuestionnaireScale scale) {
-        List<ItemConcept> itemConcepts = new ArrayList<ItemConcept>();
-        Model model = POEMModel.getModel();
-        NodeIterator iter = model.listObjectsOfProperty(ResourceFactory.createResource(scale.getUri()), ResourceFactory.createProperty("http://semanticscience.org/resource/SIO_000059"));
-        while (iter.hasNext()) {
-            ItemConcept itemConcept = new ItemConcept();
-            RDFNode node = iter.nextNode();
-            itemConcept.setUri(node.asResource().getURI());
-            itemConcept.setLabel(node.asResource().getProperty(RDFS.label).getString());
-            itemConcepts.add(itemConcept);
+        try (var transaction = POEMModel.readTransaction()) {
+            List<ItemConcept> itemConcepts = new ArrayList<ItemConcept>();
+            Model model = POEMModel.getModel();
+            NodeIterator iter = model.listObjectsOfProperty(ResourceFactory.createResource(scale.getUri()), ResourceFactory.createProperty("http://semanticscience.org/resource/SIO_000059"));
+            while (iter.hasNext()) {
+                ItemConcept itemConcept = new ItemConcept();
+                RDFNode node = iter.nextNode();
+                itemConcept.setUri(node.asResource().getURI());
+                itemConcept.setLabel(node.asResource().getProperty(RDFS.label).getString());
+                itemConcepts.add(itemConcept);
+            }
+            return itemConcepts;
         }
-        return itemConcepts;
     }
 
     public static List<ItemConcept> getByInstruments(Instrument instrument0, Instrument instrument1) {
-        List<ItemConcept> itemConcepts = new ArrayList<ItemConcept>();
-        Model model = POEMModel.getModel();
-        String queryString = String.format("""
-            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-            PREFIX prov: <http://www.w3.org/ns/prov#>
-            PREFIX sio: <http://semanticscience.org/resource/>
-            PREFIX vstoi: <http://purl.org/twc/vstoi/>
-            SELECT ?itemConcept
-            WHERE {
-                <%s> sio:SIO_000059+ ?item0 .
-                <%s> sio:SIO_000059+ ?item1 .
-                ?item0 a vstoi:Item ;
-                       sio:SIO_000253/sio:SIO_000253 ?itemConcept .
-                ?item1 a vstoi:Item ;
-                       sio:SIO_000253/sio:SIO_000253 ?itemConcept .
-            }
-        """, instrument0.getUri(), instrument1.getUri());
-        
-        Query query = QueryFactory.create(queryString);
+        try (var transaction = POEMModel.readTransaction()) {
+            List<ItemConcept> itemConcepts = new ArrayList<ItemConcept>();
+            String queryString = String.format("""
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX prov: <http://www.w3.org/ns/prov#>
+                PREFIX sio: <http://semanticscience.org/resource/>
+                PREFIX vstoi: <http://purl.org/twc/vstoi/>
+                SELECT ?itemConcept
+                WHERE {
+                    <%s> sio:SIO_000059+ ?item0 .
+                    <%s> sio:SIO_000059+ ?item1 .
+                    ?item0 a vstoi:Item ;
+                           sio:SIO_000253/sio:SIO_000253 ?itemConcept .
+                    ?item1 a vstoi:Item ;
+                           sio:SIO_000253/sio:SIO_000253 ?itemConcept .
+                }
+            """, instrument0.getUri(), instrument1.getUri());
 
-        try (QueryExecution qexec = QueryExecutionFactory.create(query, model)) {
-            ResultSet results = qexec.execSelect();
-            for ( ; results.hasNext() ; )
-            {
-                QuerySolution soln = results.nextSolution() ;
-                Resource r = soln.getResource("itemConcept") ; // Get a result variable - must be a resource
-                ItemConcept i = new ItemConcept();
-                i.setUri(r.asResource().getURI());
-                i.setLabel(r.asResource().getProperty(RDFS.label).getString());
-                itemConcepts.add(i);
+            Query query = QueryFactory.create(queryString);
+
+            try (QueryExecution qexec = QueryExecutionFactory.create(query, POEMModel.getDataset())) {
+                ResultSet results = qexec.execSelect();
+                for ( ; results.hasNext() ; )
+                {
+                    QuerySolution soln = results.nextSolution() ;
+                    Resource r = soln.getResource("itemConcept") ; // Get a result variable - must be a resource
+                    ItemConcept i = new ItemConcept();
+                    i.setUri(r.asResource().getURI());
+                    i.setLabel(r.asResource().getProperty(RDFS.label).getString());
+                    itemConcepts.add(i);
+                }
             }
+
+            return itemConcepts;
         }
-
-        return itemConcepts;
     }
 }

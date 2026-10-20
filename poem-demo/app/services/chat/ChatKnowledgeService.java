@@ -40,22 +40,24 @@ public class ChatKnowledgeService {
         //logger.debug("Executing SPARQL for intent {}: {}", intent.name(), sparql);
         Query query = QueryFactory.create(sparql);
 
-        try (QueryExecution execution = QueryExecutionFactory.create(query, POEMModel.getModel())) {
-            ResultSet resultSet = execution.execSelect();
-            List<String> vars = resultSet.getResultVars();
-            List<Map<String, String>> rows = new ArrayList<>();
+        try (var transaction = POEMModel.readTransaction()) {
+            try (QueryExecution execution = QueryExecutionFactory.create(query, POEMModel.getDataset())) {
+                ResultSet resultSet = execution.execSelect();
+                List<String> vars = resultSet.getResultVars();
+                List<Map<String, String>> rows = new ArrayList<>();
 
-            while (resultSet.hasNext()) {
-                QuerySolution solution = resultSet.next();
-                Map<String, String> row = new LinkedHashMap<>();
-                for (String var : vars) {
-                    RDFNode node = solution.get(var);
-                    row.put(var, renderNode(node));
+                while (resultSet.hasNext()) {
+                    QuerySolution solution = resultSet.next();
+                    Map<String, String> row = new LinkedHashMap<>();
+                    for (String var : vars) {
+                        RDFNode node = solution.get(var);
+                        row.put(var, renderNode(node));
+                    }
+                    rows.add(row);
                 }
-                rows.add(row);
-            }
 
-            return new ChatQueryResult(vars, rows);
+                return new ChatQueryResult(vars, rows);
+            }
         }
     }
 

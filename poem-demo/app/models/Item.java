@@ -37,79 +37,84 @@ public class Item extends models.Resource {
         super();
     }
         public static List<Item> getAll() {
-            List<Item> items = new ArrayList<>();
-            Model model = POEMModel.getModel();
-            // vstoi:Item type URI
-            org.apache.jena.rdf.model.ResIterator iter = model.listSubjectsWithProperty(
-                org.apache.jena.vocabulary.RDF.type,
-                org.apache.jena.rdf.model.ResourceFactory.createResource("http://purl.org/twc/vstoi/Item")
-            );
-            while (iter.hasNext()) {
-                org.apache.jena.rdf.model.Resource r = iter.nextResource();
-                Item item = new Item();
-                item.setUri(r.getURI());
-                if (r.hasProperty(org.apache.jena.vocabulary.RDFS.label)) {
-                    item.setLabel(r.getProperty(org.apache.jena.vocabulary.RDFS.label).getString());
+            try (var transaction = POEMModel.readTransaction()) {
+                List<Item> items = new ArrayList<>();
+                Model model = POEMModel.getModel();
+                // vstoi:Item type URI
+                org.apache.jena.rdf.model.ResIterator iter = model.listSubjectsWithProperty(
+                    org.apache.jena.vocabulary.RDF.type,
+                    org.apache.jena.rdf.model.ResourceFactory.createResource("http://purl.org/twc/vstoi/Item")
+                );
+                while (iter.hasNext()) {
+                    org.apache.jena.rdf.model.Resource r = iter.nextResource();
+                    Item item = new Item();
+                    item.setUri(r.getURI());
+                    if (r.hasProperty(org.apache.jena.vocabulary.RDFS.label)) {
+                        item.setLabel(r.getProperty(org.apache.jena.vocabulary.RDFS.label).getString());
+                    }
+                    items.add(item);
                 }
-                items.add(item);
+                return items;
             }
-            return items;
         }
 
         public static Item getByUri(String uri) {
-            Item item = new Item();
-            Model model = POEMModel.getModel();
-            org.apache.jena.rdf.model.Resource resource = model.getResource(uri);
-            item.setUri(resource.getURI());
-            if (resource.hasProperty(org.apache.jena.vocabulary.RDFS.label)) {
-                item.setLabel(resource.getProperty(org.apache.jena.vocabulary.RDFS.label).getString());
+            try (var transaction = POEMModel.readTransaction()) {
+                Item item = new Item();
+                Model model = POEMModel.getModel();
+                org.apache.jena.rdf.model.Resource resource = model.getResource(uri);
+                item.setUri(resource.getURI());
+                if (resource.hasProperty(org.apache.jena.vocabulary.RDFS.label)) {
+                    item.setLabel(resource.getProperty(org.apache.jena.vocabulary.RDFS.label).getString());
+                }
+                return item;
             }
-            return item;
         }
 
     public static List<Item> getByInstrument(String instrumentUri) {
-        System.out.println("Item.getByInstrument: " + instrumentUri);
-        Model model = POEMModel.getModel();
-        ParameterizedSparqlString query = new ParameterizedSparqlString();
-        query.setCommandText("""
-            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-            PREFIX poem: <http://purl.org/twc/poem/>
-            PREFIX sio: <http://semanticscience.org/resource/>
-            PREFIX vstoi: <http://purl.org/twc/vstoi/>
-            SELECT ?item ?label ?pos
-            WHERE {
-                ?instrument a poem:PsychometricQuestionnaire .
-                ?instrument sio:SIO_000059+ ?section .
-                ?section sio:SIO_000059 ?item .
-                ?item a vstoi:Item .
-                ?item sio:SIO_000253/rdfs:label ?label .
-                ?item sio:SIO_000008 ?position .
-                ?position a sio:SIO_000613 .
-                ?position sio:SIO_000668 ?section .
-                ?position sio:SIO_000300 ?pos .
-                OPTIONAL {
-                    ?section sio:SIO_000008 ?sectionPosition .
-                    ?sectionPosition a sio:SIO_000613 ;
-                                     sio:SIO_000300 ?sectionPos .
+        try (var transaction = POEMModel.readTransaction()) {
+            System.out.println("Item.getByInstrument: " + instrumentUri);
+            ParameterizedSparqlString query = new ParameterizedSparqlString();
+            query.setCommandText("""
+                PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX poem: <http://purl.org/twc/poem/>
+                PREFIX sio: <http://semanticscience.org/resource/>
+                PREFIX vstoi: <http://purl.org/twc/vstoi/>
+                SELECT ?item ?label ?pos
+                WHERE {
+                    ?instrument a poem:PsychometricQuestionnaire .
+                    ?instrument sio:SIO_000059+ ?section .
+                    ?section sio:SIO_000059 ?item .
+                    ?item a vstoi:Item .
+                    ?item sio:SIO_000253/rdfs:label ?label .
+                    ?item sio:SIO_000008 ?position .
+                    ?position a sio:SIO_000613 .
+                    ?position sio:SIO_000668 ?section .
+                    ?position sio:SIO_000300 ?pos .
+                    OPTIONAL {
+                        ?section sio:SIO_000008 ?sectionPosition .
+                        ?sectionPosition a sio:SIO_000613 ;
+                                         sio:SIO_000300 ?sectionPos .
+                    }
+                }
+                ORDER BY ?sectionPos ?pos
+            """);
+            query.setIri("instrument", instrumentUri);
+            List<Item> items = new ArrayList<Item>();
+            try (QueryExecution qe = QueryExecutionFactory.create(query.asQuery(), POEMModel.getDataset())) {
+                ResultSet results = qe.execSelect();
+                while (results.hasNext()) {
+                    QuerySolution soln = results.nextSolution();
+                    Item item = new Item();
+                    item.setUri(soln.getResource("item").getURI());
+                    item.setLabel(soln.getLiteral("label").getString());
+                    item.setPosition(soln.getLiteral("pos").getInt());
+                    item.setCodebook(Codebook.getByItem(item.getUri()));
+                    items.add(item);
                 }
             }
-            ORDER BY ?sectionPos ?pos
-        """);
-        query.setIri("instrument", instrumentUri);
-        List<Item> items = new ArrayList<Item>();
-        try (QueryExecution qe = QueryExecutionFactory.create(query.asQuery(), model)) {
-            ResultSet results = qe.execSelect();
-            while (results.hasNext()) {
-                QuerySolution soln = results.nextSolution();
-                Item item = new Item();
-                item.setUri(soln.getResource("item").getURI());
-                item.setLabel(soln.getLiteral("label").getString());
-                item.setPosition(soln.getLiteral("pos").getInt());
-                item.setCodebook(Codebook.getByItem(item.getUri()));
-                items.add(item);
-            }
+            return items;
         }
-        return items;
     }
 }

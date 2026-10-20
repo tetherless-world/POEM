@@ -17,6 +17,17 @@ libraryDependencies += guice
 
 // https://mvnrepository.com/artifact/org.apache.jena/jena-arq
 libraryDependencies += "org.apache.jena" % "jena-arq" % "6.2.0"
+libraryDependencies += "org.apache.jena" % "jena-tdb2" % "6.2.0"
+
+// Parse OWL Functional Syntax ontologies (including SNOMED CT) before loading into Jena.
+libraryDependencies += "net.sourceforge.owlapi" % "owlapi-distribution" % "5.5.1"
+
+Universal / mappings ++= {
+  val ontologyDir = baseDirectory.value.getParentFile / "ontology"
+  (ontologyDir * "*").get.filter(_.isFile).map { file =>
+    file -> s"ontology/${file.getName}"
+  }
+}
 
 // https://mvnrepository.com/artifact/org.webjars/bootstrap
 libraryDependencies += "org.webjars" % "bootstrap" % "5.3.8"

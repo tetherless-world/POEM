@@ -6,7 +6,6 @@ import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
-import org.apache.jena.rdf.model.Model;
 
 import utils.POEMModel;
 
@@ -34,68 +33,70 @@ public class Language extends models.Resource {
     }
 
     public static List<Language> getAll() {
-        List<Language> languages = new ArrayList<>();
-        Model model = POEMModel.getModel();
-        
-        String queryString = 
-            "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> " +
-            "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
-            "PREFIX sio: <http://semanticscience.org/resource/> " +
-            "PREFIX skos: <http://www.w3.org/2004/02/skos/core#> " +
-            "SELECT ?language ?notation ?label " +
-            "WHERE { " +
-            "  ?language rdf:type sio:SIO_000104 . " +
-            "  ?language skos:notation ?notation . " +
-            "  ?language rdfs:label ?label . " +
-            "}";
-        
-        try (QueryExecution qexec = QueryExecutionFactory.create(queryString, model)) {
-            ResultSet results = qexec.execSelect();
-            while (results.hasNext()) {
-                QuerySolution soln = results.nextSolution();
-                String notation = soln.getLiteral("notation").getString();
-                String label = soln.getLiteral("label").getString();
-                String languageUri = soln.getResource("language").getURI();
-                Language language = new Language(notation);
-                language.setLabel(label);
-                language.setUri(languageUri);
-                languages.add(language);
+        try (var transaction = POEMModel.readTransaction()) {
+            List<Language> languages = new ArrayList<>();
+
+            String queryString =
+                "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> " +
+                "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
+                "PREFIX sio: <http://semanticscience.org/resource/> " +
+                "PREFIX skos: <http://www.w3.org/2004/02/skos/core#> " +
+                "SELECT ?language ?notation ?label " +
+                "WHERE { " +
+                "  ?language rdf:type sio:SIO_000104 . " +
+                "  ?language skos:notation ?notation . " +
+                "  ?language rdfs:label ?label . " +
+                "}";
+
+            try (QueryExecution qexec = QueryExecutionFactory.create(queryString, POEMModel.getDataset())) {
+                ResultSet results = qexec.execSelect();
+                while (results.hasNext()) {
+                    QuerySolution soln = results.nextSolution();
+                    String notation = soln.getLiteral("notation").getString();
+                    String label = soln.getLiteral("label").getString();
+                    String languageUri = soln.getResource("language").getURI();
+                    Language language = new Language(notation);
+                    language.setLabel(label);
+                    language.setUri(languageUri);
+                    languages.add(language);
+                }
             }
+
+            return languages;
         }
-        
-        return languages;
     }
 
     public static Language getByInstrument(String instrumentUri) {
-        Model model = POEMModel.getModel();
-        
-        String queryString = 
-            "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> " +
-            "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
-            "PREFIX sio: <http://semanticscience.org/resource/> " +
-            "PREFIX skos: <http://www.w3.org/2004/02/skos/core#> " +
-            "SELECT ?language ?notation ?label " +
-            "WHERE { " +
-            "  <" + instrumentUri + "> sio:SIO_000008 ?language . " +
-            "  ?language rdf:type sio:SIO_000104 . " +
-            "  ?language skos:notation ?notation . " +
-            "  ?language rdfs:label ?label . " +
-            "}";
-        
-        try (QueryExecution qexec = QueryExecutionFactory.create(queryString, model)) {
-            ResultSet results = qexec.execSelect();
-            if (results.hasNext()) {
-                QuerySolution soln = results.nextSolution();
-                String notation = soln.getLiteral("notation").getString();
-                String label = soln.getLiteral("label").getString();
-                String languageUri = soln.getResource("language").getURI();
-                Language language = new Language(notation);
-                language.setLabel(label);
-                language.setUri(languageUri);
-                return language;
+        try (var transaction = POEMModel.readTransaction()) {
+
+            String queryString =
+                "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> " +
+                "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
+                "PREFIX sio: <http://semanticscience.org/resource/> " +
+                "PREFIX skos: <http://www.w3.org/2004/02/skos/core#> " +
+                "SELECT ?language ?notation ?label " +
+                "WHERE { " +
+                "  <" + instrumentUri + "> sio:SIO_000008 ?language . " +
+                "  ?language rdf:type sio:SIO_000104 . " +
+                "  ?language skos:notation ?notation . " +
+                "  ?language rdfs:label ?label . " +
+                "}";
+
+            try (QueryExecution qexec = QueryExecutionFactory.create(queryString, POEMModel.getDataset())) {
+                ResultSet results = qexec.execSelect();
+                if (results.hasNext()) {
+                    QuerySolution soln = results.nextSolution();
+                    String notation = soln.getLiteral("notation").getString();
+                    String label = soln.getLiteral("label").getString();
+                    String languageUri = soln.getResource("language").getURI();
+                    Language language = new Language(notation);
+                    language.setLabel(label);
+                    language.setUri(languageUri);
+                    return language;
+                }
             }
+
+            return null;
         }
-        
-        return null;
     }
 }
