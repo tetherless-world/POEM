@@ -7,133 +7,219 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rml: <http://w3id.org/rml/> .
 @prefix schema: <http://schema.org/> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix sio: <http://semanticscience.org/resource/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vstoi: <http://purl.org/twc/vstoi/> .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/1> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:70691001;
+  sio:isAbout sct:70691001;
   rdfs:label "Afraid of being in crowded places" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/10> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:247796005, sct:28669007;
+  sio:isAbout sct:247796005, sct:28669007;
   rdfs:label "Feels nothing is much fun anymore" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/11> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:47295007;
+  sio:isAbout sct:47295007;
   rdfs:label "Feels restless" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/12> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:1217332007, sct:420038007;
+  sio:isAbout sct:1217332007, sct:420038007;
   rdfs:label "Feels sad or empty" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/13> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:84229001;
+  sio:isAbout sct:84229001;
   rdfs:label "Tired a lot" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/14> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:247825008;
+  sio:isAbout sct:247825008;
   rdfs:label "Feels worried when someone angry" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/15> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:247892001;
+  sio:isAbout sct:247892001;
   rdfs:label "Feels worthless or like a failure" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/16> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:84229001;
+  sio:isAbout sct:84229001;
   rdfs:label "Has no energy for things" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/17> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:249473004;
+  sio:isAbout sct:249473004;
   rdfs:label "Has problems with appetite" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/18> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:12479006;
+  sio:isAbout sct:12479006;
   rdfs:label "Has to do things just right to stop bad events" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/19> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:12479006;
+  sio:isAbout sct:12479006;
   rdfs:label "Has to do things over and over again" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/2> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:247826009;
+  sio:isAbout sct:247826009;
   rdfs:label "Afraid of looking foolish in front of people" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/20> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:12479006;
+  sio:isAbout sct:12479006;
   rdfs:label "Has to think special thoughts to stop bad events" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/21> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:26677001, sct:53888004;
+  sio:isAbout sct:26677001, sct:53888004;
   rdfs:label "Has trouble sleeping" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/22> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:225624000;
+  sio:isAbout sct:225624000;
   rdfs:label "Heart suddenly beats too quickly for no reason" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/23> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:12479006, sct:247963001;
+  sio:isAbout sct:12479006, sct:247963001;
   rdfs:label "Keeps checking if things done right" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/24> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:225629005;
+  sio:isAbout sct:225629005;
   rdfs:label "Scared to sleep alone" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/25> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:225629005;
+  sio:isAbout sct:225629005;
   rdfs:label "Scared to sleep away from home" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/26> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:247825008;
+  sio:isAbout sct:247825008;
   rdfs:label "Scared to take a test" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/27> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:225624000;
+  sio:isAbout sct:225624000;
   rdfs:label "Suddenly becomes dizzy or faint for no reason" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/28> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:225624000;
+  sio:isAbout sct:225624000;
   rdfs:label "Suddenly feels really scared for no reason" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/29> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:225624000;
+  sio:isAbout sct:225624000;
   rdfs:label "Suddenly has trouble breathing for no reason" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/3> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:247835002;
+  sio:isAbout sct:247835002;
   rdfs:label "Afraid to talk in front of class" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/30> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:225624000;
+  sio:isAbout sct:225624000;
   rdfs:label "Suddenly trembles or shakes for no reason" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/31> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:102912007, sct:247799003;
+  sio:isAbout sct:102912007, sct:247799003;
   rdfs:label "Thinks about death" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/32> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:225629005;
+  sio:isAbout sct:225629005;
   rdfs:label "Trouble going to school" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/33> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:225624000;
+  sio:isAbout sct:225624000;
   rdfs:label "When has a problem, feels shaky" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/34> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:225624000;
+  sio:isAbout sct:225624000;
   rdfs:label "When has a problem, heart beats really fast" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/35> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:43364001;
+  sio:isAbout sct:43364001;
   rdfs:label "When has a problem, stomach feels funny" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/36> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:247825008;
+  sio:isAbout sct:247825008;
   rdfs:label "Worries about mistakes" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/37> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:79015004;
+  sio:isAbout sct:79015004;
   rdfs:label "Worries about things" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/38> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:79015004;
+  sio:isAbout sct:79015004;
   rdfs:label "Worries about what will happen" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/39> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:79015004;
+  sio:isAbout sct:79015004;
   rdfs:label "Worries bad things will happen to self" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/4> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:21897009, sct:67698009;
+  sio:isAbout sct:21897009, sct:67698009;
   rdfs:label "Bothered by bad or silly thoughts or images" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/40> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:225629005;
+  sio:isAbout sct:225629005;
   rdfs:label "Worries in bed at night" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/41> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:247825008;
+  sio:isAbout sct:247825008;
   rdfs:label "Worries might look foolish" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/42> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:85248005;
+  sio:isAbout sct:85248005;
   rdfs:label "Worries something awful will happen to family" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/43> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:79015004;
+  sio:isAbout sct:79015004;
   rdfs:label "Worries something bad will happen to self" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/44> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:247825008;
+  sio:isAbout sct:247825008;
   rdfs:label "Worries what others think" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/45> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:247825008;
+  sio:isAbout sct:247825008;
   rdfs:label "Worries when does poorly at things" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/46> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:247825008;
+  sio:isAbout sct:247825008;
   rdfs:label "Worries will do badly at school work" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/47> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:225624000;
+  sio:isAbout sct:225624000;
   rdfs:label "Worries will suddenly get scared for no reason" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/48> a poem:ItemStemConcept;
@@ -143,6 +229,8 @@
   rdfs:label "Can tell counselor anything" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/5> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:64336009, sct:78633001;
+  sio:isAbout sct:64336009, sct:78633001;
   rdfs:label "Cannot concentrate or think clearly" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/50> a poem:ItemStemConcept;
@@ -176,6 +264,8 @@
   rdfs:label "Counseling is necessary to solve problems" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/6> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:21897009, sct:67698009;
+  sio:isAbout sct:21897009, sct:67698009;
   rdfs:label "Can't get bad or silly thoughts out of head" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/60> a poem:ItemStemConcept;
@@ -209,6 +299,8 @@
   rdfs:label "Knows what working on" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/7> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:225629005;
+  sio:isAbout sct:225629005;
   rdfs:label "Fears being alone at home" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/70> a poem:ItemStemConcept;
@@ -242,6 +334,8 @@
   rdfs:label "Tries to use new things right away" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/8> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:225629005;
+  sio:isAbout sct:225629005;
   rdfs:label "Fears being away from parents" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/80> a poem:ItemStemConcept;
@@ -254,9 +348,13 @@
   rdfs:label "Follows counselor's suggestions" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/84> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:1217332007, sct:420038007;
+  sio:isAbout sct:1217332007, sct:420038007;
   rdfs:label "Feeling down, depressed, hopeless" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/85> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:26677001, sct:53888004;
+  sio:isAbout sct:26677001, sct:53888004;
   rdfs:label "Sleep disturbance--too much or too little" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/86> a poem:ItemStemConcept;
@@ -266,15 +364,23 @@
   rdfs:label "Feeling bad about yourself, feeling like a failure" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/88> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:247796005, sct:28669007;
+  sio:isAbout sct:247796005, sct:28669007;
   rdfs:label "Little interest or pleasure in doing things" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/89> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:47295007;
+  sio:isAbout sct:47295007;
   rdfs:label "Feeling either restless or fidgety" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/9> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:1144814003;
+  sio:isAbout sct:1144814003;
   rdfs:label "Feels like doesn't want to move" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/90> a poem:ItemStemConcept;
+  sio:SIO_000332 sct:6471006;
+  sio:isAbout sct:6471006;
   rdfs:label "Thoughts of self harm or being better off dead" .
 
 <http://purl.org/twc/poem/individual/itemStemConcept/91> a poem:ItemStemConcept;

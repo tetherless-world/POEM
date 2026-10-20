@@ -7,10 +7,14 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rml: <http://w3id.org/rml/> .
 @prefix schema: <http://schema.org/> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix sio: <http://semanticscience.org/resource/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vstoi: <http://purl.org/twc/vstoi/> .
 
 <http://purl.org/twc/poem/individual/scale/1> a poem:QuestionnaireScale;
+  sio:SIO_000332 sct:25501002;
+  sio:isAbout sct:25501002;
   rdfs:label "Social Phobia (9.1)";
   skos:notation "SP" .
 
@@ -47,26 +51,38 @@
   skos:notation "H" .
 
 <http://purl.org/twc/poem/individual/scale/18> a poem:QuestionnaireScale;
+  sio:SIO_000332 sct:370143000;
+  sio:isAbout sct:370143000;
   rdfs:label "Depression (9.1)";
   skos:notation "PHQ-9-Dep" .
 
 <http://purl.org/twc/poem/individual/scale/2> a poem:QuestionnaireScale;
+  sio:SIO_000332 sct:371631005;
+  sio:isAbout sct:371631005;
   rdfs:label "Panic Disorder (9.1)";
   skos:notation "PD" .
 
 <http://purl.org/twc/poem/individual/scale/3> a poem:QuestionnaireScale;
+  sio:SIO_000332 sct:21897009;
+  sio:isAbout sct:21897009;
   rdfs:label "Generalized Anxiety Disorder (6.1)";
   skos:notation "GAD" .
 
 <http://purl.org/twc/poem/individual/scale/4> a poem:QuestionnaireScale;
+  sio:SIO_000332 sct:370143000;
+  sio:isAbout sct:370143000;
   rdfs:label "Major Depressive Disorder (10.1)";
   skos:notation "MDD" .
 
 <http://purl.org/twc/poem/individual/scale/5> a poem:QuestionnaireScale;
+  sio:SIO_000332 sct:126943008;
+  sio:isAbout sct:126943008;
   rdfs:label "Separation Anxiety Disorder (7.1)";
   skos:notation "SAD" .
 
 <http://purl.org/twc/poem/individual/scale/6> a poem:QuestionnaireScale;
+  sio:SIO_000332 sct:191736004;
+  sio:isAbout sct:191736004;
   rdfs:label "Obsessive Compulsive Disorder (6.1)";
   skos:notation "OCD" .
 
