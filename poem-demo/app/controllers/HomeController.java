@@ -12,6 +12,8 @@ import ca.uhn.fhir.context.FhirContext;
 import ca.uhn.fhir.parser.IParser;
 import forms.Query;
 import models.Instrument;
+import models.Informant;
+import models.Language;
 import models.ItemConcept;
 import models.QuestionnaireScale;
 import play.data.Form;
@@ -37,6 +39,15 @@ public class HomeController extends Controller {
         List<Instrument> instruments = Instrument.getAll();
         List<QuestionnaireScale> scales = QuestionnaireScale.getAll();
         return ok(views.html.index.render(asScala(instruments), asScala(scales), request));
+    }
+
+    public Result explore(Http.Request request) {
+        List<Instrument> instruments = Instrument.getAll();
+        List<Language> languages = Language.getAll();
+        instruments.removeIf(instrument -> instrument.getUri() == null || instrument.getLabel() == null || instrument.getLabel().isBlank());
+        instruments.sort(java.util.Comparator.comparing(Instrument::getLabel, String.CASE_INSENSITIVE_ORDER));
+        languages.sort(java.util.Comparator.comparing(Language::getDisplayLabel, String.CASE_INSENSITIVE_ORDER));
+        return ok(views.html.explore.render(asScala(instruments), asScala(Informant.getAll()), asScala(languages), request));
     }
 
     public Result query(Http.Request request) {

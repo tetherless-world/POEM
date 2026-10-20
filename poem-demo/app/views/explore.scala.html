@@ -1,0 +1,95 @@
+@(instruments: Seq[Instrument], informants: Seq[Informant], languages: Seq[Language])(implicit request: play.mvc.Http.Request)
+
+@main("Explore an instrument", "explore") {
+<main class="container px-4 px-lg-5 my-5">
+    <header class="hero-card mb-5">
+        <p class="eyebrow mb-2">Explore an instrument</p>
+        <h1 class="hero-title">Find what you need about an instrument.</h1>
+        <p class="hero-copy mb-0">Start with an instrument you know, a concept you want to assess or let us help you narrow it down.</p>
+    </header>
+
+    <section aria-labelledby="explore-options-heading">
+        <h2 id="explore-options-heading" class="section-title mb-4">How would you like to explore?</h2>
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <button id="known-instrument-option" class="card start-card explore-option collapsed h-100 w-100 text-start p-4" type="button" data-bs-toggle="collapse" data-bs-target="#known-instrument-panel" aria-expanded="false" aria-controls="known-instrument-panel">
+                    <span class="h5 mb-3">I know the instrument</span>
+                    <span class="card-text">Look up scales, scoring, and permissions.</span>
+                    <span class="explore-option-action mt-auto pt-4">Choose your version &rarr;</span>
+                </button>
+            </div>
+            <div class="col-md-4">
+                <button id="concept-option" class="card start-card explore-option collapsed h-100 w-100 text-start p-4" type="button" data-bs-toggle="collapse" data-bs-target="#concept-panel" aria-expanded="false" aria-controls="concept-panel">
+                    <span class="h5 mb-3">Search by concept</span>
+                    <span class="card-text">Find items that assess a symptom or experience.</span>
+                    <span class="explore-option-action mt-auto pt-4">Coming soon &rarr;</span>
+                </button>
+            </div>
+            <div class="col-md-4">
+                <button id="choose-option" class="card start-card explore-option collapsed h-100 w-100 text-start p-4" type="button" data-bs-toggle="collapse" data-bs-target="#choose-panel" aria-expanded="false" aria-controls="choose-panel">
+                    <span class="h5 mb-3">Help me choose</span>
+                    <span class="card-text">Narrow down by concept and who will complete it.</span>
+                    <span class="explore-option-action mt-auto pt-4">Coming soon &rarr;</span>
+                </button>
+            </div>
+        </div>
+
+        <div id="explore-panels">
+            <section id="known-instrument-panel" class="collapse" data-bs-parent="#explore-panels" aria-labelledby="known-instrument-option">
+                <div class="card query-card p-4">
+                    <h2 class="section-title mb-4">Choose your version</h2>
+                    <div class="row g-4">
+                        <div class="col-lg-3 col-md-6">
+                            <label for="explore-language" class="form-label fw-semibold">Language</label>
+                            <select id="explore-language" name="language" class="form-select" @if(languages.isEmpty){disabled}>
+                                <option value="" selected>Choose a language</option>
+                                @for(language <- languages) {
+                                    <option value="@language.getBCP47()">@language.getDisplayLabel()</option>
+                                }
+                            </select>
+                            @if(languages.isEmpty) { <p class="small text-secondary mt-2">No languages are available yet.</p> }
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <label for="explore-informant" class="form-label fw-semibold">Respondent</label>
+                            <select id="explore-informant" name="informant" class="form-select" @if(informants.isEmpty){disabled}>
+                                <option value="" selected>Choose who will complete it</option>
+                                @for(informant <- informants) {
+                                    <option value="@informant.getUri()">@informant.getLabel()</option>
+                                }
+                            </select>
+                            @if(informants.isEmpty) { <p class="small text-secondary mt-2">No respondent types are available yet.</p> }
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="explore-instrument" class="form-label fw-semibold">Instrument</label>
+                            <select id="explore-instrument" name="instrument" class="form-select" disabled aria-describedby="instrument-selection-status">
+                                <option value="" selected>Choose language and respondent first</option>
+                                @for(instrument <- instruments) {
+                                    <option value="@instrument.getUri()" data-language="@Option(instrument.getLanguage()).map(_.getBCP47()).getOrElse("")" data-informants="@String.join(" ", instrument.getInformantUris())">@instrument.getLabel()</option>
+                                }
+                            </select>
+                            <p id="instrument-selection-status" class="small text-secondary mt-2 mb-0" role="status">Choose a language and respondent to see matching instruments.</p>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <button id="explore-button" type="button" class="btn btn-primary" disabled aria-controls="instrument-details">Explore</button>
+                    </div>
+                </div>
+                @instrumentDetails()
+            </section>
+            <section id="concept-panel" class="collapse" data-bs-parent="#explore-panels" aria-labelledby="concept-option">
+                <div class="card query-card p-4">
+                    <h2 class="section-title">Search by concept</h2>
+                    <p class="text-secondary mb-0">Coming soon: find items that assess a symptom or experience.</p>
+                </div>
+            </section>
+            <section id="choose-panel" class="collapse" data-bs-parent="#explore-panels" aria-labelledby="choose-option">
+                <div class="card query-card p-4">
+                    <h2 class="section-title">Help me choose</h2>
+                    <p class="text-secondary mb-0">Coming soon: narrow down instruments by concept and who will complete them.</p>
+                </div>
+            </section>
+        </div>
+    </section>
+</main>
+<script src="@routes.Assets.versioned("javascripts/explore.js")" defer></script>
+}

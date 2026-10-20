@@ -78,20 +78,42 @@
   padding: 0.35rem 0.8rem;
 }
 
-.summary-card {
+.start-card {
   background: linear-gradient(160deg, #ffffff 0%, var(--poem-surface-strong) 100%);
   border: 1px solid var(--poem-border);
+  border-top: 3px solid var(--poem-secondary);
   border-radius: 1rem;
   box-shadow: 0 8px 22px rgba(16, 42, 67, 0.06);
 }
 
-.summary-card p,
-.summary-card li {
+.start-card .card-text {
   color: var(--poem-muted);
 }
 
-.summary-card ul {
-  padding-left: 1rem;
+.start-card h3 {
+  color: var(--poem-primary);
+}
+
+.explore-option {
+  color: var(--poem-text);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.explore-option:hover,
+.explore-option[aria-expanded="true"] {
+  border-color: var(--poem-primary);
+  box-shadow: 0 8px 22px rgba(16, 42, 67, 0.12);
+}
+
+.explore-option:focus-visible {
+  outline: 3px solid var(--poem-primary);
+  outline-offset: 3px;
+}
+
+.explore-option-action {
+  color: var(--poem-primary);
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .section-title {
@@ -99,6 +121,54 @@
   font-size: 1.45rem;
   font-weight: 700;
   letter-spacing: 0.01em;
+}
+
+.instrument-details-title,
+#instrument-details-title {
+  scroll-margin-top: 6rem;
+}
+
+.sample-notice {
+  background: var(--poem-surface-strong);
+  border-left: 3px solid var(--poem-secondary);
+  border-radius: 0.35rem;
+  color: var(--poem-text);
+  padding: 1rem 1.25rem;
+}
+
+.detail-question {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+.detail-answer {
+  color: var(--poem-muted);
+  line-height: 1.65;
+}
+
+.detail-stat {
+  color: var(--poem-primary);
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.detail-stat span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.detail-divider {
+  border-top: 1px solid var(--poem-border);
+}
+
+.download-option {
+  background: #f7fbfd;
+  border: 1px solid var(--poem-border);
+  border-radius: 0.75rem;
+  padding: 1.25rem;
 }
 
 .card > form {

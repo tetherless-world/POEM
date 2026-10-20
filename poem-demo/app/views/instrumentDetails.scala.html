@@ -1,0 +1,131 @@
+@()
+
+<section id="instrument-details" class="instrument-details mt-5" aria-labelledby="instrument-details-title" hidden>
+    <header class="mb-4">
+        <p class="eyebrow mb-2">Your selected instrument</p>
+        <h2 id="instrument-details-title" class="hero-title" tabindex="-1"></h2>
+        <div class="d-flex flex-wrap gap-2">
+            <span id="instrument-details-language" class="proof-chip"></span>
+            <span id="instrument-details-informant" class="proof-chip"></span>
+        </div>
+    </header>
+    <div class="sample-notice mb-4">
+        <span class="fw-semibold">Sample instrument profile</span>
+        <p class="mb-0 small">The information below is mock data for this preview, shared across all instruments. It does not describe the selected instrument. FHIR and XLSX exports use the selected instrument's actual POEM data.</p>
+    </div>
+
+    <section class="card query-card detail-section mb-4" aria-labelledby="instrument-about-heading">
+        <div class="card-body p-4">
+            <h3 id="instrument-about-heading" class="section-title mb-4">About the Instrument</h3>
+            <div class="row g-4">
+                <div class="col-lg-8">
+                    <h4 class="detail-question">What scales does it contain?</h4>
+                    <p class="detail-answer">Six symptom scales, with separate scores for each area:</p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="proof-chip">Separation anxiety</span>
+                        <span class="proof-chip">Social anxiety</span>
+                        <span class="proof-chip">Generalized anxiety</span>
+                        <span class="proof-chip">Panic</span>
+                        <span class="proof-chip">Obsessive-compulsive symptoms</span>
+                        <span class="proof-chip">Low mood</span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h4 class="detail-question">How many items does it have?</h4>
+                    <p class="detail-stat mb-0">47 <span>items</span></p>
+                    <p class="detail-answer small mb-0">Sample full-length questionnaire</p>
+                </div>
+                <div class="col-12">
+                    <div class="detail-divider pt-4">
+                        <h4 class="detail-question">What other instruments were used to build it?</h4>
+                        <p class="detail-answer mb-0">Example lineage: adapted from an earlier anxiety questionnaire, with additional mood items drawn from a companion measure. Source instruments and adaptation records will be listed here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="card query-card detail-section mb-4" aria-labelledby="instrument-versions-heading">
+        <div class="card-body p-4">
+            <h3 id="instrument-versions-heading" class="section-title mb-4">Versions and Translations</h3>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <h4 class="detail-question">Is there a shorter or longer version of this instrument?</h4>
+                    <p class="detail-answer mb-0">Example versions include a 25-item short form and a 47-item full form. Each version has its own item set and scoring guidance.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="detail-question">Can a different informant complete it? If so, who?</h4>
+                    <p class="detail-answer mb-0">Example respondent versions: youth self-report and caregiver report. These are separate forms tailored to each respondent.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="detail-question">What other languages is it available in?</h4>
+                    <p class="detail-answer mb-0">Example translations: English, Spanish, French, and German. Language availability and version identifiers will appear here.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="detail-question">Who translated this version and what methods were used?</h4>
+                    <p class="detail-answer mb-0">Example attribution: a university translation team used forward translation, independent back translation, expert review, and pilot testing. Contributor names and source references will appear here.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="card query-card detail-section mb-4" aria-labelledby="instrument-scoring-heading">
+        <div class="card-body p-4">
+            <h3 id="instrument-scoring-heading" class="section-title mb-4">Administration and Scoring</h3>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <h4 class="detail-question">Do I need permission for my use?</h4>
+                    <p class="detail-answer mb-0">Example permissions record: research and clinical use are covered by the publisher's terms; commercial use requires a separate request. This preview does not establish permission for the selected instrument.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="detail-question">What norms should I use for scoring this instrument?</h4>
+                    <p class="detail-answer mb-0">Example norms record: reference tables are organized by age group and respondent type, with separate tables for each version. Validated scoring references for the selected instrument will appear here.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="card query-card detail-section" aria-labelledby="instrument-download-heading">
+        <div class="card-body p-4">
+            <h3 id="instrument-download-heading" class="section-title mb-2">Download</h3>
+            <p class="detail-answer mb-4">Export the selected instrument from POEM or visit UCLA for RCADS questionnaire PDFs.</p>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="download-option h-100 d-flex flex-column">
+                        <h4 class="h5">FHIR Export</h4>
+                        <p class="detail-answer small">Structured JSON for clinical systems and interoperability.</p>
+                        <form action="/fhir" method="get" class="mt-auto">
+                            <input type="hidden" name="uri" data-selected-instrument>
+                            <input type="hidden" name="format" value="json">
+                            <label for="instrument-fhir-version" class="form-label small fw-semibold">FHIR version</label>
+                            <select id="instrument-fhir-version" name="version" class="form-select mb-3">
+                                <option value="r3">R3</option>
+                                <option value="r4" selected>R4</option>
+                                <option value="r4b">R4B</option>
+                                <option value="r5">R5</option>
+                            </select>
+                            <button type="submit" class="btn btn-primary w-100">Export FHIR</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="download-option h-100 d-flex flex-column">
+                        <h4 class="h5">XLSX Export</h4>
+                        <p class="detail-answer small">A structured Excel workbook for inspection, sharing, and offline use.</p>
+                        <form action="/excel" method="get" class="mt-auto">
+                            <input type="hidden" name="uri" data-selected-instrument>
+                            <button type="submit" class="btn btn-outline-primary w-100">Export XLSX</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="download-option h-100 d-flex flex-column">
+                        <h4 class="h5">PDF</h4>
+                        <p class="detail-answer small">Browse RCADS forms and translations on the UCLA website.</p>
+                        <a class="btn btn-outline-primary w-100 mt-auto" href="https://rcads.ucla.edu/versions" target="_blank" rel="noopener noreferrer">View RCADS PDFs <span aria-hidden="true">&nearr;</span><span class="visually-hidden"> (opens in a new tab)</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>

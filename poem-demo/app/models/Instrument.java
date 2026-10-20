@@ -161,6 +161,25 @@ public class Instrument extends models.Resource {
         return language;
     }
 
+    public List<String> getInformantUris() {
+        List<String> informants = new ArrayList<>();
+        Model model = POEMModel.getModel();
+        var attributes = model.listObjectsOfProperty(model.getResource(getUri()),
+            ResourceFactory.createProperty("http://semanticscience.org/resource/SIO_000008"));
+        try {
+            while (attributes.hasNext()) {
+                var attribute = attributes.next();
+                if (attribute.isURIResource() && attribute.asResource().hasProperty(RDF.type,
+                        ResourceFactory.createResource("http://purl.org/twc/vstoi/Informant"))) {
+                    informants.add(attribute.asResource().getURI());
+                }
+            }
+        } finally {
+            attributes.close();
+        }
+        return informants;
+    }
+
     public void setLanguage(Language language) {
         this.language = language;
     }

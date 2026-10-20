@@ -4,7 +4,7 @@
 * two arguments, a `String` for the title of the page and an `Html`
 * object to insert into the body of the page.
 *@
-@(title: String)(content: Html)(implicit req: play.api.mvc.RequestHeader)
+@(title: String, activePage: String = "overview")(content: Html)(implicit req: play.api.mvc.RequestHeader)
 
 <!doctype html>
 <html lang="en">
@@ -29,7 +29,7 @@
 <body class="poem-app">
     <nav class="navbar navbar-expand-lg poem-nav shadow-sm sticky-top">
         <div class="container-fluid px-4 px-lg-5">
-            <a class="navbar-brand fw-semibold" href="#">POEM Demo</a>
+            <a class="navbar-brand fw-semibold" href="@routes.HomeController.index()">POEM Demo</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -38,13 +38,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Overview</a>
+                        <a class="nav-link @if(activePage == "overview"){active}" @if(activePage == "overview"){aria-current="page"} href="@routes.HomeController.index()">Overview</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#competency-questions">Competency Questions</a>
+                        <a class="nav-link @if(activePage == "explore"){active}" @if(activePage == "explore"){aria-current="page"} href="@routes.HomeController.explore()">Explore an Instrument</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#instrument-publishers">Instrument Publishers</a>
+                        <a class="nav-link" href="@routes.HomeController.index()#competency-questions">Competency Questions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@routes.HomeController.index()#instrument-publishers">Instrument Publishers</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://tetherless-world.github.io/POEM/" target="_blank" rel="noopener noreferrer">POEM Website</a>

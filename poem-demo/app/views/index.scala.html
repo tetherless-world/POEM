@@ -31,11 +31,11 @@
 <div class="container px-4 px-lg-5">
     <!-- Heading Row-->
     <div class="row gx-4 gx-lg-5 align-items-stretch my-5">
-        <div class="col-lg-8">
+        <div class="col-12">
             <div class="hero-card h-100">
                 <p class="eyebrow mb-2">Mental health data infrastructure</p>
                 <h1 class="hero-title">Psychometrics Ontology of Experience and Measures</h1>
-                <p class="hero-copy">POEM demonstrates how formal ontology can support interoperable instruments, reproducible analysis, and standards-based publishing for clinical and research settings.</p>
+                <p class="hero-copy">POEM organizes questionnaires so they are easier to find, use, compare, and reuse, with every answer traceable to its source. POEM demonstrates how formal ontology can support interoperable instruments, reproducible analysis, and standards-based publishing for clinical and research settings.</p>
                 <div class="d-flex flex-wrap gap-2 mb-4">
                     <span class="proof-chip">Competency-based queries</span>
                     <span class="proof-chip">FHIR export support</span>
@@ -50,27 +50,35 @@
                 </a>
             </div>
         </div>
-        <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="card h-100 summary-card">
-                <div class="card-body">
-                    <h2 class="h5 mb-3">POEM features</h2>
-                    <p class="mb-3">POEM supports consistent measurement vocabulary across studies and systems, reducing integration friction and improving reproducibility.</p>
-                    <ul class="mb-0">
-                        <li>Aligns instruments to formal semantic structure</li>
-                        <li>Improves interoperability with FHIR publishing</li>
-                        <li>Creates reusable data assets for future programs</li>
-                    </ul>
+    </div>
+    <section class="mb-5" aria-labelledby="start-heading">
+        <h2 id="start-heading" class="section-title mb-4">Where would you like to start?</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card h-100 start-card">
+                    <div class="card-body d-flex flex-column p-4">
+                        <h3 class="h4 mb-3">Clinicians &amp; Researchers</h3>
+                        <p class="card-text mb-4">I want to learn more about a specific instrument.</p>
+                        <div class="mt-auto">
+                            <a class="btn btn-primary" href="@routes.HomeController.explore()">Explore an instrument</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 start-card">
+                    <div class="card-body d-flex flex-column p-4">
+                        <h3 class="h4 mb-3">Sponsors &amp; Data teams</h3>
+                        <p class="card-text mb-4">I want to learn more about how POEM works.</p>
+                        <div class="mt-auto d-flex flex-wrap gap-2">
+                            <a class="btn btn-primary" href="https://tetherless-world.github.io/POEM/" target="_blank" rel="noopener noreferrer">Visit POEM website</a>
+                            <a class="btn btn-outline-primary" href="https://github.com/tetherless-world/POEM/" target="_blank" rel="noopener noreferrer">View POEM on GitHub</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Call to Action-->
-    <!-- <div class="card text-white bg-secondary my-5 py-4 text-center">
-        <div class="card-body">
-            <p class="text-white m-0">This call to action card is a great place to showcase some important information
-                or display a clever tagline!</p>
-        </div>
-    </div> -->
+    </section>
     <h2 id="competency-questions" class="section-title my-4">Competency questions</h2>
     <!-- Content Row-->
     <div class="row gx-4 gx-lg-5">
