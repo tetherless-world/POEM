@@ -3,6 +3,8 @@ name: Build and Publish Docker Image
 on:
   push:
     tags: ["v*"]
+  release:
+    types: [published, edited]
   workflow_dispatch:
 
 env:
@@ -33,6 +35,8 @@ jobs:
 
       - name: Prepare image tags
         id: prep
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           if [[ "${GITHUB_REF}" != refs/tags/v* ]]; then
             echo "This workflow must be triggered from a tag named like v1.2.3" >&2
@@ -40,6 +44,25 @@ jobs:
           fi
           VERSION="${GITHUB_REF_NAME#v}"
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          RELEASE_RESPONSE=$(mktemp)
+          STATUS=$(curl --silent --show-error --location \
+            --header "Authorization: Bearer $GH_TOKEN" \
+            --header "Accept: application/vnd.github+json" \
+            --output "$RELEASE_RESPONSE" --write-out '%{http_code}' \
+            "$GITHUB_API_URL/repos/$GITHUB_REPOSITORY/releases/latest")
+          case "$STATUS" in
+            200) LATEST_TAG=$(jq -r '.tag_name' "$RELEASE_RESPONSE") ;;
+            404) LATEST_TAG="" ;; # No published release yet.
+            *) cat "$RELEASE_RESPONSE" >&2; exit 1 ;;
+          esac
+          {
+            echo "tags<<EOF"
+            echo "$REGISTRY_IMAGE:$VERSION"
+            if [[ "$GITHUB_REF_NAME" == "$LATEST_TAG" ]]; then
+              echo "$REGISTRY_IMAGE:latest"
+            fi
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Build and push
         uses: docker/build-push-action@v7
@@ -48,9 +71,7 @@ jobs:
           file: ./docker/Dockerfile-demo
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: |
-            ${{ env.REGISTRY_IMAGE }}:${{ steps.prep.outputs.version }}
-            ${{ env.REGISTRY_IMAGE }}:latest
+          tags: ${{ steps.prep.outputs.tags }}
           labels: |
             org.opencontainers.image.source=${{ github.repository }}
             org.opencontainers.image.revision=${{ github.sha }}
