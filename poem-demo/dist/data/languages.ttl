@@ -14,168 +14,168 @@
 
 <http://purl.org/twc/poem/individual/language/1> a sio:Language, sio:SIO_000104;
   rdfs:label "English";
-  skos:notation "EN" .
+  skos:notation "en" .
 
 <http://purl.org/twc/poem/individual/language/10> a sio:Language, sio:SIO_000104;
   rdfs:label "Greek";
-  skos:notation "EL" .
+  skos:notation "el" .
 
 <http://purl.org/twc/poem/individual/language/11> a sio:Language, sio:SIO_000104;
   rdfs:label "Hungarian";
-  skos:notation "HU" .
+  skos:notation "hu" .
 
 <http://purl.org/twc/poem/individual/language/12> a sio:Language, sio:SIO_000104;
   rdfs:label "Icelandic";
-  skos:notation "IS" .
+  skos:notation "is" .
 
 <http://purl.org/twc/poem/individual/language/13> a sio:Language, sio:SIO_000104;
   rdfs:label "Japanese";
-  skos:notation "JA" .
+  skos:notation "ja" .
 
 <http://purl.org/twc/poem/individual/language/14> a sio:Language, sio:SIO_000104;
   rdfs:label "Korean";
-  skos:notation "KO" .
+  skos:notation "ko" .
 
 <http://purl.org/twc/poem/individual/language/15> a sio:Language, sio:SIO_000104;
   rdfs:label "Lithuanian";
-  skos:notation "LT" .
+  skos:notation "lt" .
 
 <http://purl.org/twc/poem/individual/language/16> a sio:Language, sio:SIO_000104;
   rdfs:label "Norwegian";
-  skos:notation "NO" .
+  skos:notation "no" .
 
 <http://purl.org/twc/poem/individual/language/17> a sio:Language, sio:SIO_000104;
   rdfs:label "Persian";
-  skos:notation "FA" .
+  skos:notation "fa" .
 
 <http://purl.org/twc/poem/individual/language/18> a sio:Language, sio:SIO_000104;
   rdfs:label "Polish";
-  skos:notation "PL" .
+  skos:notation "pl" .
 
 <http://purl.org/twc/poem/individual/language/19> a sio:Language, sio:SIO_000104;
   rdfs:label "Portuguese";
-  skos:notation "PT" .
+  skos:notation "pt" .
 
 <http://purl.org/twc/poem/individual/language/2> a sio:Language, sio:SIO_000104;
   rdfs:label "Arabic";
-  skos:notation "AR" .
+  skos:notation "ar" .
 
 <http://purl.org/twc/poem/individual/language/20> a sio:Language, sio:SIO_000104;
   rdfs:label "Slovenian";
-  skos:notation "SL" .
+  skos:notation "sl" .
 
 <http://purl.org/twc/poem/individual/language/21> a sio:Language, sio:SIO_000104;
   rdfs:label "Spanish";
-  skos:notation "ES" .
+  skos:notation "es" .
 
 <http://purl.org/twc/poem/individual/language/22> a sio:Language, sio:SIO_000104;
   rdfs:label "Swedish";
-  skos:notation "SV" .
+  skos:notation "sv" .
 
 <http://purl.org/twc/poem/individual/language/23> a sio:Language, sio:SIO_000104;
   rdfs:label "Turkish";
-  skos:notation "TR" .
+  skos:notation "tr" .
 
 <http://purl.org/twc/poem/individual/language/24> a sio:Language, sio:SIO_000104;
   rdfs:label "Urdu";
-  skos:notation "UR" .
+  skos:notation "ur" .
 
 <http://purl.org/twc/poem/individual/language/25> a sio:Language, sio:SIO_000104;
   rdfs:label "Chinese (Traditional)";
-  skos:notation "ZH" .
+  skos:notation "zh-hant" .
 
 <http://purl.org/twc/poem/individual/language/26> a sio:Language, sio:SIO_000104;
   rdfs:label "Swahili";
-  skos:notation "SW" .
+  skos:notation "sw" .
 
 <http://purl.org/twc/poem/individual/language/27> a sio:Language, sio:SIO_000104;
   rdfs:label "Serbian";
-  skos:notation "SR" .
+  skos:notation "sr" .
 
 <http://purl.org/twc/poem/individual/language/28> a sio:Language, sio:SIO_000104;
   rdfs:label "Malay";
-  skos:notation "MS" .
+  skos:notation "ms" .
 
 <http://purl.org/twc/poem/individual/language/29> a sio:Language, sio:SIO_000104;
   rdfs:label "Bengali";
-  skos:notation "BN" .
+  skos:notation "bn" .
 
 <http://purl.org/twc/poem/individual/language/3> a sio:Language, sio:SIO_000104;
   rdfs:label "Chinese (Simplified)";
-  skos:notation "ZH" .
+  skos:notation "zh-hans" .
 
 <http://purl.org/twc/poem/individual/language/30> a sio:Language, sio:SIO_000104 .
 
 <http://purl.org/twc/poem/individual/language/31> a sio:Language, sio:SIO_000104;
   rdfs:label "Hindi";
-  skos:notation "HI" .
+  skos:notation "hi" .
 
 <http://purl.org/twc/poem/individual/language/32> a sio:Language, sio:SIO_000104;
   rdfs:label "Punjabi";
-  skos:notation "PA" .
+  skos:notation "pa" .
 
 <http://purl.org/twc/poem/individual/language/33> a sio:Language, sio:SIO_000104;
   rdfs:label "Russian";
-  skos:notation "RU" .
+  skos:notation "ru" .
 
 <http://purl.org/twc/poem/individual/language/34> a sio:Language, sio:SIO_000104;
   rdfs:label "Chichewa";
-  skos:notation "NY" .
+  skos:notation "ny" .
 
 <http://purl.org/twc/poem/individual/language/35> a sio:Language, sio:SIO_000104;
   rdfs:label "Hebrew";
-  skos:notation "HE" .
+  skos:notation "he" .
 
 <http://purl.org/twc/poem/individual/language/36> a sio:Language, sio:SIO_000104;
   rdfs:label "Italian";
-  skos:notation "IT" .
+  skos:notation "it" .
 
 <http://purl.org/twc/poem/individual/language/37> a sio:Language, sio:SIO_000104;
   rdfs:label "Thai";
-  skos:notation "TH" .
+  skos:notation "th" .
 
 <http://purl.org/twc/poem/individual/language/38> a sio:Language, sio:SIO_000104;
   rdfs:label "Mongolian";
-  skos:notation "MN" .
+  skos:notation "mn" .
 
 <http://purl.org/twc/poem/individual/language/39> a sio:Language, sio:SIO_000104;
   rdfs:label "Vietnamese";
-  skos:notation "VI" .
+  skos:notation "vi" .
 
 <http://purl.org/twc/poem/individual/language/4> a sio:Language, sio:SIO_000104;
   rdfs:label "Danish";
-  skos:notation "DA" .
+  skos:notation "da" .
 
 <http://purl.org/twc/poem/individual/language/40> a sio:Language, sio:SIO_000104;
   rdfs:label "Marathi";
-  skos:notation "MR" .
+  skos:notation "mr" .
 
 <http://purl.org/twc/poem/individual/language/41> a sio:Language, sio:SIO_000104;
   rdfs:label "Zulu";
-  skos:notation "ZU" .
+  skos:notation "zu" .
 
 <http://purl.org/twc/poem/individual/language/42> a sio:Language, sio:SIO_000104;
   rdfs:label "Albanian";
-  skos:notation "SQ" .
+  skos:notation "sq" .
 
 <http://purl.org/twc/poem/individual/language/43> a sio:Language, sio:SIO_000104 .
 
 <http://purl.org/twc/poem/individual/language/5> a sio:Language, sio:SIO_000104;
   rdfs:label "Dutch";
-  skos:notation "NL" .
+  skos:notation "nl" .
 
 <http://purl.org/twc/poem/individual/language/6> a sio:Language, sio:SIO_000104;
   rdfs:label "Estonian";
-  skos:notation "ET" .
+  skos:notation "et" .
 
 <http://purl.org/twc/poem/individual/language/7> a sio:Language, sio:SIO_000104;
   rdfs:label "Finnish";
-  skos:notation "FI" .
+  skos:notation "fi" .
 
 <http://purl.org/twc/poem/individual/language/8> a sio:Language, sio:SIO_000104;
   rdfs:label "French";
-  skos:notation "FR" .
+  skos:notation "fr" .
 
 <http://purl.org/twc/poem/individual/language/9> a sio:Language, sio:SIO_000104;
   rdfs:label "German";
-  skos:notation "DE" .
+  skos:notation "de" .

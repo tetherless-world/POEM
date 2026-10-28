@@ -45,6 +45,7 @@
 :TriplesMap rr:predicateObjectMap [
   rr:predicate skos:notation;
   rr:objectMap [
-    rml:reference "ISO639-1"
+    # Lowercase the language code and append "-script" only for nonempty script tags.
+    rml:reference "translate(concat(normalize-space(ISO639-1), substring('-', 1, string-length(normalize-space(RFC-4646_x0020_Script_x0020_Tag))), normalize-space(RFC-4646_x0020_Script_x0020_Tag)), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')"
   ]
 ].
