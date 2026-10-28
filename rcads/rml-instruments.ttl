@@ -20,7 +20,7 @@
   rml:logicalSource [
     rml:source "data/xml/10_Instruments.xml";
     rml:referenceFormulation ql:XPath;
-    rml:iterator "/dataroot/_x0031_0_Instruments"
+    rml:iterator "/dataroot/_x0031_0_Instruments[normalize-space(InstrumentName) != '']"
   ].
 
 :TriplesMap3 a rr:TriplesMap;
