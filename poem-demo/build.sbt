@@ -45,16 +45,16 @@ libraryDependencies += "org.webjars.npm" % "choices.js" % "11.2.3"
 libraryDependencies += "com.google.code.gson" % "gson" % "2.14.0"
 
 // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
-libraryDependencies += "com.fasterxml.jackson.core" % "jackson-databind" % "2.22.3"
+libraryDependencies += "com.fasterxml.jackson.core" % "jackson-databind" % "2.22.4"
 
 // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
-libraryDependencies += "com.fasterxml.jackson.core" % "jackson-core" % "2.22.3"
+libraryDependencies += "com.fasterxml.jackson.core" % "jackson-core" % "2.22.4"
 
 // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations
 libraryDependencies += "com.fasterxml.jackson.core" % "jackson-annotations" % "2.22"
 
 // https://mvnrepository.com/artifact/com.fasterxml.jackson.module/jackson-module-scala
-libraryDependencies += "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.22.3"
+libraryDependencies += "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.22.4"
 
 // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
 libraryDependencies += "org.apache.poi" % "poi-ooxml" % "5.5.1"
@@ -78,7 +78,7 @@ libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-dstu3" % "8.12
 libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-structures-dstu2" % "8.12.1"
 
 // https://mvnrepository.com/artifact/com.openai/openai-java
-libraryDependencies += "com.openai" % "openai-java" % "4.80.0"
+libraryDependencies += "com.openai" % "openai-java" % "4.93.0"
 
 // https://mvnrepository.com/artifact/org.json/json
 libraryDependencies += "org.json" % "json" % "20260814"
