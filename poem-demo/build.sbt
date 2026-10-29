@@ -57,7 +57,7 @@ libraryDependencies += "com.fasterxml.jackson.core" % "jackson-annotations" % "2
 libraryDependencies += "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.22.4"
 
 // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
-libraryDependencies += "org.apache.poi" % "poi-ooxml" % "5.5.1"
+libraryDependencies += "org.apache.poi" % "poi-ooxml" % "6.0.0"
 
 // https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-base
 libraryDependencies += "ca.uhn.hapi.fhir" % "hapi-fhir-base" % "8.12.1"
