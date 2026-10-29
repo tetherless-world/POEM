@@ -1,4 +1,4 @@
-@(instruments: Seq[Instrument], informants: Seq[Informant], languages: Seq[Language])(implicit request: play.mvc.Http.Request)
+@(collections: Seq[InstrumentCollection], instruments: Seq[Instrument], informants: Seq[Informant], languages: Seq[Language], collectionMemberships: java.util.Map[String, String])(implicit request: play.mvc.Http.Request)
 
 @main("Explore an instrument", "explore") {
 <main class="container px-4 px-lg-5 my-5">
@@ -22,7 +22,7 @@
                 <button id="concept-option" class="card start-card explore-option collapsed h-100 w-100 text-start p-4" type="button" data-bs-toggle="collapse" data-bs-target="#concept-panel" aria-expanded="false" aria-controls="concept-panel">
                     <span class="h5 mb-3">Search by concept</span>
                     <span class="card-text">Find items that assess a symptom or experience.</span>
-                    <span class="explore-option-action mt-auto pt-4">Coming soon &rarr;</span>
+                    <span class="explore-option-action mt-auto pt-4">Choose concepts &rarr;</span>
                 </button>
             </div>
             <div class="col-md-4">
@@ -39,6 +39,16 @@
                 <div class="card query-card p-4">
                     <h2 class="section-title mb-4">Choose your version</h2>
                     <div class="row g-4">
+                        <div class="col-lg-3 col-md-6">
+                            <label for="explore-collection" class="form-label fw-semibold">Instrument collection</label>
+                            <select id="explore-collection" name="collection" class="form-select" @if(collections.isEmpty){disabled}>
+                                <option value="" selected>Choose an instrument collection</option>
+                                @for(collection <- collections) {
+                                    <option value="@collection.getUri()">@collection.getLabel()</option>
+                                }
+                            </select>
+                            @if(collections.isEmpty) { <p class="small text-secondary mt-2">No instrument collections are available yet.</p> }
+                        </div>
                         <div class="col-lg-3 col-md-6">
                             <label for="explore-language" class="form-label fw-semibold">Language</label>
                             <select id="explore-language" name="language" class="form-select" @if(languages.isEmpty){disabled}>
@@ -59,15 +69,15 @@
                             </select>
                             @if(informants.isEmpty) { <p class="small text-secondary mt-2">No respondent types are available yet.</p> }
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-3 col-md-6">
                             <label for="explore-instrument" class="form-label fw-semibold">Instrument</label>
                             <select id="explore-instrument" name="instrument" class="form-select" disabled aria-describedby="instrument-selection-status">
-                                <option value="" selected>Choose language and respondent first</option>
+                                <option value="" selected>Choose collection, language and respondent first</option>
                                 @for(instrument <- instruments) {
-                                    <option value="@instrument.getUri()" data-language="@Option(instrument.getLanguage()).map(_.getBCP47()).getOrElse("")" data-informants="@String.join(" ", instrument.getInformantUris())">@instrument.getLabel()</option>
+                                    <option value="@instrument.getUri()" data-collections="@collectionMemberships.getOrDefault(instrument.getUri(), "")" data-language="@Option(instrument.getLanguage()).map(_.getBCP47()).getOrElse("")" data-informants="@String.join(" ", instrument.getInformantUris())">@instrument.getLabel()</option>
                                 }
                             </select>
-                            <p id="instrument-selection-status" class="small text-secondary mt-2 mb-0" role="status">Choose a language and respondent to see matching instruments.</p>
+                            <p id="instrument-selection-status" class="small text-secondary mt-2 mb-0" role="status">Choose a collection, language and respondent to see matching instruments.</p>
                         </div>
                     </div>
                     <div class="mt-4">
@@ -78,8 +88,19 @@
             </section>
             <section id="concept-panel" class="collapse" data-bs-parent="#explore-panels" aria-labelledby="concept-option">
                 <div class="card query-card p-4">
-                    <h2 class="section-title">Search by concept</h2>
-                    <p class="text-secondary mb-0">Coming soon: find items that assess a symptom or experience.</p>
+                    <h2 class="section-title mb-4">Search by concept</h2>
+                    <label id="explore-concepts-label" for="explore-concepts" class="form-label fw-semibold">Concepts</label>
+                    <select id="explore-concepts" name="concepts" class="form-select" multiple aria-describedby="concept-selection-help" data-placeholder="Search and select concepts">
+                        <option value="anxiety">Anxiety</option>
+                        <option value="low-mood">Low mood</option>
+                        <option value="worry">Worry</option>
+                        <option value="panic">Panic</option>
+                        <option value="social-anxiety">Social anxiety</option>
+                        <option value="sleep-difficulties">Sleep difficulties</option>
+                        <option value="difficulty-concentrating">Difficulty concentrating</option>
+                        <option value="fatigue">Fatigue</option>
+                    </select>
+                    <p id="concept-selection-help" class="small text-secondary mt-2 mb-0">Type to search and select one or more concepts.</p>
                 </div>
             </section>
             <section id="choose-panel" class="collapse" data-bs-parent="#explore-panels" aria-labelledby="choose-option">

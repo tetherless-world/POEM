@@ -1,6 +1,7 @@
 (() => {
     'use strict';
 
+    const collection = document.getElementById('explore-collection');
     const language = document.getElementById('explore-language');
     const informant = document.getElementById('explore-informant');
     const instrument = document.getElementById('explore-instrument');
@@ -11,6 +12,17 @@
     const detailsTitle = document.getElementById('instrument-details-title');
     const exportUris = details.querySelectorAll('[data-selected-instrument]');
 
+    new Choices(document.getElementById('explore-concepts'), {
+        allowHTML: false,
+        removeItemButton: true,
+        searchEnabled: true,
+        placeholderValue: 'Search and select concepts',
+        searchPlaceholderValue: 'Type a symptom or experience',
+        searchFields: ['label'],
+        shouldSort: false,
+        itemSelectText: '',
+    });
+
     function resetDetails() {
         details.hidden = true;
         explore.disabled = instrument.disabled || !instrument.value;
@@ -18,23 +30,25 @@
     }
 
     function updateInstruments() {
-        const ready = Boolean(language.value && informant.value);
+        const ready = Boolean(collection.value && language.value && informant.value);
         const matches = ready ? instruments.filter(option =>
+            option.dataset.collections.split(' ').includes(collection.value) &&
             option.dataset.language === language.value &&
             option.dataset.informants.split(' ').includes(informant.value)
         ) : [];
 
-        const placeholder = !ready ? 'Choose language and respondent first' :
+        const placeholder = !ready ? 'Choose collection, language and respondent first' :
             matches.length ? 'Choose an instrument' : 'No matching instruments';
         instrument.replaceChildren(new Option(placeholder, ''), ...matches.map(option => option.cloneNode(true)));
         instrument.value = '';
         instrument.disabled = !ready || matches.length === 0;
-        status.textContent = !ready ? 'Choose a language and respondent to see matching instruments.' :
+        status.textContent = !ready ? 'Choose a collection, language and respondent to see matching instruments.' :
             matches.length ? `${matches.length} matching instrument${matches.length === 1 ? '' : 's'} available.` :
-                'No instruments match this language and respondent. Try another selection.';
+                'No instruments match this collection, language and respondent. Try another selection.';
         resetDetails();
     }
 
+    collection.addEventListener('change', updateInstruments);
     language.addEventListener('change', updateInstruments);
     informant.addEventListener('change', updateInstruments);
     instrument.addEventListener('change', resetDetails);

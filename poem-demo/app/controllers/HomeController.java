@@ -3,6 +3,8 @@ package controllers;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.google.gson.Gson;
@@ -12,6 +14,7 @@ import ca.uhn.fhir.context.FhirContext;
 import ca.uhn.fhir.parser.IParser;
 import forms.Query;
 import models.Instrument;
+import models.InstrumentCollection;
 import models.Informant;
 import models.Language;
 import models.ItemConcept;
@@ -42,12 +45,21 @@ public class HomeController extends Controller {
     }
 
     public Result explore(Http.Request request) {
+        List<InstrumentCollection> collections = InstrumentCollection.getAll();
         List<Instrument> instruments = Instrument.getAll();
         List<Language> languages = Language.getAll();
+        collections.removeIf(collection -> collection.getUri() == null || collection.getLabel() == null || collection.getLabel().isBlank());
+        collections.sort(java.util.Comparator.comparing(InstrumentCollection::getLabel, String.CASE_INSENSITIVE_ORDER));
+        Map<String, String> collectionMemberships = new HashMap<>();
+        for (InstrumentCollection collection : collections) {
+            for (Instrument member : collection.getInstruments()) {
+                collectionMemberships.merge(member.getUri(), collection.getUri(), (existing, next) -> existing + " " + next);
+            }
+        }
         instruments.removeIf(instrument -> instrument.getUri() == null || instrument.getLabel() == null || instrument.getLabel().isBlank());
         instruments.sort(java.util.Comparator.comparing(Instrument::getLabel, String.CASE_INSENSITIVE_ORDER));
         languages.sort(java.util.Comparator.comparing(Language::getDisplayLabel, String.CASE_INSENSITIVE_ORDER));
-        return ok(views.html.explore.render(asScala(instruments), asScala(Informant.getAll()), asScala(languages), request));
+        return ok(views.html.explore.render(asScala(collections), asScala(instruments), asScala(Informant.getAll()), asScala(languages), collectionMemberships, request));
     }
 
     public Result query(Http.Request request) {
