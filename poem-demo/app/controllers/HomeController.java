@@ -13,6 +13,7 @@ import com.google.inject.Inject;
 import ca.uhn.fhir.context.FhirContext;
 import ca.uhn.fhir.parser.IParser;
 import forms.Query;
+import models.Construct;
 import models.Instrument;
 import models.InstrumentCollection;
 import models.Informant;
@@ -59,7 +60,7 @@ public class HomeController extends Controller {
         instruments.removeIf(instrument -> instrument.getUri() == null || instrument.getLabel() == null || instrument.getLabel().isBlank());
         instruments.sort(java.util.Comparator.comparing(Instrument::getLabel, String.CASE_INSENSITIVE_ORDER));
         languages.sort(java.util.Comparator.comparing(Language::getDisplayLabel, String.CASE_INSENSITIVE_ORDER));
-        return ok(views.html.explore.render(asScala(collections), asScala(instruments), asScala(Informant.getAll()), asScala(languages), collectionMemberships, request));
+        return ok(views.html.explore.render(asScala(collections), asScala(instruments), asScala(Informant.getAll()), asScala(languages), asScala(Construct.getAll()), collectionMemberships, request));
     }
 
     public Result query(Http.Request request) {
