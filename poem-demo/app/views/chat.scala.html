@@ -6,11 +6,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat - AI Chatbot</title>
+    <script src="@routes.Assets.versioned("javascripts/theme.js")"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/main.min.css")">
     <style>
         body {
-            background-color: #f8f9fa;
+            background-color: var(--poem-bg);
             height: 100vh;
             display: flex;
             flex-direction: column;
@@ -25,7 +27,7 @@
             flex: 1;
             overflow-y: auto;
             padding: 20px;
-            background: white;
+            background: var(--poem-surface);
             border-radius: 10px;
             margin: 20px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -44,8 +46,8 @@
             text-align: right;
         }
         .bot-message {
-            background: #e9ecef;
-            color: #333;
+            background: var(--poem-surface-strong);
+            color: var(--poem-text);
             margin-right: auto;
         }
         .message-content p {
@@ -55,13 +57,13 @@
             margin-bottom: 0;
         }
         .message-content code {
-            background: rgba(0,0,0,0.05);
+            background: var(--poem-surface-strong);
             padding: 0 4px;
             border-radius: 4px;
             font-size: 0.9em;
         }
         .message-content pre {
-            background: rgba(0,0,0,0.05);
+            background: var(--poem-surface-strong);
             padding: 12px;
             border-radius: 8px;
             overflow-x: auto;
@@ -76,10 +78,10 @@
             margin-bottom: 0.5rem;
         }
         .message-content blockquote {
-            border-left: 4px solid #d4d4d8;
+            border-left: 4px solid var(--poem-border);
             margin: 0.5rem 0;
             padding-left: 0.75rem;
-            color: #555;
+            color: var(--poem-muted);
         }
         .message-content table {
             width: 100%;
@@ -89,16 +91,16 @@
         }
         .message-content th,
         .message-content td {
-            border: 1px solid #dee2e6;
+            border: 1px solid var(--poem-border);
             padding: 0.5rem 0.75rem;
             text-align: left;
         }
         .message-content th {
-            background-color: #f1f3f5;
+            background-color: var(--poem-surface-strong);
             font-weight: 600;
         }
         .message-content tr:nth-child(even) {
-            background-color: #f8f9fa;
+            background-color: var(--poem-bg);
         }
         .message-time {
             font-size: 0.75rem;
@@ -106,13 +108,13 @@
             margin-top: 5px;
         }
         .chat-input-container {
-            background: white;
+            background: var(--poem-surface);
             padding: 20px;
-            border-top: 1px solid #dee2e6;
+            border-top: 1px solid var(--poem-border);
         }
         .chat-input {
             border-radius: 25px;
-            border: 2px solid #e9ecef;
+            border: 2px solid var(--poem-border);
             padding: 12px 20px;
         }
         .chat-input:focus {
@@ -120,6 +122,9 @@
             box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
         }
         .send-btn {
+            --bs-btn-color: white;
+            --bs-btn-hover-color: white;
+            --bs-btn-active-color: white;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             border: none;
             border-radius: 50%;
@@ -133,7 +138,7 @@
         .typing-indicator {
             display: none;
             padding: 12px 16px;
-            background: #e9ecef;
+            background: var(--poem-surface-strong);
             border-radius: 18px;
             max-width: 70%;
             margin-bottom: 15px;
@@ -158,19 +163,20 @@
         }
         .welcome-message {
             text-align: center;
-            color: #6c757d;
+            color: var(--poem-muted);
             margin: 50px 0;
         }
     </style>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<body class="poem-app">
+    <nav class="navbar navbar-expand-lg poem-nav">
         <div class="container">
             <a class="navbar-brand fw-bold" href="/">🤖 AI Chatbot</a>
             <div class="navbar-nav ms-auto">
                 <a class="nav-link" href="/">Home</a>
                 <a class="nav-link active" href="/chat">Chat</a>
             </div>
+            @themeSwitch()
         </div>
     </nav>
 

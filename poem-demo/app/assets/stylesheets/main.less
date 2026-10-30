@@ -10,15 +10,65 @@
   --poem-primary: #0d5f78;
   --poem-primary-hover: #084c61;
   --poem-secondary: #1f7a8c;
+  --poem-bg-top: #f7fbfd;
+  --poem-bg-bottom: #eff6f9;
+  --poem-nav: rgba(255, 255, 255, 0.92);
+  --poem-hero-top: #f9fdff;
+  --poem-hero-bottom: #eef6fa;
+  --poem-button-text: #ffffff;
+  --poem-roadmap-top: #fff8eb;
+  --poem-roadmap-bottom: #fff2db;
+  --poem-roadmap-border: #ecd8b1;
+  --poem-roadmap-title: #473119;
+  --poem-roadmap-text: #6f522f;
+  --poem-roadmap-label: #ffeed1;
+  --poem-roadmap-label-border: #efcf91;
+  --poem-roadmap-label-text: #744f1d;
+}
+
+[data-bs-theme="dark"] {
+  color-scheme: dark;
+  --poem-bg: #101c28;
+  --poem-surface: #192b3a;
+  --poem-surface-strong: #203748;
+  --poem-text: #e3edf5;
+  --poem-muted: #adbecd;
+  --poem-border: #385064;
+  --poem-primary: #7bd4e8;
+  --poem-primary-hover: #a1e3f0;
+  --poem-secondary: #70c9c4;
+  --poem-bg-top: #142432;
+  --poem-bg-bottom: #0d1822;
+  --poem-nav: rgba(16, 28, 40, 0.94);
+  --poem-hero-top: #1b3243;
+  --poem-hero-bottom: #152735;
+  --poem-button-text: #102a43;
+  --poem-roadmap-top: #352c1f;
+  --poem-roadmap-bottom: #2a251d;
+  --poem-roadmap-border: #6c5735;
+  --poem-roadmap-title: #ffe0a5;
+  --poem-roadmap-text: #ddc59f;
+  --poem-roadmap-label: #483820;
+  --poem-roadmap-label-border: #806333;
+  --poem-roadmap-label-text: #ffdb99;
+  --bs-body-bg: var(--poem-bg);
+  --bs-body-color: var(--poem-text);
+  --bs-secondary-color: var(--poem-muted);
+  --bs-border-color: var(--poem-border);
+  --bs-link-color: var(--poem-primary);
+  --bs-link-color-rgb: 123, 212, 232;
+  --bs-link-hover-color: var(--poem-primary-hover);
+  --bs-link-hover-color-rgb: 161, 227, 240;
 }
 
 .poem-app {
-  background: linear-gradient(180deg, #f7fbfd 0%, var(--poem-bg) 52%, #eff6f9 100%);
+  background: linear-gradient(180deg, var(--poem-bg-top) 0%, var(--poem-bg) 52%, var(--poem-bg-bottom) 100%);
   color: var(--poem-text);
+  min-height: 100vh;
 }
 
 .poem-nav {
-  background-color: rgba(255, 255, 255, 0.92);
+  background-color: var(--poem-nav);
   backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--poem-border);
 }
@@ -39,7 +89,7 @@
 }
 
 .hero-card {
-  background: linear-gradient(145deg, #f9fdff 0%, #eef6fa 100%);
+  background: linear-gradient(145deg, var(--poem-hero-top) 0%, var(--poem-hero-bottom) 100%);
   border: 1px solid var(--poem-border);
   border-radius: 1rem;
   box-shadow: 0 10px 28px rgba(16, 42, 67, 0.08);
@@ -79,7 +129,7 @@
 }
 
 .start-card {
-  background: linear-gradient(160deg, #ffffff 0%, var(--poem-surface-strong) 100%);
+  background: linear-gradient(160deg, var(--poem-surface) 0%, var(--poem-surface-strong) 100%);
   border: 1px solid var(--poem-border);
   border-top: 3px solid var(--poem-secondary);
   border-radius: 1rem;
@@ -165,7 +215,7 @@
 }
 
 .download-option {
-  background: #f7fbfd;
+  background: var(--poem-bg-top);
   border: 1px solid var(--poem-border);
   border-radius: 0.75rem;
   padding: 1.25rem;
@@ -198,30 +248,30 @@
 }
 
 .query-card .card-footer {
-  background-color: #f7fbfd;
+  background-color: var(--poem-bg-top);
   border-top: 1px solid var(--poem-border);
 }
 
 .roadmap-card {
-  background: linear-gradient(165deg, #fff8eb 0%, #fff2db 100%);
-  border: 1px solid #ecd8b1;
+  background: linear-gradient(165deg, var(--poem-roadmap-top) 0%, var(--poem-roadmap-bottom) 100%);
+  border: 1px solid var(--poem-roadmap-border);
   border-radius: 0.9rem;
   box-shadow: 0 6px 18px rgba(52, 39, 13, 0.08);
 }
 
 .roadmap-card .card-title {
-  color: #473119;
+  color: var(--poem-roadmap-title);
 }
 
 .roadmap-card .card-text {
-  color: #6f522f;
+  color: var(--poem-roadmap-text);
 }
 
 .roadmap-label {
-  background-color: #ffeed1;
-  border: 1px solid #efcf91;
+  background-color: var(--poem-roadmap-label);
+  border: 1px solid var(--poem-roadmap-label-border);
   border-radius: 999px;
-  color: #744f1d;
+  color: var(--poem-roadmap-label-text);
   display: inline-block;
   font-size: 0.74rem;
   font-weight: 700;
@@ -236,6 +286,11 @@
 }
 
 .btn-primary {
+  --bs-btn-color: var(--poem-button-text);
+  --bs-btn-hover-color: var(--poem-button-text);
+  --bs-btn-active-color: var(--poem-button-text);
+  --bs-btn-active-bg: var(--poem-primary-hover);
+  --bs-btn-active-border-color: var(--poem-primary-hover);
   background-color: var(--poem-primary);
   border-color: var(--poem-primary);
 }
@@ -247,6 +302,10 @@
 }
 
 .btn-outline-primary {
+  --bs-btn-hover-color: var(--poem-button-text);
+  --bs-btn-active-color: var(--poem-button-text);
+  --bs-btn-active-bg: var(--poem-primary-hover);
+  --bs-btn-active-border-color: var(--poem-primary-hover);
   border-color: var(--poem-primary);
   color: var(--poem-primary);
 }
@@ -255,6 +314,52 @@
 .btn-outline-primary:focus {
   background-color: var(--poem-primary);
   border-color: var(--poem-primary);
+}
+
+.theme-controls {
+  color: var(--poem-text);
+  font-size: 0.875rem;
+}
+
+.theme-controls .form-check-input:checked {
+  background-color: var(--poem-primary);
+  border-color: var(--poem-primary);
+}
+
+.choices {
+  --choices-bg-color: var(--poem-surface);
+  --choices-bg-color-disabled: var(--poem-surface-strong);
+  --choices-bg-color-dropdown: var(--poem-surface);
+  --choices-text-color: var(--poem-text);
+  --choices-keyline-color: var(--poem-border);
+  --choices-highlighted-color: var(--poem-surface-strong);
+}
+
+.choices__inner,
+.choices__list--dropdown,
+.choices__list[aria-expanded],
+.choices__input {
+  background-color: var(--poem-surface);
+  border-color: var(--poem-border);
+  color: var(--poem-text);
+}
+
+.choices__list--dropdown .choices__item--selectable.is-highlighted,
+.choices__list[aria-expanded] .choices__item--selectable.is-highlighted {
+  background-color: var(--poem-surface-strong);
+}
+
+.choices[data-type*="select-one"] .choices__input {
+  background-color: var(--poem-surface);
+}
+
+.choices[data-type*="select-one"]::after {
+  border-top-color: var(--poem-text);
+}
+
+.choices[data-type*="select-one"].is-open::after {
+  border-top-color: transparent;
+  border-bottom-color: var(--poem-text);
 }
 
 @media (max-width: 991.98px) {
