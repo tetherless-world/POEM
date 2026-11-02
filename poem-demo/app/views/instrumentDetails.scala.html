@@ -1,6 +1,6 @@
 @()
 
-<section id="instrument-details" class="instrument-details mt-5" aria-labelledby="instrument-details-title" hidden>
+<section id="instrument-details" class="instrument-details mt-5" aria-labelledby="instrument-details-title" data-about-url="@routes.ApiController.getInstrumentAbout("")" hidden>
     <header class="mb-4">
         <p class="eyebrow mb-2">Your selected instrument</p>
         <h2 id="instrument-details-title" class="hero-title" tabindex="-1"></h2>
@@ -10,30 +10,23 @@
         </div>
     </header>
     <div class="sample-notice mb-4">
-        <span class="fw-semibold">Sample instrument profile</span>
-        <p class="mb-0 small">The information below is mock data for this preview, shared across all instruments. It does not describe the selected instrument. FHIR and XLSX exports use the selected instrument's actual POEM data.</p>
+        <span class="fw-semibold">Instrument profile preview</span>
+        <p class="mb-0 small">Scales and item counts describe your selected instrument. Other profile sections contain example information. FHIR and XLSX exports use the selected instrument's actual POEM data.</p>
     </div>
 
     <section class="card query-card detail-section mb-4" aria-labelledby="instrument-about-heading">
         <div class="card-body p-4">
             <h3 id="instrument-about-heading" class="section-title mb-4">About the Instrument</h3>
-            <div class="row g-4">
+            <p id="instrument-about-status" class="detail-answer" role="status"></p>
+            <div id="instrument-about-content" class="row g-4" aria-busy="false">
                 <div class="col-lg-8">
                     <h4 class="detail-question">What scales does it contain?</h4>
-                    <p class="detail-answer">Six symptom scales, with separate scores for each area:</p>
-                    <div class="d-flex flex-wrap gap-2">
-                        <span class="proof-chip">Separation anxiety</span>
-                        <span class="proof-chip">Social anxiety</span>
-                        <span class="proof-chip">Generalized anxiety</span>
-                        <span class="proof-chip">Panic</span>
-                        <span class="proof-chip">Obsessive-compulsive symptoms</span>
-                        <span class="proof-chip">Low mood</span>
-                    </div>
+                    <p id="instrument-scales-summary" class="detail-answer"></p>
+                    <div id="instrument-scales" class="d-flex flex-wrap gap-2"></div>
                 </div>
                 <div class="col-lg-4">
                     <h4 class="detail-question">How many items does it have?</h4>
-                    <p class="detail-stat mb-0">47 <span>items</span></p>
-                    <p class="detail-answer small mb-0">Sample full-length questionnaire</p>
+                    <p class="detail-stat mb-0"><strong id="instrument-item-count">&mdash;</strong> <span id="instrument-item-unit">items</span></p>
                 </div>
                 <div class="col-12">
                     <div class="detail-divider pt-4">

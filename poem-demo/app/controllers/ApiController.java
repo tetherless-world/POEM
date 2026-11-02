@@ -7,10 +7,32 @@ import play.mvc.Controller;
 import play.mvc.Result;
 import models.Language;
 import models.Instrument;
+import models.InstrumentAbout;
 
 import java.util.List;
 
 public class ApiController extends Controller {
+    public Result getInstrumentAbout(String uri) {
+        try {
+            if (uri == null || uri.isBlank() || !java.net.URI.create(uri).isAbsolute()) {
+                return badRequest(Json.newObject().put("error", "A valid instrument URI is required"));
+            }
+        } catch (IllegalArgumentException e) {
+            return badRequest(Json.newObject().put("error", "A valid instrument URI is required"));
+        }
+
+        try {
+            InstrumentAbout about = InstrumentAbout.getByUri(uri);
+            if (about == null) {
+                return notFound(Json.newObject().put("error", "Instrument not found"));
+            }
+            return ok(Json.toJson(about));
+        } catch (Exception e) {
+            play.Logger.of(ApiController.class).error("Failed to retrieve instrument details for {}", uri, e);
+            return internalServerError(Json.newObject().put("error", "Failed to retrieve instrument details"));
+        }
+    }
+
     
     // Inject your database service/repository here
     // @Inject
