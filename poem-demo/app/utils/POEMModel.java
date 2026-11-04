@@ -4,6 +4,10 @@ import java.io.IOException;
 import java.io.UncheckedIOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.nio.charset.StandardCharsets;
+import java.util.HexFormat;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.stream.Stream;
@@ -106,7 +110,7 @@ public class POEMModel {
             if (cachedDataset == null) {
                 cachedDataset = openStore(true);
             } else {
-                initializeStore(cachedDataset, POEMModel::loadModel, true);
+                initializeFromSources(cachedDataset, true);
             }
         }
     }
@@ -125,7 +129,7 @@ public class POEMModel {
         Dataset dataset = TDB2Factory.connectDataset(
             System.getProperty("poem.tdb2.directory", "./tdb2"));
         try {
-            initializeStore(dataset, POEMModel::loadModel, refresh);
+            initializeFromSources(dataset, refresh);
             return dataset;
         } catch (RuntimeException | Error e) {
             dataset.close();
@@ -133,42 +137,111 @@ public class POEMModel {
         }
     }
 
-    static void initializeStore(Dataset dataset, Consumer<Model> loader, boolean refresh) {
+    private static void initializeFromSources(Dataset dataset, boolean refresh) {
+        Path dataDirectory = resolveDirectory("poem.data.directory",
+            Path.of(DATA_PREFIX), Path.of(DIST_DATA_PREFIX));
+        Path ontologyDirectory = resolveDirectory("poem.ontology.directory",
+            Path.of("./ontology"), Path.of("../ontology"));
+        List<Path> data = Stream.of(DATA_FILES).map(dataDirectory::resolve).toList();
+        List<Path> ontologies = ontologyFiles(ontologyDirectory);
+        String fingerprint = sourceFingerprint(data, ontologies);
+        initializeStore(dataset, model -> {
+            for (Path file : data) {
+                RDFDataMgr.read(model, file.toUri().toString());
+            }
+            loadOntologyFiles(model, ontologies);
+        }, refresh, fingerprint);
+    }
+
+    static void initializeStore(Dataset dataset, Consumer<Model> loader, boolean refresh,
+                                String fingerprint) {
         Txn.executeWrite(dataset, () -> {
             Model metadata = dataset.getNamedModel(METADATA_GRAPH);
             var store = ResourceFactory.createResource("urn:poem:store");
             var initialized = ResourceFactory.createProperty("urn:poem:store:initialized");
-            if (refresh || !metadata.contains(store, initialized, metadata.createTypedLiteral(true))) {
+            var sourceHash = ResourceFactory.createProperty("urn:poem:store:sourceFingerprint");
+            if (refresh || !metadata.contains(store, initialized, metadata.createTypedLiteral(true))
+                    || !metadata.contains(store, sourceHash, fingerprint)) {
                 Model model = dataset.getDefaultModel();
                 model.removeAll();
                 loader.accept(model);
                 metadata.removeAll();
                 metadata.addLiteral(store, initialized, true);
+                metadata.add(store, sourceHash, fingerprint);
             }
         });
     }
 
-    private static void loadModel(Model model) {
-        String prefix = Files.isDirectory(Path.of(DATA_PREFIX)) ? DATA_PREFIX : DIST_DATA_PREFIX;
-        for (String file : DATA_FILES) {
-            RDFDataMgr.read(model, Path.of(prefix, file).toUri().toString());
+    static Path resolveDirectory(String property, Path... defaults) {
+        String configured = System.getProperty(property);
+        if (configured != null) {
+            Path directory = Path.of(configured);
+            if (!configured.isBlank() && Files.isDirectory(directory)) {
+                return directory;
+            }
+            throw new IllegalStateException("Invalid directory for " + property + ": " + configured);
         }
-        Path ontologyDirectory = Path.of("./ontology");
-        if (!Files.isDirectory(ontologyDirectory)) {
-            ontologyDirectory = Path.of("../ontology");
+        for (Path directory : defaults) {
+            if (Files.isDirectory(directory)) {
+                return directory;
+            }
         }
-        if (Files.isDirectory(ontologyDirectory)) {
-            loadOntologies(model, ontologyDirectory);
-        }
+        throw new IllegalStateException("Missing source directory; set -D" + property
+            + " to an existing directory. Tried " + List.of(defaults));
     }
 
-    static void loadOntologies(Model model, Path directory) {
+    static List<Path> ontologyFiles(Path directory) {
         try (Stream<Path> entries = Files.list(directory)) {
             List<Path> files = entries.filter(Files::isRegularFile)
                 .filter(file -> RDFLanguages.filenameToLang(file.toString()) != null
                     || file.toString().endsWith(".ofn"))
                 .sorted()
                 .toList();
+            if (files.isEmpty()) {
+                throw new IllegalStateException("No ontology files found in " + directory);
+            }
+            return files;
+        } catch (IOException e) {
+            throw new UncheckedIOException("Could not read ontology directory " + directory, e);
+        }
+    }
+
+    static String sourceFingerprint(List<Path> data, List<Path> ontologies) {
+        try {
+            MessageDigest digest = MessageDigest.getInstance("SHA-256");
+            // Include roles and names, but not absolute paths: a packaged copy has the same identity.
+            for (List<Path> group : List.of(data, ontologies)) {
+                digest.update((byte) 0);
+                for (Path file : group) {
+                    if (!Files.isRegularFile(file) || Files.size(file) == 0) {
+                        throw new IllegalStateException("Missing or empty RDF source: " + file);
+                    }
+                    digest.update(file.getFileName().toString().getBytes(StandardCharsets.UTF_8));
+                    digest.update((byte) 0);
+                    try (var input = Files.newInputStream(file)) {
+                        byte[] buffer = new byte[65536];
+                        int count;
+                        while ((count = input.read(buffer)) != -1) {
+                            digest.update(buffer, 0, count);
+                        }
+                    }
+                    digest.update((byte) 0);
+                }
+            }
+            return HexFormat.of().formatHex(digest.digest());
+        } catch (IOException e) {
+            throw new UncheckedIOException("Could not fingerprint RDF sources", e);
+        } catch (NoSuchAlgorithmException e) {
+            throw new IllegalStateException(e);
+        }
+    }
+
+    static void loadOntologies(Model model, Path directory) {
+        loadOntologyFiles(model, ontologyFiles(directory));
+    }
+
+    private static void loadOntologyFiles(Model model, List<Path> files) {
+        try {
             for (Path file : files) {
                 if (isFunctionalSyntax(file)) {
                     loadFunctionalOntology(model, file);
@@ -177,7 +250,7 @@ public class POEMModel {
                 }
             }
         } catch (IOException e) {
-            throw new UncheckedIOException("Could not read ontology directory " + directory, e);
+            throw new UncheckedIOException("Could not load ontology files", e);
         }
     }
 

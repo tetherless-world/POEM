@@ -2,6 +2,7 @@ package utils;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.TimeUnit;
 
@@ -86,7 +87,7 @@ public class POEMModelTest {
                 model.add(model.createResource("urn:test:item"), RDF.type,
                     model.createResource("urn:test:Child"));
                 POEMModel.loadOntologies(model, ontology);
-            }, false);
+            }, false, "v1");
         } finally {
             dataset.close();
         }
@@ -95,7 +96,7 @@ public class POEMModelTest {
         try {
             POEMModel.initializeStore(reopened, model -> {
                 throw new AssertionError("An initialized store must not be imported again");
-            }, false);
+            }, false, "v1");
             try (var transaction = new POEMModel.ReadTransaction(reopened);
                  var query = QueryExecutionFactory.create("""
                      ASK { <urn:test:item> a ?class . ?class <http://www.w3.org/2000/01/rdf-schema#label> "Child" }
@@ -112,18 +113,18 @@ public class POEMModelTest {
     public void refreshReplacesGraphAndFailedRefreshRollsBack() throws Exception {
         Dataset dataset = TDB2Factory.connectDataset(temporaryFolder.newFolder("tdb2").toString());
         try {
-            POEMModel.initializeStore(dataset, model -> addLabel(model, "old"), false);
+            POEMModel.initializeStore(dataset, model -> addLabel(model, "old"), false, "v1");
             assertThrows(IllegalStateException.class, () ->
                 POEMModel.initializeStore(dataset, model -> {
                     addLabel(model, "partial");
                     throw new IllegalStateException("Import failed");
-                }, true));
+                }, true, "v1"));
             assertFalse(dataset.isInTransaction());
             try (var transaction = new POEMModel.ReadTransaction(dataset)) {
                 assertTrue(dataset.getDefaultModel().contains(null, RDFS.label, "old"));
                 assertFalse(dataset.getDefaultModel().contains(null, RDFS.label, "partial"));
             }
-            POEMModel.initializeStore(dataset, model -> addLabel(model, "new"), true);
+            POEMModel.initializeStore(dataset, model -> addLabel(model, "new"), true, "v1");
             try (var transaction = new POEMModel.ReadTransaction(dataset)) {
                 assertEquals(1, dataset.getDefaultModel().size());
                 assertTrue(dataset.getDefaultModel().contains(null, RDFS.label, "new"));
@@ -137,7 +138,7 @@ public class POEMModelTest {
     public void nestedReadsShareTransactionAndExceptionsReleaseIt() throws Exception {
         Dataset dataset = TDB2Factory.connectDataset(temporaryFolder.newFolder("tdb2").toString());
         try {
-            POEMModel.initializeStore(dataset, model -> addLabel(model, "test"), false);
+            POEMModel.initializeStore(dataset, model -> addLabel(model, "test"), false, "v1");
             assertThrows(IllegalStateException.class, () -> {
                 try (var outer = new POEMModel.ReadTransaction(dataset)) {
                     try (var inner = new POEMModel.ReadTransaction(dataset)) {
@@ -157,10 +158,10 @@ public class POEMModelTest {
     public void concurrentReaderSeesConsistentGraphDuringRefresh() throws Exception {
         Dataset dataset = TDB2Factory.connectDataset(temporaryFolder.newFolder("tdb2").toString());
         try {
-            POEMModel.initializeStore(dataset, model -> addLabel(model, "old"), false);
+            POEMModel.initializeStore(dataset, model -> addLabel(model, "old"), false, "v1");
             try (var transaction = new POEMModel.ReadTransaction(dataset)) {
                 CompletableFuture.runAsync(() -> POEMModel.initializeStore(dataset,
-                    model -> addLabel(model, "new"), true)).get(10, TimeUnit.SECONDS);
+                    model -> addLabel(model, "new"), true, "v1")).get(10, TimeUnit.SECONDS);
                 assertTrue(dataset.getDefaultModel().contains(null, RDFS.label, "old"));
                 assertFalse(dataset.getDefaultModel().contains(null, RDFS.label, "new"));
             }
@@ -173,5 +174,93 @@ public class POEMModelTest {
 
     private static void addLabel(Model model, String label) {
         model.add(model.createResource("urn:test:item"), RDFS.label, label);
+    }
+
+    @Test
+    public void changedFingerprintReloadsAndFailedImportIsRetried() throws Exception {
+        Dataset dataset = TDB2Factory.connectDataset(temporaryFolder.newFolder("changed-store").toString());
+        try {
+            POEMModel.initializeStore(dataset, model -> addLabel(model, "old"), false, "v1");
+            assertThrows(IllegalStateException.class, () ->
+                POEMModel.initializeStore(dataset, model -> {
+                    addLabel(model, "partial");
+                    throw new IllegalStateException("Import failed");
+                }, false, "v2"));
+            assertTrue(Txn.calculateRead(dataset,
+                () -> dataset.getDefaultModel().contains(null, RDFS.label, "old")));
+            POEMModel.initializeStore(dataset, model -> addLabel(model, "new"), false, "v2");
+            assertTrue(Txn.calculateRead(dataset,
+                () -> dataset.getDefaultModel().size() == 1
+                    && dataset.getDefaultModel().contains(null, RDFS.label, "new")));
+        } finally {
+            dataset.close();
+        }
+    }
+
+    @Test
+    public void fingerprintsTrackContentAndFileSetAcrossLocations() throws Exception {
+        Path development = temporaryFolder.newFolder("development").toPath();
+        Path packaged = temporaryFolder.newFolder("packaged").toPath();
+        Path data = Files.writeString(development.resolve("data.ttl"), "data");
+        Path ontology = Files.writeString(development.resolve("ontology.ttl"), "original");
+        String original = POEMModel.sourceFingerprint(List.of(data), List.of(ontology));
+        Path packagedData = Files.copy(data, packaged.resolve("data.ttl"));
+        Path packagedOntology = Files.copy(ontology, packaged.resolve("ontology.ttl"));
+        assertEquals(original, POEMModel.sourceFingerprint(List.of(packagedData), List.of(packagedOntology)));
+        Files.writeString(data, "changed data");
+        assertFalse(original.equals(POEMModel.sourceFingerprint(List.of(data), List.of(ontology))));
+        Files.writeString(data, "data");
+        Files.writeString(ontology, "modified");
+        assertFalse(original.equals(POEMModel.sourceFingerprint(List.of(data), List.of(ontology))));
+        assertFalse(original.equals(POEMModel.sourceFingerprint(List.of(data), List.of())));
+        Files.writeString(data, "");
+        assertThrows(IllegalStateException.class,
+            () -> POEMModel.sourceFingerprint(List.of(data), List.of(ontology)));
+        Files.delete(data);
+        assertThrows(IllegalStateException.class,
+            () -> POEMModel.sourceFingerprint(List.of(data), List.of(ontology)));
+    }
+
+    @Test
+    public void resolvesDefaultsAndRejectsInvalidExplicitDirectory() throws Exception {
+        String property = "poem.test.source.directory";
+        Path existing = temporaryFolder.newFolder("sources").toPath();
+        Path missing = existing.resolve("missing");
+        String previous = System.getProperty(property);
+        try {
+            System.clearProperty(property);
+            assertEquals(existing, POEMModel.resolveDirectory(property, missing, existing));
+            assertThrows(IllegalStateException.class, () -> POEMModel.resolveDirectory(property, missing));
+            System.setProperty(property, existing.toString());
+            assertEquals(existing, POEMModel.resolveDirectory(property, missing));
+            System.setProperty(property, missing.toString());
+            assertThrows(IllegalStateException.class, () -> POEMModel.resolveDirectory(property, existing));
+            assertThrows(IllegalStateException.class, () -> POEMModel.ontologyFiles(existing));
+        } finally {
+            if (previous == null) {
+                System.clearProperty(property);
+            } else {
+                System.setProperty(property, previous);
+            }
+        }
+    }
+
+    @Test
+    public void legacyStoreWithoutFingerprintIsReimported() throws Exception {
+        Dataset dataset = TDB2Factory.connectDataset(temporaryFolder.newFolder("legacy-store").toString());
+        try {
+            Txn.executeWrite(dataset, () -> {
+                addLabel(dataset.getDefaultModel(), "legacy");
+                Model metadata = dataset.getNamedModel("urn:poem:store:metadata");
+                metadata.addLiteral(metadata.createResource("urn:poem:store"),
+                    metadata.createProperty("urn:poem:store:initialized"), true);
+            });
+            POEMModel.initializeStore(dataset, model -> addLabel(model, "current"), false, "v1");
+            assertTrue(Txn.calculateRead(dataset,
+                () -> dataset.getDefaultModel().size() == 1
+                    && dataset.getDefaultModel().contains(null, RDFS.label, "current")));
+        } finally {
+            dataset.close();
+        }
     }
 }

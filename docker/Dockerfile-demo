@@ -7,6 +7,7 @@ RUN apt-get install -y nodejs
 ENV JAVA_OPTS="-Xms6048m -Xmx10000m"
 
 COPY ./poem-demo /poem-demo
+COPY ./ontology /ontology
 
 WORKDIR /poem-demo
 
@@ -14,6 +15,10 @@ RUN sbt clean
 RUN sbt playUpdateSecret && sbt dist
 
 RUN cd /poem-demo/target/universal/ && unzip poem-demo-1.0-SNAPSHOT.zip
+
+# Fail the image build if RDF inputs were omitted from the distribution.
+RUN test -s /poem-demo/target/universal/poem-demo-1.0-SNAPSHOT/data/activities.ttl \
+    && test -n "$(find /poem-demo/target/universal/poem-demo-1.0-SNAPSHOT/ontology -maxdepth 1 -type f -size +0c -print -quit)"
 
 FROM eclipse-temurin:25-jre
 

@@ -24,7 +24,11 @@ libraryDependencies += "net.sourceforge.owlapi" % "owlapi-distribution" % "5.5.1
 
 Universal / mappings ++= {
   val ontologyDir = baseDirectory.value.getParentFile / "ontology"
-  (ontologyDir * "*").get.filter(_.isFile).map { file =>
+  val ontologyFiles = (ontologyDir * "*").get.filter(file =>
+    file.isFile && Set("ttl", "owl", "rdf", "nt", "n3", "jsonld", "ofn").contains(file.ext.toLowerCase))
+  require(ontologyFiles.nonEmpty, s"No ontology files found in $ontologyDir")
+  require(ontologyFiles.forall(_.length > 0), s"Empty ontology file found in $ontologyDir")
+  ontologyFiles.map { file =>
     file -> s"ontology/${file.getName}"
   }
 }
