@@ -84,9 +84,8 @@
                         <button id="explore-button" type="button" class="btn btn-primary" disabled aria-controls="instrument-details">Explore</button>
                     </div>
                 </div>
-                @instrumentDetails()
             </section>
-            <section id="concept-panel" class="collapse" data-bs-parent="#explore-panels" aria-labelledby="concept-option">
+            <section id="concept-panel" class="collapse" data-bs-parent="#explore-panels" aria-labelledby="concept-option" data-search-url="@routes.ApiController.searchInstruments()">
                 <div class="card query-card p-4">
                     <h2 class="section-title mb-4">Search by concept</h2>
                     <label id="explore-concepts-label" for="explore-concepts" class="form-label fw-semibold">Concepts</label>
@@ -96,6 +95,11 @@
                         }
                     </select>
                     <p id="concept-selection-help" class="small text-secondary mt-2 mb-0">@if(constructs.isEmpty){No concepts are available yet.}else{Type to search and select one or more concepts.}</p>
+                    <div class="mt-4">
+                        <button id="concept-search-button" type="button" class="btn btn-primary" disabled aria-controls="concept-search-results">Find instruments</button>
+                    </div>
+                    <p id="concept-search-status" class="small text-secondary mt-3 mb-0" role="status">Select one or more concepts to find matching instruments.</p>
+                    <ul id="concept-search-results" class="list-group list-group-flush mt-3" aria-label="Matching instruments" aria-busy="false"></ul>
                 </div>
             </section>
             <section id="choose-panel" class="collapse" data-bs-parent="#explore-panels" aria-labelledby="choose-option">
@@ -105,6 +109,7 @@
                 </div>
             </section>
         </div>
+        @instrumentDetails()
     </section>
 </main>
 <script src="@routes.Assets.versioned("javascripts/explore.js")" defer></script>

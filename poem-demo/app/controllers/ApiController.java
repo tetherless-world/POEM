@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import play.libs.Json;
 import play.mvc.Controller;
 import play.mvc.Result;
+import play.mvc.Http;
 import models.Language;
 import models.Instrument;
 import models.InstrumentAbout;
@@ -12,6 +13,32 @@ import models.InstrumentAbout;
 import java.util.List;
 
 public class ApiController extends Controller {
+    public Result searchInstruments(Http.Request request) {
+        String[] terms = request.queryString().get("term");
+        if (terms == null || terms.length == 0) {
+            return badRequest(Json.newObject().put("error", "Select at least one SNOMED term"));
+        }
+        try {
+            List<Instrument> instruments = Instrument.getByConstructs(java.util.Arrays.asList(terms));
+            ArrayNode results = Json.newArray();
+            for (Instrument instrument : instruments) {
+                ObjectNode result = results.addObject();
+                result.put("uri", instrument.getUri());
+                result.put("label", instrument.getLabel());
+                ArrayNode matches = result.putArray("matches");
+                for (Instrument.ConstructMatch match : instrument.getConstructMatches()) {
+                    matches.addObject().put("termUri", match.termUri()).put("matchType", match.matchType());
+                }
+            }
+            return ok(results);
+        } catch (IllegalArgumentException e) {
+            return badRequest(Json.newObject().put("error", e.getMessage()));
+        } catch (Exception e) {
+            play.Logger.of(ApiController.class).error("Failed to search instruments", e);
+            return internalServerError(Json.newObject().put("error", "Failed to search instruments"));
+        }
+    }
+
     public Result getInstrumentAbout(String uri) {
         try {
             if (uri == null || uri.isBlank() || !java.net.URI.create(uri).isAbsolute()) {
