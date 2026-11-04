@@ -15,6 +15,8 @@ scalaVersion := "3.3.9"
 
 libraryDependencies += guice
 
+pipelineStages := Seq(digest)
+
 // https://mvnrepository.com/artifact/org.apache.jena/jena-arq
 libraryDependencies += "org.apache.jena" % "jena-arq" % "6.2.0"
 libraryDependencies += "org.apache.jena" % "jena-tdb2" % "6.2.0"
