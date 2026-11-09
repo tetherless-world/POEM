@@ -8,25 +8,26 @@ import play.mvc.Result;
 import play.mvc.Http;
 import models.Language;
 import models.Instrument;
+import models.InstrumentCollection;
 import models.InstrumentAbout;
 
 import java.util.List;
 
 public class ApiController extends Controller {
-    public Result searchInstruments(Http.Request request) {
+    public Result searchInstrumentCollections(Http.Request request) {
         String[] terms = request.queryString().get("term");
         if (terms == null || terms.length == 0) {
             return badRequest(Json.newObject().put("error", "Select at least one SNOMED term"));
         }
         try {
-            List<Instrument> instruments = Instrument.getByConstructs(java.util.Arrays.asList(terms));
+            List<InstrumentCollection> collections = InstrumentCollection.getByConstructs(java.util.Arrays.asList(terms));
             ArrayNode results = Json.newArray();
-            for (Instrument instrument : instruments) {
+            for (InstrumentCollection collection : collections) {
                 ObjectNode result = results.addObject();
-                result.put("uri", instrument.getUri());
-                result.put("label", instrument.getLabel());
+                result.put("uri", collection.getUri());
+                result.put("label", collection.getLabel());
                 ArrayNode matches = result.putArray("matches");
-                for (Instrument.ConstructMatch match : instrument.getConstructMatches()) {
+                for (InstrumentCollection.ConstructMatch match : collection.getConstructMatches()) {
                     matches.addObject().put("termUri", match.termUri()).put("matchType", match.matchType());
                 }
             }
@@ -34,8 +35,8 @@ public class ApiController extends Controller {
         } catch (IllegalArgumentException e) {
             return badRequest(Json.newObject().put("error", e.getMessage()));
         } catch (Exception e) {
-            play.Logger.of(ApiController.class).error("Failed to search instruments", e);
-            return internalServerError(Json.newObject().put("error", "Failed to search instruments"));
+            play.Logger.of(ApiController.class).error("Failed to search instrument collections", e);
+            return internalServerError(Json.newObject().put("error", "Failed to search instrument collections"));
         }
     }
 

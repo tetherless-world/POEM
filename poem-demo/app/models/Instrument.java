@@ -2,13 +2,7 @@ package models;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Comparator;
-import java.util.LinkedHashMap;
-import java.util.LinkedHashSet;
-import java.util.Map;
 
-import org.apache.jena.query.Dataset;
-import org.apache.jena.query.ParameterizedSparqlString;
 import org.apache.jena.query.Query;
 import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QueryExecutionFactory;
@@ -31,109 +25,6 @@ public class Instrument extends models.Resource {
     private List<Item> items;
     private Language language;
     private int deprecated;
-    private final List<ConstructMatch> constructMatches = new ArrayList<>();
-
-    public record ConstructMatch(String termUri, String matchType) {}
-
-    public List<ConstructMatch> getConstructMatches() {
-        return List.copyOf(constructMatches);
-    }
-
-    /** Returns each instrument matching any selected SNOMED term, with its label and match reasons. */
-    public static List<Instrument> getByConstructs(List<String> snomedTermUris) {
-        List<String> terms = normalizeConstructTerms(snomedTermUris);
-        if (terms.isEmpty()) {
-            return List.of();
-        }
-        try (var transaction = POEMModel.readTransaction()) {
-            return getByConstructs(POEMModel.getDataset(), terms);
-        }
-    }
-
-    private static List<String> normalizeConstructTerms(List<String> termUris) {
-        if (termUris == null) {
-            throw new IllegalArgumentException("SNOMED terms are required");
-        }
-        var terms = new LinkedHashSet<String>();
-        for (String uri : termUris) {
-            if (uri == null || !uri.trim().matches("http://snomed\\.info/id/[0-9]+")) {
-                throw new IllegalArgumentException("Each term must be a SNOMED URI such as http://snomed.info/id/21897009");
-            }
-            terms.add(uri.trim());
-        }
-        return List.copyOf(terms);
-    }
-
-    // The caller owns the dataset's read transaction.
-    static List<Instrument> getByConstructs(Dataset dataset, List<String> snomedTermUris) {
-        List<String> terms = normalizeConstructTerms(snomedTermUris);
-        if (terms.isEmpty()) {
-            return List.of();
-        }
-        StringBuilder values = new StringBuilder("VALUES ?term { ");
-        for (int index = 0; index < terms.size(); index++) {
-            values.append("?selectedTerm").append(index).append(' ');
-        }
-        values.append('}');
-        ParameterizedSparqlString query = new ParameterizedSparqlString("""
-            PREFIX poem: <http://purl.org/twc/poem/>
-            PREFIX sio: <http://semanticscience.org/resource/>
-            PREFIX vstoi: <http://purl.org/twc/vstoi/>
-            SELECT DISTINCT ?instrument ?term ?matchType
-            WHERE {
-            """ + values + """
-
-                ?instrument a poem:PsychometricQuestionnaire .
-                FILTER(isIRI(?instrument))
-                {
-                    ?instrument (sio:SIO_000008|sio:hasAttribute) ?scale .
-                    ?scale a poem:QuestionnaireScale ; (sio:SIO_000332|sio:isAbout) ?term .
-                    BIND("scale" AS ?matchType)
-                }
-                UNION
-                {
-                    ?instrument (sio:SIO_000059|sio:hasMember)+ ?item .
-                    ?item a vstoi:Item ; (sio:SIO_000253|sio:hasSource) ?stem .
-                    ?stem (sio:SIO_000253|sio:hasSource) ?concept .
-                    ?concept a poem:ItemStemConcept ; (sio:SIO_000332|sio:isAbout) ?term .
-                    BIND("item" AS ?matchType)
-                }
-            }
-            ORDER BY ?instrument ?term ?matchType
-            """);
-        for (int index = 0; index < terms.size(); index++) {
-            query.setIri("selectedTerm" + index, terms.get(index));
-        }
-
-        Map<String, Instrument> matches = new LinkedHashMap<>();
-        try (var execution = QueryExecutionFactory.create(query.asQuery(), dataset)) {
-            var results = execution.execSelect();
-            while (results.hasNext()) {
-                var solution = results.nextSolution();
-                String uri = solution.getResource("instrument").getURI();
-                Instrument instrument = matches.computeIfAbsent(uri, key -> {
-                    Instrument match = new Instrument();
-                    match.setUri(key);
-                    var labels = dataset.getDefaultModel().listObjectsOfProperty(
-                        ResourceFactory.createResource(key), RDFS.label);
-                    try {
-                        match.setLabel(labels.toList().stream().filter(node -> node.isLiteral())
-                            .map(node -> node.asLiteral().getString()).sorted().findFirst().orElse(null));
-                    } finally {
-                        labels.close();
-                    }
-                    return match;
-                });
-                instrument.constructMatches.add(new ConstructMatch(
-                    solution.getResource("term").getURI(), solution.getLiteral("matchType").getString()));
-            }
-        }
-        List<Instrument> instruments = new ArrayList<>(matches.values());
-        instruments.sort(Comparator.comparing(Instrument::getLabel, Comparator.nullsLast(String.CASE_INSENSITIVE_ORDER))
-            .thenComparing(Instrument::getUri));
-        return instruments;
-    }
-
     public List<Item> getItems() {
         return items;
     }

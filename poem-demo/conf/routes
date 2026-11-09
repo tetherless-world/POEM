@@ -17,7 +17,7 @@ GET     /excel          controllers.HomeController.excel(uri: String)
 GET     /api/languages              controllers.ApiController.getLanguages()
 GET     /api/questionnaires         controllers.ApiController.getQuestionnaires()
 GET     /api/instruments/about      controllers.ApiController.getInstrumentAbout(uri: String)
-GET     /api/instruments/search     controllers.ApiController.searchInstruments(request: Request)
+GET     /api/instrument-collections/search controllers.ApiController.searchInstrumentCollections(request: Request)
 
 # Chat API endpoints
 GET     /chat                       controllers.ChatController.chatPage(request: Request)

@@ -26,7 +26,6 @@
     let aboutRequestId = 0;
     let searchRequest = null;
     let searchRequestId = 0;
-    let detailSource = null;
 
     new Choices(concepts, {
         allowHTML: false,
@@ -45,7 +44,6 @@
         aboutRequest = null;
         aboutContent.setAttribute('aria-busy', 'false');
         details.hidden = true;
-        detailSource = null;
         explore.disabled = instrument.disabled || !instrument.value;
         exportUris.forEach(input => { input.value = ''; });
     }
@@ -73,13 +71,12 @@
     language.addEventListener('change', updateInstruments);
     informant.addEventListener('change', updateInstruments);
     instrument.addEventListener('change', resetDetails);
-    async function showInstrumentDetails(selected, source) {
+    async function showInstrumentDetails(selected) {
         if (aboutRequest) aboutRequest.abort();
         const request = new AbortController();
         aboutRequest = request;
         const requestId = ++aboutRequestId;
         const selectedUri = selected.uri;
-        detailSource = source;
         detailsTitle.textContent = selected.label || selectedUri;
         const option = instruments.find(candidate => candidate.value === selectedUri);
         const languageLabel = Array.from(language.options).find(candidate =>
@@ -139,7 +136,7 @@
 
     explore.addEventListener('click', () => {
         if (instrument.disabled || !instrument.value) return;
-        return showInstrumentDetails({uri: instrument.value, label: instrument.selectedOptions[0].textContent}, 'known');
+        return showInstrumentDetails({uri: instrument.value, label: instrument.selectedOptions[0].textContent});
     });
 
     function resetConceptSearch() {
@@ -150,9 +147,8 @@
         searchResults.setAttribute('aria-busy', 'false');
         searchButton.disabled = concepts.disabled || concepts.selectedOptions.length === 0;
         searchStatus.textContent = searchButton.disabled ?
-            'Select one or more concepts to find matching instruments.' :
-            'Find instruments that match any selected concept through their scales or items.';
-        if (detailSource === 'concept') resetDetails();
+            'Select one or more concepts to find matching instrument collections.' :
+            'Find collections with a member instrument whose scales or item concepts match any selected concept.';
     }
 
     concepts.addEventListener('change', resetConceptSearch);
@@ -169,12 +165,12 @@
         searchButton.disabled = true;
         searchResults.replaceChildren();
         searchResults.setAttribute('aria-busy', 'true');
-        searchStatus.textContent = 'Searching instruments…';
+        searchStatus.textContent = 'Searching instrument collections…';
         try {
             const url = new URL(conceptPanel.dataset.searchUrl, window.location.href);
             terms.forEach(option => url.searchParams.append('term', option.value));
             const response = await fetch(url, {headers: {Accept: 'application/json'}, signal: request.signal});
-            if (!response.ok) throw new Error('Instrument search failed');
+            if (!response.ok) throw new Error('Instrument collection search failed');
             const matches = await response.json();
             if (requestId !== searchRequestId) return;
             const rows = matches.map(match => {
@@ -196,19 +192,27 @@
                 button.type = 'button';
                 button.className = 'btn btn-outline-primary';
                 button.textContent = 'Explore';
-                button.setAttribute('aria-controls', 'instrument-details');
+                button.setAttribute('aria-controls', 'known-instrument-panel');
                 button.setAttribute('aria-label', `Explore ${match.label || match.uri}`);
-                button.addEventListener('click', () => showInstrumentDetails(match, 'concept'));
+                button.addEventListener('click', () => {
+                    collection.value = match.uri;
+                    language.value = '';
+                    informant.value = '';
+                    updateInstruments();
+                    const panel = document.getElementById('known-instrument-panel');
+                    panel.addEventListener('shown.bs.collapse', () => collection.focus(), {once: true});
+                    bootstrap.Collapse.getOrCreateInstance(panel, {toggle: false}).show();
+                });
                 row.append(title, reasons, button);
                 return row;
             });
             searchResults.replaceChildren(...rows);
             searchStatus.textContent = matches.length ?
-                `${matches.length} matching instrument${matches.length === 1 ? '' : 's'} found.` :
-                'No instruments match the selected concepts. Try another selection.';
+                `${matches.length} matching instrument collection${matches.length === 1 ? '' : 's'} found.` :
+                'No instrument collections match the selected concepts. Try another selection.';
         } catch (error) {
             if (requestId !== searchRequestId || error.name === 'AbortError') return;
-            searchStatus.textContent = 'Unable to search instruments. Select Find instruments to try again.';
+            searchStatus.textContent = 'Unable to search instrument collections. Select Find collections to try again.';
         } finally {
             if (requestId === searchRequestId) {
                 searchRequest = null;

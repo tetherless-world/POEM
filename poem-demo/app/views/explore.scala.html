@@ -21,7 +21,7 @@
             <div class="col-md-4">
                 <button id="concept-option" class="card start-card explore-option collapsed h-100 w-100 text-start p-4" type="button" data-bs-toggle="collapse" data-bs-target="#concept-panel" aria-expanded="false" aria-controls="concept-panel">
                     <span class="h5 mb-3">Search by concept</span>
-                    <span class="card-text">Find items that assess a symptom or experience.</span>
+                    <span class="card-text">Find instrument collections that assess a symptom or experience.</span>
                     <span class="explore-option-action mt-auto pt-4">Choose concepts &rarr;</span>
                 </button>
             </div>
@@ -85,7 +85,7 @@
                     </div>
                 </div>
             </section>
-            <section id="concept-panel" class="collapse" data-bs-parent="#explore-panels" aria-labelledby="concept-option" data-search-url="@routes.ApiController.searchInstruments()">
+            <section id="concept-panel" class="collapse" data-bs-parent="#explore-panels" aria-labelledby="concept-option" data-search-url="@routes.ApiController.searchInstrumentCollections()">
                 <div class="card query-card p-4">
                     <h2 class="section-title mb-4">Search by concept</h2>
                     <label id="explore-concepts-label" for="explore-concepts" class="form-label fw-semibold">Concepts</label>
@@ -96,10 +96,10 @@
                     </select>
                     <p id="concept-selection-help" class="small text-secondary mt-2 mb-0">@if(constructs.isEmpty){No concepts are available yet.}else{Type to search and select one or more concepts.}</p>
                     <div class="mt-4">
-                        <button id="concept-search-button" type="button" class="btn btn-primary" disabled aria-controls="concept-search-results">Find instruments</button>
+                        <button id="concept-search-button" type="button" class="btn btn-primary" disabled aria-controls="concept-search-results">Find collections</button>
                     </div>
-                    <p id="concept-search-status" class="small text-secondary mt-3 mb-0" role="status">Select one or more concepts to find matching instruments.</p>
-                    <ul id="concept-search-results" class="list-group list-group-flush mt-3" aria-label="Matching instruments" aria-busy="false"></ul>
+                    <p id="concept-search-status" class="small text-secondary mt-3 mb-0" role="status">Select one or more concepts to find matching instrument collections.</p>
+                    <ul id="concept-search-results" class="list-group list-group-flush mt-3" aria-label="Matching instrument collections" aria-busy="false"></ul>
                 </div>
             </section>
             <section id="choose-panel" class="collapse" data-bs-parent="#explore-panels" aria-labelledby="choose-option">

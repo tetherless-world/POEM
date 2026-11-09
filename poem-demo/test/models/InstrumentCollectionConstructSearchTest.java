@@ -17,7 +17,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class InstrumentConstructSearchTest {
+public class InstrumentCollectionConstructSearchTest {
     private static final String SCT = "http://snomed.info/id/";
     private Dataset dataset;
 
@@ -31,6 +31,20 @@ public class InstrumentConstructSearchTest {
             @prefix sct: <http://snomed.info/id/> .
             @prefix vstoi: <http://purl.org/twc/vstoi/> .
             @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+            ex:scaleCollection a poem:InstrumentCollection ; rdfs:label "Scale collection" ;
+                sio:SIO_000059 ex:scaleOnly ; sio:hasMember ex:scaleOnly .
+            ex:itemCollection a poem:InstrumentCollection ; rdfs:label "Item collection" ;
+                sio:hasMember ex:itemOnly .
+            ex:bothCollection a poem:InstrumentCollection ; rdfs:label "Both collection", "Z duplicate label" ;
+                sio:SIO_000059 ex:both, ex:scaleOnly, ex:itemOnly .
+            ex:aliasCollection a poem:InstrumentCollection ; sio:hasMember ex:aliasOnly .
+            ex:otherCollection a poem:InstrumentCollection ; sio:SIO_000059 ex:other .
+            ex:emptyCollection a poem:InstrumentCollection .
+            ex:wrongMembers a poem:InstrumentCollection ;
+                sio:hasMember ex:notAnInstrument, ex:wrongScaleType, ex:wrongConceptType .
+            ex:notACollection sio:hasMember ex:scaleOnly .
+            ex:uncollected a poem:PsychometricQuestionnaire ; sio:hasAttribute ex:scale .
 
             ex:scaleOnly a poem:PsychometricQuestionnaire ; rdfs:label "Scale instrument" ;
                 sio:SIO_000008 ex:scale ; sio:hasAttribute ex:scale .
@@ -79,64 +93,79 @@ public class InstrumentConstructSearchTest {
         dataset.close();
     }
 
-    private List<Instrument> search(String... terms) {
-        return Txn.calculateRead(dataset, () -> Instrument.getByConstructs(dataset, List.of(terms)));
+    private List<InstrumentCollection> search(String... terms) {
+        return Txn.calculateRead(dataset, () -> InstrumentCollection.getByConstructs(dataset, List.of(terms)));
     }
 
-    private List<String> uris(List<Instrument> instruments) {
-        return instruments.stream().map(Instrument::getUri).sorted().toList();
+    private List<String> uris(List<InstrumentCollection> instruments) {
+        return instruments.stream().map(InstrumentCollection::getUri).sorted().toList();
     }
 
     @Test
     public void findsScaleMatchesAndDeduplicatesAcrossBothPaths() {
         var results = search(SCT + "1");
 
-        assertEquals(List.of("http://example.org/both", "http://example.org/scaleOnly"), uris(results));
+        assertEquals(List.of("http://example.org/bothCollection", "http://example.org/scaleCollection"), uris(results));
         var both = results.get(0);
-        assertEquals("Both instrument", both.getLabel());
+        assertEquals("Both collection", both.getLabel());
         assertEquals(2, both.getConstructMatches().size());
-        assertTrue(both.getConstructMatches().contains(new Instrument.ConstructMatch(SCT + "1", "scale")));
-        assertTrue(both.getConstructMatches().contains(new Instrument.ConstructMatch(SCT + "1", "item")));
+        assertTrue(both.getConstructMatches().contains(new InstrumentCollection.ConstructMatch(SCT + "1", "scale")));
+        assertTrue(both.getConstructMatches().contains(new InstrumentCollection.ConstructMatch(SCT + "1", "item")));
     }
 
     @Test
     public void findsItemConceptsAcrossNestedAndDuplicatePaths() {
         var results = search(SCT + "2");
 
-        assertEquals(List.of("http://example.org/itemOnly"), uris(results));
-        assertEquals(List.of(new Instrument.ConstructMatch(SCT + "2", "item")), results.get(0).getConstructMatches());
+        assertEquals(List.of("http://example.org/bothCollection", "http://example.org/itemCollection"), uris(results));
+        assertEquals(List.of(new InstrumentCollection.ConstructMatch(SCT + "2", "item")), results.get(0).getConstructMatches());
     }
 
     @Test
     public void matchesAnySelectedTermAndIgnoresRepeatedTerms() {
         var results = search(SCT + "1", SCT + "2", SCT + "1");
 
-        assertEquals(List.of("http://example.org/both", "http://example.org/itemOnly",
-            "http://example.org/scaleOnly"), uris(results));
-        assertEquals(2, results.get(0).getConstructMatches().size());
+        assertEquals(List.of("http://example.org/bothCollection", "http://example.org/itemCollection",
+            "http://example.org/scaleCollection"), uris(results));
+        assertEquals(3, results.get(0).getConstructMatches().size());
     }
 
     @Test
-    public void supportsNamedSioPredicatesAndMissingInstrumentLabels() {
+    public void combinesScaleAndItemMatchesFromDifferentMemberInstruments() {
+        Txn.executeWrite(dataset, () -> dataset.getDefaultModel().remove(
+            dataset.getDefaultModel().getResource("http://example.org/bothCollection"),
+            dataset.getDefaultModel().createProperty("http://semanticscience.org/resource/SIO_000059"),
+            dataset.getDefaultModel().getResource("http://example.org/both")));
+
+        var collection = search(SCT + "1", SCT + "2").get(0);
+
+        assertEquals("http://example.org/bothCollection", collection.getUri());
+        assertEquals(2, collection.getConstructMatches().size());
+        assertTrue(collection.getConstructMatches().contains(new InstrumentCollection.ConstructMatch(SCT + "1", "scale")));
+        assertTrue(collection.getConstructMatches().contains(new InstrumentCollection.ConstructMatch(SCT + "2", "item")));
+    }
+
+    @Test
+    public void supportsNamedSioPredicatesAndMissingCollectionLabels() {
         var results = search(SCT + "3");
 
-        assertEquals(List.of("http://example.org/aliasOnly"), uris(results));
+        assertEquals(List.of("http://example.org/aliasCollection"), uris(results));
         assertNull(results.get(0).getLabel());
         assertEquals(2, results.get(0).getConstructMatches().size());
     }
 
     @Test
-    public void emptyOrUnmatchedSelectionsReturnNoInstruments() {
-        assertTrue(Instrument.getByConstructs(List.of()).isEmpty());
+    public void emptyOrUnmatchedSelectionsReturnNoCollections() {
+        assertTrue(InstrumentCollection.getByConstructs(List.of()).isEmpty());
         assertTrue(search().isEmpty());
         assertTrue(search(SCT + "999").isEmpty());
     }
 
     @Test
     public void rejectsInvalidAndInjectedTermValuesBeforeAccessingTheStore() {
-        assertThrows(IllegalArgumentException.class, () -> Instrument.getByConstructs((List<String>) null));
+        assertThrows(IllegalArgumentException.class, () -> InstrumentCollection.getByConstructs((List<String>) null));
         for (String invalid : Arrays.asList(null, "", "http://example.org/1", SCT + "1> } UNION {?s ?p ?o}")) {
-            assertThrows(IllegalArgumentException.class, () -> Instrument.getByConstructs(Arrays.asList(invalid)));
+            assertThrows(IllegalArgumentException.class, () -> InstrumentCollection.getByConstructs(Arrays.asList(invalid)));
         }
     }
 
@@ -144,13 +173,13 @@ public class InstrumentConstructSearchTest {
     public void searchesTheActualScaleAndItemMappings() {
         Txn.executeWrite(dataset, () -> {
             dataset.getDefaultModel().removeAll();
-            for (String file : new String[] {"instruments", "components", "sections", "items", "itemStems",
+            for (String file : new String[] {"instrumentCollections", "instruments", "components", "sections", "items", "itemStems",
                     "itemStemConcepts", "scales", "scalesInstrument"}) {
                 RDFDataMgr.read(dataset.getDefaultModel(), Path.of("dist", "data", file + ".ttl").toUri().toString());
             }
         });
 
-        String rcads = "http://purl.org/twc/poem/individual/instrument/1";
+        String rcads = "http://purl.org/twc/poem/individual/instrumentCollection/1";
         assertTrue(search(SCT + "25501002").stream().anyMatch(instrument -> instrument.getUri().equals(rcads)));
         assertTrue(search(SCT + "26677001").stream().anyMatch(instrument -> instrument.getUri().equals(rcads)));
     }
