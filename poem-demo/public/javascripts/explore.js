@@ -22,10 +22,100 @@
     const searchButton = document.getElementById('concept-search-button');
     const searchStatus = document.getElementById('concept-search-status');
     const searchResults = document.getElementById('concept-search-results');
+    const collectionDetails = document.getElementById('collection-details');
+    const collectionTitle = document.getElementById('collection-details-title');
+    const collectionStatus = document.getElementById('collection-details-status');
+    const collectionContent = document.getElementById('collection-details-content');
+    const collectionRetry = document.getElementById('collection-details-retry');
+    const chooseInstrument = document.getElementById('collection-choose-instrument');
+    let collectionRequest = null;
+    let collectionRequestId = 0;
+    let selectedCollection = null;
     let aboutRequest = null;
     let aboutRequestId = 0;
     let searchRequest = null;
     let searchRequestId = 0;
+
+    function resetCollectionDetails() {
+        collectionRequestId += 1;
+        if (collectionRequest) collectionRequest.abort();
+        collectionRequest = null;
+        selectedCollection = null;
+        collectionDetails.hidden = true;
+        collectionContent.hidden = true;
+        collectionContent.setAttribute('aria-busy', 'false');
+    }
+
+    function renderCollectionAttributes(name, values) {
+        document.getElementById(`collection-${name}-summary`).textContent = values.length ?
+            `${values.length} ${name === 'scales' ? (values.length === 1 ? 'scale' : 'scales') :
+                (values.length === 1 ? 'language' : 'languages')} recorded` :
+            `No ${name} are recorded for instruments in this collection.`;
+        document.getElementById(`collection-${name}`).replaceChildren(...values.map(value => {
+            const chip = document.createElement('span');
+            chip.className = 'proof-chip text-break';
+            chip.textContent = value.label || value.uri;
+            return chip;
+        }));
+    }
+
+    async function showCollectionDetails(selected) {
+        resetDetails();
+        if (collectionRequest) collectionRequest.abort();
+        const request = new AbortController();
+        collectionRequest = request;
+        const requestId = ++collectionRequestId;
+        selectedCollection = selected;
+        collectionTitle.textContent = selected.label || selected.uri;
+        collectionDetails.hidden = false;
+        collectionTitle.focus();
+        collectionStatus.textContent = 'Loading collection details…';
+        collectionContent.hidden = true;
+        collectionContent.setAttribute('aria-busy', 'true');
+        collectionRetry.hidden = true;
+        try {
+            const url = new URL(collectionDetails.dataset.aboutUrl, window.location.href);
+            url.searchParams.set('uri', selected.uri);
+            const response = await fetch(url, {headers: {Accept: 'application/json'}, signal: request.signal});
+            if (!response.ok) throw new Error('Collection details request failed');
+            const about = await response.json();
+            if (requestId !== collectionRequestId) return;
+            collectionTitle.textContent = about.label || selected.label || selected.uri;
+            document.getElementById('collection-description').textContent = about.definition || 'No description is recorded for this collection.';
+            document.getElementById('collection-notation').textContent = about.notation || 'Not recorded';
+            document.getElementById('collection-identifier').textContent = about.uri;
+            document.getElementById('collection-instrument-count').textContent =
+                `${about.instrumentCount.toLocaleString()} instrument${about.instrumentCount === 1 ? '' : 's'}`;
+            renderCollectionAttributes('scales', about.scales);
+            renderCollectionAttributes('languages', about.languages);
+            chooseInstrument.disabled = about.instrumentCount === 0;
+            collectionContent.hidden = false;
+            collectionStatus.textContent = 'Collection details loaded.';
+        } catch (error) {
+            if (requestId !== collectionRequestId || error.name === 'AbortError') return;
+            collectionStatus.textContent = 'Unable to load collection details. Try again.';
+            collectionRetry.hidden = false;
+        } finally {
+            if (requestId === collectionRequestId) {
+                collectionContent.setAttribute('aria-busy', 'false');
+                collectionRequest = null;
+            }
+        }
+    }
+
+    collectionRetry.addEventListener('click', () => {
+        if (selectedCollection) return showCollectionDetails(selectedCollection);
+    });
+    chooseInstrument.addEventListener('click', () => {
+        if (!selectedCollection) return;
+        collection.value = selectedCollection.uri;
+        language.value = '';
+        informant.value = '';
+        updateInstruments();
+        const panel = document.getElementById('known-instrument-panel');
+        panel.addEventListener('shown.bs.collapse', () => collection.focus(), {once: true});
+        bootstrap.Collapse.getOrCreateInstance(panel, {toggle: false}).show();
+    });
 
     new Choices(concepts, {
         allowHTML: false,
@@ -140,6 +230,7 @@
     });
 
     function resetConceptSearch() {
+        resetCollectionDetails();
         searchRequestId += 1;
         if (searchRequest) searchRequest.abort();
         searchRequest = null;
@@ -152,7 +243,10 @@
     }
 
     concepts.addEventListener('change', resetConceptSearch);
-    document.getElementById('explore-panels').addEventListener('show.bs.collapse', resetDetails);
+    document.getElementById('explore-panels').addEventListener('show.bs.collapse', () => {
+        resetDetails();
+        resetCollectionDetails();
+    });
     searchButton.addEventListener('click', async () => {
         const terms = Array.from(concepts.selectedOptions);
         if (concepts.disabled || !terms.length) return;
@@ -162,6 +256,7 @@
         const requestId = ++searchRequestId;
         const termLabels = new Map(terms.map(option => [option.value, option.textContent]));
         resetDetails();
+        resetCollectionDetails();
         searchButton.disabled = true;
         searchResults.replaceChildren();
         searchResults.setAttribute('aria-busy', 'true');
@@ -192,17 +287,9 @@
                 button.type = 'button';
                 button.className = 'btn btn-outline-primary';
                 button.textContent = 'Explore';
-                button.setAttribute('aria-controls', 'known-instrument-panel');
+                button.setAttribute('aria-controls', 'collection-details');
                 button.setAttribute('aria-label', `Explore ${match.label || match.uri}`);
-                button.addEventListener('click', () => {
-                    collection.value = match.uri;
-                    language.value = '';
-                    informant.value = '';
-                    updateInstruments();
-                    const panel = document.getElementById('known-instrument-panel');
-                    panel.addEventListener('shown.bs.collapse', () => collection.focus(), {once: true});
-                    bootstrap.Collapse.getOrCreateInstance(panel, {toggle: false}).show();
-                });
+                button.addEventListener('click', () => showCollectionDetails(match));
                 row.append(title, reasons, button);
                 return row;
             });

@@ -1,0 +1,45 @@
+@()
+
+<section id="collection-details" class="instrument-details mt-5" aria-labelledby="collection-details-title" data-about-url="@routes.ApiController.getInstrumentCollectionAbout("")" hidden>
+    <header class="mb-4">
+        <p class="eyebrow mb-2">Instrument collection</p>
+        <h2 id="collection-details-title" class="hero-title" tabindex="-1"></h2>
+    </header>
+    <div class="card query-card detail-section">
+        <div class="card-body p-4">
+            <p id="collection-details-status" class="detail-answer" role="status"></p>
+            <button id="collection-details-retry" type="button" class="btn btn-outline-primary mb-4" hidden>Try again</button>
+            <div id="collection-details-content" class="row g-4" aria-busy="false" hidden>
+                <div class="col-lg-8">
+                    <h3 class="detail-question">About this collection</h3>
+                    <p id="collection-description" class="detail-answer"></p>
+                    <dl class="mb-0">
+                        <dt>Abbreviation</dt>
+                        <dd id="collection-notation"></dd>
+                        <dt>Collection identifier</dt>
+                        <dd id="collection-identifier" class="text-break mb-0"></dd>
+                    </dl>
+                </div>
+                <div class="col-lg-4">
+                    <h3 class="detail-question">Instruments in the graph</h3>
+                    <p id="collection-instrument-count" class="detail-stat mb-2"></p>
+                    <p class="detail-answer small">All instrument versions currently recorded in this collection.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="detail-question">Scales</h3>
+                    <p id="collection-scales-summary" class="detail-answer"></p>
+                    <div id="collection-scales" class="d-flex flex-wrap gap-2"></div>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="detail-question">Languages</h3>
+                    <p id="collection-languages-summary" class="detail-answer"></p>
+                    <div id="collection-languages" class="d-flex flex-wrap gap-2"></div>
+                </div>
+                <div class="col-12">
+                    <p class="detail-answer small">Scales and languages are gathered from the instruments in this collection.</p>
+                    <button id="collection-choose-instrument" type="button" class="btn btn-primary" aria-controls="known-instrument-panel">Choose an instrument</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

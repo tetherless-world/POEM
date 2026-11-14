@@ -14,6 +14,24 @@ import models.InstrumentAbout;
 import java.util.List;
 
 public class ApiController extends Controller {
+    public Result getInstrumentCollectionAbout(String uri) {
+        try {
+            if (uri == null || uri.isBlank() || !java.net.URI.create(uri).isAbsolute()) {
+                return badRequest(Json.newObject().put("error", "A valid collection URI is required"));
+            }
+        } catch (IllegalArgumentException e) {
+            return badRequest(Json.newObject().put("error", "A valid collection URI is required"));
+        }
+        try {
+            var about = models.InstrumentCollectionAbout.getByUri(uri);
+            if (about == null) return notFound(Json.newObject().put("error", "Instrument collection not found"));
+            return ok(Json.toJson(about));
+        } catch (Exception e) {
+            play.Logger.of(ApiController.class).error("Failed to retrieve collection details for {}", uri, e);
+            return internalServerError(Json.newObject().put("error", "Failed to retrieve collection details"));
+        }
+    }
+
     public Result searchInstrumentCollections(Http.Request request) {
         String[] terms = request.queryString().get("term");
         if (terms == null || terms.length == 0) {

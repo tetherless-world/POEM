@@ -18,6 +18,7 @@ GET     /api/languages              controllers.ApiController.getLanguages()
 GET     /api/questionnaires         controllers.ApiController.getQuestionnaires()
 GET     /api/instruments/about      controllers.ApiController.getInstrumentAbout(uri: String)
 GET     /api/instrument-collections/search controllers.ApiController.searchInstrumentCollections(request: Request)
+GET     /api/instrument-collections/about controllers.ApiController.getInstrumentCollectionAbout(uri: String)
 
 # Chat API endpoints
 GET     /chat                       controllers.ChatController.chatPage(request: Request)

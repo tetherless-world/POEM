@@ -8,6 +8,14 @@ import static play.mvc.Http.Status.BAD_REQUEST;
 
 public class InstrumentCollectionSearchApiTest {
     @Test
+    public void rejectsInvalidCollectionDetailUrisWithoutLoadingTheStore() {
+        var controller = new ApiController();
+        for (String uri : new String[] {null, "", "relative", "http://invalid uri"}) {
+            assertEquals(BAD_REQUEST, controller.getInstrumentCollectionAbout(uri).status());
+        }
+    }
+
+    @Test
     public void rejectsMissingTerms() {
         var request = new Http.RequestBuilder().method("GET").uri("/api/instrument-collections/search").build();
 
